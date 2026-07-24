@@ -215,6 +215,32 @@ class DoorinewsEditorTests(unittest.TestCase):
             )
         )
 
+    def test_kazakhstan_miner_electricity_fee_is_blocked(self):
+        story = {
+            "title": "Kazakhstan rolls out capped electricity fees for crypto miners",
+            "desc": "Bitcoin mining companies can apply for a power tariff cap",
+        }
+        blocked, reason = editor._is_hard_blocked(story)
+        self.assertTrue(blocked)
+        self.assertTrue(reason)
+
+    def test_clarity_support_without_procedural_progress_is_blocked(self):
+        story = {
+            "title": "Goldman Sachs CEO backs CLARITY Act",
+            "desc": "The executive urged Congress to support the crypto market structure bill",
+        }
+        blocked, reason = editor._is_hard_blocked(story)
+        self.assertTrue(blocked)
+        self.assertIn("시장구조법안", reason)
+
+    def test_clarity_committee_passage_is_allowed(self):
+        story = {
+            "title": "CLARITY Act passes Senate committee vote",
+            "desc": "The crypto market structure bill advanced after a scheduled committee vote",
+        }
+        blocked, _ = editor._is_hard_blocked(story)
+        self.assertFalse(blocked)
+
 
 if __name__ == "__main__":
     unittest.main()
