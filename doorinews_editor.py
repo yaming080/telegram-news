@@ -819,7 +819,7 @@ def _dynamic_specs(raw: str) -> list[EntitySpec]:
         translated = str(translated or "").strip()
         if not alias or not translated or len(translated) > 24:
             continue
-        if " " in translated or translated in {"암호화폐", "금융", "시장", "규제", "자산"}:
+        if " " in translated or translated in {"암호화폐", "금융", "시장", "규제", "자산", "법안"}:
             continue
         if not _contains_alias(raw, alias):
             continue
@@ -908,18 +908,36 @@ def _replace_surface_with_tag(text: str, spec: EntitySpec) -> tuple[str, bool]:
     return text[: match.start()] + tag + text[match.end() :], True
 
 
-def _normalize_clarity_text(text: str) -> str:
+def _is_clarity_story(story: dict) -> bool:
+    return _matches(
+        _story_text(story),
+        (
+            r"\bclarity(?:\s+act)?\b",
+            r"\bmarket structure bill\b",
+            r"시장\s*구조\s*법안|시장구조법안|클래리티법안?",
+        ),
+    )
+
+
+def _normalize_clarity_text(text: str, clarity_context: bool = False) -> str:
     text = re.sub(
         r"#?\b(?:CLARITY(?:\s+Act)?|Clarity\s+Act|market\s+structure\s+bill)\b",
         "클래리티법안",
         text,
         flags=re.I,
     )
-    return re.sub(
+    text = re.sub(
         r"#?(?:클래리티법안?|시장\s+구조\s+법안)",
         "클래리티법안",
         text,
     )
+    if clarity_context:
+        text = re.sub(
+            r"(?<![가-힣])(?:명확성\s*)?#?법안",
+            "클래리티법안",
+            text,
+        )
+    return text
 
 
 def fix_hashtag_particles(text: str) -> str:
@@ -936,8 +954,8 @@ def fix_hashtag_particles(text: str) -> str:
 
 def _inject_inline_tags(summary: str, story: dict) -> tuple[str, list[EntitySpec]]:
     selected = []
-    tagged = _normalize_clarity_text(summary)
-    for spec in _candidate_specs(summary, story):
+    tagged = _normalize_clarity_text(summary, clarity_context=_is_clarity_story(story))
+    for spec in _candidate_specs(tagged, story):
         if len(selected) >= MAX_INLINE_TAGS:
             break
         tagged, replaced = _replace_surface_with_tag(tagged, spec)
@@ -961,25 +979,15 @@ def _has_precious_metal_context(raw: str, metal: str) -> bool:
 def _build_footer_tags(story: dict, selected: list[EntitySpec]) -> list[str]:
     raw = _story_text(story)
     article_tags = []
-
+    body_equivalent_tags = set()
     for spec in selected:
-        if spec.footer and spec.footer not in article_tags:
-            article_tags.append(spec.footer)
-        if len(article_tags) >= MAX_ARTICLE_TAGS:
-            break
+        body_equivalent_tags.add(f"#{spec.label}")
+        if spec.footer:
+            body_equivalent_tags.add(spec.footer)
+        if spec.label == "비트코인":
+            body_equivalent_tags.add("#BTC")
 
-    if _matches(
-        raw,
-        (
-            r"\bclarity(?:\s+act)?\b",
-            r"\bmarket structure bill\b",
-            r"시장\s*구조\s*법안|시장구조법안|클래리티법안?",
-        ),
-    ):
-        clarity_footer_variants = {"#ClarityAct", "#CLARITY", "#CLARITYAct", "#Act"}
-        article_tags = [
-            tag for tag in article_tags if tag not in clarity_footer_variants
-        ]
+    if _is_clarity_story(story) and "#클래리티법안" not in body_equivalent_tags:
         article_tags.insert(0, "#클래리티법안")
 
     ticker_patterns = (
@@ -992,7 +1000,11 @@ def _build_footer_tags(story: dict, selected: list[EntitySpec]) -> list[str]:
         ("#ETF", r"(?<![A-Za-z0-9])ETF(?![A-Za-z0-9])"),
     )
     for tag, pattern in ticker_patterns:
-        if re.search(pattern, raw, re.I) and tag not in article_tags:
+        if (
+            tag not in body_equivalent_tags
+            and re.search(pattern, raw, re.I)
+            and tag not in article_tags
+        ):
             article_tags.append(tag)
         if len(article_tags) >= MAX_ARTICLE_TAGS:
             break
@@ -1004,7 +1016,7 @@ def _build_footer_tags(story: dict, selected: list[EntitySpec]) -> list[str]:
 
     clean = []
     for tag in article_tags[:MAX_ARTICLE_TAGS] + list(FIXED_FOOTER_TAGS):
-        if tag and tag not in clean:
+        if tag and tag not in body_equivalent_tags and tag not in clean:
             clean.append(tag)
     return clean
 
