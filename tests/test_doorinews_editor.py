@@ -161,8 +161,8 @@ class DoorinewsEditorTests(unittest.TestCase):
         self.assertIn("#저스틴선 의", tagged)
         self.assertIn("#HTX", tagged)
         footer = editor._build_footer_tags(story, selected)
-        self.assertIn("#JustinSun", footer)
-        self.assertIn("#HTX", footer)
+        self.assertNotIn("#JustinSun", footer)
+        self.assertNotIn("#HTX", footer)
         self.assertNotIn("#Russia", footer)
         for fixed in editor.FIXED_FOOTER_TAGS:
             self.assertIn(fixed, footer)
@@ -281,7 +281,7 @@ class DoorinewsEditorTests(unittest.TestCase):
         self.assertNotRegex(tagged, r"(?i)clarity")
 
         footer = editor._build_footer_tags(story, selected)
-        self.assertIn("#클래리티법안", footer)
+        self.assertNotIn("#클래리티법안", footer)
         self.assertNotIn("#ClarityAct", footer)
         self.assertNotIn("#CLARITY", footer)
         self.assertNotIn("#Act", footer)
@@ -321,6 +321,35 @@ class DoorinewsEditorTests(unittest.TestCase):
         tagged, _ = editor._inject_inline_tags(summary, story)
         self.assertIn("#블랙록 이", tagged)
         self.assertIn("#로빈후드 와", tagged)
+
+    def test_generic_bill_in_clarity_story_becomes_clarity_tag(self):
+        story = {
+            "title": "CLARITY Act supporters seek votes before recess",
+            "desc": "The crypto market structure bill still needs Senate votes",
+        }
+        summary = (
+            "명확성 #법안 관계자는 비트코인 명확성을 위해 표를 확보할 수 있다고 밝힘\n\n"
+            "업계는 #법안이 연내 처리될 가능성을 언급함"
+        )
+        tagged, _ = editor._inject_inline_tags(summary, story)
+        self.assertEqual(tagged.count("#클래리티법안"), 1)
+        self.assertTrue(tagged.startswith("#클래리티법안 관계자는"))
+        self.assertNotIn("#법안", tagged)
+        self.assertIn("업계는 클래리티법안이", tagged)
+
+    def test_body_tags_are_not_repeated_in_footer(self):
+        story = {
+            "title": "Strategy STRC joins three US preferred stock ETFs",
+            "desc": "The ETFs reported holdings in Strategy's STRC",
+        }
+        summary = "스트래티지의 STRC가 미국 우선주 ETF 3곳에 편입됨"
+        tagged, selected = editor._inject_inline_tags(summary, story)
+        self.assertIn("#스트래티지 의", tagged)
+        self.assertIn("#ETF", tagged)
+
+        footer = editor._build_footer_tags(story, selected)
+        self.assertNotIn("#Strategy", footer)
+        self.assertNotIn("#ETF", footer)
 
 
 if __name__ == "__main__":
