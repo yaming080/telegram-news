@@ -55,10 +55,10 @@ class DoorinewsEditorTests(unittest.TestCase):
         )
 
     def test_particles_are_separated(self):
-        text = "#비트코인은 #미국에서 #시장구조법안이 통과됨"
+        text = "#비트코인은 #미국에서 #클래리티법안이 통과됨"
         self.assertEqual(
             editor.fix_hashtag_particles(text),
-            "#비트코인 은 #미국 에서 #시장구조법안 이 통과됨",
+            "#비트코인 은 #미국 에서 #클래리티법안 이 통과됨",
         )
 
     def test_x_is_not_translated_and_milestone_is_not_ton(self):
@@ -231,7 +231,7 @@ class DoorinewsEditorTests(unittest.TestCase):
         }
         blocked, reason = editor._is_hard_blocked(story)
         self.assertTrue(blocked)
-        self.assertIn("시장구조법안", reason)
+        self.assertIn("클래리티법안", reason)
 
     def test_clarity_committee_passage_is_allowed(self):
         story = {
@@ -276,12 +276,12 @@ class DoorinewsEditorTests(unittest.TestCase):
         }
         summary = "CLARITY 통과로 미국의 암호화폐 규제 절차가 진전됨"
         tagged, selected = editor._inject_inline_tags(summary, story)
-        self.assertEqual(tagged.count("#시장구조법안"), 1)
-        self.assertIn("#시장구조법안 통과", tagged)
+        self.assertEqual(tagged.count("#클래리티법안"), 1)
+        self.assertIn("#클래리티법안 통과", tagged)
         self.assertNotRegex(tagged, r"(?i)clarity")
 
         footer = editor._build_footer_tags(story, selected)
-        self.assertIn("#시장구조법안", footer)
+        self.assertIn("#클래리티법안", footer)
         self.assertNotIn("#ClarityAct", footer)
         self.assertNotIn("#CLARITY", footer)
         self.assertNotIn("#Act", footer)
