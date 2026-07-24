@@ -636,6 +636,13 @@
       "signature": "act_surveillance | action_partner | entity_bybit | entity_mexc | entity_standardchartered | eventfp_entity_standardchartered_topic_approval_topic_partnership_topic_regulation_action_partner | topic_approval | topic_partnership | topic_regulation",
       "canonical_key": "action_appoint | action_partner | entity_bybit | entity_mexc | entity_standardchartered | entity_스탠다드차타드 | eventfp_entity_standardchartered_topic_approval_topic_partnership_topic_regulation_action_partner | topic_approval | topic_partnership | topic_regulation | topic_규제 | topic_라이선스",
       "ts": "2026-07-24T08:00:55.432417+00:00"
+    },
+    "ac7a1c7aaa25": {
+      "title": "South Korea’s Korbit becomes Digital X under Mirae Asset ownership",
+      "url": "crypto.news/south-koreas-korbit-becomes-digital-x-under-mirae-asset-ownership",
+      "signature": "entity_digitalx | entity_korbit | entity_miraeasset | entity_strategy | entity_한국 | geo_korea | org_strategy",
+      "canonical_key": "entity_digitalx | entity_korbit | entity_miraeasset | entity_strategy | entity_한국 | geo_korea | geo_한국 | topic_fed_rate | topic_스트래티지매수",
+      "ts": "2026-07-24T10:01:28.341505+00:00"
     }
   }
 }
