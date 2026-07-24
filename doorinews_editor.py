@@ -89,6 +89,7 @@ ENTITY_SPECS = (
     EntitySpec("org", "바이낸스", ("Binance", "바이낸스"), "#Binance", 20),
     EntitySpec("org", "바이비트", ("Bybit", "바이비트"), "#Bybit", 20),
     EntitySpec("org", "블랙록", ("BlackRock", "Blackrock", "블랙록"), "#BlackRock", 20),
+    EntitySpec("org", "프랭클린템플턴", ("Franklin Templeton", "FranklinTempleton", "프랭클린 템플턴", "프랭클린템플턴"), "#FranklinTempleton", 20),
     EntitySpec("org", "JP모건", ("JPMorgan", "J.P. Morgan", "JP Morgan", "JP모건"), "#JPMorgan", 20),
     EntitySpec("org", "뱅크오브아메리카", ("Bank of America", "뱅크오브아메리카"), "#BankOfAmerica", 20),
     EntitySpec("org", "스탠다드차타드", ("Standard Chartered", "스탠다드차타드"), "#StandardChartered", 20),
@@ -319,7 +320,7 @@ GENERIC_DUPLICATE_TOKENS = {
 
 PARTICLES = (
     "에서는", "으로는", "에게는", "에서의", "으로", "에게", "에는", "에도", "에서",
-    "은", "는", "이", "가", "을", "를", "와", "과", "도", "만", "에", "로", "의",
+    "은", "는", "인", "이", "가", "을", "를", "와", "과", "도", "만", "에", "로", "의",
 )
 
 
@@ -922,12 +923,12 @@ def _normalize_clarity_text(text: str) -> str:
 
 
 def fix_hashtag_particles(text: str) -> str:
-    for particle in PARTICLES:
-        text = re.sub(
-            rf"(#[A-Za-z0-9가-힣_]+){particle}(?=[^A-Za-z0-9가-힣_]|$)",
-            rf"\1 {particle}",
-            text,
-        )
+    particle_pattern = "|".join(re.escape(p) for p in PARTICLES)
+    text = re.sub(
+        rf"(#[A-Za-z0-9가-힣_]+?)({particle_pattern})(?=[^A-Za-z0-9가-힣_]|$)",
+        r"\1 \2",
+        text,
+    )
     text = re.sub(r"(#[A-Za-z0-9가-힣_]+)\s+([,，])", r"\1\2", text)
     text = re.sub(r"[ \t]+", " ", text)
     return text.strip()
