@@ -286,6 +286,42 @@ class DoorinewsEditorTests(unittest.TestCase):
         self.assertNotIn("#CLARITY", footer)
         self.assertNotIn("#Act", footer)
 
+    def test_strategy_company_is_tagged_at_first_mention(self):
+        story = {
+            "title": "Strategy STRC added to three major US preferred stock ETFs",
+            "desc": "The ETFs hold a combined 7.56 million dollars of STRC",
+        }
+        summary = (
+            "스트래티지의 STRC가 미국 우선주 ETF 3곳의 편입 종목에 오르며 "
+            "월간 자금 유입이 확대됐다고 밝힘"
+        )
+        tagged, _ = editor._inject_inline_tags(summary, story)
+        self.assertTrue(tagged.startswith("#스트래티지 의"))
+        self.assertEqual(tagged.count("#스트래티지"), 1)
+
+    def test_franklin_templeton_and_etf_particle_are_tagged(self):
+        story = {
+            "title": "Franklin Templeton XRP ETF reports quarterly holdings",
+            "desc": "A US asset manager disclosed shares of the Franklin Templeton XRP ETF",
+        }
+        summary = (
+            "미국 자산운용사가 프랭클린 템플턴의 XRP ETF인 상품 보유 내역을 공개함"
+        )
+        tagged, _ = editor._inject_inline_tags(summary, story)
+        self.assertIn("#프랭클린템플턴 의", tagged)
+        self.assertIn("#ETF 인", tagged)
+        self.assertEqual(tagged.count("#프랭클린템플턴"), 1)
+
+    def test_known_companies_use_korean_inline_tags(self):
+        story = {
+            "title": "BlackRock and Robinhood launch a crypto partnership",
+            "desc": "The two companies announced the service",
+        }
+        summary = "블랙록이 로빈후드와 암호화폐 서비스를 출시함"
+        tagged, _ = editor._inject_inline_tags(summary, story)
+        self.assertIn("#블랙록 이", tagged)
+        self.assertIn("#로빈후드 와", tagged)
+
 
 if __name__ == "__main__":
     unittest.main()
