@@ -242,6 +242,11 @@ ACTION_PATTERNS = {
     "action_issue": (r"\bissue(?:d|s|ance)?\b", r"발행"),
     "action_disclose": (r"\bdisclos(?:e|ed|ure)\b", r"공개|공시"),
     "action_restore": (r"\brestore(?:d|s)?\b", r"복구|재개"),
+    "action_close": (
+        r"\b(?:shut(?:s|ting)?\s+down|shutdown|clos(?:e|ed|es|ing|ure)|"
+        r"ceas(?:e|ed|es|ing)\s+operations|terminat(?:e|ed|es|ing|ion)\s+operations)\b",
+        r"폐쇄|운영\s*종료|영구\s*종료|서비스\s*종료",
+    ),
     "action_enforce": (r"\barrest(?:ed|s)?\b", r"\bcharg(?:e|ed|es)\b", r"\bfine(?:d|s)?\b", r"체포|기소|제재|벌금"),
     "action_sue": (r"\bsue(?:d|s)?\b", r"\blawsuit\b", r"소송|고소"),
     "action_hack": (r"\bhack(?:ed|s)?\b", r"\bexploit(?:ed|s)?\b", r"해킹|익스플로잇"),
@@ -280,6 +285,17 @@ OBJECT_PATTERNS = {
     "object_sale": (r"\bsell\b", r"\bsold\b", r"\bsale\b", r"매도|매각|처분|유출"),
     "object_board": (r"\bboard\b", r"\bfoundation member\b", r"이사회|재단\s*구성원"),
     "object_infrastructure": (r"\binfrastructure\b", r"인프라"),
+    "object_platform": (
+        r"\b(?:trading|exchange)\s+platform\b",
+        r"\bcrypto exchange\b",
+        r"거래\s*플랫폼|암호화폐\s*거래소",
+    ),
+    "object_shutdown": (
+        r"\b(?:shutdown|closure|service termination)\b",
+        r"폐쇄|운영\s*종료|영구\s*종료|서비스\s*종료",
+    ),
+    "object_class_action": (r"\bclass action\b", r"\blawsuit\b", r"집단\s*소송"),
+    "object_insurance_fund": (r"\binsurance fund\b", r"보험\s*기금"),
 }
 
 GEO_PATTERNS = {
@@ -395,18 +411,26 @@ def _is_hard_blocked(story: dict) -> tuple[bool, str]:
         (
             r"\b(?:support|back|endorse|urge|press|push|call for|hope for|advocate)\w*\b",
             r"\b(?:still hope|needs support|should pass|must pass)\b",
-            r"지지|촉구|압박|희망|통과해야|통과 필요",
+            r"\b(?:seek|secure|round up|win|needs?)\s+(?:senate\s+|house\s+|enough\s+)?votes?\b",
+            r"\b(?:urge|press|push|call on)\b.{0,45}\b(?:vote|amend|revise|change)\b",
+            r"지지|촉구|압박|희망|통과해야|통과 필요|표\s*확보|의견\s*수용",
         ),
     )
     clarity_progress = _matches(
         raw,
         (
-            r"\b(?:vote|voted|voting|ballot)\b",
+            r"\bvoted\b",
+            r"\bvoting\s+(?:began|opened|started|scheduled)\b",
+            r"\bvote\s+(?:scheduled|set|held|completed|passed|failed)\b",
+            r"\b(?:scheduled|set)\b.{0,35}\bvote\b",
             r"\b(?:passed|passes|cleared|advanced|approved)\b",
-            r"\b(?:amend|amended|amendment|revise|revised|revision)\w*\b",
+            r"\b(?:amendment|revision)\s+(?:filed|introduced|approved|passed|adopted)\b",
+            r"\b(?:bill|act)\s+(?:was\s+)?(?:amended|revised)\b",
             r"\b(?:hearing|markup|floor vote|committee vote)\b",
             r"\b(?:schedule|scheduled|reschedule|rescheduled|deadline|calendar)\w*\b",
-            r"표결|가결|통과(?:함|됨|됐다|돼)|승인(?:함|됨|됐다|돼)|수정안|개정안|심사\s*일정|표결\s*일정|본회의|(?:상원|하원|위원회)\s*통과",
+            r"표결\s*(?:실시|시작|완료|예정|일정)|가결|통과(?:함|됨|됐다|돼)|"
+            r"승인(?:함|됨|됐다|돼)|(?:수정안|개정안)\s*(?:제출|공개|통과|채택)|"
+            r"심사\s*일정|본회의\s*(?:상정|통과|일정)|(?:상원|하원|위원회)\s*통과",
         ),
     )
     if is_clarity and clarity_commentary and not clarity_progress:
@@ -538,6 +562,32 @@ def _amount_tokens(raw: str) -> set[str]:
     return out
 
 
+def _date_tokens(raw: str) -> set[str]:
+    text = raw or ""
+    out = set()
+    month_names = {
+        "jan": 1, "january": 1, "feb": 2, "february": 2,
+        "mar": 3, "march": 3, "apr": 4, "april": 4,
+        "may": 5, "jun": 6, "june": 6, "jul": 7, "july": 7,
+        "aug": 8, "august": 8, "sep": 9, "sept": 9, "september": 9,
+        "oct": 10, "october": 10, "nov": 11, "november": 11,
+        "dec": 12, "december": 12,
+    }
+    for match in re.finditer(
+        r"\b(" + "|".join(month_names) + r")\.?\s+(\d{1,2})(?:st|nd|rd|th)?"
+        r"(?:,|\s)\s*(20\d{2})\b",
+        text,
+        re.I,
+    ):
+        month = month_names[match.group(1).lower()]
+        out.add(f"date_{match.group(3)}_{month:02d}_{int(match.group(2)):02d}")
+    for match in re.finditer(r"\b(20\d{2})년\s*(\d{1,2})월\s*(\d{1,2})일", text):
+        out.add(
+            f"date_{match.group(1)}_{int(match.group(2)):02d}_{int(match.group(3)):02d}"
+        )
+    return out
+
+
 def _event_tokens(story: dict) -> set[str]:
     raw = _story_text(story)
     title = str(story.get("title", "") or "")
@@ -549,6 +599,7 @@ def _event_tokens(story: dict) -> set[str]:
     tokens |= _collect_pattern_tokens(raw, GEO_PATTERNS)
     tokens |= _collect_pattern_tokens(raw, ASSET_PATTERNS)
     tokens |= _amount_tokens(raw)
+    tokens |= _date_tokens(raw)
     return tokens
 
 
@@ -589,10 +640,26 @@ def _same_event(cur_signature: str, old_signature: str) -> bool:
     geos = {t for t in shared if t.startswith("geo_")}
     assets = {t for t in shared if t.startswith("asset_")}
     amounts = {t for t in shared if t.startswith("amount_")}
+    dates = {t for t in shared if t.startswith("date_")}
+
+    # A named company's shutdown is one event even when one source focuses on
+    # withdrawals and another on the insurance fund or related class action.
+    cur_actions = {t for t in cur if t.startswith("action_")}
+    old_actions = {t for t in old if t.startswith("action_")}
+    closure_objects = {"object_shutdown", "object_platform"}
+    if (
+        entities
+        and "action_close" in cur_actions
+        and "action_close" in old_actions
+        and closure_objects & cur
+        and closure_objects & old
+        and (dates or "object_shutdown" in (cur & old))
+    ):
+        return True
 
     # The stable core is subject + action + object.  Region, amount, or asset
     # provides extra confidence when only one subject is shared.
-    if entities and actions and objects and (geos or assets or amounts or len(entities) >= 2):
+    if entities and actions and objects and (geos or assets or amounts or dates or len(entities) >= 2):
         return True
     if len(entities) >= 2 and objects and (actions or geos or amounts):
         return True
@@ -629,6 +696,7 @@ def is_semantically_duplicate(
 ) -> bool:
     title = _normalize_title(str(story.get("title", "") or ""))
     words = _title_words(title)
+    signature = build_story_signature(story)
     for old_title in seen_titles:
         old = _normalize_title(old_title)
         if title and old and SequenceMatcher(None, title, old).ratio() >= 0.91:
@@ -641,8 +709,12 @@ def is_semantically_duplicate(
             if len(shared) >= 5 and len(shared) / max(1, len(union)) >= 0.64:
                 _log(f"[제목사건중복 제외] shared={shared}")
                 return True
+        if signature:
+            old_signature = build_story_signature({"title": old_title})
+            if old_signature and _same_event(signature, old_signature):
+                _log(f"[과거제목 의미중복 제외] {signature} <> {old_signature}")
+                return True
 
-    signature = build_story_signature(story)
     if not signature:
         return False
     for old_signature in seen_signatures:
@@ -767,6 +839,10 @@ def _clean_summary(text: str) -> str:
     text = re.sub(r"(?i)\bmilestone\b", "마일스톤", text)
     text = text.replace("톤 마일스톤", "마일스톤")
     text = text.replace("있음고", "있다고").replace("했음고", "했다고")
+    text = re.sub(r"자금\s*세탁", "자금 세탁", text)
+    text = re.sub(r"은행\s*계좌", "은행 계좌", text)
+    text = re.sub(r"페이퍼\s*컴퍼니", "페이퍼 컴퍼니", text)
+    text = re.sub(r"하왈라\s*자금", "하왈라 자금", text)
     text = text.replace("\r\n", "\n").replace("\r", "\n")
     text = re.sub(r"[ \t]+", " ", text)
     text = re.sub(r"\n{3,}", "\n\n", text).strip()
@@ -940,13 +1016,27 @@ def _normalize_clarity_text(text: str, clarity_context: bool = False) -> str:
     return text
 
 
-def fix_hashtag_particles(text: str) -> str:
-    particle_pattern = "|".join(re.escape(p) for p in PARTICLES)
-    text = re.sub(
-        rf"(#[A-Za-z0-9가-힣_]+?)({particle_pattern})(?=[^A-Za-z0-9가-힣_]|$)",
-        r"\1 \2",
-        text,
-    )
+def fix_hashtag_particles(
+    text: str,
+    extra_known_tags: Iterable[str] = (),
+) -> str:
+    known_tags = {spec.label for spec in ENTITY_SPECS}
+    known_tags.update(str(tag).lstrip("#") for tag in extra_known_tags if tag)
+    particles = sorted(PARTICLES, key=len, reverse=True)
+
+    def separate(match: re.Match) -> str:
+        token = match.group(1)
+        if token in known_tags:
+            return f"#{token}"
+        for particle in particles:
+            if not token.endswith(particle):
+                continue
+            base = token[: -len(particle)]
+            if base in known_tags:
+                return f"#{base} {particle}"
+        return f"#{token}"
+
+    text = re.sub(r"#([A-Za-z0-9가-힣_]+)", separate, text)
     text = re.sub(r"(#[A-Za-z0-9가-힣_]+)\s+([,，])", r"\1\2", text)
     text = re.sub(r"[ \t]+", " ", text)
     return text.strip()
@@ -962,7 +1052,7 @@ def _inject_inline_tags(summary: str, story: dict) -> tuple[str, list[EntitySpec
         if replaced:
             selected.append(spec)
 
-    tagged = fix_hashtag_particles(tagged)
+    tagged = fix_hashtag_particles(tagged, (spec.label for spec in selected))
     tagged = tagged.replace("#마이클 #세일러", "#마이클세일러")
     tagged = tagged.replace("#데이비드 #슈워츠", "#데이비드슈워츠")
     tagged = tagged.replace("#찰스 #호스킨슨", "#찰스호스킨슨")
