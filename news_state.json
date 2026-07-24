@@ -1,26 +1,5 @@
 {
   "posted": {
-    "c74ae0e5b573": {
-      "title": "UK Jails Fake Police Crypto Gang as Authorities Tighten Digital Asset Rules",
-      "url": "thenewscrypto.com/uk-jails-fake-police-crypto-gang-as-authorities-tighten-digital-asset-rules",
-      "signature": "entity_authoritiestightendigitalasset | entity_cryptogang | entity_police | entity_rules | entity_ukjailsfakepolice | eventfp_entity_authoritiestightendigitalasset_entity_cryptogang_entity_rules_entity_ukjailsfakepolice_geo_uk | eventfp_entity_police_topic_crime_investigation_topic_security_geo_uk_num_4 | geo_uk | num_4 | org_block | org_sec | topic_crime_investigation | topic_security",
-      "canonical_key": "entity_authoritiestightendigitalasset | entity_cryptogang | entity_police | entity_rules | entity_ukjailsfakepolice | eventfp_entity_authoritiestightendigitalasset_entity_cryptogang_entity_rules_entity_ukjailsfakepolice_geo_uk | eventfp_entity_police_topic_crime_investigation_topic_security_geo_uk_num_4 | geo_uk | num_4 | topic_crime_investigation | topic_security",
-      "ts": "2026-07-17T14:01:17.907919+00:00"
-    },
-    "de113f74f780": {
-      "title": "39.27 Trillion SHIB on Robinhood, So Who Holds More?",
-      "url": "u.today/3927-trillion-shib-on-robinhood-so-who-holds-more",
-      "signature": "entity_sowhoholdsmore | entity_trillionshib | entity_로빈후드 | eventfp_entity_sowhoholdsmore_entity_trillionshib_entity_로빈후드_topic_wallet | topic_wallet",
-      "canonical_key": "entity_sowhoholdsmore | entity_trillionshib | entity_로빈후드 | eventfp_entity_sowhoholdsmore_entity_trillionshib_entity_로빈후드_topic_wallet | topic_wallet",
-      "ts": "2026-07-17T14:01:23.017818+00:00"
-    },
-    "1180623995a1": {
-      "title": "The CFTC has one commissioner and all of crypto",
-      "url": "crypto.news/the-cftc-has-one-commissioner-and-all-of-crypto",
-      "signature": "asset_eth | entity_cftc | entity_thecftc | org_cftc",
-      "canonical_key": "asset_eth | entity_cftc | entity_giancarlo | entity_thecftc | topic_ai | topic_cftc전의장",
-      "ts": "2026-07-17T14:01:27.418017+00:00"
-    },
     "90c20ed4c1c3": {
       "title": "HSBC wins Bank of England approval to enter Digital Securities Sandbox",
       "url": "cointelegraph.com/news/hsbc-bank-of-england-approval-digital-securities-sandbox?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -671,6 +650,13 @@
       "signature": "action_warn | asset_btc | asset_usdt | entity_june | entity_taiko | entity_upbit | entity_업비트 | geo_korea | obj_stablecoin_safety",
       "canonical_key": "action_warn | action_강조 | asset_btc | asset_usdt | entity_june | entity_taiko | entity_upbit | entity_업비트 | geo_korea | geo_한국 | obj_stablecoin_safety | topic_비트코인",
       "ts": "2026-07-24T12:01:30.436903+00:00"
+    },
+    "9b308a5b33e9": {
+      "title": "Thailand SEC files complaint against Bitkub over alleged false disclosures",
+      "url": "cointelegraph.com/news/bitkub-criminal-complaint-thailand-sec?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_file | entity_bitkub | entity_sec | entity_thailandsec | eventfp_action_file_entity_bitkub_entity_sec_entity_thailandsec_year_2021 | num_50 | org_sec | topic_crime_investigation | year_2021",
+      "canonical_key": "action_file | entity_bitkub | entity_sec | entity_thailandsec | eventfp_action_file_entity_bitkub_entity_sec_entity_thailandsec_year_2021 | num_50 | topic_crime_investigation | year_2021",
+      "ts": "2026-07-24T15:01:12.330634+00:00"
     }
   }
 }
