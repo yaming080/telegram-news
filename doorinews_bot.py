@@ -8952,5 +8952,10 @@ except Exception:
 
 
 
+from doorinews_editor import install_editor_overrides
+
+install_editor_overrides(globals())
+
+
 if __name__ == '__main__':
     main()
