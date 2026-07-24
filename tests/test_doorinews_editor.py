@@ -241,6 +241,51 @@ class DoorinewsEditorTests(unittest.TestCase):
         blocked, _ = editor._is_hard_blocked(story)
         self.assertFalse(blocked)
 
+    def test_first_ripple_mention_only_is_tagged(self):
+        story = {
+            "title": "Ripple launches institutional RLUSD platform",
+            "desc": "Ripple added monitoring and API management for institutions",
+        }
+        summary = (
+            "리플이 기관용 RLUSD 플랫폼을 출시함\n\n"
+            "RLUSD 관리 기능을 통해 #리플 서비스 접근성을 강화함"
+        )
+        tagged, _ = editor._inject_inline_tags(summary, story)
+        self.assertTrue(tagged.startswith("#리플 이 기관용"))
+        self.assertEqual(tagged.count("#리플"), 1)
+        self.assertIn("통해 리플 서비스", tagged)
+
+    def test_key_people_use_korean_name_tags_before_titles(self):
+        story = {
+            "title": "Kristin Smith and Goldman Sachs CEO David Solomon discuss CLARITY Act",
+            "desc": "Both voiced support for the crypto market structure bill",
+        }
+        summary = (
+            "크리스틴 스미스는 법안 처리 필요성을 설명함\n\n"
+            "골드만삭스 CEO 데이비드 솔로몬이 CLARITY 지지를 공개함"
+        )
+        tagged, _ = editor._inject_inline_tags(summary, story)
+        self.assertIn("#크리스틴스미스 는", tagged)
+        self.assertIn("#데이비드솔로몬 이", tagged)
+        self.assertNotIn("#CEO", tagged)
+
+    def test_clarity_is_korean_in_body_and_footer(self):
+        story = {
+            "title": "CLARITY Act passes committee vote",
+            "desc": "The market structure bill advanced in Congress",
+        }
+        summary = "CLARITY 통과로 미국의 암호화폐 규제 절차가 진전됨"
+        tagged, selected = editor._inject_inline_tags(summary, story)
+        self.assertEqual(tagged.count("#시장구조법안"), 1)
+        self.assertIn("#시장구조법안 통과", tagged)
+        self.assertNotRegex(tagged, r"(?i)clarity")
+
+        footer = editor._build_footer_tags(story, selected)
+        self.assertIn("#시장구조법안", footer)
+        self.assertNotIn("#ClarityAct", footer)
+        self.assertNotIn("#CLARITY", footer)
+        self.assertNotIn("#Act", footer)
+
 
 if __name__ == "__main__":
     unittest.main()
