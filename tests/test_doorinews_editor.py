@@ -61,6 +61,13 @@ class DoorinewsEditorTests(unittest.TestCase):
             "#비트코인 은 #미국 에서 #클래리티법안 이 통과됨",
         )
 
+    def test_complete_country_tag_is_not_split_as_particle(self):
+        text = "#인도 집행국이 #ETF인 상품을 조사함"
+        self.assertEqual(
+            editor.fix_hashtag_particles(text),
+            "#인도 집행국이 #ETF 인 상품을 조사함",
+        )
+
     def test_x_is_not_translated_and_milestone_is_not_ton(self):
         cleaned = editor._clean_summary(
             "로빈후드 CEO의 엑스 계정에 밈코인 게시물이 등장함\n\n"
@@ -240,6 +247,54 @@ class DoorinewsEditorTests(unittest.TestCase):
         }
         blocked, _ = editor._is_hard_blocked(story)
         self.assertFalse(blocked)
+
+    def test_clarity_vote_seeking_before_recess_is_blocked(self):
+        story = {
+            "title": "Crypto groups seek Senate votes for CLARITY Act before August recess",
+            "desc": "Industry groups urged lawmakers to change the bill before recess",
+        }
+        blocked, reason = editor._is_hard_blocked(story)
+        self.assertTrue(blocked)
+        self.assertIn("클래리티법안", reason)
+
+    def test_bitmex_shutdown_variants_are_same_event(self):
+        insurance_story = {
+            "title": "BitMEX faces questions over insurance fund before September 23 shutdown",
+            "desc": (
+                "The crypto exchange will close on September 23, 2026 while plaintiffs "
+                "prepare a class action over customer losses"
+            ),
+        }
+        withdrawal_story = {
+            "title": "BitMEX to permanently close trading platform on September 23, 2026",
+            "desc": "Users were urged to close open positions and withdraw remaining funds",
+        }
+        first = editor.build_story_signature(insurance_story)
+        second = editor.build_story_signature(withdrawal_story)
+        self.assertIn("action_close", first)
+        self.assertIn("object_platform", second)
+        self.assertIn("date_2026_09_23", first)
+        self.assertTrue(editor._same_event(first, second))
+
+    def test_bitmex_shutdown_matches_historical_title_signature(self):
+        story = {
+            "title": "BitMEX customers allege unfair liquidation in class action",
+            "desc": (
+                "BitMEX disclosed a September 23, 2026 shutdown and customers claim "
+                "622.66 BTC in losses"
+            ),
+        }
+        seen_title = "BitMEX to shut down exchange platform on September 23, 2026"
+        self.assertTrue(editor.is_semantically_duplicate(story, [], [seen_title]))
+
+    def test_summary_spacing_for_india_hawala_story(self):
+        cleaned = editor._clean_summary(
+            "#인도 집행국이 암호화폐 하왈라자금세탁망을 적발함\n\n"
+            "은행계좌와 페이퍼컴퍼니를 확인했다고 설명함"
+        )
+        self.assertIn("하왈라 자금 세탁망", cleaned)
+        self.assertIn("은행 계좌", cleaned)
+        self.assertIn("페이퍼 컴퍼니", cleaned)
 
     def test_first_ripple_mention_only_is_tagged(self):
         story = {
