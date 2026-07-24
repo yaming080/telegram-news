@@ -1,26 +1,5 @@
 {
   "posted": {
-    "90c20ed4c1c3": {
-      "title": "HSBC wins Bank of England approval to enter Digital Securities Sandbox",
-      "url": "cointelegraph.com/news/hsbc-bank-of-england-approval-digital-securities-sandbox?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "act_approval | action_approve | action_ban_restrict | action_restrict | entity_bank | entity_digitalsecuritiessandbox | entity_england | entity_hsbc | eventfp_action_ban_restrict_entity_bank_entity_digitalsecuritiessandbox_entity_england_entity_hsbc_topic_bill_topic_sandbox | org_sec | topic_approval | topic_bill | topic_sandbox | year_2027",
-      "canonical_key": "action_ban_restrict | entity_bank | entity_digitalsecuritiessandbox | entity_england | entity_hsbc | eventfp_action_ban_restrict_entity_bank_entity_digitalsecuritiessandbox_entity_england_entity_hsbc_topic_bill_topic_sandbox | topic_bill | topic_sandbox | year_2027",
-      "ts": "2026-07-17T15:01:06.953622+00:00"
-    },
-    "1120985a80d6": {
-      "title": "Russia Pushes Crypto Prison Law Past Elections",
-      "url": "coinedition.com/russia-pushes-crypto-prison-law-past-elections",
-      "signature": "act_bill | act_law | entity_lawpastelections | entity_russiapushescryptoprison | eventfp_entity_lawpastelections_entity_russiapushescryptoprison_geo_russia_topic_bill | geo_russia | org_sec | topic_bill | topic_crime_investigation",
-      "canonical_key": "entity_lawpastelections | entity_russiapushescryptoprison | eventfp_entity_lawpastelections_entity_russiapushescryptoprison_geo_russia_topic_bill | geo_russia | topic_bill",
-      "ts": "2026-07-17T15:01:11.602276+00:00"
-    },
-    "2bdb793af3f0": {
-      "title": "Japanese Banking Giant SBI Inherits 1.11 Trillion Shiba Inu (SHIB) in Coinhako Acquisition",
-      "url": "u.today/japanese-banking-giant-sbi-inherits-111-trillion-shiba-inu-shib-in-coinhako-acquisition",
-      "signature": "act_approval | action_approve | action_ban_restrict | action_restrict | asset_shib | entity_coinhakoacquisition | entity_inherits | entity_japanesebankinggiantsbi | entity_sbi | entity_shib | entity_trillionshibainu | eventfp_action_ban_restrict_entity_coinhakoacquisition_entity_inherits_entity_japanesebankinggiantsbi_entity_shib_geo_japan | eventfp_entity_sbi_topic_approval_topic_treasury_action_approve_action_restrict_asset_shib_geo_japan | geo_japan | topic_approval | topic_treasury",
-      "canonical_key": "action_approve | action_ban_restrict | action_restrict | asset_shib | entity_coinhakoacquisition | entity_inherits | entity_japanesebankinggiantsbi | entity_sbi | entity_shib | entity_trillionshibainu | eventfp_action_ban_restrict_entity_coinhakoacquisition_entity_inherits_entity_japanesebankinggiantsbi_entity_shib_geo_japan | eventfp_entity_sbi_topic_approval_topic_treasury_action_approve_action_restrict_asset_shib_geo_japan | geo_japan | topic_approval | topic_treasury",
-      "ts": "2026-07-17T15:01:15.809703+00:00"
-    },
     "ae6b83198f44": {
       "title": "Licensed Crypto Exchanges in Nigeria (2026): What Happens If You Use an Unlicensed Platform?",
       "url": "coinedition.com/licensed-crypto-exchanges-in-nigeria-2026-what-happens-if-you-use-an-unlicensed-platform",
