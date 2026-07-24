@@ -1,12 +1,5 @@
 {
   "posted": {
-    "f1c29cfebcae": {
-      "title": "UK Jails Three Men Over $5.4M Fake Police Crypto Scam",
-      "url": "coinedition.com/uk-jails-three-men-over-5-4m-fake-police-crypto-scam",
-      "signature": "entity_fakepolicecryptoscam | entity_over | entity_ukjailsthreemen | geo_uk",
-      "canonical_key": "entity_fakepolicecryptoscam | entity_over | entity_ukjailsthreemen | geo_uk",
-      "ts": "2026-07-17T19:01:21.804362+00:00"
-    },
     "44a97480591e": {
       "title": "ZachXBT’s Hardware Wallet Criticism Ignites Debate Over Crypto Self-Custody",
       "url": "cryptopotato.com/zachxbts-hardware-wallet-criticism-ignites-debate-over-crypto-self-custody",
@@ -713,6 +706,27 @@
       "signature": "action_support | amount_233 | asset_eth | entity_eth | object_recovery",
       "canonical_key": "action_support | amount_233 | asset_eth | entity_eth | object_recovery",
       "ts": "2026-07-24T19:01:33.568302+00:00"
+    },
+    "37f91a10810c": {
+      "title": "[모닝 뉴스브리핑] 백악관 관계자, 비트코인 명확성 법안 상원 본회의 표결 전망 外",
+      "url": "www.tokenpost.kr/news/briefing/381144",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-24T20:01:05.478917+00:00"
+    },
+    "222a6629d659": {
+      "title": "월가, 비트코인 대신 STRC 담았다…스트레티지 새 자금 축 부상",
+      "url": "www.tokenpost.kr/news/cryptocurrency/381143",
+      "signature": "action_disclose | action_launch | amount_7억 | asset_btc | entity_strc | entity_마이클세일러 | entity_블랙록 | entity_스트래티지 | geo_us | object_disclosure | object_etf | object_fund | object_infrastructure",
+      "canonical_key": "action_disclose | action_launch | amount_7억 | asset_btc | entity_strc | entity_마이클세일러 | entity_블랙록 | entity_스트래티지 | geo_us | object_disclosure | object_etf | object_fund | object_infrastructure",
+      "ts": "2026-07-24T20:01:09.648612+00:00"
+    },
+    "d9884bad66de": {
+      "title": "XRP ETF Gains Investment From Kansas-Based Wealth Manager",
+      "url": "u.today/xrp-etf-gains-investment-from-kansas-based-wealth-manager",
+      "signature": "action_disclose | action_invest | asset_xrp | object_etf",
+      "canonical_key": "action_disclose | action_invest | asset_xrp | object_etf",
+      "ts": "2026-07-24T20:01:12.952289+00:00"
     }
   }
 }
