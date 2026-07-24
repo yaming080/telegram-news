@@ -769,6 +769,20 @@
       "signature": "action_launch | amount_35million | amount_9billion | entity_로빈후드",
       "canonical_key": "action_launch | amount_35million | amount_9billion | entity_로빈후드",
       "ts": "2026-07-24T21:01:31.092634+00:00"
+    },
+    "e304171bce2e": {
+      "title": "Strive’s SATA recovers most of June decline, trades within 3% of par",
+      "url": "cointelegraph.com/news/strives-sata-recovers-most-of-june-decline-trades-within-3-of-par?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-24T22:00:58.601030+00:00"
+    },
+    "cff8ef9a2a41": {
+      "title": "US House passes congressional stock trading ban despite loophole concerns",
+      "url": "crypto.news/us-house-passes-congressional-stock-trading-ban",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-24T22:01:02.042054+00:00"
     }
   }
 }
