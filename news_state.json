@@ -1,19 +1,5 @@
 {
   "posted": {
-    "44a97480591e": {
-      "title": "ZachXBT’s Hardware Wallet Criticism Ignites Debate Over Crypto Self-Custody",
-      "url": "cryptopotato.com/zachxbts-hardware-wallet-criticism-ignites-debate-over-crypto-self-custody",
-      "signature": "entity_debateovercryptoselfcustody | entity_hardwarewalletcriticismignites | entity_zachxbt | eventfp_entity_debateovercryptoselfcustody_entity_hardwarewalletcriticismignites_entity_zachxbt_topic_custody_topic_wallet | topic_custody | topic_wallet",
-      "canonical_key": "entity_debateovercryptoselfcustody | entity_hardwarewalletcriticismignites | entity_zachxbt | eventfp_entity_debateovercryptoselfcustody_entity_hardwarewalletcriticismignites_entity_zachxbt_topic_custody_topic_wallet | topic_custody | topic_wallet",
-      "ts": "2026-07-17T22:01:23.784593+00:00"
-    },
-    "44521bc4a000": {
-      "title": "ether.fi Partners with Nexus Mutual to Protect Against ETH Slashing at Institutional Scale",
-      "url": "thenewscrypto.com/ether-fi-partners-with-nexus-mutual-to-protect-against-eth-slashing-at-institutional-scale",
-      "signature": "act_institutional | action_partner | asset_eth | entity_institutionalscale | entity_nexusmutual | entity_partners | entity_protectagainstethslashing | eventfp_asset_eth_entity_institutionalscale_entity_nexusmutual_entity_partners_entity_protectagainstethslashing_geo_uk | geo_uk | topic_partnership | year_2026",
-      "canonical_key": "asset_eth | entity_institutionalscale | entity_nexusmutual | entity_partners | entity_protectagainstethslashing | eventfp_asset_eth_entity_institutionalscale_entity_nexusmutual_entity_partners_entity_protectagainstethslashing_geo_uk | geo_uk",
-      "ts": "2026-07-17T22:01:28.679406+00:00"
-    },
     "ef9b97c59d03": {
       "title": "SEC Crypto Rulemaking Enters White House Review As Industry Waits For Details",
       "url": "bitcoinist.com/sec-crypto-rulemaking-enters-white-house-review-as-industry-waits-for-details",
@@ -783,6 +769,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-07-24T22:01:02.042054+00:00"
+    },
+    "c9754e6f70a9": {
+      "title": "스트라이브 SATA 한 달 만에 액면가 3% 이내 회복…비트코인 우선주 신뢰 되살아나나",
+      "url": "www.tokenpost.kr/news/cryptocurrency/381171",
+      "signature": "action_issue | action_launch | amount_3 | asset_btc | entity_sata",
+      "canonical_key": "action_issue | action_launch | amount_3 | asset_btc | entity_sata",
+      "ts": "2026-07-24T23:00:58.070744+00:00"
+    },
+    "81c5c0b76ed0": {
+      "title": "Samson Mow says SATA rebound could pull Strategy’s STRC to par",
+      "url": "crypto.news/samson-mow-sata-rebound-to-pull-strategys-strc-to-par",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-24T23:01:02.906466+00:00"
     }
   }
 }
