@@ -131,7 +131,7 @@ ENTITY_SPECS = (
     EntitySpec("asset", "USDC", ("USDC",), "#USDC", 30),
     EntitySpec("topic", "ETF", ("ETF", "exchange-traded fund"), "#ETF", 35),
     EntitySpec("topic", "스테이블코인", ("stablecoin", "stablecoins", "스테이블코인"), "#Stablecoin", 35),
-    EntitySpec("topic", "시장구조법안", ("CLARITY Act", "CLARITY", "market structure bill", "시장구조법안", "클래리티법"), "#시장구조법안", 25),
+    EntitySpec("topic", "클래리티법안", ("CLARITY Act", "CLARITY", "market structure bill", "시장구조법안", "클래리티법", "클래리티법안"), "#클래리티법안", 25),
     EntitySpec("topic", "지니어스법안", ("GENIUS Act", "지니어스법안"), "#GeniusAct", 25),
     EntitySpec("topic", "AI", ("artificial intelligence", "AI", "인공지능"), "#AI", 40),
     EntitySpec("topic", "IPO", ("IPO", "initial public offering"), "#IPO", 40),
@@ -260,7 +260,7 @@ ACTION_PATTERNS = {
 OBJECT_PATTERNS = {
     "object_etf": (r"\betf\b", r"상장지수펀드"),
     "object_trust": (r"\binvestment trusts?\b", r"투자신탁|신탁"),
-    "object_bill": (r"\bclarity act\b", r"\bmarket structure bill\b", r"시장구조법안|클래리티법"),
+    "object_bill": (r"\bclarity act\b", r"\bmarket structure bill\b", r"시장구조법안|클래리티법안?"),
     "object_stablecoin_bill": (r"\bgenius act\b", r"지니어스법안"),
     "object_patent": (r"\bpatent\b", r"특허"),
     "object_wallet": (r"\bwallet\b", r"지갑"),
@@ -386,7 +386,7 @@ def _is_hard_blocked(story: dict) -> tuple[bool, str]:
         (
             r"\bclarity act\b",
             r"\bmarket structure bill\b",
-            r"시장\s*구조\s*법안|시장구조법안|클래리티법",
+            r"시장\s*구조\s*법안|시장구조법안|클래리티법안?",
         ),
     )
     clarity_commentary = _matches(
@@ -409,7 +409,7 @@ def _is_hard_blocked(story: dict) -> tuple[bool, str]:
         ),
     )
     if is_clarity and clarity_commentary and not clarity_progress:
-        return True, "시장구조법안 단순 지지·촉구"
+        return True, "클래리티법안 단순 지지·촉구"
 
     # A percentage in a concrete filing or investment is allowed.  A headline
     # whose main event is only price movement is not.
@@ -910,11 +910,15 @@ def _replace_surface_with_tag(text: str, spec: EntitySpec) -> tuple[str, bool]:
 def _normalize_clarity_text(text: str) -> str:
     text = re.sub(
         r"#?\b(?:CLARITY(?:\s+Act)?|Clarity\s+Act|market\s+structure\s+bill)\b",
-        "시장구조법안",
+        "클래리티법안",
         text,
         flags=re.I,
     )
-    return re.sub(r"#?(?:클래리티법|시장\s+구조\s+법안)", "시장구조법안", text)
+    return re.sub(
+        r"#?(?:클래리티법안?|시장\s+구조\s+법안)",
+        "클래리티법안",
+        text,
+    )
 
 
 def fix_hashtag_particles(text: str) -> str:
@@ -943,7 +947,7 @@ def _inject_inline_tags(summary: str, story: dict) -> tuple[str, list[EntitySpec
     tagged = tagged.replace("#마이클 #세일러", "#마이클세일러")
     tagged = tagged.replace("#데이비드 #슈워츠", "#데이비드슈워츠")
     tagged = tagged.replace("#찰스 #호스킨슨", "#찰스호스킨슨")
-    tagged = tagged.replace("#시장구조 #법안", "#시장구조법안")
+    tagged = tagged.replace("#시장구조 #법안", "#클래리티법안")
     return tagged, selected
 
 
@@ -968,14 +972,14 @@ def _build_footer_tags(story: dict, selected: list[EntitySpec]) -> list[str]:
         (
             r"\bclarity(?:\s+act)?\b",
             r"\bmarket structure bill\b",
-            r"시장\s*구조\s*법안|시장구조법안|클래리티법",
+            r"시장\s*구조\s*법안|시장구조법안|클래리티법안?",
         ),
     ):
         clarity_footer_variants = {"#ClarityAct", "#CLARITY", "#CLARITYAct", "#Act"}
         article_tags = [
             tag for tag in article_tags if tag not in clarity_footer_variants
         ]
-        article_tags.insert(0, "#시장구조법안")
+        article_tags.insert(0, "#클래리티법안")
 
     ticker_patterns = (
         ("#XRP", r"(?<![A-Za-z0-9])XRP(?![A-Za-z0-9])"),
