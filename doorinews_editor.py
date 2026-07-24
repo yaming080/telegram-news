@@ -177,6 +177,8 @@ HARD_BLOCK_PATTERNS = (
     r"\bwld token sale\b",
     r"\bdex aggregator\b.{0,40}\bshut down\b",
     r"\bprotocol to shut down\b",
+    r"\bkazakhstan\b.{0,100}\b(?:crypto|bitcoin|btc)\b.{0,100}\b(?:miner|mining)\b.{0,100}\b(?:electricity|power|energy|tariff|fee|rate)\b",
+    r"\b(?:crypto|bitcoin|btc)\b.{0,100}\b(?:miner|mining)\b.{0,100}\b(?:electricity|power|energy|tariff|fee|rate)\b.{0,100}\bkazakhstan\b",
     r"\bwhales? control\b",
     r"\bwallets? (?:add|added|hold|holding)\b",
     r"\bexchange (?:inflow|outflow|withdrawal)s?\b",
@@ -356,6 +358,56 @@ def _is_hard_blocked(story: dict) -> tuple[bool, str]:
     title = str(story.get("title", "") or "")
     if _matches(raw, HARD_BLOCK_PATTERNS):
         return True, "가격/전망/홍보/모음기사"
+
+    kazakhstan_mining_power = (
+        _matches(raw, (r"\bkazakhstan\b", r"카자흐스탄"))
+        and _matches(
+            raw,
+            (
+                r"\b(?:crypto|bitcoin|btc)?\s*(?:miner|mining)\b",
+                r"암호화폐\s*채굴|비트코인\s*채굴|채굴업체",
+            ),
+        )
+        and _matches(
+            raw,
+            (
+                r"\b(?:electricity|power|energy|tariff|fee|rate)s?\b",
+                r"전기\s*요금|전력\s*요금|전기료|전력",
+            ),
+        )
+    )
+    if kazakhstan_mining_power:
+        return True, "포트폴리오 외 채굴 전기요금"
+
+    is_clarity = _matches(
+        raw,
+        (
+            r"\bclarity act\b",
+            r"\bmarket structure bill\b",
+            r"시장\s*구조\s*법안|시장구조법안|클래리티법",
+        ),
+    )
+    clarity_commentary = _matches(
+        raw,
+        (
+            r"\b(?:support|back|endorse|urge|press|push|call for|hope for|advocate)\w*\b",
+            r"\b(?:still hope|needs support|should pass|must pass)\b",
+            r"지지|촉구|압박|희망|통과해야|통과 필요",
+        ),
+    )
+    clarity_progress = _matches(
+        raw,
+        (
+            r"\b(?:vote|voted|voting|ballot)\b",
+            r"\b(?:passed|passes|cleared|advanced|approved)\b",
+            r"\b(?:amend|amended|amendment|revise|revised|revision)\w*\b",
+            r"\b(?:hearing|markup|floor vote|committee vote)\b",
+            r"\b(?:schedule|scheduled|reschedule|rescheduled|deadline|calendar)\w*\b",
+            r"표결|가결|통과(?:함|됨|됐다|돼)|승인(?:함|됨|됐다|돼)|수정안|개정안|심사\s*일정|표결\s*일정|본회의|(?:상원|하원|위원회)\s*통과",
+        ),
+    )
+    if is_clarity and clarity_commentary and not clarity_progress:
+        return True, "시장구조법안 단순 지지·촉구"
 
     # A percentage in a concrete filing or investment is allowed.  A headline
     # whose main event is only price movement is not.

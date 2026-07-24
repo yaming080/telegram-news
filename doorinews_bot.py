@@ -3662,8 +3662,8 @@ def send_telegram_photo(token: str, channel: str, image_url: str, caption: str) 
         log("Telegram token or channel not set")
         return False
     if not image_url:
-        log("No image_url -> text message로 전송")
-        return send_telegram_message(token, channel, caption)
+        log("[이미지없음 게시차단] 사진 URL을 확보하지 못해 기사를 게시하지 않음")
+        return False
     while len(caption.encode('utf-8')) > 1000:
         caption = caption[:-1]
     payload = json.dumps({
@@ -3680,11 +3680,11 @@ def send_telegram_photo(token: str, channel: str, image_url: str, caption: str) 
         return True
     except urllib.error.HTTPError as e:
         body = e.read().decode('utf-8', errors='ignore')
-        log(f"Error sending photo: HTTP {e.code} {e.reason} | {body}. Falling back to text message.")
-        return send_telegram_message(token, channel, caption)
+        log(f"[이미지전송실패 게시차단] HTTP {e.code} {e.reason} | {body}")
+        return False
     except Exception as e:
-        log(f"Error sending photo: {e}. Falling back to text message.")
-        return send_telegram_message(token, channel, caption)
+        log(f"[이미지전송실패 게시차단] {e}")
+        return False
 
 
 
