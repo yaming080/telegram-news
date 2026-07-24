@@ -1,12 +1,5 @@
 {
   "posted": {
-    "1b971c66b481": {
-      "title": "플루어(FLR), 2520억 지분 매각·아람코 수주…매출 감소에도 ‘포트폴리오 재편’",
-      "url": "www.tokenpost.kr/news/market/378793",
-      "signature": "entity_flr | num_1억 | num_2520억 | num_2520억원",
-      "canonical_key": "entity_flr | num_1억 | num_2520억 | num_2520억원",
-      "ts": "2026-07-17T10:01:12.339095+00:00"
-    },
     "a0177faad6b9": {
       "title": "$1.43B in Bitcoin and Ethereum Options Expire: Will Traders Brace for the Next Move?",
       "url": "thenewscrypto.com/1-43b-in-bitcoin-and-ethereum-options-expire-will-traders-brace-for-the-next-move",
@@ -643,6 +636,20 @@
       "signature": "entity_digitalx | entity_korbit | entity_miraeasset | entity_strategy | entity_한국 | geo_korea | org_strategy",
       "canonical_key": "entity_digitalx | entity_korbit | entity_miraeasset | entity_strategy | entity_한국 | geo_korea | geo_한국 | topic_fed_rate | topic_스트래티지매수",
       "ts": "2026-07-24T10:01:28.341505+00:00"
+    },
+    "8404dff87117": {
+      "title": "제주 지역화폐 '탐나는전' 추석 캐시백 상향 난항, 예산 소진 급증",
+      "url": "www.tokenpost.kr/news/economy/380987",
+      "signature": "topic_card_reward",
+      "canonical_key": "topic_card_reward",
+      "ts": "2026-07-24T11:01:13.114288+00:00"
+    },
+    "de0c6715f85f": {
+      "title": "XRPL Lending Specs Move Forward As Developers Refine XLS-66",
+      "url": "bitcoinist.com/xrpl-lending-specs-move-forward-as-developers-refine-xls-66",
+      "signature": "act_move | asset_xrp | asset_xrpl | entity_forwardasdevelopersrefine | entity_xls66 | entity_xrpledger | entity_xrpllendingspecsmove | eventfp_asset_xrpl_entity_forwardasdevelopersrefine_entity_xls66_entity_xrpledger_entity_xrpllendingspecsmove_num_66xrp_topic_lending | evt_xrpl_lending_protocol | evt_xrpl_lending_protocol_0619 | num_66xrp | topic_lending",
+      "canonical_key": "asset_xrpl | entity_forwardasdevelopersrefine | entity_xls66 | entity_xrpledger | entity_xrpllendingspecsmove | eventfp_asset_xrpl_entity_forwardasdevelopersrefine_entity_xls66_entity_xrpledger_entity_xrpllendingspecsmove_num_66xrp_topic_lending | evt_xrpl_lending_protocol | evt_xrpl_lending_protocol_0619 | num_66xrp | topic_lending",
+      "ts": "2026-07-24T11:01:18.527791+00:00"
     }
   }
 }
