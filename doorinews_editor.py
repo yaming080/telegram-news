@@ -119,6 +119,8 @@ ENTITY_SPECS = (
     EntitySpec("person", "일론머스크", ("Elon Musk", "일론 머스크", "일론머스크"), "#ElonMusk", 15),
     EntitySpec("person", "파벨두로프", ("Pavel Durov", "파벨 두로프", "파벨두로프"), "#PavelDurov", 15),
     EntitySpec("person", "짐크레이머", ("Jim Cramer", "짐 크레이머", "짐크레이머"), "#JimCramer", 15),
+    EntitySpec("person", "크리스틴스미스", ("Kristin Smith", "크리스틴 스미스", "크리스틴스미스"), "#KristinSmith", 15),
+    EntitySpec("person", "데이비드솔로몬", ("David Solomon", "데이비드 솔로몬", "데이비드솔로몬"), "#DavidSolomon", 15),
     # Assets, laws, and concrete products.
     EntitySpec("asset", "XRP", ("XRP",), "#XRP", 30),
     EntitySpec("asset", "XRPL", ("XRP Ledger", "XRPL",), "#XRPL", 30),
@@ -129,7 +131,7 @@ ENTITY_SPECS = (
     EntitySpec("asset", "USDC", ("USDC",), "#USDC", 30),
     EntitySpec("topic", "ETF", ("ETF", "exchange-traded fund"), "#ETF", 35),
     EntitySpec("topic", "스테이블코인", ("stablecoin", "stablecoins", "스테이블코인"), "#Stablecoin", 35),
-    EntitySpec("topic", "시장구조법안", ("CLARITY Act", "market structure bill", "시장구조법안", "클래리티법"), "#ClarityAct", 25),
+    EntitySpec("topic", "시장구조법안", ("CLARITY Act", "CLARITY", "market structure bill", "시장구조법안", "클래리티법"), "#시장구조법안", 25),
     EntitySpec("topic", "지니어스법안", ("GENIUS Act", "지니어스법안"), "#GeniusAct", 25),
     EntitySpec("topic", "AI", ("artificial intelligence", "AI", "인공지능"), "#AI", 40),
     EntitySpec("topic", "IPO", ("IPO", "initial public offering"), "#IPO", 40),
@@ -831,6 +833,41 @@ def _dynamic_specs(raw: str) -> list[EntitySpec]:
     return specs
 
 
+def _surface_pattern(surface: str) -> str:
+    escaped = re.escape(surface)
+    if re.fullmatch(r"[A-Za-z0-9 .&'-]+", surface):
+        escaped = escaped.replace(r"\ ", r"\s+")
+        return rf"(?<![A-Za-z0-9#]){escaped}(?![A-Za-z0-9_])"
+
+    particle_pattern = "|".join(re.escape(p) for p in PARTICLES)
+    return (
+        rf"(?<![#A-Za-z0-9가-힣]){escaped}"
+        rf"(?=(?:{particle_pattern})(?=[^A-Za-z0-9가-힣_]|$)|[^A-Za-z0-9가-힣_]|$)"
+    )
+
+
+def _hashed_surface_pattern(surface: str) -> str:
+    escaped = re.escape(surface)
+    if re.fullmatch(r"[A-Za-z0-9 .&'-]+", surface):
+        escaped = escaped.replace(r"\ ", r"\s+")
+        return rf"(?<![A-Za-z0-9_])#{escaped}(?![A-Za-z0-9_])"
+
+    particle_pattern = "|".join(re.escape(p) for p in PARTICLES)
+    return (
+        rf"(?<![A-Za-z0-9가-힣_])#{escaped}"
+        rf"(?=(?:{particle_pattern})(?=[^A-Za-z0-9가-힣_]|$)|[^A-Za-z0-9가-힣_]|$)"
+    )
+
+
+def _first_surface_match(text: str, spec: EntitySpec):
+    matches = []
+    for surface in set((spec.label,) + spec.aliases):
+        match = re.search(_surface_pattern(surface), text, re.I)
+        if match:
+            matches.append((match.start(), -len(match.group(0)), match, surface))
+    return min(matches, key=lambda item: (item[0], item[1])) if matches else None
+
+
 def _candidate_specs(summary: str, story: dict) -> list[EntitySpec]:
     raw = _story_text(story)
     title = str(story.get("title", "") or "")
@@ -846,29 +883,38 @@ def _candidate_specs(summary: str, story: dict) -> list[EntitySpec]:
         # Gold/Silver are intentionally not entity specs.  TON is exact only.
         title_hit = any(_contains_alias(title, alias) for alias in spec.aliases)
         rank = spec.priority - (5 if title_hit else 0)
-        candidates.append((rank, spec))
+        first_match = _first_surface_match(summary, spec)
+        first_position = first_match[0] if first_match else len(summary) + 1
+        candidates.append((first_position, rank, spec))
         seen.add(spec.label)
-    candidates.sort(key=lambda item: item[0])
-    return [spec for _, spec in candidates]
+    candidates.sort(key=lambda item: (item[0], item[1]))
+    return [spec for _, _, spec in candidates]
 
 
 def _replace_surface_with_tag(text: str, spec: EntitySpec) -> tuple[str, bool]:
     tag = f"#{spec.label}"
-    if tag in text:
-        return text, True
+    surfaces = tuple(dict.fromkeys((spec.label,) + spec.aliases))
 
-    surfaces = (spec.label,) + spec.aliases
-    for surface in sorted(set(surfaces), key=len, reverse=True):
-        escaped = re.escape(surface)
-        if re.fullmatch(r"[A-Za-z0-9 .&'-]+", surface):
-            escaped = escaped.replace(r"\ ", r"\s+")
-            pattern = rf"(?<![A-Za-z0-9#]){escaped}(?![A-Za-z0-9_])"
-        else:
-            pattern = rf"(?<![#A-Za-z0-9가-힣]){escaped}(?![A-Za-z0-9가-힣_])"
-        new_text, count = re.subn(pattern, tag, text, count=1, flags=re.I)
-        if count:
-            return new_text, True
-    return text, False
+    # Remove model-provided or previously inserted tags for this entity first.
+    # The deterministic pass below then tags only the earliest occurrence.
+    for surface in sorted(surfaces, key=len, reverse=True):
+        text = re.sub(_hashed_surface_pattern(surface), surface, text, flags=re.I)
+
+    first = _first_surface_match(text, spec)
+    if not first:
+        return text, False
+    _, _, match, _ = first
+    return text[: match.start()] + tag + text[match.end() :], True
+
+
+def _normalize_clarity_text(text: str) -> str:
+    text = re.sub(
+        r"#?\b(?:CLARITY(?:\s+Act)?|Clarity\s+Act|market\s+structure\s+bill)\b",
+        "시장구조법안",
+        text,
+        flags=re.I,
+    )
+    return re.sub(r"#?(?:클래리티법|시장\s+구조\s+법안)", "시장구조법안", text)
 
 
 def fix_hashtag_particles(text: str) -> str:
@@ -885,7 +931,7 @@ def fix_hashtag_particles(text: str) -> str:
 
 def _inject_inline_tags(summary: str, story: dict) -> tuple[str, list[EntitySpec]]:
     selected = []
-    tagged = summary
+    tagged = _normalize_clarity_text(summary)
     for spec in _candidate_specs(summary, story):
         if len(selected) >= MAX_INLINE_TAGS:
             break
@@ -916,6 +962,20 @@ def _build_footer_tags(story: dict, selected: list[EntitySpec]) -> list[str]:
             article_tags.append(spec.footer)
         if len(article_tags) >= MAX_ARTICLE_TAGS:
             break
+
+    if _matches(
+        raw,
+        (
+            r"\bclarity(?:\s+act)?\b",
+            r"\bmarket structure bill\b",
+            r"시장\s*구조\s*법안|시장구조법안|클래리티법",
+        ),
+    ):
+        clarity_footer_variants = {"#ClarityAct", "#CLARITY", "#CLARITYAct", "#Act"}
+        article_tags = [
+            tag for tag in article_tags if tag not in clarity_footer_variants
+        ]
+        article_tags.insert(0, "#시장구조법안")
 
     ticker_patterns = (
         ("#XRP", r"(?<![A-Za-z0-9])XRP(?![A-Za-z0-9])"),
