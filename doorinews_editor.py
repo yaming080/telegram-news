@@ -105,6 +105,17 @@ ENTITY_SPECS = (
     EntitySpec("org", "스트래티지", ("Strategy", "MicroStrategy", "스트래티지"), "#Strategy", 20),
     EntitySpec("org", "오픈AI", ("OpenAI", "오픈AI", "오픈에이아이"), "#OpenAI", 20),
     EntitySpec("org", "앤트로픽", ("Anthropic", "앤트로픽"), "#Anthropic", 20),
+    EntitySpec("org", "OKX", ("OKX",), "#OKX", 20),
+    EntitySpec("org", "풀린", ("Poolin", "풀린"), "#Poolin", 20),
+    EntitySpec("org", "시타델증권", ("Citadel Securities", "시타델 증권", "시타델증권"), "#CitadelSecurities", 20),
+    EntitySpec("org", "아비트럼", ("Arbitrum", "아비트럼"), "#Arbitrum", 20),
+    EntitySpec("org", "유니스왑", ("Uniswap", "유니스왑"), "#Uniswap", 20),
+    EntitySpec("org", "트리플A", ("Triple-A", "Triple A", "TripleA", "트리플A", "트리플에이"), "#TripleA", 20),
+    EntitySpec("org", "탱고", ("DEX Tango", "Tango DEX", "Tango", "탱고"), "#Tango", 20),
+    EntitySpec("org", "스트라이브", ("Strive", "스트라이브"), "#Strive", 20),
+    EntitySpec("org", "레저캐피털매니지먼트", ("Ledger Capital Management", "레저 캐피털 매니지먼트", "레저캐피털매니지먼트"), "#LedgerCapitalManagement", 20),
+    EntitySpec("org", "비트코인정책연구소", ("Bitcoin Policy Institute", "BPI", "비트코인정책연구소"), "#BitcoinPolicyInstitute", 20),
+    EntitySpec("org", "미국국무부", ("U.S. State Department", "US State Department", "State Department", "미국 국무부", "국무부"), "#USStateDepartment", 20),
     # People.
     EntitySpec("person", "저스틴선", ("Justin Sun", "저스틴 선", "저스틴선"), "#JustinSun", 15),
     EntitySpec("person", "아서헤이즈", ("Arthur Hayes", "아서 헤이즈", "아서헤이즈"), "#ArthurHayes", 15),
@@ -130,6 +141,7 @@ ENTITY_SPECS = (
     EntitySpec("asset", "솔라나", ("Solana", "SOL", "솔라나"), "#SOL", 30),
     EntitySpec("asset", "USDT", ("USDT",), "#USDT", 30),
     EntitySpec("asset", "USDC", ("USDC",), "#USDC", 30),
+    EntitySpec("asset", "RLUSD", ("RLUSD",), "#RLUSD", 30),
     EntitySpec("topic", "ETF", ("ETF", "exchange-traded fund"), "#ETF", 35),
     EntitySpec("topic", "스테이블코인", ("stablecoin", "stablecoins", "스테이블코인"), "#Stablecoin", 35),
     EntitySpec("topic", "클래리티법안", ("CLARITY Act", "CLARITY", "market structure bill", "시장구조법안", "클래리티법", "클래리티법안"), "#클래리티법안", 25),
@@ -178,6 +190,10 @@ HARD_BLOCK_PATTERNS = (
     r"\bhistoric fork\b",
     r"\bworld foundation\b.{0,80}\b(?:funding|token sale|world id)\b",
     r"\bwld token sale\b",
+    r"\b(?:stock|shares?|preferred stock|sata|strc)\b.{0,70}\b(?:rebound|recovery|recover(?:ed|s)?|rise|rises|gain|gains|upside)\b",
+    r"\b(?:rebound|recovery|recover(?:ed|s)?|rise|rises|gain|gains|upside)\b.{0,70}\b(?:stock|shares?|preferred stock|sata|strc)\b",
+    r"(?:우선주|SATA|STRC).{0,35}(?:반등|회복|주가|액면가|상승)",
+    r"(?:반등|회복|주가|액면가|상승).{0,35}(?:우선주|SATA|STRC)",
     r"\bdex aggregator\b.{0,40}\bshut down\b",
     r"\bprotocol to shut down\b",
     r"\bkazakhstan\b.{0,100}\b(?:crypto|bitcoin|btc)\b.{0,100}\b(?:miner|mining)\b.{0,100}\b(?:electricity|power|energy|tariff|fee|rate)\b",
@@ -215,9 +231,12 @@ CONCRETE_EVENT_PATTERNS = (
     r"\bpartner(?:ed|ship)?\b", r"\bintegrat(?:e|ed|ion)\b",
     r"\bacquir(?:e|ed|es|ing)\b", r"\binvest(?:ed|ment|s)?\b",
     r"\bpatent\b", r"\blicen[cs](?:e|ed|ing)\b", r"\bregister(?:ed|s)?\b",
-    r"\bdisclos(?:e|ed|ure)\b", r"\bpublish(?:ed|es)?\b", r"\bannounce(?:d|s)?\b",
+    r"\bdisclos(?:e|es|ed|ure)\b", r"\bpublish(?:ed|es)?\b", r"\bannounce(?:d|s)?\b",
     r"\bissue(?:d|s|ance)?\b", r"\badopt(?:ed|ion)?\b", r"\bdeploy(?:ed|ment)?\b",
     r"\brestore(?:d|s)?\b", r"\barrest(?:ed|s)?\b", r"\bcharg(?:e|ed|es)\b",
+    r"\b(?:shut(?:s|ting)?\s+down|shutdown|clos(?:e|ed|es|ing|ure))\b",
+    r"\b(?:chapter\s*11|bankruptcy|bankrupt|auction(?:ed|s|ing)?)\b",
+    r"\bmint(?:ed|s|ing)?\b",
     r"\bsue(?:d|s)?\b", r"\blawsuit\b", r"\bsettle(?:d|ment)?\b",
     r"\bhack(?:ed|s)?\b", r"\bexploit(?:ed|s)?\b", r"\brecover(?:ed|y)?\b",
     r"\bsanction(?:ed|s)?\b", r"\bback(?:ed|s|ing)?\b", r"\bsupport(?:ed|s|ing)?\b",
@@ -227,6 +246,7 @@ CONCRETE_EVENT_PATTERNS = (
     r"승인|통과|제출|신청|임명|지명|출시|도입|공개|발표|제휴|협력|통합",
     r"인수|투자|특허|인가|등록|발행|배포|복구|체포|기소|소송|합의|해킹|익스플로잇",
     r"제재|지지|개발|개선|확률.{0,15}(?:하향|낮춤|축소)",
+    r"폐쇄|운영\s*종료|서비스\s*종료|파산|챕터\s*11|경매|민트",
 )
 
 ACTION_PATTERNS = {
@@ -240,16 +260,33 @@ ACTION_PATTERNS = {
     "action_secure": (r"\bsecur(?:e|ed|es|ing)\b", r"\bobtain(?:ed|s)?\b", r"\bwins?\b", r"확보|취득"),
     "action_invest": (r"\binvest(?:ed|ment|s)?\b", r"투자"),
     "action_issue": (r"\bissue(?:d|s|ance)?\b", r"발행"),
-    "action_disclose": (r"\bdisclos(?:e|ed|ure)\b", r"공개|공시"),
+    "action_disclose": (r"\bdisclos(?:e|es|ed|ure)\b", r"공개|공시"),
     "action_restore": (r"\brestore(?:d|s)?\b", r"복구|재개"),
+    "action_bankruptcy": (
+        r"\b(?:file(?:d|s|ing)?\s+for\s+)?(?:chapter\s*11|bankruptcy|bankrupt)\b",
+        r"챕터\s*11|파산\s*보호|파산\s*신청|파산함|파산",
+    ),
+    "action_auction": (r"\bauction(?:ed|s|ing)?\b", r"경매|매각"),
+    "action_publish": (
+        r"\bpublish(?:ed|es|ing)?\b",
+        r"\breleas(?:e|ed|es|ing)\b.{0,25}\breport\b",
+        r"보고서.{0,15}(?:공개|발표|발간)|최종\s*보고서",
+    ),
+    "action_mint": (r"\bmint(?:ed|s|ing)?\b", r"민트|발행"),
     "action_close": (
         r"\b(?:shut(?:s|ting)?\s+down|shutdown|clos(?:e|ed|es|ing|ure)|"
-        r"ceas(?:e|ed|es|ing)\s+operations|terminat(?:e|ed|es|ing|ion)\s+operations)\b",
-        r"폐쇄|운영\s*종료|영구\s*종료|서비스\s*종료",
+        r"ceas(?:e|ed|es|ing)\s+operations|terminat(?:e|ed|es|ing|ion)\s+operations|"
+        r"end(?:s|ed|ing)?\s+(?:service|network|operations))\b",
+        r"폐쇄|운영\s*종료|영구\s*종료|서비스\s*종료|네트워크\s*종료",
     ),
     "action_enforce": (r"\barrest(?:ed|s)?\b", r"\bcharg(?:e|ed|es)\b", r"\bfine(?:d|s)?\b", r"체포|기소|제재|벌금"),
-    "action_sue": (r"\bsue(?:d|s)?\b", r"\blawsuit\b", r"소송|고소"),
-    "action_hack": (r"\bhack(?:ed|s)?\b", r"\bexploit(?:ed|s)?\b", r"해킹|익스플로잇"),
+    "action_sue": (r"\bsue(?:d|s)?\b", r"\blawsuit\b", r"\bclass action\b", r"소송|고소"),
+    "action_hack": (
+        r"\bhack(?:ed|s)?\b",
+        r"\bexploit(?:ed|s)?\b",
+        r"\b(?:hot\s+wallet|crypto\s+wallet)\b.{0,40}\b(?:attack(?:ed)?|drain(?:ed|s)?)\b",
+        r"해킹|익스플로잇|핫월렛.{0,30}(?:공격|탈취)|의심\s*공격",
+    ),
     "action_ban": (r"\bban(?:ned|s)?\b", r"\brestrict(?:ed|s|ion)?\b", r"금지|제한"),
     "action_deny": (r"\bden(?:y|ies|ied)\b", r"\bdisput(?:e|ed|es)\b", r"\brefut(?:e|ed|es)\b", r"부인|반박"),
     "action_convert": (r"\bconvert(?:ed|s|ing)?\b", r"\btransition(?:ed|s|ing)?\b", r"전환"),
@@ -292,10 +329,42 @@ OBJECT_PATTERNS = {
     ),
     "object_shutdown": (
         r"\b(?:shutdown|closure|service termination)\b",
-        r"폐쇄|운영\s*종료|영구\s*종료|서비스\s*종료",
+        r"\bshut(?:s|ting)?\s+down\b.{0,30}\b(?:service|network|operations)\b",
+        r"\bend(?:s|ed|ing)?\s+(?:service|network|operations)\b",
+        r"폐쇄|운영\s*종료|영구\s*종료|서비스\s*종료|네트워크\s*종료",
     ),
     "object_class_action": (r"\bclass action\b", r"\blawsuit\b", r"집단\s*소송"),
     "object_insurance_fund": (r"\binsurance fund\b", r"보험\s*기금"),
+    "object_bankruptcy": (
+        r"\bchapter\s*11\b",
+        r"\bbankruptcy(?:\s+protection)?\b",
+        r"챕터\s*11|파산\s*보호|파산\s*절차|파산\s*신청",
+    ),
+    "object_asset_auction": (r"\basset\s+(?:sale|auction)\b", r"자산\s*(?:매각|경매)"),
+    "object_derivatives": (r"\bderivatives?\b", r"파생상품"),
+    "object_insider_desk": (
+        r"\b(?:secret|insider|internal)\s+(?:trading\s+)?desk\b",
+        r"비밀\s*내부자\s*거래\s*데스크|내부자\s*거래\s*데스크",
+    ),
+    "object_grant_report": (
+        r"\b(?:grant|grant-backed|dev3pack)\b.{0,50}\b(?:final\s+)?report\b",
+        r"\bdev3pack\b",
+        r"보조금.{0,35}(?:최종\s*)?보고서|Dev3pack",
+    ),
+    "object_incubator": (r"\bincubator\b", r"인큐베이터"),
+    "object_network": (r"\bnetwork\b", r"네트워크"),
+    "object_hot_wallet": (r"\bhot\s*wallet\b", r"핫월렛|핫\s*월렛"),
+    "object_etf_holdings": (
+        r"\betf\b.{0,55}\b(?:holding|holdings|shares?|stake)\b",
+        r"\b(?:holding|holdings|shares?|stake)\b.{0,55}\betf\b",
+        r"ETF.{0,35}(?:보유|주식|지분)|(?:보유|주식|지분).{0,35}ETF",
+    ),
+    "object_rlusd": (r"\brlusd\b",),
+    "object_adviser": (
+        r"\b(?:senior\s+)?advis[eo]r\b",
+        r"\badvisory\s+(?:role|post|position)\b",
+        r"고문|자문역|정책\s*자문",
+    ),
 }
 
 GEO_PATTERNS = {
@@ -319,6 +388,7 @@ ASSET_PATTERNS = {
     "asset_stablecoin": (r"\bstablecoin\b", r"스테이블코인"),
     "asset_usdt": (r"(?<![a-z0-9])usdt(?![a-z0-9])",),
     "asset_usdc": (r"(?<![a-z0-9])usdc(?![a-z0-9])",),
+    "asset_rlusd": (r"(?<![a-z0-9])rlusd(?![a-z0-9])",),
     "asset_sol": (r"(?<![a-z0-9])sol(?![a-z0-9])", r"\bsolana\b", r"솔라나"),
 }
 
@@ -341,9 +411,12 @@ PARTICLES = (
 
 
 def _story_text(story: dict) -> str:
+    # Source domains such as crypto.news are not article evidence. Including
+    # the URL here allowed unrelated AI and business stories to pass merely
+    # because the publisher's domain contained the word "crypto".
     return "\n".join(
         str(story.get(key, "") or "")
-        for key in ("title", "desc", "summary", "url")
+        for key in ("title", "desc", "summary")
     )
 
 
@@ -377,6 +450,40 @@ def _is_hard_blocked(story: dict) -> tuple[bool, str]:
     title = str(story.get("title", "") or "")
     if _matches(raw, HARD_BLOCK_PATTERNS):
         return True, "가격/전망/홍보/모음기사"
+
+    aggregate_security_report = (
+        _matches(
+            raw,
+            (
+                r"\b(?:security|scam|phishing|fraud|social engineering)\b",
+                r"보안\s*사고|피싱|사기|사회공학",
+            ),
+        )
+        and _matches(
+            raw,
+            (
+                r"\b(?:first half|second half|h1|h2|annual|quarterly|survey|statistics)\b",
+                r"\b(?:multiple|dozens of|hundreds of)\s+incidents?\b",
+                r"상반기|하반기|연간|분기|다수\s*사고|사고\s*\d+\s*건|집계|통계",
+            ),
+        )
+        and _matches(
+            raw,
+            (
+                r"\b(?:loss|losses|lost|incident|incidents|damage)\b",
+                r"피해|손실|사고",
+            ),
+        )
+        and not _matches(
+            raw,
+            (
+                r"\b(?:arrested|charged|recovered|seized|indicted)\b",
+                r"체포|기소|회수|압수",
+            ),
+        )
+    )
+    if aggregate_security_report:
+        return True, "일반 보안·사기 피해 집계"
 
     kazakhstan_mining_power = (
         _matches(raw, (r"\bkazakhstan\b", r"카자흐스탄"))
@@ -544,21 +651,108 @@ def _proper_entity_tokens(title: str) -> set[str]:
 
 
 def _amount_tokens(raw: str) -> set[str]:
-    low = (raw or "").lower()
-    out = set()
-    patterns = (
-        r"\$?\d+(?:\.\d+)?\s*(?:billion|million)\b",
-        r"\d+(?:,\d{3})+\s*(?:btc|eth|xrp|usdt|usdc)\b",
-        r"\d+(?:\.\d+)?\s*%",
-        r"\d+(?:억|조)\s*(?:달러|원)?",
+    text = raw or ""
+    low = text.lower()
+    out: set[str] = set()
+
+    def add_usd(value: float) -> None:
+        if value >= 1:
+            out.add(f"amount_usd_{int(round(value))}")
+
+    units = {
+        "billion": 1_000_000_000, "bn": 1_000_000_000, "b": 1_000_000_000,
+        "million": 1_000_000, "mn": 1_000_000, "m": 1_000_000,
+        "thousand": 1_000, "k": 1_000,
+    }
+    money_patterns = (
+        r"\$\s*([\d,]+(?:\.\d+)?)\s*(billion|million|thousand|bn|mn|b|m|k)?\b",
+        r"\b([\d,]+(?:\.\d+)?)\s*(billion|million|thousand|bn|mn|b|m|k)"
+        r"\s*(?:usd|dollars?)\b",
     )
-    for pattern in patterns:
-        for match in re.finditer(pattern, low):
-            token = re.sub(r"[^a-z0-9가-힣]+", "", match.group(0))
-            if token:
-                out.add(f"amount_{token[:28]}")
-            if len(out) >= 3:
-                return out
+    for pattern in money_patterns:
+        for match in re.finditer(pattern, low, re.I):
+            number = float(match.group(1).replace(",", ""))
+            add_usd(number * units.get((match.group(2) or "").lower(), 1))
+
+    for match in re.finditer(
+        r"(\d+(?:\.\d+)?)\s*억(?:\s*(\d+(?:\.\d+)?)\s*만)?\s*달러",
+        text,
+    ):
+        value = float(match.group(1)) * 100_000_000
+        if match.group(2):
+            value += float(match.group(2)) * 10_000
+        add_usd(value)
+    for match in re.finditer(r"(\d+(?:\.\d+)?)\s*만\s*(\d{1,4})?\s*달러", text):
+        value = float(match.group(1)) * 10_000
+        if match.group(2):
+            value += int(match.group(2))
+        add_usd(value)
+
+    for match in re.finditer(
+        r"(\d[\d,]*(?:\.\d+)?)\s*(btc|eth|xrp|usdt|usdc|rlusd)\b",
+        low,
+        re.I,
+    ):
+        value = float(match.group(1).replace(",", ""))
+        asset = match.group(2).lower()
+        exact = int(round(value))
+        out.add(f"amount_{asset}_{exact}")
+        if value >= 1_000:
+            out.add(f"amount_{asset}_approx_{int(round(value / 100) * 100)}")
+        elif value >= 100:
+            out.add(f"amount_{asset}_approx_{int(round(value / 10) * 10)}")
+
+    for match in re.finditer(r"\b(\d[\d,]*)\s*(?:shares?|units?)\b", low):
+        out.add(f"count_shares_{int(match.group(1).replace(',', ''))}")
+    for match in re.finditer(r"(?:(\d+)\s*만)?\s*(\d{1,4})\s*주\b", text):
+        value = int(match.group(2)) + (int(match.group(1) or 0) * 10_000)
+        out.add(f"count_shares_{value}")
+
+    count_patterns = (
+        (r"\b([\d,]+)\s*developers?\b", "developers"),
+        (r"\b([\d,]+)\s*teams?\b", "teams"),
+        (r"개발자\s*([\d,]+)\s*명", "developers"),
+        (r"([\d,]+)\s*개\s*팀", "teams"),
+    )
+    for pattern, label in count_patterns:
+        for match in re.finditer(pattern, text, re.I):
+            out.add(f"count_{label}_{int(match.group(1).replace(',', ''))}")
+
+    for match in re.finditer(r"\d+(?:\.\d+)?\s*%", low):
+        value = match.group(0).replace(" ", "").replace("%", "")
+        out.add(f"amount_pct_{value}")
+
+    return set(sorted(out)[:12])
+
+
+def _period_tokens(raw: str) -> set[str]:
+    text = raw or ""
+    out = set()
+    for match in re.finditer(
+        r"\b(20\d{2})\s*(?:q([1-4])|(?:first|second|third|fourth)\s+quarter|h([12])|"
+        r"(?:first|second)\s+half)\b",
+        text,
+        re.I,
+    ):
+        value = match.group(0).lower()
+        year = match.group(1)
+        quarter_words = {"first": 1, "second": 2, "third": 3, "fourth": 4}
+        if match.group(2):
+            out.add(f"period_{year}_q{match.group(2)}")
+        elif "quarter" in value:
+            word = next((key for key in quarter_words if key in value), "")
+            if word:
+                out.add(f"period_{year}_q{quarter_words[word]}")
+        elif match.group(3):
+            out.add(f"period_{year}_h{match.group(3)}")
+        elif "first half" in value:
+            out.add(f"period_{year}_h1")
+        elif "second half" in value:
+            out.add(f"period_{year}_h2")
+    for match in re.finditer(r"\b(20\d{2})년\s*([1-4])분기", text):
+        out.add(f"period_{match.group(1)}_q{match.group(2)}")
+    for match in re.finditer(r"\b(20\d{2})년\s*(상반기|하반기)", text):
+        out.add(f"period_{match.group(1)}_{'h1' if match.group(2) == '상반기' else 'h2'}")
     return out
 
 
@@ -600,6 +794,7 @@ def _event_tokens(story: dict) -> set[str]:
     tokens |= _collect_pattern_tokens(raw, ASSET_PATTERNS)
     tokens |= _amount_tokens(raw)
     tokens |= _date_tokens(raw)
+    tokens |= _period_tokens(raw)
     return tokens
 
 
@@ -641,6 +836,7 @@ def _same_event(cur_signature: str, old_signature: str) -> bool:
     assets = {t for t in shared if t.startswith("asset_")}
     amounts = {t for t in shared if t.startswith("amount_")}
     dates = {t for t in shared if t.startswith("date_")}
+    periods = {t for t in shared if t.startswith("period_")}
 
     # A named company's shutdown is one event even when one source focuses on
     # withdrawals and another on the insurance fund or related class action.
@@ -657,11 +853,44 @@ def _same_event(cur_signature: str, old_signature: str) -> bool:
     ):
         return True
 
-    # The stable core is subject + action + object.  Region, amount, or asset
-    # provides extra confidence when only one subject is shared.
-    if entities and actions and objects and (geos or assets or amounts or dates or len(entities) >= 2):
+    specific_objects = {
+        "object_bankruptcy",
+        "object_class_action",
+        "object_shutdown",
+        "object_grant_report",
+        "object_hot_wallet",
+        "object_rlusd",
+        "object_adviser",
+        "object_insider_desk",
+        "object_patent",
+    }
+    if entities and actions and objects & specific_objects:
         return True
-    if len(entities) >= 2 and objects and (actions or geos or amounts):
+
+    if (
+        entities
+        and actions
+        and "object_etf_holdings" in objects
+        and (assets or amounts or periods)
+    ):
+        return True
+
+    if (
+        entities
+        and "action_invest" in actions
+        and objects
+        and (amounts or len(entities) >= 2)
+    ):
+        return True
+
+    # The stable core is subject + action + object.  Region, amount, or asset
+    # provides extra confidence when only one subject is shared. Two distinct
+    # boosters are required for generic objects to avoid merging unrelated
+    # launches or disclosures by the same company.
+    boosters = sum(bool(group) for group in (geos, assets, amounts, dates, periods))
+    if entities and actions and objects and (boosters >= 2 or len(entities) >= 2):
+        return True
+    if len(entities) >= 2 and objects and (actions or geos or amounts or periods):
         return True
     # Public-policy stories may name a regulator differently across sources.
     if actions and objects and geos and (amounts or assets):
@@ -1170,5 +1399,5 @@ def install_editor_overrides(runtime: dict) -> None:
     runtime["is_semantically_duplicate"] = is_semantically_duplicate
     runtime["format_summary_for_telegram"] = format_summary_for_telegram
     runtime["build_message"] = build_message
-    runtime["DOORINEWS_EDITOR_VERSION"] = "2026-07-25"
-    _log("[편집엔진] doorinews_editor 2026-07-25 적용")
+    runtime["DOORINEWS_EDITOR_VERSION"] = "2026-07-26"
+    _log("[편집엔진] doorinews_editor 2026-07-26 적용")

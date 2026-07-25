@@ -3719,11 +3719,11 @@ def main():
     posted = state.get('posted', {})
 
     before_cnt = len(posted)
-    posted = prune_posted_older_than(posted, days=7)
+    posted = prune_posted_older_than(posted, days=30)
     after_cnt = len(posted)
     state['posted'] = posted
     save_state(STATE_FILE, state)
-    log(f"[state 정리] 7일 초과 삭제: {before_cnt - after_cnt}개 / 유지: {after_cnt}개")
+    log(f"[state 정리] 30일 초과 삭제: {before_cnt - after_cnt}개 / 유지: {after_cnt}개")
 
     collected = []
 
