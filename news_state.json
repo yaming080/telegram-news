@@ -923,6 +923,13 @@
       "signature": "action_launch | action_support | amount_72 | asset_stablecoin | asset_xrp | entity_리플 | object_etf | object_payment",
       "canonical_key": "action_launch | action_support | amount_72 | asset_stablecoin | asset_xrp | entity_리플 | object_etf | object_payment",
       "ts": "2026-07-25T12:00:56.299703+00:00"
+    },
+    "c483a113985e": {
+      "title": "프랙스, 모포 대출시장 검토…bdUSD·frxUSD 유동성 확대될까",
+      "url": "www.tokenpost.kr/news/cryptocurrency/381283",
+      "signature": "action_acquire | action_issue | action_launch | action_secure | asset_stablecoin | object_lending",
+      "canonical_key": "action_acquire | action_issue | action_launch | action_secure | asset_stablecoin | object_lending",
+      "ts": "2026-07-25T13:01:18.648016+00:00"
     }
   }
 }
