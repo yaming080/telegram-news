@@ -972,6 +972,13 @@
       "signature": "action_approve | action_file | asset_stablecoin | entity_occ | geo_us | object_license | object_payment | object_stablecoin_bill | object_trust",
       "canonical_key": "action_approve | action_file | asset_stablecoin | entity_occ | geo_us | object_license | object_payment | object_stablecoin_bill | object_trust",
       "ts": "2026-07-25T17:01:24.731607+00:00"
+    },
+    "790088a7233c": {
+      "title": "Tether funded both sides of its own chain war",
+      "url": "crypto.news/tether-stable-plasma-chain-war",
+      "signature": "action_support | amount_usd_2900000000 | amount_usd_373000000 | asset_stablecoin | entity_테더",
+      "canonical_key": "action_support | amount_usd_2900000000 | amount_usd_373000000 | asset_stablecoin | entity_테더",
+      "ts": "2026-07-25T18:00:48.492059+00:00"
     }
   }
 }
