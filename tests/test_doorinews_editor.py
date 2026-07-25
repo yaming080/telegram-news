@@ -296,6 +296,159 @@ class DoorinewsEditorTests(unittest.TestCase):
         self.assertIn("은행 계좌", cleaned)
         self.assertIn("페이퍼 컴퍼니", cleaned)
 
+    def test_source_domain_does_not_create_crypto_context(self):
+        story = {
+            "title": "Nvidia, Microsoft, Meta and IBM disclose AI training data",
+            "desc": "Technology companies answered a US congressional inquiry about AI models",
+            "url": "https://crypto.news/nvidia-microsoft-ai-training-data/",
+        }
+        blocked, reason = editor._is_hard_blocked(story)
+        self.assertTrue(blocked)
+        self.assertIn("암호화폐 핵심맥락 없음", reason)
+
+    def test_aggregate_web3_scam_report_is_blocked(self):
+        story = {
+            "title": "OKX H1 2026 Web3 security report reveals phishing losses",
+            "desc": "The report counted 182 incidents and $94.56 million in scam losses",
+        }
+        blocked, reason = editor._is_hard_blocked(story)
+        self.assertTrue(blocked)
+        self.assertIn("보안", reason)
+
+    def test_strategy_preferred_stock_rebound_is_blocked(self):
+        story = {
+            "title": "Strategy preferred stock SATA rebounds 16% toward par value",
+            "desc": "The shares recovered from a June low as investors reassessed the stock",
+        }
+        blocked, _ = editor._is_hard_blocked(story)
+        self.assertTrue(blocked)
+
+    def test_screenshot_duplicate_event_pairs(self):
+        pairs = (
+            (
+                "poolin_bankruptcy",
+                {
+                    "title": "Poolin files for Chapter 11 bankruptcy with two US affiliates",
+                    "desc": "The Bitcoin mining pool plans an asset auction after filing for protection",
+                },
+                {
+                    "title": "비트코인 채굴풀 풀린, 미국 계열사와 챕터11 파산보호 신청",
+                    "desc": "풀린은 채굴 자산 매각과 사업 종료를 추진함",
+                },
+            ),
+            (
+                "citadel_investment",
+                {
+                    "title": "Citadel Securities invests $400 million in crypto derivatives infrastructure",
+                    "desc": "The market maker backed an expansion of digital asset products",
+                },
+                {
+                    "title": "시타델 증권, 암호화폐 파생상품 인프라에 4억달러 투자",
+                    "desc": "시타델증권은 디지털자산 사업 확대를 추진함",
+                },
+            ),
+            (
+                "bitmex_class_action",
+                {
+                    "title": "BitMEX customers file class action over secret insider trading desk",
+                    "desc": "Plaintiffs including former clients claim about 623 BTC in losses",
+                },
+                {
+                    "title": "비트멕스 고객 2명, 내부자 거래 의혹 집단소송 제기",
+                    "desc": "원고는 622.66BTC를 잃었다고 주장함",
+                },
+            ),
+            (
+                "arbitrum_dev3pack",
+                {
+                    "title": "Arbitrum publishes final Dev3pack grant report",
+                    "desc": "The report records 1,018 developers and nine teams entering the Uniswap incubator",
+                },
+                {
+                    "title": "아비트럼, 보조금 기반 Dev3pack 최종 보고서 공개",
+                    "desc": "개발자 1,018명과 9개 팀의 유니스왑 인큐베이터 진입 성과를 밝힘",
+                },
+            ),
+            (
+                "tango_shutdown",
+                {
+                    "title": "DEX Tango to shut down its network on August 13, 2026",
+                    "desc": "The derivatives service is ending four months after launch",
+                },
+                {
+                    "title": "파생상품 DEX 탱고, 2026년 8월 13일 네트워크 종료",
+                    "desc": "출시 약 4개월 만에 서비스를 종료함",
+                },
+            ),
+            (
+                "ripple_rlusd",
+                {
+                    "title": "Ripple launches RLUSD mint as banks expand adoption",
+                    "desc": "Ripple introduced new RLUSD issuance functions",
+                },
+                {
+                    "title": "리플, RLUSD 민트 출시",
+                    "desc": "은행 채택 확대에 맞춰 RLUSD 발행 기능을 공개함",
+                },
+            ),
+            (
+                "triplea_hot_wallet",
+                {
+                    "title": "Triple-A hot wallet attack drains $9.7 million",
+                    "desc": "The suspected exploit moved 5,226.66 ETH",
+                },
+                {
+                    "title": "트리플A 핫월렛 의심 공격으로 970만달러 유출",
+                    "desc": "수신 주소에 약 5,226.66ETH가 모임",
+                },
+            ),
+            (
+                "franklin_xrp_etf_holdings",
+                {
+                    "title": "Ledger Capital discloses 16,745 shares of Franklin Templeton XRP ETF in 2026 Q2",
+                    "desc": "The stake was valued at $206,000",
+                },
+                {
+                    "title": "레저캐피털매니지먼트, 2026년 2분기 프랭클린템플턴 XRP ETF 1만6745주 보유 공개",
+                    "desc": "평가액은 20만6000달러로 집계됨",
+                },
+            ),
+            (
+                "state_department_adviser",
+                {
+                    "title": "US State Department appoints Bitcoin Policy Institute partner as adviser",
+                    "desc": "The appointment adds a crypto policy specialist to the department",
+                },
+                {
+                    "title": "미국 국무부, 비트코인정책연구소 파트너를 새 자문역으로 지명",
+                    "desc": "암호화폐 정책 전문가가 국무부에 합류함",
+                },
+            ),
+        )
+        for name, first_story, second_story in pairs:
+            with self.subTest(name=name):
+                first = editor.build_story_signature(first_story)
+                second = editor.build_story_signature(second_story)
+                self.assertTrue(first)
+                self.assertTrue(second)
+                self.assertTrue(
+                    editor._same_event(first, second),
+                    msg=f"{name}\n{first}\n{second}",
+                )
+
+    def test_cross_language_amounts_are_normalized(self):
+        comparisons = (
+            ("$400 million", "4억달러", "amount_usd_400000000"),
+            ("$9.7M", "970만달러", "amount_usd_9700000"),
+            ("$206,000", "20만6000달러", "amount_usd_206000"),
+        )
+        for english, korean, expected in comparisons:
+            with self.subTest(expected=expected):
+                self.assertIn(expected, editor._amount_tokens(english))
+                self.assertIn(expected, editor._amount_tokens(korean))
+        self.assertIn("amount_btc_approx_620", editor._amount_tokens("623 BTC"))
+        self.assertIn("amount_btc_approx_620", editor._amount_tokens("622.66BTC"))
+
     def test_first_ripple_mention_only_is_tagged(self):
         story = {
             "title": "Ripple launches institutional RLUSD platform",
