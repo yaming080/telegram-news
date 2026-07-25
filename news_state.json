@@ -930,6 +930,27 @@
       "signature": "action_acquire | action_issue | action_launch | action_secure | asset_stablecoin | object_lending",
       "canonical_key": "action_acquire | action_issue | action_launch | action_secure | asset_stablecoin | object_lending",
       "ts": "2026-07-25T13:01:18.648016+00:00"
+    },
+    "2ad6b3063518": {
+      "title": "North Korea arrests bank hacking ring tied to crypto laundering: Report",
+      "url": "cointelegraph.com/news/north-korea-bank-hacking-ring-crypto-laundering-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-25T14:01:08.071674+00:00"
+    },
+    "c2e71c1dd6d3": {
+      "title": "프랙스, 이더리움 락업 조기해제 논의…4% 수수료 적정성 주목",
+      "url": "www.tokenpost.kr/news/blockchain/381284",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-25T14:01:12.200135+00:00"
+    },
+    "ae6460fbc612": {
+      "title": "ARK Invest buys $251K of BitMine, Solana ETF",
+      "url": "crypto.news/ark-invest-buys-251k-dollars-of-bitmine-solana-etf",
+      "signature": "action_invest | asset_sol | entity_비트마인 | object_etf",
+      "canonical_key": "action_invest | asset_sol | entity_비트마인 | object_etf",
+      "ts": "2026-07-25T14:01:15.564873+00:00"
     }
   }
 }
