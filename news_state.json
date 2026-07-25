@@ -1,12 +1,5 @@
 {
   "posted": {
-    "ef9b97c59d03": {
-      "title": "SEC Crypto Rulemaking Enters White House Review As Industry Waits For Details",
-      "url": "bitcoinist.com/sec-crypto-rulemaking-enters-white-house-review-as-industry-waits-for-details",
-      "signature": "entity_industrywaitsfordetails | entity_sec | entity_seccryptorulemakingenters | entity_whitehousereviewas | eventfp_entity_industrywaitsfordetails_entity_sec_entity_seccryptorulemakingenters_entity_whitehousereviewas",
-      "canonical_key": "entity_industrywaitsfordetails | entity_sec | entity_seccryptorulemakingenters | entity_whitehousereviewas | eventfp_entity_industrywaitsfordetails_entity_sec_entity_seccryptorulemakingenters_entity_whitehousereviewas",
-      "ts": "2026-07-18T00:01:13.078951+00:00"
-    },
     "7a7d8a095bb3": {
       "title": "SEC E-Delivery Proposal Moves Fund Disclosures Further Into The Digital Era",
       "url": "bitcoinist.com/sec-e-delivery-proposal-moves-fund-disclosures-further-into-the-digital-era",
@@ -783,6 +776,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-07-24T23:01:02.906466+00:00"
+    },
+    "b8712fe6727e": {
+      "title": "써클 인터넷 그룹 주가 6% 급락, ARK는 8백만 달러 매수로 대응",
+      "url": "www.tokenpost.kr/news/cryptocurrency/381178",
+      "signature": "action_disclose | action_invest | amount_6 | amount_61 | entity_sec | object_disclosure",
+      "canonical_key": "action_disclose | action_invest | amount_6 | amount_61 | entity_sec | object_disclosure",
+      "ts": "2026-07-25T00:02:08.590419+00:00"
+    },
+    "1dc69d4d0880": {
+      "title": "IREN, AI 클라우드 계약 발표 후 주가 변동성 확대",
+      "url": "www.tokenpost.kr/news/cryptocurrency/381177",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-25T00:02:12.279165+00:00"
     }
   }
 }
