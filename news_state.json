@@ -790,6 +790,41 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-07-25T00:02:12.279165+00:00"
+    },
+    "8775425f0994": {
+      "title": "솔라나 가격 하락에도 생태계는 확장 중: USDC 발행 증가",
+      "url": "www.tokenpost.kr/news/cryptocurrency/381192",
+      "signature": "action_issue | amount_2억 | amount_31 | amount_38 | asset_sol | asset_usdc | entity_usdc",
+      "canonical_key": "action_issue | amount_2억 | amount_31 | amount_38 | asset_sol | asset_usdc | entity_usdc",
+      "ts": "2026-07-25T01:00:57.915215+00:00"
+    },
+    "35aaf473937b": {
+      "title": "Former Bitcoin Mining Giant Poolin Files Chapter 11, Targets $52M Texas Asset Sale",
+      "url": "coinedition.com/crypto-live-news/former-bitcoin-mining-giant-poolin-files-chapter-11-targets-52m-texas-asset-sale",
+      "signature": "action_file | amount_100million | amount_500million | asset_btc | object_sale",
+      "canonical_key": "action_file | amount_100million | amount_500million | asset_btc | object_sale",
+      "ts": "2026-07-25T01:01:05.715788+00:00"
+    },
+    "e9f9b0c77b42": {
+      "title": "Arthur Hayes, BitMEX Co-Founders Sued Over Alleged Insider Trading Scheme",
+      "url": "coinedition.com/crypto-live-news/arthur-hayes-bitmex-co-founders-sued-over-alleged-insider-trading-scheme",
+      "signature": "action_close | action_sue | entity_비트멕스 | entity_아서헤이즈 | object_class_action",
+      "canonical_key": "action_close | action_sue | entity_비트멕스 | entity_아서헤이즈 | object_class_action",
+      "ts": "2026-07-25T01:01:14.906550+00:00"
+    },
+    "a1e26a11c161": {
+      "title": "Nvidia, Microsoft and Tech Leaders Urge Lawmakers to Protect Open AI Models",
+      "url": "coinedition.com/crypto-live-news/nvidia-microsoft-and-tech-leaders-urge-lawmakers-to-protect-open-ai-models",
+      "signature": "action_develop | action_support | entity_마이크로소프트 | geo_us",
+      "canonical_key": "action_develop | action_support | entity_마이크로소프트 | geo_us",
+      "ts": "2026-07-25T01:01:22.388131+00:00"
+    },
+    "70c47873e5e5": {
+      "title": "Citadel Securities’ $400M Crypto.com Deal Signals Wall Street Crypto Expansion",
+      "url": "coinedition.com/citadel-securities-400m-crypto-com-deal-signals-wall-street-crypto-expansion",
+      "signature": "action_invest | action_launch | amount_20billion | amount_400million | object_infrastructure",
+      "canonical_key": "action_invest | action_launch | amount_20billion | amount_400million | object_infrastructure",
+      "ts": "2026-07-25T01:01:36.080943+00:00"
     }
   }
 }
