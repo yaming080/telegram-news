@@ -1,19 +1,5 @@
 {
   "posted": {
-    "712aa3237ae5": {
-      "title": "French gambling regulator orders ISPs to block Polymarket",
-      "url": "cointelegraph.com/news/french-gambling-authority-blocks-polymarket?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "entity_french | entity_isps | entity_polymarket | entity_폴리마켓",
-      "canonical_key": "entity_french | entity_isps | entity_polymarket | entity_폴리마켓",
-      "ts": "2026-07-18T11:01:03.542601+00:00"
-    },
-    "2fb44542f6e4": {
-      "title": "North Korean operative accessed MetaMask code before being caught",
-      "url": "www.cryptopolitan.com/north-korean-dev-metamask-code-being-caught",
-      "signature": "act_move | entity_metamask | entity_northkorean | entity_메타마스크 | eventfp_entity_northkorean_entity_메타마스크_geo_korea_topic_wallet | geo_korea | topic_wallet",
-      "canonical_key": "entity_northkorean | entity_메타마스크 | eventfp_entity_northkorean_entity_메타마스크_geo_korea_topic_wallet | geo_korea | topic_wallet",
-      "ts": "2026-07-18T11:01:26.046553+00:00"
-    },
     "f29e7c2af6e4": {
       "title": "Chamath Palihapitiya asks who's really cashing in on the AI boom?",
       "url": "www.cryptopolitan.com/chamath-palihapitiya-questions-ai-boom",
@@ -930,6 +916,13 @@
       "signature": "action_support | asset_btc | object_sale",
       "canonical_key": "action_support | asset_btc | object_sale",
       "ts": "2026-07-25T11:01:54.585105+00:00"
+    },
+    "11ac0f1b48c5": {
+      "title": "리플 사업 확장에도 XRP는 제자리…장기 횡보 전망까지",
+      "url": "www.tokenpost.kr/news/cryptocurrency/381276",
+      "signature": "action_launch | action_support | amount_72 | asset_stablecoin | asset_xrp | entity_리플 | object_etf | object_payment",
+      "canonical_key": "action_launch | action_support | amount_72 | asset_stablecoin | asset_xrp | entity_리플 | object_etf | object_payment",
+      "ts": "2026-07-25T12:00:56.299703+00:00"
     }
   }
 }
