@@ -1,12 +1,5 @@
 {
   "posted": {
-    "1c84909e0704": {
-      "title": "FTX to Pay Creditors Another $900 Million: Here’s Who Gets the Money",
-      "url": "cryptopotato.com/ftx-to-pay-creditors-another-900-million-heres-who-gets-the-money",
-      "signature": "entity_ftx | entity_here | entity_million | entity_money | entity_paycreditorsanother | entity_whogets",
-      "canonical_key": "entity_ftx | entity_here | entity_million | entity_money | entity_paycreditorsanother | entity_whogets",
-      "ts": "2026-07-18T06:01:02.881260+00:00"
-    },
     "b4fc585d97cc": {
       "title": "Malaysia Blockchain Week 2026 Positions Kuala Lumpur as APAC’s Emerging Web3 and AI Hub For Global Builders, Capital, and Innovation",
       "url": "thenewscrypto.com/malaysia-blockchain-week-2026-positions-kuala-lumpur-as-apacs-emerging-web3-and-ai-hub-for-global-builders-capital-and-innovation",
@@ -839,6 +832,20 @@
       "signature": "action_develop | action_issue | asset_btc | entity_bip361",
       "canonical_key": "action_develop | action_issue | asset_btc | entity_bip361",
       "ts": "2026-07-25T06:01:19.749243+00:00"
+    },
+    "5306009628d0": {
+      "title": "트리플A, 멀티체인 핫월렛 해킹으로 970만달러 피해",
+      "url": "www.tokenpost.kr/news/cryptocurrency/381234",
+      "signature": "action_hack | asset_eth | asset_sol | asset_stablecoin | entity_리플 | object_infrastructure | object_payment | object_sale | object_wallet",
+      "canonical_key": "action_hack | asset_eth | asset_sol | asset_stablecoin | entity_리플 | object_infrastructure | object_payment | object_sale | object_wallet",
+      "ts": "2026-07-25T07:01:20.004398+00:00"
+    },
+    "c59a0a595d72": {
+      "title": "아비트럼 개발자 지원 성과 공개…1,018명 등록·9개 팀 인큐베이터 진입",
+      "url": "www.tokenpost.kr/news/blockchain/381230",
+      "signature": "action_develop | action_disclose | action_launch | object_disclosure",
+      "canonical_key": "action_develop | action_disclose | action_launch | object_disclosure",
+      "ts": "2026-07-25T07:01:24.120267+00:00"
     }
   }
 }
