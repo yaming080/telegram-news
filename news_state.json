@@ -1,12 +1,5 @@
 {
   "posted": {
-    "c5aeb1863d30": {
-      "title": "Etched books $1 billion in orders, taking aim at Nvidia on AI inference",
-      "url": "www.cryptopolitan.com/etched-books-1-billion-in-orders-taking-aim-at-nvidia-on-ai-inference",
-      "signature": "act_bill | ent_nvidia | entity_ai | entity_etched | entity_nvidia | eventfp_entity_ai_entity_etched_entity_nvidia_topic_bill | evt_iren_nvidia | num_1 | topic_bill",
-      "canonical_key": "entity_ai | entity_etched | entity_nvidia | eventfp_entity_ai_entity_etched_entity_nvidia_topic_bill | topic_bill",
-      "ts": "2026-07-18T03:01:16.836276+00:00"
-    },
     "1c84909e0704": {
       "title": "FTX to Pay Creditors Another $900 Million: Here’s Who Gets the Money",
       "url": "cryptopotato.com/ftx-to-pay-creditors-another-900-million-heres-who-gets-the-money",
