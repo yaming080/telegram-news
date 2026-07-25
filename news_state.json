@@ -951,6 +951,20 @@
       "signature": "action_invest | asset_sol | entity_비트마인 | object_etf",
       "canonical_key": "action_invest | asset_sol | entity_비트마인 | object_etf",
       "ts": "2026-07-25T14:01:15.564873+00:00"
+    },
+    "144bb4abb08e": {
+      "title": "대고, 거래 중단 이어 레이어1 종료…몇 달 만에 셧다운 공식화",
+      "url": "www.tokenpost.kr/news/blockchain/381289",
+      "signature": "action_close | action_develop | action_launch | object_platform | object_shutdown",
+      "canonical_key": "action_close | action_develop | action_launch | object_platform | object_shutdown",
+      "ts": "2026-07-25T15:00:53.319271+00:00"
+    },
+    "c17290405047": {
+      "title": "바이낸스 리서치 “Z세대, 밈보다 엔비디아…주식·AI로 먼저 간다”",
+      "url": "www.tokenpost.kr/news/insights/381287",
+      "signature": "action_invest | amount_15 | amount_30 | amount_9 | entity_바이낸스",
+      "canonical_key": "action_invest | amount_15 | amount_30 | amount_9 | entity_바이낸스",
+      "ts": "2026-07-25T15:00:57.184482+00:00"
     }
   }
 }
