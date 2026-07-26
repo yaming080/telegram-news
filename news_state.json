@@ -1070,6 +1070,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-07-26T08:01:12.305014+00:00"
+    },
+    "46ab8e7f7325": {
+      "title": "암호화폐 거래소, 중국 AI 주식 우회 투자 통로로 부상",
+      "url": "www.tokenpost.kr/news/blockchain/381407",
+      "signature": "action_disclose | action_invest | action_launch | amount_usd_10000000000 | amount_usd_19000000 | object_derivatives | object_disclosure | object_platform",
+      "canonical_key": "action_disclose | action_invest | action_launch | amount_usd_10000000000 | amount_usd_19000000 | object_derivatives | object_disclosure | object_platform",
+      "ts": "2026-07-26T09:01:32.020014+00:00"
+    },
+    "81169f9500fe": {
+      "title": "Top 10 Crypto Exchange by Trading Volume Suddenly Shuts Down",
+      "url": "u.today/top-10-crypto-exchange-by-trading-volume-suddenly-shuts-down",
+      "signature": "action_close | entity_cryptoexchange | object_platform",
+      "canonical_key": "action_close | entity_cryptoexchange | object_platform",
+      "ts": "2026-07-26T09:01:35.412519+00:00"
     }
   }
 }
