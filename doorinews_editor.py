@@ -8,6 +8,7 @@ remain in ``doorinews_bot.py``.
 from __future__ import annotations
 
 import html
+import hashlib
 import re
 from dataclasses import dataclass
 from difflib import SequenceMatcher
@@ -116,6 +117,8 @@ ENTITY_SPECS = (
     EntitySpec("org", "레저캐피털매니지먼트", ("Ledger Capital Management", "레저 캐피털 매니지먼트", "레저캐피털매니지먼트"), "#LedgerCapitalManagement", 20),
     EntitySpec("org", "비트코인정책연구소", ("Bitcoin Policy Institute", "BPI", "비트코인정책연구소"), "#BitcoinPolicyInstitute", 20),
     EntitySpec("org", "미국국무부", ("U.S. State Department", "US State Department", "State Department", "미국 국무부", "국무부"), "#USStateDepartment", 20),
+    EntitySpec("org", "스베르방크", ("Sberbank", "Sber Bank", "스베르방크"), "#Sberbank", 20),
+    EntitySpec("org", "SK하이닉스", ("SK hynix", "SK Hynix", "SK하이닉스"), "#SKHynix", 20),
     # People.
     EntitySpec("person", "저스틴선", ("Justin Sun", "저스틴 선", "저스틴선"), "#JustinSun", 15),
     EntitySpec("person", "아서헤이즈", ("Arthur Hayes", "아서 헤이즈", "아서헤이즈"), "#ArthurHayes", 15),
@@ -144,6 +147,7 @@ ENTITY_SPECS = (
     EntitySpec("asset", "RLUSD", ("RLUSD",), "#RLUSD", 30),
     EntitySpec("topic", "ETF", ("ETF", "exchange-traded fund"), "#ETF", 35),
     EntitySpec("topic", "스테이블코인", ("stablecoin", "stablecoins", "스테이블코인"), "#Stablecoin", 35),
+    EntitySpec("topic", "토큰화", ("tokenization", "tokenized", "토큰화"), "#Tokenization", 35),
     EntitySpec("topic", "클래리티법안", ("CLARITY Act", "CLARITY", "market structure bill", "시장구조법안", "클래리티법", "클래리티법안"), "#클래리티법안", 25),
     EntitySpec("topic", "지니어스법안", ("GENIUS Act", "지니어스법안"), "#GeniusAct", 25),
     EntitySpec("topic", "AI", ("artificial intelligence", "AI", "인공지능"), "#AI", 40),
@@ -194,6 +198,13 @@ HARD_BLOCK_PATTERNS = (
     r"\b(?:rebound|recovery|recover(?:ed|s)?|rise|rises|gain|gains|upside)\b.{0,70}\b(?:stock|shares?|preferred stock|sata|strc)\b",
     r"(?:우선주|SATA|STRC).{0,35}(?:반등|회복|주가|액면가|상승)",
     r"(?:반등|회복|주가|액면가|상승).{0,35}(?:우선주|SATA|STRC)",
+    r"\b(?:tokens?|coins?|cryptocurrenc(?:y|ies)|altcoins?)\b.{0,100}\b(?:trade|trades|trading)\b.{0,45}\bbelow\b.{0,35}\b(?:launch|listing|debut|issue)\s+price\b",
+    r"\b(?:launch|listing|debut|issue)\s+price\b.{0,70}\b(?:below|underperform|outperform)\b",
+    r"(?:암호화폐|토큰|알트코인).{0,55}출시가(?:보다|를|에).{0,35}(?:낮|밑|아래|웃돌)",
+    r"(?:출시가를\s*웃도는\s*비중|대부분.{0,35}출시가.{0,25}(?:낮|아래|밑))",
+    r"\b(?:bitcoin|btc|ethereum|eth|xrp)\b.{0,40}\b(?:holds?|defends?|maintains?)\b.{0,25}\$?[\d,]+",
+    r"\b(?:weekend\s+(?:market\s+)?focus|meme(?:coin)?s?\b.{0,35}\b(?:leads?|outperform))\b",
+    r"(?:비트코인|BTC|이더리움|ETH|XRP).{0,35}\d[\d,]*\s*달러.{0,25}(?:지지|유지|방어)",
     r"\bdex aggregator\b.{0,40}\bshut down\b",
     r"\bprotocol to shut down\b",
     r"\bkazakhstan\b.{0,100}\b(?:crypto|bitcoin|btc)\b.{0,100}\b(?:miner|mining)\b.{0,100}\b(?:electricity|power|energy|tariff|fee|rate)\b",
@@ -217,11 +228,54 @@ HARD_BLOCK_PATTERNS = (
     r"베어마켓|약세장.{0,20}(?:종료|회복)",
 )
 
+TECHNICAL_SUMMARY_PATTERNS = (
+    r"\b(?:support|resistance)\s+level\b",
+    r"\b(?:bitcoin|btc|ethereum|eth|xrp)\b.{0,45}\b(?:holds?|defends?|maintains?)\b.{0,25}\$?[\d,]+",
+    r"\bweekend\s+(?:market\s+)?focus\b",
+    r"지지선|저항선",
+    r"(?:비트코인|BTC|이더리움|ETH|XRP).{0,35}\d[\d,]*\s*달러.{0,25}(?:지지|유지|방어)",
+    r"(?:가격|시장).{0,20}(?:지키는|지켰|방어).{0,20}(?:가운데|반면)",
+    r"주말\s*시장의?\s*(?:중심|주도)",
+)
+
 CRYPTO_CORE_PATTERNS = (
     r"\bbitcoin\b", r"\bbtc\b", r"\bethereum\b", r"\beth\b", r"\bxrp\b",
     r"\bxrpl\b", r"\bcrypto(?:currency)?\b", r"\bblockchain\b", r"\bstablecoin\b",
     r"\busdt\b", r"\busdc\b", r"\bdefi\b", r"\bweb3\b", r"\btokenization\b",
     r"비트코인|이더리움|암호화폐|블록체인|스테이블코인|토큰화|디지털자산",
+)
+
+# DooriNews now follows only the assets explicitly selected by the operator.
+# Publisher names, generic "crypto" wording, and the fixed #BTC footer are not
+# evidence that an article belongs to this list.
+TARGET_ASSET_PATTERNS = {
+    "BTC": (r"(?<![a-z0-9])btc(?![a-z0-9])", r"\bbitcoin\b", r"비트코인"),
+    "ETH": (r"(?<![a-z0-9])eth(?![a-z0-9])", r"\bethereum\b", r"이더리움(?!\s*클래식)"),
+    "XRP": (r"(?<![a-z0-9])xrp(?![a-z0-9])", r"\bripple\b", r"\bxrpl\b", r"\bxrp ledger\b", r"리플|엑스알피"),
+    "XLM": (r"(?<![a-z0-9])xlm(?![a-z0-9])", r"\bstellar(?: lumens?)?\b", r"스텔라(?:루멘)?"),
+    "BCH": (r"(?<![a-z0-9])bch(?![a-z0-9])", r"\bbitcoin cash\b", r"비트코인\s*캐시"),
+    "ETC": (r"(?<![a-z0-9])etc(?![a-z0-9])", r"\bethereum classic\b", r"이더리움\s*클래식"),
+    "TRX": (r"(?<![a-z0-9])trx(?![a-z0-9])", r"\btron\b", r"트론"),
+    "ADA": (r"(?<![a-z0-9])ada(?![a-z0-9])", r"\bcardano\b", r"에이다|카르다노"),
+    "BNB": (r"(?<![a-z0-9])bnb(?![a-z0-9])", r"\bbinance coin\b", r"바이낸스\s*코인"),
+    "SHIB": (r"(?<![a-z0-9])shib(?![a-z0-9])", r"\bshiba inu\b", r"\bshibarium\b", r"시바이누|시바리움"),
+    "FLR": (r"(?<![a-z0-9])flr(?![a-z0-9])", r"\bflare(?: network)?\b", r"플레어"),
+    "ENA": (r"(?<![a-z0-9])ena(?![a-z0-9])", r"\bethena\b", r"에테나"),
+}
+
+# These are recurring market-statistic cards rather than concrete news events.
+# Block them even when a target asset such as BTC or ETH is mentioned.
+LOW_VALUE_FLOW_PATTERNS = (
+    r"\b(?:spot\s+)?(?:bitcoin|btc|ethereum|eth)?\s*etfs?\b.{0,90}\b(?:net\s+)?(?:inflows?|outflows?|flows?)\b",
+    r"\b(?:net\s+)?(?:inflows?|outflows?)\b.{0,90}\b(?:spot\s+)?(?:bitcoin|btc|ethereum|eth)?\s*etfs?\b",
+    r"\b(?:records?|posts?|sees?|ends?|closes?)\b.{0,45}\b(?:\d+\s*(?:day|week)s?\s+)?(?:consecutive\s+)?(?:inflows?|outflows?)\b",
+    r"\b(?:consecutive|straight)\s+\d*\s*(?:day|week|session|trading day)s?\s+(?:of\s+)?(?:inflows?|outflows?)\b",
+    r"\bweekly\s+(?:close|closing|flows?|inflows?|outflows?|fund flows?)\b",
+    r"\bweek(?:ly)?\b.{0,45}\b(?:net\s+)?(?:inflows?|outflows?)\b",
+    r"(?:비트코인|이더리움|BTC|ETH)?\s*ETF.{0,45}(?:순유입|순유출|자금\s*유입|자금\s*유출|유입\s*흐름|유출\s*흐름)",
+    r"(?:순유입|순유출|연속\s*유입|연속\s*유출|자금\s*흐름).{0,45}(?:ETF|상장지수펀드)",
+    r"(?:\d+\s*거래일|\d+\s*주|\d+\s*일)\s*연속\s*(?:유입|유출)",
+    r"주간\s*(?:마감|종가|순유입|순유출|자금\s*흐름)",
 )
 
 CONCRETE_EVENT_PATTERNS = (
@@ -293,6 +347,12 @@ ACTION_PATTERNS = {
     "action_sanction": (r"\bsanction(?:ed|s)?\b", r"제재"),
     "action_support": (r"\bback(?:ed|s|ing)?\b", r"\bsupport(?:ed|s|ing)?\b", r"지지"),
     "action_develop": (r"\brefin(?:e|ed|es|ing)\b", r"\bdevelop(?:ed|s|ing|ment)?\b", r"개발|개선"),
+    "action_build": (
+        r"\bbuild(?:s|ing|t)?\b",
+        r"\bconstruct(?:s|ed|ing|ion)?\b",
+        r"\bset(?:s|ting)?\s+up\b",
+        r"구축|설립|정비|만들(?:고|어|었|기로)",
+    ),
     "action_revise": (
         r"\bcut(?:s)?\b.{0,35}\b(?:odds|probability|estimate)\b",
         r"\blower(?:ed|s|ing)?\b.{0,35}\b(?:odds|probability|estimate)\b",
@@ -322,6 +382,13 @@ OBJECT_PATTERNS = {
     "object_sale": (r"\bsell\b", r"\bsold\b", r"\bsale\b", r"매도|매각|처분|유출"),
     "object_board": (r"\bboard\b", r"\bfoundation member\b", r"이사회|재단\s*구성원"),
     "object_infrastructure": (r"\binfrastructure\b", r"인프라"),
+    "object_regulated_trading_infrastructure": (
+        r"\bregulated\s+(?:crypto|cryptocurrency|digital asset)\s+trading\s+infrastructure\b",
+        r"\b(?:crypto|cryptocurrency|digital asset)\s+trading\s+infrastructure\b",
+        r"\bregulated\s+(?:crypto|digital asset)\s+trading\s+(?:system|platform)\b",
+        r"(?:규제(?:된|형)?\s*)?(?:암호화폐|가상자산|디지털자산)\s*거래\s*인프라",
+        r"규제(?:된|형)?\s*(?:암호화폐|가상자산|디지털자산)\s*거래\s*(?:시스템|플랫폼)",
+    ),
     "object_platform": (
         r"\b(?:trading|exchange)\s+platform\b",
         r"\bcrypto exchange\b",
@@ -445,11 +512,36 @@ def _has_crypto_core(text: str) -> bool:
     return _matches(text, CRYPTO_CORE_PATTERNS)
 
 
+def target_assets(text: str) -> set[str]:
+    return {
+        symbol
+        for symbol, patterns in TARGET_ASSET_PATTERNS.items()
+        if _matches(text, patterns)
+    }
+
+
+def story_hash(title: str) -> str:
+    """Return a stable Unicode-aware key for exact-title state tracking.
+
+    The legacy hash removed every non-ASCII character.  Consequently most
+    Korean titles hashed from an empty string and overwrote one another in
+    ``news_state.json``, allowing older articles to be posted again.
+    """
+
+    normalized = html.unescape(title or "").casefold()
+    normalized = re.sub(r"https?://\S+", " ", normalized)
+    normalized = re.sub(r"[^a-z0-9가-힣]+", " ", normalized)
+    normalized = re.sub(r"\s+", " ", normalized).strip()
+    return hashlib.sha256(normalized.encode("utf-8")).hexdigest()[:16]
+
+
 def _is_hard_blocked(story: dict) -> tuple[bool, str]:
     raw = _story_text(story)
     title = str(story.get("title", "") or "")
     if _matches(raw, HARD_BLOCK_PATTERNS):
         return True, "가격/전망/홍보/모음기사"
+    if _matches(raw, LOW_VALUE_FLOW_PATTERNS):
+        return True, "ETF·시장 단순 수급/주간 마감"
 
     aggregate_security_report = (
         _matches(
@@ -558,8 +650,8 @@ def _is_hard_blocked(story: dict) -> tuple[bool, str]:
     if market_move and not _matches(title, CONCRETE_EVENT_PATTERNS):
         return True, "단순 가격변동"
 
-    if not _has_crypto_core(raw):
-        return True, "암호화폐 핵심맥락 없음"
+    if not target_assets(raw):
+        return True, "지정 코인 핵심맥락 없음"
 
     return False, ""
 
@@ -863,6 +955,7 @@ def _same_event(cur_signature: str, old_signature: str) -> bool:
         "object_adviser",
         "object_insider_desk",
         "object_patent",
+        "object_regulated_trading_infrastructure",
     }
     if entities and actions and objects & specific_objects:
         return True
@@ -1355,6 +1448,10 @@ def _rewrite_summary(story: dict) -> str:
     return format_summary_for_telegram(summary, max_sentences=2, max_chars=TARGET_SUMMARY_CHARS)
 
 
+def _summary_is_market_only(summary: str) -> bool:
+    return _matches(summary, TECHNICAL_SUMMARY_PATTERNS)
+
+
 def build_message(story: dict) -> str:
     blocked, reason = _is_hard_blocked(story)
     if blocked:
@@ -1364,6 +1461,9 @@ def build_message(story: dict) -> str:
     summary = _rewrite_summary(story)
     if not summary:
         _log(f"[요약실패 스킵] {story.get('title', '')}")
+        return ""
+    if _summary_is_market_only(summary):
+        _log(f"[전송전 지지선·시황 제외] {story.get('title', '')}")
         return ""
 
     refusal_check = _RUNTIME.get("is_refusal_or_skip_text")
@@ -1393,11 +1493,12 @@ def install_editor_overrides(runtime: dict) -> None:
     _PREVIOUS_MATCHES = runtime.get("matches_keywords")
 
     runtime["matches_keywords"] = matches_keywords
+    runtime["story_hash"] = story_hash
     runtime["build_story_signature"] = build_story_signature
     runtime["build_canonical_topic_key"] = build_canonical_topic_key
     runtime["is_canonical_duplicate"] = is_canonical_duplicate
     runtime["is_semantically_duplicate"] = is_semantically_duplicate
     runtime["format_summary_for_telegram"] = format_summary_for_telegram
     runtime["build_message"] = build_message
-    runtime["DOORINEWS_EDITOR_VERSION"] = "2026-07-26"
-    _log("[편집엔진] doorinews_editor 2026-07-26 적용")
+    runtime["DOORINEWS_EDITOR_VERSION"] = "2026-07-26-target-assets-v3"
+    _log("[편집엔진] doorinews_editor 2026-07-26-target-assets-v2 적용")
