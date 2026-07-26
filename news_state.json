@@ -1035,6 +1035,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-07-25T23:01:18.079470+00:00"
+    },
+    "27aac7c22b21": {
+      "title": "솔라나(SOL), 블록 용량 100만 유닛 확대 추진…스테이킹 ETF 출시로 제도권 자금 유입 본격화",
+      "url": "www.tokenpost.kr/news/cryptocurrency/381344",
+      "signature": "action_ban | action_launch | amount_pct_0.91 | asset_sol | entity_etf | entity_sol | geo_us | object_etf",
+      "canonical_key": "action_ban | action_launch | amount_pct_0.91 | asset_sol | entity_etf | entity_sol | geo_us | object_etf",
+      "ts": "2026-07-26T01:00:56.066899+00:00"
     }
   }
 }
