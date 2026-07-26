@@ -1049,6 +1049,27 @@
       "signature": "action_launch | date_2026_09_01 | geo_russia | object_custody | object_infrastructure",
       "canonical_key": "action_launch | date_2026_09_01 | geo_russia | object_custody | object_infrastructure",
       "ts": "2026-07-26T05:00:53.397147+00:00"
+    },
+    "b01d30370540": {
+      "title": "머스크 '전직 조만장자' 발언에 바이낸스 CZ \"부자되기 직전\" 농담",
+      "url": "www.tokenpost.kr/news/cryptocurrency/381401",
+      "signature": "action_disclose | action_launch | action_support | amount_usd_100000000000 | entity_바이낸스 | entity_일론머스크 | object_disclosure | object_platform",
+      "canonical_key": "action_disclose | action_launch | action_support | amount_usd_100000000000 | entity_바이낸스 | entity_일론머스크 | object_disclosure | object_platform",
+      "ts": "2026-07-26T08:01:04.425249+00:00"
+    },
+    "325174b50941": {
+      "title": "KB국민은행, 블록체인 기반 국제결제망으로 기업결제 서비스 혁신",
+      "url": "www.tokenpost.kr/news/blockchain/381406",
+      "signature": "action_launch | action_partner | date_2026_07_26 | entity_jp모건 | entity_kb국민은행 | object_infrastructure | object_network | object_payment",
+      "canonical_key": "action_launch | action_partner | date_2026_07_26 | entity_jp모건 | entity_kb국민은행 | object_infrastructure | object_network | object_payment",
+      "ts": "2026-07-26T08:01:09.145975+00:00"
+    },
+    "6ddcde29fd66": {
+      "title": "These Meme Coins Steal the Show as Bitcoin Defends $64K Support: Weekend Watch",
+      "url": "cryptopotato.com/these-meme-coins-steal-the-show-as-bitcoin-defends-64k-support-weekend-watch",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-26T08:01:12.305014+00:00"
     }
   }
 }
