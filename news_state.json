@@ -1105,6 +1105,20 @@
       "signature": "action_support | amount_usd_103000000 | amount_usd_17000000000 | asset_btc | asset_eth | object_etf",
       "canonical_key": "action_support | amount_usd_103000000 | amount_usd_17000000000 | asset_btc | asset_eth | object_etf",
       "ts": "2026-07-26T11:01:02.383934+00:00"
+    },
+    "eac9e37b41821e37": {
+      "title": "Hoskinson Says Cardano Treasury Can Fund $100M+ Ecosystem Growth This Year Despite ADA Decline",
+      "url": "thecryptobasic.com/2026/07/25/hoskinson-says-cardano-treasury-can-fund-100m-ecosystem-growth-this-year-despite-ada-decline",
+      "signature": "action_support | amount_usd_100000000 | entity_찰스호스킨슨 | entity_카르다노 | object_fund | object_network",
+      "canonical_key": "action_support | amount_usd_100000000 | entity_찰스호스킨슨 | entity_카르다노 | object_fund | object_network",
+      "ts": "2026-07-26T13:01:11.249081+00:00"
+    },
+    "33187d6d106f8709": {
+      "title": "BitMart 거래 종료 수순…바이낸스는 직원 피싱 훈련, ETH ETF 유입세도 멈췄다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/381431",
+      "signature": "action_close | action_convert | asset_eth | date_2027_01_31 | entity_바이낸스 | geo_us | object_etf | object_fund | object_platform | object_shutdown",
+      "canonical_key": "action_close | action_convert | asset_eth | date_2027_01_31 | entity_바이낸스 | geo_us | object_etf | object_fund | object_platform | object_shutdown",
+      "ts": "2026-07-26T13:01:15.255712+00:00"
     }
   }
 }
