@@ -1042,6 +1042,13 @@
       "signature": "action_ban | action_launch | amount_pct_0.91 | asset_sol | entity_etf | entity_sol | geo_us | object_etf",
       "canonical_key": "action_ban | action_launch | amount_pct_0.91 | asset_sol | entity_etf | entity_sol | geo_us | object_etf",
       "ts": "2026-07-26T01:00:56.066899+00:00"
+    },
+    "97345abc503b": {
+      "title": "Sberbank sets Dec. 1 deadline for Russia crypto trading launch",
+      "url": "crypto.news/sberbank-sets-dec-1-deadline-for-russia-crypto-trading-launch",
+      "signature": "action_launch | date_2026_09_01 | geo_russia | object_custody | object_infrastructure",
+      "canonical_key": "action_launch | date_2026_09_01 | geo_russia | object_custody | object_infrastructure",
+      "ts": "2026-07-26T05:00:53.397147+00:00"
     }
   }
 }
