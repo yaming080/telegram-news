@@ -1119,6 +1119,13 @@
       "signature": "action_close | action_convert | asset_eth | date_2027_01_31 | entity_바이낸스 | geo_us | object_etf | object_fund | object_platform | object_shutdown",
       "canonical_key": "action_close | action_convert | asset_eth | date_2027_01_31 | entity_바이낸스 | geo_us | object_etf | object_fund | object_platform | object_shutdown",
       "ts": "2026-07-26T13:01:15.255712+00:00"
+    },
+    "b64b4e59f4e8dd8f": {
+      "title": "Ethereum Price Analysis: ETH Hits a Decision Point as Major Resistance Comes Into Play",
+      "url": "cryptopotato.com/ethereum-price-analysis-eth-hits-a-decision-point-as-major-resistance-comes-into-play",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-26T14:00:50.433674+00:00"
     }
   }
 }
