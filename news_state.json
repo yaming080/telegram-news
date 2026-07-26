@@ -1084,6 +1084,27 @@
       "signature": "action_close | entity_cryptoexchange | object_platform",
       "canonical_key": "action_close | entity_cryptoexchange | object_platform",
       "ts": "2026-07-26T09:01:35.412519+00:00"
+    },
+    "5b27d5cbdf37": {
+      "title": "South Korea’s largest bank to launch payment service on JPMorgan’s Kinexys",
+      "url": "cointelegraph.com/news/south-korea-bank-payment-jpmorgans-kinexys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_launch | action_support | entity_jp모건 | geo_korea | geo_us | object_payment",
+      "canonical_key": "action_launch | action_support | entity_jp모건 | geo_korea | geo_us | object_payment",
+      "ts": "2026-07-26T11:00:55.450336+00:00"
+    },
+    "279dae168db1": {
+      "title": "2026 Crypto Graveyard: 99 Projects Officially Shut Down",
+      "url": "u.today/2026-crypto-graveyard-99-projects-officially-shut-down",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-26T11:00:58.778822+00:00"
+    },
+    "32e4959c4f8f": {
+      "title": "Forget Bitcoin? 3 Reasons Why Ethereum Is Ready to Steal the Spotlight in Summer 2026",
+      "url": "u.today/forget-bitcoin-3-reasons-why-ethereum-is-ready-to-steal-the-spotlight-in-summer-2026",
+      "signature": "action_support | amount_usd_103000000 | amount_usd_17000000000 | asset_btc | asset_eth | object_etf",
+      "canonical_key": "action_support | amount_usd_103000000 | amount_usd_17000000000 | asset_btc | asset_eth | object_etf",
+      "ts": "2026-07-26T11:01:02.383934+00:00"
     }
   }
 }
