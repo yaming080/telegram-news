@@ -1126,6 +1126,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-07-26T14:00:50.433674+00:00"
+    },
+    "6a1a0a84aafb57d0": {
+      "title": "테슬라, 2분기도 비트코인 보유 유지…장기 전략 재확인",
+      "url": "www.tokenpost.kr/news/cryptocurrency/381438",
+      "signature": "action_invest | amount_usd_1500000000 | asset_btc | object_sale",
+      "canonical_key": "action_invest | amount_usd_1500000000 | asset_btc | object_sale",
+      "ts": "2026-07-26T15:01:01.645345+00:00"
+    },
+    "9207907fbeb7f2d6": {
+      "title": "Ripple Price Analysis: XRP Could Be Heading for a Major Move Next Week",
+      "url": "cryptopotato.com/ripple-price-analysis-xrp-could-be-heading-for-a-major-move-next-week",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-26T15:01:04.834860+00:00"
     }
   }
 }
