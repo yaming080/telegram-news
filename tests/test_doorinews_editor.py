@@ -98,13 +98,22 @@ class DoorinewsEditorTests(unittest.TestCase):
         blocked, _ = editor._is_hard_blocked(story)
         self.assertTrue(blocked)
 
-    def test_concrete_crypto_event_is_allowed(self):
+    def test_concrete_target_asset_event_is_allowed(self):
+        story = {
+            "title": "BC Card secures Bitcoin payment patent",
+            "desc": "The company announced BTC payment infrastructure in Korea",
+        }
+        blocked, _ = editor._is_hard_blocked(story)
+        self.assertFalse(blocked)
+
+    def test_concrete_non_target_asset_event_is_blocked(self):
         story = {
             "title": "BC Card secures stablecoin payment patent",
             "desc": "The company announced blockchain payment infrastructure in Korea",
         }
-        blocked, _ = editor._is_hard_blocked(story)
-        self.assertFalse(blocked)
+        blocked, reason = editor._is_hard_blocked(story)
+        self.assertTrue(blocked)
+        self.assertIn("지정 코인", reason)
 
     def test_market_recovery_narrative_is_blocked(self):
         story = {
@@ -240,13 +249,14 @@ class DoorinewsEditorTests(unittest.TestCase):
         self.assertTrue(blocked)
         self.assertIn("클래리티법안", reason)
 
-    def test_clarity_committee_passage_is_allowed(self):
+    def test_generic_clarity_committee_passage_without_target_asset_is_blocked(self):
         story = {
             "title": "CLARITY Act passes Senate committee vote",
             "desc": "The crypto market structure bill advanced after a scheduled committee vote",
         }
-        blocked, _ = editor._is_hard_blocked(story)
-        self.assertFalse(blocked)
+        blocked, reason = editor._is_hard_blocked(story)
+        self.assertTrue(blocked)
+        self.assertIn("지정 코인", reason)
 
     def test_clarity_vote_seeking_before_recess_is_blocked(self):
         story = {
@@ -304,7 +314,7 @@ class DoorinewsEditorTests(unittest.TestCase):
         }
         blocked, reason = editor._is_hard_blocked(story)
         self.assertTrue(blocked)
-        self.assertIn("암호화폐 핵심맥락 없음", reason)
+        self.assertIn("지정 코인 핵심맥락 없음", reason)
 
     def test_aggregate_web3_scam_report_is_blocked(self):
         story = {
@@ -322,6 +332,58 @@ class DoorinewsEditorTests(unittest.TestCase):
         }
         blocked, _ = editor._is_hard_blocked(story)
         self.assertTrue(blocked)
+
+    def test_only_operator_selected_assets_are_recognized(self):
+        examples = {
+            "BTC": "Bitcoin BTC",
+            "ETH": "Ethereum ETH",
+            "XRP": "Ripple XRP",
+            "XLM": "Stellar XLM",
+            "BCH": "Bitcoin Cash BCH",
+            "ETC": "Ethereum Classic ETC",
+            "TRX": "TRON TRX",
+            "ADA": "Cardano ADA",
+            "BNB": "Binance Coin BNB",
+            "SHIB": "Shiba Inu SHIB",
+            "FLR": "Flare Network FLR",
+            "ENA": "Ethena ENA",
+        }
+        for symbol, text in examples.items():
+            with self.subTest(symbol=symbol):
+                self.assertIn(symbol, editor.target_assets(text))
+        self.assertFalse(editor.target_assets("BMX token rebounds on BitMart"))
+        self.assertFalse(editor.target_assets("Solana SOL launches a new product"))
+
+    def test_bmx_bitmart_story_from_screenshot_is_blocked(self):
+        story = {
+            "title": "BMX token rebounds after July 24 plunge",
+            "desc": "BitMart withdrawal-delay rumors spread through the market",
+        }
+        self.assertFalse(editor.matches_keywords(story, [], [], []))
+
+    def test_etf_net_flow_and_weekly_close_cards_are_blocked(self):
+        stories = (
+            {
+                "title": "Ethereum ETF ends five-day inflow streak with weekly net outflow",
+                "desc": "Bitcoin ETF also recorded its second straight daily net outflow",
+            },
+            {
+                "title": "이더리움 ETF 5거래일 연속 유입 종료, 주간 마감은 순유출",
+                "desc": "비트코인 ETF도 이틀째 순유출을 기록함",
+            },
+        )
+        for story in stories:
+            with self.subTest(title=story["title"]):
+                blocked, reason = editor._is_hard_blocked(story)
+                self.assertTrue(blocked)
+                self.assertIn("수급", reason)
+
+    def test_korean_story_hashes_do_not_overwrite_each_other(self):
+        first = "미국 국무부, 비트코인정책연구소 파트너를 자문역으로 지명"
+        second = "리플, 기관용 결제 플랫폼 출시"
+        self.assertEqual(editor.story_hash(first), editor.story_hash(first))
+        self.assertNotEqual(editor.story_hash(first), editor.story_hash(second))
+        self.assertNotEqual(editor.story_hash(first), editor.story_hash(""))
 
     def test_screenshot_duplicate_event_pairs(self):
         pairs = (
@@ -558,6 +620,63 @@ class DoorinewsEditorTests(unittest.TestCase):
         footer = editor._build_footer_tags(story, selected)
         self.assertNotIn("#Strategy", footer)
         self.assertNotIn("#ETF", footer)
+
+    def test_launch_price_performance_report_is_blocked(self):
+        story = {
+            "title": "Most high-value cryptocurrencies launched since 2024 trade below debut price",
+            "desc": "CryptoRank says only 7% of major tokens outperform their launch price",
+        }
+        blocked, reason = editor._is_hard_blocked(story)
+        self.assertTrue(blocked)
+        self.assertIn("가격", reason)
+
+    def test_sberbank_trading_infrastructure_is_cross_source_duplicate(self):
+        first = {
+            "title": "Sberbank builds regulated crypto trading infrastructure in Russia",
+            "desc": "The bank plans to launch the system by December 1, 2026",
+        }
+        second = {
+            "title": "스베르방크, 러시아 암호화폐 거래 인프라 구축",
+            "desc": "2026년 12월 1일까지 규제형 디지털자산 거래 시스템을 만들어 출시할 계획",
+        }
+        first_signature = editor.build_story_signature(first)
+        second_signature = editor.build_story_signature(second)
+        self.assertTrue(first_signature)
+        self.assertTrue(second_signature)
+        self.assertIn("entity_스베르방크", first_signature)
+        self.assertIn("object_regulated_trading_infrastructure", first_signature)
+        self.assertTrue(editor._same_event(first_signature, second_signature))
+
+    def test_sk_hynix_tokenization_uses_korean_first_mention_tags(self):
+        story = {
+            "title": "Exchanges launch SK Hynix ADR tokenization products in Korea",
+            "desc": "Four tokenized SK Hynix products were issued for overseas investors",
+        }
+        summary = (
+            "해외 거래소들이 SK하이닉스 ADR 기반 토큰화 상품을 출시하며 "
+            "한국 주식 토큰 시장이 커지고 있다고 밝힘"
+        )
+        tagged, selected = editor._inject_inline_tags(summary, story)
+        self.assertIn("#SK하이닉스", tagged)
+        self.assertIn("#토큰화", tagged)
+        self.assertIn("#한국", tagged)
+        self.assertEqual(tagged.count("#SK하이닉스"), 1)
+        footer = editor._build_footer_tags(story, selected)
+        self.assertNotIn("#SKHynix", footer)
+        self.assertNotIn("#Tokenization", footer)
+
+    def test_support_level_weekend_market_story_is_blocked_twice(self):
+        story = {
+            "title": "Bitcoin holds $64,000 support as meme coin leads weekend market focus",
+            "desc": "BTC defended the level while another token outperformed",
+        }
+        blocked, _ = editor._is_hard_blocked(story)
+        self.assertTrue(blocked)
+        self.assertTrue(
+            editor._summary_is_market_only(
+                "비트코인이 6만4000달러 지지선을 지키는 가운데 밈코인이 주말 시장을 주도함"
+            )
+        )
 
 
 if __name__ == "__main__":
