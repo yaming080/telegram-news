@@ -1301,6 +1301,13 @@
       "signature": "action_file | amount_usd_25000000 | amount_usd_525000000 | amount_usd_544500000 | asset_btc | count_shares_288930 | entity_마이클세일러 | entity_스트래티지 | object_sale",
       "canonical_key": "action_file | amount_usd_25000000 | amount_usd_525000000 | amount_usd_544500000 | asset_btc | count_shares_288930 | entity_마이클세일러 | entity_스트래티지 | object_sale",
       "ts": "2026-07-27T15:01:35.869781+00:00"
+    },
+    "f2f1a1ef481d2530": {
+      "title": "Strive Buys Another 79 BTC, Bringing total to 20,000",
+      "url": "cryptopotato.com/strive-buys-another-79-btc-bringing-total-to-20000",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-27T18:01:13.288884+00:00"
     }
   }
 }
