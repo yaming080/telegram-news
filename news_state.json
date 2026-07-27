@@ -1154,6 +1154,13 @@
       "signature": "action_convert | action_issue | action_mint | amount_usd_724000 | amount_usdc_4198 | amount_usdc_approx_4200 | asset_eth | asset_stablecoin | asset_usdc | asset_usdt | entity_테더 | object_wallet",
       "canonical_key": "action_convert | action_issue | action_mint | amount_usd_724000 | amount_usdc_4198 | amount_usdc_approx_4200 | asset_eth | asset_stablecoin | asset_usdc | asset_usdt | entity_테더 | object_wallet",
       "ts": "2026-07-27T01:00:57.988626+00:00"
+    },
+    "1e194c654ecd9b05": {
+      "title": "가든 파이낸스, 해킹 의혹에 앱 중단…약 45만달러 유출",
+      "url": "www.tokenpost.kr/news/blockchain/381545",
+      "signature": "action_ban | action_disclose | action_hack | action_launch | amount_usd_450000 | asset_eth | asset_usdt | entity_아비트럼 | entity_테더 | object_disclosure | object_network | object_sale",
+      "canonical_key": "action_ban | action_disclose | action_hack | action_launch | amount_usd_450000 | asset_eth | asset_usdt | entity_아비트럼 | entity_테더 | object_disclosure | object_network | object_sale",
+      "ts": "2026-07-27T03:01:01.180440+00:00"
     }
   }
 }
