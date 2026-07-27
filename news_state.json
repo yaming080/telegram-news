@@ -1294,6 +1294,13 @@
       "signature": "action_hack | entity_카르다노 | object_recovery",
       "canonical_key": "action_hack | entity_카르다노 | object_recovery",
       "ts": "2026-07-27T14:01:42.379163+00:00"
+    },
+    "5297a9fb25e2c564": {
+      "title": "Strategy increases its cash reserves by $525 million, buys no Bitcoin",
+      "url": "www.cryptopolitan.com/mstr-jumps-6-as-strategys-cash-reserve-grows",
+      "signature": "action_file | amount_usd_25000000 | amount_usd_525000000 | amount_usd_544500000 | asset_btc | count_shares_288930 | entity_마이클세일러 | entity_스트래티지 | object_sale",
+      "canonical_key": "action_file | amount_usd_25000000 | amount_usd_525000000 | amount_usd_544500000 | asset_btc | count_shares_288930 | entity_마이클세일러 | entity_스트래티지 | object_sale",
+      "ts": "2026-07-27T15:01:35.869781+00:00"
     }
   }
 }
