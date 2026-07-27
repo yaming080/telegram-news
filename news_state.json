@@ -1168,6 +1168,13 @@
       "signature": "action_launch | amount_pct_18 | amount_usd_28000000000 | amount_usd_5000000000 | amount_usd_70000 | amount_usd_72000 | asset_btc | object_derivatives | object_payment",
       "canonical_key": "action_launch | amount_pct_18 | amount_usd_28000000000 | amount_usd_5000000000 | amount_usd_70000 | amount_usd_72000 | asset_btc | object_derivatives | object_payment",
       "ts": "2026-07-27T04:01:06.550102+00:00"
+    },
+    "7a8b126850adaaa3": {
+      "title": "[비트코인은 지금] 6만5298달러 상승…거래량↑·공포 완화",
+      "url": "www.tokenpost.kr/news/cryptocurrency/381577",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-27T05:01:02.369133+00:00"
     }
   }
 }
