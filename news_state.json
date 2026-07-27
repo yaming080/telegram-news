@@ -1329,6 +1329,13 @@
       "signature": "action_disclose | action_launch | amount_pct_4.8 | amount_pct_85 | amount_usd_11800000000 | amount_usd_299000000 | amount_usd_99000000 | asset_eth | object_disclosure | object_infrastructure",
       "canonical_key": "action_disclose | action_launch | amount_pct_4.8 | amount_pct_85 | amount_usd_11800000000 | amount_usd_299000000 | amount_usd_99000000 | asset_eth | object_disclosure | object_infrastructure",
       "ts": "2026-07-27T21:01:05.219590+00:00"
+    },
+    "81cb4f2eecc73fef": {
+      "title": "Metaplanet plans Bitcoin-backed bonds yielding up to 6%",
+      "url": "crypto.news/metaplanet-plans-bitcoin-backed-bonds-yielding-up-to-6",
+      "signature": "action_acquire | action_develop | action_support | amount_pct_4 | amount_pct_6 | asset_btc | entity_메타플래닛 | geo_japan",
+      "canonical_key": "action_acquire | action_develop | action_support | amount_pct_4 | amount_pct_6 | asset_btc | entity_메타플래닛 | geo_japan",
+      "ts": "2026-07-27T22:01:14.625638+00:00"
     }
   }
 }
