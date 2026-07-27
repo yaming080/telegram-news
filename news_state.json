@@ -1140,6 +1140,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-07-26T15:01:04.834860+00:00"
+    },
+    "aa7c5591ef87ccb6": {
+      "title": "윔엑스, 해킹 여파로 브리지·거래 서비스 일시 중단",
+      "url": "www.tokenpost.kr/news/cryptocurrency/381481",
+      "signature": "action_convert | action_hack | action_issue | action_mint | asset_eth | asset_stablecoin | asset_usdc | asset_usdt | entity_테더",
+      "canonical_key": "action_convert | action_hack | action_issue | action_mint | asset_eth | asset_stablecoin | asset_usdc | asset_usdt | entity_테더",
+      "ts": "2026-07-27T00:00:57.744245+00:00"
     }
   }
 }
