@@ -678,6 +678,61 @@ class DoorinewsEditorTests(unittest.TestCase):
             )
         )
 
+    def test_options_open_interest_story_is_blocked(self):
+        story = {
+            "title": "Bitcoin options open interest clusters around $70K and $72K",
+            "desc": "Call options dominate bullish betting and account for 18% of the options market",
+        }
+        blocked, reason = editor._is_hard_blocked(story)
+        self.assertTrue(blocked)
+        self.assertIn("옵션", reason)
+        self.assertTrue(
+            editor._summary_is_market_only(
+                "비트코인 옵션 미결제약정이 7만~7만2000달러 구간에 집중됨"
+            )
+        )
+
+    def test_fear_greed_and_buying_pressure_story_is_blocked(self):
+        stories = (
+            {
+                "title": "Bitcoin buying pressure improves as trading volume rises",
+                "desc": "The crypto fear and greed index remains at 30",
+            },
+            {
+                "title": "비트코인 매수세가 유입되며 거래량 증가",
+                "desc": "공포탐욕지수는 여전히 공포 구간이라고 밝힘",
+            },
+        )
+        for story in stories:
+            with self.subTest(title=story["title"]):
+                blocked, reason = editor._is_hard_blocked(story)
+                self.assertTrue(blocked)
+                self.assertIn("심리지수", reason)
+
+    def test_news_roundup_and_rebound_story_is_blocked(self):
+        story = {
+            "title": "Ripple stablecoin and XRP ETF news roundup",
+            "desc": "Ripple expanded stablecoin infrastructure but XRP failed to sustain its rebound",
+        }
+        blocked, reason = editor._is_hard_blocked(story)
+        self.assertTrue(blocked)
+        self.assertIn("추세", reason)
+        self.assertTrue(
+            editor._summary_is_market_only(
+                "리플이 스테이블코인 인프라를 확대했지만 XRP는 최근 반등세를 지키지 못함"
+            )
+        )
+
+    def test_wemix_story_is_blocked_even_with_target_assets(self):
+        story = {
+            "title": "WEMIX bridge services frozen after $724K USDC exploit",
+            "desc": "Attackers moved funds through Ethereum and BNB Smart Chain",
+        }
+        self.assertIn("ETH", editor.target_assets(editor._story_text(story)))
+        blocked, reason = editor._is_hard_blocked(story)
+        self.assertTrue(blocked)
+        self.assertIn("위믹스", reason)
+
 
 if __name__ == "__main__":
     unittest.main()
