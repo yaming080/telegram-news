@@ -1161,6 +1161,13 @@
       "signature": "action_ban | action_disclose | action_hack | action_launch | amount_usd_450000 | asset_eth | asset_usdt | entity_아비트럼 | entity_테더 | object_disclosure | object_network | object_sale",
       "canonical_key": "action_ban | action_disclose | action_hack | action_launch | amount_usd_450000 | asset_eth | asset_usdt | entity_아비트럼 | entity_테더 | object_disclosure | object_network | object_sale",
       "ts": "2026-07-27T03:01:01.180440+00:00"
+    },
+    "68fb4f5a7cec7bd3": {
+      "title": "비트코인 옵션, 7만~7만2000달러에 쏠렸다…상승 베팅 신호",
+      "url": "www.tokenpost.kr/news/cryptocurrency/381573",
+      "signature": "action_launch | amount_pct_18 | amount_usd_28000000000 | amount_usd_5000000000 | amount_usd_70000 | amount_usd_72000 | asset_btc | object_derivatives | object_payment",
+      "canonical_key": "action_launch | amount_pct_18 | amount_usd_28000000000 | amount_usd_5000000000 | amount_usd_70000 | amount_usd_72000 | asset_btc | object_derivatives | object_payment",
+      "ts": "2026-07-27T04:01:06.550102+00:00"
     }
   }
 }
