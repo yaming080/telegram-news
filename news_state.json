@@ -1273,6 +1273,27 @@
       "signature": "action_support | asset_btc | entity_hodl | entity_바이낸스 | entity_스트래티지",
       "canonical_key": "action_support | asset_btc | entity_hodl | entity_바이낸스 | entity_스트래티지",
       "ts": "2026-07-27T13:01:14.285802+00:00"
+    },
+    "dd026b82a67f63d3": {
+      "title": "TRX Futures Listing Launches on Bitnomial, Broadening Regulated U.S. Derivatives Access to TRON",
+      "url": "www.cryptopolitan.com/trx-futures-listing-launches-on-bitnomial-broadening-regulated-u-s-derivatives-access-to-tron",
+      "signature": "action_launch | date_2026_07_27 | entity_cftc | entity_트론 | geo_us | object_derivatives | object_network",
+      "canonical_key": "action_launch | date_2026_07_27 | entity_cftc | entity_트론 | geo_us | object_derivatives | object_network",
+      "ts": "2026-07-27T14:01:33.901663+00:00"
+    },
+    "7d7fed9945e994ce": {
+      "title": "오픈소스 AI 보안 동맹 출범…폐쇄형 모델 한계 드러났다",
+      "url": "www.tokenpost.kr/news/ai/381787",
+      "signature": "action_close | action_convert | action_develop | action_disclose | action_launch | action_secure | entity_마이크로소프트 | entity_앤트로픽 | entity_오픈ai | object_disclosure | object_shutdown",
+      "canonical_key": "action_close | action_convert | action_develop | action_disclose | action_launch | action_secure | entity_마이크로소프트 | entity_앤트로픽 | entity_오픈ai | object_disclosure | object_shutdown",
+      "ts": "2026-07-27T14:01:37.858800+00:00"
+    },
+    "8df536264ff52942": {
+      "title": "16.1 Million Cardano (ADA) Exploit: SecondFi Maps Out How It Will Return Stolen Funds",
+      "url": "u.today/161-million-cardano-ada-exploit-secondfi-maps-out-how-it-will-return-stolen-funds",
+      "signature": "action_hack | entity_카르다노 | object_recovery",
+      "canonical_key": "action_hack | entity_카르다노 | object_recovery",
+      "ts": "2026-07-27T14:01:42.379163+00:00"
     }
   }
 }
