@@ -156,6 +156,31 @@ ENTITY_SPECS = (
 )
 
 
+EXCLUDED_MARKET_CONTENT_PATTERNS = (
+    # Derivatives positioning and open-interest cards.
+    r"\bopen\s+interest\b",
+    r"\boptions?\s+market\b",
+    r"\b(?:call|put)\s+options?\b",
+    r"\boptions?\b.{0,55}\b(?:strike|expiry|expiration|betting|positioning|volume)\b",
+    r"\b(?:strike|expiry|expiration|betting|positioning)\b.{0,55}\boptions?\b",
+    r"미결제\s*약정|옵션\s*시장|옵션\s*(?:거래|베팅|만기|행사가)|콜\s*옵션|풋\s*옵션",
+    # Sentiment, buying-pressure, and market-direction commentary.
+    r"\b(?:crypto\s+)?fear\s*(?:and|&|/|-)\s*greed\s+index\b",
+    r"\b(?:fear|greed)\s+index\b",
+    r"\b(?:buy|buying)\s+(?:pressure|momentum|interest)\b",
+    r"\b(?:rebound|rebounds|rebounded|rebounding|bounce|bounces|bounced)\b",
+    r"\b(?:downtrend|downward\s+trend|bearish\s+trend|bearish\s+momentum)\b",
+    r"공포\s*(?:탐욕|·\s*탐욕|및\s*탐욕)\s*지수|공포\s*지수|탐욕\s*지수",
+    r"매수세|매수\s*(?:압력|우위|모멘텀)",
+    r"반등세|반등|하락세|내림세|약세\s*흐름",
+    # Multi-topic cards and the operator-excluded WEMIX ecosystem.
+    r"\bnews\s+roundup\b",
+    r"뉴스\s*(?:라운드업|모음)",
+    r"\bwemix\$?\b",
+    r"위믹스|윔엑스",
+)
+
+
 HARD_BLOCK_PATTERNS = (
     r"\bprice prediction\b",
     r"\btechnical analysis\b",
@@ -538,6 +563,8 @@ def story_hash(title: str) -> str:
 def _is_hard_blocked(story: dict) -> tuple[bool, str]:
     raw = _story_text(story)
     title = str(story.get("title", "") or "")
+    if _matches(raw, EXCLUDED_MARKET_CONTENT_PATTERNS):
+        return True, "옵션·심리지수·추세·위믹스"
     if _matches(raw, HARD_BLOCK_PATTERNS):
         return True, "가격/전망/홍보/모음기사"
     if _matches(raw, LOW_VALUE_FLOW_PATTERNS):
@@ -1449,7 +1476,10 @@ def _rewrite_summary(story: dict) -> str:
 
 
 def _summary_is_market_only(summary: str) -> bool:
-    return _matches(summary, TECHNICAL_SUMMARY_PATTERNS)
+    return _matches(summary, TECHNICAL_SUMMARY_PATTERNS) or _matches(
+        summary,
+        EXCLUDED_MARKET_CONTENT_PATTERNS,
+    )
 
 
 def build_message(story: dict) -> str:
@@ -1500,5 +1530,5 @@ def install_editor_overrides(runtime: dict) -> None:
     runtime["is_semantically_duplicate"] = is_semantically_duplicate
     runtime["format_summary_for_telegram"] = format_summary_for_telegram
     runtime["build_message"] = build_message
-    runtime["DOORINEWS_EDITOR_VERSION"] = "2026-07-26-target-assets-v3"
-    _log("[편집엔진] doorinews_editor 2026-07-26-target-assets-v2 적용")
+    runtime["DOORINEWS_EDITOR_VERSION"] = "2026-07-27-market-exclusions-v4"
+    _log("[편집엔진] doorinews_editor 2026-07-27-market-exclusions-v4 적용")
