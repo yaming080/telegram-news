@@ -1210,6 +1210,13 @@
       "signature": "action_support | asset_btc | entity_btc",
       "canonical_key": "action_support | asset_btc | entity_btc",
       "ts": "2026-07-27T08:01:25.640979+00:00"
+    },
+    "236fad0414158ee1": {
+      "title": "비트코인, 중동 긴장 완화에 6만5000달러 회복…이더리움도 강세",
+      "url": "www.tokenpost.kr/news/cryptocurrency/381665",
+      "signature": "action_invest | action_restore | amount_usd_300000000000 | amount_usd_64000 | amount_usd_65000 | amount_usd_65600 | amount_usd_67000 | asset_btc | asset_eth | entity_도널드트럼프 | geo_india",
+      "canonical_key": "action_invest | action_restore | amount_usd_300000000000 | amount_usd_64000 | amount_usd_65000 | amount_usd_65600 | amount_usd_67000 | asset_btc | asset_eth | entity_도널드트럼프 | geo_india",
+      "ts": "2026-07-27T09:01:05.523995+00:00"
     }
   }
 }
