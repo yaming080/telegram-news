@@ -1217,6 +1217,13 @@
       "signature": "action_invest | action_restore | amount_usd_300000000000 | amount_usd_64000 | amount_usd_65000 | amount_usd_65600 | amount_usd_67000 | asset_btc | asset_eth | entity_도널드트럼프 | geo_india",
       "canonical_key": "action_invest | action_restore | amount_usd_300000000000 | amount_usd_64000 | amount_usd_65000 | amount_usd_65600 | amount_usd_67000 | asset_btc | asset_eth | entity_도널드트럼프 | geo_india",
       "ts": "2026-07-27T09:01:05.523995+00:00"
+    },
+    "ae762d05e6b897ce": {
+      "title": "Bitcoin Faces Mixed Outlook on Reddit as Bear Market Deepens",
+      "url": "coinedition.com/bitcoin-faces-mixed-outlook-on-reddit-as-bear-market-deepens",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-27T10:01:19.594238+00:00"
     }
   }
 }
