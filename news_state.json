@@ -1147,6 +1147,13 @@
       "signature": "action_convert | action_hack | action_issue | action_mint | asset_eth | asset_stablecoin | asset_usdc | asset_usdt | entity_테더",
       "canonical_key": "action_convert | action_hack | action_issue | action_mint | asset_eth | asset_stablecoin | asset_usdc | asset_usdt | entity_테더",
       "ts": "2026-07-27T00:00:57.744245+00:00"
+    },
+    "e71fe37c8cfd5600": {
+      "title": "위믹스 계약 침해로 무단 발행…공격자 72만4000달러 상당 이동",
+      "url": "www.tokenpost.kr/news/cryptocurrency/381513",
+      "signature": "action_convert | action_issue | action_mint | amount_usd_724000 | amount_usdc_4198 | amount_usdc_approx_4200 | asset_eth | asset_stablecoin | asset_usdc | asset_usdt | entity_테더 | object_wallet",
+      "canonical_key": "action_convert | action_issue | action_mint | amount_usd_724000 | amount_usdc_4198 | amount_usdc_approx_4200 | asset_eth | asset_stablecoin | asset_usdc | asset_usdt | entity_테더 | object_wallet",
+      "ts": "2026-07-27T01:00:57.988626+00:00"
     }
   }
 }
