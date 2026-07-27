@@ -1252,6 +1252,27 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-07-27T12:01:13.935773+00:00"
+    },
+    "cc966d1cdff1da89": {
+      "title": "스트레티지, 비트코인 매수 멈추고 현금 3조원대로 늘렸다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/381763",
+      "signature": "action_acquire | action_auction | action_disclose | action_issue | action_mint | action_secure | amount_usd_4500000 | amount_usd_5000000 | asset_btc | entity_스트래티지 | object_disclosure | object_sale",
+      "canonical_key": "action_acquire | action_auction | action_disclose | action_issue | action_mint | action_secure | amount_usd_4500000 | amount_usd_5000000 | asset_btc | entity_스트래티지 | object_disclosure | object_sale",
+      "ts": "2026-07-27T13:01:05.381755+00:00"
+    },
+    "d7e8c7b8234b80b7": {
+      "title": "EMCD Launches Miner Support Program with up to $30M for Miners Amid Industry’s Steepest Profitability Squeeze",
+      "url": "cryptopotato.com/emcd-launches-miner-support-program-with-up-to-30m-for-miners-amid-industrys-steepest-profitability-squeeze",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-27T13:01:10.211549+00:00"
+    },
+    "6a1b4fd38bc4f493": {
+      "title": "End of HODL: Co-Founder of Once World's Largest Bitcoin Mining Pool Moves Millions in Crypto to Binance",
+      "url": "u.today/end-of-hodl-co-founder-of-once-worlds-largest-bitcoin-mining-pool-moves-millions-in-crypto-to",
+      "signature": "action_support | asset_btc | entity_hodl | entity_바이낸스 | entity_스트래티지",
+      "canonical_key": "action_support | asset_btc | entity_hodl | entity_바이낸스 | entity_스트래티지",
+      "ts": "2026-07-27T13:01:14.285802+00:00"
     }
   }
 }
