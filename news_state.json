@@ -1322,6 +1322,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-07-27T19:01:26.289339+00:00"
+    },
+    "dc11ec9a0c68e803": {
+      "title": "비트마인, 이더리움 579만개 보유…공급량 4.8% 차지",
+      "url": "www.tokenpost.kr/news/cryptocurrency/381934",
+      "signature": "action_disclose | action_launch | amount_pct_4.8 | amount_pct_85 | amount_usd_11800000000 | amount_usd_299000000 | amount_usd_99000000 | asset_eth | object_disclosure | object_infrastructure",
+      "canonical_key": "action_disclose | action_launch | amount_pct_4.8 | amount_pct_85 | amount_usd_11800000000 | amount_usd_299000000 | amount_usd_99000000 | asset_eth | object_disclosure | object_infrastructure",
+      "ts": "2026-07-27T21:01:05.219590+00:00"
     }
   }
 }
