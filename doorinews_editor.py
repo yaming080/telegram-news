@@ -55,6 +55,7 @@ ENTITY_SPECS = (
     EntitySpec("geo", "싱가포르", ("Singapore", "싱가포르"), priority=10),
     EntitySpec("geo", "부탄", ("Bhutan", "부탄"), priority=10),
     EntitySpec("geo", "인도", ("India", "Indian", "인도"), priority=10),
+    EntitySpec("geo", "대만", ("Taiwan", "Taiwanese", "대만"), priority=10),
     EntitySpec("geo", "말레이시아", ("Malaysia", "Malaysian", "말레이시아"), priority=10),
     EntitySpec("geo", "필리핀", ("Philippines", "Philippine", "필리핀"), priority=10),
     EntitySpec("geo", "독일", ("Germany", "German", "독일"), priority=10),
@@ -119,6 +120,10 @@ ENTITY_SPECS = (
     EntitySpec("org", "미국국무부", ("U.S. State Department", "US State Department", "State Department", "미국 국무부", "국무부"), "#USStateDepartment", 20),
     EntitySpec("org", "스베르방크", ("Sberbank", "Sber Bank", "스베르방크"), "#Sberbank", 20),
     EntitySpec("org", "SK하이닉스", ("SK hynix", "SK Hynix", "SK하이닉스"), "#SKHynix", 20),
+    EntitySpec("org", "업비트", ("Upbit", "업비트"), "#Upbit", 20),
+    EntitySpec("org", "리도", ("Lido", "Lido Finance", "리도"), "#Lido", 20),
+    EntitySpec("org", "플레어", ("Flare", "Flare Network", "플레어"), "#Flare", 20),
+    EntitySpec("org", "엔비디아", ("Nvidia", "NVIDIA", "엔비디아"), "#Nvidia", 20),
     # People.
     EntitySpec("person", "저스틴선", ("Justin Sun", "저스틴 선", "저스틴선"), "#JustinSun", 15),
     EntitySpec("person", "아서헤이즈", ("Arthur Hayes", "아서 헤이즈", "아서헤이즈"), "#ArthurHayes", 15),
@@ -173,6 +178,37 @@ EXCLUDED_MARKET_CONTENT_PATTERNS = (
     r"공포\s*(?:탐욕|·\s*탐욕|및\s*탐욕)\s*지수|공포\s*지수|탐욕\s*지수",
     r"매수세|매수\s*(?:압력|우위|모멘텀)",
     r"반등세|반등|하락세|내림세|약세\s*흐름",
+    # Technical-analysis cards and rate-probability speculation.
+    r"\b(?:ema|rsi|macd|fibonacci|moving average|retracement|pullback)\b",
+    r"\bforced\s+liquidations?\b",
+    r"\b(?:fail(?:s|ed)?\s+to\s+break|break(?:s|ing)?|test(?:s|ed|ing)?|"
+    r"reject(?:s|ed|ion)?\s+at)\b.{0,55}\bresistance\b",
+    r"\b(?:forced\s+)?liquidations?\b.{0,70}\b(?:price|resistance|support|range|level)\b",
+    r"\b(?:resistance|support)\b.{0,70}\b(?:break|hold|range|zone|level|price)\b",
+    r"\b(?:price|range|zone|level)\b.{0,70}\b(?:resistance|support)\b",
+    r"(?:\d+\s*(?:일|주)?\s*)?EMA|이동평균선|피보나치|되돌림|저항(?:선|대|구간|을)|"
+    r"강제\s*청산|가격\s*구간|변동성.{0,20}(?:집중|확대)",
+    r"\b(?:fed|federal reserve)\b.{0,100}\b(?:rate path|rate hike|rate cut|"
+    r"basis points?|bps?|probability|odds|hawkish|dovish)\b",
+    r"\b(?:rate hike|rate cut|probability|odds|hawkish|dovish)\b.{0,100}"
+    r"\b(?:fed|federal reserve)\b",
+    r"(?:연준|미국\s*금리).{0,90}(?:동결|인상|인하|확률|가능성|매파|비둘기파|bp)",
+    r"(?:동결|인상|인하)\s*(?:확률|가능성).{0,60}(?:연준|금리)",
+    # Old proposals without a current vote, launch, approval, or adoption.
+    r"\b(?:proposed|proposal)\b.{0,130}\b(?:in\s+20\d{2}|not yet decided|"
+    r"undecided|no decision|adoption remains uncertain)\b",
+    r"20\d{2}년.{0,70}(?:제안|제시).{0,110}(?:채택|도입).{0,35}"
+    r"(?:미정|확정되지|결정되지|불투명)",
+    r"채택\s*여부.{0,30}(?:미정|확정되지|결정되지)",
+    # Mining-company balance-sheet analysis where crypto is incidental.
+    r"\b(?:miner|mining company|mining subsidiary)\b.{0,110}"
+    r"\b(?:debt|loan|revenue|balance sheet|financial statement)\b",
+    r"\b(?:debt|loan|revenue|balance sheet|financial statement)\b.{0,110}"
+    r"\b(?:miner|mining company|mining subsidiary)\b",
+    r"(?:채굴업체|채굴기업|채굴\s*자회사).{0,110}"
+    r"(?:부채|차입금|대출|매출|재무|손익)",
+    r"(?:부채|차입금|대출|매출|재무|손익).{0,110}"
+    r"(?:채굴업체|채굴기업|채굴\s*자회사)",
     # Multi-topic cards and the operator-excluded WEMIX ecosystem.
     r"\bnews\s+roundup\b",
     r"뉴스\s*(?:라운드업|모음)",
@@ -320,12 +356,16 @@ CONCRETE_EVENT_PATTERNS = (
     r"\bhack(?:ed|s)?\b", r"\bexploit(?:ed|s)?\b", r"\brecover(?:ed|y)?\b",
     r"\bsanction(?:ed|s)?\b", r"\bback(?:ed|s|ing)?\b", r"\bsupport(?:ed|s|ing)?\b",
     r"\brefin(?:e|ed|es|ing)\b", r"\bdevelop(?:ed|s|ing|ment)?\b",
+    r"\bmigrat(?:e|ed|es|ing|ion)\b", r"\brebrand(?:ed|s|ing)?\b",
+    r"\brenam(?:e|ed|es|ing)\b", r"\bconsolidat(?:e|ed|es|ing|ion)\b",
+    r"\bst(?:eal|ole|olen)\b", r"\bdrain(?:ed|s|ing)?\b",
     r"\bcut(?:s)?\b.{0,35}\b(?:odds|probability|estimate)\b",
     r"\blower(?:ed|s|ing)?\b.{0,35}\b(?:odds|probability|estimate)\b",
-    r"승인|통과|제출|신청|임명|지명|출시|도입|공개|발표|제휴|협력|통합",
+    r"승인|통과|제출|신청|임명|지명|출시|도입|공개|발표|제휴|협력|통합|이전|전환",
     r"인수|투자|특허|인가|등록|발행|배포|복구|체포|기소|소송|합의|해킹|익스플로잇",
     r"제재|지지|개발|개선|확률.{0,15}(?:하향|낮춤|축소)",
-    r"폐쇄|운영\s*종료|서비스\s*종료|파산|챕터\s*11|경매|민트",
+    r"폐쇄|운영\s*종료|서비스\s*종료|파산|챕터\s*11|경매|민트|"
+    r"사명\s*변경|이름\s*변경|탈취|도난",
 )
 
 ACTION_PATTERNS = {
@@ -369,6 +409,24 @@ ACTION_PATTERNS = {
     "action_ban": (r"\bban(?:ned|s)?\b", r"\brestrict(?:ed|s|ion)?\b", r"금지|제한"),
     "action_deny": (r"\bden(?:y|ies|ied)\b", r"\bdisput(?:e|ed|es)\b", r"\brefut(?:e|ed|es)\b", r"부인|반박"),
     "action_convert": (r"\bconvert(?:ed|s|ing)?\b", r"\btransition(?:ed|s|ing)?\b", r"전환"),
+    "action_migrate": (
+        r"\bmigrat(?:e|ed|es|ing|ion)\b",
+        r"\bconsolidat(?:e|ed|es|ing|ion)\b",
+        r"\bcredential\s+(?:change|migration|transition)\b",
+        r"이전|마이그레이션|자격\s*증명.{0,20}(?:변경|전환)|검증자.{0,20}통합",
+    ),
+    "action_integrate": (r"\bintegrat(?:e|ed|es|ing|ion)\b", r"통합|연동"),
+    "action_rebrand": (
+        r"\brebrand(?:ed|s|ing)?\b",
+        r"\brenam(?:e|ed|es|ing)\b",
+        r"사명\s*변경|이름\s*변경|명칭\s*변경",
+    ),
+    "action_steal": (
+        r"\bst(?:eal|ole|olen)\b",
+        r"\bdrain(?:ed|s|ing)?\b",
+        r"\btheft\b",
+        r"탈취|도난|빼돌",
+    ),
     "action_sanction": (r"\bsanction(?:ed|s)?\b", r"제재"),
     "action_support": (r"\bback(?:ed|s|ing)?\b", r"\bsupport(?:ed|s|ing)?\b", r"지지"),
     "action_develop": (r"\brefin(?:e|ed|es|ing)\b", r"\bdevelop(?:ed|s|ing|ment)?\b", r"개발|개선"),
@@ -457,6 +515,35 @@ OBJECT_PATTERNS = {
         r"\badvisory\s+(?:role|post|position)\b",
         r"고문|자문역|정책\s*자문",
     ),
+    "object_validator_migration": (
+        r"\bcurated\s+module\s+v?2\b",
+        r"\b0x02\s+withdrawal\s+credentials?\b",
+        r"\bvalidator\s+(?:credential|structure|balance|consolidation|migration)\b",
+        r"큐레이티드\s*모듈\s*v?2|0x02\s*출금\s*자격\s*증명|"
+        r"검증자.{0,25}(?:자격\s*증명|구조\s*통합|이전|잔고)",
+    ),
+    "object_fake_wallet": (
+        r"\b(?:fake|spoofed|fraudulent)\s+(?:(?:crypto|bitcoin|btc)\s+)?wallet\s+app\b",
+        r"\bseed\s+phrase\b.{0,45}\b(?:stole|stolen|theft|drain)\b",
+        r"가짜\s*(?:암호화폐|비트코인|BTC)?\s*지갑\s*앱|"
+        r"스푸핑\s*(?:암호화폐|비트코인|BTC)?\s*지갑\s*앱|"
+        r"시드\s*문구.{0,35}(?:탈취|도난)",
+    ),
+    "object_leveraged_etf": (
+        r"\b(?:leveraged|2x)\s+(?:crypto\s+)?etfs?\b",
+        r"\b(?:msse|msol)\b",
+        r"레버리지\s*(?:암호화폐\s*)?ETF|레버리지\s*상품",
+    ),
+    "object_smart_account": (
+        r"\bsmart\s+account(?:\s+v?1\.3)?\b",
+        r"스마트\s*계정(?:\s*v?1\.3)?",
+    ),
+    "object_fassets": (r"\bfassets?\b", r"\bfxrp\b", r"FAssets|FXRP"),
+    "object_company_rebrand": (
+        r"\b(?:company|subsidiary)\s+(?:rebrand|rename)\b",
+        r"\bsbi\s+digital\s+factory\b",
+        r"사명\s*변경|이름\s*변경|SBI\s*디지털\s*팩토리",
+    ),
 }
 
 GEO_PATTERNS = {
@@ -467,6 +554,7 @@ GEO_PATTERNS = {
     "geo_eu": (r"\beuropean union\b", r"(?<![a-z])eu(?![a-z])", r"유럽연합"),
     "geo_uk": (r"\bunited kingdom\b", r"(?<![a-z])uk(?![a-z])", r"\bbritain\b", r"영국"),
     "geo_india": (r"\bindia(?:n)?\b", r"인도"),
+    "geo_taiwan": (r"\btaiwan(?:ese)?\b", r"대만"),
     "geo_bhutan": (r"\bbhutan\b", r"부탄"),
     "geo_hongkong": (r"\bhong kong\b", r"홍콩"),
     "geo_malaysia": (r"\bmalaysia(?:n)?\b", r"말레이시아"),
@@ -983,8 +1071,42 @@ def _same_event(cur_signature: str, old_signature: str) -> bool:
         "object_insider_desk",
         "object_patent",
         "object_regulated_trading_infrastructure",
+        "object_validator_migration",
+        "object_fake_wallet",
+        "object_leveraged_etf",
+        "object_smart_account",
+        "object_fassets",
+        "object_company_rebrand",
     }
     if entities and actions and objects & specific_objects:
+        return True
+
+    # Highly specific products or procedures identify the event even when one
+    # source says "published" and another says "migrated" or "launched".
+    event_identity_objects = {
+        "object_validator_migration",
+        "object_leveraged_etf",
+        "object_smart_account",
+        "object_company_rebrand",
+    }
+    if (
+        entities
+        and objects & event_identity_objects
+        and cur_actions
+        and old_actions
+    ):
+        return True
+
+    # Scam headlines often omit the app or defendant name.  Match the concrete
+    # fake-wallet event only when the loss amount and another event anchor
+    # agree, so unrelated wallet thefts remain separate.
+    if (
+        "object_fake_wallet" in objects
+        and cur_actions
+        and old_actions
+        and amounts
+        and (geos or assets or dates)
+    ):
         return True
 
     if (
@@ -1386,6 +1508,14 @@ def fix_hashtag_particles(
         return f"#{token}"
 
     text = re.sub(r"#([A-Za-z0-9가-힣_]+)", separate, text)
+    # A middle dot may separate compact news terms, but it must not touch a
+    # hashtag.  Keep ordinary dots and decimal points unchanged.
+    text = re.sub(
+        r"(#[A-Za-z0-9가-힣_]+)\s*·\s*(?=#)",
+        r"\1 · ",
+        text,
+    )
+    text = re.sub(r"·\s*(?=#)", "· ", text)
     text = re.sub(r"(#[A-Za-z0-9가-힣_]+)\s+([,，])", r"\1\2", text)
     text = re.sub(r"[ \t]+", " ", text)
     return text.strip()
@@ -1530,5 +1660,5 @@ def install_editor_overrides(runtime: dict) -> None:
     runtime["is_semantically_duplicate"] = is_semantically_duplicate
     runtime["format_summary_for_telegram"] = format_summary_for_telegram
     runtime["build_message"] = build_message
-    runtime["DOORINEWS_EDITOR_VERSION"] = "2026-07-27-market-exclusions-v4"
-    _log("[편집엔진] doorinews_editor 2026-07-27-market-exclusions-v4 적용")
+    runtime["DOORINEWS_EDITOR_VERSION"] = "2026-07-29-dedupe-tags-filter-v5"
+    _log("[편집엔진] doorinews_editor 2026-07-29-dedupe-tags-filter-v5 적용")
