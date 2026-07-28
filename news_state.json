@@ -1420,6 +1420,27 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-07-28T10:02:02.357795+00:00"
+    },
+    "599075dbc4c3d91d": {
+      "title": "아서 헤이즈 ETH 매수, 급락 원인 아니었다…연준 앞둔 1900달러 분기점",
+      "url": "www.tokenpost.kr/news/cryptocurrency/382274",
+      "signature": "action_approve | amount_eth_3298 | amount_eth_approx_3300 | amount_pct_4.5 | amount_usd_6390000 | asset_eth | entity_eth | entity_비트멕스 | entity_아서헤이즈 | entity_연준 | object_license | object_sale",
+      "canonical_key": "action_approve | amount_eth_3298 | amount_eth_approx_3300 | amount_pct_4.5 | amount_usd_6390000 | asset_eth | entity_eth | entity_비트멕스 | entity_아서헤이즈 | entity_연준 | object_license | object_sale",
+      "ts": "2026-07-28T11:01:02.255376+00:00"
+    },
+    "a0b8af55fe3ee815": {
+      "title": "비트코인, 아시아 증시 약세에 6만3000달러 사수 여부 주목",
+      "url": "www.tokenpost.kr/news/cryptocurrency/382271",
+      "signature": "action_invest | amount_usd_63000 | asset_btc | entity_sk하이닉스 | geo_korea | geo_us | object_sale",
+      "canonical_key": "action_invest | amount_usd_63000 | asset_btc | entity_sk하이닉스 | geo_korea | geo_us | object_sale",
+      "ts": "2026-07-28T11:01:06.615151+00:00"
+    },
+    "a6736745684f9368": {
+      "title": "Lido unveils Ethereum staking overhaul with validator consolidation plan",
+      "url": "crypto.news/lido-unveils-ethereum-staking-overhaul-with-validator-consolidation-plan",
+      "signature": "action_support | asset_eth | object_infrastructure",
+      "canonical_key": "action_support | asset_eth | object_infrastructure",
+      "ts": "2026-07-28T11:01:12.831574+00:00"
     }
   }
 }
