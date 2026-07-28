@@ -1546,6 +1546,27 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-07-28T16:01:20.173092+00:00"
+    },
+    "e6aeae114e415969": {
+      "title": "XRP Was Just the Warm-Up: Flare CEO Eyes Bitcoin Integration for Next DeFi Push",
+      "url": "u.today/xrp-was-just-the-warm-up-flare-ceo-eyes-bitcoin-integration-for-next-defi-push",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-28T17:01:15.372070+00:00"
+    },
+    "04ad549912ef8823": {
+      "title": "SBI expands beyond Ripple with Canton Network unit",
+      "url": "crypto.news/sbi-expands-beyond-ripple-with-canton-network-unit",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-28T17:01:19.000962+00:00"
+    },
+    "7e02d3bf40da424d": {
+      "title": "Morgan Stanley launches ETH, Solana ETFs at 0.14%",
+      "url": "crypto.news/morgan-stanley-launch-eth-solana-etfs-at-0-14-percent",
+      "signature": "action_invest | action_launch | amount_pct_0.14 | asset_btc | asset_eth | asset_sol | entity_eth | entity_모건스탠리",
+      "canonical_key": "action_invest | action_launch | amount_pct_0.14 | asset_btc | asset_eth | asset_sol | entity_eth | entity_모건스탠리",
+      "ts": "2026-07-28T17:01:23.084387+00:00"
     }
   }
 }
