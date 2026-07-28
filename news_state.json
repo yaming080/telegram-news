@@ -1497,6 +1497,27 @@
       "signature": "action_launch | asset_eth | asset_sol | entity_로빈후드 | object_network",
       "canonical_key": "action_launch | asset_eth | asset_sol | entity_로빈후드 | object_network",
       "ts": "2026-07-28T14:01:28.529058+00:00"
+    },
+    "0a5bba30784318dc": {
+      "title": "모건스탠리, 이더리움·솔라나 트러스트 상장…알트코인 기관투자 확대",
+      "url": "www.tokenpost.kr/news/cryptocurrency/382343",
+      "signature": "action_invest | action_launch | asset_btc | asset_eth | asset_sol | entity_모건스탠리",
+      "canonical_key": "action_invest | action_launch | asset_btc | asset_eth | asset_sol | entity_모건스탠리",
+      "ts": "2026-07-28T15:01:10.691445+00:00"
+    },
+    "03277b1a1e906060": {
+      "title": "DCG 산하 포티튜드, ‘무부채’ 내세웠지만 손실·비트코인 편중 드러나",
+      "url": "www.tokenpost.kr/news/cryptocurrency/382341",
+      "signature": "action_disclose | action_file | action_invest | action_launch | amount_usd_6000000 | amount_usd_8300000 | asset_btc | entity_dcg | entity_sec | object_disclosure",
+      "canonical_key": "action_disclose | action_file | action_invest | action_launch | amount_usd_6000000 | amount_usd_8300000 | asset_btc | entity_dcg | entity_sec | object_disclosure",
+      "ts": "2026-07-28T15:01:16.589674+00:00"
+    },
+    "e12a349f8614b773": {
+      "title": "Morgan Stanley to Launch Cheapest Ethereum and Solana ETFs",
+      "url": "u.today/morgan-stanley-to-launch-cheapest-ethereum-and-solana-etfs",
+      "signature": "action_launch | asset_eth | asset_sol | entity_모건스탠리 | object_etf",
+      "canonical_key": "action_launch | asset_eth | asset_sol | entity_모건스탠리 | object_etf",
+      "ts": "2026-07-28T15:01:22.709835+00:00"
     }
   }
 }
