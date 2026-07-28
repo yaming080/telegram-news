@@ -1441,6 +1441,27 @@
       "signature": "action_support | asset_eth | object_infrastructure",
       "canonical_key": "action_support | asset_eth | object_infrastructure",
       "ts": "2026-07-28T11:01:12.831574+00:00"
+    },
+    "c97eb577c5e3739f": {
+      "title": "연준 결정 앞두고 비트코인 약세…동결 무게 속 인상 경계",
+      "url": "www.tokenpost.kr/news/cryptocurrency/382288",
+      "signature": "action_disclose | action_launch | amount_pct_3 | amount_pct_35 | amount_pct_64 | asset_btc | entity_연준 | object_commissioner | object_disclosure",
+      "canonical_key": "action_disclose | action_launch | amount_pct_3 | amount_pct_35 | amount_pct_64 | asset_btc | entity_연준 | object_commissioner | object_disclosure",
+      "ts": "2026-07-28T12:01:14.426879+00:00"
+    },
+    "e74b18d5a7395745": {
+      "title": "Ripple’s Hidden Road Gains as DTCC Nears Treasury Clearing Deadline",
+      "url": "coinedition.com/ripples-hidden-road-gains-as-dtcc-nears-treasury-clearing-deadline",
+      "signature": "action_convert | action_support | entity_리플 | geo_us | object_network",
+      "canonical_key": "action_convert | action_support | entity_리플 | geo_us | object_network",
+      "ts": "2026-07-28T12:01:19.678092+00:00"
+    },
+    "c692ed276584e52f": {
+      "title": "Ethereum price slips below $1,900 as long liquidations surge",
+      "url": "crypto.news/ethereum-price-slips-below-1900-as-liquidations-surge",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-28T12:01:29.062966+00:00"
     }
   }
 }
