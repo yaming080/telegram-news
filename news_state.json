@@ -1462,6 +1462,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-07-28T12:01:29.062966+00:00"
+    },
+    "bd551828506a66af": {
+      "title": "Shiba Inu's (SHIB) 3rd Biggest Recovery Attempt of 2026 Gets Shut Down: Mini-Gold Cross Cancelled",
+      "url": "u.today/shiba-inus-shib-3rd-biggest-recovery-attempt-of-2026-gets-shut-down-mini-gold-cross-cancelled",
+      "signature": "action_close | entity_shib | object_recovery | object_shutdown",
+      "canonical_key": "action_close | entity_shib | object_recovery | object_shutdown",
+      "ts": "2026-07-28T13:01:11.445286+00:00"
+    },
+    "b1b010d89e68b2cd": {
+      "title": "XRPL is building what it refused. Xahau built it first",
+      "url": "crypto.news/xrpl-is-building-what-it-refused-xahau-built-it-first",
+      "signature": "action_build | asset_xrp | asset_xrpl | entity_xrpl",
+      "canonical_key": "action_build | asset_xrp | asset_xrpl | entity_xrpl",
+      "ts": "2026-07-28T13:01:15.791182+00:00"
     }
   }
 }
