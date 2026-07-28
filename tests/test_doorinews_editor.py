@@ -733,6 +733,146 @@ class DoorinewsEditorTests(unittest.TestCase):
         self.assertTrue(blocked)
         self.assertIn("위믹스", reason)
 
+    def test_middle_dot_is_spaced_only_at_hashtag_boundaries(self):
+        text = "KRW·#비트코인·#USDT와 #SEC·#CFTC, 수수료는 0.14%임"
+        self.assertEqual(
+            editor.fix_hashtag_particles(text),
+            "KRW· #비트코인 · #USDT 와 #SEC · #CFTC, 수수료는 0.14%임",
+        )
+
+    def test_new_company_tags_use_first_korean_mention_only(self):
+        story = {
+            "title": "Upbit lists RLUSD while Lido updates Ethereum validators",
+            "desc": "Upbit and Lido published separate service updates",
+        }
+        summary = (
+            "업비트가 RLUSD 거래를 지원하고 리도는 이더리움 검증자 업데이트를 공개함\n\n"
+            "업비트와 리도는 적용 일정을 전함"
+        )
+        tagged, selected = editor._inject_inline_tags(summary, story)
+        self.assertIn("#업비트 가", tagged)
+        self.assertIn("#리도 는", tagged)
+        self.assertEqual(tagged.count("#업비트"), 1)
+        self.assertEqual(tagged.count("#리도"), 1)
+        footer = editor._build_footer_tags(story, selected)
+        self.assertNotIn("#Upbit", footer)
+        self.assertNotIn("#Lido", footer)
+
+    def test_technical_rate_and_old_proposal_cards_are_blocked(self):
+        stories = (
+            {
+                "title": "Ethereum fails to break $2,000 resistance",
+                "desc": "Forced liquidation sent ETH toward $1,900 as volatility concentrated near $1,850",
+            },
+            {
+                "title": "Bitcoin pressured by Federal Reserve rate path",
+                "desc": "The probability of a 25bp rate hike rose as markets feared a hawkish Fed",
+            },
+            {
+                "title": "SHIB pulls back from the 100-day EMA",
+                "desc": "Technical resistance may trigger a retracement despite higher volume",
+            },
+            {
+                "title": "XRPL developers revisit a smart contract proposal from 2023",
+                "desc": "Adoption remains undecided and no current launch or approval was announced",
+            },
+        )
+        for story in stories:
+            with self.subTest(title=story["title"]):
+                blocked, _ = editor._is_hard_blocked(story)
+                self.assertTrue(blocked)
+
+    def test_mining_company_balance_sheet_story_is_blocked(self):
+        story = {
+            "title": "DCG mining subsidiary Foundry reshapes debt image",
+            "desc": "The Bitcoin miner's revenue, intercompany loans and balance sheet were reviewed",
+        }
+        blocked, _ = editor._is_hard_blocked(story)
+        self.assertTrue(blocked)
+
+    def test_lido_validator_migration_variants_are_one_event(self):
+        stories = (
+            {
+                "title": "Lido publishes Curated Module v2 and 0x02 withdrawal credential resources",
+                "desc": "The Ethereum validator upgrade raises the active balance limit to 2,048 ETH",
+            },
+            {
+                "title": "Lido moves staking infrastructure to Curated Module v2",
+                "desc": "The validator credential migration cuts the validator count from 880,000 to 628,000",
+            },
+            {
+                "title": "Lido Core 2026 consolidates validator structure",
+                "desc": "Curated Module v2 combines validators and introduces operator collateral",
+            },
+        )
+        signatures = [editor.build_story_signature(story) for story in stories]
+        self.assertTrue(all(signatures))
+        self.assertTrue(editor._same_event(signatures[0], signatures[1]))
+        self.assertTrue(editor._same_event(signatures[0], signatures[2]))
+
+    def test_fake_wallet_theft_matches_without_named_app(self):
+        first = {
+            "title": "Users sue Apple over fake Bitcoin wallet app",
+            "desc": "Three users say a spoofed wallet stole $1,835,500 in the United States",
+        }
+        second = {
+            "title": "가짜 비트코인 지갑 앱 피해자들 미국서 소송",
+            "desc": "시드 문구를 입력한 이용자 3명에게서 183만5500달러 상당 BTC가 탈취됨",
+        }
+        first_signature = editor.build_story_signature(first)
+        second_signature = editor.build_story_signature(second)
+        self.assertIn("object_fake_wallet", first_signature)
+        self.assertIn("object_fake_wallet", second_signature)
+        self.assertTrue(editor._same_event(first_signature, second_signature))
+
+    def test_morgan_stanley_leveraged_etf_variants_are_one_event(self):
+        first = {
+            "title": "Morgan Stanley launches leveraged Ethereum and Solana ETFs",
+            "desc": "MSSE and MSOL begin trading with a 0.14% fee",
+        }
+        second = {
+            "title": "모건스탠리, 이더리움·솔라나 레버리지 상품 출시",
+            "desc": "상장지수상품 MSSE와 MSOL의 초기 자산은 각각 1억달러로 집계됨",
+        }
+        self.assertTrue(
+            editor._same_event(
+                editor.build_story_signature(first),
+                editor.build_story_signature(second),
+            )
+        )
+
+    def test_sbi_rebrand_variants_are_one_event(self):
+        first = {
+            "title": "SBI Holdings rebrands subsidiary as SBI Digital Factory",
+            "desc": "The company transfers the Kent Network specialist finance business",
+        }
+        second = {
+            "title": "SBI, 자회사 사명을 SBI 디지털 팩토리로 변경",
+            "desc": "켄트 네트워크 전문 금융 사업을 새 법인으로 이전함",
+        }
+        self.assertTrue(
+            editor._same_event(
+                editor.build_story_signature(first),
+                editor.build_story_signature(second),
+            )
+        )
+
+    def test_flare_smart_account_and_fassets_plan_remain_distinct(self):
+        smart_account = {
+            "title": "Flare launches Smart Account v1.3",
+            "desc": "The account lets XRP holders use FXRP and DeFi without manual bridging",
+        }
+        fassets_plan = {
+            "title": "Flare CEO plans to integrate Bitcoin through FAssets",
+            "desc": "FAssets will bring BTC liquidity to XRPL DeFi",
+        }
+        self.assertFalse(
+            editor._same_event(
+                editor.build_story_signature(smart_account),
+                editor.build_story_signature(fassets_plan),
+            )
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
