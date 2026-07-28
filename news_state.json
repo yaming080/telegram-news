@@ -1378,6 +1378,48 @@
       "signature": "action_sue | amount_usd_120000 | amount_usd_1835000 | amount_usd_840000 | amount_usd_875000 | asset_btc | entity_btc | geo_us | object_wallet",
       "canonical_key": "action_sue | amount_usd_120000 | amount_usd_1835000 | amount_usd_840000 | amount_usd_875000 | asset_btc | entity_btc | geo_us | object_wallet",
       "ts": "2026-07-28T09:01:10.132705+00:00"
+    },
+    "4ee60247c641c438": {
+      "title": "Lido upgrade aims to slash Ethereum’s validator count by one-third",
+      "url": "cointelegraph.com/news/lido-upgrade-ethereum-validator-count-one-third-slash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-28T10:01:35.111774+00:00"
+    },
+    "5c83df311b306597": {
+      "title": "리도, 검증자 효율 높이는 업그레이드 공개…이더리움 분산성 강화 노린다",
+      "url": "www.tokenpost.kr/news/tech/382257",
+      "signature": "action_disclose | action_launch | amount_eth_32 | asset_eth | object_disclosure | object_infrastructure | object_network",
+      "canonical_key": "action_disclose | action_launch | amount_eth_32 | asset_eth | object_disclosure | object_infrastructure | object_network",
+      "ts": "2026-07-28T10:01:39.392399+00:00"
+    },
+    "114f7ec00eb03aa2": {
+      "title": "Clarity Act 지연에 비트코인 흔들…아시아 증시 급락까지 겹쳤다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/382249",
+      "signature": "action_appoint | action_enforce | action_invest | action_pass | action_sanction | asset_btc | entity_cftc | entity_sec | geo_russia | geo_us | object_bill | object_commissioner | object_sanctions",
+      "canonical_key": "action_appoint | action_enforce | action_invest | action_pass | action_sanction | asset_btc | entity_cftc | entity_sec | geo_russia | geo_us | object_bill | object_commissioner | object_sanctions",
+      "ts": "2026-07-28T10:01:43.365575+00:00"
+    },
+    "808bfbebb35ddbcc": {
+      "title": "아시아 반도체주, AI 투자 불안에 전반적 급락세",
+      "url": "www.tokenpost.kr/news/market/382247",
+      "signature": "action_invest | amount_pct_10 | amount_pct_18.3 | amount_pct_3 | amount_pct_4 | geo_japan | geo_korea | object_infrastructure | object_sale",
+      "canonical_key": "action_invest | amount_pct_10 | amount_pct_18.3 | amount_pct_3 | amount_pct_4 | geo_japan | geo_korea | object_infrastructure | object_sale",
+      "ts": "2026-07-28T10:01:47.631768+00:00"
+    },
+    "d4ba881da69816c3": {
+      "title": "Japan PM’s Actions Suggest Growing Support for XRP in the Region",
+      "url": "coinedition.com/japan-pms-actions-suggest-growing-support-for-xrp-in-the-region",
+      "signature": "action_support | asset_xrp | geo_japan | object_infrastructure",
+      "canonical_key": "action_support | asset_xrp | geo_japan | object_infrastructure",
+      "ts": "2026-07-28T10:01:55.695043+00:00"
+    },
+    "e6689e3becd6a24f": {
+      "title": "Ethereum Flashes Bullish MVRV Signal Seen Before Major Price Rallies",
+      "url": "coinedition.com/ethereum-flashes-bullish-mvrv-signal-seen-before-major-price-rallies",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-28T10:02:02.357795+00:00"
     }
   }
 }
