@@ -1476,6 +1476,27 @@
       "signature": "action_build | asset_xrp | asset_xrpl | entity_xrpl",
       "canonical_key": "action_build | asset_xrp | asset_xrpl | entity_xrpl",
       "ts": "2026-07-28T13:01:15.791182+00:00"
+    },
+    "e4cc5f5e75e1e332": {
+      "title": "Ethereum, Solana led crypto hack losses in H1 2026: Blockaid",
+      "url": "cointelegraph.com/news/ethereum-solana-led-crypto-hack-losses-h1-2026-blockaid?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_hack | asset_eth | asset_sol | entity_아비트럼 | object_network",
+      "canonical_key": "action_hack | asset_eth | asset_sol | entity_아비트럼 | object_network",
+      "ts": "2026-07-28T14:01:11.964441+00:00"
+    },
+    "b350d90d783a0eae": {
+      "title": "리도, '코어 2026' 업그레이드 단행…이더리움 검증자 구조 재편",
+      "url": "www.tokenpost.kr/news/tech/382321",
+      "signature": "action_convert | action_develop | action_launch | asset_eth | object_network",
+      "canonical_key": "action_convert | action_develop | action_launch | asset_eth | object_network",
+      "ts": "2026-07-28T14:01:16.139098+00:00"
+    },
+    "f27de71d78e60117": {
+      "title": "Robinhood Chain Becomes Largest Network by RWA Holder Count",
+      "url": "coinedition.com/robinhood-chain-becomes-largest-network-by-rwa-holder-count",
+      "signature": "action_launch | asset_eth | asset_sol | entity_로빈후드 | object_network",
+      "canonical_key": "action_launch | asset_eth | asset_sol | entity_로빈후드 | object_network",
+      "ts": "2026-07-28T14:01:28.529058+00:00"
     }
   }
 }
