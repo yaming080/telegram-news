@@ -1357,6 +1357,13 @@
       "signature": "action_invest | amount_pct_10 | amount_pct_2.7 | amount_pct_25 | amount_usd_63200 | amount_usd_65000 | asset_btc | asset_eth | asset_sol | asset_xrp | entity_리플 | geo_india | geo_korea | geo_us",
       "canonical_key": "action_invest | amount_pct_10 | amount_pct_2.7 | amount_pct_25 | amount_usd_63200 | amount_usd_65000 | asset_btc | asset_eth | asset_sol | asset_xrp | entity_리플 | geo_india | geo_korea | geo_us",
       "ts": "2026-07-28T05:01:04.791211+00:00"
+    },
+    "632ae973fed6cfaf": {
+      "title": "Upbit lists RLUSD in KRW, BTC and USDT markets",
+      "url": "crypto.news/upbit-lists-rlusd-in-krw-btc-and-usdt-markets",
+      "signature": "action_launch | asset_btc | asset_rlusd | asset_usdt | asset_xrp | asset_xrpl | entity_btc | entity_krw | entity_rlusd | entity_usdt | entity_업비트 | object_rlusd",
+      "canonical_key": "action_launch | asset_btc | asset_rlusd | asset_usdt | asset_xrp | asset_xrpl | entity_btc | entity_krw | entity_rlusd | entity_usdt | entity_업비트 | object_rlusd",
+      "ts": "2026-07-28T06:01:27.332878+00:00"
     }
   }
 }
