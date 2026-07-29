@@ -1700,6 +1700,13 @@
       "signature": "action_invest | amount_usd_12 | asset_btc | entity_스트라이브",
       "canonical_key": "action_invest | amount_usd_12 | asset_btc | entity_스트라이브",
       "ts": "2026-07-29T16:01:14.557959+00:00"
+    },
+    "6cf15d1ba276427f": {
+      "title": "XRP retail trading launches on licensed Hong Kong venue",
+      "url": "crypto.news/xrp-retail-trading-launches-licensed-hong-kong-venue",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-29T17:01:07.718314+00:00"
     }
   }
 }
