@@ -1602,6 +1602,13 @@
       "signature": "action_acquire | action_disclose | action_launch | action_secure | amount_pct_13 | amount_pct_4 | amount_pct_4.8 | amount_pct_5 | asset_eth | entity_bmnr | object_disclosure",
       "canonical_key": "action_acquire | action_disclose | action_launch | action_secure | amount_pct_13 | amount_pct_4 | amount_pct_4.8 | amount_pct_5 | asset_eth | entity_bmnr | object_disclosure",
       "ts": "2026-07-29T00:01:01.072400+00:00"
+    },
+    "b083c1fe29dae374": {
+      "title": "Apple Faces Lawsuit After Fake Bitcoin Wallet Allegedly Stole $1.8 Million",
+      "url": "coinedition.com/crypto-live-news/apple-faces-lawsuit-after-fake-bitcoin-wallet-allegedly-stole-1-8-million",
+      "signature": "action_steal | action_sue | amount_usd_1800000 | asset_btc | object_class_action | object_recovery | object_wallet",
+      "canonical_key": "action_steal | action_sue | amount_usd_1800000 | asset_btc | object_class_action | object_recovery | object_wallet",
+      "ts": "2026-07-29T01:00:57.113618+00:00"
     }
   }
 }
