@@ -1630,6 +1630,20 @@
       "signature": "action_launch | amount_pct_0.14 | asset_eth | asset_sol | entity_모건스탠리 | geo_us",
       "canonical_key": "action_launch | amount_pct_0.14 | asset_eth | asset_sol | entity_모건스탠리 | geo_us",
       "ts": "2026-07-29T05:01:08.930257+00:00"
+    },
+    "3c3f9a7e2a1a638a": {
+      "title": "비트코인 6만3800달러…반도체 급락에도 올랐다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/382537",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-29T06:01:40.180250+00:00"
+    },
+    "d4d1992028e94744": {
+      "title": "Ionic Digital jumps 26% in Nasdaq debut",
+      "url": "crypto.news/ionic-digital-jumps-26-in-nasdaq-debut",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-29T06:01:43.741855+00:00"
     }
   }
 }
