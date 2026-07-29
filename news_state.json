@@ -1686,6 +1686,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-07-29T14:01:15.571579+00:00"
+    },
+    "292e3e36d53e8d4b": {
+      "title": "XRP 100달러 논쟁…담보 잠금이 변수로 떠올랐다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/382691",
+      "signature": "action_deny | action_issue | action_mint | asset_xrp | asset_xrpl | object_payment",
+      "canonical_key": "action_deny | action_issue | action_mint | asset_xrp | asset_xrpl | object_payment",
+      "ts": "2026-07-29T15:01:06.136491+00:00"
     }
   }
 }
