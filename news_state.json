@@ -1728,6 +1728,20 @@
       "signature": "action_launch | action_partner | asset_xrp | asset_xrpl | entity_xrpl | entity_리플 | geo_us | object_fund",
       "canonical_key": "action_launch | action_partner | asset_xrp | asset_xrpl | entity_xrpl | entity_리플 | geo_us | object_fund",
       "ts": "2026-07-29T19:01:13.081985+00:00"
+    },
+    "9c57d43205d35f18": {
+      "title": "$592 Million Asset Manager Reveals New XRP ETF Position",
+      "url": "u.today/592-million-asset-manager-reveals-new-xrp-etf-position",
+      "signature": "action_invest | amount_usd_592000000 | asset_xrp | object_etf",
+      "canonical_key": "action_invest | amount_usd_592000000 | asset_xrp | object_etf",
+      "ts": "2026-07-29T21:01:06.641109+00:00"
+    },
+    "e5cb94fd6876831b": {
+      "title": "Tether USAT launches on Celo as second mainnet",
+      "url": "crypto.news/tether-usat-launches-on-celo-as-second-mainnet",
+      "signature": "action_launch | asset_eth | asset_stablecoin | entity_테더 | geo_us | object_network",
+      "canonical_key": "action_launch | asset_eth | asset_stablecoin | entity_테더 | geo_us | object_network",
+      "ts": "2026-07-29T21:01:10.107895+00:00"
     }
   }
 }
