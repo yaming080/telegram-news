@@ -1693,6 +1693,13 @@
       "signature": "action_deny | action_issue | action_mint | asset_xrp | asset_xrpl | object_payment",
       "canonical_key": "action_deny | action_issue | action_mint | asset_xrp | asset_xrpl | object_payment",
       "ts": "2026-07-29T15:01:06.136491+00:00"
+    },
+    "b958a91657fdca64": {
+      "title": "$12 Trillion Giant Vanguard Increases Stake in Top Bitcoin Treasury Company",
+      "url": "u.today/12-trillion-giant-vanguard-increases-stake-in-top-bitcoin-treasury-company",
+      "signature": "action_invest | amount_usd_12 | asset_btc | entity_스트라이브",
+      "canonical_key": "action_invest | amount_usd_12 | asset_btc | entity_스트라이브",
+      "ts": "2026-07-29T16:01:14.557959+00:00"
     }
   }
 }
