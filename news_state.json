@@ -1623,6 +1623,13 @@
       "signature": "action_close | action_deny | action_migrate | asset_btc | object_shutdown",
       "canonical_key": "action_close | action_deny | action_migrate | asset_btc | object_shutdown",
       "ts": "2026-07-29T04:01:02.198758+00:00"
+    },
+    "64f49a1281d3bed3": {
+      "title": "Morgan Stanley Launches America’s Cheapest ETH and SOL ETFs With Staking Rewards",
+      "url": "cryptopotato.com/morgan-stanley-launches-americas-cheapest-eth-and-sol-etfs-with-staking-rewards",
+      "signature": "action_launch | amount_pct_0.14 | asset_eth | asset_sol | entity_모건스탠리 | geo_us",
+      "canonical_key": "action_launch | amount_pct_0.14 | asset_eth | asset_sol | entity_모건스탠리 | geo_us",
+      "ts": "2026-07-29T05:01:08.930257+00:00"
     }
   }
 }
