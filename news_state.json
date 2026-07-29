@@ -1644,6 +1644,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-07-29T06:01:43.741855+00:00"
+    },
+    "18a3ae70319f69c5": {
+      "title": "Ripple Lawsuit Architect Confirmed as Director of National Intelligence",
+      "url": "u.today/ripple-lawsuit-architect-confirmed-as-director-of-national-intelligence",
+      "signature": "action_sue | entity_sec | entity_리플 | geo_us | object_class_action",
+      "canonical_key": "action_sue | entity_sec | entity_리플 | geo_us | object_class_action",
+      "ts": "2026-07-29T07:01:13.121071+00:00"
     }
   }
 }
