@@ -1742,6 +1742,13 @@
       "signature": "action_launch | asset_eth | asset_stablecoin | entity_테더 | geo_us | object_network",
       "canonical_key": "action_launch | asset_eth | asset_stablecoin | entity_테더 | geo_us | object_network",
       "ts": "2026-07-29T21:01:10.107895+00:00"
+    },
+    "a18248aa2869bc4f": {
+      "title": "Tether Expands GENIUS-Compliant USA₮ Stablecoin to Celo With Native Gas Support",
+      "url": "coinedition.com/crypto-live-news/tether-expands-genius-compliant-usa%e2%82%ae-stablecoin-to-celo-with-native-gas-support",
+      "signature": "action_support | asset_eth | asset_stablecoin | entity_스테이블코인 | entity_스트래티지 | entity_테더 | geo_us",
+      "canonical_key": "action_support | asset_eth | asset_stablecoin | entity_스테이블코인 | entity_스트래티지 | entity_테더 | geo_us",
+      "ts": "2026-07-29T22:01:00.087926+00:00"
     }
   }
 }
