@@ -1679,6 +1679,13 @@
       "signature": "action_ban | amount_pct_35 | asset_btc | entity_연준 | object_bond",
       "canonical_key": "action_ban | amount_pct_35 | asset_btc | entity_연준 | object_bond",
       "ts": "2026-07-29T12:01:02.291951+00:00"
+    },
+    "8829b8fe14a84281": {
+      "title": "Strategy CEO Announces Key Financial Metric Overhaul as Its Stock Falls Faster Than Bitcoin",
+      "url": "u.today/strategy-ceo-announces-key-financial-metric-overhaul-as-its-stock-falls-faster-than-bitcoin",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-29T14:01:15.571579+00:00"
     }
   }
 }
