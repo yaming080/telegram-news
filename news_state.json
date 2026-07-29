@@ -1672,6 +1672,13 @@
       "signature": "action_issue | asset_btc | entity_warnsagainstprotocolchanges | entity_마이클세일러 | object_network",
       "canonical_key": "action_issue | asset_btc | entity_warnsagainstprotocolchanges | entity_마이클세일러 | object_network",
       "ts": "2026-07-29T11:01:24.657802+00:00"
+    },
+    "ace63f541b95ee30": {
+      "title": "연준 금리 결정 임박…비트코인, 방향성 분기점 맞나",
+      "url": "www.tokenpost.kr/news/cryptocurrency/382642",
+      "signature": "action_ban | amount_pct_35 | asset_btc | entity_연준 | object_bond",
+      "canonical_key": "action_ban | amount_pct_35 | asset_btc | entity_연준 | object_bond",
+      "ts": "2026-07-29T12:01:02.291951+00:00"
     }
   }
 }
