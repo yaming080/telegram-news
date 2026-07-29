@@ -1595,6 +1595,13 @@
       "signature": "action_issue | asset_btc | entity_마이클세일러 | entity_스트래티지",
       "canonical_key": "action_issue | asset_btc | entity_마이클세일러 | entity_스트래티지",
       "ts": "2026-07-28T22:01:07.855890+00:00"
+    },
+    "219b8e956d6c5578": {
+      "title": "BMNR, 이더리움 보유량 578만 개 돌파하며 암호화폐 시장 주목",
+      "url": "www.tokenpost.kr/news/cryptocurrency/382411",
+      "signature": "action_acquire | action_disclose | action_launch | action_secure | amount_pct_13 | amount_pct_4 | amount_pct_4.8 | amount_pct_5 | asset_eth | entity_bmnr | object_disclosure",
+      "canonical_key": "action_acquire | action_disclose | action_launch | action_secure | amount_pct_13 | amount_pct_4 | amount_pct_4.8 | amount_pct_5 | asset_eth | entity_bmnr | object_disclosure",
+      "ts": "2026-07-29T00:01:01.072400+00:00"
     }
   }
 }
