@@ -1707,6 +1707,27 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-07-29T17:01:07.718314+00:00"
+    },
+    "9fd4734605dc9b01": {
+      "title": "무기한선물 솔라나·하이퍼리퀴드로…이더리움 역할 바뀌었다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/382737",
+      "signature": "action_invest | asset_eth | asset_sol | object_derivatives | object_infrastructure | object_lending | object_network",
+      "canonical_key": "action_invest | asset_eth | asset_sol | object_derivatives | object_infrastructure | object_lending | object_network",
+      "ts": "2026-07-29T19:01:03.758278+00:00"
+    },
+    "8e0301453289cd18": {
+      "title": "CEO of Quantum Giant Issues Bitcoin Warning",
+      "url": "u.today/ceo-of-quantum-giant-issues-bitcoin-warning",
+      "signature": "action_issue | asset_btc | entity_ceo",
+      "canonical_key": "action_issue | asset_btc | entity_ceo",
+      "ts": "2026-07-29T19:01:08.621892+00:00"
+    },
+    "8434d13730340e6a": {
+      "title": "Aviva Investors launches first tokenized fund on XRPL",
+      "url": "crypto.news/aviva-investors-launches-first-tokenized-fund-on-xrpl",
+      "signature": "action_launch | action_partner | asset_xrp | asset_xrpl | entity_xrpl | entity_리플 | geo_us | object_fund",
+      "canonical_key": "action_launch | action_partner | asset_xrp | asset_xrpl | entity_xrpl | entity_리플 | geo_us | object_fund",
+      "ts": "2026-07-29T19:01:13.081985+00:00"
     }
   }
 }
