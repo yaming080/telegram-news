@@ -1791,6 +1791,20 @@
       "signature": "action_disclose | action_invest | action_launch | asset_btc | asset_eth | asset_sol | asset_xrp | entity_업비트 | object_disclosure | object_sale",
       "canonical_key": "action_disclose | action_invest | action_launch | asset_btc | asset_eth | asset_sol | asset_xrp | entity_업비트 | object_disclosure | object_sale",
       "ts": "2026-07-30T08:01:02.446448+00:00"
+    },
+    "d56a5efa40fdff7e": {
+      "title": "Anthropic AI breaks HAWK-256 in 60 hours, raising Bitcoin concerns",
+      "url": "www.cryptopolitan.com/anthropic-ai-crack-hawk-256-bitcoin-concerns",
+      "signature": "action_migrate | asset_btc | entity_hawk256 | entity_앤트로픽 | object_network",
+      "canonical_key": "action_migrate | asset_btc | entity_hawk256 | entity_앤트로픽 | object_network",
+      "ts": "2026-07-30T09:01:18.261441+00:00"
+    },
+    "f89cfbd76e097b0e": {
+      "title": "Pi Network’s PI Extends Recovery as Bitcoin (BTC) Settles After FOMC Meeting: Market Watch",
+      "url": "cryptopotato.com/pi-networks-pi-extends-recovery-as-bitcoin-btc-settles-after-fomc-meeting-market-watch",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-30T09:01:27.866207+00:00"
     }
   }
 }
