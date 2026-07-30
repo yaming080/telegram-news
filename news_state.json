@@ -1959,6 +1959,27 @@
       "signature": "action_support | amount_usd_15000000000 | asset_btc | entity_anthropic | entity_구글 | entity_앤트로픽 | object_infrastructure",
       "canonical_key": "action_support | amount_usd_15000000000 | asset_btc | entity_anthropic | entity_구글 | entity_앤트로픽 | object_infrastructure",
       "ts": "2026-07-30T21:01:10.252682+00:00"
+    },
+    "15a94ef43f960434": {
+      "title": "Strategy posts $8.2B Q2 loss as Bitcoin slump drives unrealized losses",
+      "url": "cointelegraph.com/news/strategy-reports-q2-2026-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_launch | action_support | amount_usd_3750000000 | amount_usd_8200000000 | asset_btc | entity_스트래티지",
+      "canonical_key": "action_launch | action_support | amount_usd_3750000000 | amount_usd_8200000000 | asset_btc | entity_스트래티지",
+      "ts": "2026-07-30T22:00:59.952393+00:00"
+    },
+    "4ceaf4feeb865bb3": {
+      "title": "CZ Hints at Buying Meme Coins Again: What Tokens Could He Target?",
+      "url": "coinedition.com/cz-hints-at-buying-meme-coins-again-what-tokens-could-he-target",
+      "signature": "action_issue | entity_바이낸스 | object_wallet",
+      "canonical_key": "action_issue | entity_바이낸스 | object_wallet",
+      "ts": "2026-07-30T22:01:04.761422+00:00"
+    },
+    "7ef324be8d33848b": {
+      "title": "South Korea Arrests Suspects in Fake FXRP Scam That Stole $8.6M in XRP",
+      "url": "cryptopotato.com/south-korea-arrests-suspects-in-fake-fxrp-scam-that-stole-8-6m-in-xrp",
+      "signature": "action_enforce | action_invest | action_steal | amount_usd_8600000 | asset_xrp | geo_korea | object_fassets",
+      "canonical_key": "action_enforce | action_invest | action_steal | amount_usd_8600000 | asset_xrp | geo_korea | object_fassets",
+      "ts": "2026-07-30T22:01:07.723814+00:00"
     }
   }
 }
