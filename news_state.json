@@ -1896,6 +1896,20 @@
       "signature": "action_convert | action_invest | action_launch | asset_btc | date_2026_08_01 | entity_금 | geo_us | object_card | object_wallet",
       "canonical_key": "action_convert | action_invest | action_launch | asset_btc | date_2026_08_01 | entity_금 | geo_us | object_card | object_wallet",
       "ts": "2026-07-30T15:01:08.194343+00:00"
+    },
+    "bc3496fe5a807f0b": {
+      "title": "16.1 Million Cardano (ADA) Exploit: SecondFi Urges Hacker to Return Stolen Funds",
+      "url": "u.today/161-million-cardano-ada-exploit-secondfi-urges-hacker-to-return-stolen-funds",
+      "signature": "action_hack | action_issue | action_steal | entity_카르다노",
+      "canonical_key": "action_hack | action_issue | action_steal | entity_카르다노",
+      "ts": "2026-07-30T16:01:12.463133+00:00"
+    },
+    "793298e71f674a97": {
+      "title": "Evernorth updates SEC filing for $1B XRP treasury",
+      "url": "crypto.news/evernorth-updates-sec-filing-for-1b-xrp-treasury",
+      "signature": "action_support | amount_usd_1000000000 | asset_xrp | entity_sec | entity_리플 | entity_에버노스",
+      "canonical_key": "action_support | amount_usd_1000000000 | asset_xrp | entity_sec | entity_리플 | entity_에버노스",
+      "ts": "2026-07-30T16:01:16.933757+00:00"
     }
   }
 }
