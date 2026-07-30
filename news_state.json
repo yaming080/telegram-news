@@ -1980,6 +1980,13 @@
       "signature": "action_enforce | action_invest | action_steal | amount_usd_8600000 | asset_xrp | geo_korea | object_fassets",
       "canonical_key": "action_enforce | action_invest | action_steal | amount_usd_8600000 | asset_xrp | geo_korea | object_fassets",
       "ts": "2026-07-30T22:01:07.723814+00:00"
+    },
+    "90115e3aeda0af75": {
+      "title": "Hyperscale Data Sells 100 Bitcoin to Speed Up Michigan AI Data Center Development",
+      "url": "coinedition.com/crypto-live-news/hyperscale-data-sells-100-bitcoin-to-speed-up-michigan-ai-data-center-development",
+      "signature": "action_build | action_develop | action_secure | action_support | asset_btc | entity_스트래티지 | object_infrastructure",
+      "canonical_key": "action_build | action_develop | action_secure | action_support | asset_btc | entity_스트래티지 | object_infrastructure",
+      "ts": "2026-07-30T23:00:56.466078+00:00"
     }
   }
 }
