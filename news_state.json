@@ -1889,6 +1889,13 @@
       "signature": "action_mint | asset_eth | asset_rlusd | entity_리플 | object_rlusd",
       "canonical_key": "action_mint | asset_eth | asset_rlusd | entity_리플 | object_rlusd",
       "ts": "2026-07-30T14:01:45.889151+00:00"
+    },
+    "fa74cf66ed4dcbe1": {
+      "title": "Bitget Wallet Card Offers Cashback in Bitcoin, Gold, and Tokenized Stocks",
+      "url": "coinedition.com/bitget-wallet-card-offers-cashback-in-bitcoin-gold-and-tokenized-stocks",
+      "signature": "action_convert | action_invest | action_launch | asset_btc | date_2026_08_01 | entity_금 | geo_us | object_card | object_wallet",
+      "canonical_key": "action_convert | action_invest | action_launch | asset_btc | date_2026_08_01 | entity_금 | geo_us | object_card | object_wallet",
+      "ts": "2026-07-30T15:01:08.194343+00:00"
     }
   }
 }
