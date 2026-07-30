@@ -1868,6 +1868,27 @@
       "signature": "action_enforce | action_steal | asset_btc | geo_malaysia | object_commissioner",
       "canonical_key": "action_enforce | action_steal | asset_btc | geo_malaysia | object_commissioner",
       "ts": "2026-07-30T13:01:30.947765+00:00"
+    },
+    "5aeae1132796fbd9": {
+      "title": "3iQ to manage part of Bhutan's Gelephu Mindfulness City Bitcoin treasury",
+      "url": "www.cryptopolitan.com/3iq-to-manage-bhutan-gmc-btc-treasury",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-30T14:01:36.953984+00:00"
+    },
+    "58fea57115b7ef1f": {
+      "title": "이더리움 11년…재단 개편 속 금융 인프라로 자리 굳히나",
+      "url": "www.tokenpost.kr/news/cryptocurrency/383035",
+      "signature": "action_convert | action_develop | action_invest | asset_eth | object_infrastructure | object_network",
+      "canonical_key": "action_convert | action_develop | action_invest | asset_eth | object_infrastructure | object_network",
+      "ts": "2026-07-30T14:01:41.712366+00:00"
+    },
+    "883bf0f4330da254": {
+      "title": "Ripple Mints 15 Million RLUSD on Ethereum",
+      "url": "u.today/ripple-mints-15-million-rlusd-on-ethereum",
+      "signature": "action_mint | asset_eth | asset_rlusd | entity_리플 | object_rlusd",
+      "canonical_key": "action_mint | asset_eth | asset_rlusd | entity_리플 | object_rlusd",
+      "ts": "2026-07-30T14:01:45.889151+00:00"
     }
   }
 }
