@@ -1840,6 +1840,34 @@
       "signature": "action_convert | action_launch | asset_btc | asset_usdc | object_card | object_wallet",
       "canonical_key": "action_convert | action_launch | asset_btc | asset_usdc | object_card | object_wallet",
       "ts": "2026-07-30T12:01:14.361551+00:00"
+    },
+    "bb96b9b781c8b8dd": {
+      "title": "Shiba Inu Scores Major Adoption Win Ahead of Sixth Anniversary: Details",
+      "url": "thecryptobasic.com/2026/07/30/shiba-inu-scores-major-adoption-win-ahead-of-sixth-anniversary-details",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-30T13:01:17.479763+00:00"
+    },
+    "647312f3faa04cd4": {
+      "title": "Crypto Founder Reveals Two Key Moves That Could Push ADA Beyond $5",
+      "url": "thecryptobasic.com/2026/07/30/crypto-founder-reveals-two-key-moves-that-could-push-ada-beyond-5",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-30T13:01:22.314275+00:00"
+    },
+    "8e54d379f04ce96e": {
+      "title": "Shiba Inu (SHIB) Outflows Surge 62% in Hours: What's Behind It?",
+      "url": "u.today/shiba-inu-shib-outflows-surge-62-in-hours-whats-behind-it",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-30T13:01:26.103835+00:00"
+    },
+    "a75dc17a9dafbf6f": {
+      "title": "Malaysia arrests two over illegal Bitcoin mining operation, seizes 73 rigs",
+      "url": "crypto.news/malaysia-arrests-two-over-illegal-bitcoin-mining-operation-seizes-73-rigs",
+      "signature": "action_enforce | action_steal | asset_btc | geo_malaysia | object_commissioner",
+      "canonical_key": "action_enforce | action_steal | asset_btc | geo_malaysia | object_commissioner",
+      "ts": "2026-07-30T13:01:30.947765+00:00"
     }
   }
 }
