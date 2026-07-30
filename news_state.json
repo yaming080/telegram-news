@@ -1749,6 +1749,13 @@
       "signature": "action_support | asset_eth | asset_stablecoin | entity_스테이블코인 | entity_스트래티지 | entity_테더 | geo_us",
       "canonical_key": "action_support | asset_eth | asset_stablecoin | entity_스테이블코인 | entity_스트래티지 | entity_테더 | geo_us",
       "ts": "2026-07-29T22:01:00.087926+00:00"
+    },
+    "87314866da5a1dfc": {
+      "title": "Japanese game developer launches Bitcoin, altcoin fund with SBI",
+      "url": "cointelegraph.com/news/japanese-game-developer-bitcoin-altcoin-fund?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_build | action_launch | asset_btc | asset_xrp | entity_sbi | geo_japan | object_fund",
+      "canonical_key": "action_build | action_launch | asset_btc | asset_xrp | entity_sbi | geo_japan | object_fund",
+      "ts": "2026-07-30T04:01:08.868419+00:00"
     }
   }
 }
