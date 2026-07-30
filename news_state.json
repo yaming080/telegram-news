@@ -1910,6 +1910,20 @@
       "signature": "action_support | amount_usd_1000000000 | asset_xrp | entity_sec | entity_리플 | entity_에버노스",
       "canonical_key": "action_support | amount_usd_1000000000 | asset_xrp | entity_sec | entity_리플 | entity_에버노스",
       "ts": "2026-07-30T16:01:16.933757+00:00"
+    },
+    "381f958b48331363": {
+      "title": "Hyperscale Data sells 100 BTC to fund Michigan AI data center",
+      "url": "cointelegraph.com/news/hyperscale-data-taps-bitcoin-treasury-btc-backed-credit-to-fund-ai-data-center?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_support | amount_btc_100 | amount_btc_approx_100 | asset_btc | entity_btc | object_fund | object_infrastructure",
+      "canonical_key": "action_support | amount_btc_100 | amount_btc_approx_100 | asset_btc | entity_btc | object_fund | object_infrastructure",
+      "ts": "2026-07-30T17:01:11.245671+00:00"
+    },
+    "4089d480feef480f": {
+      "title": "XRP Ledger Validator Warns of Scammers as First Lending Protocol Eyes Launch",
+      "url": "u.today/xrp-ledger-validator-warns-of-scammers-as-first-lending-protocol-eyes-launch",
+      "signature": "action_issue | action_launch | asset_xrp | asset_xrpl | entity_firstlendingprotocoleyes | object_lending",
+      "canonical_key": "action_issue | action_launch | asset_xrp | asset_xrpl | entity_firstlendingprotocoleyes | object_lending",
+      "ts": "2026-07-30T17:01:15.443309+00:00"
     }
   }
 }
