@@ -1924,6 +1924,13 @@
       "signature": "action_issue | action_launch | asset_xrp | asset_xrpl | entity_firstlendingprotocoleyes | object_lending",
       "canonical_key": "action_issue | action_launch | asset_xrp | asset_xrpl | entity_firstlendingprotocoleyes | object_lending",
       "ts": "2026-07-30T17:01:15.443309+00:00"
+    },
+    "03a5c392ed71d93d": {
+      "title": "A Rocky Year: Ethereum Turns 11 Years as ETH Trades 61% Below the High Set Last August",
+      "url": "cryptopotato.com/a-rocky-year-ethereum-turns-11-years-as-eth-trades-61-below-the-high-set-last-august",
+      "signature": "action_launch | amount_pct_61 | asset_eth | object_network",
+      "canonical_key": "action_launch | amount_pct_61 | asset_eth | object_network",
+      "ts": "2026-07-30T18:01:00.059307+00:00"
     }
   }
 }
