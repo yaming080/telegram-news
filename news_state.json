@@ -1756,6 +1756,13 @@
       "signature": "action_build | action_launch | asset_btc | asset_xrp | entity_sbi | geo_japan | object_fund",
       "canonical_key": "action_build | action_launch | asset_btc | asset_xrp | entity_sbi | geo_japan | object_fund",
       "ts": "2026-07-30T04:01:08.868419+00:00"
+    },
+    "d8818c93a08fdb04": {
+      "title": "Ethereum Foundation adds SEAL 911 co-founder to board",
+      "url": "crypto.news/ethereum-foundation-adds-seal-911-co-founder-to-board",
+      "signature": "action_appoint | asset_eth | entity_ethereumfoundation | entity_seal | object_board",
+      "canonical_key": "action_appoint | asset_eth | entity_ethereumfoundation | entity_seal | object_board",
+      "ts": "2026-07-30T05:01:13.120253+00:00"
     }
   }
 }
