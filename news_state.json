@@ -1931,6 +1931,13 @@
       "signature": "action_launch | amount_pct_61 | asset_eth | object_network",
       "canonical_key": "action_launch | amount_pct_61 | asset_eth | object_network",
       "ts": "2026-07-30T18:01:00.059307+00:00"
+    },
+    "e9fb925bfbe465ad": {
+      "title": "New Stablecoin Backed by BlackRock and Visa to Launch on Ethereum",
+      "url": "u.today/new-stablecoin-backed-by-blackrock-and-visa-to-launch-on-ethereum",
+      "signature": "action_launch | action_support | asset_eth | asset_stablecoin | entity_마스터카드 | entity_블랙록 | entity_비자",
+      "canonical_key": "action_launch | action_support | asset_eth | asset_stablecoin | entity_마스터카드 | entity_블랙록 | entity_비자",
+      "ts": "2026-07-30T19:01:15.844849+00:00"
     }
   }
 }
