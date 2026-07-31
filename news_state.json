@@ -2127,6 +2127,27 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-07-31T16:00:50.903668+00:00"
+    },
+    "d0bd831ad36df70e": {
+      "title": "콜드카드 결함에 흔들린 비트코인 자가 보관…ETF·기관 수탁 힘 실릴까",
+      "url": "www.tokenpost.kr/news/cryptocurrency/383441",
+      "signature": "action_build | action_disclose | action_launch | action_restore | action_steal | asset_btc | entity_etf | object_card | object_custody | object_disclosure | object_etf | object_recovery | object_wallet",
+      "canonical_key": "action_build | action_disclose | action_launch | action_restore | action_steal | asset_btc | entity_etf | object_card | object_custody | object_disclosure | object_etf | object_recovery | object_wallet",
+      "ts": "2026-07-31T18:00:53.123581+00:00"
+    },
+    "2a5a569361c67350": {
+      "title": "SK, SK실트론 지분 70.6% ㈜두산에 매각…2조3천억 규모 확정",
+      "url": "www.tokenpost.kr/news/economy/383437",
+      "signature": "action_acquire | action_auction | action_disclose | action_invest | action_secure | amount_pct_70.6 | date_2026_07_31 | object_board | object_disclosure | object_sale",
+      "canonical_key": "action_acquire | action_auction | action_disclose | action_invest | action_secure | amount_pct_70.6 | date_2026_07_31 | object_board | object_disclosure | object_sale",
+      "ts": "2026-07-31T18:00:57.116580+00:00"
+    },
+    "205a80937dd72ff0": {
+      "title": "Pakistan Crypto Laws: Which Exchanges Are Legal, and What If None Are Licensed?",
+      "url": "coinedition.com/pakistan-crypto-laws-which-exchanges-are-legal-and-what-if-none-are-licensed",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-31T18:01:00.280699+00:00"
     }
   }
 }
