@@ -2008,6 +2008,13 @@
       "signature": "action_acquire | action_auction | action_develop | amount_pct_19.6 | amount_pct_24 | amount_pct_24.56 | amount_pct_51 | amount_pct_70.6 | object_board | object_sale",
       "canonical_key": "action_acquire | action_auction | action_develop | amount_pct_19.6 | amount_pct_24 | amount_pct_24.56 | amount_pct_51 | amount_pct_70.6 | object_board | object_sale",
       "ts": "2026-07-31T03:01:19.470638+00:00"
+    },
+    "c713efc190828e36": {
+      "title": "Coldcard Mk3 warning follows $38M Bitcoin drain",
+      "url": "crypto.news/coldcard-mk3-warning-follows-38m-bitcoin-drain",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-31T05:01:04.718897+00:00"
     }
   }
 }
