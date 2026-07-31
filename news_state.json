@@ -1987,6 +1987,13 @@
       "signature": "action_build | action_develop | action_secure | action_support | asset_btc | entity_스트래티지 | object_infrastructure",
       "canonical_key": "action_build | action_develop | action_secure | action_support | asset_btc | entity_스트래티지 | object_infrastructure",
       "ts": "2026-07-30T23:00:56.466078+00:00"
+    },
+    "018de77b83da6d79": {
+      "title": "BMNR 주가 변동성과 이더리움 시장에서의 전략적 위치",
+      "url": "www.tokenpost.kr/news/cryptocurrency/383080",
+      "signature": "action_integrate | amount_usd_17 | asset_eth | entity_bmnr | entity_okx | object_derivatives",
+      "canonical_key": "action_integrate | amount_usd_17 | asset_eth | entity_bmnr | entity_okx | object_derivatives",
+      "ts": "2026-07-31T00:01:21.270325+00:00"
     }
   }
 }
