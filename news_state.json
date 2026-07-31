@@ -2148,6 +2148,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-07-31T18:01:00.280699+00:00"
+    },
+    "3bdd589db4a3ce5d": {
+      "title": "Coldcard Wallet Vulnerabilities Explained: What Bitcoin Users Need to Know",
+      "url": "coinedition.com/coldcard-wallet-vulnerabilities-explained-what-bitcoin-users-need-to-know",
+      "signature": "action_issue | action_steal | asset_btc | object_wallet",
+      "canonical_key": "action_issue | action_steal | asset_btc | object_wallet",
+      "ts": "2026-07-31T20:00:55.419767+00:00"
     }
   }
 }
