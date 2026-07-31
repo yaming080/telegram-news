@@ -2064,6 +2064,34 @@
       "signature": "action_launch | amount_btc_1000 | amount_btc_approx_1000 | asset_btc | object_fund",
       "canonical_key": "action_launch | amount_btc_1000 | amount_btc_approx_1000 | asset_btc | object_fund",
       "ts": "2026-07-31T10:01:00.495285+00:00"
+    },
+    "08aeeb80ec6d2556": {
+      "title": "이더리움 횡보 속 부각된 기관 호재…블랙록·비자 참여 스테이블코인 나온다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/383320",
+      "signature": "action_ban | action_issue | action_launch | action_mint | asset_eth | asset_stablecoin | entity_마스터카드 | entity_블랙록 | object_card",
+      "canonical_key": "action_ban | action_issue | action_launch | action_mint | asset_eth | asset_stablecoin | entity_마스터카드 | entity_블랙록 | object_card",
+      "ts": "2026-07-31T11:01:14.838228+00:00"
+    },
+    "e3906a15ef0a2cfa": {
+      "title": "Binance Coin (BNB) Adds 65% in Volume: Is Binance Gaining Traction?",
+      "url": "u.today/binance-coin-bnb-adds-65-in-volume-is-binance-gaining-traction",
+      "signature": "action_support | amount_pct_65 | entity_바이낸스 | entity_바이낸스코인",
+      "canonical_key": "action_support | amount_pct_65 | entity_바이낸스 | entity_바이낸스코인",
+      "ts": "2026-07-31T11:01:18.141699+00:00"
+    },
+    "d05c70f1b3556d12": {
+      "title": "Satoshi Candidate Peter Todd Warns No Bitcoin Is Safe on Singlesig After $38 Million Coldcard Drain",
+      "url": "u.today/satoshi-candidate-peter-todd-warns-no-bitcoin-is-safe-on-singlesig-after-38-million-coldcard-drain",
+      "signature": "action_steal | amount_btc_594 | amount_btc_approx_590 | amount_usd_38000000 | asset_btc | object_wallet",
+      "canonical_key": "action_steal | amount_btc_594 | amount_btc_approx_590 | amount_usd_38000000 | asset_btc | object_wallet",
+      "ts": "2026-07-31T11:01:22.109268+00:00"
+    },
+    "d49d868de82e2154": {
+      "title": "Crypto treasuries pivot to AI data center funding",
+      "url": "crypto.news/crypto-treasuries-pivot-to-ai-data-center-funding",
+      "signature": "action_support | amount_btc_100 | amount_btc_approx_100 | amount_eth_1000 | amount_eth_approx_1000 | asset_btc | asset_eth | object_sale",
+      "canonical_key": "action_support | amount_btc_100 | amount_btc_approx_100 | amount_eth_1000 | amount_eth_approx_1000 | asset_btc | asset_eth | object_sale",
+      "ts": "2026-07-31T11:01:25.734771+00:00"
     }
   }
 }
