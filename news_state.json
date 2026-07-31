@@ -2043,6 +2043,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-07-31T07:01:35.322352+00:00"
+    },
+    "87a71f4d28c99932": {
+      "title": "594 BTC drained in 25 minutes as Coldcard flaw sparks alarm",
+      "url": "www.cryptopolitan.com/coldcard-flaw-38m-bitcoin-wallet-drain",
+      "signature": "action_steal | amount_btc_594 | amount_btc_approx_590 | amount_usd_38000000 | asset_btc | entity_btc | object_wallet",
+      "canonical_key": "action_steal | amount_btc_594 | amount_btc_approx_590 | amount_usd_38000000 | asset_btc | entity_btc | object_wallet",
+      "ts": "2026-07-31T08:01:19.155253+00:00"
     }
   }
 }
