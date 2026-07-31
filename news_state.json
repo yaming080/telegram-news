@@ -2022,6 +2022,27 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-07-31T06:01:07.352132+00:00"
+    },
+    "44b2ccbf11f6a498": {
+      "title": "Ethereum Foundation names pcaversaccio to board amid restructuring",
+      "url": "www.cryptopolitan.com/ethereum-foundation-new-member-funding",
+      "signature": "action_close | asset_eth | entity_ethereumfoundation | object_board",
+      "canonical_key": "action_close | asset_eth | entity_ethereumfoundation | object_board",
+      "ts": "2026-07-31T07:01:27.547943+00:00"
+    },
+    "b8f2039d2007ce53": {
+      "title": "Beyond Bitcoin and Ethereum: 8 crypto projects built on real adoption",
+      "url": "crypto.news/beyond-bitcoin-and-ethereum-8-crypto-projects-built-on-real-adoption",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-31T07:01:31.350234+00:00"
+    },
+    "e2c0277722a065fa": {
+      "title": "Bhutan taps 3iQ to manage part of Bitcoin treasury",
+      "url": "crypto.news/bhutan-taps-3iq-to-manage-part-of-bitcoin-treasury",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-31T07:01:35.322352+00:00"
     }
   }
 }
