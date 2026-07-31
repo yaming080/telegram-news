@@ -2057,6 +2057,13 @@
       "signature": "action_acquire | action_auction | action_disclose | action_launch | action_secure | amount_pct_29 | amount_pct_47 | amount_usd_100970 | amount_usd_1610000 | amount_usd_1903000 | asset_eth | entity_eth | object_disclosure | object_sale",
       "canonical_key": "action_acquire | action_auction | action_disclose | action_launch | action_secure | amount_pct_29 | amount_pct_47 | amount_usd_100970 | amount_usd_1610000 | amount_usd_1903000 | asset_eth | entity_eth | object_disclosure | object_sale",
       "ts": "2026-07-31T09:00:56.257455+00:00"
+    },
+    "9332b64c2ea9a17f": {
+      "title": "WEEX GOGOGO Ep.5 Goes Live July 31: Trade Smarter, Move Faster",
+      "url": "thenewscrypto.com/weex-gogogo-ep-5-goes-live-july-31-trade-smarter-move-faster",
+      "signature": "action_launch | amount_btc_1000 | amount_btc_approx_1000 | asset_btc | object_fund",
+      "canonical_key": "action_launch | amount_btc_1000 | amount_btc_approx_1000 | asset_btc | object_fund",
+      "ts": "2026-07-31T10:01:00.495285+00:00"
     }
   }
 }
