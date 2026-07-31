@@ -2050,6 +2050,13 @@
       "signature": "action_steal | amount_btc_594 | amount_btc_approx_590 | amount_usd_38000000 | asset_btc | entity_btc | object_wallet",
       "canonical_key": "action_steal | amount_btc_594 | amount_btc_approx_590 | amount_usd_38000000 | asset_btc | entity_btc | object_wallet",
       "ts": "2026-07-31T08:01:19.155253+00:00"
+    },
+    "b23a435b4b739c4d": {
+      "title": "퀀텀솔루션즈, ETH 매각 확대…AI 데이터센터로 방향 틀었다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/383291",
+      "signature": "action_acquire | action_auction | action_disclose | action_launch | action_secure | amount_pct_29 | amount_pct_47 | amount_usd_100970 | amount_usd_1610000 | amount_usd_1903000 | asset_eth | entity_eth | object_disclosure | object_sale",
+      "canonical_key": "action_acquire | action_auction | action_disclose | action_launch | action_secure | amount_pct_29 | amount_pct_47 | amount_usd_100970 | amount_usd_1610000 | amount_usd_1903000 | asset_eth | entity_eth | object_disclosure | object_sale",
+      "ts": "2026-07-31T09:00:56.257455+00:00"
     }
   }
 }
