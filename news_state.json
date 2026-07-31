@@ -2092,6 +2092,20 @@
       "signature": "action_support | amount_btc_100 | amount_btc_approx_100 | amount_eth_1000 | amount_eth_approx_1000 | asset_btc | asset_eth | object_sale",
       "canonical_key": "action_support | amount_btc_100 | amount_btc_approx_100 | amount_eth_1000 | amount_eth_approx_1000 | asset_btc | asset_eth | object_sale",
       "ts": "2026-07-31T11:01:25.734771+00:00"
+    },
+    "fa9327ee98e343a0": {
+      "title": "RLUSD's Next Big Move? Google and Mastercard Integration Fuel AI Payments",
+      "url": "u.today/rlusds-next-big-move-google-and-mastercard-integration-fuel-ai-payments",
+      "signature": "action_integrate | asset_rlusd | asset_stablecoin | entity_구글 | entity_리플 | entity_마스터카드 | object_rlusd",
+      "canonical_key": "action_integrate | asset_rlusd | asset_stablecoin | entity_구글 | entity_리플 | entity_마스터카드 | object_rlusd",
+      "ts": "2026-07-31T12:00:58.816976+00:00"
+    },
+    "a146aeba59c6f77d": {
+      "title": "Bitcoin self-custody debate erupts over poor wallet UX",
+      "url": "crypto.news/bitcoin-self-custody-debate-erupts-over-poor-wallet-ux",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-07-31T12:01:03.015232+00:00"
     }
   }
 }
