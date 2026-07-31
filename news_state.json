@@ -2162,6 +2162,13 @@
       "signature": "action_hack | amount_pct_3 | amount_pct_7.5 | asset_btc | entity_연준 | object_bond | object_card | object_wallet",
       "canonical_key": "action_hack | amount_pct_3 | amount_pct_7.5 | asset_btc | entity_연준 | object_bond | object_card | object_wallet",
       "ts": "2026-07-31T21:00:48.903861+00:00"
+    },
+    "267a16b6860dcbf5": {
+      "title": "Uniswap launches Earn with Morpho lending vaults",
+      "url": "crypto.news/uniswap-launches-earn-with-morpho-lending-vaults",
+      "signature": "action_launch | action_support | asset_eth | asset_usdc | asset_usdt | entity_유니스왑 | object_custody | object_lending",
+      "canonical_key": "action_launch | action_support | asset_eth | asset_usdc | asset_usdt | entity_유니스왑 | object_custody | object_lending",
+      "ts": "2026-07-31T23:01:10.749804+00:00"
     }
   }
 }
