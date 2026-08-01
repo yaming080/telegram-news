@@ -1014,6 +1014,106 @@ class DoorinewsEditorTests(unittest.TestCase):
                     )
                 )
 
+    def test_exchange_flow_and_holder_metric_cards_are_blocked(self):
+        stories = (
+            {
+                "title": "Shiba Inu posts $2.3 billion in 24-hour net exchange outflows",
+                "desc": "Whale holdings stayed neutral while network activity remained weak",
+            },
+            {
+                "title": "시바이누 24시간 순거래소 유출액 23억1000만달러",
+                "desc": "거래소 보유량과 고래 잔고에는 큰 변화가 없었음",
+            },
+        )
+        for story in stories:
+            with self.subTest(title=story["title"]):
+                blocked, reason = editor._is_hard_blocked(story)
+                self.assertTrue(blocked)
+                self.assertIn("단순 지표", reason)
+
+    def test_hardware_wallet_vulnerability_warnings_are_blocked(self):
+        stories = (
+            {
+                "title": "Coldcard flaw may put $70 million in Bitcoin at risk",
+                "desc": "Researchers warned hardware-wallet users about a critical vulnerability",
+            },
+            {
+                "title": "Bitcoin developer warns Coldcard leak exposed 500 addresses",
+                "desc": "A passphrase protects funds only when it is used correctly",
+            },
+            {
+                "title": "Block discloses critical flaws across Coldcard hardware wallet generations",
+                "desc": "The same method could expose up to 1,082.59 BTC",
+            },
+            {
+                "title": "Coinkite urges Coldcard Mk3 users to move funds",
+                "desc": "The company is investigating a seed generation risk and a $38 million wallet leak",
+            },
+            {
+                "title": "콜드카드 취약점으로 비트코인 7000만달러가 위험에 놓임",
+                "desc": "하드웨어 지갑 사용자의 자금 이동을 권고함",
+            },
+            {
+                "title": "Coldcard 취약점 악용으로 비트코인 7000만달러 유출 가능성",
+                "desc": "비트코인 손실 심리가 최저 수준으로 떨어졌다고 전함",
+            },
+        )
+        for story in stories:
+            with self.subTest(title=story["title"]):
+                blocked, reason = editor._is_hard_blocked(story)
+                self.assertTrue(blocked)
+                self.assertIn("하드웨어 지갑", reason)
+
+    def test_exchange_yield_product_card_is_blocked(self):
+        story = {
+            "title": "Bitget upgrades BGBTC Bitcoin yield product with Chainlink CCIP",
+            "desc": "The 1:1 BTC-backed staking product expands collateral use",
+        }
+        blocked, reason = editor._is_hard_blocked(story)
+        self.assertTrue(blocked)
+        self.assertIn("수익", reason)
+
+    def test_trading_volume_and_ecosystem_activity_cards_are_blocked(self):
+        stories = (
+            {
+                "title": "Binance Coin trading volume surges as ecosystem activity returns",
+                "desc": "BNB spot volume exceeded $160 million and futures volume passed $800 million",
+            },
+            {
+                "title": "바이낸스코인 거래량 급증, 생태계 활동 다시 증가",
+                "desc": "BNB 현물 거래량과 선물 거래량이 모두 늘었음",
+            },
+        )
+        for story in stories:
+            with self.subTest(title=story["title"]):
+                blocked, reason = editor._is_hard_blocked(story)
+                self.assertTrue(blocked)
+                self.assertIn("단순 지표", reason)
+
+    def test_crypto_treasury_company_stock_volatility_is_blocked(self):
+        story = {
+            "title": "BitMine BMNR stock shows high volatility around $17",
+            "desc": "The shares closed at $17.77 after trading between $16.86 and $17.83; the company holds Ethereum",
+        }
+        blocked, reason = editor._is_hard_blocked(story)
+        self.assertTrue(blocked)
+        self.assertIn("주식", reason)
+
+    def test_siltron_does_not_trigger_tron_asset_match(self):
+        story = {
+            "title": "Doosan stock surges on SK Siltron acquisition expectations",
+            "desc": "Shares gained 24.56 percent after strong electronics results",
+        }
+        raw = editor._story_text(story)
+        self.assertNotIn("TRX", editor.target_assets(raw))
+        blocked, reason = editor._is_hard_blocked(story)
+        self.assertTrue(blocked)
+        self.assertIn("주식", reason)
+
+    def test_real_tron_mentions_still_match_the_selected_asset(self):
+        self.assertIn("TRX", editor.target_assets("TRON network launches a payment service"))
+        self.assertIn("TRX", editor.target_assets("트론 기반 결제 서비스가 출시됨"))
+
 
 if __name__ == "__main__":
     unittest.main()
