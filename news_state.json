@@ -2239,6 +2239,13 @@
       "signature": "action_support | asset_btc | entity_bgbtc | entity_비트겟",
       "canonical_key": "action_support | asset_btc | entity_bgbtc | entity_비트겟",
       "ts": "2026-08-01T12:01:04.322348+00:00"
+    },
+    "a8f98065397882bc": {
+      "title": "XRP Ledger Rolls Out Major Upgrade to Fix Manifest Flood Issue",
+      "url": "u.today/xrp-ledger-rolls-out-major-upgrade-to-fix-manifest-flood-issue",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-01T13:00:57.496467+00:00"
     }
   }
 }
