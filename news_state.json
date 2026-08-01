@@ -2274,6 +2274,20 @@
       "signature": "action_migrate | amount_pct_0.74 | amount_pct_1.1 | amount_pct_19.1 | asset_btc | count_shares_2 | object_infrastructure | object_network",
       "canonical_key": "action_migrate | amount_pct_0.74 | amount_pct_1.1 | amount_pct_19.1 | asset_btc | count_shares_2 | object_infrastructure | object_network",
       "ts": "2026-08-01T17:00:54.614970+00:00"
+    },
+    "d3410afa2c8e64c7": {
+      "title": "비트코인 지갑 해킹 3차 확산…1조8600억 원 피해, 추적 회피도 강화됐다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/383707",
+      "signature": "action_hack | action_steal | amount_btc_0 | amount_btc_1367 | amount_btc_208 | amount_btc_approx_1400 | amount_btc_approx_210 | amount_krw_60000000000 | amount_krw_860000000000 | amount_usd_6000000 | asset_btc | entity_갤럭시리서치 | object_sale | object_wallet",
+      "canonical_key": "action_hack | action_steal | amount_btc_0 | amount_btc_1367 | amount_btc_208 | amount_btc_approx_1400 | amount_btc_approx_210 | amount_krw_60000000000 | amount_krw_860000000000 | amount_usd_6000000 | asset_btc | entity_갤럭시리서치 | object_sale | object_wallet",
+      "ts": "2026-08-01T21:00:58.500505+00:00"
+    },
+    "627b1b318d1121bf": {
+      "title": "BNB Chain Wallet Incident Exposes Growing Web3 Seed Phrase Risks",
+      "url": "coinedition.com/bnb-chain-wallet-incident-exposes-growing-web3-seed-phrase-risks",
+      "signature": "action_compromise | action_hack | date_2026_08_01 | object_wallet",
+      "canonical_key": "action_compromise | action_hack | date_2026_08_01 | object_wallet",
+      "ts": "2026-08-01T21:01:01.618175+00:00"
     }
   }
 }
