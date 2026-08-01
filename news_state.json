@@ -2197,6 +2197,13 @@
       "signature": "action_steal | asset_btc | object_card | object_wallet",
       "canonical_key": "action_steal | asset_btc | object_card | object_wallet",
       "ts": "2026-08-01T06:01:18.439522+00:00"
+    },
+    "43db163137e2c850": {
+      "title": "XRP Ledger v3.3.0 brings five institutional features",
+      "url": "crypto.news/xrp-ledger-v3-3-0-brings-five-institutional-features",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-01T07:01:04.703586+00:00"
     }
   }
 }
