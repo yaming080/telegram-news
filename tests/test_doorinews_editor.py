@@ -873,6 +873,147 @@ class DoorinewsEditorTests(unittest.TestCase):
             )
         )
 
+    def test_new_cross_source_event_families_are_duplicates(self):
+        pairs = (
+            (
+                "hardware_wallet_security",
+                {
+                    "title": "Coldcard hardware wallet security flaw may expose user assets",
+                    "desc": "A large security failure could cause up to $70 million in losses",
+                },
+                {
+                    "title": "콜드카드 대형 보안 실패로 사용자 자산 손실 가능성 제기",
+                    "desc": "피해 규모는 최대 7000만달러로 추산됨",
+                },
+            ),
+            (
+                "self_custody_lending",
+                {
+                    "title": "Uniswap launches Earn self-custodial lending product",
+                    "desc": "USDC, USDT and ETH can be deposited into Morpho lending vaults",
+                },
+                {
+                    "title": "유니스왑, 모포 대출 볼트 기반 자체 보관형 대출 상품 Earn 출시",
+                    "desc": "USDC·USDT·ETH 예치를 지원함",
+                },
+            ),
+            (
+                "fake_investment_platform",
+                {
+                    "title": "Seoul police arrest three suspects behind fake XRP investment platform",
+                    "desc": "The scheme took 3.4 million XRP from 71 victims",
+                },
+                {
+                    "title": "서울경찰청, 가짜 XRP 투자 플랫폼 일당 3명 검거",
+                    "desc": "피해자 71명에게서 340만 XRP를 가로챈 혐의를 받음",
+                },
+            ),
+            (
+                "foundation_governance",
+                {
+                    "title": "Ethereum Foundation appoints pcaversaccio to its board",
+                    "desc": "The security researcher joined during a governance reshuffle",
+                },
+                {
+                    "title": "이더리움 재단, 보안 연구자 pcaversaccio를 이사회 멤버로 임명",
+                    "desc": "재단 거버넌스 재편의 일부로 진행됨",
+                },
+            ),
+            (
+                "named_stablecoin",
+                {
+                    "title": "BlackRock, Visa and Mastercard consortium launches OpenUSD",
+                    "desc": "The Ethereum stablecoin is now official",
+                },
+                {
+                    "title": "블랙록·비자·마스터카드 참여 컨소시엄, 오픈USD 출시 공식화",
+                    "desc": "이더리움 기반 스테이블코인 출시를 발표함",
+                },
+            ),
+            (
+                "sovereign_reserve_mandate",
+                {
+                    "title": "Bhutan's Gelephu Mindfulness City appoints 3iQ",
+                    "desc": "The Canadian manager will manage part of the national Bitcoin reserve",
+                },
+                {
+                    "title": "부탄 겔레푸 마인드풀니스 시티, 3iQ를 비트코인 국고 운용사로 지정",
+                    "desc": "국가 보유 BTC 일부의 운용을 맡김",
+                },
+            ),
+            (
+                "preferred_stock_redemption",
+                {
+                    "title": "Strategy launches cash redemption program for preferred shares",
+                    "desc": "The company set aside $390 million for redemptions",
+                },
+                {
+                    "title": "스트래티지, 비트코인 현금화 뒤 우선주 현금 상환 프로그램 시작",
+                    "desc": "상환용 현금 3억9000만달러를 준비함",
+                },
+            ),
+            (
+                "anonymous_cashback_card",
+                {
+                    "title": "Bitcoin Yield card launches global cashback program",
+                    "desc": "Users in 100 countries can earn 3% cashback on up to $50,000",
+                },
+                {
+                    "title": "비트코인 월릿 카드 이용자용 캐시백 프로그램 전 세계 출시",
+                    "desc": "100개국에서 최대 5만달러의 3%를 캐시백으로 제공함",
+                },
+            ),
+        )
+        for name, first_story, second_story in pairs:
+            with self.subTest(name=name):
+                first = editor.build_story_signature(first_story)
+                second = editor.build_story_signature(second_story)
+                self.assertTrue(first, msg=name)
+                self.assertTrue(second, msg=name)
+                self.assertTrue(editor._same_event(first, second), msg=f"{name}\n{first}\n{second}")
+
+    def test_similar_event_types_with_different_anchors_stay_distinct(self):
+        distinct_pairs = (
+            (
+                {
+                    "title": "Coldcard hardware wallet security flaw risks $70 million",
+                    "desc": "The issue affects Bitcoin users",
+                },
+                {
+                    "title": "Coldcard patches a separate hardware wallet vulnerability",
+                    "desc": "The later issue risks $2 million in Bitcoin",
+                },
+            ),
+            (
+                {
+                    "title": "Ethereum Foundation appoints pcaversaccio to its board",
+                    "desc": "The security researcher joins the foundation governance team",
+                },
+                {
+                    "title": "Ethereum Foundation appoints Alice Example to its board",
+                    "desc": "A different researcher joins in a later governance change",
+                },
+            ),
+            (
+                {
+                    "title": "Bitcoin rewards card launches in 100 countries",
+                    "desc": "The card offers 3% cashback on up to $50,000",
+                },
+                {
+                    "title": "Another Bitcoin rewards card launches a cashback service",
+                    "desc": "The separate card offers 3% cashback",
+                },
+            ),
+        )
+        for first_story, second_story in distinct_pairs:
+            with self.subTest(first=first_story["title"]):
+                self.assertFalse(
+                    editor._same_event(
+                        editor.build_story_signature(first_story),
+                        editor.build_story_signature(second_story),
+                    )
+                )
+
 
 if __name__ == "__main__":
     unittest.main()
