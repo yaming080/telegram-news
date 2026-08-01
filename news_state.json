@@ -2204,6 +2204,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-01T07:01:04.703586+00:00"
+    },
+    "710d0adae3638cfb": {
+      "title": "A build error in Coldcard’s firmware drained $38 million in bitcoin in 25 minutes",
+      "url": "crypto.news/coldcard-firmware-bug-drains-38-million-bitcoin",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-01T08:00:56.078375+00:00"
     }
   }
 }
