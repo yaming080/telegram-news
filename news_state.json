@@ -2211,6 +2211,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-01T08:00:56.078375+00:00"
+    },
+    "ccba6f125b1ca577": {
+      "title": "콜드카드 취약점에 비트코인 1000개 넘게 유출…CZ \"지갑 분산이 대안\"",
+      "url": "www.tokenpost.kr/news/cryptocurrency/383583",
+      "signature": "action_launch | action_restore | action_steal | amount_usd_38000000 | asset_btc | entity_바이낸스 | object_card | object_recovery | object_sale | object_wallet",
+      "canonical_key": "action_launch | action_restore | action_steal | amount_usd_38000000 | asset_btc | entity_바이낸스 | object_card | object_recovery | object_sale | object_wallet",
+      "ts": "2026-08-01T10:00:56.070154+00:00"
     }
   }
 }
