@@ -99,6 +99,7 @@ ENTITY_SPECS = (
     EntitySpec("org", "HSBC", ("HSBC",), "#HSBC", 20),
     EntitySpec("org", "KB국민은행", ("KB Kookmin Bank", "Kookmin Bank", "KB국민은행"), "#KookminBank", 20),
     EntitySpec("org", "마스터카드", ("Mastercard", "MasterCard", "마스터카드"), "#Mastercard", 20),
+    EntitySpec("org", "비자", ("Visa", "비자"), "#Visa", 20),
     EntitySpec("org", "아베", ("Aave", "아베"), "#Aave", 20),
     EntitySpec("org", "아이렌", ("IREN", "Iris Energy", "아이렌"), "#IREN", 20),
     EntitySpec("org", "BC카드", ("BC Card", "BC카드"), "#BCCard", 20),
@@ -112,6 +113,7 @@ ENTITY_SPECS = (
     EntitySpec("org", "시타델증권", ("Citadel Securities", "시타델 증권", "시타델증권"), "#CitadelSecurities", 20),
     EntitySpec("org", "아비트럼", ("Arbitrum", "아비트럼"), "#Arbitrum", 20),
     EntitySpec("org", "유니스왑", ("Uniswap", "유니스왑"), "#Uniswap", 20),
+    EntitySpec("org", "모포", ("Morpho", "Morpho Labs", "모포"), "#Morpho", 20),
     EntitySpec("org", "트리플A", ("Triple-A", "Triple A", "TripleA", "트리플A", "트리플에이"), "#TripleA", 20),
     EntitySpec("org", "탱고", ("DEX Tango", "Tango DEX", "Tango", "탱고"), "#Tango", 20),
     EntitySpec("org", "스트라이브", ("Strive", "스트라이브"), "#Strive", 20),
@@ -124,6 +126,17 @@ ENTITY_SPECS = (
     EntitySpec("org", "리도", ("Lido", "Lido Finance", "리도"), "#Lido", 20),
     EntitySpec("org", "플레어", ("Flare", "Flare Network", "플레어"), "#Flare", 20),
     EntitySpec("org", "엔비디아", ("Nvidia", "NVIDIA", "엔비디아"), "#Nvidia", 20),
+    EntitySpec("org", "콜드카드", ("Coldcard", "ColdCard", "콜드카드"), "#Coldcard", 20),
+    EntitySpec("org", "이더리움재단", ("Ethereum Foundation", "이더리움 재단", "이더리움재단"), "#EthereumFoundation", 20),
+    EntitySpec("org", "서울경찰청", ("Seoul Metropolitan Police Agency", "Seoul police", "서울경찰청"), "", 20),
+    EntitySpec("org", "3iQ", ("3iQ", "쓰리아이큐"), "#3iQ", 20),
+    EntitySpec(
+        "org",
+        "겔레푸마인드풀니스시티",
+        ("Gelephu Mindfulness City", "GMC", "겔레푸 마인드풀니스 시티", "겔레푸마인드풀니스시티"),
+        "#GelephuMindfulnessCity",
+        20,
+    ),
     # People.
     EntitySpec("person", "저스틴선", ("Justin Sun", "저스틴 선", "저스틴선"), "#JustinSun", 15),
     EntitySpec("person", "아서헤이즈", ("Arthur Hayes", "아서 헤이즈", "아서헤이즈"), "#ArthurHayes", 15),
@@ -141,6 +154,7 @@ ENTITY_SPECS = (
     EntitySpec("person", "짐크레이머", ("Jim Cramer", "짐 크레이머", "짐크레이머"), "#JimCramer", 15),
     EntitySpec("person", "크리스틴스미스", ("Kristin Smith", "크리스틴 스미스", "크리스틴스미스"), "#KristinSmith", 15),
     EntitySpec("person", "데이비드솔로몬", ("David Solomon", "데이비드 솔로몬", "데이비드솔로몬"), "#DavidSolomon", 15),
+    EntitySpec("person", "pcaversaccio", ("pcaversaccio", "PCaversaccio"), "#pcaversaccio", 15),
     # Assets, laws, and concrete products.
     EntitySpec("asset", "XRP", ("XRP",), "#XRP", 30),
     EntitySpec("asset", "XRPL", ("XRP Ledger", "XRPL",), "#XRPL", 30),
@@ -372,8 +386,20 @@ ACTION_PATTERNS = {
     "action_approve": (r"\bapprov(?:e|ed|al)\b", r"승인|인가"),
     "action_pass": (r"\bpass(?:ed|es)?\b", r"통과"),
     "action_file": (r"\bfile(?:d|s|ing)?\b", r"제출|신청|신고"),
-    "action_appoint": (r"\bappoint(?:ed|ment)?\b", r"\bnomina(?:te|ted|tion)\b", r"임명|지명|합류"),
-    "action_launch": (r"\blaunch(?:ed|es)?\b", r"\broll(?:ed)? out\b", r"출시|도입|공개"),
+    "action_appoint": (
+        r"\bappoint(?:ed|ment|s)?\b",
+        r"\bnomina(?:te|ted|tion)\b",
+        r"\b(?:select(?:ed|s)?|hir(?:e|ed|es)|nam(?:e|ed|es)|taps?|pick(?:ed|s)?)\b",
+        r"임명|지명|합류|선임|지정|선정",
+    ),
+    "action_launch": (
+        r"\blaunch(?:ed|es|ing)?\b",
+        r"\broll(?:ed|s|ing)?\s+out\b",
+        r"\b(?:introduc(?:e|ed|es|ing)|unveil(?:ed|s|ing)?|debut(?:ed|s|ing)?)\b",
+        r"\b(?:goes?|went)\s+live\b",
+        r"\b(?:officializ(?:e|ed|es|ing)|formali[sz](?:e|ed|es|ing))\b",
+        r"출시|도입|공개|선보|가동|공식화",
+    ),
     "action_partner": (r"\bpartner(?:ed|ship)?\b", r"제휴|협력|협약"),
     "action_acquire": (r"\bacquir(?:e|ed|es|ing)\b", r"인수|확보"),
     "action_secure": (r"\bsecur(?:e|ed|es|ing)\b", r"\bobtain(?:ed|s)?\b", r"\bwins?\b", r"확보|취득"),
@@ -398,7 +424,13 @@ ACTION_PATTERNS = {
         r"end(?:s|ed|ing)?\s+(?:service|network|operations))\b",
         r"폐쇄|운영\s*종료|영구\s*종료|서비스\s*종료|네트워크\s*종료",
     ),
-    "action_enforce": (r"\barrest(?:ed|s)?\b", r"\bcharg(?:e|ed|es)\b", r"\bfine(?:d|s)?\b", r"체포|기소|제재|벌금"),
+    "action_enforce": (
+        r"\b(?:arrest(?:ed|s)?|detain(?:ed|s)?|bust(?:ed|s)?|raid(?:ed|s)?|"
+        r"apprehend(?:ed|s)?|prosecut(?:e|ed|es|ion))\b",
+        r"\bcharg(?:e|ed|es)\b",
+        r"\bfine(?:d|s)?\b",
+        r"체포|검거|구속|적발|압수수색|수사|기소|제재|벌금",
+    ),
     "action_sue": (r"\bsue(?:d|s)?\b", r"\blawsuit\b", r"\bclass action\b", r"소송|고소"),
     "action_hack": (
         r"\bhack(?:ed|s)?\b",
@@ -426,6 +458,24 @@ ACTION_PATTERNS = {
         r"\bdrain(?:ed|s|ing)?\b",
         r"\btheft\b",
         r"탈취|도난|빼돌",
+    ),
+    "action_compromise": (
+        r"\b(?:security\s+)?(?:breach|failure|flaw|vulnerabilit(?:y|ies)|compromise)\b",
+        r"\b(?:expos(?:e|ed|es)|put(?:s|ting)?)\b.{0,45}\b(?:funds?|assets?|wallets?)\b.{0,20}\bat\s+risk\b",
+        r"보안\s*(?:실패|사고|결함|취약점|침해)|대형\s*보안\s*실패|자산\s*손실.{0,20}가능성",
+    ),
+    "action_mandate": (
+        r"\b(?:appoint(?:ed|s)?|select(?:ed|s)?|hir(?:e|ed|es)|taps?|mandat(?:e|ed|es))\b"
+        r".{0,75}\b(?:asset|reserve|fund|portfolio)\b.{0,25}\b(?:manage|manager|management)\b",
+        r"\bentrust(?:ed|s|ing)?\b",
+        r"(?:국고|준비금|보유분|포트폴리오).{0,55}(?:운용사로\s*)?(?:지정|선정|위탁)|"
+        r"(?:운용사|자산운용사).{0,35}(?:지정|선정|위탁)",
+    ),
+    "action_redeem": (
+        r"\b(?:redeem|redeems|redeemed|redemption|repurchas(?:e|ed|es|ing)|buyback)\b",
+        r"\b(?:set|sets|setting)\s+aside\b.{0,60}\b(?:cash|funds?)\b.{0,45}\bredemption\b",
+        r"현금\s*(?:상환|환매)|상환\s*프로그램|환매\s*프로그램|상환용\s*현금|"
+        r"자사주\s*매입|재매입",
     ),
     "action_sanction": (r"\bsanction(?:ed|s)?\b", r"제재"),
     "action_support": (r"\bback(?:ed|s|ing)?\b", r"\bsupport(?:ed|s|ing)?\b", r"지지"),
@@ -544,6 +594,54 @@ OBJECT_PATTERNS = {
         r"\bsbi\s+digital\s+factory\b",
         r"사명\s*변경|이름\s*변경|SBI\s*디지털\s*팩토리",
     ),
+    "object_hardware_wallet_security": (
+        r"\bhardware\s+wallet\b.{0,70}\b(?:security|breach|failure|flaw|vulnerabilit(?:y|ies)|compromise)\b",
+        r"\b(?:security|breach|failure|flaw|vulnerabilit(?:y|ies)|compromise)\b.{0,70}\bhardware\s+wallet\b",
+        r"\bcoldcard\b.{0,90}\b(?:security|breach|failure|flaw|vulnerabilit(?:y|ies)|loss(?:es)?)\b",
+        r"하드웨어\s*지갑.{0,60}(?:보안|취약점|결함|침해)|콜드카드.{0,60}(?:보안|취약점|결함|손실)",
+    ),
+    "object_self_custody_lending": (
+        r"\bself[- ]custodial\s+(?:lending|loan)\b",
+        r"\b(?:lending|loan)\s+(?:product|vault)\b.{0,65}\bself[- ]custod(?:y|ial)\b",
+        r"\bmorpho\b.{0,50}\b(?:lending|loan)\s+vaults?\b",
+        r"\buniswap\b.{0,45}\bearn\b.{0,45}\b(?:lending|loan|vaults?)\b",
+        r"자체\s*보관형\s*대출|비수탁형\s*대출|모포.{0,40}대출\s*볼트|"
+        r"유니스왑.{0,40}Earn.{0,40}(?:대출|볼트)",
+    ),
+    "object_fake_investment_platform": (
+        r"\b(?:fake|fraudulent|bogus|spoofed)\s+(?:crypto|cryptocurrency|xrp|digital asset)?\s*"
+        r"(?:investment|trading)\s+(?:platform|app|site)\b",
+        r"\b(?:investment|trading)\s+(?:platform|app|site)\b.{0,60}\b(?:fraud|scam|fake|spoofed)\b",
+        r"가짜\s*(?:암호화폐|가상자산|XRP)?\s*(?:투자|거래)\s*(?:플랫폼|앱|사이트)|"
+        r"(?:투자|거래)\s*(?:플랫폼|앱|사이트).{0,40}(?:사기|가짜)",
+    ),
+    "object_foundation_governance": (
+        r"\bfoundation\b.{0,65}\b(?:board|governance|director|member)\b",
+        r"\b(?:board|governance|director|member)\b.{0,65}\bfoundation\b",
+        r"재단.{0,55}(?:이사회|거버넌스|이사|구성원)|(?:이사회|거버넌스).{0,55}재단",
+    ),
+    "object_openusd": (r"(?<![a-z0-9])openusd(?![a-z0-9])", r"오픈\s*USD"),
+    "object_reserve_management": (
+        r"\b(?:sovereign|national|government|state)\s+(?:bitcoin|btc|crypto|digital asset)?\s*"
+        r"(?:reserve|holdings?|portfolio)\b.{0,70}\b(?:manage|manager|management|mandate)\b",
+        r"\b(?:manage|manager|management|mandate)\b.{0,70}\b(?:sovereign|national|government|state)\s+"
+        r"(?:bitcoin|btc|crypto|digital asset)?\s*(?:reserve|holdings?|portfolio)\b",
+        r"\b(?:asset|reserve|fund|portfolio)\s+management\s+mandate\b",
+        r"(?:국가|정부|국부|국고).{0,35}(?:비트코인|BTC|가상자산|디지털자산)?\s*"
+        r"(?:준비금|보유분|포트폴리오|운용).{0,55}(?:운용|관리|위탁|지정)|"
+        r"(?:준비금|국고|보유분).{0,45}(?:운용사|자산운용사)",
+    ),
+    "object_preferred_stock_redemption": (
+        r"\bpreferred\s+(?:stock|shares?)\b.{0,70}\b(?:cash\s+)?(?:redemption|repurchase|buyback)\b",
+        r"\b(?:cash\s+)?(?:redemption|repurchase|buyback)\b.{0,70}\bpreferred\s+(?:stock|shares?)\b",
+        r"우선주.{0,60}(?:현금\s*)?(?:상환|환매|재매입)|(?:상환|환매|재매입).{0,60}우선주",
+    ),
+    "object_cashback_card": (
+        r"\b(?:bitcoin|btc|crypto)?\s*(?:yield|rewards?)?\s*card\b.{0,70}\bcashback\b",
+        r"\bcashback\b.{0,70}\b(?:bitcoin|btc|crypto)?\s*(?:yield|rewards?)?\s*card\b",
+        r"(?:비트코인|BTC|암호화폐)?\s*(?:월릿|지갑|결제|리워드)?\s*카드.{0,55}캐시백|"
+        r"캐시백.{0,55}(?:비트코인|BTC|암호화폐)?\s*(?:월릿|지갑|결제|리워드)?\s*카드",
+    ),
 }
 
 GEO_PATTERNS = {
@@ -558,6 +656,8 @@ GEO_PATTERNS = {
     "geo_bhutan": (r"\bbhutan\b", r"부탄"),
     "geo_hongkong": (r"\bhong kong\b", r"홍콩"),
     "geo_malaysia": (r"\bmalaysia(?:n)?\b", r"말레이시아"),
+    "geo_canada": (r"\b(?:canada|canadian)\b", r"캐나다"),
+    "geo_seoul": (r"\bseoul\b", r"서울"),
 }
 
 ASSET_PATTERNS = {
@@ -838,6 +938,15 @@ def _proper_entity_tokens(title: str) -> set[str]:
             "united kingdom", "britain", "hong kong",
         }:
             continue
+        if any(
+            spec.kind in {"org", "person"}
+            and any(_contains_alias(cleaned, alias) for alias in spec.aliases)
+            for spec in ENTITY_SPECS
+        ):
+            # _known_entity_tokens already emitted the canonical Korean token.
+            # Avoid counting the same organization twice under English and
+            # Korean spellings when duplicate confidence uses entity counts.
+            continue
         translated = translations.get(cleaned)
         is_acronym = bool(re.fullmatch(r"[A-Z][A-Z0-9&.-]{2,10}", cleaned))
         has_org_suffix = bool(
@@ -928,6 +1037,38 @@ def _amount_tokens(raw: str) -> set[str]:
     for match in re.finditer(r"\d+(?:\.\d+)?\s*%", low):
         value = match.group(0).replace(" ", "").replace("%", "")
         out.add(f"amount_pct_{value}")
+
+    won_units = {
+        "trillion": 1_000_000_000_000,
+        "billion": 1_000_000_000,
+        "million": 1_000_000,
+    }
+    for match in re.finditer(
+        r"(?:₩\s*)?([\d,]+(?:\.\d+)?)\s*(trillion|billion|million)?\s*(?:krw|won)\b",
+        low,
+        re.I,
+    ):
+        value = float(match.group(1).replace(",", ""))
+        value *= won_units.get((match.group(2) or "").lower(), 1)
+        out.add(f"amount_krw_{int(round(value))}")
+    for match in re.finditer(r"(\d+(?:\.\d+)?)\s*억\s*(\d{1,4})?\s*원", text):
+        value = float(match.group(1)) * 100_000_000
+        if match.group(2):
+            value += int(match.group(2))
+        out.add(f"amount_krw_{int(round(value))}")
+
+    for match in re.finditer(
+        r"\b([\d,]+)\s*(?:victims?|investors?|users?|customers?|people|persons?|suspects?|defendants?)\b",
+        low,
+        re.I,
+    ):
+        out.add(f"count_people_{int(match.group(1).replace(',', ''))}")
+    for match in re.finditer(r"(?:피해자|투자자|이용자|사용자|고객|피의자|용의자|일당)?\s*(\d[\d,]*)\s*명", text):
+        out.add(f"count_people_{int(match.group(1).replace(',', ''))}")
+    for match in re.finditer(r"\b([\d,]+)\s*(?:countries|markets|jurisdictions)\b", low, re.I):
+        out.add(f"count_markets_{int(match.group(1).replace(',', ''))}")
+    for match in re.finditer(r"(\d[\d,]*)\s*(?:개국|개\s*국가|개\s*시장)", text):
+        out.add(f"count_markets_{int(match.group(1).replace(',', ''))}")
 
     return set(sorted(out)[:12])
 
@@ -1044,6 +1185,7 @@ def _same_event(cur_signature: str, old_signature: str) -> bool:
     amounts = {t for t in shared if t.startswith("amount_")}
     dates = {t for t in shared if t.startswith("date_")}
     periods = {t for t in shared if t.startswith("period_")}
+    counts = {t for t in shared if t.startswith("count_")}
 
     # A named company's shutdown is one event even when one source focuses on
     # withdrawals and another on the insurance fund or related class action.
@@ -1088,6 +1230,7 @@ def _same_event(cur_signature: str, old_signature: str) -> bool:
         "object_leveraged_etf",
         "object_smart_account",
         "object_company_rebrand",
+        "object_openusd",
     }
     if (
         entities
@@ -1095,6 +1238,38 @@ def _same_event(cur_signature: str, old_signature: str) -> bool:
         and cur_actions
         and old_actions
     ):
+        return True
+
+    # These are reusable event classes rather than one-off headlines.  A match
+    # needs the same subject/action/object plus another concrete anchor, so a
+    # company's later product launch or a foundation's later appointment stays
+    # distinct.
+    anchored_event_objects = {
+        "object_hardware_wallet_security",
+        "object_self_custody_lending",
+        "object_fake_investment_platform",
+        "object_foundation_governance",
+        "object_reserve_management",
+        "object_preferred_stock_redemption",
+    }
+    # A shared BTC/ETH/XRP token is too weak: the same company can have several
+    # unrelated events around one asset.  Use people, money, place, or time as
+    # the extra anchor instead.
+    anchored_context = geos | amounts | counts | dates | periods
+    if (
+        entities
+        and actions
+        and objects & anchored_event_objects
+        and (len(entities) >= 2 or anchored_context)
+    ):
+        return True
+
+    # Some globally launched cards have no clearly named issuer in syndicated
+    # headlines.  Require two matching numeric/time anchors before treating
+    # those anonymous product stories as the same event.
+    anonymous_event_objects = {"object_cashback_card"}
+    anonymous_anchors = amounts | counts | dates | periods
+    if actions and objects & anonymous_event_objects and len(anonymous_anchors) >= 2:
         return True
 
     # Scam headlines often omit the app or defendant name.  Match the concrete
@@ -1129,7 +1304,7 @@ def _same_event(cur_signature: str, old_signature: str) -> bool:
     # provides extra confidence when only one subject is shared. Two distinct
     # boosters are required for generic objects to avoid merging unrelated
     # launches or disclosures by the same company.
-    boosters = sum(bool(group) for group in (geos, assets, amounts, dates, periods))
+    boosters = sum(bool(group) for group in (geos, assets, amounts, counts, dates, periods))
     if entities and actions and objects and (boosters >= 2 or len(entities) >= 2):
         return True
     if len(entities) >= 2 and objects and (actions or geos or amounts or periods):
@@ -1660,5 +1835,5 @@ def install_editor_overrides(runtime: dict) -> None:
     runtime["is_semantically_duplicate"] = is_semantically_duplicate
     runtime["format_summary_for_telegram"] = format_summary_for_telegram
     runtime["build_message"] = build_message
-    runtime["DOORINEWS_EDITOR_VERSION"] = "2026-07-29-dedupe-tags-filter-v5"
-    _log("[편집엔진] doorinews_editor 2026-07-29-dedupe-tags-filter-v5 적용")
+    runtime["DOORINEWS_EDITOR_VERSION"] = "2026-08-02-event-dedupe-v6"
+    _log("[편집엔진] doorinews_editor 2026-08-02-event-dedupe-v6 적용")
