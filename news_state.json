@@ -2183,6 +2183,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-01T04:00:48.881150+00:00"
+    },
+    "1e5fb6798ca0ceea": {
+      "title": "Russia expands mining ban to Moscow, pressuring global Bitcoin hash rate",
+      "url": "www.cryptopolitan.com/russia-expands-mining-ban-to-moscow-pressuring-global-bitcoin-hash-rate",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-01T06:01:14.440174+00:00"
+    },
+    "92fc561a173bd9d4": {
+      "title": "콜드카드 취약점 노출…비트코인 1000개 넘게 41분 만에 털렸다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/383525",
+      "signature": "action_steal | asset_btc | object_card | object_wallet",
+      "canonical_key": "action_steal | asset_btc | object_card | object_wallet",
+      "ts": "2026-08-01T06:01:18.439522+00:00"
     }
   }
 }
