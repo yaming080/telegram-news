@@ -2176,6 +2176,13 @@
       "signature": "action_steal | amount_usd_70000000 | asset_btc | entity_갤럭시리서치",
       "canonical_key": "action_steal | amount_usd_70000000 | asset_btc | entity_갤럭시리서치",
       "ts": "2026-08-01T00:01:15.946488+00:00"
+    },
+    "00208cc4882f4236": {
+      "title": "-2.3 Billion SHIB Burned in 24 Hours as Shiba Inu Enters Smooth Acceleration Period",
+      "url": "u.today/23-billion-shib-burned-in-24-hours-as-shiba-inu-enters-smooth-acceleration-period",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-01T04:00:48.881150+00:00"
     }
   }
 }
