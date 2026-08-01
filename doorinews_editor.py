@@ -200,7 +200,7 @@ EXCLUDED_MARKET_CONTENT_PATTERNS = (
     r"\b(?:forced\s+)?liquidations?\b.{0,70}\b(?:price|resistance|support|range|level)\b",
     r"\b(?:resistance|support)\b.{0,70}\b(?:break|hold|range|zone|level|price)\b",
     r"\b(?:price|range|zone|level)\b.{0,70}\b(?:resistance|support)\b",
-    r"(?:\d+\s*(?:일|주)?\s*)?EMA|이동평균선|피보나치|되돌림|저항(?:선|대|구간|을)|"
+    r"(?<![a-z])(?:\d+\s*(?:일|주)?\s*)?EMA(?![a-z])|이동평균선|피보나치|되돌림|저항(?:선|대|구간|을)|"
     r"강제\s*청산|가격\s*구간|변동성.{0,20}(?:집중|확대)",
     r"\b(?:fed|federal reserve)\b.{0,100}\b(?:rate path|rate hike|rate cut|"
     r"basis points?|bps?|probability|odds|hawkish|dovish)\b",
@@ -211,6 +211,9 @@ EXCLUDED_MARKET_CONTENT_PATTERNS = (
     # Old proposals without a current vote, launch, approval, or adoption.
     r"\b(?:proposed|proposal)\b.{0,130}\b(?:in\s+20\d{2}|not yet decided|"
     r"undecided|no decision|adoption remains uncertain)\b",
+    r"\b(?:proposed|proposal)\b.{0,130}\b(?:from|in)\s+20\d{2}\b",
+    r"\b(?:proposed|proposal)\b.{0,200}\b(?:adoption|decision)\b.{0,35}"
+    r"\b(?:uncertain|undecided|not yet decided|not confirmed)\b",
     r"20\d{2}년.{0,70}(?:제안|제시).{0,110}(?:채택|도입).{0,35}"
     r"(?:미정|확정되지|결정되지|불투명)",
     r"채택\s*여부.{0,30}(?:미정|확정되지|결정되지)",
@@ -330,7 +333,11 @@ TARGET_ASSET_PATTERNS = {
     "XLM": (r"(?<![a-z0-9])xlm(?![a-z0-9])", r"\bstellar(?: lumens?)?\b", r"스텔라(?:루멘)?"),
     "BCH": (r"(?<![a-z0-9])bch(?![a-z0-9])", r"\bbitcoin cash\b", r"비트코인\s*캐시"),
     "ETC": (r"(?<![a-z0-9])etc(?![a-z0-9])", r"\bethereum classic\b", r"이더리움\s*클래식"),
-    "TRX": (r"(?<![a-z0-9])trx(?![a-z0-9])", r"\btron\b", r"트론"),
+    "TRX": (
+        r"(?<![a-z0-9])trx(?![a-z0-9])",
+        r"\btron\b",
+        r"(?<![가-힣])트론(?![가-힣])",
+    ),
     "ADA": (r"(?<![a-z0-9])ada(?![a-z0-9])", r"\bcardano\b", r"에이다|카르다노"),
     "BNB": (r"(?<![a-z0-9])bnb(?![a-z0-9])", r"\bbinance coin\b", r"바이낸스\s*코인"),
     "SHIB": (r"(?<![a-z0-9])shib(?![a-z0-9])", r"\bshiba inu\b", r"\bshibarium\b", r"시바이누|시바리움"),
@@ -351,6 +358,56 @@ LOW_VALUE_FLOW_PATTERNS = (
     r"(?:순유입|순유출|연속\s*유입|연속\s*유출|자금\s*흐름).{0,45}(?:ETF|상장지수펀드)",
     r"(?:\d+\s*거래일|\d+\s*주|\d+\s*일)\s*연속\s*(?:유입|유출)",
     r"주간\s*(?:마감|종가|순유입|순유출|자금\s*흐름)",
+)
+
+# Exchange balances, whale holdings, raw volume, and network-activity cards do
+# not describe a new decision or event.  They remain low-value even when a
+# selected asset is mentioned and the source phrases the metric as "revealed".
+LOW_VALUE_MARKET_METRIC_PATTERNS = (
+    r"\b(?:24[- ]hour|daily|weekly)?\s*(?:net\s+)?exchange\s+(?:inflows?|outflows?|flows?|reserves?|balances?|holdings?)\b",
+    r"\bexchange(?:s)?\b.{0,65}\b(?:net\s+)?(?:inflows?|outflows?|reserves?|balances?|holdings?)\b",
+    r"\b(?:whale|large holder)s?\b.{0,65}\b(?:holdings?|balances?|accumulat(?:e|ion)|distribution)\b",
+    r"\b(?:spot|futures?|derivatives?)\s+trading\s+volume\b",
+    r"\btrading\s+volume\b.{0,70}\b(?:rise|rises|rose|increase|increases|increased|surge|surges|surged|jump|jumps|jumped|record|records|recorded|exceed|exceeds|exceeded)\b",
+    r"\b(?:rise|rises|rose|increase|increases|increased|surge|surges|surged|jump|jumps|jumped)\b.{0,70}\btrading\s+volume\b",
+    r"\b(?:ecosystem|network|on[- ]chain)\s+activity\b.{0,55}\b(?:rise|rises|rose|increase|increases|increased|surge|surges|surged|recover|recovers|recovered)\b",
+    r"(?:24\s*시간|일간|주간)?\s*(?:거래소\s*)?(?:순유입|순유출|순거래소\s*유입|순거래소\s*유출|보유량|보유고|잔고)",
+    r"거래소.{0,55}(?:순유입|순유출|유입량|유출량|보유량|보유고|잔고)",
+    r"(?:고래|대형\s*보유자).{0,55}(?:보유량|보유고|잔고|매집|분배)",
+    r"(?:현물|선물|파생상품)?\s*거래량.{0,55}(?:급증|증가|늘|돌파|넘|기록)",
+    r"(?:생태계|네트워크|온체인)\s*활동.{0,45}(?:증가|늘|회복|활발)",
+)
+
+# Hardware-wallet vulnerability warnings and retrospective loss estimates are
+# outside the channel's editorial scope.  Law-enforcement stories about an
+# arrest or a recovery are handled separately and are not matched here unless
+# the article is still primarily a hardware-wallet flaw warning.
+HARDWARE_WALLET_SECURITY_PATTERNS = (
+    r"\b(?:hardware\s+wallet|coldcard|coinkite)\b.{0,150}\b(?:vulnerabilit(?:y|ies)|flaws?|leaks?|expos(?:e|ed|es|ing)|security\s+(?:failure|bug)|seed\s+(?:generation\s+)?risk|passphrase|address(?:es)?\s+leak|funds?\s+at\s+risk|move\s+(?:their\s+)?funds?)\b",
+    r"\b(?:vulnerabilit(?:y|ies)|flaws?|leaks?|expos(?:e|ed|es|ing)|security\s+(?:failure|bug)|seed\s+(?:generation\s+)?risk|passphrase|address(?:es)?\s+leak)\b.{0,150}\b(?:hardware\s+wallet|coldcard|coinkite)\b",
+    r"(?:하드웨어\s*지갑|콜드카드|코인카이트|coldcard|coinkite).{0,150}(?:취약점|보안\s*(?:결함|실패|문제)|시드\s*생성\s*위험|패스프레이즈|주소\s*유출|자금\s*(?:이전|이동)\s*권고|탈취\s*가능성|지갑\s*유출)",
+    r"(?:취약점|보안\s*(?:결함|실패|문제)|시드\s*생성\s*위험|패스프레이즈|주소\s*유출|탈취\s*가능성).{0,150}(?:하드웨어\s*지갑|콜드카드|코인카이트)",
+)
+
+# Exchange-issued yield, staking, or wrapped-BTC products are promotional
+# product cards rather than material portfolio events for this channel.
+LOW_VALUE_YIELD_PRODUCT_PATTERNS = (
+    r"\b(?:btc|bitcoin)[- ]backed\b.{0,80}\b(?:yield|earn|staking)\s+(?:product|token)\b",
+    r"\b(?:yield|earn|staking)\s+(?:product|token)\b.{0,80}\b(?:btc|bitcoin|collateral)\b",
+    r"\b(?:exchange|trading platform)\b.{0,90}\b(?:yield|earn|staking)\s+(?:product|token)\b",
+    r"\bbgbtc\b",
+    r"(?:비트코인|BTC)\s*(?:담보|기반).{0,55}(?:수익|예치|스테이킹)\s*상품",
+    r"(?:수익|예치|스테이킹)\s*상품.{0,70}(?:비트코인|BTC|담보|거래소)",
+)
+
+# Public-company share-price and intraday-volatility cards are equities news,
+# even when the company happens to hold or stake a selected crypto asset.
+EQUITY_MARKET_PATTERNS = (
+    r"\b(?:stock|shares?|ticker|nasdaq|nyse)\b.{0,100}\b(?:price|closed|closes|trading\s+range|intraday|volatility|rose|rises|gained|gains|surged|surges|jumped|jumps|fell|falls|dropped|drops)\b",
+    r"\b(?:price|closed|closes|trading\s+range|intraday|volatility|rose|rises|gained|gains|surged|surges|jumped|jumps|fell|falls|dropped|drops)\b.{0,100}\b(?:stock|shares?|ticker|nasdaq|nyse)\b",
+    r"\b(?:bmnr|bitmine)\b.{0,100}\b(?:stock|shares?|price|closed|trading\s+range|intraday|volatility)\b",
+    r"(?:주가|주식|종목|티커).{0,80}(?:급등|급락|상승|하락|마감|장중|거래\s*범위|변동성|최고가|최저가)",
+    r"(?:급등|급락|상승|하락|마감|장중|거래\s*범위|변동성).{0,80}(?:주가|주식|종목|티커)",
 )
 
 CONCRETE_EVENT_PATTERNS = (
@@ -753,10 +810,18 @@ def _is_hard_blocked(story: dict) -> tuple[bool, str]:
     title = str(story.get("title", "") or "")
     if _matches(raw, EXCLUDED_MARKET_CONTENT_PATTERNS):
         return True, "옵션·심리지수·추세·위믹스"
+    if _matches(raw, LOW_VALUE_MARKET_METRIC_PATTERNS):
+        return True, "거래소 수급·거래량·보유량 단순 지표"
     if _matches(raw, HARD_BLOCK_PATTERNS):
         return True, "가격/전망/홍보/모음기사"
     if _matches(raw, LOW_VALUE_FLOW_PATTERNS):
         return True, "ETF·시장 단순 수급/주간 마감"
+    if _matches(raw, HARDWARE_WALLET_SECURITY_PATTERNS):
+        return True, "하드웨어 지갑 취약점·자금이동 경고"
+    if _matches(raw, LOW_VALUE_YIELD_PRODUCT_PATTERNS):
+        return True, "거래소 수익·예치 상품"
+    if _matches(raw, EQUITY_MARKET_PATTERNS):
+        return True, "주식 주가·장중 변동성"
 
     aggregate_security_report = (
         _matches(
@@ -1835,5 +1900,5 @@ def install_editor_overrides(runtime: dict) -> None:
     runtime["is_semantically_duplicate"] = is_semantically_duplicate
     runtime["format_summary_for_telegram"] = format_summary_for_telegram
     runtime["build_message"] = build_message
-    runtime["DOORINEWS_EDITOR_VERSION"] = "2026-08-02-event-dedupe-v6"
-    _log("[편집엔진] doorinews_editor 2026-08-02-event-dedupe-v6 적용")
+    runtime["DOORINEWS_EDITOR_VERSION"] = "2026-08-02-editorial-filter-v7"
+    _log("[편집엔진] doorinews_editor 2026-08-02-editorial-filter-v7 적용")
