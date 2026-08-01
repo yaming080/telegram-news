@@ -2246,6 +2246,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-01T13:00:57.496467+00:00"
+    },
+    "76772318fe0921fe": {
+      "title": "Coldcard flaw drains up to $70M in Bitcoin as social mood hits a record low",
+      "url": "www.cryptopolitan.com/coldcard-exploit-bitcoin-sentiment",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-01T14:01:02.558447+00:00"
     }
   }
 }
