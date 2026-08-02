@@ -2295,6 +2295,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-02T04:00:54.960766+00:00"
+    },
+    "245f08bb65afebec": {
+      "title": "비트코인 6만4100달러…반도체 진정에도 관망",
+      "url": "www.tokenpost.kr/news/market/383851",
+      "signature": "action_disclose | action_launch | amount_krw_900000000000 | amount_usd_10000000000 | amount_usd_28000000000 | amount_usd_64100 | asset_btc | asset_eth | asset_sol | asset_xrp | entity_리플 | entity_바이낸스 | object_disclosure",
+      "canonical_key": "action_disclose | action_launch | amount_krw_900000000000 | amount_usd_10000000000 | amount_usd_28000000000 | amount_usd_64100 | asset_btc | asset_eth | asset_sol | asset_xrp | entity_리플 | entity_바이낸스 | object_disclosure",
+      "ts": "2026-08-02T05:00:50.462187+00:00"
     }
   }
 }
