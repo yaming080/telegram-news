@@ -2344,6 +2344,20 @@
       "signature": "action_launch | action_sue | amount_usd_628000 | object_wallet",
       "canonical_key": "action_launch | action_sue | amount_usd_628000 | object_wallet",
       "ts": "2026-08-02T12:01:07.355152+00:00"
+    },
+    "f03da712e43bd186": {
+      "title": "정확도 89%, 비트코인 불법거래 잡는 AI…재현율은 64%뿐",
+      "url": "www.tokenpost.kr/news/blockchain/383892",
+      "signature": "action_develop | action_disclose | action_launch | amount_pct_64 | amount_pct_89 | amount_pct_89.4 | asset_btc | object_disclosure | object_network",
+      "canonical_key": "action_develop | action_disclose | action_launch | amount_pct_64 | amount_pct_89 | amount_pct_89.4 | asset_btc | object_disclosure | object_network",
+      "ts": "2026-08-02T13:00:53.634481+00:00"
+    },
+    "55f659a7f9fbddfd": {
+      "title": "콜드카드 해킹 여파…비트코인 자금, 거래소로 되돌아갔다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/383889",
+      "signature": "action_compromise | action_hack | action_invest | asset_btc | entity_콜드카드 | geo_canada | object_card | object_custody | object_hardware_wallet_security | object_wallet",
+      "canonical_key": "action_compromise | action_hack | action_invest | asset_btc | entity_콜드카드 | geo_canada | object_card | object_custody | object_hardware_wallet_security | object_wallet",
+      "ts": "2026-08-02T13:00:57.573558+00:00"
     }
   }
 }
