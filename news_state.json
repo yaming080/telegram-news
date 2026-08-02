@@ -2421,6 +2421,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-02T19:01:00.482066+00:00"
+    },
+    "894dd60d65d5eb67": {
+      "title": "3조5000억번 실패한 지갑, 클로드가 버그 찾아 열었다",
+      "url": "www.tokenpost.kr/news/blockchain/383964",
+      "signature": "action_restore | amount_btc_5 | amount_usd_400000 | asset_btc | entity_앤트로픽 | object_recovery | object_wallet",
+      "canonical_key": "action_restore | amount_btc_5 | amount_usd_400000 | asset_btc | entity_앤트로픽 | object_recovery | object_wallet",
+      "ts": "2026-08-02T20:00:48.275259+00:00"
     }
   }
 }
