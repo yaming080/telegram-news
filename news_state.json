@@ -2288,6 +2288,13 @@
       "signature": "action_compromise | action_hack | date_2026_08_01 | object_wallet",
       "canonical_key": "action_compromise | action_hack | date_2026_08_01 | object_wallet",
       "ts": "2026-08-01T21:01:01.618175+00:00"
+    },
+    "00e369c15a469949": {
+      "title": "비농업 고용 9만명 전망…금·비트코인 흔드나",
+      "url": "www.tokenpost.kr/news/market/383826",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-02T04:00:54.960766+00:00"
     }
   }
 }
