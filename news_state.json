@@ -2386,6 +2386,13 @@
       "signature": "action_steal | amount_usd_89000000 | asset_btc | entity_콜드카드",
       "canonical_key": "action_steal | amount_usd_89000000 | asset_btc | entity_콜드카드",
       "ts": "2026-08-02T16:01:12.144002+00:00"
+    },
+    "a81e4ceb793f05f0": {
+      "title": "Bitcoin ETFs gain fresh case after $89M Coldcard drain, says Balchunas",
+      "url": "crypto.news/bitcoin-etfs-gain-fresh-case-after-89m-coldcard-drain-says-balchunas",
+      "signature": "action_steal | amount_usd_88600000 | amount_usd_89000000 | asset_btc | entity_콜드카드 | object_custody",
+      "canonical_key": "action_steal | amount_usd_88600000 | amount_usd_89000000 | asset_btc | entity_콜드카드 | object_custody",
+      "ts": "2026-08-02T17:00:49.956997+00:00"
     }
   }
 }
