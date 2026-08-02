@@ -2372,6 +2372,20 @@
       "signature": "action_support | amount_usd_8200000000 | asset_btc | entity_마이클세일러 | entity_스트래티지",
       "canonical_key": "action_support | amount_usd_8200000000 | asset_btc | entity_마이클세일러 | entity_스트래티지",
       "ts": "2026-08-02T14:00:54.178657+00:00"
+    },
+    "214aba0cc2a50a62": {
+      "title": "분석가 \"BTC 오더북 하방 2~20%에 매수벽 형성\"",
+      "url": "www.tokenpost.kr/news/market/383937",
+      "signature": "action_support | amount_pct_20 | asset_btc | entity_btc",
+      "canonical_key": "action_support | amount_pct_20 | asset_btc | entity_btc",
+      "ts": "2026-08-02T16:01:08.802888+00:00"
+    },
+    "5f5b5847f1faa781": {
+      "title": "Why $89 Million Coldcard Drain Is Bullish for Bitcoin ETFs, Bloomberg Analyst Explains",
+      "url": "u.today/why-89-million-coldcard-drain-is-bullish-for-bitcoin-etfs-bloomberg-analyst-explains",
+      "signature": "action_steal | amount_usd_89000000 | asset_btc | entity_콜드카드",
+      "canonical_key": "action_steal | amount_usd_89000000 | asset_btc | entity_콜드카드",
+      "ts": "2026-08-02T16:01:12.144002+00:00"
     }
   }
 }
