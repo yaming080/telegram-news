@@ -2358,6 +2358,20 @@
       "signature": "action_compromise | action_hack | action_invest | asset_btc | entity_콜드카드 | geo_canada | object_card | object_custody | object_hardware_wallet_security | object_wallet",
       "canonical_key": "action_compromise | action_hack | action_invest | asset_btc | entity_콜드카드 | geo_canada | object_card | object_custody | object_hardware_wallet_security | object_wallet",
       "ts": "2026-08-02T13:00:57.573558+00:00"
+    },
+    "69a72623515aa889": {
+      "title": "중국, AI로 비트코인(BTC) 자금세탁 90% 정확도 추적 시스템 개발",
+      "url": "www.tokenpost.kr/news/cryptocurrency/383909",
+      "signature": "action_develop | action_disclose | action_enforce | action_launch | amount_pct_90 | asset_btc | count_people_259 | entity_btc | geo_hongkong | object_disclosure | object_wallet",
+      "canonical_key": "action_develop | action_disclose | action_enforce | action_launch | amount_pct_90 | asset_btc | count_people_259 | entity_btc | geo_hongkong | object_disclosure | object_wallet",
+      "ts": "2026-08-02T14:00:50.922109+00:00"
+    },
+    "c69337a3dd3aee6f": {
+      "title": "'Bitcoin Drive Engaged': Saylor Answers $8.2 Billion Loss with Signature Bull Teaser",
+      "url": "u.today/bitcoin-drive-engaged-saylor-answers-82-billion-loss-with-signature-bull-teaser",
+      "signature": "action_support | amount_usd_8200000000 | asset_btc | entity_마이클세일러 | entity_스트래티지",
+      "canonical_key": "action_support | amount_usd_8200000000 | asset_btc | entity_마이클세일러 | entity_스트래티지",
+      "ts": "2026-08-02T14:00:54.178657+00:00"
     }
   }
 }
