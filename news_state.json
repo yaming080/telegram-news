@@ -2407,6 +2407,20 @@
       "signature": "action_migrate | amount_btc_1367 | amount_btc_approx_1400 | amount_usd_88600000 | asset_btc | entity_콜드카드",
       "canonical_key": "action_migrate | amount_btc_1367 | amount_btc_approx_1400 | amount_usd_88600000 | asset_btc | entity_콜드카드",
       "ts": "2026-08-02T18:00:52.458709+00:00"
+    },
+    "1696dd98e62e7d45": {
+      "title": "비트키, 이용자 요구에 '코인 컨트롤' 기능 앞당긴다",
+      "url": "www.tokenpost.kr/news/blockchain/383958",
+      "signature": "action_develop | asset_btc | object_wallet",
+      "canonical_key": "action_develop | asset_btc | object_wallet",
+      "ts": "2026-08-02T19:00:56.274570+00:00"
+    },
+    "f4745f9f316715d7": {
+      "title": "정밀도 89%, 재현율 65%…中 공안대 AI 비트코인 불법거래 탐지",
+      "url": "www.tokenpost.kr/news/blockchain/383956",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-02T19:01:00.482066+00:00"
     }
   }
 }
