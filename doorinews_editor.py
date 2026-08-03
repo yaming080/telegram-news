@@ -129,6 +129,23 @@ ENTITY_SPECS = (
     EntitySpec("org", "콜드카드", ("Coldcard", "ColdCard", "콜드카드"), "#Coldcard", 20),
     EntitySpec("org", "이더리움재단", ("Ethereum Foundation", "이더리움 재단", "이더리움재단"), "#EthereumFoundation", 20),
     EntitySpec("org", "서울경찰청", ("Seoul Metropolitan Police Agency", "Seoul police", "서울경찰청"), "", 20),
+    EntitySpec(
+        "org",
+        "더스마트웹컴퍼니",
+        ("The Smarter Web Company", "Smarter Web Company", "더 스마트 웹 컴퍼니", "더스마트웹컴퍼니"),
+        "#TheSmarterWebCompany",
+        20,
+    ),
+    EntitySpec("org", "ZILO", ("ZILO", "Zilo"), "#ZILO", 20),
+    EntitySpec("org", "Liquidcool", ("Liquidcool", "LiquidCool"), "#Liquidcool", 20),
+    EntitySpec("org", "GoMining", ("GoMining", "고마이닝"), "#GoMining", 20),
+    EntitySpec(
+        "org",
+        "GoMiningYields",
+        ("GoMining Yields", "Yields PaaS", "Yields Platform as a Service"),
+        "#GoMiningYields",
+        20,
+    ),
     EntitySpec("org", "3iQ", ("3iQ", "쓰리아이큐"), "#3iQ", 20),
     EntitySpec(
         "org",
@@ -385,8 +402,8 @@ LOW_VALUE_MARKET_METRIC_PATTERNS = (
 HARDWARE_WALLET_SECURITY_PATTERNS = (
     r"\b(?:hardware\s+wallet|coldcard|coinkite)\b.{0,150}\b(?:vulnerabilit(?:y|ies)|flaws?|leaks?|expos(?:e|ed|es|ing)|security\s+(?:failure|bug)|seed\s+(?:generation\s+)?risk|passphrase|address(?:es)?\s+leak|funds?\s+at\s+risk|move\s+(?:their\s+)?funds?)\b",
     r"\b(?:vulnerabilit(?:y|ies)|flaws?|leaks?|expos(?:e|ed|es|ing)|security\s+(?:failure|bug)|seed\s+(?:generation\s+)?risk|passphrase|address(?:es)?\s+leak)\b.{0,150}\b(?:hardware\s+wallet|coldcard|coinkite)\b",
-    r"(?:하드웨어\s*지갑|콜드카드|코인카이트|coldcard|coinkite).{0,150}(?:취약점|보안\s*(?:결함|실패|문제)|시드\s*생성\s*위험|패스프레이즈|주소\s*유출|자금\s*(?:이전|이동)\s*권고|탈취\s*가능성|지갑\s*유출)",
-    r"(?:취약점|보안\s*(?:결함|실패|문제)|시드\s*생성\s*위험|패스프레이즈|주소\s*유출|탈취\s*가능성).{0,150}(?:하드웨어\s*지갑|콜드카드|코인카이트)",
+    r"(?:하드웨어\s*지갑|콜드카드|코인카이트|coldcard|coinkite).{0,150}(?:취약점|(?:보안|펌웨어|설계)\s*(?:결함|실패|문제)|시드\s*생성\s*위험|패스프레이즈|주소\s*유출|개인키\s*노출|무단\s*이체|자금\s*(?:이전|이동)\s*권고|탈취\s*가능성|지갑\s*유출)",
+    r"(?:취약점|(?:보안|펌웨어|설계)\s*(?:결함|실패|문제)|시드\s*생성\s*위험|패스프레이즈|주소\s*유출|개인키\s*노출|무단\s*이체|탈취\s*가능성).{0,150}(?:하드웨어\s*지갑|콜드카드|코인카이트)",
 )
 
 # Exchange-issued yield, staking, or wrapped-BTC products are promotional
@@ -459,6 +476,10 @@ ACTION_PATTERNS = {
     ),
     "action_partner": (r"\bpartner(?:ed|ship)?\b", r"제휴|협력|협약"),
     "action_acquire": (r"\bacquir(?:e|ed|es|ing)\b", r"인수|확보"),
+    "action_purchase": (
+        r"\b(?:buy|buys|buying|bought|purchas(?:e|ed|es|ing)|acquir(?:e|ed|es|ing))\b",
+        r"(?:추가\s*)?(?:매입|매수|구매)",
+    ),
     "action_secure": (r"\bsecur(?:e|ed|es|ing)\b", r"\bobtain(?:ed|s)?\b", r"\bwins?\b", r"확보|취득"),
     "action_invest": (r"\binvest(?:ed|ment|s)?\b", r"투자"),
     "action_issue": (r"\bissue(?:d|s|ance)?\b", r"발행"),
@@ -469,6 +490,10 @@ ACTION_PATTERNS = {
         r"챕터\s*11|파산\s*보호|파산\s*신청|파산함|파산",
     ),
     "action_auction": (r"\bauction(?:ed|s|ing)?\b", r"경매|매각"),
+    "action_sell": (
+        r"\b(?:sell|sells|selling|sold|dispose|disposed|disposal)\b",
+        r"매도|처분|매각",
+    ),
     "action_publish": (
         r"\bpublish(?:ed|es|ing)?\b",
         r"\breleas(?:e|ed|es|ing)\b.{0,25}\breport\b",
@@ -542,6 +567,10 @@ ACTION_PATTERNS = {
         r"\bconstruct(?:s|ed|ing|ion)?\b",
         r"\bset(?:s|ting)?\s+up\b",
         r"구축|설립|정비|만들(?:고|어|었|기로)",
+    ),
+    "action_expand": (
+        r"\b(?:expand|expands|expanded|expanding|extension|extends?|scale|scales|scaled|scaling)\b",
+        r"확대|확장|넓힘|늘림",
     ),
     "action_revise": (
         r"\bcut(?:s)?\b.{0,35}\b(?:odds|probability|estimate)\b",
@@ -699,11 +728,45 @@ OBJECT_PATTERNS = {
         r"(?:비트코인|BTC|암호화폐)?\s*(?:월릿|지갑|결제|리워드)?\s*카드.{0,55}캐시백|"
         r"캐시백.{0,55}(?:비트코인|BTC|암호화폐)?\s*(?:월릿|지갑|결제|리워드)?\s*카드",
     ),
+    "object_corporate_crypto_purchase": (
+        r"\b(?:buy|buys|buying|bought|purchas(?:e|ed|es|ing)|acquir(?:e|ed|es|ing))\b"
+        r".{0,55}\b(?:bitcoin|btc|ethereum|eth|xrp)\b",
+        r"\b(?:bitcoin|btc|ethereum|eth|xrp)\b.{0,55}"
+        r"\b(?:buy|buys|buying|bought|purchas(?:e|ed|es|ing)|acquir(?:e|ed|es|ing))\b",
+        r"(?:비트코인|BTC|이더리움|ETH|XRP).{0,45}(?:추가\s*)?(?:매입|매수|구매)",
+        r"(?:추가\s*)?(?:매입|매수|구매).{0,45}(?:비트코인|BTC|이더리움|ETH|XRP)",
+    ),
+    "object_ripple_zilo_liquidcool": (
+        r"(?<![a-z0-9])zilo(?![a-z0-9]).{0,90}(?<![a-z0-9])liquidcool(?![a-z0-9])",
+        r"(?<![a-z0-9])liquidcool(?![a-z0-9]).{0,90}(?<![a-z0-9])zilo(?![a-z0-9])",
+    ),
+    "object_dormant_wallet_sale": (
+        r"\b(?:dormant|inactive|long[- ]term)\b.{0,80}\b(?:wallet|whale|address)\b"
+        r".{0,100}\b(?:sell|sells|selling|sold|dispose|disposed)\b",
+        r"\b(?:wallet|whale|address)\b.{0,80}\b(?:dormant|inactive|long[- ]term)\b"
+        r".{0,100}\b(?:sell|sells|selling|sold|dispose|disposed)\b",
+        r"(?:휴면|장기\s*보유|잠들어\s*있던).{0,70}(?:지갑|주소|고래).{0,90}(?:매도|처분|매각)",
+        r"(?:지갑|주소|고래).{0,70}(?:휴면|장기\s*보유|잠들어\s*있던).{0,90}(?:매도|처분|매각)",
+    ),
+    "object_mining_paas": (
+        r"\b(?:platform\s+as\s+a\s+service|paas)\b.{0,100}\b(?:miners?|mining|bitcoin|crypto)\b",
+        r"\b(?:miner|mining|bitcoin|crypto)\b.{0,100}\b(?:platform\s+as\s+a\s+service|paas)\b",
+        r"(?:플랫폼\s*애즈\s*어\s*서비스|PaaS).{0,90}(?:채굴|암호화폐|비트코인)",
+        r"(?:채굴|암호화폐|비트코인).{0,90}(?:플랫폼\s*애즈\s*어\s*서비스|PaaS)",
+    ),
+    "object_fake_staking_platform": (
+        r"\b(?:fake|fraudulent|bogus|spoofed)\b.{0,65}\b(?:xrp|flare)?\s*staking\b"
+        r".{0,45}\b(?:platform|site|app|scheme|scam)?\b",
+        r"\b(?:xrp|flare)?\s*staking\b.{0,65}\b(?:platform|site|app|scheme|scam)\b"
+        r".{0,45}\b(?:fake|fraudulent|bogus|spoofed)\b",
+        r"가짜.{0,45}(?:XRP|플레어)?\s*스테이킹\s*(?:플랫폼|사이트|앱|사기)",
+        r"(?:XRP|플레어)?\s*스테이킹\s*(?:플랫폼|사이트|앱|사기).{0,45}가짜",
+    ),
 }
 
 GEO_PATTERNS = {
     "geo_us": (r"\bunited states\b", r"(?<![a-z])u\.?s\.?(?![a-z])", r"\busa\b", r"미국"),
-    "geo_korea": (r"\bsouth korea\b", r"(?<![a-z])korea(?![a-z])", r"한국"),
+    "geo_korea": (r"\b(?:south korea|korean)\b", r"(?<![a-z])korea(?![a-z])", r"한국|서울"),
     "geo_japan": (r"\bjapan(?:ese)?\b", r"일본"),
     "geo_russia": (r"\brussia(?:n)?\b", r"러시아"),
     "geo_eu": (r"\beuropean union\b", r"(?<![a-z])eu(?![a-z])", r"유럽연합"),
@@ -995,6 +1058,11 @@ def _proper_entity_tokens(title: str) -> set[str]:
         low = cleaned.lower()
         if not cleaned or low in SOURCE_NOISE:
             continue
+        if low in {
+            "btc", "eth", "xrp", "xrpl", "sol", "usdt", "usdc", "rlusd",
+            "etf", "defi", "nft", "rwa",
+        }:
+            continue
         if len(cleaned) <= 2:
             continue
         if low in {
@@ -1017,7 +1085,8 @@ def _proper_entity_tokens(title: str) -> set[str]:
         has_org_suffix = bool(
             re.search(
                 r"\b(?:Bank|Foundation|Labs?|Research|Capital|Holdings?|Group|Protocol|"
-                r"Technologies|Exchange|Commission|Authority)\b",
+                r"Technologies|Exchange|Commission|Authority|Company|Corporation|Corp|Inc|"
+                r"Finance|Financial|Partners?)\b",
                 cleaned,
                 re.I,
             )
@@ -1039,6 +1108,16 @@ def _amount_tokens(raw: str) -> set[str]:
     def add_usd(value: float) -> None:
         if value >= 1:
             out.add(f"amount_usd_{int(round(value))}")
+
+    def add_asset_amount(asset: str, value: float) -> None:
+        normalized = f"{value:.8f}".rstrip("0").rstrip(".")
+        if "." in normalized:
+            out.add(f"amount_{asset}_exact_{normalized.replace('.', '_')}")
+        out.add(f"amount_{asset}_{int(round(value))}")
+        if value >= 1_000:
+            out.add(f"amount_{asset}_approx_{int(round(value / 100) * 100)}")
+        elif value >= 100:
+            out.add(f"amount_{asset}_approx_{int(round(value / 10) * 10)}")
 
     units = {
         "billion": 1_000_000_000, "bn": 1_000_000_000, "b": 1_000_000_000,
@@ -1070,18 +1149,41 @@ def _amount_tokens(raw: str) -> set[str]:
         add_usd(value)
 
     for match in re.finditer(
-        r"(\d[\d,]*(?:\.\d+)?)\s*(btc|eth|xrp|usdt|usdc|rlusd)\b",
+        r"(\d[\d,]*(?:\.\d+)?)\s*(btc|eth|xrp|usdt|usdc|rlusd)(?![a-z0-9])",
         low,
         re.I,
     ):
         value = float(match.group(1).replace(",", ""))
         asset = match.group(2).lower()
-        exact = int(round(value))
-        out.add(f"amount_{asset}_{exact}")
-        if value >= 1_000:
-            out.add(f"amount_{asset}_approx_{int(round(value / 100) * 100)}")
-        elif value >= 100:
-            out.add(f"amount_{asset}_approx_{int(round(value / 10) * 10)}")
+        add_asset_amount(asset, value)
+
+    english_asset_names = {"bitcoin": "btc", "ethereum": "eth", "ether": "eth"}
+    for match in re.finditer(
+        r"(\d[\d,]*(?:\.\d+)?)\s*(bitcoin|ethereum|ether)\b",
+        low,
+        re.I,
+    ):
+        value = float(match.group(1).replace(",", ""))
+        asset = english_asset_names[match.group(2).lower()]
+        add_asset_amount(asset, value)
+
+    korean_assets = {
+        "비트코인": "btc",
+        "이더리움": "eth",
+        "리플": "xrp",
+        "엑스알피": "xrp",
+    }
+    korean_asset_patterns = (
+        r"(비트코인|이더리움|리플|엑스알피)\s*(\d[\d,]*(?:\.\d+)?)\s*개",
+        r"(\d[\d,]*(?:\.\d+)?)\s*개(?:의)?\s*(비트코인|이더리움|리플|엑스알피)",
+    )
+    for index, pattern in enumerate(korean_asset_patterns):
+        for match in re.finditer(pattern, text):
+            asset_name = match.group(1 if index == 0 else 2)
+            number_text = match.group(2 if index == 0 else 1)
+            value = float(number_text.replace(",", ""))
+            asset = korean_assets[asset_name]
+            add_asset_amount(asset, value)
 
     for match in re.finditer(r"\b(\d[\d,]*)\s*(?:shares?|units?)\b", low):
         out.add(f"count_shares_{int(match.group(1).replace(',', ''))}")
@@ -1169,6 +1271,30 @@ def _period_tokens(raw: str) -> set[str]:
     return out
 
 
+def _duration_tokens(raw: str) -> set[str]:
+    text = raw or ""
+    out = set()
+    for match in re.finditer(
+        r"\b(\d{1,2})[- ]years?(?:[- ]old)?\b|\bafter\s+(\d{1,2})\s+years?\b",
+        text,
+        re.I,
+    ):
+        out.add(f"duration_years_{int(match.group(1) or match.group(2))}")
+    for match in re.finditer(r"(\d{1,2})\s*년(?:간|째|\s*전|\s*만)", text):
+        out.add(f"duration_years_{int(match.group(1))}")
+    year_words = {
+        "one": 1, "two": 2, "three": 3, "four": 4, "five": 5,
+        "six": 6, "seven": 7, "eight": 8, "nine": 9, "ten": 10,
+    }
+    for match in re.finditer(
+        r"\b(?:after\s+)?(" + "|".join(year_words) + r")[- ]years?\b",
+        text,
+        re.I,
+    ):
+        out.add(f"duration_years_{year_words[match.group(1).lower()]}")
+    return out
+
+
 def _date_tokens(raw: str) -> set[str]:
     text = raw or ""
     out = set()
@@ -1208,6 +1334,7 @@ def _event_tokens(story: dict) -> set[str]:
     tokens |= _amount_tokens(raw)
     tokens |= _date_tokens(raw)
     tokens |= _period_tokens(raw)
+    tokens |= _duration_tokens(raw)
     return tokens
 
 
@@ -1250,7 +1377,29 @@ def _same_event(cur_signature: str, old_signature: str) -> bool:
     amounts = {t for t in shared if t.startswith("amount_")}
     dates = {t for t in shared if t.startswith("date_")}
     periods = {t for t in shared if t.startswith("period_")}
+    durations = {t for t in shared if t.startswith("duration_")}
     counts = {t for t in shared if t.startswith("count_")}
+    exact_asset_amounts = {
+        token
+        for token in amounts
+        if re.fullmatch(r"amount_(?:btc|eth|xrp|usdt|usdc|rlusd)_\d+", token)
+    }
+    cur_precise_asset_amounts = {
+        token
+        for token in cur
+        if re.fullmatch(r"amount_(?:btc|eth|xrp|usdt|usdc|rlusd)_exact_\d+(?:_\d+)?", token)
+    }
+    old_precise_asset_amounts = {
+        token
+        for token in old
+        if re.fullmatch(r"amount_(?:btc|eth|xrp|usdt|usdc|rlusd)_exact_\d+(?:_\d+)?", token)
+    }
+    shared_precise_asset_amounts = cur_precise_asset_amounts & old_precise_asset_amounts
+    purchase_amount_match = bool(shared_precise_asset_amounts) or (
+        not cur_precise_asset_amounts
+        and not old_precise_asset_amounts
+        and bool(exact_asset_amounts)
+    )
 
     # A named company's shutdown is one event even when one source focuses on
     # withdrawals and another on the insurance fund or related class action.
@@ -1284,6 +1433,7 @@ def _same_event(cur_signature: str, old_signature: str) -> bool:
         "object_smart_account",
         "object_fassets",
         "object_company_rebrand",
+        "object_ripple_zilo_liquidcool",
     }
     if entities and actions and objects & specific_objects:
         return True
@@ -1316,11 +1466,12 @@ def _same_event(cur_signature: str, old_signature: str) -> bool:
         "object_foundation_governance",
         "object_reserve_management",
         "object_preferred_stock_redemption",
+        "object_mining_paas",
     }
     # A shared BTC/ETH/XRP token is too weak: the same company can have several
     # unrelated events around one asset.  Use people, money, place, or time as
     # the extra anchor instead.
-    anchored_context = geos | amounts | counts | dates | periods
+    anchored_context = geos | amounts | counts | dates | periods | durations
     if (
         entities
         and actions
@@ -1335,6 +1486,43 @@ def _same_event(cur_signature: str, old_signature: str) -> bool:
     anonymous_event_objects = {"object_cashback_card"}
     anonymous_anchors = amounts | counts | dates | periods
     if actions and objects & anonymous_event_objects and len(anonymous_anchors) >= 2:
+        return True
+
+    # Corporate treasury purchases recur frequently.  An exact shared crypto
+    # quantity is required; rounded totals must not merge consecutive buys.
+    if (
+        entities
+        and "action_purchase" in actions
+        and "object_corporate_crypto_purchase" in objects
+        and purchase_amount_match
+    ):
+        return True
+    if (
+        entities
+        and "action_purchase" in actions
+        and "object_corporate_crypto_purchase" in objects
+    ):
+        return False
+
+    # Dormant-wallet sales have no named organization.  Match the exact asset
+    # amount and dormancy period so separate whale transfers remain distinct.
+    if (
+        "object_dormant_wallet_sale" in objects
+        and "action_sell" in actions
+        and exact_asset_amounts
+        and durations
+    ):
+        return True
+
+    # Korean staking-scam reports may name only "police" in one source and
+    # Seoul police in another.  Geography + asset + the specific scam object
+    # is sufficiently narrow without relying on the omitted defendant name.
+    if (
+        "object_fake_staking_platform" in objects
+        and "action_enforce" in actions
+        and geos
+        and assets
+    ):
         return True
 
     # Scam headlines often omit the app or defendant name.  Match the concrete
@@ -1369,10 +1557,10 @@ def _same_event(cur_signature: str, old_signature: str) -> bool:
     # provides extra confidence when only one subject is shared. Two distinct
     # boosters are required for generic objects to avoid merging unrelated
     # launches or disclosures by the same company.
-    boosters = sum(bool(group) for group in (geos, assets, amounts, counts, dates, periods))
+    boosters = sum(bool(group) for group in (geos, assets, amounts, counts, dates, periods, durations))
     if entities and actions and objects and (boosters >= 2 or len(entities) >= 2):
         return True
-    if len(entities) >= 2 and objects and (actions or geos or amounts or periods):
+    if len(entities) >= 2 and objects and (actions or geos or amounts or periods or durations):
         return True
     # Public-policy stories may name a regulator differently across sources.
     if actions and objects and geos and (amounts or assets):
@@ -1900,5 +2088,5 @@ def install_editor_overrides(runtime: dict) -> None:
     runtime["is_semantically_duplicate"] = is_semantically_duplicate
     runtime["format_summary_for_telegram"] = format_summary_for_telegram
     runtime["build_message"] = build_message
-    runtime["DOORINEWS_EDITOR_VERSION"] = "2026-08-02-editorial-filter-v7"
-    _log("[편집엔진] doorinews_editor 2026-08-02-editorial-filter-v7 적용")
+    runtime["DOORINEWS_EDITOR_VERSION"] = "2026-08-04-event-dedup-v8"
+    _log("[편집엔진] doorinews_editor 2026-08-04-event-dedup-v8 적용")
