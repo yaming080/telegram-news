@@ -1014,6 +1014,133 @@ class DoorinewsEditorTests(unittest.TestCase):
                     )
                 )
 
+    def test_august_cross_source_event_variants_are_duplicates(self):
+        pairs = (
+            (
+                "corporate_bitcoin_purchase",
+                {
+                    "title": "The Smarter Web Company buys 11.89 Bitcoin",
+                    "desc": "The acquisition increased its holdings to 2,712 BTC",
+                },
+                {
+                    "title": "더 스마트 웹 컴퍼니, 비트코인 11.89개 추가 매입",
+                    "desc": "비트코인 보유량을 2,712 BTC로 늘렸다고 밝힘",
+                },
+            ),
+            (
+                "ripple_zilo_liquidcool_investment",
+                {
+                    "title": "Ripple invests in ZILO and Liquidcool",
+                    "desc": "The investment expands institutional infrastructure on XRP Ledger",
+                },
+                {
+                    "title": "리플, XRPL 기관 접근성 확대 위해 ZILO·Liquidcool에 투자",
+                    "desc": "규제형 펀드 발행과 결제·담보 이동 인프라를 지원함",
+                },
+            ),
+            (
+                "dormant_ethereum_wallet_sale",
+                {
+                    "title": "Dormant Ethereum whale sells 4,150 ETH after eight years",
+                    "desc": "The wallet originally acquired the Ether at an average of $489",
+                },
+                {
+                    "title": "8년 전 이더리움을 매수한 장기 보유 지갑이 4,150ETH 매도",
+                    "desc": "3년간 잠들어 있던 주소가 보유 물량을 처분함",
+                },
+            ),
+            (
+                "strategy_bitcoin_purchase",
+                {
+                    "title": "Strategy acquires 1,638 Bitcoin for $147 million",
+                    "desc": "The company funded the purchase through preferred dividends and share sales",
+                },
+                {
+                    "title": "스트래티지, 비트코인 1,638개를 1억4700만달러에 매입",
+                    "desc": "우선주 배당과 자사주 매각으로 달러 준비금을 확충함",
+                },
+            ),
+            (
+                "gomining_yields_paas_expansion",
+                {
+                    "title": "GoMining expands Yields Platform as a Service to miners",
+                    "desc": "The integration adds buying, selling and custody through one API",
+                },
+                {
+                    "title": "GoMining의 Yields PaaS가 암호화폐 업계로 서비스 확대",
+                    "desc": "채굴 이용자에게 매매·보관 기능을 API로 지원함",
+                },
+            ),
+            (
+                "fake_xrp_staking_platform",
+                {
+                    "title": "Korean police arrest three over fake XRP staking platform",
+                    "desc": "The scam took $9 million from investors",
+                },
+                {
+                    "title": "서울경찰청, 가짜 플레어 스테이킹 사이트 수사",
+                    "desc": "71명에게서 340만 XRP를 가로챈 일당 3명을 붙잡음",
+                },
+            ),
+        )
+        for name, first_story, second_story in pairs:
+            with self.subTest(name=name):
+                first = editor.build_story_signature(first_story)
+                second = editor.build_story_signature(second_story)
+                self.assertTrue(first, msg=f"{name}: first signature missing")
+                self.assertTrue(second, msg=f"{name}: second signature missing")
+                self.assertTrue(editor._same_event(first, second), msg=f"{name}\n{first}\n{second}")
+                self.assertTrue(
+                    editor.is_semantically_duplicate(
+                        second_story,
+                        [],
+                        [first_story["title"]],
+                    ),
+                    msg=f"{name}: title-only state did not match",
+                )
+
+    def test_separate_corporate_purchases_and_wallet_sales_stay_distinct(self):
+        distinct_pairs = (
+            (
+                {
+                    "title": "The Smarter Web Company buys 11.89 Bitcoin",
+                    "desc": "Its holdings increased to 2,712 BTC",
+                },
+                {
+                    "title": "The Smarter Web Company buys another 12.2 Bitcoin",
+                    "desc": "A later acquisition increased its holdings to 2,737 BTC",
+                },
+            ),
+            (
+                {
+                    "title": "Dormant Ethereum wallet sells 4,150 ETH after eight years",
+                    "desc": "The wallet originally acquired ETH at $489",
+                },
+                {
+                    "title": "Dormant Ethereum wallet sells 2,000 ETH after six years",
+                    "desc": "A separate address moved its holdings to an exchange",
+                },
+            ),
+        )
+        for first_story, second_story in distinct_pairs:
+            with self.subTest(first=first_story["title"]):
+                self.assertFalse(
+                    editor._same_event(
+                        editor.build_story_signature(first_story),
+                        editor.build_story_signature(second_story),
+                    )
+                )
+
+    def test_final_bot_keeps_raw_titles_for_amount_aware_deduplication(self):
+        bot_path = os.path.join(ROOT, "doorinews_bot.py")
+        with open(bot_path, "r", encoding="utf-8") as handle:
+            final_main = handle.read().rsplit("\ndef main():", 1)[-1]
+        self.assertNotIn(
+            "normalize_for_duplicate(item.get('title', ''))",
+            final_main,
+        )
+        self.assertIn("seen_titles.append(title)", final_main)
+
     def test_exchange_flow_and_holder_metric_cards_are_blocked(self):
         stories = (
             {
@@ -1056,6 +1183,10 @@ class DoorinewsEditorTests(unittest.TestCase):
             {
                 "title": "Coldcard 취약점 악용으로 비트코인 7000만달러 유출 가능성",
                 "desc": "비트코인 손실 심리가 최저 수준으로 떨어졌다고 전함",
+            },
+            {
+                "title": "콜드카드 펌웨어 결함으로 1,082.65 비트코인 무단 이체",
+                "desc": "오프라인 하드웨어 지갑의 설계 결함으로 개인키가 노출될 수 있음",
             },
         )
         for story in stories:
