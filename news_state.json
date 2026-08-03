@@ -2470,6 +2470,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-03T06:01:03.433437+00:00"
+    },
+    "91c213b9d0afa305": {
+      "title": "GoMining Integrates Uphold Platform to Expand Global Bitcoin Services",
+      "url": "thenewscrypto.com/gomining-integrates-uphold-platform-to-expand-global-bitcoin-services",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-03T08:01:23.218315+00:00"
+    },
+    "b16b2d8a51cb44ee": {
+      "title": "The Smarter Web Company adds 11.89 Bitcoin, treasury reaches 2,712 BTC",
+      "url": "crypto.news/the-smarter-web-company-adds-11-89-bitcoin-treasury-reaches-2712-btc",
+      "signature": "action_acquire | amount_btc_12 | amount_btc_2712 | amount_btc_approx_2700 | asset_btc | entity_btc",
+      "canonical_key": "action_acquire | amount_btc_12 | amount_btc_2712 | amount_btc_approx_2700 | asset_btc | entity_btc",
+      "ts": "2026-08-03T08:01:27.979263+00:00"
     }
   }
 }
