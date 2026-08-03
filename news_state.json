@@ -2722,6 +2722,13 @@
       "signature": "action_expand | amount_xrp_3 | asset_xrp | asset_xrpl | entity_xrpledger | entity_xrpl재단 | object_network",
       "canonical_key": "action_expand | amount_xrp_3 | asset_xrp | asset_xrpl | entity_xrpledger | entity_xrpl재단 | object_network",
       "ts": "2026-08-03T21:00:57.888048+00:00"
+    },
+    "22f4ba524953a42f": {
+      "title": "카르다노, 반 로쎔 하드포크로 프로토콜 11.0 적용",
+      "url": "www.tokenpost.kr/news/blockchain/384575",
+      "signature": "action_build | action_convert | action_develop | action_launch | entity_카르다노 | geo_korea",
+      "canonical_key": "action_build | action_convert | action_develop | action_launch | entity_카르다노 | geo_korea",
+      "ts": "2026-08-03T22:01:02.048314+00:00"
     }
   }
 }
