@@ -2687,6 +2687,13 @@
       "signature": "action_partner | amount_usd_309000000000 | asset_stablecoin | asset_xrp | entity_리플 | entity_마스터카드",
       "canonical_key": "action_partner | amount_usd_309000000000 | asset_stablecoin | asset_xrp | entity_리플 | entity_마스터카드",
       "ts": "2026-08-03T17:01:28.202525+00:00"
+    },
+    "216d141f42079dad": {
+      "title": "안크르가 XRP레저 퍼블릭 노드 접근을 지원한다",
+      "url": "www.tokenpost.kr/news/blockchain/384516",
+      "signature": "action_build | action_develop | action_file | asset_xrp | asset_xrpl | object_account | object_payment | object_wallet",
+      "canonical_key": "action_build | action_develop | action_file | asset_xrp | asset_xrpl | object_account | object_payment | object_wallet",
+      "ts": "2026-08-03T18:01:12.103705+00:00"
     }
   }
 }
