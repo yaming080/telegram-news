@@ -2435,6 +2435,13 @@
       "signature": "action_hack | action_migrate | amount_usd_90000000 | asset_btc | entity_콜드카드 | object_bill",
       "canonical_key": "action_hack | action_migrate | amount_usd_90000000 | asset_btc | entity_콜드카드 | object_bill",
       "ts": "2026-08-03T00:00:53.082298+00:00"
+    },
+    "b3201e2b8233089b": {
+      "title": "콜드카드 7000만달러 유출…창펑 자오 \"분산 보관해야\"",
+      "url": "www.tokenpost.kr/news/blockchain/384046",
+      "signature": "action_restore | amount_btc_1083 | amount_btc_approx_1100 | amount_krw_97000000000 | amount_usd_70000000 | asset_btc | entity_갤럭시리서치 | entity_콜드카드 | object_card | object_hardware_wallet_security | object_recovery | object_sale | object_wallet",
+      "canonical_key": "action_restore | amount_btc_1083 | amount_btc_approx_1100 | amount_krw_97000000000 | amount_usd_70000000 | asset_btc | entity_갤럭시리서치 | entity_콜드카드 | object_card | object_hardware_wallet_security | object_recovery | object_sale | object_wallet",
+      "ts": "2026-08-03T01:00:52.759203+00:00"
     }
   }
 }
