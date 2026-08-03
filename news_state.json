@@ -2547,6 +2547,41 @@
       "signature": "action_hack | amount_usd_88000000 | asset_btc | entity_콜드카드 | object_custody | object_hardware_wallet_security",
       "canonical_key": "action_hack | amount_usd_88000000 | asset_btc | entity_콜드카드 | object_custody | object_hardware_wallet_security",
       "ts": "2026-08-03T11:00:56.546075+00:00"
+    },
+    "86c10a644a883a77": {
+      "title": "Ripple invests in Zilo and Licuido to assist tokenized capital markets push",
+      "url": "cointelegraph.com/news/ripple-invests-zilo-licuido-tokenized-capital-markets-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_invest | entity_리플",
+      "canonical_key": "action_invest | entity_리플",
+      "ts": "2026-08-03T12:01:06.763757+00:00"
+    },
+    "8d6d90eaad0d7cee": {
+      "title": "Ripple invests undisclosed sums in two British firms, ZILO and Licuido",
+      "url": "www.cryptopolitan.com/ripple-invests-in-zilo-and-licuido",
+      "signature": "action_build | action_disclose | action_invest | entity_zilo | entity_리플 | geo_uk | object_fund | object_infrastructure",
+      "canonical_key": "action_build | action_disclose | action_invest | entity_zilo | entity_리플 | geo_uk | object_fund | object_infrastructure",
+      "ts": "2026-08-03T12:01:28.037857+00:00"
+    },
+    "40483b370f9a65e5": {
+      "title": "Another 486 wallets suffer losses in fourth wave of Coldcard wallet drain",
+      "url": "www.cryptopolitan.com/coldcard-wallets-drained-four-attack-waves",
+      "signature": "action_steal | asset_btc | entity_콜드카드 | object_wallet",
+      "canonical_key": "action_steal | asset_btc | entity_콜드카드 | object_wallet",
+      "ts": "2026-08-03T12:01:48.823026+00:00"
+    },
+    "0f6c4c98e836b7eb": {
+      "title": "로빈후드 스톡 토큰 차단, 제3자 지갑 앞에서 흔들리나",
+      "url": "www.tokenpost.kr/news/policy/384324",
+      "signature": "action_ban | action_issue | action_mint | asset_btc | entity_로빈후드 | geo_us | object_wallet",
+      "canonical_key": "action_ban | action_issue | action_mint | asset_btc | entity_로빈후드 | geo_us | object_wallet",
+      "ts": "2026-08-03T12:01:52.881895+00:00"
+    },
+    "e847464148f5910b": {
+      "title": "XRPL Gains Major Boost From Ripple Following Investments in ZILO and Licuido",
+      "url": "u.today/xrpl-gains-major-boost-from-ripple-following-investments-in-zilo-and-licuido",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-03T12:01:56.481838+00:00"
     }
   }
 }
