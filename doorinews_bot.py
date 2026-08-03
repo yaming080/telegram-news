@@ -3736,8 +3736,11 @@ def main():
     log(f"전체 수집 {len(collected)}개 / 필터 통과 {len(filtered)}개")
 
     new_stories = []
+    # Keep raw titles for the final editor.  Pre-normalizing here destroys
+    # decimal and thousands separators (11.89 -> 11 89, 1,638 -> 1 638), so
+    # amount-aware event signatures cannot be rebuilt from historical state.
     seen_titles = [
-        normalize_for_duplicate(item.get('title', ''))
+        item.get('title', '')
         for item in posted.values()
         if item.get('title')
     ]
@@ -3805,7 +3808,7 @@ def main():
         log(f"  └ 시그니처: {signature}")
 
         new_stories.append(s)
-        seen_titles.append(norm_title)
+        seen_titles.append(title)
         seen_signatures.append(signature)
 
         if signature and len(signature.split('|')) >= 3:
@@ -6962,8 +6965,10 @@ def main():
     log(f"전체 수집 {len(collected)}개 / 필터 통과 {len(filtered)}개")
 
     new_stories = []
+    # Keep raw titles so amount-aware signatures can be rebuilt from state.
+    # Normalized display titles remove decimal and thousands separators.
     seen_titles = [
-        normalize_for_duplicate(item.get('title', ''))
+        item.get('title', '')
         for item in posted.values()
         if item.get('title')
     ]
@@ -7025,7 +7030,7 @@ def main():
         log(f"  └ canonical_key: {canonical_key}")
 
         new_stories.append(s)
-        seen_titles.append(norm_title)
+        seen_titles.append(title)
         seen_signatures.append(signature)
         if signature and len(signature.split('|')) >= 3:
             seen_topic_keys.add(signature)
