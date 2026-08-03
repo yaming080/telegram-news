@@ -2694,6 +2694,13 @@
       "signature": "action_build | action_develop | action_file | asset_xrp | asset_xrpl | object_account | object_payment | object_wallet",
       "canonical_key": "action_build | action_develop | action_file | asset_xrp | asset_xrpl | object_account | object_payment | object_wallet",
       "ts": "2026-08-03T18:01:12.103705+00:00"
+    },
+    "8bbe5860100552f2": {
+      "title": "아즈텍 재단, 인력 55% 줄이고 네트워크 운영 전환",
+      "url": "www.tokenpost.kr/news/blockchain/384534",
+      "signature": "action_convert | action_disclose | action_expand | action_launch | amount_pct_55 | asset_eth | count_people_15 | count_people_18 | count_people_33 | date_2025_02_13 | object_disclosure | object_network",
+      "canonical_key": "action_convert | action_disclose | action_expand | action_launch | amount_pct_55 | asset_eth | count_people_15 | count_people_18 | count_people_33 | date_2025_02_13 | object_disclosure | object_network",
+      "ts": "2026-08-03T19:00:51.617820+00:00"
     }
   }
 }
