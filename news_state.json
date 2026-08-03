@@ -2631,6 +2631,48 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-03T15:01:05.902624+00:00"
+    },
+    "995055e3ac43d637": {
+      "title": "American Bitcoin reports a $57.2 million net loss for Q2 2026",
+      "url": "www.cryptopolitan.com/american-bitcoin-posts-57-2-million-q2-loss",
+      "signature": "action_support | amount_usd_57200000 | amount_usd_67000000 | amount_usd_82000000 | asset_btc | entity_도널드트럼프",
+      "canonical_key": "action_support | amount_usd_57200000 | amount_usd_67000000 | amount_usd_82000000 | asset_btc | entity_도널드트럼프",
+      "ts": "2026-08-03T16:01:15.183504+00:00"
+    },
+    "e2a20e8401199f4c": {
+      "title": "XRP레저 RWA 30일 전송량 96.88% 감소",
+      "url": "www.tokenpost.kr/news/market/384456",
+      "signature": "action_migrate | amount_krw_20800000000 | amount_krw_26200000000 | amount_krw_31400000000 | amount_pct_0.04 | amount_pct_23.90 | amount_pct_4.51 | amount_pct_96.88 | amount_usd_8150000 | amount_usd_8760000 | asset_xrp | asset_xrpl | count_people_197 | entity_rwa",
+      "canonical_key": "action_migrate | amount_krw_20800000000 | amount_krw_26200000000 | amount_krw_31400000000 | amount_pct_0.04 | amount_pct_23.90 | amount_pct_4.51 | amount_pct_96.88 | amount_usd_8150000 | amount_usd_8760000 | asset_xrp | asset_xrpl | count_people_197 | entity_rwa",
+      "ts": "2026-08-03T16:01:19.365678+00:00"
+    },
+    "4b18866fe9ff6de0": {
+      "title": "KuCoin Ranks Top Three for ETH Spot Execution in TokenInsight’s July 2026 Liquidity Report",
+      "url": "coinedition.com/kucoin-ranks-top-three-for-eth-spot-execution-in-tokeninsights-july-2026-liquidity-report",
+      "signature": "action_support | amount_pct_0.01 | amount_usd_100000 | asset_btc | asset_eth | object_platform | object_sale",
+      "canonical_key": "action_support | amount_pct_0.01 | amount_usd_100000 | asset_btc | asset_eth | object_platform | object_sale",
+      "ts": "2026-08-03T16:01:26.289451+00:00"
+    },
+    "faf88f0aa1bf5d0e": {
+      "title": "What is restaking and how EigenLayer turns staked ETH into shared security",
+      "url": "crypto.news/what-is-restaking-and-how-eigenlayer-turns-staked-eth-into-shared-security",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-03T16:01:30.074797+00:00"
+    },
+    "d2460f6fa8280fdd": {
+      "title": "How cross-chain bridges work and why $4 billion has been stolen from them",
+      "url": "crypto.news/how-cross-chain-bridges-work-and-why-4-billion-has-been-stolen-from-them",
+      "signature": "action_steal | amount_usd_4000000000 | asset_eth | asset_sol | entity_아비트럼",
+      "canonical_key": "action_steal | amount_usd_4000000000 | asset_eth | asset_sol | entity_아비트럼",
+      "ts": "2026-08-03T16:01:34.481766+00:00"
+    },
+    "789dfff9e8409367": {
+      "title": "Hashdex to shut down $14.7M Bitcoin ETF DEFI",
+      "url": "crypto.news/hashdex-to-shut-down-14-7m-dollars-bitcoin-etf-defi",
+      "signature": "action_close | amount_usd_14700000 | asset_btc | geo_us | object_etf | object_fund",
+      "canonical_key": "action_close | amount_usd_14700000 | asset_btc | geo_us | object_etf | object_fund",
+      "ts": "2026-08-03T16:01:37.792227+00:00"
     }
   }
 }
