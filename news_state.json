@@ -2449,6 +2449,13 @@
       "signature": "action_disclose | action_invest | action_launch | amount_krw_120000000000 | amount_usd_61000 | amount_usd_63200 | amount_usd_86200000 | asset_btc | entity_btc | object_disclosure | object_wallet",
       "canonical_key": "action_disclose | action_invest | action_launch | amount_krw_120000000000 | amount_usd_61000 | amount_usd_63200 | amount_usd_86200000 | asset_btc | entity_btc | object_disclosure | object_wallet",
       "ts": "2026-08-03T03:00:52.452317+00:00"
+    },
+    "7c56e183d160af60": {
+      "title": "South Korean Police Arrest Three In $9M Fake XRP Staking Case",
+      "url": "bitcoinist.com/south-korean-police-arrest-three-in-9m-fake-xrp-staking-case",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-03T05:00:52.164795+00:00"
     }
   }
 }
