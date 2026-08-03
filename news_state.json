@@ -2442,6 +2442,13 @@
       "signature": "action_restore | amount_btc_1083 | amount_btc_approx_1100 | amount_krw_97000000000 | amount_usd_70000000 | asset_btc | entity_갤럭시리서치 | entity_콜드카드 | object_card | object_hardware_wallet_security | object_recovery | object_sale | object_wallet",
       "canonical_key": "action_restore | amount_btc_1083 | amount_btc_approx_1100 | amount_krw_97000000000 | amount_usd_70000000 | asset_btc | entity_갤럭시리서치 | entity_콜드카드 | object_card | object_hardware_wallet_security | object_recovery | object_sale | object_wallet",
       "ts": "2026-08-03T01:00:52.759203+00:00"
+    },
+    "dfd368191176880a": {
+      "title": "두 지갑, BTC 롱 1364개…청산가 6만1000달러대 몰렸다",
+      "url": "www.tokenpost.kr/news/market/384106",
+      "signature": "action_disclose | action_invest | action_launch | amount_krw_120000000000 | amount_usd_61000 | amount_usd_63200 | amount_usd_86200000 | asset_btc | entity_btc | object_disclosure | object_wallet",
+      "canonical_key": "action_disclose | action_invest | action_launch | amount_krw_120000000000 | amount_usd_61000 | amount_usd_63200 | amount_usd_86200000 | asset_btc | entity_btc | object_disclosure | object_wallet",
+      "ts": "2026-08-03T03:00:52.452317+00:00"
     }
   }
 }
