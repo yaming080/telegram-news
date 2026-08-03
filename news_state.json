@@ -2701,6 +2701,27 @@
       "signature": "action_convert | action_disclose | action_expand | action_launch | amount_pct_55 | asset_eth | count_people_15 | count_people_18 | count_people_33 | date_2025_02_13 | object_disclosure | object_network",
       "canonical_key": "action_convert | action_disclose | action_expand | action_launch | amount_pct_55 | asset_eth | count_people_15 | count_people_18 | count_people_33 | date_2025_02_13 | object_disclosure | object_network",
       "ts": "2026-08-03T19:00:51.617820+00:00"
+    },
+    "8e3d02232630f38b": {
+      "title": "Why the US-Japan Yen Intervention Matters for Bitcoin",
+      "url": "coinedition.com/why-the-us-japan-yen-intervention-matters-for-bitcoin",
+      "signature": "action_support | asset_btc | entity_연준 | geo_japan | geo_us",
+      "canonical_key": "action_support | asset_btc | entity_연준 | geo_japan | geo_us",
+      "ts": "2026-08-03T21:00:51.561759+00:00"
+    },
+    "bc6c02ad19ac3c98": {
+      "title": "Legendary Trader Brandt on Bitcoin: Bull Market 'Not Urgent'",
+      "url": "u.today/legendary-trader-brandt-on-bitcoin-bull-market-not-urgent",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-03T21:00:54.682389+00:00"
+    },
+    "61998a19b7d4d12b": {
+      "title": "XRP Ledger adds Ankr nodes ahead of v3.3.0",
+      "url": "crypto.news/xrp-ledger-adds-ankr-nodes-ahead-of-v3-3-0",
+      "signature": "action_expand | amount_xrp_3 | asset_xrp | asset_xrpl | entity_xrpledger | entity_xrpl재단 | object_network",
+      "canonical_key": "action_expand | amount_xrp_3 | asset_xrp | asset_xrpl | entity_xrpledger | entity_xrpl재단 | object_network",
+      "ts": "2026-08-03T21:00:57.888048+00:00"
     }
   }
 }
