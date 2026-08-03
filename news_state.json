@@ -2428,6 +2428,13 @@
       "signature": "action_restore | amount_btc_5 | amount_usd_400000 | asset_btc | entity_앤트로픽 | object_recovery | object_wallet",
       "canonical_key": "action_restore | amount_btc_5 | amount_usd_400000 | asset_btc | entity_앤트로픽 | object_recovery | object_wallet",
       "ts": "2026-08-02T20:00:48.275259+00:00"
+    },
+    "077452b6ad0d179e": {
+      "title": "Coldcard exploit sparks Bitcoin flight, ‘bullish’ crypto consolidation: Hodler’s Digest, August 2",
+      "url": "cointelegraph.com/magazine/coldcard-exploit-sparks-bitcoin-flight-clarity-act-no-vote-or-no-vote-hodlers-digest-august-2?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_hack | action_migrate | amount_usd_90000000 | asset_btc | entity_콜드카드 | object_bill",
+      "canonical_key": "action_hack | action_migrate | amount_usd_90000000 | asset_btc | entity_콜드카드 | object_bill",
+      "ts": "2026-08-03T00:00:53.082298+00:00"
     }
   }
 }
