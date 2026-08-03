@@ -2505,6 +2505,34 @@
       "signature": "action_hack | asset_btc | entity_btc | entity_콜드카드",
       "canonical_key": "action_hack | asset_btc | entity_btc | entity_콜드카드",
       "ts": "2026-08-03T09:01:11.696788+00:00"
+    },
+    "bbf68d6d9989963b": {
+      "title": "3000만달러 차입…비트코인 담보로 AI 투자",
+      "url": "www.tokenpost.kr/news/cryptocurrency/384266",
+      "signature": "action_invest | amount_krw_43200000000 | amount_pct_4.9 | amount_usd_30000000 | asset_btc | entity_모포 | entity_비자",
+      "canonical_key": "action_invest | amount_krw_43200000000 | amount_pct_4.9 | amount_usd_30000000 | asset_btc | entity_모포 | entity_비자",
+      "ts": "2026-08-03T10:01:04.841322+00:00"
+    },
+    "88415ba152d047b3": {
+      "title": "55만 BTC, 바이낸스·OKX 입금 주소로 이동",
+      "url": "www.tokenpost.kr/news/market/384258",
+      "signature": "action_disclose | action_launch | action_migrate | asset_btc | entity_btc | entity_okx | entity_바이낸스 | object_derivatives | object_disclosure | object_sale | object_wallet",
+      "canonical_key": "action_disclose | action_launch | action_migrate | asset_btc | entity_btc | entity_okx | entity_바이낸스 | object_derivatives | object_disclosure | object_sale | object_wallet",
+      "ts": "2026-08-03T10:01:09.127121+00:00"
+    },
+    "4da0f3b1ba41b8d9": {
+      "title": "XRP Ledger Co-Creator Reveals 'Nuclear Briefcase' Strategy for Bitcoin Cold Storage",
+      "url": "u.today/xrp-ledger-co-creator-reveals-nuclear-briefcase-strategy-for-bitcoin-cold-storage",
+      "signature": "action_hack | action_secure | asset_btc | asset_xrp | asset_xrpl | entity_데이비드슈워츠 | entity_리플 | entity_스트래티지 | entity_콜드카드",
+      "canonical_key": "action_hack | action_secure | asset_btc | asset_xrp | asset_xrpl | entity_데이비드슈워츠 | entity_리플 | entity_스트래티지 | entity_콜드카드",
+      "ts": "2026-08-03T10:01:13.155196+00:00"
+    },
+    "2b48632f8389a414": {
+      "title": "Coldcard pushes bitcoin back to exchanges: the anti-self-custody trade",
+      "url": "crypto.news/coldcard-pushes-bitcoin-back-to-exchanges-anti-self-custody-trade",
+      "signature": "action_hack | action_steal | action_support | asset_btc | entity_콜드카드 | object_custody",
+      "canonical_key": "action_hack | action_steal | action_support | asset_btc | entity_콜드카드 | object_custody",
+      "ts": "2026-08-03T10:01:17.251328+00:00"
     }
   }
 }
