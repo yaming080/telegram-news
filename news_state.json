@@ -2729,6 +2729,13 @@
       "signature": "action_build | action_convert | action_develop | action_launch | entity_카르다노 | geo_korea",
       "canonical_key": "action_build | action_convert | action_develop | action_launch | entity_카르다노 | geo_korea",
       "ts": "2026-08-03T22:01:02.048314+00:00"
+    },
+    "c5086072fd30cb4b": {
+      "title": "비트코인 양자 위협, 50만 물리 큐비트 추정이 던진 과제",
+      "url": "www.tokenpost.kr/news/blockchain/384585",
+      "signature": "action_auction | action_convert | action_disclose | action_launch | action_sell | asset_btc | entity_짐크레이머 | object_disclosure | object_network | object_sale",
+      "canonical_key": "action_auction | action_convert | action_disclose | action_launch | action_sell | asset_btc | entity_짐크레이머 | object_disclosure | object_network | object_sale",
+      "ts": "2026-08-03T23:00:53.599934+00:00"
     }
   }
 }
