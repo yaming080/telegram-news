@@ -2533,6 +2533,20 @@
       "signature": "action_hack | action_steal | action_support | asset_btc | entity_콜드카드 | object_custody",
       "canonical_key": "action_hack | action_steal | action_support | asset_btc | entity_콜드카드 | object_custody",
       "ts": "2026-08-03T10:01:17.251328+00:00"
+    },
+    "9a6a2b409c1817f9": {
+      "title": "BITCOIN ASIA 2026 ADDS CZ TO SPEAKER LINEUP, FULL CONFERENCE AGENDA RELEASED",
+      "url": "coinedition.com/bitcoin-asia-2026-adds-cz-to-speaker-lineup-full-conference-agenda-released",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-03T11:00:52.501968+00:00"
+    },
+    "c8201f85a979c557": {
+      "title": "Early Bitcoin Dev Explains Why Self-Custody Is Still Superior After $88 Million Coldcard Bug",
+      "url": "u.today/early-bitcoin-dev-explains-why-self-custody-is-still-superior-after-88-million-coldcard-bug",
+      "signature": "action_hack | amount_usd_88000000 | asset_btc | entity_콜드카드 | object_custody | object_hardware_wallet_security",
+      "canonical_key": "action_hack | amount_usd_88000000 | asset_btc | entity_콜드카드 | object_custody | object_hardware_wallet_security",
+      "ts": "2026-08-03T11:00:56.546075+00:00"
     }
   }
 }
