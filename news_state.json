@@ -2484,6 +2484,27 @@
       "signature": "action_acquire | amount_btc_12 | amount_btc_2712 | amount_btc_approx_2700 | asset_btc | entity_btc",
       "canonical_key": "action_acquire | amount_btc_12 | amount_btc_2712 | amount_btc_approx_2700 | asset_btc | entity_btc",
       "ts": "2026-08-03T08:01:27.979263+00:00"
+    },
+    "de8b81f6e8aca865": {
+      "title": "리플, 두 핀테크 투자로 기관용 토큰화 인프라 확장",
+      "url": "www.tokenpost.kr/news/cryptocurrency/384230",
+      "signature": "action_disclose | action_invest | action_issue | action_launch | action_migrate | action_mint | asset_xrp | asset_xrpl | entity_리플 | geo_uk | object_disclosure | object_fund | object_infrastructure | object_payment",
+      "canonical_key": "action_disclose | action_invest | action_issue | action_launch | action_migrate | action_mint | asset_xrp | asset_xrpl | entity_리플 | geo_uk | object_disclosure | object_fund | object_infrastructure | object_payment",
+      "ts": "2026-08-03T09:01:03.042051+00:00"
+    },
+    "9ea2259cda5a1643": {
+      "title": "Important Ripple (XRP) Announcement, New Investments: August 3",
+      "url": "cryptopotato.com/important-ripple-xrp-announcement-new-investments-august-3",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-03T09:01:08.092311+00:00"
+    },
+    "56302586b946c488": {
+      "title": "'This Will Only Get Worse': Famous Bitcoin Critic Warns of AI and Quantum Danger for BTC",
+      "url": "u.today/this-will-only-get-worse-famous-bitcoin-critic-warns-of-ai-and-quantum-danger-for-btc",
+      "signature": "action_hack | asset_btc | entity_btc | entity_콜드카드",
+      "canonical_key": "action_hack | asset_btc | entity_btc | entity_콜드카드",
+      "ts": "2026-08-03T09:01:11.696788+00:00"
     }
   }
 }
