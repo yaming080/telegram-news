@@ -2883,6 +2883,20 @@
       "signature": "action_compromise | action_hack | amount_usd_100000000 | entity_데이비드슈워츠 | entity_리플 | entity_콜드카드 | object_custody | object_hardware_wallet_security",
       "canonical_key": "action_compromise | action_hack | amount_usd_100000000 | entity_데이비드슈워츠 | entity_리플 | entity_콜드카드 | object_custody | object_hardware_wallet_security",
       "ts": "2026-08-04T17:01:33.385940+00:00"
+    },
+    "8a816099c623a68d": {
+      "title": "Blame lands on Coinkite CTO as BTC exploit loss nears $120M",
+      "url": "www.cryptopolitan.com/coinkite-cto-peter-gray-linked-coldcard-hack",
+      "signature": "action_compromise | action_hack | action_steal | amount_btc_5200 | amount_btc_approx_5200 | amount_usd_114000000 | amount_usd_120000000 | asset_btc | entity_콜드카드 | object_hardware_wallet_security | object_wallet",
+      "canonical_key": "action_compromise | action_hack | action_steal | amount_btc_5200 | amount_btc_approx_5200 | amount_usd_114000000 | amount_usd_120000000 | asset_btc | entity_콜드카드 | object_hardware_wallet_security | object_wallet",
+      "ts": "2026-08-04T20:01:24.562299+00:00"
+    },
+    "2d340c99e6b68bde": {
+      "title": "XRP Ledger Goes Cross-Chain",
+      "url": "u.today/xrp-ledger-goes-cross-chain",
+      "signature": "action_expand | action_launch | asset_xrp | asset_xrpl | object_network",
+      "canonical_key": "action_expand | action_launch | asset_xrp | asset_xrpl | object_network",
+      "ts": "2026-08-04T20:01:31.466467+00:00"
     }
   }
 }
