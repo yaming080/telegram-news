@@ -2785,6 +2785,13 @@
       "signature": "action_migrate | asset_xrp | asset_xrpl | entity_리플",
       "canonical_key": "action_migrate | asset_xrp | asset_xrpl | entity_리플",
       "ts": "2026-08-04T09:01:04.579258+00:00"
+    },
+    "36d8e09d928dae99": {
+      "title": "Ripple President Longs Breaks Down Why New Investments Are Response to Bank Pivot Toward XRP Ledger",
+      "url": "u.today/ripple-president-longs-breaks-down-why-new-investments-are-response-to-bank-pivot-toward-xrp-ledger",
+      "signature": "action_migrate | asset_xrp | asset_xrpl | entity_bankpivottowardxrp | entity_ledger | entity_리플",
+      "canonical_key": "action_migrate | asset_xrp | asset_xrpl | entity_bankpivottowardxrp | entity_ledger | entity_리플",
+      "ts": "2026-08-04T10:00:56.084083+00:00"
     }
   }
 }
