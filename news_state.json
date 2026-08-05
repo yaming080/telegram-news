@@ -3051,6 +3051,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-05T14:01:43.261549+00:00"
+    },
+    "6384b886136a8d92": {
+      "title": "볼츠, 워런트 카나리 갱신해 정부 요구 부재 공지",
+      "url": "www.tokenpost.kr/news/cryptocurrency/385870",
+      "signature": "action_disclose | action_file | action_launch | asset_btc | object_custody | object_disclosure",
+      "canonical_key": "action_disclose | action_file | action_launch | asset_btc | object_custody | object_disclosure",
+      "ts": "2026-08-05T15:01:10.594336+00:00"
     }
   }
 }
