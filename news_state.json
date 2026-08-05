@@ -2953,6 +2953,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-05T06:01:12.274677+00:00"
+    },
+    "4570872378c11b3f": {
+      "title": "에어리디움, 4개 AI로 스테이블코인 준비금 감시",
+      "url": "www.tokenpost.kr/news/blockchain/385555",
+      "signature": "action_secure | asset_btc | asset_stablecoin | geo_us | object_patent",
+      "canonical_key": "action_secure | asset_btc | asset_stablecoin | geo_us | object_patent",
+      "ts": "2026-08-05T07:01:07.548975+00:00"
+    },
+    "f7dbac8198be5614": {
+      "title": "Important Cardano News and ADA Price Update: August 5th",
+      "url": "cryptopotato.com/important-cardano-news-and-ada-price-update-august-5th",
+      "signature": "action_develop | action_expand | entity_카르다노",
+      "canonical_key": "action_develop | action_expand | entity_카르다노",
+      "ts": "2026-08-05T07:01:16.915514+00:00"
     }
   }
 }
