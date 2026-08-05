@@ -3030,6 +3030,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-05T11:01:13.784379+00:00"
+    },
+    "5f5eb76dc6b1b160": {
+      "title": "코인베이스·비트와이즈 CEO, 가격보다 사용성에 주목",
+      "url": "www.tokenpost.kr/news/cryptocurrency/385753",
+      "signature": "action_expand | action_integrate | amount_usd_64000 | asset_btc | asset_stablecoin | entity_ceo | entity_코인베이스 | object_infrastructure | object_payment",
+      "canonical_key": "action_expand | action_integrate | amount_usd_64000 | asset_btc | asset_stablecoin | entity_ceo | entity_코인베이스 | object_infrastructure | object_payment",
+      "ts": "2026-08-05T12:01:03.817191+00:00"
     }
   }
 }
