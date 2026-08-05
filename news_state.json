@@ -2911,6 +2911,27 @@
       "signature": "action_appoint | action_file | action_invest | action_issue | action_mint | action_support | asset_eth | entity_sec | entity_블랙록 | geo_us | object_commissioner | object_etf | object_fund",
       "canonical_key": "action_appoint | action_file | action_invest | action_issue | action_mint | action_support | asset_eth | entity_sec | entity_블랙록 | geo_us | object_commissioner | object_etf | object_fund",
       "ts": "2026-08-05T01:01:03.889624+00:00"
+    },
+    "3191e7e7f6c5cc9f": {
+      "title": "Ethereum researchers want to rein in staking, critics say it could backfire",
+      "url": "cointelegraph.com/news/ethereum-researchers-want-to-rein-in-staking-critics-say-it-could-backfire?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-05T03:01:12.485210+00:00"
+    },
+    "b73ec07c16550a28": {
+      "title": "스테이킹 50%서 보상 전액 소각하는 초안 나왔다",
+      "url": "www.tokenpost.kr/news/blockchain/385478",
+      "signature": "action_develop | action_expand | amount_pct_100 | amount_pct_50 | asset_eth | count_developers_6 | count_people_6 | entity_이더리움재단",
+      "canonical_key": "action_develop | action_expand | amount_pct_100 | amount_pct_50 | asset_eth | count_developers_6 | count_people_6 | entity_이더리움재단",
+      "ts": "2026-08-05T03:01:16.185411+00:00"
+    },
+    "c65a1209fda934b7": {
+      "title": "120곳 모인 엔비디아 AI 보안 연합, 개방형 도구 개발",
+      "url": "www.tokenpost.kr/news/blockchain/385475",
+      "signature": "action_acquire | action_develop | action_disclose | action_launch | action_migrate | action_secure | entity_엔비디아 | entity_플레어 | object_disclosure",
+      "canonical_key": "action_acquire | action_develop | action_disclose | action_launch | action_migrate | action_secure | entity_엔비디아 | entity_플레어 | object_disclosure",
+      "ts": "2026-08-05T03:01:21.266119+00:00"
     }
   }
 }
