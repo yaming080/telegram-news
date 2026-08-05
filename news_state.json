@@ -3009,6 +3009,27 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-05T10:01:36.555678+00:00"
+    },
+    "6720a1dc7cca2fc2": {
+      "title": "Ex-LAPD Officer Gets Life in Prison After Posing as Police to Steal $350K Worth of BTC",
+      "url": "cryptopotato.com/ex-lapd-officer-gets-life-in-prison-after-posing-as-police-to-steal-350k-worth-of-btc",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-05T11:01:02.797479+00:00"
+    },
+    "eef2e011f366ee15": {
+      "title": "BNB Has Pushed Past $600: The Test Toward Higher Targets Begins",
+      "url": "thenewscrypto.com/bnb-has-pushed-past-600-the-test-toward-higher-targets-begins",
+      "signature": "action_support | amount_pct_14 | amount_pct_2.1 | amount_usd_1150000000 | amount_usd_588 | amount_usd_600 | amount_usd_602 | amount_usd_604 | entity_바이낸스",
+      "canonical_key": "action_support | amount_pct_14 | amount_pct_2.1 | amount_usd_1150000000 | amount_usd_588 | amount_usd_600 | amount_usd_602 | amount_usd_604 | entity_바이낸스",
+      "ts": "2026-08-05T11:01:07.119374+00:00"
+    },
+    "c6bee33b8cc1ed8d": {
+      "title": "The Yen Carry Trade Is Back in Focus: Why Crypto Traders Should Watch Japan",
+      "url": "thenewscrypto.com/the-yen-carry-trade-is-back-in-focus-why-crypto-traders-should-watch-japan",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-05T11:01:13.784379+00:00"
     }
   }
 }
