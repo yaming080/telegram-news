@@ -3037,6 +3037,20 @@
       "signature": "action_expand | action_integrate | amount_usd_64000 | asset_btc | asset_stablecoin | entity_ceo | entity_코인베이스 | object_infrastructure | object_payment",
       "canonical_key": "action_expand | action_integrate | amount_usd_64000 | asset_btc | asset_stablecoin | entity_ceo | entity_코인베이스 | object_infrastructure | object_payment",
       "ts": "2026-08-05T12:01:03.817191+00:00"
+    },
+    "0561144a04767c80": {
+      "title": "MoonPay Brings Gasless Transactions to TRON, Simplifying Stablecoin Payments",
+      "url": "www.cryptopolitan.com/moonpay-brings-gasless-transactions-to-tron-simplifying-stablecoin-payments",
+      "signature": "action_integrate | asset_stablecoin | date_2026_08_05 | entity_문페이 | entity_트론 | object_infrastructure | object_network",
+      "canonical_key": "action_integrate | asset_stablecoin | date_2026_08_05 | entity_문페이 | entity_트론 | object_infrastructure | object_network",
+      "ts": "2026-08-05T14:01:39.332637+00:00"
+    },
+    "8f33eba52cd8e151": {
+      "title": "BNB Chain Launches “Build the Era” Hackathon to Find the Official BNB Agent Studio Marketplace",
+      "url": "cryptopotato.com/bnb-chain-launches-build-the-era-hackathon-to-find-the-official-bnb-agent-studio-marketplace",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-05T14:01:43.261549+00:00"
     }
   }
 }
