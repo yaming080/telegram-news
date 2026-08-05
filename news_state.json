@@ -3107,6 +3107,20 @@
       "signature": "action_deny | action_file | action_launch | action_sue | asset_btc | entity_도널드트럼프 | geo_us | object_class_action",
       "canonical_key": "action_deny | action_file | action_launch | action_sue | asset_btc | entity_도널드트럼프 | geo_us | object_class_action",
       "ts": "2026-08-05T18:01:18.912937+00:00"
+    },
+    "3ab56d6ee2173303": {
+      "title": "Arthur Hayes: AI Bubble Burst Could Trigger Bitcoin Rally",
+      "url": "cryptopotato.com/arthur-hayes-ai-bubble-burst-could-trigger-bitcoin-rally",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-05T20:00:54.163928+00:00"
+    },
+    "cd42fe39838d0d61": {
+      "title": "Strategy offers $250 yearly for employee Trump Accounts",
+      "url": "crypto.news/strategy-offers-250-yearly-for-employee-trump-accounts",
+      "signature": "action_expand | amount_usd_250 | asset_btc | entity_도널드트럼프 | entity_스트래티지 | geo_us",
+      "canonical_key": "action_expand | amount_usd_250 | asset_btc | entity_도널드트럼프 | entity_스트래티지 | geo_us",
+      "ts": "2026-08-05T20:00:57.943120+00:00"
     }
   }
 }
