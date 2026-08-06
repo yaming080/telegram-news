@@ -3121,6 +3121,13 @@
       "signature": "action_expand | amount_usd_250 | asset_btc | entity_도널드트럼프 | entity_스트래티지 | geo_us",
       "canonical_key": "action_expand | amount_usd_250 | asset_btc | entity_도널드트럼프 | entity_스트래티지 | geo_us",
       "ts": "2026-08-05T20:00:57.943120+00:00"
+    },
+    "b1de04ae8be049d9": {
+      "title": "Bitcoin Red Team reports 5K findings in sweeping security audit",
+      "url": "cointelegraph.com/news/bitcoin-red-team-reports-5k-findings-in-sweeping-security-audit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-06T02:00:54.743492+00:00"
     }
   }
 }
