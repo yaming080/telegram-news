@@ -3212,6 +3212,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-06T13:01:18.927537+00:00"
+    },
+    "e7026f95473023b7": {
+      "title": "Aave and Uniswap push OKX's X Layer DeFi to record levels",
+      "url": "www.cryptopolitan.com/x-layer-defi-tvl-stablecoin-volume-record",
+      "signature": "action_integrate | amount_usd_100000000 | amount_usd_2000000000 | asset_eth | asset_stablecoin | entity_okx | entity_아베 | entity_유니스왑 | object_network",
+      "canonical_key": "action_integrate | amount_usd_100000000 | amount_usd_2000000000 | asset_eth | asset_stablecoin | entity_okx | entity_아베 | entity_유니스왑 | object_network",
+      "ts": "2026-08-06T15:01:36.775508+00:00"
+    },
+    "e39ba30f75cee7a6": {
+      "title": "New XRP Ledger Features Face Community Stress Test: Is Next XRPL Update Ready to Drop?",
+      "url": "u.today/new-xrp-ledger-features-face-community-stress-test-is-next-xrpl-update-ready-to-drop",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-06T15:01:43.180033+00:00"
     }
   }
 }
