@@ -3142,6 +3142,13 @@
       "signature": "action_hack | action_issue | amount_btc_390 | amount_btc_approx_390 | asset_btc | entity_콜드카드",
       "canonical_key": "action_hack | action_issue | amount_btc_390 | amount_btc_approx_390 | asset_btc | entity_콜드카드",
       "ts": "2026-08-06T07:00:59.388731+00:00"
+    },
+    "ab36bed49cb301a0": {
+      "title": "Bitcoin-backed loan refinances PowerCompute’s $18M debt at 2%",
+      "url": "cointelegraph.com/news/bitcoin-collateral-cuts-powercompute-debt-rate?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_support | amount_pct_2 | amount_usd_18000000 | asset_btc | object_lending",
+      "canonical_key": "action_support | amount_pct_2 | amount_usd_18000000 | asset_btc | object_lending",
+      "ts": "2026-08-06T09:01:01.965033+00:00"
     }
   }
 }
