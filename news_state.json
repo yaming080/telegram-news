@@ -3226,6 +3226,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-06T15:01:43.180033+00:00"
+    },
+    "0891af84d0ebd4f9": {
+      "title": "Crypto Market 2026: Why Bitcoin and Altcoins Are Still Struggling?",
+      "url": "coinedition.com/crypto-market-2026-why-bitcoin-and-altcoins-are-still-struggling",
+      "signature": "action_expand | action_pass | asset_btc | object_bill",
+      "canonical_key": "action_expand | action_pass | asset_btc | object_bill",
+      "ts": "2026-08-06T22:01:22.595978+00:00"
+    },
+    "52d75de5061f7ed9": {
+      "title": "Can Bitcoin Upgrade Without Consensus? What the BIP-110 Debate Means",
+      "url": "coinedition.com/can-bitcoin-upgrade-without-consensus-what-the-bip-110-debate-means",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-06T22:01:33.075117+00:00"
     }
   }
 }
