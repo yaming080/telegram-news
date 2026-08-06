@@ -3156,6 +3156,27 @@
       "signature": "action_build | action_steal | amount_btc_1816 | amount_btc_approx_1800 | amount_usd_116000000 | asset_btc | duration_years_5 | entity_콜드카드 | object_wallet",
       "canonical_key": "action_build | action_steal | amount_btc_1816 | amount_btc_approx_1800 | amount_usd_116000000 | asset_btc | duration_years_5 | entity_콜드카드 | object_wallet",
       "ts": "2026-08-06T10:01:01.615097+00:00"
+    },
+    "8afa1994123c6a48": {
+      "title": "Ethereum’s Governance Problem: Why the Market Keeps Rejecting the Ethereum Foundation’s Vision",
+      "url": "coinedition.com/ethereums-governance-problem-why-the-market-keeps-rejecting-the-ethereum-foundations-vision",
+      "signature": "action_deny | amount_eth_4 | asset_eth | entity_이더리움재단 | object_foundation_governance | object_network",
+      "canonical_key": "action_deny | amount_eth_4 | asset_eth | entity_이더리움재단 | object_foundation_governance | object_network",
+      "ts": "2026-08-06T11:01:24.009522+00:00"
+    },
+    "b02af0629f9cbe08": {
+      "title": "Ethereum May Sacrifice Capital Markets for Monetary Purity Under EIP-8361",
+      "url": "coinedition.com/ethereum-may-sacrifice-capital-markets-for-monetary-purity-under-eip-8361",
+      "signature": "action_support | amount_eth_8361 | amount_eth_approx_8400 | amount_pct_50 | asset_eth | entity_ethereummaysacrificecapital | object_network",
+      "canonical_key": "action_support | amount_eth_8361 | amount_eth_approx_8400 | amount_pct_50 | asset_eth | entity_ethereummaysacrificecapital | object_network",
+      "ts": "2026-08-06T11:01:34.990840+00:00"
+    },
+    "b057b68b5cf352a6": {
+      "title": "US Crypto Crime Crackdown: Ex-LAPD Officer Gets Life, Three Men Charged in BTC Robbery",
+      "url": "coinedition.com/us-crypto-crime-crackdown-ex-lapd-officer-gets-life-three-men-charged-in-btc-robbery",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-06T11:01:41.515573+00:00"
     }
   }
 }
