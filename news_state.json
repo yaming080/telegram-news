@@ -3324,6 +3324,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-07T12:01:47.696062+00:00"
+    },
+    "dea5fd3449d193a5": {
+      "title": "XRP Ledger Rolls Out Major 3.3.0 Upgrade: Details",
+      "url": "thecryptobasic.com/2026/08/07/xrp-ledger-rolls-out-major-3-3-0-upgrade-with-privacy-batch-transactions-more",
+      "signature": "action_expand | action_launch | action_support | asset_xrp | asset_xrpl | object_network",
+      "canonical_key": "action_expand | action_launch | action_support | asset_xrp | asset_xrpl | object_network",
+      "ts": "2026-08-07T13:01:42.214134+00:00"
     }
   }
 }
