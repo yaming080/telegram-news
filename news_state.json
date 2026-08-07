@@ -3247,6 +3247,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-06T23:01:03.573890+00:00"
+    },
+    "2c2d2d462ca88388": {
+      "title": "Microsoft Flags BNB Chain Malware Campaign Targeting Windows Users",
+      "url": "coinedition.com/crypto-live-news/microsoft-flags-bnb-chain-malware-campaign-targeting-windows-users",
+      "signature": "action_hack | entity_마이크로소프트 | object_infrastructure",
+      "canonical_key": "action_hack | entity_마이크로소프트 | object_infrastructure",
+      "ts": "2026-08-07T02:01:03.375133+00:00"
     }
   }
 }
