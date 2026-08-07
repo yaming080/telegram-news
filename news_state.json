@@ -3373,6 +3373,13 @@
       "signature": "action_support | asset_eth | object_network",
       "canonical_key": "action_support | asset_eth | object_network",
       "ts": "2026-08-07T20:02:11.488154+00:00"
+    },
+    "67a80be2c7d6f959": {
+      "title": "Very welcome: Vitalik Buterin responds to Signal's no phone number registration",
+      "url": "www.cryptopolitan.com/?p=301165",
+      "signature": "action_support | asset_eth | entity_비탈릭부텔린",
+      "canonical_key": "action_support | asset_eth | entity_비탈릭부텔린",
+      "ts": "2026-08-07T21:02:26.885952+00:00"
     }
   }
 }
