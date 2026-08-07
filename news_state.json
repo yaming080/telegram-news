@@ -3254,6 +3254,13 @@
       "signature": "action_hack | entity_마이크로소프트 | object_infrastructure",
       "canonical_key": "action_hack | entity_마이크로소프트 | object_infrastructure",
       "ts": "2026-08-07T02:01:03.375133+00:00"
+    },
+    "1894fe40916858ff": {
+      "title": "AI 감사에 비트코인 생태계 비상…치명적 버그 85건 쏟아졌다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/386646",
+      "signature": "action_develop | asset_btc | count_people_16 | object_infrastructure | object_wallet",
+      "canonical_key": "action_develop | asset_btc | count_people_16 | object_infrastructure | object_wallet",
+      "ts": "2026-08-07T08:01:15.925674+00:00"
     }
   }
 }
