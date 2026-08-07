@@ -1245,6 +1245,216 @@ class DoorinewsEditorTests(unittest.TestCase):
         self.assertIn("TRX", editor.target_assets("TRON network launches a payment service"))
         self.assertIn("TRX", editor.target_assets("트론 기반 결제 서비스가 출시됨"))
 
+    def test_general_event_fingerprints_catch_unseen_headline_rewrites(self):
+        pairs = (
+            (
+                "protocol_version",
+                {
+                    "title": "XRP Ledger Rolls Out Major 3.3.0 Upgrade: Details",
+                    "desc": "The XRPL release adds privacy and batch features",
+                },
+                {
+                    "title": "XRP Ledger 3.3.0 brings privacy and batch upgrades",
+                    "desc": "The major network update is live",
+                },
+            ),
+            (
+                "unknown_camelcase_company",
+                {
+                    "title": "PowerCompute uses 307 BTC to refinance $18M debt through Arch Lending",
+                    "desc": "The company refinanced debt with a bitcoin-backed loan",
+                },
+                {
+                    "title": "Bitcoin-backed loan refinances PowerCompute's $18M debt at 2%",
+                    "desc": "PowerCompute used 307 BTC as collateral",
+                },
+            ),
+            (
+                "airport_payment",
+                {
+                    "title": "Shiba Inu Becomes Spendable Across Dubai Duty Free's Airport Stores",
+                    "desc": "SHIB is accepted for payments",
+                },
+                {
+                    "title": "Dubai Duty Free Welcomes Shiba Inu: Crypto-to-Fiat Payments Roll Out",
+                    "desc": "Airport stores now accept SHIB",
+                },
+            ),
+            (
+                "unnamed_crime_suspects",
+                {
+                    "title": "Missouri men indicted over failed Bitcoin robbery",
+                    "desc": "3 suspects were charged in the kidnapping plot",
+                },
+                {
+                    "title": "Bitcoin robbery plot leads to charges for 3 Missouri men",
+                    "desc": "The failed BTC kidnapping led to charges",
+                },
+            ),
+            (
+                "institutional_adoption",
+                {
+                    "title": "Ripple President: The Light Switch Has Flipped for XRP Ledger Institutional Adoption",
+                    "desc": "Banks are pivoting to XRPL",
+                },
+                {
+                    "title": "XRP Ledger demand fuels what Ripple calls a banking light switch flip",
+                    "desc": "Institutional adoption is accelerating",
+                },
+            ),
+            (
+                "dormant_wallet_transfer",
+                {
+                    "title": "12.7년 잠든 비트코인 500개 새 지갑 이동",
+                    "desc": "휴면 주소에서 500 BTC가 전송됐다",
+                },
+                {
+                    "title": "12년 잠자던 비트코인 500BTC 이동",
+                    "desc": "장기 휴면 지갑이 500 BTC를 옮겼다",
+                },
+            ),
+            (
+                "proposal_number",
+                {
+                    "title": "Ethereum researchers propose EIP-8361 staking reward burn",
+                    "desc": "The draft changes validator incentives",
+                },
+                {
+                    "title": "이더리움 EIP-8361 스테이킹 보상 소각안 논쟁",
+                    "desc": "검증자 보상 개편 초안",
+                },
+            ),
+            (
+                "changing_exploit_estimate",
+                {
+                    "title": "Coldcard Exploit Tops $100M as Stolen BTC Is Traced",
+                    "desc": "The hardware wallet hack expanded",
+                },
+                {
+                    "title": "Coldcard BTC exploit loss nears $120M",
+                    "desc": "The hardware wallet hack investigation continues",
+                },
+            ),
+            (
+                "rounded_audit_count",
+                {
+                    "title": "Bitcoin Red Team finds 4,962 issues reviewing Bitcoin projects",
+                    "desc": "A sweeping security audit found thousands of issues",
+                },
+                {
+                    "title": "Bitcoin Red Team reports 5K findings in sweeping security audit",
+                    "desc": "The review covered Bitcoin projects",
+                },
+            ),
+        )
+        for name, first_story, second_story in pairs:
+            with self.subTest(name=name):
+                first = editor.build_story_signature(first_story)
+                second = editor.build_story_signature(second_story)
+                self.assertTrue(first, msg=f"missing first signature: {name}")
+                self.assertTrue(second, msg=f"missing second signature: {name}")
+                self.assertTrue(editor._same_event(first, second), msg=f"{name}\n{first}\n{second}")
+
+    def test_general_event_fingerprint_respects_conflicting_identifiers(self):
+        distinct_pairs = (
+            (
+                {
+                    "title": "XRP Ledger 3.3.0 network upgrade launches",
+                    "desc": "XRPL feature release",
+                },
+                {
+                    "title": "XRP Ledger 3.4.0 network upgrade launches",
+                    "desc": "A later XRPL feature release",
+                },
+            ),
+            (
+                {
+                    "title": "Ethereum EIP-8361 staking proposal is drafted",
+                    "desc": "Validator reward changes",
+                },
+                {
+                    "title": "Ethereum EIP-8363 staking proposal is drafted",
+                    "desc": "Validator limit changes",
+                },
+            ),
+            (
+                {
+                    "title": "PowerCompute refinances $18M debt with a 307 BTC loan",
+                    "desc": "The company completed the refinancing",
+                },
+                {
+                    "title": "PowerCompute refinances $25M debt with a 400 BTC loan",
+                    "desc": "The company completed a later refinancing",
+                },
+            ),
+            (
+                {
+                    "title": "Bitcoin robbery plot leads to charges for 3 Missouri men",
+                    "desc": "The suspects planned a BTC kidnapping",
+                },
+                {
+                    "title": "Bitcoin robbery plot leads to charges for 5 Missouri men",
+                    "desc": "A separate group planned another BTC kidnapping",
+                },
+            ),
+            (
+                {
+                    "title": "Coldcard exploit drains $100M in Bitcoin",
+                    "desc": "The hardware wallet hack is under investigation",
+                },
+                {
+                    "title": "Coldcard patches a separate hardware wallet vulnerability",
+                    "desc": "The later flaw was fixed before exploitation",
+                },
+            ),
+            (
+                {
+                    "title": "Coldcard Bitcoin theft tops $100M across three attack waves",
+                    "desc": "The hardware wallet exploit is under investigation",
+                },
+                {
+                    "title": "12년 잠자던 비트코인 500BTC 이동, 콜드카드 해킹 여파 주목",
+                    "desc": "장기 휴면 지갑의 별도 자금 이동 사건",
+                },
+            ),
+            (
+                {
+                    "title": "Coldcard Bitcoin theft tops $100M across three attack waves",
+                    "desc": "The hardware wallet exploit is under investigation",
+                },
+                {
+                    "title": "Bitcoin Red Team finds 4,962 issues after Coldcard exploit",
+                    "desc": "A separate security audit reviewed many Bitcoin projects",
+                },
+            ),
+            (
+                {
+                    "title": "12년 잠든 비트코인 500개 새 지갑 이동",
+                    "desc": "휴면 주소에서 500 BTC가 전송됐다",
+                },
+                {
+                    "title": "8년 잠든 비트코인 900개 새 지갑 이동",
+                    "desc": "다른 휴면 주소에서 900 BTC가 전송됐다",
+                },
+            ),
+        )
+        for first_story, second_story in distinct_pairs:
+            with self.subTest(first=first_story["title"]):
+                first = editor.build_story_signature(first_story)
+                second = editor.build_story_signature(second_story)
+                self.assertTrue(first)
+                self.assertTrue(second)
+                self.assertFalse(editor._same_event(first, second), msg=f"{first}\n{second}")
+
+    def test_punctuation_before_people_words_is_not_a_numeric_count(self):
+        story = {
+            "title": "Ex-LAPD officer gets life, three men charged in BTC robbery",
+            "desc": "The defendants were prosecuted in the United States",
+        }
+        signature = editor.build_story_signature(story)
+        self.assertTrue(signature)
+        self.assertNotIn("count_people_", signature)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -127,6 +127,11 @@ ENTITY_SPECS = (
     EntitySpec("org", "플레어", ("Flare", "Flare Network", "플레어"), "#Flare", 20),
     EntitySpec("org", "엔비디아", ("Nvidia", "NVIDIA", "엔비디아"), "#Nvidia", 20),
     EntitySpec("org", "콜드카드", ("Coldcard", "ColdCard", "콜드카드"), "#Coldcard", 20),
+    EntitySpec("org", "PowerCompute", ("PowerCompute", "파워컴퓨트"), "#PowerCompute", 20),
+    EntitySpec("org", "비트코인레드팀", ("Bitcoin Red Team", "비트코인 레드 팀"), "", 20),
+    EntitySpec("org", "LAPD", ("LAPD", "Los Angeles Police Department"), "", 20),
+    EntitySpec("org", "두바이면세점", ("Dubai Duty Free", "두바이 면세점"), "", 20),
+    EntitySpec("org", "시바이누", ("Shiba Inu", "SHIB", "시바이누"), "#SHIB", 20),
     EntitySpec("org", "이더리움재단", ("Ethereum Foundation", "이더리움 재단", "이더리움재단"), "#EthereumFoundation", 20),
     EntitySpec("org", "서울경찰청", ("Seoul Metropolitan Police Agency", "Seoul police", "서울경찰청"), "", 20),
     EntitySpec(
@@ -572,6 +577,43 @@ ACTION_PATTERNS = {
         r"\b(?:expand|expands|expanded|expanding|extension|extends?|scale|scales|scaled|scaling)\b",
         r"확대|확장|넓힘|늘림",
     ),
+    "action_upgrade": (
+        r"\b(?:upgrade|upgrades|upgraded|upgrading|update|updates|updated|updating)\b",
+        r"업그레이드|업데이트|기능\s*(?:개선|추가)|개선판",
+    ),
+    "action_enable": (
+        r"\b(?:enable|enables|enabled|enabling|accept|accepts|accepted|accepting)\b",
+        r"\bbecomes?\s+spendable\b",
+        r"\bpayments?\s+(?:roll|rolls|rolled|rolling)\s+out\b",
+        r"사용\s*가능|결제\s*(?:지원|허용|도입)|결제할\s*수",
+    ),
+    "action_sentence": (
+        r"\b(?:sentenc(?:e|ed|es|ing)|gets?|got|receives?|received)\b.{0,35}"
+        r"\b(?:life|prison|jail|years?)\b",
+        r"\blife\s+(?:sentence|in\s+prison)\b",
+        r"징역|무기징역|실형|형을\s*선고|선고받",
+    ),
+    "action_transfer": (
+        r"\b(?:transfer|transfers|transferred|transferring|move|moves|moved|moving|send|sends|sent)\b",
+        r"이동|전송|옮겨|옮김",
+    ),
+    "action_propose": (
+        r"\b(?:propos(?:e|ed|es|ing|al)|draft(?:ed|s|ing)?)\b",
+        r"제안|제시|초안|개정안",
+    ),
+    "action_audit": (
+        r"\b(?:audit|audits|audited|auditing|review|reviews|reviewed|reviewing)\b",
+        r"보안\s*감사|감사|점검|검토",
+    ),
+    "action_adopt": (
+        r"\b(?:institutional\s+adoption|adopt|adopts|adopted|adopting|bank(?:ing)?\s+pivot|"
+        r"light\s+switch(?:\s+flip|\s+has\s+flipped)?)\b",
+        r"기관\s*(?:도입|채택)|은행권\s*(?:도입|전환|채택)|전환점",
+    ),
+    "action_refinance": (
+        r"\brefinanc(?:e|ed|es|ing)\b",
+        r"차환|재융자|부채\s*재조정|채무\s*재조정",
+    ),
     "action_revise": (
         r"\bcut(?:s)?\b.{0,35}\b(?:odds|probability|estimate)\b",
         r"\blower(?:ed|s|ing)?\b.{0,35}\b(?:odds|probability|estimate)\b",
@@ -681,10 +723,14 @@ OBJECT_PATTERNS = {
         r"사명\s*변경|이름\s*변경|SBI\s*디지털\s*팩토리",
     ),
     "object_hardware_wallet_security": (
-        r"\bhardware\s+wallet\b.{0,70}\b(?:security|breach|failure|flaw|vulnerabilit(?:y|ies)|compromise)\b",
-        r"\b(?:security|breach|failure|flaw|vulnerabilit(?:y|ies)|compromise)\b.{0,70}\bhardware\s+wallet\b",
-        r"\bcoldcard\b.{0,90}\b(?:security|breach|failure|flaw|vulnerabilit(?:y|ies)|loss(?:es)?)\b",
-        r"하드웨어\s*지갑.{0,60}(?:보안|취약점|결함|침해)|콜드카드.{0,60}(?:보안|취약점|결함|손실)",
+        r"\bhardware\s+wallet\b.{0,70}\b(?:security|breach|failure|flaw|vulnerabilit(?:y|ies)|"
+        r"compromise|hack|exploit|drain|theft)\b",
+        r"\b(?:security|breach|failure|flaw|vulnerabilit(?:y|ies)|compromise|hack|exploit|drain|theft)\b"
+        r".{0,70}\bhardware\s+wallet\b",
+        r"\bcoldcard\b.{0,90}\b(?:security|breach|failure|flaw|vulnerabilit(?:y|ies)|loss(?:es)?|"
+        r"hack|exploit|drain|theft)\b",
+        r"하드웨어\s*지갑.{0,60}(?:보안|취약점|결함|침해|해킹|탈취|도난)|"
+        r"콜드카드.{0,60}(?:보안|취약점|결함|손실|해킹|탈취|도난)",
     ),
     "object_self_custody_lending": (
         r"\bself[- ]custodial\s+(?:lending|loan)\b",
@@ -762,6 +808,51 @@ OBJECT_PATTERNS = {
         r"가짜.{0,45}(?:XRP|플레어)?\s*스테이킹\s*(?:플랫폼|사이트|앱|사기)",
         r"(?:XRP|플레어)?\s*스테이킹\s*(?:플랫폼|사이트|앱|사기).{0,45}가짜",
     ),
+    "object_network_upgrade": (
+        r"\b(?:network|ledger|mainnet|protocol)\b.{0,80}"
+        r"\b(?:upgrade|upgrades|update|updates|release|version|features?)\b",
+        r"\b(?:upgrade|upgrades|update|updates|release|version|features?)\b.{0,80}"
+        r"\b(?:network|ledger|mainnet|protocol)\b",
+        r"(?:네트워크|원장|메인넷|프로토콜).{0,60}(?:업그레이드|업데이트|버전|기능\s*개선)|"
+        r"(?:업그레이드|업데이트|버전|기능\s*개선).{0,60}(?:네트워크|원장|메인넷|프로토콜)",
+    ),
+    "object_dubai_duty_free_payment": (
+        r"\bdubai\s+duty\s+free\b.{0,100}\b(?:payments?|spendable|stores?|shops?|airport)\b",
+        r"\b(?:payments?|spendable|stores?|shops?|airport)\b.{0,100}\bdubai\s+duty\s+free\b",
+        r"두바이\s*면세점.{0,80}(?:결제|사용|매장|공항)",
+    ),
+    "object_crypto_robbery": (
+        r"\b(?:bitcoin|btc|crypto)?\s*(?:robbery|kidnapping|abduction|home\s+invasion)\b",
+        r"\bpos(?:e|ed|ing)\s+as\s+police\b.{0,80}\b(?:steal|rob|kidnap)\b",
+        r"(?:비트코인|BTC|암호화폐)?\s*(?:강도|납치|감금|갈취|강탈)",
+    ),
+    "object_staking_proposal": (
+        r"\b(?:eip[- ]?\d+|staking)\b.{0,100}\b(?:proposal|draft|rewards?|burn|validator|governance)\b",
+        r"\b(?:proposal|draft|rewards?|burn|validator|governance)\b.{0,100}\bstaking\b",
+        r"스테이킹.{0,80}(?:제안|초안|보상|소각|검증자|거버넌스)|"
+        r"(?:제안|초안|보상|소각|검증자|거버넌스).{0,80}스테이킹",
+    ),
+    "object_institutional_adoption": (
+        r"\b(?:institutional\s+adoption|bank(?:ing)?\s+pivot|banking\s+light\s+switch|"
+        r"light\s+switch\s+flip)\b",
+        r"기관\s*도입|기관\s*채택|은행권\s*(?:도입|전환|채택)|은행.{0,30}전환점",
+    ),
+    "object_security_audit": (
+        r"\b(?:red\s+team|security\s+audit)\b.{0,90}\b(?:issues?|findings?|projects?|review)\b",
+        r"\b(?:issues?|findings?)\b.{0,90}\b(?:red\s+team|security\s+audit)\b",
+        r"(?:레드\s*팀|보안\s*감사).{0,80}(?:문제|발견|프로젝트|점검)",
+    ),
+    "object_dormant_wallet_transfer": (
+        r"\b(?:dormant|inactive|sleeping|long[- ]dormant)\b.{0,100}"
+        r"\b(?:bitcoin|btc|wallet|address)\b.{0,90}\b(?:move|transfer|send)\b",
+        r"\b(?:move|transfer|send)\b.{0,90}\b(?:dormant|inactive|sleeping|long[- ]dormant)\b",
+        r"(?:휴면|잠든|잠자던|장기\s*미사용).{0,80}(?:비트코인|BTC|지갑|주소).{0,70}(?:이동|전송|옮)",
+    ),
+    "object_debt_refinancing": (
+        r"\brefinanc(?:e|ed|es|ing)\b.{0,80}\b(?:debt|loan|lending)\b",
+        r"\b(?:debt|loan|lending)\b.{0,80}\brefinanc(?:e|ed|es|ing)\b",
+        r"(?:부채|채무).{0,60}(?:차환|대출)|(?:차환|대출).{0,60}(?:부채|채무)",
+    ),
 }
 
 GEO_PATTERNS = {
@@ -778,6 +869,8 @@ GEO_PATTERNS = {
     "geo_malaysia": (r"\bmalaysia(?:n)?\b", r"말레이시아"),
     "geo_canada": (r"\b(?:canada|canadian)\b", r"캐나다"),
     "geo_seoul": (r"\bseoul\b", r"서울"),
+    "geo_missouri": (r"\bmissouri\b", r"미주리"),
+    "geo_dubai": (r"\bdubai\b", r"두바이"),
 }
 
 ASSET_PATTERNS = {
@@ -1082,6 +1175,10 @@ def _proper_entity_tokens(title: str) -> set[str]:
             continue
         translated = translations.get(cleaned)
         is_acronym = bool(re.fullmatch(r"[A-Z][A-Z0-9&.-]{2,10}", cleaned))
+        # Preserve unknown but distinctive company names such as PowerCompute.
+        # A plain capitalized word is too broad; internal CamelCase is a much
+        # safer organization signal and works without a growing name allowlist.
+        is_camel_case = bool(re.search(r"[a-z][A-Z]", cleaned))
         has_org_suffix = bool(
             re.search(
                 r"\b(?:Bank|Foundation|Labs?|Research|Capital|Holdings?|Group|Protocol|"
@@ -1091,7 +1188,7 @@ def _proper_entity_tokens(title: str) -> set[str]:
                 re.I,
             )
         )
-        if translated is None and not (is_acronym or has_org_suffix):
+        if translated is None and not (is_acronym or is_camel_case or has_org_suffix):
             continue
         translated = translated or cleaned
         token = _normalized_entity_token(str(translated))
@@ -1225,14 +1322,26 @@ def _amount_tokens(raw: str) -> set[str]:
         out.add(f"amount_krw_{int(round(value))}")
 
     for match in re.finditer(
-        r"\b([\d,]+)\s*(?:victims?|investors?|users?|customers?|people|persons?|suspects?|defendants?)\b",
+        r"\b(\d(?:[\d,]*\d)?)\s*(?:victims?|investors?|users?|customers?|people|persons?|men|women|"
+        r"officers?|suspects?|defendants?)\b",
+        low,
+        re.I,
+    ):
+        out.add(f"count_people_{int(match.group(1).replace(',', ''))}")
+    for match in re.finditer(
+        r"\b(\d(?:[\d,]*\d)?)\s+(?:(?!(?:million|billion|thousand|hundred)\b)[a-z][a-z-]*\s+){1,2}"
+        r"(?:men|women|officers?|suspects?|defendants?)\b",
         low,
         re.I,
     ):
         out.add(f"count_people_{int(match.group(1).replace(',', ''))}")
     for match in re.finditer(r"(?:피해자|투자자|이용자|사용자|고객|피의자|용의자|일당)?\s*(\d[\d,]*)\s*명", text):
         out.add(f"count_people_{int(match.group(1).replace(',', ''))}")
-    for match in re.finditer(r"\b([\d,]+)\s*(?:countries|markets|jurisdictions)\b", low, re.I):
+    for match in re.finditer(
+        r"\b(\d(?:[\d,]*\d)?)\s*(?:countries|markets|jurisdictions)\b",
+        low,
+        re.I,
+    ):
         out.add(f"count_markets_{int(match.group(1).replace(',', ''))}")
     for match in re.finditer(r"(\d[\d,]*)\s*(?:개국|개\s*국가|개\s*시장)", text):
         out.add(f"count_markets_{int(match.group(1).replace(',', ''))}")
@@ -1275,13 +1384,14 @@ def _duration_tokens(raw: str) -> set[str]:
     text = raw or ""
     out = set()
     for match in re.finditer(
-        r"\b(\d{1,2})[- ]years?(?:[- ]old)?\b|\bafter\s+(\d{1,2})\s+years?\b",
+        r"\b(\d{1,2}(?:\.\d+)?)\s*[- ]years?(?:[- ]old)?\b|"
+        r"\bafter\s+(\d{1,2}(?:\.\d+)?)\s+years?\b",
         text,
         re.I,
     ):
-        out.add(f"duration_years_{int(match.group(1) or match.group(2))}")
-    for match in re.finditer(r"(\d{1,2})\s*년(?:간|째|\s*전|\s*만)", text):
-        out.add(f"duration_years_{int(match.group(1))}")
+        out.add(f"duration_years_{int(float(match.group(1) or match.group(2)))}")
+    for match in re.finditer(r"(\d{1,2}(?:\.\d+)?)\s*년(?:간|째|\s*전|\s*만|\s*잠)", text):
+        out.add(f"duration_years_{int(float(match.group(1)))}")
     year_words = {
         "one": 1, "two": 2, "three": 3, "four": 4, "five": 5,
         "six": 6, "seven": 7, "eight": 8, "nine": 9, "ten": 10,
@@ -1292,6 +1402,46 @@ def _duration_tokens(raw: str) -> set[str]:
         re.I,
     ):
         out.add(f"duration_years_{year_words[match.group(1).lower()]}")
+    return out
+
+
+def _reference_tokens(raw: str) -> set[str]:
+    """Extract stable identifiers that survive headline rewrites.
+
+    Protocol proposal numbers and semantic versions are considerably stronger
+    duplicate evidence than title word order.  Approximate finding counts are
+    useful for syndicated audit stories that round 4,962 to "5K".
+    """
+
+    text = raw or ""
+    low = text.lower()
+    out = set()
+
+    for match in re.finditer(r"\b(eip|bip|erc|rfc)[-\s]?(\d{2,7})\b", low, re.I):
+        out.add(f"reference_{match.group(1).lower()}_{int(match.group(2))}")
+
+    version_patterns = (
+        r"\bv(?:ersion)?\s*(\d+\.\d+(?:\.\d+)?)\b",
+        r"\b(?:version|release|upgrade|update)\s+v?(\d+\.\d+(?:\.\d+)?)\b",
+        r"\b(\d+\.\d+\.\d+)\b",
+    )
+    for pattern in version_patterns:
+        for match in re.finditer(pattern, low, re.I):
+            normalized = match.group(1).replace(".", "_")
+            out.add(f"reference_version_{normalized}")
+
+    finding_patterns = (
+        r"\b(\d[\d,]*)\s*(?:issues?|findings?|bugs?|vulnerabilit(?:y|ies))\b",
+        r"\b(\d+(?:\.\d+)?)\s*k\s*(?:issues?|findings?|bugs?|vulnerabilit(?:y|ies))\b",
+    )
+    for index, pattern in enumerate(finding_patterns):
+        for match in re.finditer(pattern, low, re.I):
+            value = float(match.group(1).replace(",", ""))
+            if index == 1:
+                value *= 1_000
+            bucket = int(round(value / 100) * 100) if value >= 1_000 else int(round(value / 10) * 10)
+            out.add(f"count_findings_approx_{bucket}")
+
     return out
 
 
@@ -1335,6 +1485,7 @@ def _event_tokens(story: dict) -> set[str]:
     tokens |= _date_tokens(raw)
     tokens |= _period_tokens(raw)
     tokens |= _duration_tokens(raw)
+    tokens |= _reference_tokens(raw)
     return tokens
 
 
@@ -1379,6 +1530,7 @@ def _same_event(cur_signature: str, old_signature: str) -> bool:
     periods = {t for t in shared if t.startswith("period_")}
     durations = {t for t in shared if t.startswith("duration_")}
     counts = {t for t in shared if t.startswith("count_")}
+    references = {t for t in shared if t.startswith("reference_")}
     exact_asset_amounts = {
         token
         for token in amounts
@@ -1405,6 +1557,38 @@ def _same_event(cur_signature: str, old_signature: str) -> bool:
     # withdrawals and another on the insurance fund or related class action.
     cur_actions = {t for t in cur if t.startswith("action_")}
     old_actions = {t for t in old if t.startswith("action_")}
+    cur_versions = {t for t in cur if t.startswith("reference_version_")}
+    old_versions = {t for t in old if t.startswith("reference_version_")}
+    cur_proposals = {
+        t for t in cur if t.startswith(("reference_eip_", "reference_bip_", "reference_erc_", "reference_rfc_"))
+    }
+    old_proposals = {
+        t for t in old if t.startswith(("reference_eip_", "reference_bip_", "reference_erc_", "reference_rfc_"))
+    }
+
+    # Different explicit versions or proposal numbers identify different
+    # events.  Apply this guard before broader entity/action matching.
+    if (
+        "object_network_upgrade" in (cur & old)
+        and cur_versions
+        and old_versions
+        and not (cur_versions & old_versions)
+    ):
+        return False
+    if (
+        "object_staking_proposal" in (cur & old)
+        and cur_proposals
+        and old_proposals
+        and not (cur_proposals & old_proposals)
+    ):
+        return False
+
+    # A shared protocol version or proposal ID is a language-independent event
+    # key.  The surrounding subject/object check prevents naked numbers from
+    # becoming duplicates on their own.
+    if references and (entities or objects or assets) and cur_actions and old_actions:
+        return True
+
     closure_objects = {"object_shutdown", "object_platform"}
     if (
         entities
@@ -1446,12 +1630,30 @@ def _same_event(cur_signature: str, old_signature: str) -> bool:
         "object_smart_account",
         "object_company_rebrand",
         "object_openusd",
+        "object_dubai_duty_free_payment",
+        "object_institutional_adoption",
+        "object_security_audit",
     }
     if (
         entities
         and objects & event_identity_objects
         and cur_actions
         and old_actions
+    ):
+        return True
+
+    # Ongoing exploit coverage often changes the loss estimate as investigators
+    # find more attack waves.  Treat reports about the same named hardware
+    # wallet exploit as one incident, while a later patch-only vulnerability
+    # (without hack/theft language) remains a separate event.
+    exploit_actions = {"action_hack", "action_steal"}
+    exploit_side_stories = {"object_dormant_wallet_transfer", "object_security_audit"}
+    if (
+        entities
+        and "object_hardware_wallet_security" in objects
+        and exploit_actions & cur_actions
+        and exploit_actions & old_actions
+        and not (exploit_side_stories & (cur | old))
     ):
         return True
 
@@ -1514,6 +1716,28 @@ def _same_event(cur_signature: str, old_signature: str) -> bool:
     ):
         return True
 
+    if (
+        "object_dormant_wallet_transfer" in objects
+        and "action_transfer" in actions
+        and exact_asset_amounts
+        and durations
+    ):
+        return True
+
+    # Crime reports frequently omit the defendant or app name in one source.
+    # A matching enforcement action and crime object still needs two concrete
+    # anchors, such as state + suspect count or asset + loss amount.
+    crime_identity = entities | counts | amounts | dates
+    if (
+        actions
+        and "object_crypto_robbery" in objects
+        and crime_identity
+        and (geos or assets)
+    ):
+        return True
+    if "object_crypto_robbery" in objects:
+        return False
+
     # Korean staking-scam reports may name only "police" in one source and
     # Seoul police in another.  Geography + asset + the specific scam object
     # is sufficiently narrow without relying on the omitted defendant name.
@@ -1557,7 +1781,16 @@ def _same_event(cur_signature: str, old_signature: str) -> bool:
     # provides extra confidence when only one subject is shared. Two distinct
     # boosters are required for generic objects to avoid merging unrelated
     # launches or disclosures by the same company.
-    boosters = sum(bool(group) for group in (geos, assets, amounts, counts, dates, periods, durations))
+    strong_anchors = references | amounts | counts | dates | periods | durations
+    if entities and actions and objects and strong_anchors:
+        return True
+    if actions and objects and len(strong_anchors) >= 2 and (assets or geos):
+        return True
+
+    boosters = sum(
+        bool(group)
+        for group in (geos, assets, amounts, counts, dates, periods, durations, references)
+    )
     if entities and actions and objects and (boosters >= 2 or len(entities) >= 2):
         return True
     if len(entities) >= 2 and objects and (actions or geos or amounts or periods or durations):
@@ -2088,5 +2321,5 @@ def install_editor_overrides(runtime: dict) -> None:
     runtime["is_semantically_duplicate"] = is_semantically_duplicate
     runtime["format_summary_for_telegram"] = format_summary_for_telegram
     runtime["build_message"] = build_message
-    runtime["DOORINEWS_EDITOR_VERSION"] = "2026-08-04-event-dedup-v8"
-    _log("[편집엔진] doorinews_editor 2026-08-04-event-dedup-v8 적용")
+    runtime["DOORINEWS_EDITOR_VERSION"] = "2026-08-08-general-event-dedup-v9"
+    _log("[편집엔진] doorinews_editor 2026-08-08-general-event-dedup-v9 적용")
