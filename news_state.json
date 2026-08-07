@@ -3338,6 +3338,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-07T14:01:06.691162+00:00"
+    },
+    "1ad32dc0c1ce08ac": {
+      "title": "Crypto Trends on X in 2026: Regulation, AI, and DeFi Lead Discussions",
+      "url": "coinedition.com/crypto-trends-on-x-in-2026-regulation-ai-and-defi-lead-discussions",
+      "signature": "action_adopt | action_expand | asset_btc | asset_eth | entity_defileaddiscussions | entity_규제 | geo_us | object_infrastructure | object_institutional_adoption",
+      "canonical_key": "action_adopt | action_expand | asset_btc | asset_eth | entity_defileaddiscussions | entity_규제 | geo_us | object_infrastructure | object_institutional_adoption",
+      "ts": "2026-08-07T16:03:07.803239+00:00"
+    },
+    "b8cfac6fb965baf0": {
+      "title": "Former Bitcoin miner Firmus raises $2B as Blackstone, Nvidia back AI push",
+      "url": "crypto.news/former-bitcoin-miner-firmus-raises-2b-as-blackstone-nvidia-back-ai-push",
+      "signature": "action_expand | action_secure | action_support | amount_usd_10500000000 | amount_usd_2000000000 | asset_btc | entity_엔비디아 | object_infrastructure",
+      "canonical_key": "action_expand | action_secure | action_support | amount_usd_10500000000 | amount_usd_2000000000 | asset_btc | entity_엔비디아 | object_infrastructure",
+      "ts": "2026-08-07T16:03:15.055952+00:00"
     }
   }
 }
