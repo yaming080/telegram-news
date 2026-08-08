@@ -3457,6 +3457,13 @@
       "signature": "action_acquire | action_convert | action_issue | action_mint | action_purchase | action_secure | amount_usd_15000000000 | amount_usd_30000000000 | asset_btc | entity_마이클세일러 | entity_스트래티지 | object_corporate_crypto_purchase",
       "canonical_key": "action_acquire | action_convert | action_issue | action_mint | action_purchase | action_secure | amount_usd_15000000000 | amount_usd_30000000000 | asset_btc | entity_마이클세일러 | entity_스트래티지 | object_corporate_crypto_purchase",
       "ts": "2026-08-08T13:01:56.915600+00:00"
+    },
+    "112e06f34d89b749": {
+      "title": "ADA Jumps 18% Weekly While Major Alts Sleep: Is $0.30 Cardano Price Next?",
+      "url": "cryptopotato.com/ada-jumps-18-weekly-while-major-alts-sleep-is-0-30-cardano-price-next",
+      "signature": "action_steal | amount_pct_18 | entity_카르다노",
+      "canonical_key": "action_steal | amount_pct_18 | entity_카르다노",
+      "ts": "2026-08-08T16:01:28.209548+00:00"
     }
   }
 }
