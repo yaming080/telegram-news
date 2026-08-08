@@ -3471,6 +3471,13 @@
       "signature": "action_sell | entity_시바이누 | object_recovery",
       "canonical_key": "action_sell | entity_시바이누 | object_recovery",
       "ts": "2026-08-08T18:01:27.983954+00:00"
+    },
+    "320345c11e09c2ce": {
+      "title": "AI Bitcoin Security Campaign Finds Nearly 5,000 Software Issues in 390 Projects",
+      "url": "cryptopotato.com/ai-bitcoin-security-campaign-finds-nearly-5000-software-issues-in-390-projects",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-08T20:01:08.025346+00:00"
     }
   }
 }
