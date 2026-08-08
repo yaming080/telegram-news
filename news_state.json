@@ -3394,6 +3394,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-08T01:01:45.182036+00:00"
+    },
+    "cd097a34d34cf1d7": {
+      "title": "BTCPay emergency patch exposes merchant-side Bitcoin security risk",
+      "url": "www.cryptopolitan.com/btcpay-emergency-patch-exposes-merchant-side-bitcoin-security-risk",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-08T04:02:04.040240+00:00"
     }
   }
 }
