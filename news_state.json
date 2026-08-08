@@ -3415,6 +3415,13 @@
       "signature": "action_hack | action_transfer | amount_eth_300 | amount_eth_500 | amount_eth_approx_300 | amount_eth_approx_500 | asset_eth | object_wallet",
       "canonical_key": "action_hack | action_transfer | amount_eth_300 | amount_eth_500 | amount_eth_approx_300 | amount_eth_approx_500 | asset_eth | object_wallet",
       "ts": "2026-08-08T10:02:16.530436+00:00"
+    },
+    "eda25066d64f631c": {
+      "title": "Pi Network’s PI Reclaims Key Support, Bitcoin (BTC) Fights for $65K: Weekend Watch",
+      "url": "cryptopotato.com/pi-networks-pi-reclaims-key-support-bitcoin-btc-fights-for-65k-weekend-watch",
+      "signature": "action_support | amount_pct_18 | amount_usd_65000 | asset_btc | object_network",
+      "canonical_key": "action_support | amount_pct_18 | amount_usd_65000 | asset_btc | object_network",
+      "ts": "2026-08-08T11:01:43.524611+00:00"
     }
   }
 }
