@@ -3443,6 +3443,20 @@
       "signature": "action_approve | action_audit | action_launch | amount_pct_20 | entity_sec | entity_카르다노 | geo_us | object_commissioner | object_etf",
       "canonical_key": "action_approve | action_audit | action_launch | amount_pct_20 | entity_sec | entity_카르다노 | geo_us | object_commissioner | object_etf",
       "ts": "2026-08-08T12:02:16.428004+00:00"
+    },
+    "3469545685290954": {
+      "title": "개인키 조합 40억 가지로 붕괴…콜드카드 41분 만에 뚫렸다",
+      "url": "www.tokenpost.kr/news/blockchain/387009",
+      "signature": "action_support | action_upgrade | amount_krw_125100000000 | amount_usd_88600000 | asset_btc | entity_콜드카드 | object_card | object_wallet",
+      "canonical_key": "action_support | action_upgrade | amount_krw_125100000000 | amount_usd_88600000 | asset_btc | entity_콜드카드 | object_card | object_wallet",
+      "ts": "2026-08-08T13:01:53.117475+00:00"
+    },
+    "05429c6913bcd3ef": {
+      "title": "세일러, AI로 비트코인 매입 자금줄 넓혔다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/387006",
+      "signature": "action_acquire | action_convert | action_issue | action_mint | action_purchase | action_secure | amount_usd_15000000000 | amount_usd_30000000000 | asset_btc | entity_마이클세일러 | entity_스트래티지 | object_corporate_crypto_purchase",
+      "canonical_key": "action_acquire | action_convert | action_issue | action_mint | action_purchase | action_secure | amount_usd_15000000000 | amount_usd_30000000000 | asset_btc | entity_마이클세일러 | entity_스트래티지 | object_corporate_crypto_purchase",
+      "ts": "2026-08-08T13:01:56.915600+00:00"
     }
   }
 }
