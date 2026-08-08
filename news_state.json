@@ -3401,6 +3401,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-08T04:02:04.040240+00:00"
+    },
+    "1373ba56b8a1b181": {
+      "title": "522 Billion Outflow on Shiba Inu (SHIB) in Last 24 Hours: Recovery Cancelled",
+      "url": "u.today/522-billion-outflow-on-shiba-inu-shib-in-last-24-hours-recovery-cancelled",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-08T10:02:10.757090+00:00"
+    },
+    "52f0de5178410b32": {
+      "title": "Aztec bridge exploiter moves 300 ETH to Tornado Cash",
+      "url": "crypto.news/aztec-bridge-exploiter-moves-300-eth-to-tornado-cash",
+      "signature": "action_hack | action_transfer | amount_eth_300 | amount_eth_500 | amount_eth_approx_300 | amount_eth_approx_500 | asset_eth | object_wallet",
+      "canonical_key": "action_hack | action_transfer | amount_eth_300 | amount_eth_500 | amount_eth_approx_300 | amount_eth_approx_500 | asset_eth | object_wallet",
+      "ts": "2026-08-08T10:02:16.530436+00:00"
     }
   }
 }
