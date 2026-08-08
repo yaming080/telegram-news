@@ -3464,6 +3464,13 @@
       "signature": "action_steal | amount_pct_18 | entity_카르다노",
       "canonical_key": "action_steal | amount_pct_18 | entity_카르다노",
       "ts": "2026-08-08T16:01:28.209548+00:00"
+    },
+    "4a9e2eb47ae740a7": {
+      "title": "110 Billion Shiba Inu Netflow Signals Shifting Momentum",
+      "url": "u.today/110-billion-shiba-inu-netflow-signals-shifting-momentum",
+      "signature": "action_sell | entity_시바이누 | object_recovery",
+      "canonical_key": "action_sell | entity_시바이누 | object_recovery",
+      "ts": "2026-08-08T18:01:27.983954+00:00"
     }
   }
 }
