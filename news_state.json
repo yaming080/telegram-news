@@ -3422,6 +3422,27 @@
       "signature": "action_support | amount_pct_18 | amount_usd_65000 | asset_btc | object_network",
       "canonical_key": "action_support | amount_pct_18 | amount_usd_65000 | asset_btc | object_network",
       "ts": "2026-08-08T11:01:43.524611+00:00"
+    },
+    "af395a49a4af0d09": {
+      "title": "Aztec exploiter moves 500 ETH to Tornado Cash amid record hack year",
+      "url": "www.cryptopolitan.com/aztec-exploiter-move-500-eth-to-tornado-cash",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-08T12:02:09.073009+00:00"
+    },
+    "982157d77b8c7f09": {
+      "title": "브라질, 1400만원 넘는 암호화폐 이체 24시간 지연 도입",
+      "url": "www.tokenpost.kr/news/cryptocurrency/386999",
+      "signature": "action_launch | action_transfer | amount_usd_10000 | asset_btc | asset_stablecoin | object_custody | object_wallet",
+      "canonical_key": "action_launch | action_transfer | amount_usd_10000 | asset_btc | asset_stablecoin | object_custody | object_wallet",
+      "ts": "2026-08-08T12:02:12.768010+00:00"
+    },
+    "35d35ed92946a2bf": {
+      "title": "카르다노 현물 ETF 기대 커진다…8월 9일 분수령",
+      "url": "www.tokenpost.kr/news/cryptocurrency/386994",
+      "signature": "action_approve | action_audit | action_launch | amount_pct_20 | entity_sec | entity_카르다노 | geo_us | object_commissioner | object_etf",
+      "canonical_key": "action_approve | action_audit | action_launch | amount_pct_20 | entity_sec | entity_카르다노 | geo_us | object_commissioner | object_etf",
+      "ts": "2026-08-08T12:02:16.428004+00:00"
     }
   }
 }
