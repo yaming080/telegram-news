@@ -3520,6 +3520,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-09T11:01:18.315046+00:00"
+    },
+    "fd62ec7ee8bbc815": {
+      "title": "BIP-110 Bitcoin branch stalls after two blocks as gap widens",
+      "url": "cointelegraph.com/news/bitcoin-bip-110-branch-stalls-miner-support?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-09T12:01:03.364979+00:00"
     }
   }
 }
