@@ -3534,6 +3534,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-09T14:01:12.323429+00:00"
+    },
+    "21ac9545efe5696b": {
+      "title": "Ripple's Ex Chief Engineer Slams New XRP Ledger Expansion Plan as 'Really Bad Idea'",
+      "url": "u.today/ripples-ex-chief-engineer-slams-new-xrp-ledger-expansion-plan-as-really-bad-idea",
+      "signature": "action_file | asset_xrp | asset_xrpl | entity_리플",
+      "canonical_key": "action_file | asset_xrp | asset_xrpl | entity_리플",
+      "ts": "2026-08-09T16:01:57.340878+00:00"
     }
   }
 }
