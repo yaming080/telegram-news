@@ -3485,6 +3485,13 @@
       "signature": "action_propose | action_support | action_upgrade | amount_pct_2.5 | amount_pct_55 | asset_btc | entity_bip110 | geo_korea | object_card | object_network | object_payment | reference_bip_110",
       "canonical_key": "action_propose | action_support | action_upgrade | amount_pct_2.5 | amount_pct_55 | asset_btc | entity_bip110 | geo_korea | object_card | object_network | object_payment | reference_bip_110",
       "ts": "2026-08-08T21:01:24.773003+00:00"
+    },
+    "e52335cd4cbc81ec": {
+      "title": "Major XRP Ledger Upgrade Targets Institutional Adoption But There’s a Catch",
+      "url": "cryptopotato.com/major-xrp-ledger-upgrade-targets-institutional-adoption-but-theres-a-catch",
+      "signature": "action_adopt | action_launch | action_upgrade | asset_xrp | asset_xrpl | object_institutional_adoption | object_network | object_network_upgrade",
+      "canonical_key": "action_adopt | action_launch | action_upgrade | asset_xrp | asset_xrpl | object_institutional_adoption | object_network | object_network_upgrade",
+      "ts": "2026-08-09T00:01:39.734519+00:00"
     }
   }
 }
