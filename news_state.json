@@ -3492,6 +3492,20 @@
       "signature": "action_adopt | action_launch | action_upgrade | asset_xrp | asset_xrpl | object_institutional_adoption | object_network | object_network_upgrade",
       "canonical_key": "action_adopt | action_launch | action_upgrade | asset_xrp | asset_xrpl | object_institutional_adoption | object_network | object_network_upgrade",
       "ts": "2026-08-09T00:01:39.734519+00:00"
+    },
+    "5b6d19a8cd366076": {
+      "title": "[오후 뉴스브리핑] 클래리티 법안 9월 15일 토론종결 표결 外",
+      "url": "www.tokenpost.kr/news/briefing/387137",
+      "signature": "action_file | action_support | amount_btc_6400 | amount_btc_approx_6400 | amount_krw_57000000000 | amount_usd_2000000 | asset_btc | entity_바이낸스",
+      "canonical_key": "action_file | action_support | amount_btc_6400 | amount_btc_approx_6400 | amount_krw_57000000000 | amount_usd_2000000 | asset_btc | entity_바이낸스",
+      "ts": "2026-08-09T04:01:54.083087+00:00"
+    },
+    "bba1a2ce7160ed8c": {
+      "title": "XRP Highly Likely to Retest $1 This August: Kalshi",
+      "url": "u.today/xrp-highly-likely-to-retest-1-this-august-kalshi",
+      "signature": "action_support | amount_usd_1 | asset_xrp | entity_칼시",
+      "canonical_key": "action_support | amount_usd_1 | asset_xrp | entity_칼시",
+      "ts": "2026-08-09T04:01:57.370728+00:00"
     }
   }
 }
