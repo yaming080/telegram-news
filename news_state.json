@@ -3800,6 +3800,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-10T20:02:45.132121+00:00"
+    },
+    "b7e63a9327def050": {
+      "title": "11만6500 rsETH 탈취, 담보 한도가 충격 갈랐다",
+      "url": "www.tokenpost.kr/news/blockchain/387933",
+      "signature": "action_launch | action_steal | amount_krw_411700000000 | amount_usd_292000000 | amount_usd_92000000 | asset_eth | geo_korea | object_lending | object_network",
+      "canonical_key": "action_launch | action_steal | amount_krw_411700000000 | amount_usd_292000000 | amount_usd_92000000 | asset_eth | geo_korea | object_lending | object_network",
+      "ts": "2026-08-10T21:01:48.524072+00:00"
     }
   }
 }
