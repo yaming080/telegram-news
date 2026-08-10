@@ -3569,6 +3569,13 @@
       "signature": "action_disclose | action_hack | action_issue | action_launch | action_mint | action_steal | asset_btc | asset_usdt | entity_테더 | object_disclosure | object_wallet",
       "canonical_key": "action_disclose | action_hack | action_issue | action_launch | action_mint | action_steal | asset_btc | asset_usdt | entity_테더 | object_disclosure | object_wallet",
       "ts": "2026-08-10T04:02:04.962450+00:00"
+    },
+    "a688cb54d13a2e69": {
+      "title": "호주 당국, 자금세탁 우려에 비트코인 ATM 업체 3개월 정지",
+      "url": "www.tokenpost.kr/news/policy/387386",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-10T05:01:35.013212+00:00"
     }
   }
 }
