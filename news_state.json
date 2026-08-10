@@ -3618,6 +3618,13 @@
       "signature": "action_acquire | action_purchase | amount_btc_2455 | amount_btc_3506 | amount_btc_approx_2500 | amount_btc_approx_3500 | amount_btc_exact_2455_37 | amount_btc_exact_3506_4 | asset_btc | entity_h100 | object_corporate_crypto_purchase",
       "canonical_key": "action_acquire | action_purchase | amount_btc_2455 | amount_btc_3506 | amount_btc_approx_2500 | amount_btc_approx_3500 | amount_btc_exact_2455_37 | amount_btc_exact_3506_4 | asset_btc | entity_h100 | object_corporate_crypto_purchase",
       "ts": "2026-08-10T10:02:13.954988+00:00"
+    },
+    "70eda6b3c6ae7813": {
+      "title": "마빈 24시간 26.2% 상승, 시총 216만달러 돌파",
+      "url": "www.tokenpost.kr/news/market/387586",
+      "signature": "action_migrate | action_propose | amount_krw_3100000000 | amount_pct_26.2 | amount_usd_2160000 | asset_eth | date_2023_11_01 | entity_일론머스크 | geo_korea",
+      "canonical_key": "action_migrate | action_propose | amount_krw_3100000000 | amount_pct_26.2 | amount_usd_2160000 | asset_eth | date_2023_11_01 | entity_일론머스크 | geo_korea",
+      "ts": "2026-08-10T11:01:40.057781+00:00"
     }
   }
 }
