@@ -3744,6 +3744,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-10T17:01:51.519354+00:00"
+    },
+    "200167828bcb2b0c": {
+      "title": "1억4077만달러 영업손실 케일, 비트코인 채굴 종료",
+      "url": "www.tokenpost.kr/news/cryptocurrency/387871",
+      "signature": "action_convert | amount_krw_198500000000 | amount_krw_33800000000 | amount_krw_42900000000 | amount_pct_50 | amount_usd_140770000 | amount_usd_24000000 | amount_usd_30430000 | amount_usd_40770000 | asset_btc | geo_us | object_infrastructure",
+      "canonical_key": "action_convert | amount_krw_198500000000 | amount_krw_33800000000 | amount_krw_42900000000 | amount_pct_50 | amount_usd_140770000 | amount_usd_24000000 | amount_usd_30430000 | amount_usd_40770000 | asset_btc | geo_us | object_infrastructure",
+      "ts": "2026-08-10T18:01:55.541355+00:00"
+    },
+    "6efba6cbea5fffe1": {
+      "title": "Coinsbuy Suffers $8M Cross-Chain Hack as Stolen Crypto Moves to Monero",
+      "url": "coinedition.com/coinsbuy-suffers-8m-cross-chain-hack-as-stolen-crypto-moves-to-monero",
+      "signature": "action_hack | action_steal | action_transfer | amount_usd_7900000 | amount_usd_8000000 | asset_eth | object_payment",
+      "canonical_key": "action_hack | action_steal | action_transfer | amount_usd_7900000 | amount_usd_8000000 | asset_eth | object_payment",
+      "ts": "2026-08-10T18:02:00.486336+00:00"
     }
   }
 }
