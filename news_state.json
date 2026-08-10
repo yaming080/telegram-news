@@ -3772,6 +3772,34 @@
       "signature": "action_expand | action_invest | action_purchase | asset_xrp | entity_로빈후드 | entity_시바이누 | geo_uk | object_corporate_crypto_purchase",
       "canonical_key": "action_expand | action_invest | action_purchase | asset_xrp | entity_로빈후드 | entity_시바이누 | geo_uk | object_corporate_crypto_purchase",
       "ts": "2026-08-10T19:02:26.668151+00:00"
+    },
+    "d868ca35388e6849": {
+      "title": "Vitalik updates 2023 Ethereum roadmap diagram: What has changed?",
+      "url": "www.cryptopolitan.com/vitalik-buterin-ethereum-new-strawmap",
+      "signature": "action_publish | action_transfer | action_upgrade | amount_eth_2023 | amount_eth_approx_2000 | asset_eth | entity_이더리움재단",
+      "canonical_key": "action_publish | action_transfer | action_upgrade | amount_eth_2023 | amount_eth_approx_2000 | asset_eth | entity_이더리움재단",
+      "ts": "2026-08-10T20:02:34.128249+00:00"
+    },
+    "e6512daa3a0c0920": {
+      "title": "Cardano Leadership Shake-Up Continues as Foundation CTO Steps Down",
+      "url": "thecryptobasic.com/2026/08/10/cardano-leadership-shake-up-continues-as-foundation-cto-steps-down",
+      "signature": "action_close | duration_years_2 | entity_foundationctostepsdown | entity_카르다노",
+      "canonical_key": "action_close | duration_years_2 | entity_foundationctostepsdown | entity_카르다노",
+      "ts": "2026-08-10T20:02:37.536966+00:00"
+    },
+    "9579ad586aedaf84": {
+      "title": "30일 2억건 처리한 로빈후드체인, 주식 토큰 실험 확대",
+      "url": "www.tokenpost.kr/news/blockchain/387909",
+      "signature": "action_build | action_develop | action_disclose | action_expand | action_launch | asset_eth | entity_로빈후드 | entity_아비트럼 | object_disclosure | object_network",
+      "canonical_key": "action_build | action_develop | action_disclose | action_expand | action_launch | asset_eth | entity_로빈후드 | entity_아비트럼 | object_disclosure | object_network",
+      "ts": "2026-08-10T20:02:41.349218+00:00"
+    },
+    "94788ca914fefee3": {
+      "title": "Coinsbuy offers $100K bounty after reported $7.9M hack",
+      "url": "crypto.news/coinsbuy-offers-100k-bounty-after-reported-7-9m-hack",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-10T20:02:45.132121+00:00"
     }
   }
 }
