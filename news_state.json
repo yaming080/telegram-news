@@ -3625,6 +3625,20 @@
       "signature": "action_migrate | action_propose | amount_krw_3100000000 | amount_pct_26.2 | amount_usd_2160000 | asset_eth | date_2023_11_01 | entity_일론머스크 | geo_korea",
       "canonical_key": "action_migrate | action_propose | amount_krw_3100000000 | amount_pct_26.2 | amount_usd_2160000 | asset_eth | date_2023_11_01 | entity_일론머스크 | geo_korea",
       "ts": "2026-08-10T11:01:40.057781+00:00"
+    },
+    "bad55eb04db0fdbb": {
+      "title": "H100 completes Europe's largest Bitcoin merger as reserve strategy gets hot",
+      "url": "www.cryptopolitan.com/h100-europe-largest-bitcoin-treasury-merger",
+      "signature": "action_close | action_transfer | amount_btc_3506 | amount_btc_approx_3500 | asset_btc | entity_h100 | entity_스트래티지",
+      "canonical_key": "action_close | action_transfer | amount_btc_3506 | amount_btc_approx_3500 | asset_btc | entity_h100 | entity_스트래티지",
+      "ts": "2026-08-10T12:02:04.793152+00:00"
+    },
+    "866bfbb029517aff": {
+      "title": "XRP레저 대출 표준 검토 중…메인넷 활성화는 아직",
+      "url": "www.tokenpost.kr/news/blockchain/387620",
+      "signature": "action_audit | action_disclose | action_launch | action_propose | asset_xrp | asset_xrpl | entity_리플 | object_disclosure | object_infrastructure | object_lending",
+      "canonical_key": "action_audit | action_disclose | action_launch | action_propose | asset_xrp | asset_xrpl | entity_리플 | object_disclosure | object_infrastructure | object_lending",
+      "ts": "2026-08-10T12:02:08.706868+00:00"
     }
   }
 }
