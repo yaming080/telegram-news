@@ -3576,6 +3576,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-10T05:01:35.013212+00:00"
+    },
+    "e35f8bb472a79e80": {
+      "title": "The five second trick that drained millions from Polymarket",
+      "url": "crypto.news/polymarket-five-second-exploit-manipulation-twap-fix",
+      "signature": "action_compromise | action_steal | amount_usd_8200000 | asset_btc | entity_폴리마켓",
+      "canonical_key": "action_compromise | action_steal | amount_usd_8200000 | asset_btc | entity_폴리마켓",
+      "ts": "2026-08-10T07:01:35.154281+00:00"
     }
   }
 }
