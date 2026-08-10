@@ -3583,6 +3583,27 @@
       "signature": "action_compromise | action_steal | amount_usd_8200000 | asset_btc | entity_폴리마켓",
       "canonical_key": "action_compromise | action_steal | amount_usd_8200000 | asset_btc | entity_폴리마켓",
       "ts": "2026-08-10T07:01:35.154281+00:00"
+    },
+    "dd6de01d23acf75b": {
+      "title": "250만 ADA 카탈리스트 파일럿, 20일 신청 마감",
+      "url": "www.tokenpost.kr/news/cryptocurrency/387487",
+      "signature": "action_appoint | action_file | asset_stablecoin | entity_카르다노 | geo_korea | object_fund",
+      "canonical_key": "action_appoint | action_file | asset_stablecoin | entity_카르다노 | geo_korea | object_fund",
+      "ts": "2026-08-10T09:02:07.269108+00:00"
+    },
+    "efdcadbf0f5e13f8": {
+      "title": "Coinsbuy hit by reported $7.9M Ethereum, TRON drain",
+      "url": "crypto.news/coinsbuy-hit-by-reported-7-9m-ethereum-tron-drain",
+      "signature": "action_steal | action_transfer | amount_usd_7900000 | asset_eth | entity_트론",
+      "canonical_key": "action_steal | action_transfer | amount_usd_7900000 | asset_eth | entity_트론",
+      "ts": "2026-08-10T09:02:13.327845+00:00"
+    },
+    "cb0837757f13c3cb": {
+      "title": "Cysic surges 223% weekly as Upbit adds CYS markets",
+      "url": "crypto.news/cysic-surges-223-weekly-as-upbit-adds-cys-markets",
+      "signature": "action_launch | amount_pct_223 | asset_btc | asset_usdt | entity_cys | entity_업비트",
+      "canonical_key": "action_launch | amount_pct_223 | asset_btc | asset_usdt | entity_cys | entity_업비트",
+      "ts": "2026-08-10T09:02:16.903627+00:00"
     }
   }
 }
