@@ -3709,6 +3709,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-10T14:02:21.860273+00:00"
+    },
+    "323303b15ee63cd2": {
+      "title": "Syntetika Launches Tokenization Hub Bringing Regulated Investment Strategies Onchain",
+      "url": "cryptopotato.com/syntetika-launches-tokenization-hub-bringing-regulated-investment-strategies-onchain",
+      "signature": "action_invest | action_launch | asset_btc | date_2026_08_10 | entity_스트래티지",
+      "canonical_key": "action_invest | action_launch | asset_btc | date_2026_08_10 | entity_스트래티지",
+      "ts": "2026-08-10T15:01:38.670276+00:00"
     }
   }
 }
