@@ -3758,6 +3758,20 @@
       "signature": "action_hack | action_steal | action_transfer | amount_usd_7900000 | amount_usd_8000000 | asset_eth | object_payment",
       "canonical_key": "action_hack | action_steal | action_transfer | amount_usd_7900000 | amount_usd_8000000 | asset_eth | object_payment",
       "ts": "2026-08-10T18:02:00.486336+00:00"
+    },
+    "bd8eaf41ba7abc54": {
+      "title": "Michael Saylor Says ChatGPT Helped Strategy Raise $15B for Bitcoin",
+      "url": "coinedition.com/michael-saylor-says-chatgpt-helped-strategy-raise-15b-for-bitcoin",
+      "signature": "action_develop | action_expand | action_purchase | amount_usd_15000000000 | asset_btc | entity_마이클세일러 | entity_스트래티지 | object_corporate_crypto_purchase",
+      "canonical_key": "action_develop | action_expand | action_purchase | amount_usd_15000000000 | asset_btc | entity_마이클세일러 | entity_스트래티지 | object_corporate_crypto_purchase",
+      "ts": "2026-08-10T19:02:23.213067+00:00"
+    },
+    "06c1561aa6e829cf": {
+      "title": "UK Investors Can Now Buy XRP, SHIB, and Other Tokens via Robinhood",
+      "url": "u.today/uk-investors-can-now-buy-xrp-shib-and-other-tokens-via-robinhood",
+      "signature": "action_expand | action_invest | action_purchase | asset_xrp | entity_로빈후드 | entity_시바이누 | geo_uk | object_corporate_crypto_purchase",
+      "canonical_key": "action_expand | action_invest | action_purchase | asset_xrp | entity_로빈후드 | entity_시바이누 | geo_uk | object_corporate_crypto_purchase",
+      "ts": "2026-08-10T19:02:26.668151+00:00"
     }
   }
 }
