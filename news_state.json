@@ -3604,6 +3604,20 @@
       "signature": "action_launch | amount_pct_223 | asset_btc | asset_usdt | entity_cys | entity_업비트",
       "canonical_key": "action_launch | amount_pct_223 | asset_btc | asset_usdt | entity_cys | entity_업비트",
       "ts": "2026-08-10T09:02:16.903627+00:00"
+    },
+    "e5cfa07b84a47119": {
+      "title": "Ethereum investment news: Holders earn $7,000 in ETH monthly through ASDeFi",
+      "url": "crypto.news/ethereum-investment-news-holders-earn-7000-in-eth-monthly-through-asdefi",
+      "signature": "action_develop | action_invest | amount_eth_2026 | amount_eth_approx_2000 | amount_usd_7000 | asset_eth | entity_asdefi",
+      "canonical_key": "action_develop | action_invest | amount_eth_2026 | amount_eth_approx_2000 | amount_usd_7000 | asset_eth | entity_asdefi",
+      "ts": "2026-08-10T10:02:09.771725+00:00"
+    },
+    "a285ee5561033bf9": {
+      "title": "H100 acquires 2,455 Bitcoin, holdings rise to 3,506",
+      "url": "crypto.news/h100-acquires-2455-bitcoin",
+      "signature": "action_acquire | action_purchase | amount_btc_2455 | amount_btc_3506 | amount_btc_approx_2500 | amount_btc_approx_3500 | amount_btc_exact_2455_37 | amount_btc_exact_3506_4 | asset_btc | entity_h100 | object_corporate_crypto_purchase",
+      "canonical_key": "action_acquire | action_purchase | amount_btc_2455 | amount_btc_3506 | amount_btc_approx_2500 | amount_btc_approx_3500 | amount_btc_exact_2455_37 | amount_btc_exact_3506_4 | asset_btc | entity_h100 | object_corporate_crypto_purchase",
+      "ts": "2026-08-10T10:02:13.954988+00:00"
     }
   }
 }
