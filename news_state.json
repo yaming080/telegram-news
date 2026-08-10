@@ -3639,6 +3639,55 @@
       "signature": "action_audit | action_disclose | action_launch | action_propose | asset_xrp | asset_xrpl | entity_리플 | object_disclosure | object_infrastructure | object_lending",
       "canonical_key": "action_audit | action_disclose | action_launch | action_propose | asset_xrp | asset_xrpl | entity_리플 | object_disclosure | object_infrastructure | object_lending",
       "ts": "2026-08-10T12:02:08.706868+00:00"
+    },
+    "f755f8b9e24878d7": {
+      "title": "Strive recommits to BTC amid Q2 earnings loss",
+      "url": "www.cryptopolitan.com/strive-posts-q2-loss-keeps-stacking-bitcoin",
+      "signature": "action_purchase | amount_btc_147 | amount_btc_approx_150 | amount_usd_257600000 | asset_btc | entity_스트라이브 | object_corporate_crypto_purchase",
+      "canonical_key": "action_purchase | amount_btc_147 | amount_btc_approx_150 | amount_usd_257600000 | asset_btc | entity_스트라이브 | object_corporate_crypto_purchase",
+      "ts": "2026-08-10T13:03:39.202630+00:00"
+    },
+    "f539bf53fb71ae7b": {
+      "title": "MARA Holdings sells $1.63 billion of Bitcoin in the first six months of 2026",
+      "url": "www.cryptopolitan.com/mara-sells-23093-btc-for-1-63-billion",
+      "signature": "action_disclose | action_sell | amount_btc_23093 | amount_btc_approx_23100 | amount_pct_34 | amount_usd_1630000000 | amount_usd_70631 | asset_btc | entity_maraholdings | object_sale",
+      "canonical_key": "action_disclose | action_sell | amount_btc_23093 | amount_btc_approx_23100 | amount_pct_34 | amount_usd_1630000000 | amount_usd_70631 | asset_btc | entity_maraholdings | object_sale",
+      "ts": "2026-08-10T13:04:01.843023+00:00"
+    },
+    "9eda91466e58f61b": {
+      "title": "Crypto Founder Explains Why RLUSD Cannot Replace XRP as the XRPL Routing Asset",
+      "url": "thecryptobasic.com/2026/08/10/crypto-founder-explains-why-rlusd-cannot-replace-xrp-as-the-xrpl-routing-asset",
+      "signature": "action_support | asset_rlusd | asset_stablecoin | asset_xrp | asset_xrpl | entity_리플 | object_rlusd",
+      "canonical_key": "action_support | asset_rlusd | asset_stablecoin | asset_xrp | asset_xrpl | entity_리플 | object_rlusd",
+      "ts": "2026-08-10T13:04:06.134238+00:00"
+    },
+    "f3f49dc5d73108bf": {
+      "title": "Grayscale Withdraws Filing for Planned Spot Cardano ETF",
+      "url": "thecryptobasic.com/2026/08/10/grayscale-withdraws-filing-for-planned-spot-cardano-etf",
+      "signature": "action_invest | action_launch | entity_카르다노 | geo_us | object_etf",
+      "canonical_key": "action_invest | action_launch | entity_카르다노 | geo_us | object_etf",
+      "ts": "2026-08-10T13:04:11.111330+00:00"
+    },
+    "553525669d637220": {
+      "title": "비트푸푸, 17일 2분기 실적 공개…7월 채굴 10% 감소",
+      "url": "www.tokenpost.kr/news/cryptocurrency/387669",
+      "signature": "action_audit | action_disclose | action_launch | amount_krw_102500000000 | amount_krw_110000000000 | amount_krw_23800000000 | amount_krw_49400000000 | amount_pct_10 | amount_pct_6.8 | amount_usd_16900000 | amount_usd_35000000 | amount_usd_72700000 | amount_usd_78000000 | asset_btc | geo_korea | object_disclosure | period_2026_q2",
+      "canonical_key": "action_audit | action_disclose | action_launch | amount_krw_102500000000 | amount_krw_110000000000 | amount_krw_23800000000 | amount_krw_49400000000 | amount_pct_10 | amount_pct_6.8 | amount_usd_16900000 | amount_usd_35000000 | amount_usd_72700000 | amount_usd_78000000 | asset_btc | geo_korea | object_disclosure | period_2026_q2",
+      "ts": "2026-08-10T13:04:15.700906+00:00"
+    },
+    "0bf4d715aa2ea433": {
+      "title": "ADA, HBAR and DOT ETFs Face a Setback as Grayscale Pulls S-1 Filings",
+      "url": "thenewscrypto.com/ada-hbar-and-dot-etfs-face-a-setback-as-grayscale-pulls-s-1-filings",
+      "signature": "action_file | action_support | date_2026_08_07 | entity_hbar | entity_sec | entity_카르다노 | object_etf",
+      "canonical_key": "action_file | action_support | date_2026_08_07 | entity_hbar | entity_sec | entity_카르다노 | object_etf",
+      "ts": "2026-08-10T13:04:19.493756+00:00"
+    },
+    "34b268c00f260910": {
+      "title": "Strategy Announces Nine-Digit Bitcoin Sale",
+      "url": "u.today/strategy-announces-nine-digit-bitcoin-sale",
+      "signature": "action_sell | amount_btc_1690 | amount_btc_approx_1700 | amount_usd_108600000 | asset_btc | entity_스트래티지 | object_sale",
+      "canonical_key": "action_sell | amount_btc_1690 | amount_btc_approx_1700 | amount_usd_108600000 | asset_btc | entity_스트래티지 | object_sale",
+      "ts": "2026-08-10T13:04:23.663261+00:00"
     }
   }
 }
