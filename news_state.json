@@ -3688,6 +3688,27 @@
       "signature": "action_sell | amount_btc_1690 | amount_btc_approx_1700 | amount_usd_108600000 | asset_btc | entity_스트래티지 | object_sale",
       "canonical_key": "action_sell | amount_btc_1690 | amount_btc_approx_1700 | amount_usd_108600000 | asset_btc | entity_스트래티지 | object_sale",
       "ts": "2026-08-10T13:04:23.663261+00:00"
+    },
+    "baf691d5fb2d6c82": {
+      "title": "Cardano Foundation’s CTO to step down this August",
+      "url": "www.cryptopolitan.com/cardano-foundation-giorgio-zinetti-step-down",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-10T14:02:13.971412+00:00"
+    },
+    "fd69c73ea40a619d": {
+      "title": "Bitmine Tops 5.8 Million ETH Even After Scaling Back Its Latest Buy",
+      "url": "cryptopotato.com/bitmine-tops-5-8-million-eth-even-after-scaling-back-its-latest-buy",
+      "signature": "action_expand | action_purchase | action_support | asset_eth | object_corporate_crypto_purchase",
+      "canonical_key": "action_expand | action_purchase | action_support | asset_eth | object_corporate_crypto_purchase",
+      "ts": "2026-08-10T14:02:17.868057+00:00"
+    },
+    "c9d1abea913d9b9c": {
+      "title": "The On-Chain AI Skill Economy · the Standard Layer",
+      "url": "thenewscrypto.com/the-on-chain-ai-skill-economy-%c2%b7-the-standard-layer",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-10T14:02:21.860273+00:00"
     }
   }
 }
