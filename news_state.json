@@ -3807,6 +3807,20 @@
       "signature": "action_launch | action_steal | amount_krw_411700000000 | amount_usd_292000000 | amount_usd_92000000 | asset_eth | geo_korea | object_lending | object_network",
       "canonical_key": "action_launch | action_steal | amount_krw_411700000000 | amount_usd_292000000 | amount_usd_92000000 | asset_eth | geo_korea | object_lending | object_network",
       "ts": "2026-08-10T21:01:48.524072+00:00"
+    },
+    "6c65f2eb91a2296f": {
+      "title": "이더리움 양자 보안 전환, 2029년 목표로 추진",
+      "url": "www.tokenpost.kr/news/blockchain/387955",
+      "signature": "action_convert | action_develop | action_propose | action_upgrade | asset_eth | object_network_upgrade",
+      "canonical_key": "action_convert | action_develop | action_propose | action_upgrade | asset_eth | object_network_upgrade",
+      "ts": "2026-08-10T22:01:57.904070+00:00"
+    },
+    "9264dce473881a76": {
+      "title": "XRP Ledger lending amendments gain Ripple’s backing",
+      "url": "crypto.news/xrp-ledger-lending-amendments-gain-ripples-backing",
+      "signature": "action_launch | action_support | asset_xrp | asset_xrpl | entity_xrpledger | entity_리플 | object_lending | object_network",
+      "canonical_key": "action_launch | action_support | asset_xrp | asset_xrpl | entity_xrpledger | entity_리플 | object_lending | object_network",
+      "ts": "2026-08-10T22:02:01.930037+00:00"
     }
   }
 }
