@@ -3555,6 +3555,20 @@
       "signature": "action_disclose | action_invest | action_launch | amount_usd_1479090000 | amount_usd_1497200000 | amount_usd_20000000 | amount_usd_40000000 | amount_usd_76000000 | amount_usd_76350000 | amount_usd_79090000 | amount_usd_97200000 | entity_zilo | entity_리플 | object_card | object_disclosure",
       "canonical_key": "action_disclose | action_invest | action_launch | amount_usd_1479090000 | amount_usd_1497200000 | amount_usd_20000000 | amount_usd_40000000 | amount_usd_76000000 | amount_usd_76350000 | amount_usd_79090000 | amount_usd_97200000 | entity_zilo | entity_리플 | object_card | object_disclosure",
       "ts": "2026-08-10T02:01:57.826900+00:00"
+    },
+    "cf70ba60f77c13fe": {
+      "title": "Crypto’s first quantum attack will look like unexplained breach: Quantus founder",
+      "url": "cointelegraph.com/news/cryptos-first-quantum-attack-look-like-ordinary-key-theft-quantus-founder?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-10T04:02:00.633345+00:00"
+    },
+    "eb7516e692075d20": {
+      "title": "양자컴퓨터 Q-day 오면…비트코인보다 테더 발행키가 먼저 뚫릴까",
+      "url": "www.tokenpost.kr/news/cryptocurrency/387361",
+      "signature": "action_disclose | action_hack | action_issue | action_launch | action_mint | action_steal | asset_btc | asset_usdt | entity_테더 | object_disclosure | object_wallet",
+      "canonical_key": "action_disclose | action_hack | action_issue | action_launch | action_mint | action_steal | asset_btc | asset_usdt | entity_테더 | object_disclosure | object_wallet",
+      "ts": "2026-08-10T04:02:04.962450+00:00"
     }
   }
 }
