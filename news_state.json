@@ -3856,6 +3856,20 @@
       "signature": "action_expand | action_support | asset_btc | entity_fima | entity_아서헤이즈 | entity_연준 | geo_japan",
       "canonical_key": "action_expand | action_support | asset_btc | entity_fima | entity_아서헤이즈 | entity_연준 | geo_japan",
       "ts": "2026-08-11T07:01:30.810693+00:00"
+    },
+    "cfd21b004aca5d16": {
+      "title": "8월 11일 퇴근길 팟캐스트 — 정부, 트래블룰 100만원 기준 폐지…비트코인 2.08% 하락",
+      "url": "www.tokenpost.kr/news/insights/388300",
+      "signature": "action_convert | action_migrate | action_propose | action_transfer | amount_pct_2.08 | amount_pct_2.82 | asset_btc | asset_eth | object_commissioner",
+      "canonical_key": "action_convert | action_migrate | action_propose | action_transfer | amount_pct_2.08 | amount_pct_2.82 | asset_btc | asset_eth | object_commissioner",
+      "ts": "2026-08-11T08:02:09.643422+00:00"
+    },
+    "dbfbfd5bc282fbe5": {
+      "title": "BTCPay Server supporters back 10% bounty to recover stolen Bitcoin",
+      "url": "crypto.news/btcpay-server-supporters-back-10-bounty-to-recover-stolen-bitcoin",
+      "signature": "action_hack | action_steal | action_support | amount_btc_3 | amount_pct_10 | asset_btc | object_recovery | object_wallet",
+      "canonical_key": "action_hack | action_steal | action_support | amount_btc_3 | amount_pct_10 | asset_btc | object_recovery | object_wallet",
+      "ts": "2026-08-11T08:02:16.514121+00:00"
     }
   }
 }
