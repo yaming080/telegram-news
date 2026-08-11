@@ -3947,6 +3947,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-11T15:02:33.786246+00:00"
+    },
+    "d67dcb83fcc5ee93": {
+      "title": "91억달러 AI 임대 추진 라이엇, 비트코인 팔아 건설비 조달",
+      "url": "www.tokenpost.kr/news/cryptocurrency/388614",
+      "signature": "action_auction | action_build | action_convert | action_sell | amount_krw_260000000000 | amount_krw_900000000000 | amount_usd_2300000000 | amount_usd_9100000000 | asset_btc | geo_india | object_network | object_sale",
+      "canonical_key": "action_auction | action_build | action_convert | action_sell | amount_krw_260000000000 | amount_krw_900000000000 | amount_usd_2300000000 | amount_usd_9100000000 | asset_btc | geo_india | object_network | object_sale",
+      "ts": "2026-08-11T16:01:31.268223+00:00"
     }
   }
 }
