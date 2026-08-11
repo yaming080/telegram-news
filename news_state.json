@@ -3898,6 +3898,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-11T12:01:29.662676+00:00"
+    },
+    "e7e3d224f65bcd9c": {
+      "title": "Trump Media passes Tesla in Bitcoin holdings, posts $238M quarterly loss",
+      "url": "www.cryptopolitan.com/trump-media-knocks-musk-tesla-btc",
+      "signature": "action_pass | amount_usd_238000000 | asset_btc | entity_도널드트럼프 | entity_일론머스크",
+      "canonical_key": "action_pass | amount_usd_238000000 | asset_btc | entity_도널드트럼프 | entity_일론머스크",
+      "ts": "2026-08-11T13:02:02.071222+00:00"
+    },
+    "fb1576c0f5bcef91": {
+      "title": "UK Residents Can Now Buy Shiba Inu Via SHIB-Friendly Platform Robinhood",
+      "url": "thecryptobasic.com/2026/08/11/uk-residents-can-now-buy-shiba-inu-via-shib-friendly-platform-robinhood",
+      "signature": "action_expand | action_launch | action_purchase | date_2026_08_10 | entity_로빈후드 | entity_시바이누 | geo_uk | object_platform",
+      "canonical_key": "action_expand | action_launch | action_purchase | date_2026_08_10 | entity_로빈후드 | entity_시바이누 | geo_uk | object_platform",
+      "ts": "2026-08-11T13:02:06.316946+00:00"
     }
   }
 }
