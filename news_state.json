@@ -3926,6 +3926,27 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-11T14:02:16.170223+00:00"
+    },
+    "6c24f41a67812af1": {
+      "title": "하루 새 507% 급증한 시바리움 거래, 다음 날 대부분 반납",
+      "url": "www.tokenpost.kr/news/blockchain/388573",
+      "signature": "action_migrate | action_support | amount_pct_507 | entity_시바이누 | object_network",
+      "canonical_key": "action_migrate | action_support | amount_pct_507 | entity_시바이누 | object_network",
+      "ts": "2026-08-11T15:02:24.099674+00:00"
+    },
+    "7bc1b374379d8f5e": {
+      "title": "Can XRPL Add Native Lending? Ripple Backs XLS-65 and XLS-66",
+      "url": "coinedition.com/can-xrpl-add-native-lending-ripple-backs-xls-65-and-xls-66",
+      "signature": "action_approve | action_launch | action_support | amount_pct_40 | asset_xrp | asset_xrpl | entity_xls66 | entity_리플 | object_lending",
+      "canonical_key": "action_approve | action_launch | action_support | amount_pct_40 | asset_xrp | asset_xrpl | entity_xls66 | entity_리플 | object_lending",
+      "ts": "2026-08-11T15:02:28.630568+00:00"
+    },
+    "50fa87d3a3d6e6ec": {
+      "title": "Bitcoin Has No CEO—So Who Can Remove Luke Dashjr as a BIP Editor?",
+      "url": "coinedition.com/bitcoin-has-no-ceo-so-who-can-remove-luke-dashjr-as-a-bip-editor",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-11T15:02:33.786246+00:00"
     }
   }
 }
