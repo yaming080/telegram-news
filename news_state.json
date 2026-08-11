@@ -3975,6 +3975,13 @@
       "signature": "action_purchase | asset_btc | asset_eth | asset_stablecoin | asset_usdt | entity_bank | entity_테더 | geo_russia",
       "canonical_key": "action_purchase | asset_btc | asset_eth | asset_stablecoin | asset_usdt | entity_bank | entity_테더 | geo_russia",
       "ts": "2026-08-11T18:02:55.842056+00:00"
+    },
+    "153fb9443193c811": {
+      "title": "3000 BTC 스택스 제네시스 본드 9월 가동 예고",
+      "url": "www.tokenpost.kr/news/blockchain/388690",
+      "signature": "action_launch | action_propose | amount_btc_3000 | amount_btc_approx_3000 | amount_pct_3 | amount_pct_5 | asset_btc | object_network | object_staking_proposal",
+      "canonical_key": "action_launch | action_propose | amount_btc_3000 | amount_btc_approx_3000 | amount_pct_3 | amount_pct_5 | asset_btc | object_network | object_staking_proposal",
+      "ts": "2026-08-11T19:01:44.999842+00:00"
     }
   }
 }
