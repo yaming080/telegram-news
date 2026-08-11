@@ -3954,6 +3954,27 @@
       "signature": "action_auction | action_build | action_convert | action_sell | amount_krw_260000000000 | amount_krw_900000000000 | amount_usd_2300000000 | amount_usd_9100000000 | asset_btc | geo_india | object_network | object_sale",
       "canonical_key": "action_auction | action_build | action_convert | action_sell | amount_krw_260000000000 | amount_krw_900000000000 | amount_usd_2300000000 | amount_usd_9100000000 | asset_btc | geo_india | object_network | object_sale",
       "ts": "2026-08-11T16:01:31.268223+00:00"
+    },
+    "72358b29fd44d0a6": {
+      "title": "Pudgy Penguins co-founder ColeThereum sells out 44,444 NFTs on Robinhood Chain",
+      "url": "www.cryptopolitan.com/pudgy-penguins-co-founder-nft-collection",
+      "signature": "action_sell | action_steal | amount_eth_684 | amount_eth_approx_680 | amount_usd_1280000 | asset_eth | entity_colethereum | entity_로빈후드 | object_sale",
+      "canonical_key": "action_sell | action_steal | amount_eth_684 | amount_eth_approx_680 | amount_usd_1280000 | asset_eth | entity_colethereum | entity_로빈후드 | object_sale",
+      "ts": "2026-08-11T18:02:14.046362+00:00"
+    },
+    "b33c83a285b19c1c": {
+      "title": "New Twenty One Capital CEO outlines new priorities after $413.5M Q2 loss",
+      "url": "www.cryptopolitan.com/twenty-one-capital-ceo-zagury-1-27b-loss",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-11T18:02:35.267610+00:00"
+    },
+    "877958249285b8c4": {
+      "title": "Bank of Russia clears Bitcoin, Ethereum and Tether for public trading",
+      "url": "www.cryptopolitan.com/bank-of-russia-approves-bitcoin-ethereum",
+      "signature": "action_purchase | asset_btc | asset_eth | asset_stablecoin | asset_usdt | entity_bank | entity_테더 | geo_russia",
+      "canonical_key": "action_purchase | asset_btc | asset_eth | asset_stablecoin | asset_usdt | entity_bank | entity_테더 | geo_russia",
+      "ts": "2026-08-11T18:02:55.842056+00:00"
     }
   }
 }
