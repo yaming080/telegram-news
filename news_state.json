@@ -3849,6 +3849,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-11T06:01:22.894496+00:00"
+    },
+    "dec5bacbd0589ccd": {
+      "title": "Bitcoin may benefit if Fed expands FIMA, Hayes says",
+      "url": "crypto.news/bitcoin-may-benefit-if-fed-expands-fima",
+      "signature": "action_expand | action_support | asset_btc | entity_fima | entity_아서헤이즈 | entity_연준 | geo_japan",
+      "canonical_key": "action_expand | action_support | asset_btc | entity_fima | entity_아서헤이즈 | entity_연준 | geo_japan",
+      "ts": "2026-08-11T07:01:30.810693+00:00"
     }
   }
 }
