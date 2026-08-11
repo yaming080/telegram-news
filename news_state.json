@@ -3842,6 +3842,13 @@
       "signature": "action_expand | action_invest | amount_krw_261800000000 | amount_krw_337200000000 | amount_usd_238000000 | amount_usd_38000000 | asset_btc | entity_도널드트럼프 | geo_us",
       "canonical_key": "action_expand | action_invest | amount_krw_261800000000 | amount_krw_337200000000 | amount_usd_238000000 | amount_usd_38000000 | asset_btc | entity_도널드트럼프 | geo_us",
       "ts": "2026-08-11T04:01:29.992388+00:00"
+    },
+    "fcab594083ba2920": {
+      "title": "Institutional traders take a bigger hand in setting Bitcoin price",
+      "url": "www.cryptopolitan.com/institutional-traders-take-a-bigger-hand-in-setting-bitcoin-price",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-11T06:01:22.894496+00:00"
     }
   }
 }
