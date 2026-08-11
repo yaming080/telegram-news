@@ -3828,6 +3828,13 @@
       "signature": "action_expand | action_invest | action_launch | asset_btc | asset_eth | asset_xrp | entity_로빈후드 | geo_uk",
       "canonical_key": "action_expand | action_invest | action_launch | asset_btc | asset_eth | asset_xrp | entity_로빈후드 | geo_uk",
       "ts": "2026-08-11T00:01:45.667357+00:00"
+    },
+    "530c46477829cdd8": {
+      "title": "루크 대시주니어, 오션 의장·최고기술책임자 직무 잠정 중단",
+      "url": "www.tokenpost.kr/news/blockchain/388158",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-11T03:01:11.469473+00:00"
     }
   }
 }
