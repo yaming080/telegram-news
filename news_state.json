@@ -3870,6 +3870,13 @@
       "signature": "action_hack | action_steal | action_support | amount_btc_3 | amount_pct_10 | asset_btc | object_recovery | object_wallet",
       "canonical_key": "action_hack | action_steal | action_support | amount_btc_3 | amount_pct_10 | asset_btc | object_recovery | object_wallet",
       "ts": "2026-08-11T08:02:16.514121+00:00"
+    },
+    "6423b50d9fb55d82": {
+      "title": "BNB체인, 25일 메인넷 업그레이드로 블록 병목 줄인다",
+      "url": "www.tokenpost.kr/news/blockchain/388353",
+      "signature": "action_develop | action_propose | action_upgrade | entity_바이낸스 | object_network | object_network_upgrade | reference_version_1_7",
+      "canonical_key": "action_develop | action_propose | action_upgrade | entity_바이낸스 | object_network | object_network_upgrade | reference_version_1_7",
+      "ts": "2026-08-11T09:01:39.906943+00:00"
     }
   }
 }
