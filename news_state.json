@@ -3821,6 +3821,13 @@
       "signature": "action_launch | action_support | asset_xrp | asset_xrpl | entity_xrpledger | entity_리플 | object_lending | object_network",
       "canonical_key": "action_launch | action_support | asset_xrp | asset_xrpl | entity_xrpledger | entity_리플 | object_lending | object_network",
       "ts": "2026-08-10T22:02:01.930037+00:00"
+    },
+    "0f7298f3ce7ca609": {
+      "title": "Robinhood Launches 50+ Crypto Trading, Including XRP and BTC, in UK",
+      "url": "coinedition.com/crypto-live-news/robinhood-launches-50-crypto-trading-including-xrp-and-btc-in-uk",
+      "signature": "action_expand | action_invest | action_launch | asset_btc | asset_eth | asset_xrp | entity_로빈후드 | geo_uk",
+      "canonical_key": "action_expand | action_invest | action_launch | asset_btc | asset_eth | asset_xrp | entity_로빈후드 | geo_uk",
+      "ts": "2026-08-11T00:01:45.667357+00:00"
     }
   }
 }
