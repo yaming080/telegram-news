@@ -4129,6 +4129,13 @@
       "signature": "action_approve | action_build | action_expand | action_invest | action_transfer | asset_btc | object_custody",
       "canonical_key": "action_approve | action_build | action_expand | action_invest | action_transfer | asset_btc | object_custody",
       "ts": "2026-08-12T14:01:35.091292+00:00"
+    },
+    "821abeebd485df7b": {
+      "title": "832 BTC 판 폴드, 상장 유지 위해 역분할 추진",
+      "url": "www.tokenpost.kr/news/cryptocurrency/389507",
+      "signature": "action_auction | action_audit | action_convert | action_disclose | action_invest | action_launch | action_sell | amount_btc_200 | amount_btc_632 | amount_btc_832 | amount_btc_approx_200 | amount_btc_approx_630 | amount_btc_approx_830 | amount_krw_16200000000 | amount_krw_20400000000 | amount_krw_63300000000 | amount_krw_6400000000 | amount_usd_11400000 | amount_usd_14400000 | asset_btc | object_disclosure | object_sale",
+      "canonical_key": "action_auction | action_audit | action_convert | action_disclose | action_invest | action_launch | action_sell | amount_btc_200 | amount_btc_632 | amount_btc_832 | amount_btc_approx_200 | amount_btc_approx_630 | amount_btc_approx_830 | amount_krw_16200000000 | amount_krw_20400000000 | amount_krw_63300000000 | amount_krw_6400000000 | amount_usd_11400000 | amount_usd_14400000 | asset_btc | object_disclosure | object_sale",
+      "ts": "2026-08-12T16:01:36.345416+00:00"
     }
   }
 }
