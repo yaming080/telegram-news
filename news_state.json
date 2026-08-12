@@ -4031,6 +4031,20 @@
       "signature": "action_partner | action_support | entity_리플",
       "canonical_key": "action_partner | action_support | entity_리플",
       "ts": "2026-08-12T06:02:01.202132+00:00"
+    },
+    "3984faadc40245ae": {
+      "title": "Attacker Drains 200K XRP From Bridge Using Fake Deposit",
+      "url": "cryptopotato.com/attacker-drains-200k-xrp-from-bridge-using-fake-deposit",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-12T07:01:59.986011+00:00"
+    },
+    "dbdb6d7f5ab0e470": {
+      "title": "Ripple extends NYU Abu Dhabi blockchain research to 2027",
+      "url": "crypto.news/ripple-extends-nyu-abu-dhabi-blockchain-research",
+      "signature": "action_expand | action_partner | action_support | asset_xrp | asset_xrpl | entity_리플",
+      "canonical_key": "action_expand | action_partner | action_support | asset_xrp | asset_xrpl | entity_리플",
+      "ts": "2026-08-12T07:02:05.717482+00:00"
     }
   }
 }
