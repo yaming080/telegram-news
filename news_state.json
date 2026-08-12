@@ -4080,6 +4080,20 @@
       "signature": "action_support | action_transfer | asset_btc | asset_eth | entity_hype | entity_시바이누",
       "canonical_key": "action_support | action_transfer | asset_btc | asset_eth | entity_hype | entity_시바이누",
       "ts": "2026-08-12T11:02:11.561130+00:00"
+    },
+    "4fed8d11448cd9d9": {
+      "title": "Arthur Hayes Says Yen-Quake Could Put Bitcoin Back In Liquidity Spotlight",
+      "url": "bitcoinist.com/arthur-hayes-says-yen-quake-could-put-bitcoin-back-in-liquidity-spotlight",
+      "signature": "action_support | asset_btc | entity_아서헤이즈 | geo_japan",
+      "canonical_key": "action_support | asset_btc | entity_아서헤이즈 | geo_japan",
+      "ts": "2026-08-12T12:01:41.351797+00:00"
+    },
+    "4335b234aa06d0fb": {
+      "title": "Strategy CEO Confirms Bitcoin Buying Will Resume Before Year-End",
+      "url": "thenewscrypto.com/strategy-ceo-confirms-bitcoin-buying-will-resume-before-year-end",
+      "signature": "action_disclose | action_purchase | action_sell | amount_btc_175000 | amount_btc_7000 | amount_btc_approx_175000 | amount_btc_approx_7000 | asset_btc | entity_스트래티지 | object_corporate_crypto_purchase | object_sale",
+      "canonical_key": "action_disclose | action_purchase | action_sell | amount_btc_175000 | amount_btc_7000 | amount_btc_approx_175000 | amount_btc_approx_7000 | asset_btc | entity_스트래티지 | object_corporate_crypto_purchase | object_sale",
+      "ts": "2026-08-12T12:01:44.688872+00:00"
     }
   }
 }
