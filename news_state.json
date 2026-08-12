@@ -4003,6 +4003,13 @@
       "signature": "action_appoint | action_approve | action_pass | action_support | amount_pct_70 | amount_usd_65000000 | asset_eth | entity_foundation | object_foundation_governance",
       "canonical_key": "action_appoint | action_approve | action_pass | action_support | amount_pct_70 | amount_usd_65000000 | asset_eth | entity_foundation | object_foundation_governance",
       "ts": "2026-08-12T02:02:12.090047+00:00"
+    },
+    "e027452eaa1bfdae": {
+      "title": "[KOL 인덱스] “러, 비트코인·이더리움 거래 승인” 커뮤니티 화제… ‘캐나다 중앙은행 XRP ETF’·BTC ETF 유출 재개도 주목 外",
+      "url": "www.tokenpost.kr/news/cryptocurrency/388964",
+      "signature": "action_approve | action_disclose | action_invest | action_restore | amount_usd_330000 | asset_btc | asset_eth | asset_usdt | asset_xrp | entity_kol | geo_canada | geo_russia | object_disclosure | object_etf | object_sale",
+      "canonical_key": "action_approve | action_disclose | action_invest | action_restore | amount_usd_330000 | asset_btc | asset_eth | asset_usdt | asset_xrp | entity_kol | geo_canada | geo_russia | object_disclosure | object_etf | object_sale",
+      "ts": "2026-08-12T03:02:34.559332+00:00"
     }
   }
 }
