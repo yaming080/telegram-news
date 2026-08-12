@@ -4024,6 +4024,13 @@
       "signature": "action_expand | action_support | amount_usd_60000000000 | asset_btc | asset_eth | entity_아서헤이즈 | entity_연준 | geo_japan",
       "canonical_key": "action_expand | action_support | amount_usd_60000000000 | asset_btc | asset_eth | entity_아서헤이즈 | entity_연준 | geo_japan",
       "ts": "2026-08-12T04:03:17.572485+00:00"
+    },
+    "709307d762d55d50": {
+      "title": "Ripple Renews NYU Abu Dhabi Deal",
+      "url": "u.today/ripple-renews-nyu-abu-dhabi-deal",
+      "signature": "action_partner | action_support | entity_리플",
+      "canonical_key": "action_partner | action_support | entity_리플",
+      "ts": "2026-08-12T06:02:01.202132+00:00"
     }
   }
 }
