@@ -4136,6 +4136,13 @@
       "signature": "action_auction | action_audit | action_convert | action_disclose | action_invest | action_launch | action_sell | amount_btc_200 | amount_btc_632 | amount_btc_832 | amount_btc_approx_200 | amount_btc_approx_630 | amount_btc_approx_830 | amount_krw_16200000000 | amount_krw_20400000000 | amount_krw_63300000000 | amount_krw_6400000000 | amount_usd_11400000 | amount_usd_14400000 | asset_btc | object_disclosure | object_sale",
       "canonical_key": "action_auction | action_audit | action_convert | action_disclose | action_invest | action_launch | action_sell | amount_btc_200 | amount_btc_632 | amount_btc_832 | amount_btc_approx_200 | amount_btc_approx_630 | amount_btc_approx_830 | amount_krw_16200000000 | amount_krw_20400000000 | amount_krw_63300000000 | amount_krw_6400000000 | amount_usd_11400000 | amount_usd_14400000 | asset_btc | object_disclosure | object_sale",
       "ts": "2026-08-12T16:01:36.345416+00:00"
+    },
+    "90e3131b91bdf38c": {
+      "title": "TRON Powered $2.1T in Q2 USDT Transfers; Messari and Nansen Report Record Activity and Institutional Adoption",
+      "url": "www.cryptopolitan.com/tron-powered-2-1t-in-q2-usdt-transfers-messari-and-nansen-report-record-activity-and-institutional-adoption",
+      "signature": "action_adopt | action_develop | action_transfer | action_upgrade | amount_usd_2 | amount_usdt_2 | asset_usdt | date_2026_08_12 | object_institutional_adoption | object_network | object_network_upgrade",
+      "canonical_key": "action_adopt | action_develop | action_transfer | action_upgrade | amount_usd_2 | amount_usdt_2 | asset_usdt | date_2026_08_12 | object_institutional_adoption | object_network | object_network_upgrade",
+      "ts": "2026-08-12T17:02:03.263685+00:00"
     }
   }
 }
