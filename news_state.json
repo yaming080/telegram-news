@@ -4122,6 +4122,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-12T13:02:24.159249+00:00"
+    },
+    "d293b92baf40203f": {
+      "title": "비트코인스위스, 미카 승인으로 유럽 기관시장 확대",
+      "url": "www.tokenpost.kr/news/policy/389424",
+      "signature": "action_approve | action_build | action_expand | action_invest | action_transfer | asset_btc | object_custody",
+      "canonical_key": "action_approve | action_build | action_expand | action_invest | action_transfer | asset_btc | object_custody",
+      "ts": "2026-08-12T14:01:35.091292+00:00"
     }
   }
 }
