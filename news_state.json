@@ -4010,6 +4010,20 @@
       "signature": "action_approve | action_disclose | action_invest | action_restore | amount_usd_330000 | asset_btc | asset_eth | asset_usdt | asset_xrp | entity_kol | geo_canada | geo_russia | object_disclosure | object_etf | object_sale",
       "canonical_key": "action_approve | action_disclose | action_invest | action_restore | amount_usd_330000 | asset_btc | asset_eth | asset_usdt | asset_xrp | entity_kol | geo_canada | geo_russia | object_disclosure | object_etf | object_sale",
       "ts": "2026-08-12T03:02:34.559332+00:00"
+    },
+    "0773ad8d66fb20ae": {
+      "title": "Ethena’s USDe grabs 43% of Robinhood Chain stablecoins as capital parks",
+      "url": "www.cryptopolitan.com/ethenas-usde-grabs-43-of-robinhood-chain-stablecoins-as-capital-parks",
+      "signature": "action_close | amount_pct_43 | amount_usd_17000000 | amount_usd_253000000 | asset_stablecoin | entity_로빈후드 | entity_에테나",
+      "canonical_key": "action_close | amount_pct_43 | amount_usd_17000000 | amount_usd_253000000 | asset_stablecoin | entity_로빈후드 | entity_에테나",
+      "ts": "2026-08-12T04:03:14.324204+00:00"
+    },
+    "639de55d97b9b5ba": {
+      "title": "Arthur Hayes: Japan Yen Fix Could Fuel Bitcoin and Ethereum Rally",
+      "url": "cryptopotato.com/arthur-hayes-japan-yen-fix-could-fuel-bitcoin-and-ethereum-rally",
+      "signature": "action_expand | action_support | amount_usd_60000000000 | asset_btc | asset_eth | entity_아서헤이즈 | entity_연준 | geo_japan",
+      "canonical_key": "action_expand | action_support | amount_usd_60000000000 | asset_btc | asset_eth | entity_아서헤이즈 | entity_연준 | geo_japan",
+      "ts": "2026-08-12T04:03:17.572485+00:00"
     }
   }
 }
