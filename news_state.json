@@ -4171,6 +4171,13 @@
       "signature": "action_partner | asset_sol | entity_리플 | object_network",
       "canonical_key": "action_partner | asset_sol | entity_리플 | object_network",
       "ts": "2026-08-12T22:01:40.519241+00:00"
+    },
+    "9b9a2c1259aad4df": {
+      "title": "머니그램 램프스, 솔라나로 현금 입출금망 넓혔다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/389591",
+      "signature": "action_build | action_develop | action_expand | action_integrate | action_launch | asset_sol | count_markets_170 | count_markets_25 | object_infrastructure | object_network | object_wallet",
+      "canonical_key": "action_build | action_develop | action_expand | action_integrate | action_launch | asset_sol | count_markets_170 | count_markets_25 | object_infrastructure | object_network | object_wallet",
+      "ts": "2026-08-12T23:01:28.791404+00:00"
     }
   }
 }
