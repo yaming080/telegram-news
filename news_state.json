@@ -4045,6 +4045,20 @@
       "signature": "action_expand | action_partner | action_support | asset_xrp | asset_xrpl | entity_리플",
       "canonical_key": "action_expand | action_partner | action_support | asset_xrp | asset_xrpl | entity_리플",
       "ts": "2026-08-12T07:02:05.717482+00:00"
+    },
+    "bbcc167e5c7ef7c7": {
+      "title": "BNB Chain’s BEP-675 Proposal Targets Faster Block Building",
+      "url": "bitcoinist.com/bnb-chain-s-bep-675-proposal-targets-faster-block-building",
+      "signature": "action_build | action_launch | action_propose | object_network",
+      "canonical_key": "action_build | action_launch | action_propose | object_network",
+      "ts": "2026-08-12T08:02:04.705440+00:00"
+    },
+    "6145191311e5fd94": {
+      "title": "Xora Finance Brings Native Stellar Settlement To XRP Ledger",
+      "url": "bitcoinist.com/xora-finance-brings-native-stellar-settlement-to-xrp-ledger",
+      "signature": "action_enable | asset_xrp | asset_xrpl | entity_ledger | entity_xorafinancebringsnative",
+      "canonical_key": "action_enable | asset_xrp | asset_xrpl | entity_ledger | entity_xorafinancebringsnative",
+      "ts": "2026-08-12T08:02:08.356831+00:00"
     }
   }
 }
