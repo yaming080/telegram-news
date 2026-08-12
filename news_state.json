@@ -4150,6 +4150,20 @@
       "signature": "action_propose | action_secure | action_support | action_upgrade | asset_xrp | asset_xrpl | entity_xrpledger | entity_리플 | object_network_upgrade",
       "canonical_key": "action_propose | action_secure | action_support | action_upgrade | asset_xrp | asset_xrpl | entity_xrpledger | entity_리플 | object_network_upgrade",
       "ts": "2026-08-12T18:01:35.049905+00:00"
+    },
+    "ee7601bfbe1e2e10": {
+      "title": "Goldman Sachs to acquire ETF manager NEOS in $2.25B deal",
+      "url": "cointelegraph.com/news/goldman-sachs-to-acquire-etf-manager-neos-225b-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_acquire | action_purchase | amount_usd_2250000000 | amount_usd_30000000000 | asset_btc | entity_neos | entity_골드만삭스 | object_etf",
+      "canonical_key": "action_acquire | action_purchase | amount_usd_2250000000 | amount_usd_30000000000 | asset_btc | entity_neos | entity_골드만삭스 | object_etf",
+      "ts": "2026-08-12T21:01:19.450839+00:00"
+    },
+    "13c3b41993d71604": {
+      "title": "Fake deposits emptied the tx bridge while 17 relayers signed every payout",
+      "url": "www.cryptopolitan.com/tx-xrp-bridge-drained-99-reserve-exploit",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-12T21:01:34.470346+00:00"
     }
   }
 }
