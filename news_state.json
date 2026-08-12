@@ -3996,6 +3996,13 @@
       "signature": "action_develop | action_disclose | action_launch | asset_btc | object_card | object_disclosure | object_wallet",
       "canonical_key": "action_develop | action_disclose | action_launch | asset_btc | object_card | object_disclosure | object_wallet",
       "ts": "2026-08-11T23:01:48.986444+00:00"
+    },
+    "59168efca70c2c5d": {
+      "title": "ENS Tokenholders Approve New Foundation to Manage $65M Endowment",
+      "url": "coinedition.com/crypto-live-news/ens-tokenholders-approve-new-foundation-to-manage-65m-endowment",
+      "signature": "action_appoint | action_approve | action_pass | action_support | amount_pct_70 | amount_usd_65000000 | asset_eth | entity_foundation | object_foundation_governance",
+      "canonical_key": "action_appoint | action_approve | action_pass | action_support | amount_pct_70 | amount_usd_65000000 | asset_eth | entity_foundation | object_foundation_governance",
+      "ts": "2026-08-12T02:02:12.090047+00:00"
     }
   }
 }
