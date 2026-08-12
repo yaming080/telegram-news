@@ -4094,6 +4094,34 @@
       "signature": "action_disclose | action_purchase | action_sell | amount_btc_175000 | amount_btc_7000 | amount_btc_approx_175000 | amount_btc_approx_7000 | asset_btc | entity_스트래티지 | object_corporate_crypto_purchase | object_sale",
       "canonical_key": "action_disclose | action_purchase | action_sell | amount_btc_175000 | amount_btc_7000 | amount_btc_approx_175000 | amount_btc_approx_7000 | asset_btc | entity_스트래티지 | object_corporate_crypto_purchase | object_sale",
       "ts": "2026-08-12T12:01:44.688872+00:00"
+    },
+    "6e3fe2e5b6f1cc38": {
+      "title": "Fidelity files with SEC to add staking to Ethereum ETF",
+      "url": "cointelegraph.com/news/fidelity-staking-ethereum-etf-sec-filing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_file | amount_pct_85 | asset_eth | entity_sec | object_etf | object_fund | object_staking_proposal",
+      "canonical_key": "action_file | amount_pct_85 | asset_eth | entity_sec | object_etf | object_fund | object_staking_proposal",
+      "ts": "2026-08-12T13:02:10.416026+00:00"
+    },
+    "0c98f8e13293f4bf": {
+      "title": "Cardano Community Approves 120 Million ADA Allocation to Boost DeFi Liquidity",
+      "url": "thecryptobasic.com/2026/08/12/cardano-community-approves-120-million-ada-allocation-to-boost-defi-liquidity",
+      "signature": "action_approve | action_propose | entity_boostdefiliquidity | entity_카르다노 | object_network",
+      "canonical_key": "action_approve | action_propose | entity_boostdefiliquidity | entity_카르다노 | object_network",
+      "ts": "2026-08-12T13:02:14.854417+00:00"
+    },
+    "1c0215e140ea6a9d": {
+      "title": "XRP Network Activity Explodes 86% as Exchange Activity Collapses: Is a Bottom Forming?",
+      "url": "thecryptobasic.com/2026/08/11/xrp-network-activity-explodes-86-as-exchange-activity-collapses-is-a-bottom-forming",
+      "signature": "action_close | amount_pct_86 | amount_usd_1 | asset_xrp | entity_exchangeactivitycollapses | object_network",
+      "canonical_key": "action_close | amount_pct_86 | amount_usd_1 | asset_xrp | entity_exchangeactivitycollapses | object_network",
+      "ts": "2026-08-12T13:02:19.017401+00:00"
+    },
+    "51759908bccd336d": {
+      "title": "No, Bitcoin (BTC) Bull Run Is Not Yet Ready",
+      "url": "u.today/no-bitcoin-btc-bull-run-is-not-yet-ready",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-12T13:02:24.159249+00:00"
     }
   }
 }
