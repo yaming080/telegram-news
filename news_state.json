@@ -4143,6 +4143,13 @@
       "signature": "action_adopt | action_develop | action_transfer | action_upgrade | amount_usd_2 | amount_usdt_2 | asset_usdt | date_2026_08_12 | object_institutional_adoption | object_network | object_network_upgrade",
       "canonical_key": "action_adopt | action_develop | action_transfer | action_upgrade | amount_usd_2 | amount_usdt_2 | asset_usdt | date_2026_08_12 | object_institutional_adoption | object_network | object_network_upgrade",
       "ts": "2026-08-12T17:02:03.263685+00:00"
+    },
+    "b5b731b35d17a817": {
+      "title": "XRP Ledger upgrade gains Ripple vote for bundled fixes",
+      "url": "crypto.news/xrp-ledger-upgrade-gains-ripple-vote-for-bundled-fixes",
+      "signature": "action_propose | action_secure | action_support | action_upgrade | asset_xrp | asset_xrpl | entity_xrpledger | entity_리플 | object_network_upgrade",
+      "canonical_key": "action_propose | action_secure | action_support | action_upgrade | asset_xrp | asset_xrpl | entity_xrpledger | entity_리플 | object_network_upgrade",
+      "ts": "2026-08-12T18:01:35.049905+00:00"
     }
   }
 }
