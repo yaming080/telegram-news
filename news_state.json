@@ -4199,6 +4199,13 @@
       "signature": "action_ban | action_develop | action_propose | asset_btc | date_2026_05_22 | entity_bip54 | entity_코인베이스 | reference_bip_54",
       "canonical_key": "action_ban | action_develop | action_propose | asset_btc | date_2026_05_22 | entity_bip54 | entity_코인베이스 | reference_bip_54",
       "ts": "2026-08-13T05:02:56.636622+00:00"
+    },
+    "6efa61fbc841f109": {
+      "title": "AI Is Bullish for Crypto, Bitwise Advisor Says",
+      "url": "u.today/ai-is-bullish-for-crypto-bitwise-advisor-says",
+      "signature": "action_invest | asset_btc | object_adviser",
+      "canonical_key": "action_invest | asset_btc | object_adviser",
+      "ts": "2026-08-13T06:02:09.534985+00:00"
     }
   }
 }
