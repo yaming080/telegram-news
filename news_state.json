@@ -4241,6 +4241,27 @@
       "signature": "action_purchase | action_support | action_transfer | amount_usd_5000000000 | amount_usd_5179000000 | asset_btc | entity_연준 | geo_us",
       "canonical_key": "action_purchase | action_support | action_transfer | amount_usd_5000000000 | amount_usd_5179000000 | asset_btc | entity_연준 | geo_us",
       "ts": "2026-08-13T11:02:39.622529+00:00"
+    },
+    "8003b789292705a8": {
+      "title": "이더리움 34.7% 스테이킹, 수익률 2.6%로 낮아졌다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/390153",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-13T12:01:47.915953+00:00"
+    },
+    "077f10bdfbfca802": {
+      "title": "XRP Closed at a 21-Month Low, but the Bigger Ripple Story Is Elsewhere",
+      "url": "cryptopotato.com/xrp-closed-at-a-21-month-low-but-the-bigger-ripple-story-is-elsewhere",
+      "signature": "action_close | action_transfer | asset_xrp | entity_리플",
+      "canonical_key": "action_close | action_transfer | asset_xrp | entity_리플",
+      "ts": "2026-08-13T12:01:50.665130+00:00"
+    },
+    "c4f94220bacd3e20": {
+      "title": "Shiba Inu: Quiet Shibarium Infrastructure Shift Revealed, What Happened?",
+      "url": "u.today/shiba-inu-quiet-shibarium-infrastructure-shift-revealed-what-happened",
+      "signature": "action_transfer | entity_시바이누 | object_infrastructure | object_recovery",
+      "canonical_key": "action_transfer | entity_시바이누 | object_infrastructure | object_recovery",
+      "ts": "2026-08-13T12:01:53.398806+00:00"
     }
   }
 }
