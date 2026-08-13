@@ -4290,6 +4290,20 @@
       "signature": "action_disclose | action_launch | asset_eth | entity_이더리움재단 | object_disclosure",
       "canonical_key": "action_disclose | action_launch | asset_eth | entity_이더리움재단 | object_disclosure",
       "ts": "2026-08-13T16:01:16.330938+00:00"
+    },
+    "3997b75ceb11fcfa": {
+      "title": "Gold at $4,400, Bitcoin at $63,700: WEEX Market Analysis on the Two Safe Havens That Stopped Moving Together",
+      "url": "thenewscrypto.com/gold-at-4400-bitcoin-at-63700-weex-market-analysis-on-the-two-safe-havens-that-stopped-moving-together",
+      "signature": "action_publish | action_transfer | amount_btc_4400 | amount_btc_approx_4400 | amount_usd_4400 | amount_usd_63700 | asset_btc | asset_usdt | date_2026_08_12 | entity_금",
+      "canonical_key": "action_publish | action_transfer | amount_btc_4400 | amount_btc_approx_4400 | amount_usd_4400 | amount_usd_63700 | asset_btc | asset_usdt | date_2026_08_12 | entity_금",
+      "ts": "2026-08-13T20:02:10.213580+00:00"
+    },
+    "4804d10108c67a41": {
+      "title": "Ethena taps FalconX for institutional stablecoin lending",
+      "url": "crypto.news/ethena-taps-falconx-institutional-stablecoin-lending",
+      "signature": "action_appoint | action_partner | action_support | asset_stablecoin | entity_falconx | entity_에테나 | object_lending",
+      "canonical_key": "action_appoint | action_partner | action_support | asset_stablecoin | entity_falconx | entity_에테나 | object_lending",
+      "ts": "2026-08-13T20:02:14.077327+00:00"
     }
   }
 }
