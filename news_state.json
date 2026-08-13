@@ -4178,6 +4178,27 @@
       "signature": "action_build | action_develop | action_expand | action_integrate | action_launch | asset_sol | count_markets_170 | count_markets_25 | object_infrastructure | object_network | object_wallet",
       "canonical_key": "action_build | action_develop | action_expand | action_integrate | action_launch | asset_sol | count_markets_170 | count_markets_25 | object_infrastructure | object_network | object_wallet",
       "ts": "2026-08-12T23:01:28.791404+00:00"
+    },
+    "4942224f3c813cd3": {
+      "title": "Metaplanet CEO shuts down Bitcoin sale speculation after $322M transfer",
+      "url": "cointelegraph.com/news/gerovich-shuts-down-bitcoin-sale-metaplanets-transfer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_close | action_sell | action_transfer | amount_btc_5014 | amount_btc_approx_5000 | amount_usd_322000000 | amount_usd_8 | asset_btc | object_custody | object_sale",
+      "canonical_key": "action_close | action_sell | action_transfer | amount_btc_5014 | amount_btc_approx_5000 | amount_usd_322000000 | amount_usd_8 | asset_btc | object_custody | object_sale",
+      "ts": "2026-08-13T05:02:48.882135+00:00"
+    },
+    "5512352882140df5": {
+      "title": "데릭 치앙, 이더랩스서 이더리움 제품화 맡는다",
+      "url": "www.tokenpost.kr/news/blockchain/389789",
+      "signature": "action_appoint | action_develop | asset_eth | geo_korea | object_infrastructure",
+      "canonical_key": "action_appoint | action_develop | asset_eth | geo_korea | object_infrastructure",
+      "ts": "2026-08-13T05:02:52.990012+00:00"
+    },
+    "bf431c66df409b0e": {
+      "title": "BIP-54 코드 완성, 채굴풀 동의가 관건",
+      "url": "www.tokenpost.kr/news/blockchain/389782",
+      "signature": "action_ban | action_develop | action_propose | asset_btc | date_2026_05_22 | entity_bip54 | entity_코인베이스 | reference_bip_54",
+      "canonical_key": "action_ban | action_develop | action_propose | asset_btc | date_2026_05_22 | entity_bip54 | entity_코인베이스 | reference_bip_54",
+      "ts": "2026-08-13T05:02:56.636622+00:00"
     }
   }
 }
