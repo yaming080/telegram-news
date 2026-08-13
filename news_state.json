@@ -4262,6 +4262,20 @@
       "signature": "action_transfer | entity_시바이누 | object_infrastructure | object_recovery",
       "canonical_key": "action_transfer | entity_시바이누 | object_infrastructure | object_recovery",
       "ts": "2026-08-13T12:01:53.398806+00:00"
+    },
+    "6312ee41a76a2b6c": {
+      "title": "Ripple Says XRP Is Reaching 100 Million Rakuten Users in Japan",
+      "url": "thecryptobasic.com/2026/08/13/ripple-says-xrp-is-reaching-100-million-rakuten-users-in-japan",
+      "signature": "action_expand | action_integrate | asset_xrp | entity_라쿠텐 | entity_리플 | geo_japan | object_payment | object_wallet",
+      "canonical_key": "action_expand | action_integrate | asset_xrp | entity_라쿠텐 | entity_리플 | geo_japan | object_payment | object_wallet",
+      "ts": "2026-08-13T13:01:48.945723+00:00"
+    },
+    "bcececb5f6ceea7d": {
+      "title": "Shibburn Issues Multiple Security Warnings to Shiba Inu Community Amid Rising Crypto Hacks in 2026",
+      "url": "thecryptobasic.com/2026/08/13/shibburn-issues-multiple-security-warnings-to-shiba-inu-community-amid-rising-crypto-hacks-in-2026",
+      "signature": "action_hack | action_invest | action_issue | action_steal | entity_시바이누",
+      "canonical_key": "action_hack | action_invest | action_issue | action_steal | entity_시바이누",
+      "ts": "2026-08-13T13:01:54.918453+00:00"
     }
   }
 }
