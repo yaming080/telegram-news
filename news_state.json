@@ -4283,6 +4283,13 @@
       "signature": "action_integrate | action_upgrade | asset_btc | entity_카르다노 | object_etf",
       "canonical_key": "action_integrate | action_upgrade | asset_btc | entity_카르다노 | object_etf",
       "ts": "2026-08-13T14:01:36.876598+00:00"
+    },
+    "1178bc70645cc05f": {
+      "title": "이더리움재단, 포세이돈 접고 표준 해시로 선회",
+      "url": "www.tokenpost.kr/news/blockchain/390360",
+      "signature": "action_disclose | action_launch | asset_eth | entity_이더리움재단 | object_disclosure",
+      "canonical_key": "action_disclose | action_launch | asset_eth | entity_이더리움재단 | object_disclosure",
+      "ts": "2026-08-13T16:01:16.330938+00:00"
     }
   }
 }
