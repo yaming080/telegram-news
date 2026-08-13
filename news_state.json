@@ -4304,6 +4304,13 @@
       "signature": "action_appoint | action_partner | action_support | asset_stablecoin | entity_falconx | entity_에테나 | object_lending",
       "canonical_key": "action_appoint | action_partner | action_support | asset_stablecoin | entity_falconx | entity_에테나 | object_lending",
       "ts": "2026-08-13T20:02:14.077327+00:00"
+    },
+    "9725595a8c755094": {
+      "title": "Non-Custodial Bitcoin Bridge Boltz Shuts Down After AI-Assisted Attacks",
+      "url": "cryptopotato.com/non-custodial-bitcoin-bridge-boltz-shuts-down-after-ai-assisted-attacks",
+      "signature": "action_close | asset_btc | object_custody",
+      "canonical_key": "action_close | asset_btc | object_custody",
+      "ts": "2026-08-13T23:01:42.919489+00:00"
     }
   }
 }
