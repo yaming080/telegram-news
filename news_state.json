@@ -4220,6 +4220,27 @@
       "signature": "action_invest | action_issue | action_mint | amount_pct_5 | amount_pct_95 | asset_btc | entity_strc | entity_스트라이브 | geo_us | object_etf",
       "canonical_key": "action_invest | action_issue | action_mint | amount_pct_5 | amount_pct_95 | asset_btc | entity_strc | entity_스트라이브 | geo_us | object_etf",
       "ts": "2026-08-13T10:02:00.069676+00:00"
+    },
+    "6ed8ff50e523fc90": {
+      "title": "Metaplanet makes BitBonds announcements as CEO knocks back BTC sales rumors",
+      "url": "www.cryptopolitan.com/metaplanet-launches-bitbonds-denies-btc-sale",
+      "signature": "action_issue | action_support | action_transfer | asset_btc | entity_bitbonds | entity_ceo | entity_메타플래닛 | object_sale",
+      "canonical_key": "action_issue | action_support | action_transfer | asset_btc | entity_bitbonds | entity_ceo | entity_메타플래닛 | object_sale",
+      "ts": "2026-08-13T11:02:30.047178+00:00"
+    },
+    "40a2df3e1e08bf1d": {
+      "title": "비호들, 제우스와 1BTC 라이트닝 채널 열었다",
+      "url": "www.tokenpost.kr/news/blockchain/390110",
+      "signature": "action_partner | amount_btc_1 | asset_btc | geo_korea | geo_uk | object_infrastructure | object_network | object_payment",
+      "canonical_key": "action_partner | amount_btc_1 | asset_btc | geo_korea | geo_uk | object_infrastructure | object_network | object_payment",
+      "ts": "2026-08-13T11:02:33.720580+00:00"
+    },
+    "2574b5ea03b45421": {
+      "title": "Fed Injects $5B Into U.S. Economy as Bitcoin Traders Watch Fresh Liquidity",
+      "url": "coinedition.com/fed-injects-5b-into-u-s-economy-as-bitcoin-traders-watch-fresh-liquidity",
+      "signature": "action_purchase | action_support | action_transfer | amount_usd_5000000000 | amount_usd_5179000000 | asset_btc | entity_연준 | geo_us",
+      "canonical_key": "action_purchase | action_support | action_transfer | amount_usd_5000000000 | amount_usd_5179000000 | asset_btc | entity_연준 | geo_us",
+      "ts": "2026-08-13T11:02:39.622529+00:00"
     }
   }
 }
