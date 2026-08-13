@@ -4213,6 +4213,13 @@
       "signature": "action_acquire | action_purchase | amount_usd_1100000000 | amount_usd_2250000000 | asset_btc | asset_eth | entity_골드만삭스",
       "canonical_key": "action_acquire | action_purchase | amount_usd_1100000000 | amount_usd_2250000000 | asset_btc | asset_eth | entity_골드만삭스",
       "ts": "2026-08-13T08:02:18.785481+00:00"
+    },
+    "e3369fce705bda82": {
+      "title": "STRC 95% 담는 브라질 ETF, 9월 상장 추진",
+      "url": "www.tokenpost.kr/news/market/390074",
+      "signature": "action_invest | action_issue | action_mint | amount_pct_5 | amount_pct_95 | asset_btc | entity_strc | entity_스트라이브 | geo_us | object_etf",
+      "canonical_key": "action_invest | action_issue | action_mint | amount_pct_5 | amount_pct_95 | asset_btc | entity_strc | entity_스트라이브 | geo_us | object_etf",
+      "ts": "2026-08-13T10:02:00.069676+00:00"
     }
   }
 }
