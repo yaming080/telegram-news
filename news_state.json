@@ -4465,6 +4465,13 @@
       "signature": "action_appoint | action_invest | action_partner | action_purchase | asset_btc | asset_sol | entity_이스라엘",
       "canonical_key": "action_appoint | action_invest | action_partner | action_purchase | asset_btc | asset_sol | entity_이스라엘",
       "ts": "2026-08-14T19:02:39.181521+00:00"
+    },
+    "a942e2bd419355ec": {
+      "title": "Israel's largest bank Bank Leumi partners with Galaxy to offer crypto services",
+      "url": "www.cryptopolitan.com/bank-leumi-galaxy-crypto-trading-early-2027",
+      "signature": "action_approve | action_launch | action_purchase | action_sell | asset_btc | asset_eth | asset_sol | entity_bankleumi | object_corporate_crypto_purchase | object_infrastructure | object_sale",
+      "canonical_key": "action_approve | action_launch | action_purchase | action_sell | asset_btc | asset_eth | asset_sol | entity_bankleumi | object_corporate_crypto_purchase | object_infrastructure | object_sale",
+      "ts": "2026-08-14T20:01:54.114861+00:00"
     }
   }
 }
