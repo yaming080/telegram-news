@@ -4381,6 +4381,13 @@
       "signature": "action_support | entity_바이낸스",
       "canonical_key": "action_support | entity_바이낸스",
       "ts": "2026-08-14T14:02:10.172944+00:00"
+    },
+    "563220311d11a970": {
+      "title": "Analysts flag broken compliance controls in Anchorpoint's live HKDAP stablecoin",
+      "url": "www.cryptopolitan.com/anchorpoint-hkdap-stablecoin-red-flags",
+      "signature": "action_audit | action_launch | action_publish | action_support | asset_eth | asset_stablecoin | entity_hkdap | entity_스탠다드차타드 | geo_hongkong",
+      "canonical_key": "action_audit | action_launch | action_publish | action_support | asset_eth | asset_stablecoin | entity_hkdap | entity_스탠다드차타드 | geo_hongkong",
+      "ts": "2026-08-14T15:02:15.483116+00:00"
     }
   }
 }
