@@ -4346,6 +4346,27 @@
       "signature": "action_disclose | asset_xrp | entity_holdings | entity_모건스탠리 | object_etf | object_etf_holdings",
       "canonical_key": "action_disclose | asset_xrp | entity_holdings | entity_모건스탠리 | object_etf | object_etf_holdings",
       "ts": "2026-08-14T12:03:27.171809+00:00"
+    },
+    "bb6bdf2b35f59354": {
+      "title": "Cardano Founder Endorses AlphaGrowth and Draper Dragon as Functional Replacement for EMURGO",
+      "url": "thecryptobasic.com/2026/08/14/cardano-founder-endorses-alphagrowth-and-draper-dragon-as-functional-replacement-for-emurgo",
+      "signature": "action_develop | action_invest | entity_emurgo | entity_찰스호스킨슨 | entity_카르다노",
+      "canonical_key": "action_develop | action_invest | entity_emurgo | entity_찰스호스킨슨 | entity_카르다노",
+      "ts": "2026-08-14T13:02:40.379278+00:00"
+    },
+    "a31b7b915cd5dfc2": {
+      "title": "Cardano Welcomes Institutional-Grade Tokenized Silver",
+      "url": "thecryptobasic.com/2026/08/14/cardano-welcomes-institutional-grade-tokenized-silver",
+      "signature": "action_launch | action_support | entity_은 | entity_카르다노 | object_infrastructure",
+      "canonical_key": "action_launch | action_support | entity_은 | entity_카르다노 | object_infrastructure",
+      "ts": "2026-08-14T13:02:44.283882+00:00"
+    },
+    "4ab1542e49a79d77": {
+      "title": "Shiba Inu: Shibarium Transactions Drop From 1.56 Billion to 475 Million, But Here’s What Happened",
+      "url": "thecryptobasic.com/2026/08/14/shiba-inu-shibarium-transactions-drop-from-1-56-billion-to-475-million-but-heres-what-happened",
+      "signature": "action_launch | date_2026_08_10 | entity_시바이누 | object_network",
+      "canonical_key": "action_launch | date_2026_08_10 | entity_시바이누 | object_network",
+      "ts": "2026-08-14T13:02:48.909015+00:00"
     }
   }
 }
