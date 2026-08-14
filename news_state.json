@@ -4367,6 +4367,20 @@
       "signature": "action_launch | date_2026_08_10 | entity_시바이누 | object_network",
       "canonical_key": "action_launch | date_2026_08_10 | entity_시바이누 | object_network",
       "ts": "2026-08-14T13:02:48.909015+00:00"
+    },
+    "be68cff9ab0083b3": {
+      "title": "그레이스케일, 코인베이스 프라임에 515억원 이전",
+      "url": "www.tokenpost.kr/news/cryptocurrency/391040",
+      "signature": "action_migrate | action_transfer | amount_krw_50900000000 | amount_krw_51500000000 | amount_usd_35900000 | amount_usd_36290000 | amount_usd_391000 | asset_btc | entity_코인베이스 | geo_korea | object_custody | object_infrastructure | object_payment | object_wallet",
+      "canonical_key": "action_migrate | action_transfer | amount_krw_50900000000 | amount_krw_51500000000 | amount_usd_35900000 | amount_usd_36290000 | amount_usd_391000 | asset_btc | entity_코인베이스 | geo_korea | object_custody | object_infrastructure | object_payment | object_wallet",
+      "ts": "2026-08-14T14:02:04.467105+00:00"
+    },
+    "2adb3bf3f64d33d6": {
+      "title": "Binance Ends Support for This BNB Smart Chain Token: What to Know",
+      "url": "u.today/binance-ends-support-for-this-bnb-smart-chain-token-what-to-know",
+      "signature": "action_support | entity_바이낸스",
+      "canonical_key": "action_support | entity_바이낸스",
+      "ts": "2026-08-14T14:02:10.172944+00:00"
     }
   }
 }
