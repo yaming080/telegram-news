@@ -4416,6 +4416,34 @@
       "signature": "action_disclose | amount_pct_12 | amount_pct_20 | amount_usd_218400000 | entity_stablecoinx | entity_에테나",
       "canonical_key": "action_disclose | amount_pct_12 | amount_pct_20 | amount_usd_218400000 | entity_stablecoinx | entity_에테나",
       "ts": "2026-08-14T17:02:49.845340+00:00"
+    },
+    "6f5d5a674fcb28a7": {
+      "title": "6만2982달러 비트코인, 24시간 0.37% 하락",
+      "url": "www.tokenpost.kr/news/cryptocurrency/391162",
+      "signature": "action_ban | action_convert | action_propose | action_sell | amount_pct_0.37 | amount_usd_60000 | amount_usd_62982 | amount_usd_63000 | amount_usd_64361 | asset_btc | entity_htx | object_sale",
+      "canonical_key": "action_ban | action_convert | action_propose | action_sell | amount_pct_0.37 | amount_usd_60000 | amount_usd_62982 | amount_usd_63000 | amount_usd_64361 | asset_btc | entity_htx | object_sale",
+      "ts": "2026-08-14T18:02:17.032089+00:00"
+    },
+    "97f52e76e2bf1884": {
+      "title": "에이브 V4 예치금 4억달러 보도, 공식 수치는 3억달러",
+      "url": "www.tokenpost.kr/news/cryptocurrency/391154",
+      "signature": "action_disclose | action_launch | amount_krw_425400000000 | amount_krw_567200000000 | amount_usd_300000000 | amount_usd_400000000 | asset_eth | count_shares_1 | entity_아베 | object_account | object_disclosure",
+      "canonical_key": "action_disclose | action_launch | amount_krw_425400000000 | amount_krw_567200000000 | amount_usd_300000000 | amount_usd_400000000 | asset_eth | count_shares_1 | entity_아베 | object_account | object_disclosure",
+      "ts": "2026-08-14T18:02:20.685916+00:00"
+    },
+    "1f61131ee2638b77": {
+      "title": "이더리움 양자 전환, 포세이돈은 검증 대상",
+      "url": "www.tokenpost.kr/news/blockchain/391153",
+      "signature": "action_convert | action_migrate | action_support | asset_eth | entity_이더리움재단",
+      "canonical_key": "action_convert | action_migrate | action_support | asset_eth | entity_이더리움재단",
+      "ts": "2026-08-14T18:02:24.855277+00:00"
+    },
+    "f70bf5648e4a8a5f": {
+      "title": "Cypherpunk Legend Adam Back Approves Ethereum's Post-Quantum Shift",
+      "url": "u.today/cypherpunk-legend-adam-back-approves-ethereums-post-quantum-shift",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-14T18:02:28.161521+00:00"
     }
   }
 }
