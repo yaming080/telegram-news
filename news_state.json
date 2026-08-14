@@ -4388,6 +4388,13 @@
       "signature": "action_audit | action_launch | action_publish | action_support | asset_eth | asset_stablecoin | entity_hkdap | entity_스탠다드차타드 | geo_hongkong",
       "canonical_key": "action_audit | action_launch | action_publish | action_support | asset_eth | asset_stablecoin | entity_hkdap | entity_스탠다드차타드 | geo_hongkong",
       "ts": "2026-08-14T15:02:15.483116+00:00"
+    },
+    "e43afd838be19dcf": {
+      "title": "Israel’s largest bank taps Galaxy to offer Bitcoin, Ether, Solana trading",
+      "url": "cointelegraph.com/news/israels-largest-bank-taps-galaxy-to-offer-bitcoin-ether-and-solana-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_appoint | action_invest | action_purchase | action_sell | asset_btc | asset_sol | entity_이스라엘 | object_sale",
+      "canonical_key": "action_appoint | action_invest | action_purchase | action_sell | asset_btc | asset_sol | entity_이스라엘 | object_sale",
+      "ts": "2026-08-14T16:01:39.123956+00:00"
     }
   }
 }
