@@ -4318,6 +4318,13 @@
       "signature": "action_approve | action_close | asset_btc | entity_비트코인레드팀 | entity_비트코인정책연구소 | entity_앤트로픽 | entity_오픈ai",
       "canonical_key": "action_approve | action_close | asset_btc | entity_비트코인레드팀 | entity_비트코인정책연구소 | entity_앤트로픽 | entity_오픈ai",
       "ts": "2026-08-14T06:01:49.554602+00:00"
+    },
+    "8e11dfedb532e7c8": {
+      "title": "TronBid: A Flexible Marketplace to Rent and Sell TRON Energy",
+      "url": "cryptopotato.com/tronbid-a-flexible-marketplace-to-rent-and-sell-tron-energy",
+      "signature": "action_sell | action_transfer | asset_usdt | entity_tronbid | object_network | object_sale | object_wallet",
+      "canonical_key": "action_sell | action_transfer | asset_usdt | entity_tronbid | object_network | object_sale | object_wallet",
+      "ts": "2026-08-14T11:01:38.097439+00:00"
     }
   }
 }
