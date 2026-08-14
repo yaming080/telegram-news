@@ -4486,6 +4486,13 @@
       "signature": "action_disclose | action_propose | action_upgrade | asset_xrp | asset_xrpl | entity_xrpledger | object_network_upgrade",
       "canonical_key": "action_disclose | action_propose | action_upgrade | asset_xrp | asset_xrpl | entity_xrpledger | object_network_upgrade",
       "ts": "2026-08-14T22:02:23.782848+00:00"
+    },
+    "8f4e10f7d2a086de": {
+      "title": "하이브 매출 158% 늘고도 순손실 2105억원",
+      "url": "www.tokenpost.kr/news/market/391231",
+      "signature": "action_disclose | amount_krw_10500000000 | amount_krw_1800000000 | amount_krw_210500000000 | amount_krw_22300000000 | amount_krw_8300000000 | amount_pct_158 | amount_usd_6340000 | asset_btc | entity_sec | object_commissioner | object_disclosure",
+      "canonical_key": "action_disclose | amount_krw_10500000000 | amount_krw_1800000000 | amount_krw_210500000000 | amount_krw_22300000000 | amount_krw_8300000000 | amount_pct_158 | amount_usd_6340000 | asset_btc | entity_sec | object_commissioner | object_disclosure",
+      "ts": "2026-08-14T23:01:36.345754+00:00"
     }
   }
 }
