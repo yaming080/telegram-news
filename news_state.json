@@ -4444,6 +4444,27 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-14T18:02:28.161521+00:00"
+    },
+    "56866cbfc7767cd5": {
+      "title": "BSC commits to late August Pasteur hardfork release date",
+      "url": "www.cryptopolitan.com/bsc-august-25-pasteur-hardfork",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-14T19:02:26.845287+00:00"
+    },
+    "41489aa414b9ce9f": {
+      "title": "S&P 500 Hits 7,800: Is Wall Street’s Risk-On Rally a Signal for Indian Crypto Traders?",
+      "url": "coinedition.com/sp-500-hits-7800-is-wall-streets-risk-on-rally-a-signal-for-indian-crypto-traders",
+      "signature": "action_close | action_transfer | amount_usd_63400 | asset_btc | entity_sp | geo_india | geo_us",
+      "canonical_key": "action_close | action_transfer | amount_usd_63400 | asset_btc | entity_sp | geo_india | geo_us",
+      "ts": "2026-08-14T19:02:35.600958+00:00"
+    },
+    "66d8209984980e90": {
+      "title": "Israel’s largest bank taps Galaxy for crypto trading",
+      "url": "crypto.news/israels-largest-bank-taps-galaxy-for-crypto-trading",
+      "signature": "action_appoint | action_invest | action_partner | action_purchase | asset_btc | asset_sol | entity_이스라엘",
+      "canonical_key": "action_appoint | action_invest | action_partner | action_purchase | asset_btc | asset_sol | entity_이스라엘",
+      "ts": "2026-08-14T19:02:39.181521+00:00"
     }
   }
 }
