@@ -4395,6 +4395,27 @@
       "signature": "action_appoint | action_invest | action_purchase | action_sell | asset_btc | asset_sol | entity_이스라엘 | object_sale",
       "canonical_key": "action_appoint | action_invest | action_purchase | action_sell | asset_btc | asset_sol | entity_이스라엘 | object_sale",
       "ts": "2026-08-14T16:01:39.123956+00:00"
+    },
+    "1a91744296f736b7": {
+      "title": "Tristan Thompson Backs Bitcoin, Says Daily Buying Builds Long-Term Wealth",
+      "url": "coinedition.com/tristan-thompson-backs-bitcoin-says-daily-buying-builds-long-term-wealth",
+      "signature": "action_build | action_purchase | action_support | asset_btc | entity_스트래티지 | geo_us | object_corporate_crypto_purchase",
+      "canonical_key": "action_build | action_purchase | action_support | asset_btc | entity_스트래티지 | geo_us | object_corporate_crypto_purchase",
+      "ts": "2026-08-14T17:02:39.434915+00:00"
+    },
+    "b8736df68aecc047": {
+      "title": "Bitcoin, Ethereum and Solana in Spotlight as Israel's Largest Bank Joins Crypto Bandwagon",
+      "url": "u.today/bitcoin-ethereum-and-solana-in-spotlight-as-israels-largest-bank-joins-crypto-bandwagon",
+      "signature": "action_integrate | asset_btc | asset_eth | asset_sol | entity_israelslargestbankjoins",
+      "canonical_key": "action_integrate | asset_btc | asset_eth | asset_sol | entity_israelslargestbankjoins",
+      "ts": "2026-08-14T17:02:43.270438+00:00"
+    },
+    "926d671d78b6a611": {
+      "title": "StablecoinX holds 20% of ENA supply as shares jump 12%",
+      "url": "crypto.news/stablecoinx-holds-20-of-ena-supply-as-shares-jump-12",
+      "signature": "action_disclose | amount_pct_12 | amount_pct_20 | amount_usd_218400000 | entity_stablecoinx | entity_에테나",
+      "canonical_key": "action_disclose | amount_pct_12 | amount_pct_20 | amount_usd_218400000 | entity_stablecoinx | entity_에테나",
+      "ts": "2026-08-14T17:02:49.845340+00:00"
     }
   }
 }
