@@ -4577,6 +4577,20 @@
       "signature": "action_invest | asset_btc | count_people_500 | entity_ceo | entity_리플 | entity_브래드갈링하우스 | geo_korea | geo_us",
       "canonical_key": "action_invest | asset_btc | count_people_500 | entity_ceo | entity_리플 | entity_브래드갈링하우스 | geo_korea | geo_us",
       "ts": "2026-08-15T16:01:33.805094+00:00"
+    },
+    "7d627ca546fc470f": {
+      "title": "4블록 그친 비트코인 개선안, 소수 체인 시험대",
+      "url": "www.tokenpost.kr/news/blockchain/391495",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-15T19:01:31.239088+00:00"
+    },
+    "06158055d1c85537": {
+      "title": "75만달러 BTC 탈취, 구글 계정 침해서 시작",
+      "url": "www.tokenpost.kr/news/cryptocurrency/391491",
+      "signature": "action_acquire | action_approve | action_secure | action_steal | amount_usd_750000 | asset_btc | object_account | object_wallet",
+      "canonical_key": "action_acquire | action_approve | action_secure | action_steal | amount_usd_750000 | asset_btc | object_account | object_wallet",
+      "ts": "2026-08-15T19:01:35.122673+00:00"
     }
   }
 }
