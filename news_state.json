@@ -4591,6 +4591,20 @@
       "signature": "action_acquire | action_approve | action_secure | action_steal | amount_usd_750000 | asset_btc | object_account | object_wallet",
       "canonical_key": "action_acquire | action_approve | action_secure | action_steal | amount_usd_750000 | asset_btc | object_account | object_wallet",
       "ts": "2026-08-15T19:01:35.122673+00:00"
+    },
+    "6c7235b1d93712aa": {
+      "title": "Money is economic energy: Strategy's Michael Saylor store of value question",
+      "url": "www.cryptopolitan.com/saylor-calls-money-economic-energy-bitcoin",
+      "signature": "action_publish | asset_btc | entity_마이클세일러 | entity_스트래티지",
+      "canonical_key": "action_publish | asset_btc | entity_마이클세일러 | entity_스트래티지",
+      "ts": "2026-08-15T21:02:08.554250+00:00"
+    },
+    "7419f63a10eb9f54": {
+      "title": "NIL 22% 반응 뒤 체인링크 이동 경로 넓혔다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/391508",
+      "signature": "action_expand | action_integrate | action_transfer | amount_pct_22 | amount_pct_7.9 | asset_eth | entity_nil | geo_korea",
+      "canonical_key": "action_expand | action_integrate | action_transfer | amount_pct_22 | amount_pct_7.9 | asset_eth | entity_nil | geo_korea",
+      "ts": "2026-08-15T21:02:14.376226+00:00"
     }
   }
 }
