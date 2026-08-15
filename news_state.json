@@ -4507,6 +4507,13 @@
       "signature": "action_sell | action_support | amount_usd_100 | amount_usd_95 | asset_btc | entity_피터쉬프 | object_sale",
       "canonical_key": "action_sell | action_support | amount_usd_100 | amount_usd_95 | asset_btc | entity_피터쉬프 | object_sale",
       "ts": "2026-08-15T00:01:53.777588+00:00"
+    },
+    "25b79cafe9dd2565": {
+      "title": "93조8700억 SHIB, 초기 고래 지갑에 남았다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/391282",
+      "signature": "action_invest | action_propose | action_purchase | amount_krw_42500000000 | amount_krw_612700000000 | amount_usd_11600 | amount_usd_30000000 | amount_usd_33000000 | amount_usd_433000000 | entity_시바이누 | geo_korea | object_wallet",
+      "canonical_key": "action_invest | action_propose | action_purchase | amount_krw_42500000000 | amount_krw_612700000000 | amount_usd_11600 | amount_usd_30000000 | amount_usd_33000000 | amount_usd_433000000 | entity_시바이누 | geo_korea | object_wallet",
+      "ts": "2026-08-15T01:01:32.915416+00:00"
     }
   }
 }
