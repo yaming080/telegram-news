@@ -4542,6 +4542,13 @@
       "signature": "action_ban | action_issue | action_mint | action_propose | amount_pct_20 | amount_pct_4.4 | asset_btc | entity_바이낸스",
       "canonical_key": "action_ban | action_issue | action_mint | action_propose | amount_pct_20 | amount_pct_4.4 | asset_btc | entity_바이낸스",
       "ts": "2026-08-15T09:01:26.170868+00:00"
+    },
+    "41220356a66f74f5": {
+      "title": "비트코인 수요 -3만2000 BTC, 흡수 우위 아직",
+      "url": "www.tokenpost.kr/news/cryptocurrency/391396",
+      "signature": "action_develop | action_disclose | action_launch | action_transfer | amount_btc_2000 | amount_btc_approx_2000 | asset_btc | object_disclosure",
+      "canonical_key": "action_develop | action_disclose | action_launch | action_transfer | amount_btc_2000 | amount_btc_approx_2000 | asset_btc | object_disclosure",
+      "ts": "2026-08-15T10:01:36.335402+00:00"
     }
   }
 }
