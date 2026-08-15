@@ -4514,6 +4514,13 @@
       "signature": "action_invest | action_propose | action_purchase | amount_krw_42500000000 | amount_krw_612700000000 | amount_usd_11600 | amount_usd_30000000 | amount_usd_33000000 | amount_usd_433000000 | entity_시바이누 | geo_korea | object_wallet",
       "canonical_key": "action_invest | action_propose | action_purchase | amount_krw_42500000000 | amount_krw_612700000000 | amount_usd_11600 | amount_usd_30000000 | amount_usd_33000000 | amount_usd_433000000 | entity_시바이누 | geo_korea | object_wallet",
       "ts": "2026-08-15T01:01:32.915416+00:00"
+    },
+    "bf0fd18f3b6d0b40": {
+      "title": "이더리움 발행 논쟁, 보안과 공급 균형으로",
+      "url": "www.tokenpost.kr/news/cryptocurrency/391303",
+      "signature": "action_issue | action_mint | asset_eth | geo_korea | object_network",
+      "canonical_key": "action_issue | action_mint | asset_eth | geo_korea | object_network",
+      "ts": "2026-08-15T02:01:26.606085+00:00"
     }
   }
 }
