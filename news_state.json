@@ -4549,6 +4549,13 @@
       "signature": "action_develop | action_disclose | action_launch | action_transfer | amount_btc_2000 | amount_btc_approx_2000 | asset_btc | object_disclosure",
       "canonical_key": "action_develop | action_disclose | action_launch | action_transfer | amount_btc_2000 | amount_btc_approx_2000 | asset_btc | object_disclosure",
       "ts": "2026-08-15T10:01:36.335402+00:00"
+    },
+    "f650297e7a6e109c": {
+      "title": "카르다노, 9월 12일 전 다익스트라 헌법 정비 추진",
+      "url": "www.tokenpost.kr/news/blockchain/391412",
+      "signature": "action_build | action_disclose | action_launch | action_upgrade | entity_카르다노 | object_disclosure | object_network_upgrade",
+      "canonical_key": "action_build | action_disclose | action_launch | action_upgrade | entity_카르다노 | object_disclosure | object_network_upgrade",
+      "ts": "2026-08-15T11:01:46.620742+00:00"
     }
   }
 }
