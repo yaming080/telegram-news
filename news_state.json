@@ -4528,6 +4528,13 @@
       "signature": "action_invest | amount_pct_0.25 | amount_pct_2.5 | amount_pct_3.4 | amount_pct_4.7 | asset_btc | asset_eth | entity_cpi | entity_비자 | geo_us",
       "canonical_key": "action_invest | amount_pct_0.25 | amount_pct_2.5 | amount_pct_3.4 | amount_pct_4.7 | asset_btc | asset_eth | entity_cpi | entity_비자 | geo_us",
       "ts": "2026-08-15T04:01:32.296239+00:00"
+    },
+    "ba0084abbb841ff9": {
+      "title": "Ripple’s Sherlock audit found 96 bugs before they reached a single wallet",
+      "url": "crypto.news/ripple-sherlock-audit-96-bugs-before-single-wallet",
+      "signature": "action_audit | action_compromise | action_hack | action_steal | amount_usd_550000 | asset_xrp | asset_xrpl | count_findings_approx_100 | entity_리플 | object_network_upgrade | object_wallet",
+      "canonical_key": "action_audit | action_compromise | action_hack | action_steal | amount_usd_550000 | asset_xrp | asset_xrpl | count_findings_approx_100 | entity_리플 | object_network_upgrade | object_wallet",
+      "ts": "2026-08-15T06:01:32.385671+00:00"
     }
   }
 }
