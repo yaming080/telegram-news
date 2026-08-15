@@ -4535,6 +4535,13 @@
       "signature": "action_audit | action_compromise | action_hack | action_steal | amount_usd_550000 | asset_xrp | asset_xrpl | count_findings_approx_100 | entity_리플 | object_network_upgrade | object_wallet",
       "canonical_key": "action_audit | action_compromise | action_hack | action_steal | amount_usd_550000 | asset_xrp | asset_xrpl | count_findings_approx_100 | entity_리플 | object_network_upgrade | object_wallet",
       "ts": "2026-08-15T06:01:32.385671+00:00"
+    },
+    "68d9dab1b0c7674d": {
+      "title": "비트코인 채굴 2007만개 넘어, 남은 공급 4.4%",
+      "url": "www.tokenpost.kr/news/cryptocurrency/391391",
+      "signature": "action_ban | action_issue | action_mint | action_propose | amount_pct_20 | amount_pct_4.4 | asset_btc | entity_바이낸스",
+      "canonical_key": "action_ban | action_issue | action_mint | action_propose | amount_pct_20 | amount_pct_4.4 | asset_btc | entity_바이낸스",
+      "ts": "2026-08-15T09:01:26.170868+00:00"
     }
   }
 }
