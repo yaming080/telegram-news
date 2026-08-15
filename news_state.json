@@ -4521,6 +4521,13 @@
       "signature": "action_issue | action_mint | asset_eth | geo_korea | object_network",
       "canonical_key": "action_issue | action_mint | asset_eth | geo_korea | object_network",
       "ts": "2026-08-15T02:01:26.606085+00:00"
+    },
+    "c1f9d7fd26e43570": {
+      "title": "미 7월 CPI 3.4%, AI 투자와 중동 긴장 갈랐다",
+      "url": "www.tokenpost.kr/news/briefing/391332",
+      "signature": "action_invest | amount_pct_0.25 | amount_pct_2.5 | amount_pct_3.4 | amount_pct_4.7 | asset_btc | asset_eth | entity_cpi | entity_비자 | geo_us",
+      "canonical_key": "action_invest | amount_pct_0.25 | amount_pct_2.5 | amount_pct_3.4 | amount_pct_4.7 | asset_btc | asset_eth | entity_cpi | entity_비자 | geo_us",
+      "ts": "2026-08-15T04:01:32.296239+00:00"
     }
   }
 }
