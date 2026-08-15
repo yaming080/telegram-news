@@ -4570,6 +4570,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-15T14:01:12.016016+00:00"
+    },
+    "166dac03337b74e7": {
+      "title": "리플 CEO, 와이오밍 심포지엄 연사로 나선다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/391474",
+      "signature": "action_invest | asset_btc | count_people_500 | entity_ceo | entity_리플 | entity_브래드갈링하우스 | geo_korea | geo_us",
+      "canonical_key": "action_invest | asset_btc | count_people_500 | entity_ceo | entity_리플 | entity_브래드갈링하우스 | geo_korea | geo_us",
+      "ts": "2026-08-15T16:01:33.805094+00:00"
     }
   }
 }
