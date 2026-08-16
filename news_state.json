@@ -4640,6 +4640,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-16T09:01:14.150881+00:00"
+    },
+    "f98dcbe513926a7d": {
+      "title": "비트코인 손익 지표 53%, 반전 판단은 이르다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/391653",
+      "signature": "action_develop | action_transfer | amount_pct_48 | amount_pct_53 | asset_btc | object_network",
+      "canonical_key": "action_develop | action_transfer | amount_pct_48 | amount_pct_53 | asset_btc | object_network",
+      "ts": "2026-08-16T10:01:42.667878+00:00"
+    },
+    "eee0d302c6f1cd50": {
+      "title": "1530만달러 넘은 폰스 창작자 수수료",
+      "url": "www.tokenpost.kr/news/cryptocurrency/391650",
+      "signature": "action_approve | action_build | action_issue | action_mint | amount_krw_21600000000 | amount_usd_15300000 | asset_eth | entity_로빈후드 | geo_korea | object_wallet",
+      "canonical_key": "action_approve | action_build | action_issue | action_mint | amount_krw_21600000000 | amount_usd_15300000 | asset_eth | entity_로빈후드 | geo_korea | object_wallet",
+      "ts": "2026-08-16T10:01:47.103273+00:00"
     }
   }
 }
