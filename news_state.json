@@ -4612,6 +4612,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-16T02:01:05.552050+00:00"
+    },
+    "d00cd047e02c405b": {
+      "title": "아이렌 \"AI센터 늘수록 연산 수요 커진다\"",
+      "url": "www.tokenpost.kr/news/cryptocurrency/391575",
+      "signature": "action_convert | action_expand | asset_btc | duration_years_1 | entity_아이렌 | object_infrastructure",
+      "canonical_key": "action_convert | action_expand | asset_btc | duration_years_1 | entity_아이렌 | object_infrastructure",
+      "ts": "2026-08-16T04:01:36.804356+00:00"
     }
   }
 }
