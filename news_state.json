@@ -4605,6 +4605,13 @@
       "signature": "action_expand | action_integrate | action_transfer | amount_pct_22 | amount_pct_7.9 | asset_eth | entity_nil | geo_korea",
       "canonical_key": "action_expand | action_integrate | action_transfer | amount_pct_22 | amount_pct_7.9 | asset_eth | entity_nil | geo_korea",
       "ts": "2026-08-15T21:02:14.376226+00:00"
+    },
+    "5aeb9fde174ce429": {
+      "title": "실질금리, 주식·BTC 국면 판단 지표로 거론",
+      "url": "www.tokenpost.kr/news/cryptocurrency/391558",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-16T02:01:05.552050+00:00"
     }
   }
 }
