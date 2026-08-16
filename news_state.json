@@ -4626,6 +4626,13 @@
       "signature": "action_convert | action_disclose | asset_btc | asset_xrp | entity_리플 | object_disclosure | object_network",
       "canonical_key": "action_convert | action_disclose | asset_btc | asset_xrp | entity_리플 | object_disclosure | object_network",
       "ts": "2026-08-16T07:01:41.239759+00:00"
+    },
+    "3944f3c1477fcca5": {
+      "title": "66개 제안 선별, 이더리움 헤고타 범위 좁힌다",
+      "url": "www.tokenpost.kr/news/blockchain/391628",
+      "signature": "action_appoint | action_develop | action_propose | action_upgrade | asset_eth | geo_korea | object_commissioner",
+      "canonical_key": "action_appoint | action_develop | action_propose | action_upgrade | asset_eth | geo_korea | object_commissioner",
+      "ts": "2026-08-16T08:02:18.300325+00:00"
     }
   }
 }
