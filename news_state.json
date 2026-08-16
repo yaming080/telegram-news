@@ -4661,6 +4661,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-16T12:01:01.373294+00:00"
+    },
+    "6d06070b5388582c": {
+      "title": "텍사스, 1000만달러 비트코인 직접 보관 추진",
+      "url": "www.tokenpost.kr/news/policy/391677",
+      "signature": "action_audit | action_build | action_disclose | action_launch | action_secure | action_sell | amount_krw_14200000000 | amount_usd_10000000 | asset_btc | date_2026_05_28 | entity_블랙록 | object_commissioner | object_disclosure | object_etf | object_fund | object_sale",
+      "canonical_key": "action_audit | action_build | action_disclose | action_launch | action_secure | action_sell | amount_krw_14200000000 | amount_usd_10000000 | asset_btc | date_2026_05_28 | entity_블랙록 | object_commissioner | object_disclosure | object_etf | object_fund | object_sale",
+      "ts": "2026-08-16T13:01:38.081537+00:00"
     }
   }
 }
