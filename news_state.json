@@ -4619,6 +4619,13 @@
       "signature": "action_convert | action_expand | asset_btc | duration_years_1 | entity_아이렌 | object_infrastructure",
       "canonical_key": "action_convert | action_expand | asset_btc | duration_years_1 | entity_아이렌 | object_infrastructure",
       "ts": "2026-08-16T04:01:36.804356+00:00"
+    },
+    "2eec9311b50d1fe3": {
+      "title": "브랜트, 50만 XRP 가정에 BTC 전환 언급",
+      "url": "www.tokenpost.kr/news/cryptocurrency/391612",
+      "signature": "action_convert | action_disclose | asset_btc | asset_xrp | entity_리플 | object_disclosure | object_network",
+      "canonical_key": "action_convert | action_disclose | asset_btc | asset_xrp | entity_리플 | object_disclosure | object_network",
+      "ts": "2026-08-16T07:01:41.239759+00:00"
     }
   }
 }
