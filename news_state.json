@@ -4682,6 +4682,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-16T16:01:04.995383+00:00"
+    },
+    "f086b7b260a0c033": {
+      "title": "MEXC’s August 2026 Proof of Reserves Confirms User Assets Fully Backed as Reserve Ratios Remain Above 100%",
+      "url": "thenewscrypto.com/mexcs-august-2026-proof-of-reserves-confirms-user-assets-fully-backed-as-reserve-ratios-remain-above-100",
+      "signature": "action_audit | action_support | amount_pct_100 | amount_pct_288 | asset_btc | entity_mexc",
+      "canonical_key": "action_audit | action_support | amount_pct_100 | amount_pct_288 | asset_btc | entity_mexc",
+      "ts": "2026-08-16T18:01:42.888211+00:00"
     }
   }
 }
