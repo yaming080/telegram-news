@@ -4668,6 +4668,13 @@
       "signature": "action_audit | action_build | action_disclose | action_launch | action_secure | action_sell | amount_krw_14200000000 | amount_usd_10000000 | asset_btc | date_2026_05_28 | entity_블랙록 | object_commissioner | object_disclosure | object_etf | object_fund | object_sale",
       "canonical_key": "action_audit | action_build | action_disclose | action_launch | action_secure | action_sell | amount_krw_14200000000 | amount_usd_10000000 | asset_btc | date_2026_05_28 | entity_블랙록 | object_commissioner | object_disclosure | object_etf | object_fund | object_sale",
       "ts": "2026-08-16T13:01:38.081537+00:00"
+    },
+    "d839ba669772d2f3": {
+      "title": "Ripple CEO scheduled to deliver a major speech from August 17 to 20; XRP holders set to gain an opportunity to earn $8,000 daily",
+      "url": "crypto.news/ripple-ceo-scheduled-to-deliver-a-major-speech-from-august-17-to-20-xrp-holders-set-to-gain-an-opportunity-to-earn-8000-daily",
+      "signature": "action_launch | amount_usd_8000 | asset_btc | asset_xrp | entity_리플 | entity_브래드갈링하우스",
+      "canonical_key": "action_launch | amount_usd_8000 | asset_btc | asset_xrp | entity_리플 | entity_브래드갈링하우스",
+      "ts": "2026-08-16T14:01:39.682599+00:00"
     }
   }
 }
