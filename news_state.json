@@ -4654,6 +4654,13 @@
       "signature": "action_approve | action_build | action_issue | action_mint | amount_krw_21600000000 | amount_usd_15300000 | asset_eth | entity_로빈후드 | geo_korea | object_wallet",
       "canonical_key": "action_approve | action_build | action_issue | action_mint | amount_krw_21600000000 | amount_usd_15300000 | asset_eth | entity_로빈후드 | geo_korea | object_wallet",
       "ts": "2026-08-16T10:01:47.103273+00:00"
+    },
+    "f248d3e73aa72335": {
+      "title": "Ethereum devs to narrow 66 proposals tied to Hegotá upgrade",
+      "url": "cointelegraph.com/news/ethereum-devs-66-proposals-hegota-upgrade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-16T12:01:01.373294+00:00"
     }
   }
 }
