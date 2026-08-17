@@ -4808,6 +4808,20 @@
       "signature": "action_launch | action_upgrade | asset_eth | entity_이더리움재단 | object_network_upgrade",
       "canonical_key": "action_launch | action_upgrade | asset_eth | entity_이더리움재단 | object_network_upgrade",
       "ts": "2026-08-17T15:02:38.226371+00:00"
+    },
+    "80a93ce81b1c9470": {
+      "title": "이더리움 업그레이드 4분기로 밀렸다…66개 안건 2주 안에 추려야",
+      "url": "www.tokenpost.kr/news/blockchain/392145",
+      "signature": "action_develop | action_launch | action_upgrade | asset_eth | count_shares_2 | entity_이더리움재단 | period_2026_h1",
+      "canonical_key": "action_develop | action_launch | action_upgrade | asset_eth | count_shares_2 | entity_이더리움재단 | period_2026_h1",
+      "ts": "2026-08-17T16:02:04.369959+00:00"
+    },
+    "9356dacf0107e84c": {
+      "title": "FOMC Minutes Could Test Bitcoin Holders in India: Lock In Profits or Hold?",
+      "url": "coinedition.com/fomc-minutes-could-test-bitcoin-holders-in-india-lock-in-profits-or-hold",
+      "signature": "action_publish | amount_usd_63359 | asset_btc | entity_연준 | geo_india",
+      "canonical_key": "action_publish | amount_usd_63359 | asset_btc | entity_연준 | geo_india",
+      "ts": "2026-08-17T16:02:11.884731+00:00"
     }
   }
 }
