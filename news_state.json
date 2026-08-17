@@ -4724,6 +4724,20 @@
       "signature": "action_disclose | action_invest | action_launch | action_purchase | amount_krw_150000000000 | amount_krw_55000000000 | amount_krw_904000000000 | amount_usd_10000000000 | amount_usd_17000000000 | amount_usd_17600000000 | amount_usd_65000 | asset_btc | entity_연준 | object_corporate_crypto_purchase | object_disclosure",
       "canonical_key": "action_disclose | action_invest | action_launch | action_purchase | amount_krw_150000000000 | amount_krw_55000000000 | amount_krw_904000000000 | amount_usd_10000000000 | amount_usd_17000000000 | amount_usd_17600000000 | amount_usd_65000 | asset_btc | entity_연준 | object_corporate_crypto_purchase | object_disclosure",
       "ts": "2026-08-17T09:01:42.257869+00:00"
+    },
+    "a9e303c8bba198a4": {
+      "title": "Blockstream Swaps enters beta testing phase, fills Boltz gap in BTC ecosystem",
+      "url": "www.cryptopolitan.com/blockstream-swaps-beta-fill-gap-boltz-left",
+      "signature": "action_close | action_transfer | asset_btc | object_network",
+      "canonical_key": "action_close | action_transfer | asset_btc | object_network",
+      "ts": "2026-08-17T12:03:15.924152+00:00"
+    },
+    "c853679892cdb711": {
+      "title": "Shiba Inu Alert: Fake Migration Scams Target Shibarium Users",
+      "url": "u.today/shiba-inu-alert-fake-migration-scams-target-shibarium-users",
+      "signature": "action_issue | action_migrate | entity_시바이누",
+      "canonical_key": "action_issue | action_migrate | entity_시바이누",
+      "ts": "2026-08-17T12:03:26.401726+00:00"
     }
   }
 }
