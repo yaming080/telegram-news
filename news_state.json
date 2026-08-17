@@ -1,19 +1,5 @@
 {
   "posted": {
-    "904678f3e3b7": {
-      "title": "China’s Xpeng brings budget Tesla rival to Europe with robots and flying cars",
-      "url": "www.cryptopolitan.com/chinas-xpeng-budget-tesla-rival-europe",
-      "signature": "entity_europe | entity_tesla | entity_xpeng | entity_중국 | eventfp_entity_europe_entity_tesla_entity_xpeng_entity_중국_geo_china | geo_china",
-      "canonical_key": "entity_europe | entity_tesla | entity_xpeng | entity_중국 | eventfp_entity_europe_entity_tesla_entity_xpeng_entity_중국_geo_china | geo_china",
-      "ts": "2026-07-18T18:01:29.551518+00:00"
-    },
-    "cb932ab5595d": {
-      "title": "비트코인 거버넌스 논쟁 재점화…DOG 모드, 검열 아닌 시장 원리 될까",
-      "url": "www.tokenpost.kr/news/blockchain/379094",
-      "signature": "entity_dog",
-      "canonical_key": "entity_dog",
-      "ts": "2026-07-18T18:01:33.670994+00:00"
-    },
     "db1cd69a1c73": {
       "title": "Binance Auto-Burn Destroys 1.6M BNB Worth $932M",
       "url": "bitcoinist.com/binance-auto-burn-destroys-16m-bnb-worth-932m",
@@ -4836,6 +4822,27 @@
       "signature": "action_steal | action_support | amount_btc_28000 | amount_btc_approx_28000 | amount_pct_84 | asset_btc | entity_santimentdatashowsexchange",
       "canonical_key": "action_steal | action_support | amount_btc_28000 | amount_btc_approx_28000 | amount_pct_84 | asset_btc | entity_santimentdatashowsexchange",
       "ts": "2026-08-17T17:01:36.505765+00:00"
+    },
+    "566ca97e731f6c0c": {
+      "title": "엘살바도르, 비트코인 결제의무 5년 만에 접었다…美 33만개로 최대 보유",
+      "url": "www.tokenpost.kr/news/cryptocurrency/392189",
+      "signature": "action_appoint | action_disclose | action_launch | amount_krw_981000000000 | amount_usd_1400000000 | asset_btc | duration_years_5 | entity_imf | object_disclosure | object_fund | object_payment",
+      "canonical_key": "action_appoint | action_disclose | action_launch | amount_krw_981000000000 | amount_usd_1400000000 | asset_btc | duration_years_5 | entity_imf | object_disclosure | object_fund | object_payment",
+      "ts": "2026-08-17T19:02:05.898915+00:00"
+    },
+    "de3d1f3c84bc89d2": {
+      "title": "BNB체인 RWA 보유자 사흘 새 31% 급증, 52만명 넘었다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/392186",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-17T19:02:10.195952+00:00"
+    },
+    "ec87cd15af78ac68": {
+      "title": "비트코인 '두 번째 바닥 신호' 포착...소비자심리는 사상 최저",
+      "url": "www.tokenpost.kr/news/cryptocurrency/392183",
+      "signature": "action_convert | action_propose | asset_btc | entity_비자",
+      "canonical_key": "action_convert | action_propose | asset_btc | entity_비자",
+      "ts": "2026-08-17T19:02:13.675785+00:00"
     }
   }
 }
