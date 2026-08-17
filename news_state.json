@@ -4822,6 +4822,20 @@
       "signature": "action_publish | amount_usd_63359 | asset_btc | entity_연준 | geo_india",
       "canonical_key": "action_publish | amount_usd_63359 | asset_btc | entity_연준 | geo_india",
       "ts": "2026-08-17T16:02:11.884731+00:00"
+    },
+    "f2fa31eed2446c93": {
+      "title": "Bitcoin hits $64K as gold gains while oil shakes off Trump Oman threat",
+      "url": "cointelegraph.com/markets/bitcoin-hits-64k-as-gold-gains-while-oil-shakes-off-trump-oman-threat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_pass | amount_pct_2 | amount_usd_64000 | asset_btc | entity_도널드트럼프 | geo_us",
+      "canonical_key": "action_pass | amount_pct_2 | amount_usd_64000 | asset_btc | entity_도널드트럼프 | geo_us",
+      "ts": "2026-08-17T17:01:32.525615+00:00"
+    },
+    "f5ce5bd3a134eb42": {
+      "title": "Bitcoin Drain Is Over: Santiment Data Shows Exchange Supplies Surge 84%",
+      "url": "u.today/bitcoin-drain-is-over-santiment-data-shows-exchange-supplies-surge-84",
+      "signature": "action_steal | action_support | amount_btc_28000 | amount_btc_approx_28000 | amount_pct_84 | asset_btc | entity_santimentdatashowsexchange",
+      "canonical_key": "action_steal | action_support | amount_btc_28000 | amount_btc_approx_28000 | amount_pct_84 | asset_btc | entity_santimentdatashowsexchange",
+      "ts": "2026-08-17T17:01:36.505765+00:00"
     }
   }
 }
