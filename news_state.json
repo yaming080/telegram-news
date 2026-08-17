@@ -4794,6 +4794,20 @@
       "signature": "action_file | action_purchase | action_sell | amount_btc_840447 | amount_btc_approx_840400 | amount_usd_333700000 | asset_btc | entity_mstr | entity_sec | entity_스트래티지 | geo_us | object_corporate_crypto_purchase",
       "canonical_key": "action_file | action_purchase | action_sell | amount_btc_840447 | amount_btc_approx_840400 | amount_usd_333700000 | asset_btc | entity_mstr | entity_sec | entity_스트래티지 | geo_us | object_corporate_crypto_purchase",
       "ts": "2026-08-17T14:02:34.016603+00:00"
+    },
+    "480b3011562fa774": {
+      "title": "Russia’s leading stock exchange to offer perpetual futures on BTC and ETH",
+      "url": "www.cryptopolitan.com/moscow-exchange-perps-futures-btc-eth",
+      "signature": "action_invest | asset_btc | asset_eth | geo_russia | object_derivatives",
+      "canonical_key": "action_invest | asset_btc | asset_eth | geo_russia | object_derivatives",
+      "ts": "2026-08-17T15:02:13.236194+00:00"
+    },
+    "b4e7bb819681f02d": {
+      "title": "Ethereum opens Glamsterdam open to public testing with Platåberget launch",
+      "url": "www.cryptopolitan.com/ethereum-plataberget-testnet-for-glamsterdam",
+      "signature": "action_launch | action_upgrade | asset_eth | entity_이더리움재단 | object_network_upgrade",
+      "canonical_key": "action_launch | action_upgrade | asset_eth | entity_이더리움재단 | object_network_upgrade",
+      "ts": "2026-08-17T15:02:38.226371+00:00"
     }
   }
 }
