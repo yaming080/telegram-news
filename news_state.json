@@ -4738,6 +4738,48 @@
       "signature": "action_issue | action_migrate | entity_시바이누",
       "canonical_key": "action_issue | action_migrate | entity_시바이누",
       "ts": "2026-08-17T12:03:26.401726+00:00"
+    },
+    "7ce9edc1ae3d382b": {
+      "title": "XRP Biggest Problem Isn’t Utility, but Value Capture, Altcoin Daily Founder Says",
+      "url": "thecryptobasic.com/2026/08/17/xrp-biggest-problem-isnt-utility-but-value-capture-altcoin-daily-founder-says",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-17T13:02:52.947622+00:00"
+    },
+    "372baf968c833162": {
+      "title": "Cardano Sets Two-Phase Roadmap for Dijkstra Upgrade Through 2027",
+      "url": "thecryptobasic.com/2026/08/17/cardano-sets-two-phase-roadmap-for-dijkstra-upgrade-through-2027",
+      "signature": "action_launch | action_upgrade | entity_카르다노 | object_network",
+      "canonical_key": "action_launch | action_upgrade | entity_카르다노 | object_network",
+      "ts": "2026-08-17T13:02:56.897924+00:00"
+    },
+    "96bed0bc950b53af": {
+      "title": "Shibarium Quietly Burns Hundreds of Millions of SHIB Despite Activity Concerns, Shiba Inu Contributor Says",
+      "url": "thecryptobasic.com/2026/08/17/shibarium-quietly-burns-hundreds-of-millions-of-shib-despite-activity-concerns-shiba-inu-contributor-says",
+      "signature": "action_disclose | entity_시바이누 | object_disclosure | object_network",
+      "canonical_key": "action_disclose | entity_시바이누 | object_disclosure | object_network",
+      "ts": "2026-08-17T13:03:00.675930+00:00"
+    },
+    "0ca78ded4afa2b9b": {
+      "title": "VanEck Lists XRP Ledger in $45B Corporate Blockchain Opportunity in Payments, Settlement and Securitization",
+      "url": "thecryptobasic.com/2026/08/17/vaneck-lists-xrp-ledger-in-45b-corporate-blockchain-opportunity-in-payments-settlement-and-securitization",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-17T13:03:05.117196+00:00"
+    },
+    "0d28ec2fb2c6801f": {
+      "title": "BITmarkets Publishes New Study Ranking the Top 10 Athletes in Crypto Partnerships",
+      "url": "cryptopotato.com/bitmarkets-publishes-new-study-ranking-the-top-10-athletes-in-crypto-partnerships",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-17T13:03:08.723200+00:00"
+    },
+    "170ddd9ed2fd327f": {
+      "title": "TRON Enters Deflationary Era as JST, SUN, BTT, and WIN Drive New Value Flywheel",
+      "url": "thenewscrypto.com/tron-enters-deflationary-era-as-jst-sun-btt-and-win-drive-new-value-flywheel",
+      "signature": "action_launch | action_redeem | action_secure | action_transfer | action_upgrade | entity_btt | entity_jst | entity_sun",
+      "canonical_key": "action_launch | action_redeem | action_secure | action_transfer | action_upgrade | entity_btt | entity_jst | entity_sun",
+      "ts": "2026-08-17T13:03:12.411846+00:00"
     }
   }
 }
