@@ -1,12 +1,5 @@
 {
   "posted": {
-    "671ffa6587a7": {
-      "title": "Hoskinson wants Bitcoin’s money on Cardano. Here’s the plan.",
-      "url": "crypto.news/cardano-bitcoin-defi-pogun-ada-demand",
-      "signature": "asset_ada | asset_btc | asset_eth | entity_cardano | entity_cardanohere | entity_hoskinson | eventfp_asset_ada_entity_cardano_entity_cardanohere_entity_hoskinson_topic_bill_topic_card_reward | topic_bill | topic_card_reward",
-      "canonical_key": "asset_ada | asset_btc | asset_eth | entity_cardano | entity_cardanohere | entity_hoskinson | eventfp_asset_ada_entity_cardano_entity_cardanohere_entity_hoskinson_topic_bill_topic_card_reward | topic_bill | topic_card_reward",
-      "ts": "2026-07-18T20:01:08.457013+00:00"
-    },
     "870b1e4daae0": {
       "title": "Did L2s break Ethereum’s ultrasound money?",
       "url": "crypto.news/ethereum-ultrasound-money-l2-burn-broken",
@@ -4822,6 +4815,13 @@
       "signature": "action_convert | action_propose | asset_btc | entity_비자",
       "canonical_key": "action_convert | action_propose | asset_btc | entity_비자",
       "ts": "2026-08-17T19:02:13.675785+00:00"
+    },
+    "19e5cc92a31cce82": {
+      "title": "461,981% Gain: Satoshi-Era Bitcoin Address Awakens After 15 Years",
+      "url": "u.today/461981-gain-satoshi-era-bitcoin-address-awakens-after-15-years",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-17T21:01:02.340309+00:00"
     }
   }
 }
