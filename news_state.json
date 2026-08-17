@@ -4717,6 +4717,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-17T07:01:13.788618+00:00"
+    },
+    "375b99b318985f9a": {
+      "title": "170억달러 연준 매입, 새 양적완화 아니다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/392010",
+      "signature": "action_disclose | action_invest | action_launch | action_purchase | amount_krw_150000000000 | amount_krw_55000000000 | amount_krw_904000000000 | amount_usd_10000000000 | amount_usd_17000000000 | amount_usd_17600000000 | amount_usd_65000 | asset_btc | entity_연준 | object_corporate_crypto_purchase | object_disclosure",
+      "canonical_key": "action_disclose | action_invest | action_launch | action_purchase | amount_krw_150000000000 | amount_krw_55000000000 | amount_krw_904000000000 | amount_usd_10000000000 | amount_usd_17000000000 | amount_usd_17600000000 | amount_usd_65000 | asset_btc | entity_연준 | object_corporate_crypto_purchase | object_disclosure",
+      "ts": "2026-08-17T09:01:42.257869+00:00"
     }
   }
 }
