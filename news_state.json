@@ -4703,6 +4703,13 @@
       "signature": "action_file | action_issue | action_mint | action_sell | amount_btc_7500 | amount_btc_approx_7500 | amount_krw_191400000000 | amount_krw_299700000000 | amount_usd_1000000 | amount_usd_11800000 | amount_usd_211800000 | amount_usd_42000000 | amount_usd_501000000 | amount_usd_842000000 | asset_btc | date_2026_03_31 | entity_sec | object_commissioner | object_sale | period_2026_h1",
       "canonical_key": "action_file | action_issue | action_mint | action_sell | amount_btc_7500 | amount_btc_approx_7500 | amount_krw_191400000000 | amount_krw_299700000000 | amount_usd_1000000 | amount_usd_11800000 | amount_usd_211800000 | amount_usd_42000000 | amount_usd_501000000 | amount_usd_842000000 | asset_btc | date_2026_03_31 | entity_sec | object_commissioner | object_sale | period_2026_h1",
       "ts": "2026-08-16T19:02:13.046393+00:00"
+    },
+    "01624f988e85334a": {
+      "title": "Ethereum’s Vitalik backs Bitcoin-inspired scaling model",
+      "url": "crypto.news/ethereum-scaling-takes-lessons-from-bitcoin-utreexo",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-17T05:01:14.268148+00:00"
     }
   }
 }
