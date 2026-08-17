@@ -4780,6 +4780,20 @@
       "signature": "action_launch | action_redeem | action_secure | action_transfer | action_upgrade | entity_btt | entity_jst | entity_sun",
       "canonical_key": "action_launch | action_redeem | action_secure | action_transfer | action_upgrade | entity_btt | entity_jst | entity_sun",
       "ts": "2026-08-17T13:03:12.411846+00:00"
+    },
+    "116eecfec61437b2": {
+      "title": "No BTC sale this week as Strategy builds USD reserve to $4.8B",
+      "url": "www.cryptopolitan.com/strategy-skips-btc-sale-lifts-dollar-reserve",
+      "signature": "action_build | action_purchase | action_support | amount_usd_333700000 | amount_usd_4800000000 | asset_btc | entity_usd | entity_스트래티지 | object_sale",
+      "canonical_key": "action_build | action_purchase | action_support | amount_usd_333700000 | amount_usd_4800000000 | asset_btc | entity_usd | entity_스트래티지 | object_sale",
+      "ts": "2026-08-17T14:02:30.587207+00:00"
+    },
+    "9c2fb02e95c14410": {
+      "title": "Strategy skips Bitcoin purchase after raising $333.7M from MSTR sales",
+      "url": "crypto.news/strategy-skips-bitcoin-purchase-after-raising-333-7m-from-mstr-sales",
+      "signature": "action_file | action_purchase | action_sell | amount_btc_840447 | amount_btc_approx_840400 | amount_usd_333700000 | asset_btc | entity_mstr | entity_sec | entity_스트래티지 | geo_us | object_corporate_crypto_purchase",
+      "canonical_key": "action_file | action_purchase | action_sell | amount_btc_840447 | amount_btc_approx_840400 | amount_usd_333700000 | asset_btc | entity_mstr | entity_sec | entity_스트래티지 | geo_us | object_corporate_crypto_purchase",
+      "ts": "2026-08-17T14:02:34.016603+00:00"
     }
   }
 }
