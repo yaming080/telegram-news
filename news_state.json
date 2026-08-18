@@ -4892,6 +4892,27 @@
       "signature": "action_launch | action_support | asset_btc | object_custody",
       "canonical_key": "action_launch | action_support | asset_btc | object_custody",
       "ts": "2026-08-18T13:02:06.189340+00:00"
+    },
+    "7c9c7d501e385caf": {
+      "title": "Ripple lands a Korean bank as Seoul moves to block Polymarket",
+      "url": "www.cryptopolitan.com/ripple-in-polymarket-out-in-south-korea",
+      "signature": "action_approve | action_integrate | action_partner | action_transfer | entity_리플 | entity_폴리마켓 | geo_korea | geo_seoul",
+      "canonical_key": "action_approve | action_integrate | action_partner | action_transfer | entity_리플 | entity_폴리마켓 | geo_korea | geo_seoul",
+      "ts": "2026-08-18T14:03:01.768324+00:00"
+    },
+    "cb5a3ce2e6ffcb0d": {
+      "title": "레드스톤, HINC 온체인 NAV 4개 체인에 공급",
+      "url": "www.tokenpost.kr/news/cryptocurrency/392593",
+      "signature": "action_disclose | action_launch | action_purchase | asset_eth | asset_sol | entity_hinc | entity_nav | object_disclosure | object_fund",
+      "canonical_key": "action_disclose | action_launch | action_purchase | asset_eth | asset_sol | entity_hinc | entity_nav | object_disclosure | object_fund",
+      "ts": "2026-08-18T14:03:06.232877+00:00"
+    },
+    "47fee17067464b44": {
+      "title": "Ethereum: Platåberget Testnet Goes Live for Upcoming Glamsterdam Upgrade",
+      "url": "u.today/ethereum-plataberget-testnet-goes-live-for-upcoming-glamsterdam-upgrade",
+      "signature": "action_launch | action_upgrade | asset_eth | object_network_upgrade",
+      "canonical_key": "action_launch | action_upgrade | asset_eth | object_network_upgrade",
+      "ts": "2026-08-18T14:03:10.384134+00:00"
     }
   }
 }
