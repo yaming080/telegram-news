@@ -4920,6 +4920,27 @@
       "signature": "action_audit | action_build | action_develop | action_upgrade | amount_krw_7800000000 | amount_usd_5500000 | asset_eth | entity_이더리움재단 | object_network_upgrade | period_2026_q2 | period_2026_q4",
       "canonical_key": "action_audit | action_build | action_develop | action_upgrade | amount_krw_7800000000 | amount_usd_5500000 | asset_eth | entity_이더리움재단 | object_network_upgrade | period_2026_q2 | period_2026_q4",
       "ts": "2026-08-18T15:01:55.074075+00:00"
+    },
+    "1fd19c4949c600ab": {
+      "title": "Jeonbuk Bank Adopts Ripple Payments: What Does It Mean for Customers?",
+      "url": "coinedition.com/jeonbuk-bank-adopts-ripple-payments-what-does-it-mean-for-customers",
+      "signature": "action_adopt | action_partner | action_transfer | entity_리플 | geo_korea",
+      "canonical_key": "action_adopt | action_partner | action_transfer | entity_리플 | geo_korea",
+      "ts": "2026-08-18T16:02:30.330490+00:00"
+    },
+    "f35c85b2b7019ed4": {
+      "title": "Metaplanet Makes 2,100 BTC Investment to Launch U.S. Bitcoin Treasury Platform",
+      "url": "u.today/metaplanet-makes-2100-btc-investment-to-launch-us-bitcoin-treasury-platform",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-18T16:02:33.936346+00:00"
+    },
+    "31bd6cb9a3ab1bee": {
+      "title": "Metaplanet commits 2,100 BTC to launch US treasury",
+      "url": "crypto.news/metaplanet-commits-2100-btc-to-launch-us-treasury",
+      "signature": "action_invest | action_launch | action_propose | action_publish | action_secure | amount_btc_2100 | amount_btc_approx_2100 | amount_pct_95.7 | amount_usd_2500000 | asset_btc | entity_메타플래닛 | geo_us",
+      "canonical_key": "action_invest | action_launch | action_propose | action_publish | action_secure | amount_btc_2100 | amount_btc_approx_2100 | amount_pct_95.7 | amount_usd_2500000 | asset_btc | entity_메타플래닛 | geo_us",
+      "ts": "2026-08-18T16:02:39.258325+00:00"
     }
   }
 }
