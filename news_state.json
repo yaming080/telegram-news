@@ -4815,6 +4815,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-17T21:01:02.340309+00:00"
+    },
+    "2b7df705033c1081": {
+      "title": "밈코인 거래세, 자선 계약 전송 기능 새로 붙었다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/392299",
+      "signature": "action_appoint | action_issue | action_mint | action_transfer | action_upgrade | amount_pct_100 | entity_바이낸스 | geo_korea",
+      "canonical_key": "action_appoint | action_issue | action_mint | action_transfer | action_upgrade | amount_pct_100 | entity_바이낸스 | geo_korea",
+      "ts": "2026-08-18T04:01:39.964410+00:00"
     }
   }
 }
