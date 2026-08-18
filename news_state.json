@@ -4990,6 +4990,13 @@
       "signature": "action_launch | asset_btc | object_custody",
       "canonical_key": "action_launch | asset_btc | object_custody",
       "ts": "2026-08-18T20:01:34.189360+00:00"
+    },
+    "5c5ea320fa5589ea": {
+      "title": "캔톤, 이더리움·솔라나·로빈후드 체인 연결",
+      "url": "www.tokenpost.kr/news/blockchain/392785",
+      "signature": "action_invest | action_launch | asset_eth | asset_sol | entity_로빈후드 | object_custody | object_infrastructure | object_network",
+      "canonical_key": "action_invest | action_launch | asset_eth | asset_sol | entity_로빈후드 | object_custody | object_infrastructure | object_network",
+      "ts": "2026-08-18T21:01:35.467524+00:00"
     }
   }
 }
