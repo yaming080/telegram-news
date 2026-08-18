@@ -1,12 +1,5 @@
 {
   "posted": {
-    "3f5e75e65784": {
-      "title": "BNB Chain takes 61.7% of Franklin Templeton’s Benji platform",
-      "url": "crypto.news/bnb-chain-takes-61-7-of-franklin-templetons-benji-platform",
-      "signature": "act_bill | asset_bnb | entity_benji | entity_bnbchain | entity_프랭클린템플턴 | eventfp_entity_benji_entity_bnbchain_entity_프랭클린템플턴_topic_bill | num_5 | topic_bill",
-      "canonical_key": "entity_benji | entity_bnbchain | entity_프랭클린템플턴 | eventfp_entity_benji_entity_bnbchain_entity_프랭클린템플턴_topic_bill | topic_bill",
-      "ts": "2026-07-19T08:01:09.870946+00:00"
-    },
     "c98276c38f78": {
       "title": "South Korean regulator begins sanctions process against Dunamu: Report",
       "url": "cointelegraph.com/news/south-korean-regulator-inspection-letter-upbit-36m-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
