@@ -4871,6 +4871,27 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-18T11:01:12.389331+00:00"
+    },
+    "fa42f98333584279": {
+      "title": "XRP Whales Are Back: $1M Transactions Surge 280% as Price Trades at 73% Discount",
+      "url": "thecryptobasic.com/2026/08/18/xrp-whales-are-back-1m-transactions-surge-280-as-price-trades-at-73-discount",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-18T13:01:59.937967+00:00"
+    },
+    "ace99d1cc37a2445": {
+      "title": "Jeonbuk Bank Makes Landmark Move as First Regional Korean Bank to Adopt Ripple Payments",
+      "url": "thecryptobasic.com/2026/08/18/jeonbuk-bank-makes-landmark-move-as-first-regional-korean-bank-to-adopt-ripple-payments",
+      "signature": "action_adopt | action_partner | action_transfer | entity_firstregionalkoreanbank | entity_jeonbukbankmakeslandmark | entity_리플 | geo_korea | object_payment",
+      "canonical_key": "action_adopt | action_partner | action_transfer | entity_firstregionalkoreanbank | entity_jeonbukbankmakeslandmark | entity_리플 | geo_korea | object_payment",
+      "ts": "2026-08-18T13:02:03.722565+00:00"
+    },
+    "ea1cdd54e2349fe5": {
+      "title": "Wall Street Giant Citi to Launch Bitcoin Custody Later This Year",
+      "url": "cryptopotato.com/wall-street-giant-citi-to-launch-bitcoin-custody-later-this-year",
+      "signature": "action_launch | action_support | asset_btc | object_custody",
+      "canonical_key": "action_launch | action_support | asset_btc | object_custody",
+      "ts": "2026-08-18T13:02:06.189340+00:00"
     }
   }
 }
