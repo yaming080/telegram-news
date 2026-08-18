@@ -4864,6 +4864,13 @@
       "signature": "action_partner | entity_리플 | geo_korea",
       "canonical_key": "action_partner | entity_리플 | geo_korea",
       "ts": "2026-08-18T05:05:05.253028+00:00"
+    },
+    "8ff2e842c8606b46": {
+      "title": "60일 협상 종료, WTI 84.92달러까지 올라",
+      "url": "www.tokenpost.kr/news/cryptocurrency/392335",
+      "signature": "action_appoint | action_restore | asset_btc | entity_wti | geo_us",
+      "canonical_key": "action_appoint | action_restore | asset_btc | entity_wti | geo_us",
+      "ts": "2026-08-18T06:01:33.513656+00:00"
     }
   }
 }
