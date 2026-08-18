@@ -4913,6 +4913,13 @@
       "signature": "action_launch | action_upgrade | asset_eth | object_network_upgrade",
       "canonical_key": "action_launch | action_upgrade | asset_eth | object_network_upgrade",
       "ts": "2026-08-18T14:03:10.384134+00:00"
+    },
+    "d3648642b4227ecf": {
+      "title": "이더리움재단, 2분기 550만달러 지원금 집행",
+      "url": "www.tokenpost.kr/news/blockchain/392629",
+      "signature": "action_audit | action_build | action_develop | action_upgrade | amount_krw_7800000000 | amount_usd_5500000 | asset_eth | entity_이더리움재단 | object_network_upgrade | period_2026_q2 | period_2026_q4",
+      "canonical_key": "action_audit | action_build | action_develop | action_upgrade | amount_krw_7800000000 | amount_usd_5500000 | asset_eth | entity_이더리움재단 | object_network_upgrade | period_2026_q2 | period_2026_q4",
+      "ts": "2026-08-18T15:01:55.074075+00:00"
     }
   }
 }
