@@ -4941,6 +4941,20 @@
       "signature": "action_invest | action_launch | action_propose | action_publish | action_secure | amount_btc_2100 | amount_btc_approx_2100 | amount_pct_95.7 | amount_usd_2500000 | asset_btc | entity_메타플래닛 | geo_us",
       "canonical_key": "action_invest | action_launch | action_propose | action_publish | action_secure | amount_btc_2100 | amount_btc_approx_2100 | amount_pct_95.7 | amount_usd_2500000 | asset_btc | entity_메타플래닛 | geo_us",
       "ts": "2026-08-18T16:02:39.258325+00:00"
+    },
+    "a45e38f3af87cafb": {
+      "title": "Neuberger teams with Securitize on multi-chain tokenized fixed-income fund launch",
+      "url": "cointelegraph.com/news/neuberger-launches-tokenized-fixed-income-fund-with-securitize?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_launch | amount_usd_613000000000 | asset_eth | asset_sol | object_fund",
+      "canonical_key": "action_launch | amount_usd_613000000000 | asset_eth | asset_sol | object_fund",
+      "ts": "2026-08-18T17:02:32.885436+00:00"
+    },
+    "bf87daa2b72edc76": {
+      "title": "Ripple's $449 Million Stablecoin Mint on XRP Ledger Ends Up With 99% Burn Rate",
+      "url": "u.today/ripples-449-million-stablecoin-mint-on-xrp-ledger-ends-up-with-99-burn-rate",
+      "signature": "action_mint | amount_pct_99 | amount_usd_449000000 | asset_eth | asset_stablecoin | asset_xrp | asset_xrpl | entity_리플",
+      "canonical_key": "action_mint | amount_pct_99 | amount_usd_449000000 | asset_eth | asset_stablecoin | asset_xrp | asset_xrpl | entity_리플",
+      "ts": "2026-08-18T17:02:37.176162+00:00"
     }
   }
 }
