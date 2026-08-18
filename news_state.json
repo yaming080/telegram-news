@@ -4997,6 +4997,13 @@
       "signature": "action_invest | action_launch | asset_eth | asset_sol | entity_로빈후드 | object_custody | object_infrastructure | object_network",
       "canonical_key": "action_invest | action_launch | asset_eth | asset_sol | entity_로빈후드 | object_custody | object_infrastructure | object_network",
       "ts": "2026-08-18T21:01:35.467524+00:00"
+    },
+    "57a03dd2118015d6": {
+      "title": "Metaplanet Makes $135M US Bet to Build New Bitcoin Treasury Hub",
+      "url": "coinedition.com/metaplanet-makes-135m-us-bet-to-build-new-bitcoin-treasury",
+      "signature": "action_build | action_expand | action_invest | amount_usd_134600000 | amount_usd_135000000 | asset_btc | entity_스트래티지 | geo_us",
+      "canonical_key": "action_build | action_expand | action_invest | amount_usd_134600000 | amount_usd_135000000 | asset_btc | entity_스트래티지 | geo_us",
+      "ts": "2026-08-18T22:01:41.470729+00:00"
     }
   }
 }
