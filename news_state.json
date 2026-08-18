@@ -4822,6 +4822,48 @@
       "signature": "action_appoint | action_issue | action_mint | action_transfer | action_upgrade | amount_pct_100 | entity_바이낸스 | geo_korea",
       "canonical_key": "action_appoint | action_issue | action_mint | action_transfer | action_upgrade | amount_pct_100 | entity_바이낸스 | geo_korea",
       "ts": "2026-08-18T04:01:39.964410+00:00"
+    },
+    "c1e687063a8dc95e": {
+      "title": "South Korea’s Jeonbuk Bank taps Ripple for cross-border payments",
+      "url": "cointelegraph.com/news/jeonbuk-bank-ripple-cross-border-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_appoint | action_launch | entity_jeonbukbank | entity_리플 | geo_korea",
+      "canonical_key": "action_appoint | action_launch | entity_jeonbukbank | entity_리플 | geo_korea",
+      "ts": "2026-08-18T05:04:09.002927+00:00"
+    },
+    "3e9ea794c7e6a2c4": {
+      "title": "Jane Street’s $990M Bitcoin ETF stake puts a top market maker back in the price spotlight",
+      "url": "www.cryptopolitan.com/jane-streets-990m-bitcoin-etf-stake-puts-a-top-market-maker",
+      "signature": "action_support | amount_btc_15394 | amount_btc_approx_15400 | amount_usd_990000000 | asset_btc | entity_sec | geo_us | object_etf | object_etf_holdings",
+      "canonical_key": "action_support | amount_btc_15394 | amount_btc_approx_15400 | amount_usd_990000000 | asset_btc | entity_sec | geo_us | object_etf | object_etf_holdings",
+      "ts": "2026-08-18T05:04:30.167740+00:00"
+    },
+    "d1a0e55ca9def10f": {
+      "title": "Pando Rings oracle exploiter resurfaces, routes ETH into Tornado Cash",
+      "url": "www.cryptopolitan.com/pando-rings-oracle-exploiter-resurfaces-routes-eth-into-tornado-cash",
+      "signature": "action_hack | amount_eth_1570 | amount_eth_800 | amount_eth_approx_1600 | amount_eth_approx_800 | asset_eth | object_wallet",
+      "canonical_key": "action_hack | amount_eth_1570 | amount_eth_800 | amount_eth_approx_1600 | amount_eth_approx_800 | asset_eth | object_wallet",
+      "ts": "2026-08-18T05:04:53.414054+00:00"
+    },
+    "110ef611b8485b8c": {
+      "title": "232만달러 QQQ온 매수, 이더리움서 처리",
+      "url": "www.tokenpost.kr/news/cryptocurrency/392313",
+      "signature": "action_disclose | action_launch | action_purchase | amount_usd_2320000 | asset_eth | geo_korea | object_corporate_crypto_purchase | object_disclosure | object_etf | object_fund | object_trust",
+      "canonical_key": "action_disclose | action_launch | action_purchase | amount_usd_2320000 | asset_eth | geo_korea | object_corporate_crypto_purchase | object_disclosure | object_etf | object_fund | object_trust",
+      "ts": "2026-08-18T05:04:57.688411+00:00"
+    },
+    "c192c89bdb714995": {
+      "title": "Ripple Payments Adopted by South Korean Bank",
+      "url": "u.today/ripple-payments-adopted-by-south-korean-bank",
+      "signature": "action_adopt | entity_southkoreanbank | entity_리플 | geo_korea",
+      "canonical_key": "action_adopt | entity_southkoreanbank | entity_리플 | geo_korea",
+      "ts": "2026-08-18T05:05:01.123626+00:00"
+    },
+    "28c04523945ceece": {
+      "title": "Ripple signs first Korean regional bank payments deal",
+      "url": "crypto.news/ripple-signs-first-korean-regional-bank-payments-deal",
+      "signature": "action_partner | entity_리플 | geo_korea",
+      "canonical_key": "action_partner | entity_리플 | geo_korea",
+      "ts": "2026-08-18T05:05:05.253028+00:00"
     }
   }
 }
