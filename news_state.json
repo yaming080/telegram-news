@@ -4983,6 +4983,13 @@
       "signature": "action_invest | action_issue | action_launch | asset_eth | asset_sol | object_fund",
       "canonical_key": "action_invest | action_issue | action_launch | asset_eth | asset_sol | object_fund",
       "ts": "2026-08-18T19:01:52.691483+00:00"
+    },
+    "6db56c07498df476": {
+      "title": "Citi to launch Bitcoin custody for institutions by year-end",
+      "url": "crypto.news/citi-to-launch-bitcoin-custody-institutions-year-end",
+      "signature": "action_launch | asset_btc | object_custody",
+      "canonical_key": "action_launch | asset_btc | object_custody",
+      "ts": "2026-08-18T20:01:34.189360+00:00"
     }
   }
 }
