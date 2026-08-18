@@ -1,12 +1,5 @@
 {
   "posted": {
-    "96213f289e16": {
-      "title": "가상자산 시장, 본격 단속 체제 돌입…시세조종 30건 적발",
-      "url": "www.tokenpost.kr/news/cryptocurrency/379181",
-      "signature": "action_probe",
-      "canonical_key": "action_probe",
-      "ts": "2026-07-19T06:01:23.072531+00:00"
-    },
     "3f5e75e65784": {
       "title": "BNB Chain takes 61.7% of Franklin Templeton’s Benji platform",
       "url": "crypto.news/bnb-chain-takes-61-7-of-franklin-templetons-benji-platform",
@@ -4871,6 +4864,20 @@
       "signature": "action_appoint | action_restore | asset_btc | entity_wti | geo_us",
       "canonical_key": "action_appoint | action_restore | asset_btc | entity_wti | geo_us",
       "ts": "2026-08-18T06:01:33.513656+00:00"
+    },
+    "5c1f18952316b8e5": {
+      "title": "Important Ripple (XRP) Partnership Targets Cross-Border Remittances",
+      "url": "cryptopotato.com/important-ripple-xrp-partnership-targets-cross-border-remittances",
+      "signature": "action_partner | action_transfer | asset_xrp | entity_리플 | geo_korea",
+      "canonical_key": "action_partner | action_transfer | asset_xrp | entity_리플 | geo_korea",
+      "ts": "2026-08-18T07:02:27.592278+00:00"
+    },
+    "135da3f089199894": {
+      "title": "Jane Street Reveals Over $1 Billion Invested in Bitcoin ETFs",
+      "url": "cryptopotato.com/jane-street-reveals-over-1-billion-invested-in-bitcoin-etfs",
+      "signature": "action_invest | amount_usd_1000000000 | asset_btc | entity_블랙록 | object_etf | object_fund",
+      "canonical_key": "action_invest | amount_usd_1000000000 | asset_btc | entity_블랙록 | object_etf | object_fund",
+      "ts": "2026-08-18T07:02:31.319206+00:00"
     }
   }
 }
