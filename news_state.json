@@ -1,12 +1,5 @@
 {
   "posted": {
-    "131661667043": {
-      "title": "비리오 그로스, 美 펜실베이니아 진출…2000만 달러 인수로 대마 사업 확장",
-      "url": "www.tokenpost.kr/news/economy/379255",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-19T17:01:07.428847+00:00"
-    },
     "cd95d0a752b8": {
       "title": "Russia’s parliament to hold final readings on crypto bill Tuesday",
       "url": "cointelegraph.com/news/russia-crypto-bill-final-readings-july-21?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -4955,6 +4948,20 @@
       "signature": "action_mint | amount_pct_99 | amount_usd_449000000 | asset_eth | asset_stablecoin | asset_xrp | asset_xrpl | entity_리플",
       "canonical_key": "action_mint | amount_pct_99 | amount_usd_449000000 | asset_eth | asset_stablecoin | asset_xrp | asset_xrpl | entity_리플",
       "ts": "2026-08-18T17:02:37.176162+00:00"
+    },
+    "4e1263c097b175e9": {
+      "title": "이더리움 거래 은닉 논의 초안 단계에 머물러",
+      "url": "www.tokenpost.kr/news/blockchain/392717",
+      "signature": "action_disclose | action_launch | action_propose | asset_eth | object_disclosure | object_network | reference_eip_8184",
+      "canonical_key": "action_disclose | action_launch | action_propose | asset_eth | object_disclosure | object_network | reference_eip_8184",
+      "ts": "2026-08-18T18:02:27.637090+00:00"
+    },
+    "af14a42db8dc7224": {
+      "title": "Nasdaq’s 23-Hour Trading: What Changes for Nifty, Options, Stocks, and Bitcoin?",
+      "url": "coinedition.com/nasdaqs-23-hour-trading-what-changes-for-nifty-options-stocks-and-bitcoin",
+      "signature": "action_approve | asset_btc | date_2026_04_10 | entity_sec | geo_india | geo_us",
+      "canonical_key": "action_approve | asset_btc | date_2026_04_10 | entity_sec | geo_india | geo_us",
+      "ts": "2026-08-18T18:02:33.195814+00:00"
     }
   }
 }
