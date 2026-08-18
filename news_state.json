@@ -5004,6 +5004,13 @@
       "signature": "action_build | action_expand | action_invest | amount_usd_134600000 | amount_usd_135000000 | asset_btc | entity_스트래티지 | geo_us",
       "canonical_key": "action_build | action_expand | action_invest | amount_usd_134600000 | amount_usd_135000000 | asset_btc | entity_스트래티지 | geo_us",
       "ts": "2026-08-18T22:01:41.470729+00:00"
+    },
+    "1a5885aa45ff1ea8": {
+      "title": "SPYb, 디파이에 630만달러 유동성 모았다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/392831",
+      "signature": "action_invest | action_issue | action_mint | action_propose | amount_krw_31100000000 | amount_krw_8900000000 | amount_krw_9200000000 | amount_usd_22000000 | amount_usd_6300000 | amount_usd_6500000 | entity_바이낸스 | geo_us | object_etf | object_etf_holdings",
+      "canonical_key": "action_invest | action_issue | action_mint | action_propose | amount_krw_31100000000 | amount_krw_8900000000 | amount_krw_9200000000 | amount_usd_22000000 | amount_usd_6300000 | amount_usd_6500000 | entity_바이낸스 | geo_us | object_etf | object_etf_holdings",
+      "ts": "2026-08-18T23:01:48.815884+00:00"
     }
   }
 }
