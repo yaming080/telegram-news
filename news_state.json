@@ -4871,6 +4871,13 @@
       "signature": "action_invest | amount_usd_1000000000 | asset_btc | entity_블랙록 | object_etf | object_fund",
       "canonical_key": "action_invest | amount_usd_1000000000 | asset_btc | entity_블랙록 | object_etf | object_fund",
       "ts": "2026-08-18T07:02:31.319206+00:00"
+    },
+    "9df8b31c4d11e52e": {
+      "title": "비트코인 6만4000달러 정체, 금리·유가 부담",
+      "url": "www.tokenpost.kr/news/cryptocurrency/392462",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-18T11:01:12.389331+00:00"
     }
   }
 }
