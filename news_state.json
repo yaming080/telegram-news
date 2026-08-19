@@ -1,19 +1,5 @@
 {
   "posted": {
-    "02f26ac6fc6d": {
-      "title": "Jeff Bezos joins $450M funding round for AI startup CuspAI",
-      "url": "www.cryptopolitan.com/jeff-bezos-450m-funding-round-ai-cuspai",
-      "signature": "entity_ai | entity_cuspai | entity_jeffbezos | eventfp_entity_ai_entity_cuspai_entity_jeffbezos_geo_uk | geo_uk",
-      "canonical_key": "entity_ai | entity_cuspai | entity_jeffbezos | eventfp_entity_ai_entity_cuspai_entity_jeffbezos_geo_uk | geo_uk",
-      "ts": "2026-07-20T16:01:46.639154+00:00"
-    },
-    "59e96cc11c8c": {
-      "title": "Trust Wallet Launches AI Financial Intelligence Layer",
-      "url": "thenewscrypto.com/trust-wallet-launches-ai-financial-intelligence-layer",
-      "signature": "entity_financialintelligencelayer | entity_trustwalletlaunchesai | eventfp_entity_financialintelligencelayer_entity_trustwalletlaunchesai_topic_custody_topic_wallet | topic_custody | topic_wallet",
-      "canonical_key": "entity_financialintelligencelayer | entity_trustwalletlaunchesai | eventfp_entity_financialintelligencelayer_entity_trustwalletlaunchesai_topic_custody_topic_wallet | topic_custody | topic_wallet",
-      "ts": "2026-07-20T16:01:51.238517+00:00"
-    },
     "baaab1e6f500": {
       "title": "South Korea Restarts Digital Asset Law Discussions With Year-End Target",
       "url": "coinedition.com/south-korea-restarts-digital-asset-law-discussions-with-year-end-target",
@@ -5151,6 +5137,13 @@
       "signature": "action_close | action_purchase | amount_usd_100 | amount_usd_199386 | asset_btc | entity_asst | entity_sata | entity_sec | entity_스트라이브 | object_corporate_crypto_purchase",
       "canonical_key": "action_close | action_purchase | amount_usd_100 | amount_usd_199386 | asset_btc | entity_asst | entity_sata | entity_sec | entity_스트라이브 | object_corporate_crypto_purchase",
       "ts": "2026-08-19T16:01:54.136027+00:00"
+    },
+    "0688b22acd0d998a": {
+      "title": "Maya Protocol Hack Drains 20 BTC in $1.7M Exploit",
+      "url": "coinedition.com/maya-protocol-hack-drains-20-btc-in-1-7m-exploit",
+      "signature": "action_compromise | action_hack | action_steal | amount_btc_20 | amount_usd_1400000 | amount_usd_1700000 | amount_usd_300000 | asset_btc | entity_mayaprotocolhackdrains | object_network",
+      "canonical_key": "action_compromise | action_hack | action_steal | amount_btc_20 | amount_usd_1400000 | amount_usd_1700000 | amount_usd_300000 | asset_btc | entity_mayaprotocolhackdrains | object_network",
+      "ts": "2026-08-19T17:01:30.457682+00:00"
     }
   }
 }
