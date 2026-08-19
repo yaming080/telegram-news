@@ -86,8 +86,7 @@ class DoorinewsEditorTests(unittest.TestCase):
         result = editor.format_summary_for_telegram(text, max_sentences=2, max_chars=20)
         self.assertEqual(
             result,
-            "모건스탠리가 이더리움 현물 ETF 수정 신고서를 제출함\n\n"
-            "뉴욕증권거래소 상장 승인 절차를 추진함",
+            "모건스탠리가 이더리움 현물 ETF 수정 신고서를 제출함",
         )
 
     def test_price_prediction_is_blocked(self):
@@ -1220,6 +1219,188 @@ class DoorinewsEditorTests(unittest.TestCase):
                 blocked, reason = editor._is_hard_blocked(story)
                 self.assertTrue(blocked)
                 self.assertIn("단순 지표", reason)
+
+    def test_xrp_etp_and_quarterly_ecosystem_metric_story_is_blocked(self):
+        story = {
+            "title": "XRP ETPs Pull In $253.6M as XRPL Stablecoins Surge 195% in Q2",
+            "desc": (
+                "XRPL stablecoin supply reached $825.5M while XRP ETP net inflows "
+                "were $253.6M and RWA activity expanded"
+            ),
+        }
+        blocked, reason = editor._is_hard_blocked(story)
+        self.assertTrue(blocked)
+        self.assertIn("단순 지표", reason)
+
+    def test_predictions_opinions_and_investor_explainers_are_blocked(self):
+        stories = (
+            {
+                "title": "Bitcoin Back Above $100K? Scaramucci Says the 2028 Halving Holds the Key",
+                "desc": "He believes bitcoin will climb back to $100,000",
+            },
+            {
+                "title": "Arthur Hayes Says Yen-Quake Could Fuel Bitcoin Rally",
+                "desc": "The analyst expects more liquidity",
+            },
+            {
+                "title": "XRP 가격이 10달러에 도달할 가능성이 있다고 분석가가 전망",
+                "desc": "향후 상승 촉매를 제시함",
+            },
+            {
+                "title": "Here is everything investors need to know about staking XRP",
+                "desc": "An explainer discusses possible rewards",
+            },
+            {
+                "title": "Jeonbuk Bank Adopts Ripple Payments: What Does It Mean for Customers?",
+                "desc": "The article explains the impact on customers",
+            },
+            {
+                "title": "Bitcoin Price Analysis: Will BTC Finally Break Out Next Week?",
+                "desc": "A chart analyst discusses resistance",
+            },
+            {
+                "title": "브랜트, 50만 XRP 가정에 BTC 전환 언급",
+                "desc": "가상의 포트폴리오 시나리오를 설명함",
+            },
+        )
+        for story in stories:
+            with self.subTest(title=story["title"]):
+                blocked, _ = editor._is_hard_blocked(story)
+                self.assertTrue(blocked)
+
+    def test_promotional_event_and_unverified_wallet_flow_are_blocked(self):
+        stories = (
+            {
+                "title": "BNB Chain Launches BNB Agent Studio v2, Giving AI Agents the Ability to Earn",
+                "desc": "A marketplace and hackathon promote the new platform",
+            },
+            {
+                "title": "Ripple CEO scheduled to deliver a major conference speech",
+                "desc": "He will appear as a symposium speaker next week",
+            },
+            {
+                "title": "피델리티 관련 BTC 주소에 1억3400만달러 유입",
+                "desc": "피델리티가 직접 전송했는지는 확인되지 않음",
+            },
+            {
+                "title": "[KOL 인덱스] 러시아 BTC 승인·ETF 유출 재개도 주목 外",
+                "desc": "커뮤니티 화제와 여러 기사를 한 번에 정리함",
+            },
+        )
+        for story in stories:
+            with self.subTest(title=story["title"]):
+                blocked, _ = editor._is_hard_blocked(story)
+                self.assertTrue(blocked)
+
+    def test_screenshot_jane_street_and_korean_bank_duplicates(self):
+        pairs = (
+            (
+                {
+                    "title": "Jane Street's $990M Bitcoin ETF stake returns to the spotlight",
+                    "desc": "Jane Street disclosed its Bitcoin ETF holdings for Q2 2026",
+                },
+                {
+                    "title": "Jane Street reveals over $1 billion invested in Bitcoin ETFs",
+                    "desc": "Its Q2 2026 filing showed BlackRock's Bitcoin ETF was the largest position",
+                },
+            ),
+            (
+                {
+                    "title": "South Korea's Jeonbuk Bank taps Ripple for cross-border payments",
+                    "desc": "Jeonbuk Bank adopted Ripple Payments for remittances",
+                },
+                {
+                    "title": "Ripple signs first Korean regional bank payments deal",
+                    "desc": "Jeonbuk Bank adopted Ripple Payments for cross-border transfers",
+                },
+            ),
+        )
+        for first_story, second_story in pairs:
+            with self.subTest(title=first_story["title"]):
+                first = editor.build_story_signature(first_story)
+                second = editor.build_story_signature(second_story)
+                self.assertTrue(first)
+                self.assertTrue(second)
+                self.assertTrue(editor._same_event(first, second), msg=f"{first}\n{second}")
+
+    def test_etf_holdings_from_different_quarters_stay_distinct(self):
+        first = editor.build_story_signature(
+            {
+                "title": "Jane Street discloses $1B Bitcoin ETF holdings in Q1 2026",
+                "desc": "The first-quarter filing listed the position",
+            }
+        )
+        second = editor.build_story_signature(
+            {
+                "title": "Jane Street discloses $1.2B Bitcoin ETF holdings in Q2 2026",
+                "desc": "The second-quarter filing listed the position",
+            }
+        )
+        self.assertFalse(editor._same_event(first, second))
+
+    def test_confirmed_events_still_pass_the_editorial_gate(self):
+        stories = (
+            {
+                "title": "Fidelity files with SEC to add staking to Ethereum ETF",
+                "desc": "The filing was submitted to the regulator",
+            },
+            {
+                "title": "South Korea's Jeonbuk Bank adopts Ripple Payments",
+                "desc": "The bank launched the cross-border payment service",
+            },
+            {
+                "title": "Maya Protocol suffers $1.7 million Bitcoin exploit and halts network",
+                "desc": "The protocol confirmed the exploit and stopped operations",
+            },
+            {
+                "title": "Ethereum Plataberget testnet goes live for Glamsterdam upgrade",
+                "desc": "Developers launched the public test network",
+            },
+        )
+        for story in stories:
+            with self.subTest(title=story["title"]):
+                blocked, reason = editor._is_hard_blocked(story)
+                self.assertFalse(blocked, msg=reason)
+                self.assertTrue(
+                    editor.matches_keywords(story, [], [], []),
+                    msg=story["title"],
+                )
+
+    def test_summary_drops_interpretation_and_keeps_compact_facts(self):
+        summary = (
+            "XRPL 스테이블코인 공급량이 8억2550만달러를 기록함\n\n"
+            "이번 성장은 XRP 생태계 확장을 이끌었다는 의미함\n\n"
+            "XRP ETP 순유입은 2억5360만달러로 집계됨"
+        )
+        cleaned = editor._clean_summary(summary)
+        self.assertNotIn("의미", cleaned)
+        result = editor.format_summary_for_telegram(cleaned, max_sentences=2, max_chars=45)
+        self.assertEqual(result, "XRPL 스테이블코인 공급량이 8억2550만달러를 기록함")
+
+    def test_supply_and_burn_metric_cards_are_blocked(self):
+        stories = (
+            {
+                "title": "Bitcoin Drain Is Over: Exchange Supplies Surge 84%",
+                "desc": "Santiment reported the latest exchange metric",
+            },
+            {
+                "title": "Ripple's $449M Stablecoin Mint Ends With 99% Burn Rate on XRPL",
+                "desc": "The report compares issuance and burn figures",
+            },
+            {
+                "title": "이더리움 34.7% 스테이킹, 수익률 2.6%로 낮아졌다",
+                "desc": "네트워크의 현재 비율을 집계함",
+            },
+        )
+        for story in stories:
+            with self.subTest(title=story["title"]):
+                blocked, reason = editor._is_hard_blocked(story)
+                self.assertTrue(blocked)
+                self.assertIn("단순 지표", reason)
+
+    def test_uncertain_model_summary_is_rejected(self):
+        self.assertTrue(editor._summary_has_uncertain_claim("XRP가 10달러에 도달할 가능성이 있다고 전망함"))
+        self.assertFalse(editor._summary_has_uncertain_claim("SEC가 XRP ETF 신청서를 접수함"))
 
     def test_crypto_treasury_company_stock_volatility_is_blocked(self):
         story = {
