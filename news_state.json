@@ -5067,6 +5067,13 @@
       "signature": "action_integrate | action_partner | action_support | asset_btc | asset_stablecoin | object_custody | object_wallet",
       "canonical_key": "action_integrate | action_partner | action_support | asset_btc | asset_stablecoin | object_custody | object_wallet",
       "ts": "2026-08-19T08:01:34.760846+00:00"
+    },
+    "453f9a1904b6cc2c": {
+      "title": "0% 가상자산 배분은 약세 베팅, 비트와이즈 CIO 주장",
+      "url": "www.tokenpost.kr/news/cryptocurrency/393251",
+      "signature": "action_disclose | action_invest | action_launch | action_transfer | amount_pct_0 | amount_pct_2 | amount_pct_5 | amount_usd_500000000000 | asset_btc | asset_eth | entity_cio | object_disclosure",
+      "canonical_key": "action_disclose | action_invest | action_launch | action_transfer | amount_pct_0 | amount_pct_2 | amount_pct_5 | amount_usd_500000000000 | asset_btc | asset_eth | entity_cio | object_disclosure",
+      "ts": "2026-08-19T09:02:29.315922+00:00"
     }
   }
 }
