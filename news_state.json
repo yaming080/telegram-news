@@ -5151,6 +5151,13 @@
       "signature": "action_integrate | asset_btc | asset_eth | entity_코인베이스",
       "canonical_key": "action_integrate | asset_btc | asset_eth | entity_코인베이스",
       "ts": "2026-08-19T18:01:35.198330+00:00"
+    },
+    "5f7d0bcdc67df0df": {
+      "title": "호르무즈 8월31일 0척 가능성 42.2%, 트럼프 통항 언급",
+      "url": "www.tokenpost.kr/news/cryptocurrency/393668",
+      "signature": "action_appoint | action_ban | action_close | action_pass | action_propose | amount_pct_42.2 | asset_btc | entity_도널드트럼프 | geo_us | object_shutdown",
+      "canonical_key": "action_appoint | action_ban | action_close | action_pass | action_propose | amount_pct_42.2 | asset_btc | entity_도널드트럼프 | geo_us | object_shutdown",
+      "ts": "2026-08-19T20:01:35.346867+00:00"
     }
   }
 }
