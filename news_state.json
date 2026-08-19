@@ -5123,6 +5123,13 @@
       "signature": "action_disclose | action_launch | action_purchase | amount_krw_189200000000 | amount_usd_134000000 | amount_usd_34000000 | asset_btc | object_corporate_crypto_purchase | object_disclosure | object_etf",
       "canonical_key": "action_disclose | action_launch | action_purchase | amount_krw_189200000000 | amount_usd_134000000 | amount_usd_34000000 | asset_btc | object_corporate_crypto_purchase | object_disclosure | object_etf",
       "ts": "2026-08-19T14:01:24.553359+00:00"
+    },
+    "7f5e79b66c0e9f31": {
+      "title": "H100 Group records $10.3M quarterly loss as Bitcoin weighs on earnings",
+      "url": "crypto.news/h100-group-records-10-3m-quarterly-loss-as-bitcoin-weighs-on-earnings",
+      "signature": "action_publish | amount_usd_10300000 | asset_btc | entity_h100group",
+      "canonical_key": "action_publish | amount_usd_10300000 | asset_btc | entity_h100group",
+      "ts": "2026-08-19T15:01:40.383194+00:00"
     }
   }
 }
