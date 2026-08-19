@@ -5039,6 +5039,13 @@
       "signature": "action_launch | action_transfer | asset_btc | object_custody",
       "canonical_key": "action_launch | action_transfer | asset_btc | object_custody",
       "ts": "2026-08-19T01:02:10.174784+00:00"
+    },
+    "78877608f38b1ad8": {
+      "title": "Bitcoin Back Above $100K? Scaramucci Says the 2028 Halving Holds the Key",
+      "url": "cryptopotato.com/bitcoin-back-above-100k-scaramucci-says-the-2028-halving-holds-the-key",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-19T06:01:03.824830+00:00"
     }
   }
 }
