@@ -1,12 +1,5 @@
 {
   "posted": {
-    "01c58e8dfab1": {
-      "title": "ADI Chain brings Tangem hardware wallet to Virgin Megastores across the UAE",
-      "url": "crypto.news/adi-chain-brings-tangem-hardware-wallet-to-virgin-megastores-across-the-uae",
-      "signature": "entity_adichain | entity_tangem | entity_virginmegastores | entity_아랍에미리트 | eventfp_entity_adichain_entity_tangem_entity_virginmegastores_entity_아랍에미리트_topic_custody_topic_wallet | topic_custody | topic_wallet",
-      "canonical_key": "entity_adichain | entity_tangem | entity_virginmegastores | entity_아랍에미리트 | eventfp_entity_adichain_entity_tangem_entity_virginmegastores_entity_아랍에미리트_topic_custody_topic_wallet | topic_custody | topic_wallet",
-      "ts": "2026-07-20T12:01:13.388604+00:00"
-    },
     "5c0bf8928e3f": {
       "title": "Vietnam sets fines for unlicensed crypto trading ahead of regulation rollout",
       "url": "cointelegraph.com/news/vietnam-crypto-traders-unlicensed-platforms-fines?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -5109,6 +5102,34 @@
       "signature": "action_enforce | asset_btc | geo_us | object_custody | object_etf",
       "canonical_key": "action_enforce | asset_btc | geo_us | object_custody | object_etf",
       "ts": "2026-08-19T12:03:11.066249+00:00"
+    },
+    "f89b0849bef09547": {
+      "title": "XRP ETPs Pull In $253.6M as XRPL Stablecoins Surge 195% in Q2",
+      "url": "thecryptobasic.com/2026/08/19/xrp-etps-pull-in-253-6m-as-xrpl-stablecoins-surge-195-in-q2",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-19T13:02:16.394094+00:00"
+    },
+    "56e486082195f845": {
+      "title": "US Crypto Exchange Lists Shiba Inu as SHIB Recovery Gains Momentum",
+      "url": "thecryptobasic.com/2026/08/19/us-crypto-exchange-lists-shiba-inu-as-shib-recovery-gains-momentum",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-19T13:02:19.851040+00:00"
+    },
+    "1f15a0cd5d200135": {
+      "title": "India’s FDI Rule Overhaul Reshapes Rupee Trade: Impact on Nifty, Gold and BTC",
+      "url": "coinedition.com/indias-fdi-rule-overhaul-reshapes-rupee-trade-impact-on-nifty-gold-and-btc",
+      "signature": "action_approve | action_invest | action_propose | amount_usd_1570000000 | amount_usd_523000000 | asset_btc | entity_금 | geo_india",
+      "canonical_key": "action_approve | action_invest | action_propose | amount_usd_1570000000 | amount_usd_523000000 | asset_btc | entity_금 | geo_india",
+      "ts": "2026-08-19T13:02:25.990068+00:00"
+    },
+    "449e75eeae81aa9b": {
+      "title": "Here’s is everything investors need to know about staking XRP",
+      "url": "crypto.news/heres-is-everything-investors-need-to-know-about-staking-xrp",
+      "signature": "action_support | asset_rlusd | asset_xrp | asset_xrpl | object_lending | object_rlusd",
+      "canonical_key": "action_support | asset_rlusd | asset_xrp | asset_xrpl | object_lending | object_rlusd",
+      "ts": "2026-08-19T13:02:31.216665+00:00"
     }
   }
 }
