@@ -1,12 +1,5 @@
 {
   "posted": {
-    "baaab1e6f500": {
-      "title": "South Korea Restarts Digital Asset Law Discussions With Year-End Target",
-      "url": "coinedition.com/south-korea-restarts-digital-asset-law-discussions-with-year-end-target",
-      "signature": "act_law | act_move | entity_assetlawdiscussionswith | entity_southkorearestartsdigital | entity_yearendtarget | eventfp_entity_assetlawdiscussionswith_entity_southkorearestartsdigital_entity_yearendtarget_geo_korea_topic_bill | geo_korea | org_sec | topic_bill",
-      "canonical_key": "entity_assetlawdiscussionswith | entity_southkorearestartsdigital | entity_yearendtarget | eventfp_entity_assetlawdiscussionswith_entity_southkorearestartsdigital_entity_yearendtarget_geo_korea_topic_bill | geo_korea | topic_bill",
-      "ts": "2026-07-20T17:01:02.769460+00:00"
-    },
     "aa56af1e876d": {
       "title": "인공지능기본법 개정안 시행, 국내 AI 시장에 새로운 변화 물결",
       "url": "www.tokenpost.kr/news/policy/379644",
@@ -5144,6 +5137,20 @@
       "signature": "action_compromise | action_hack | action_steal | amount_btc_20 | amount_usd_1400000 | amount_usd_1700000 | amount_usd_300000 | asset_btc | entity_mayaprotocolhackdrains | object_network",
       "canonical_key": "action_compromise | action_hack | action_steal | amount_btc_20 | amount_usd_1400000 | amount_usd_1700000 | amount_usd_300000 | asset_btc | entity_mayaprotocolhackdrains | object_network",
       "ts": "2026-08-19T17:01:30.457682+00:00"
+    },
+    "331256170e8ee99b": {
+      "title": "FalconX, Ethena bring USDe backing assets into $1B institutional credit facility",
+      "url": "cointelegraph.com/news/falconx-ethena-launch-1b-usde-backed-institutional-lending-facility?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_expand | action_support | amount_usd_1000000000 | entity_falconx | entity_에테나",
+      "canonical_key": "action_expand | action_support | amount_usd_1000000000 | entity_falconx | entity_에테나",
+      "ts": "2026-08-19T18:01:31.731934+00:00"
+    },
+    "af1070d9866791de": {
+      "title": "Coinbase adds 50x Hyperliquid perpetuals to Base App",
+      "url": "crypto.news/coinbase-adds-50x-hyperliquid-perpetuals-to-base-app",
+      "signature": "action_integrate | asset_btc | asset_eth | entity_코인베이스",
+      "canonical_key": "action_integrate | asset_btc | asset_eth | entity_코인베이스",
+      "ts": "2026-08-19T18:01:35.198330+00:00"
     }
   }
 }
