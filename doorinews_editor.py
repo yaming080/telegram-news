@@ -26,8 +26,8 @@ FIXED_FOOTER_TAGS = (
 
 MAX_INLINE_TAGS = 5
 MAX_ARTICLE_TAGS = 4
-TARGET_SUMMARY_CHARS = 155
-HARD_SUMMARY_CHARS = 210
+TARGET_SUMMARY_CHARS = 105
+HARD_SUMMARY_CHARS = 135
 
 _RUNTIME: dict = {}
 _PREVIOUS_MATCHES: Callable | None = None
@@ -93,6 +93,7 @@ ENTITY_SPECS = (
     EntitySpec("org", "블랙록", ("BlackRock", "Blackrock", "블랙록"), "#BlackRock", 20),
     EntitySpec("org", "프랭클린템플턴", ("Franklin Templeton", "FranklinTempleton", "프랭클린 템플턴", "프랭클린템플턴"), "#FranklinTempleton", 20),
     EntitySpec("org", "JP모건", ("JPMorgan", "J.P. Morgan", "JP Morgan", "JP모건"), "#JPMorgan", 20),
+    EntitySpec("org", "제인스트리트", ("Jane Street", "제인 스트리트", "제인스트리트"), "#JaneStreet", 20),
     EntitySpec("org", "뱅크오브아메리카", ("Bank of America", "뱅크오브아메리카"), "#BankOfAmerica", 20),
     EntitySpec("org", "스탠다드차타드", ("Standard Chartered", "스탠다드차타드"), "#StandardChartered", 20),
     EntitySpec("org", "앤드리슨호로위츠", ("Andreessen Horowitz", "a16z", "앤드리슨호로위츠"), "#AndreessenHorowitz", 20),
@@ -103,6 +104,7 @@ ENTITY_SPECS = (
     EntitySpec("org", "아베", ("Aave", "아베"), "#Aave", 20),
     EntitySpec("org", "아이렌", ("IREN", "Iris Energy", "아이렌"), "#IREN", 20),
     EntitySpec("org", "BC카드", ("BC Card", "BC카드"), "#BCCard", 20),
+    EntitySpec("org", "전북은행", ("Jeonbuk Bank", "JeonbukBank", "전북은행"), "#JeonbukBank", 20),
     EntitySpec("org", "카르다노", ("Cardano", "카르다노"), "#Cardano", 20),
     EntitySpec("org", "테더", ("Tether", "테더"), "#Tether", 20),
     EntitySpec("org", "스트래티지", ("Strategy", "MicroStrategy", "스트래티지"), "#Strategy", 20),
@@ -258,12 +260,14 @@ EXCLUDED_MARKET_CONTENT_PATTERNS = (
 
 HARD_BLOCK_PATTERNS = (
     r"\bprice prediction\b",
+    r"\bprice analysis\b",
     r"\btechnical analysis\b",
     r"\bsupport level\b",
     r"\bresistance level\b",
     r"\bprice target\b",
     r"\bnext bullish wave\b",
     r"\bwhat(?:'s| is) next\b",
+    r"\bwill .{0,40}(?:break\s+out|recover|rally|rise|fall)\b",
     r"\bwill .{0,30} reach \$?\d",
     r"\bbest (?:crypto|memecoin|token)s? to buy\b",
     r"\bpresale\b",
@@ -324,6 +328,7 @@ HARD_BLOCK_PATTERNS = (
     r"주간\s*(?:뉴스|다이제스트|요약)",
     r"롱\s*포지션|숏\s*포지션|대규모\s*청산",
     r"상승\s*가능성|하락\s*가능성",
+    r"가격\s*분석|시세\s*분석|돌파할까|반등할까",
     r"몇\s*배\s*(?:상승|오를)",
     r"베어마켓|약세장.{0,20}(?:종료|회복)",
 )
@@ -432,6 +437,95 @@ EQUITY_MARKET_PATTERNS = (
     r"(?:급등|급락|상승|하락|마감|장중|거래\s*범위|변동성).{0,80}(?:주가|주식|종목|티커)",
 )
 
+# Commentary, forecasts, explainers, and recurring metric cards are not hard
+# news.  These patterns intentionally favour precision: a missed soft story is
+# preferable to publishing an analyst's scenario as if it were confirmed.
+SPECULATIVE_COMMENTARY_PATTERNS = (
+    r"\b(?:predict(?:s|ed|ion)?|forecast(?:s|ed|ing)?|price\s+target|market\s+outlook)\b",
+    r"\b(?:could|may|might|would|expects?|believes?|thinks?)\b.{0,110}"
+    r"\b(?:price|rally|surge|reach|climb|rise|fall|drop|rebound|breakout|bottom|"
+    r"bull\s+run|bear\s+market|liquidity|value)\b",
+    r"\b(?:price|rally|surge|reach|climb|rise|fall|drop|rebound|breakout|bottom|"
+    r"bull\s+run|bear\s+market|liquidity|value)\b.{0,110}"
+    r"\b(?:could|may|might|would|expects?|believes?|thinks?)\b",
+    r"\b(?:chance\s+for\s+recovery|holds?\s+the\s+key|bullish\s+for|"
+    r"catalysts?\s+keeping|opportunity\s+to\s+earn)\b",
+    r"\b(?:says?|warns?|claims?|argues?|reacts?|endorses?)\b.{0,100}"
+    r"\b(?:price|rally|wealth|future|value\s+capture|buy|sell|bullish|bearish)\b",
+    r"(?:가격|시세|랠리|상승|하락|반등|저점|고점).{0,70}"
+    r"(?:전망|예측|관측|가능성|것으로\s*보|기대|목표|주장)",
+    r"(?:전망|예측|관측|가능성|것으로\s*보|기대|목표).{0,70}"
+    r"(?:가격|시세|랠리|상승|하락|반등|저점|고점)",
+    r"(?:오를|내릴|도달할|회복할|상승할|하락할|촉발할|이끌\s*수\s*있)",
+    r"(?:가정|만약).{0,80}(?:BTC|비트코인|ETH|이더리움|XRP|암호화폐)",
+    r"(?:BTC|비트코인|ETH|이더리움|XRP|암호화폐).{0,80}(?:가정|만약)",
+    r"\b(?:what\s+if|assuming|hypothetical)\b.{0,80}"
+    r"\b(?:bitcoin|btc|ethereum|eth|xrp|crypto)\b",
+    r"\b(?:reacts?|reaction|opinion|debate)\b.{0,100}"
+    r"\b(?:bitcoin|btc|ethereum|eth|xrp|crypto|protocol|issuance|scaling)\b",
+    r"\b(?:bitcoin|btc|ethereum|eth|xrp|crypto|protocol|issuance|scaling)\b"
+    r".{0,100}\b(?:reacts?|reaction|opinion|debate)\b",
+)
+
+LOW_VALUE_EXPLAINER_PATTERNS = (
+    r"\bwhat\s+(?:does|do|did|it|this|that).{0,70}\bmean\b",
+    r"\bwhat\s+to\s+know\b",
+    r"\beverything\s+(?:investors?|holders?|users?)\s+need\s+to\s+know\b",
+    r"\bimpact\s+on\b",
+    r"\bthe\s+real\s+cost\s+of\b",
+    r"\bin\s+the\s+(?:price\s+)?spotlight\b",
+    r"\bhere(?:'s|\s+is)\s+(?:what|everything)\b",
+    r"무엇을\s*의미|알아야\s*할|어떤\s*영향|왜\s+.{0,35}(?:오르|내리|움직)",
+)
+
+LOW_VALUE_PERIODIC_METRIC_PATTERNS = (
+    r"\b(?:etps?|etfs?)\b.{0,90}\b(?:pull(?:s|ed|ing)?\s+in|(?:net\s+)?(?:inflows?|outflows?|flows?))\b.{0,30}\$?\d",
+    r"\b(?:net\s+)?(?:inflows?|outflows?|flows?|pull(?:s|ed|ing)?\s+in)\b.{0,90}\b(?:etps?|etfs?)\b",
+    r"\b(?:stablecoin\s+supply|rwa\s+(?:holders?|holder\s+count)|holder\s+count|"
+    r"network\s+activity|transactions?|transfer\s+volume|staking\s+(?:ratio|rate|yield)|"
+    r"burn\s+rate|market\s+share|exchange\s+supply)\b.{0,100}"
+    r"\b(?:rise|rises|rose|increase|increases|increased|surge|surges|surged|jump|jumps|"
+    r"jumped|drop|drops|dropped|fall|falls|fell|grow|grows|grew|record|records?|"
+    r"reach|reaches|hit|hits|decline|declines|declined|%|q[1-4]|quarter)\b",
+    r"\b(?:q[1-4]|quarterly|first\s+quarter|second\s+quarter|third\s+quarter|fourth\s+quarter)\b"
+    r".{0,120}\b(?:loss|earnings|revenue|holdings?|supply|transfers?|activity|volume|flows?)\b",
+    r"(?:스테이블코인\s*공급량|RWA\s*(?:보유자|홀더)|보유자\s*수|네트워크\s*활동|"
+    r"거래\s*건수|전송량|스테이킹\s*(?:비율|수익률)|소각률|시장\s*점유율|거래소\s*공급량)"
+    r".{0,80}(?:증가|급증|감소|급감|늘|줄|기록|돌파|넘|분기|%)",
+    r"(?:분기|1분기|2분기|3분기|4분기).{0,100}"
+    r"(?:손실|실적|매출|보유량|공급량|전송량|활동|거래량|순유입|순유출)",
+    r"(?:고래|대형\s*보유자|초기\s*지갑).{0,70}(?:보유|잔고|매집|분배|남아)",
+    r"\b(?:exchange\s+suppl(?:y|ies)|remaining\s+supply|circulating\s+supply)\b"
+    r".{0,80}(?:surge|rise|drop|fall|record|%|over|under)",
+    r"\b(?:mint|minted|issuance)\b.{0,90}\b(?:burn\s+rate|burned|burnt)\b",
+    r"(?:거래소\s*공급량|잔여\s*공급량|유통\s*공급량).{0,60}(?:급증|증가|감소|기록|%)",
+    r"(?:민트|발행|주조).{0,70}(?:소각률|소각)",
+    r"(?:스테이킹).{0,50}(?:비율|수익률).{0,30}(?:%|낮아|높아|기록)",
+    r"(?:수요|손익\s*지표|온체인\s*지표).{0,45}(?:BTC|비트코인|ETH|이더리움|XRP|%)",
+)
+
+LOW_VALUE_PROMOTIONAL_PATTERNS = (
+    r"\b(?:hackathon|giveaway|airdrop\s+campaign|community\s+challenge|"
+    r"rewards?\s+program|proof\s+of\s+reserves?)\b",
+    r"\b(?:agent\s+studio|top\s+10\s+athletes?|ability\s+to\s+earn|"
+    r"marketplace\s+to\s+(?:rent|sell))\b",
+    r"\b(?:conference|symposium|summit)\b.{0,70}\b(?:speaker|speech|attend|appearance)\b",
+    r"\b(?:speaker|speech|attend|appearance)\b.{0,70}\b(?:conference|symposium|summit)\b",
+    r"해커톤|이벤트\s*(?:개최|참가)|리워드\s*프로그램|준비금\s*증명|"
+    r"컨퍼런스.{0,35}(?:연사|참석)|심포지엄.{0,35}(?:연사|참석)",
+    r"\bkol\s+index\b|\bkol\s+roundup\b|\bcommunity\s+buzz\b",
+    r"KOL\s*인덱스|커뮤니티\s*화제.{0,80}(?:외|모음)",
+)
+
+UNVERIFIED_WALLET_ATTRIBUTION_PATTERNS = (
+    r"\b(?:linked|related|associated|believed|suspected)\b.{0,55}\b(?:address|wallet)s?\b"
+    r".{0,90}\b(?:receive|received|inflow|transfer|move|moved|deposit)\b",
+    r"\b(?:address|wallet)s?\b.{0,55}\b(?:linked|related|associated|believed|suspected)\b"
+    r".{0,90}\b(?:receive|received|inflow|transfer|move|moved|deposit)\b",
+    r"(?:관련|연관|추정).{0,30}(?:주소|지갑).{0,60}(?:유입|입금|전송|이동|수령)",
+    r"(?:주소|지갑).{0,30}(?:관련|연관|추정).{0,60}(?:유입|입금|전송|이동|수령)",
+)
+
 CONCRETE_EVENT_PATTERNS = (
     r"\bapprov(?:e|ed|al)\b", r"\bpass(?:ed|es)?\b", r"\bfile(?:d|s|ing)?\b",
     r"\bappoint(?:ed|ment)?\b", r"\bnomina(?:te|ted|tion)\b",
@@ -479,7 +573,12 @@ ACTION_PATTERNS = {
         r"\b(?:officializ(?:e|ed|es|ing)|formali[sz](?:e|ed|es|ing))\b",
         r"출시|도입|공개|선보|가동|공식화",
     ),
-    "action_partner": (r"\bpartner(?:ed|ship)?\b", r"제휴|협력|협약"),
+    "action_partner": (
+        r"\bpartner(?:ed|ship)?\b",
+        r"\btaps?\b.{0,45}\b(?:for|to\s+offer|payments?|services?)\b",
+        r"\bsign(?:s|ed|ing)?\b.{0,45}\b(?:deal|agreement|partnership)\b",
+        r"제휴|협력|협약",
+    ),
     "action_acquire": (r"\bacquir(?:e|ed|es|ing)\b", r"인수|확보"),
     "action_purchase": (
         r"\b(?:buy|buys|buying|bought|purchas(?:e|ed|es|ing)|acquir(?:e|ed|es|ing))\b",
@@ -629,7 +728,12 @@ OBJECT_PATTERNS = {
     "object_patent": (r"\bpatent\b", r"특허"),
     "object_wallet": (r"\bwallet\b", r"지갑"),
     "object_commissioner": (r"\bcommissioner\b", r"위원|위원장"),
-    "object_payment": (r"\bpayment infrastructure\b", r"\bpayment\b", r"결제\s*인프라|결제"),
+    "object_payment": (
+        r"\bpayment infrastructure\b",
+        r"\bpayments?\b",
+        r"\bcross[- ]border\s+(?:payments?|remittances?|transfers?)\b",
+        r"결제\s*인프라|결제|국경\s*간\s*(?:송금|결제)|해외\s*송금",
+    ),
     "object_custody": (r"\bcustod(?:y|ial)\b", r"수탁"),
     "object_lending": (r"\blending\b", r"\bloan\b", r"대출"),
     "object_fund": (r"\bfund\b", r"펀드"),
@@ -685,6 +789,8 @@ OBJECT_PATTERNS = {
     "object_etf_holdings": (
         r"\betf\b.{0,55}\b(?:holding|holdings|shares?|stake)\b",
         r"\b(?:holding|holdings|shares?|stake)\b.{0,55}\betf\b",
+        r"\b(?:invested?|investment)\b.{0,55}\betfs?\b",
+        r"\betfs?\b.{0,55}\b(?:invested?|investment)\b",
         r"ETF.{0,35}(?:보유|주식|지분)|(?:보유|주식|지분).{0,35}ETF",
     ),
     "object_rlusd": (r"\brlusd\b",),
@@ -964,6 +1070,16 @@ def story_hash(title: str) -> str:
 def _is_hard_blocked(story: dict) -> tuple[bool, str]:
     raw = _story_text(story)
     title = str(story.get("title", "") or "")
+    if _matches(title, SPECULATIVE_COMMENTARY_PATTERNS):
+        return True, "예측·전망·투자의견"
+    if _matches(title, LOW_VALUE_EXPLAINER_PATTERNS):
+        return True, "해설·질문형 기사"
+    if _matches(title, LOW_VALUE_PERIODIC_METRIC_PATTERNS):
+        return True, "분기·생태계·온체인 단순 지표·수급"
+    if _matches(raw, LOW_VALUE_PROMOTIONAL_PATTERNS):
+        return True, "홍보·행사·캠페인"
+    if _matches(raw, UNVERIFIED_WALLET_ATTRIBUTION_PATTERNS):
+        return True, "확인되지 않은 지갑 귀속·자금이동"
     if _matches(raw, EXCLUDED_MARKET_CONTENT_PATTERNS):
         return True, "옵션·심리지수·추세·위믹스"
     if _matches(raw, LOW_VALUE_MARKET_METRIC_PATTERNS):
@@ -1375,6 +1491,15 @@ def _period_tokens(raw: str) -> set[str]:
             out.add(f"period_{year}_h2")
     for match in re.finditer(r"\b(20\d{2})년\s*([1-4])분기", text):
         out.add(f"period_{match.group(1)}_q{match.group(2)}")
+    for match in re.finditer(r"\bq([1-4])\s*(20\d{2})\b", text, re.I):
+        out.add(f"period_{match.group(2)}_q{match.group(1)}")
+    quarter_words = {"first": 1, "second": 2, "third": 3, "fourth": 4}
+    for match in re.finditer(
+        r"\b(first|second|third|fourth)\s+quarter(?:\s+of)?\s+(20\d{2})\b",
+        text,
+        re.I,
+    ):
+        out.add(f"period_{match.group(2)}_q{quarter_words[match.group(1).lower()]}")
     for match in re.finditer(r"\b(20\d{2})년\s*(상반기|하반기)", text):
         out.add(f"period_{match.group(1)}_{'h1' if match.group(2) == '상반기' else 'h2'}")
     return out
@@ -1565,6 +1690,8 @@ def _same_event(cur_signature: str, old_signature: str) -> bool:
     old_proposals = {
         t for t in old if t.startswith(("reference_eip_", "reference_bip_", "reference_erc_", "reference_rfc_"))
     }
+    cur_periods = {t for t in cur if t.startswith("period_")}
+    old_periods = {t for t in old if t.startswith("period_")}
 
     # Different explicit versions or proposal numbers identify different
     # events.  Apply this guard before broader entity/action matching.
@@ -1763,9 +1890,11 @@ def _same_event(cur_signature: str, old_signature: str) -> bool:
 
     if (
         entities
-        and actions
         and "object_etf_holdings" in objects
         and (assets or amounts or periods)
+        and cur_actions
+        and old_actions
+        and not (cur_periods and old_periods and not (cur_periods & old_periods))
     ):
         return True
 
@@ -1871,14 +2000,17 @@ def _summary_prompt(title: str, source_text: str) -> str:
 다음 기사를 짧고 또렷한 한국어 뉴스로 다시 써라.
 
 필수 규칙:
-- 기본은 2문장, 70~150자
+- 기본은 1문장, 45~95자
 - 첫 문장에 핵심 주체·행동·대상을 바로 제시
-- 둘째 문장에는 핵심 수치·결과·의미 중 가장 중요한 것 하나만 제시
-- 정보가 하나뿐이면 1문장으로 끝내도 됨
+- 정확한 금액·날짜·법적 결과가 꼭 필요할 때만 둘째 문장 1개 허용
+- 여러 지표를 한꺼번에 묶거나 의미·영향을 해석하지 말 것
 - 법률·소송·기술 제안처럼 사실이 3개 이상일 때만 '핵심 문장 + 불릿 2~3개' 허용
 - 모든 문장을 완결하고 결론을 뒤로 미루지 말 것
 - 문장마다 빈 줄 하나로 구분
 - 문장 끝은 밝힘, 전함, 설명함, 추진함, 합류함, 승인함, 통과함, 공개함 등 축약형 사용
+- 완료됐거나 공식 발표된 사실만 작성
+- 예측, 가격 전망, 분석가 의견, 질문형 해설, 홍보, 단순 분기·온체인 지표 기사라면 SKIP만 출력
+- '의미한다', '이끌었다', '기여했다', '주목된다', '전망된다', '기대된다' 같은 해석 문구 금지
 - 과장, 직역투, 추측, 전망, 홍보 문구 금지
 - 매체명, 출처성 문구, '에 따르면', '이번 소식은' 삭제
 - 기사에 없는 사실은 추가 금지
@@ -1900,9 +2032,9 @@ def _summary_prompt(title: str, source_text: str) -> str:
 
 def _compress_prompt(text: str) -> str:
     return f"""
-아래 한국어 뉴스 요약을 사실을 바꾸지 말고 70~150자로 줄여라.
-핵심 사건을 첫 문장에 두고 최대 2문장으로 완결하라.
-불필요한 배경과 출처 표현을 삭제하라.
+아래 한국어 뉴스 요약을 사실을 바꾸지 말고 45~95자로 줄여라.
+핵심 사건을 첫 문장에 두고 기본 1문장, 최대 2문장으로 완결하라.
+불필요한 배경, 의미 해석, 전망, 출처 표현을 삭제하라.
 문장 끝은 밝힘, 전함, 설명함, 추진함, 승인함 같은 축약형으로 쓴다.
 해시태그와 마침표는 쓰지 말고 요약문만 출력한다.
 
@@ -1994,7 +2126,18 @@ def _clean_summary(text: str) -> str:
             if line:
                 lines.append(bullet + line)
         if lines:
-            paragraphs.append("\n".join(lines))
+            paragraph = "\n".join(lines)
+            if _matches(
+                paragraph,
+                (
+                    r"의미(?:함|한다|한다고)|시사(?:함|한다)|"
+                    r"(?:확장|성장).{0,25}(?:이끌|기여)|"
+                    r"주목(?:됨|된다|받)|전망(?:됨|된다)|기대(?:됨|된다)|"
+                    r"가능성(?:을|이|도)?\s*(?:보여|시사)|전환점|긍정적\s*신호",
+                ),
+            ):
+                continue
+            paragraphs.append(paragraph)
 
     # Keep two normal paragraphs.  For a genuine list keep one lead plus up to
     # three bullets.
@@ -2012,11 +2155,30 @@ def format_summary_for_telegram(
     max_sentences: int = 2,
     max_chars: int = TARGET_SUMMARY_CHARS,
 ) -> str:
-    # Never slice by character count: an overlong but complete sentence is
-    # safer than a short, broken sentence.
+    # Never slice by character count.  Keep the first complete sentence even
+    # when it is long, but do not add a second paragraph that pushes a compact
+    # human-edited style past the requested budget.
     summary = _clean_summary(text)
     paragraphs = [p.strip() for p in summary.split("\n\n") if p.strip()]
-    return "\n\n".join(paragraphs[: max(1, min(max_sentences, 3))])
+    selected = []
+    for paragraph in paragraphs[: max(1, min(max_sentences, 3))]:
+        candidate = "\n\n".join(selected + [paragraph])
+        compact_length = len(re.sub(r"\s+", "", candidate))
+        if selected and compact_length > max_chars:
+            break
+        selected.append(paragraph)
+    return "\n\n".join(selected)
+
+
+def _summary_has_uncertain_claim(summary: str) -> bool:
+    return _matches(
+        summary,
+        (
+            r"전망|예측|관측|가능성|것으로\s*보|기대|추정|목표가|"
+            r"(?:오를|내릴|도달할|회복할|상승할|하락할|촉발할)",
+            r"\b(?:predict|forecast|could|may|might|would|likely|expected)\b",
+        ),
+    )
 
 
 def _dynamic_specs(raw: str) -> list[EntitySpec]:
@@ -2258,6 +2420,8 @@ def _rewrite_summary(story: dict) -> str:
     source_text = get_source(story) if callable(get_source) else desc or title
     source_text = str(source_text or desc or title)
     summary = _call_openai(_summary_prompt(title, source_text))
+    if re.fullmatch(r"\s*(?:SKIP|제외|스킵)\s*", summary or "", re.I):
+        return ""
     summary = _clean_summary(summary)
     if len(re.sub(r"\s+", "", summary)) > HARD_SUMMARY_CHARS:
         shorter = _clean_summary(_call_openai(_compress_prompt(summary)))
@@ -2285,6 +2449,9 @@ def build_message(story: dict) -> str:
         return ""
     if _summary_is_market_only(summary):
         _log(f"[전송전 지지선·시황 제외] {story.get('title', '')}")
+        return ""
+    if _summary_has_uncertain_claim(summary):
+        _log(f"[전송전 예측·불확실 표현 제외] {story.get('title', '')}")
         return ""
 
     refusal_check = _RUNTIME.get("is_refusal_or_skip_text")
@@ -2321,5 +2488,5 @@ def install_editor_overrides(runtime: dict) -> None:
     runtime["is_semantically_duplicate"] = is_semantically_duplicate
     runtime["format_summary_for_telegram"] = format_summary_for_telegram
     runtime["build_message"] = build_message
-    runtime["DOORINEWS_EDITOR_VERSION"] = "2026-08-08-general-event-dedup-v9"
-    _log("[편집엔진] doorinews_editor 2026-08-08-general-event-dedup-v9 적용")
+    runtime["DOORINEWS_EDITOR_VERSION"] = "2026-08-20-factual-brief-editor-v10"
+    _log("[편집엔진] doorinews_editor 2026-08-20-factual-brief-editor-v10 적용")
