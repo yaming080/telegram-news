@@ -5018,6 +5018,27 @@
       "signature": "action_expand | action_partner | action_support | asset_stablecoin | asset_xrp | asset_xrpl | entity_xrpledger | entity_리플 | entity_스테이블코인 | geo_korea | object_payment",
       "canonical_key": "action_expand | action_partner | action_support | asset_stablecoin | asset_xrp | asset_xrpl | entity_xrpledger | entity_리플 | entity_스테이블코인 | geo_korea | object_payment",
       "ts": "2026-08-19T00:01:47.870879+00:00"
+    },
+    "753aa9c7ca269091": {
+      "title": "437메가와트 과금, 채굴사 전력사업 전환",
+      "url": "www.tokenpost.kr/news/cryptocurrency/392942",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-19T01:02:01.835776+00:00"
+    },
+    "d685b2860899ec7f": {
+      "title": "아크인베스트, 블록 주식 130만달러어치 매수",
+      "url": "www.tokenpost.kr/news/market/392938",
+      "signature": "action_invest | action_purchase | amount_krw_1800000000 | amount_pct_0.96 | amount_pct_9.28 | amount_usd_1300000 | amount_usd_184592 | asset_btc | object_payment",
+      "canonical_key": "action_invest | action_purchase | amount_krw_1800000000 | amount_pct_0.96 | amount_pct_9.28 | amount_usd_1300000 | amount_usd_184592 | asset_btc | object_payment",
+      "ts": "2026-08-19T01:02:05.496707+00:00"
+    },
+    "a9e08eb38c11404b": {
+      "title": "Citi to Launch Bitcoin Custody Service Through New Custody+ Platform",
+      "url": "coinedition.com/crypto-live-news/citi-to-launch-bitcoin-custody-service-through-new-custody-platform",
+      "signature": "action_launch | action_transfer | asset_btc | object_custody",
+      "canonical_key": "action_launch | action_transfer | asset_btc | object_custody",
+      "ts": "2026-08-19T01:02:10.174784+00:00"
     }
   }
 }
