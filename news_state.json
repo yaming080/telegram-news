@@ -5074,6 +5074,20 @@
       "signature": "action_disclose | action_invest | action_launch | action_transfer | amount_pct_0 | amount_pct_2 | amount_pct_5 | amount_usd_500000000000 | asset_btc | asset_eth | entity_cio | object_disclosure",
       "canonical_key": "action_disclose | action_invest | action_launch | action_transfer | amount_pct_0 | amount_pct_2 | amount_pct_5 | amount_usd_500000000000 | asset_btc | asset_eth | entity_cio | object_disclosure",
       "ts": "2026-08-19T09:02:29.315922+00:00"
+    },
+    "60b16625290587ed": {
+      "title": "Anthony Scaramucci believes bitcoin will climb back to $100,000",
+      "url": "www.cryptopolitan.com/anthony-scaramucci-bitcoin-above-100000",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-19T11:01:28.046108+00:00"
+    },
+    "bc4625f1d9c85986": {
+      "title": "'It's Still Early,' Bitwise CEO Reacts to BlackRock's Bitcoin Advice",
+      "url": "u.today/its-still-early-bitwise-ceo-reacts-to-blackrocks-bitcoin-advice",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-19T11:01:31.725765+00:00"
     }
   }
 }
