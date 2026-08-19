@@ -1,19 +1,5 @@
 {
   "posted": {
-    "5c0bf8928e3f": {
-      "title": "Vietnam sets fines for unlicensed crypto trading ahead of regulation rollout",
-      "url": "cointelegraph.com/news/vietnam-crypto-traders-unlicensed-platforms-fines?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "entity_vietnam",
-      "canonical_key": "entity_vietnam",
-      "ts": "2026-07-20T13:01:17.853952+00:00"
-    },
-    "a127fd1f86e4": {
-      "title": "메타마스크에 침투한 북측 개발자 의혹…컨센시스 배경조사 논란",
-      "url": "www.tokenpost.kr/news/tech/379543",
-      "signature": "act_probe | action_investigate | action_probe | action_report | entity_metamask | topic_security | topic_wallet",
-      "canonical_key": "act_probe | action_investigate | action_probe | action_report | entity_metamask | topic_security | topic_security_verification | topic_wallet",
-      "ts": "2026-07-20T13:01:23.085702+00:00"
-    },
     "02f26ac6fc6d": {
       "title": "Jeff Bezos joins $450M funding round for AI startup CuspAI",
       "url": "www.cryptopolitan.com/jeff-bezos-450m-funding-round-ai-cuspai",
@@ -5130,6 +5116,13 @@
       "signature": "action_support | asset_rlusd | asset_xrp | asset_xrpl | object_lending | object_rlusd",
       "canonical_key": "action_support | asset_rlusd | asset_xrp | asset_xrpl | object_lending | object_rlusd",
       "ts": "2026-08-19T13:02:31.216665+00:00"
+    },
+    "f15537efcd9a747a": {
+      "title": "피델리티 관련 BTC 주소에 1억3400만달러 유입",
+      "url": "www.tokenpost.kr/news/cryptocurrency/393445",
+      "signature": "action_disclose | action_launch | action_purchase | amount_krw_189200000000 | amount_usd_134000000 | amount_usd_34000000 | asset_btc | object_corporate_crypto_purchase | object_disclosure | object_etf",
+      "canonical_key": "action_disclose | action_launch | action_purchase | amount_krw_189200000000 | amount_usd_134000000 | amount_usd_34000000 | asset_btc | object_corporate_crypto_purchase | object_disclosure | object_etf",
+      "ts": "2026-08-19T14:01:24.553359+00:00"
     }
   }
 }
