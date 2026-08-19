@@ -5046,6 +5046,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-19T06:01:03.824830+00:00"
+    },
+    "3cc769764b6578fe": {
+      "title": "Interstice Digital launches Canton cross-chain swap engine with FalconX",
+      "url": "crypto.news/interstice-digital-launches-canton-cross-chain-swap-engine-with-falconx",
+      "signature": "action_launch | asset_eth | asset_sol | entity_falconx | entity_로빈후드 | object_custody | object_network",
+      "canonical_key": "action_launch | asset_eth | asset_sol | entity_falconx | entity_로빈후드 | object_custody | object_network",
+      "ts": "2026-08-19T07:02:10.063037+00:00"
+    },
+    "5c4d39d19843f1eb": {
+      "title": "Maya Protocol suffers $1.7 million exploit, halts network",
+      "url": "crypto.news/maya-protocol-suffers-1-7-million-exploit-halts-network",
+      "signature": "action_hack | action_steal | amount_usd_1700000 | asset_btc | entity_mayaprotocol | object_network",
+      "canonical_key": "action_hack | action_steal | amount_usd_1700000 | asset_btc | entity_mayaprotocol | object_network",
+      "ts": "2026-08-19T07:02:14.352680+00:00"
     }
   }
 }
