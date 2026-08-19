@@ -5011,6 +5011,13 @@
       "signature": "action_invest | action_issue | action_mint | action_propose | amount_krw_31100000000 | amount_krw_8900000000 | amount_krw_9200000000 | amount_usd_22000000 | amount_usd_6300000 | amount_usd_6500000 | entity_바이낸스 | geo_us | object_etf | object_etf_holdings",
       "canonical_key": "action_invest | action_issue | action_mint | action_propose | amount_krw_31100000000 | amount_krw_8900000000 | amount_krw_9200000000 | amount_usd_22000000 | amount_usd_6300000 | amount_usd_6500000 | entity_바이낸스 | geo_us | object_etf | object_etf_holdings",
       "ts": "2026-08-18T23:01:48.815884+00:00"
+    },
+    "88661e213fc01b20": {
+      "title": "XRP Ledger to Soon Host Korean Won Stablecoin for Ripple Payments",
+      "url": "thecryptobasic.com/2026/08/18/xrp-ledger-to-soon-host-korean-won-stablecoin-for-ripple-payments",
+      "signature": "action_expand | action_partner | action_support | asset_stablecoin | asset_xrp | asset_xrpl | entity_xrpledger | entity_리플 | entity_스테이블코인 | geo_korea | object_payment",
+      "canonical_key": "action_expand | action_partner | action_support | asset_stablecoin | asset_xrp | asset_xrpl | entity_xrpledger | entity_리플 | entity_스테이블코인 | geo_korea | object_payment",
+      "ts": "2026-08-19T00:01:47.870879+00:00"
     }
   }
 }
