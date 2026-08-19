@@ -5130,6 +5130,27 @@
       "signature": "action_publish | amount_usd_10300000 | asset_btc | entity_h100group",
       "canonical_key": "action_publish | amount_usd_10300000 | asset_btc | entity_h100group",
       "ts": "2026-08-19T15:01:40.383194+00:00"
+    },
+    "1c853ebb793faca3": {
+      "title": "Bitcoin price hits 11-week high as US Treasury doubles debt buyback size",
+      "url": "cointelegraph.com/markets/bitcoin-price-hits-11-week-high-as-us-treasury-doubles-debt-buyback-size?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-19T16:01:45.667349+00:00"
+    },
+    "6d91298efdb90310": {
+      "title": "India’s Foreign Money Crackdown: What It Means for Bitcoin Prices and Indian Holders",
+      "url": "coinedition.com/indias-foreign-money-crackdown-what-it-means-for-bitcoin-prices-and-indian-holders",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-19T16:01:50.193652+00:00"
+    },
+    "63e5d1c4529d012a": {
+      "title": "Strive director buys 15,900 ASST shares as SATA nears par",
+      "url": "crypto.news/strive-director-buys-15900-asst-shares-sata-nears-par",
+      "signature": "action_close | action_purchase | amount_usd_100 | amount_usd_199386 | asset_btc | entity_asst | entity_sata | entity_sec | entity_스트라이브 | object_corporate_crypto_purchase",
+      "canonical_key": "action_close | action_purchase | amount_usd_100 | amount_usd_199386 | asset_btc | entity_asst | entity_sata | entity_sec | entity_스트라이브 | object_corporate_crypto_purchase",
+      "ts": "2026-08-19T16:01:54.136027+00:00"
     }
   }
 }
