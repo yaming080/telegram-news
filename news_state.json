@@ -5060,6 +5060,13 @@
       "signature": "action_hack | action_steal | amount_usd_1700000 | asset_btc | entity_mayaprotocol | object_network",
       "canonical_key": "action_hack | action_steal | amount_usd_1700000 | asset_btc | entity_mayaprotocol | object_network",
       "ts": "2026-08-19T07:02:14.352680+00:00"
+    },
+    "c1ce086c02353715": {
+      "title": "Bitcoin.com integrates UAE-regulated USDU stablecoin into its crypto wallet",
+      "url": "crypto.news/bitcoin-com-integrates-uae-regulated-usdu-stablecoin-into-its-crypto-wallet",
+      "signature": "action_integrate | action_partner | action_support | asset_btc | asset_stablecoin | object_custody | object_wallet",
+      "canonical_key": "action_integrate | action_partner | action_support | asset_btc | asset_stablecoin | object_custody | object_wallet",
+      "ts": "2026-08-19T08:01:34.760846+00:00"
     }
   }
 }
