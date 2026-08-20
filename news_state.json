@@ -5165,6 +5165,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-20T17:02:39.960563+00:00"
+    },
+    "9eb4f5f524ff7186": {
+      "title": "Aligned Launches $ALIGN, the Native Token of Its Full Ethereum Stack",
+      "url": "cryptopotato.com/aligned-launches-align-the-native-token-of-its-full-ethereum-stack",
+      "signature": "action_build | action_launch | asset_eth | date_2026_08_20 | entity_align | object_infrastructure",
+      "canonical_key": "action_build | action_launch | asset_eth | date_2026_08_20 | entity_align | object_infrastructure",
+      "ts": "2026-08-20T18:05:07.915039+00:00"
+    },
+    "fe33782f2c039a9a": {
+      "title": "Why Bitcoin-backed loans need qualified custody and no rehypothecation, according to Arch Lending CTO",
+      "url": "crypto.news/why-bitcoin-backed-loans-need-qualified-custody",
+      "signature": "action_support | asset_btc | object_custody | object_lending",
+      "canonical_key": "action_support | asset_btc | object_custody | object_lending",
+      "ts": "2026-08-20T18:05:31.637620+00:00"
     }
   }
 }
