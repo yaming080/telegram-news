@@ -1,19 +1,5 @@
 {
   "posted": {
-    "6787c4f429cb": {
-      "title": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-      "url": "cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "act_bill | act_custody | entity_gram | entity_paveldurov | entity_telegram | eventfp_entity_gram_entity_paveldurov_entity_telegram_topic_bill_topic_custody_topic_wallet | num_1 | topic_bill | topic_custody | topic_wallet",
-      "canonical_key": "entity_gram | entity_paveldurov | entity_telegram | eventfp_entity_gram_entity_paveldurov_entity_telegram_topic_bill_topic_custody_topic_wallet | num_1 | topic_bill | topic_custody | topic_wallet",
-      "ts": "2026-07-21T19:01:46.991332+00:00"
-    },
-    "37b8ca9f6a00": {
-      "title": "UK robot maker Humanoid raises $152 million, joins the unicorn ranks",
-      "url": "www.cryptopolitan.com/uk-robotics-humanoid-becomes-uk-unicorn",
-      "signature": "entity_humanoid | entity_영국 | eventfp_entity_humanoid_entity_영국_geo_uk_topic_bill | geo_uk | topic_bill",
-      "canonical_key": "entity_humanoid | entity_영국 | eventfp_entity_humanoid_entity_영국_geo_uk_topic_bill | geo_uk | topic_bill",
-      "ts": "2026-07-21T19:02:07.036394+00:00"
-    },
     "3f7ac098e17b": {
       "title": "국내 은행 원화대출 연체율, 7년 만에 최고치 기록",
       "url": "www.tokenpost.kr/news/economy/379983",
