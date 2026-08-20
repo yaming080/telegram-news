@@ -1,12 +1,5 @@
 {
   "posted": {
-    "5e5adf6ab0e9": {
-      "title": "Bank of Korea CBDC pilot skipped independent security audit, report says",
-      "url": "crypto.news/bank-of-korea-cbdc-pilot-skipped-independent-security-audit-report-says",
-      "signature": "action_ban_restrict | action_launch | action_restrict | asset_cbdc | entity_bank | entity_koreacbdc | eventfp_action_ban_restrict_asset_cbdc_entity_bank_entity_koreacbdc_geo_korea_topic_cbdc | geo_korea | org_bok | org_sec | topic_cbdc | topic_launch | topic_security | topic_treasury",
-      "canonical_key": "action_ban_restrict | action_launch | action_restrict | action_출시 | asset_cbdc | entity_bank | entity_bok | entity_koreacbdc | eventfp_action_ban_restrict_asset_cbdc_entity_bank_entity_koreacbdc_geo_korea_topic_cbdc | geo_korea | geo_한국 | topic_cbdc | topic_cbdc예금토큰 | topic_launch | topic_security | topic_treasury",
-      "ts": "2026-07-21T09:01:20.828206+00:00"
-    },
     "5ad3281679e6": {
       "title": "Russian parliament passes law regulating crypto market",
       "url": "cointelegraph.com/news/russias-parliament-passes-law-regulating-crypto-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -5144,6 +5137,27 @@
       "signature": "action_disclose | action_invest | action_launch | action_propose | asset_btc | asset_eth | asset_sol | object_disclosure",
       "canonical_key": "action_disclose | action_invest | action_launch | action_propose | asset_btc | asset_eth | asset_sol | object_disclosure",
       "ts": "2026-08-20T08:01:40.956473+00:00"
+    },
+    "e6f9fce26bf7c139": {
+      "title": "GnosisDAO approves Gnosis Chain for Ethereum Economic Zone",
+      "url": "cointelegraph.com/news/gnosisdao-approves-gnosis-chain-ethereum-economic-zone?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_approve | action_convert | action_enable | asset_eth | entity_gnosisdao",
+      "canonical_key": "action_approve | action_convert | action_enable | asset_eth | entity_gnosisdao",
+      "ts": "2026-08-20T10:02:03.145027+00:00"
+    },
+    "78e2293c8e206d79": {
+      "title": "GnosisDAO approves Gnosis Chain’s move to Ethereum L2",
+      "url": "crypto.news/gnosisdao-approves-gnosis-chain-move-to-ethereum-l2",
+      "signature": "action_approve | action_convert | action_launch | action_transfer | asset_eth | entity_gnosisdao",
+      "canonical_key": "action_approve | action_convert | action_launch | action_transfer | asset_eth | entity_gnosisdao",
+      "ts": "2026-08-20T10:02:06.041624+00:00"
+    },
+    "ee4900641a3ab4aa": {
+      "title": "Ripple stock position revealed in SEC fund filing",
+      "url": "crypto.news/ripple-stock-position-revealed-in-sec-fund-filing",
+      "signature": "action_disclose | amount_usd_246319 | entity_sec | entity_리플 | geo_us | object_fund",
+      "canonical_key": "action_disclose | amount_usd_246319 | entity_sec | entity_리플 | geo_us | object_fund",
+      "ts": "2026-08-20T10:02:08.936896+00:00"
     }
   }
 }
