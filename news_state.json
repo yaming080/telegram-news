@@ -1,12 +1,5 @@
 {
   "posted": {
-    "4e6335282316": {
-      "title": "Bitget Debuts USDT-Settled Quanto Perpetuals for Traditional Assets",
-      "url": "coinedition.com/bitget-debuts-usdt-settled-quanto-perpetuals-for-traditional-assets",
-      "signature": "action_launch | asset_usdt | entity_bitgetdebutsusdtsettledquanto | entity_perpetuals | entity_traditionalassets | eventfp_asset_usdt_entity_bitgetdebutsusdtsettledquanto_entity_perpetuals_entity_traditionalassets_geo_hongkong_topic_bill | geo_hongkong | obj_stablecoin_safety | org_bitget | topic_bill | topic_launch",
-      "canonical_key": "action_launch | action_출시 | asset_usdt | entity_bitgetdebutsusdtsettledquanto | entity_perpetuals | entity_traditionalassets | eventfp_asset_usdt_entity_bitgetdebutsusdtsettledquanto_entity_perpetuals_entity_traditionalassets_geo_hongkong_topic_bill | geo_hongkong | geo_미국 | geo_홍콩 | obj_stablecoin_safety | topic_ai | topic_bill | topic_launch",
-      "ts": "2026-07-21T14:01:54.266436+00:00"
-    },
     "8f94d93823c5": {
       "title": "Will Politics Decide the Future of Crypto Laws Instead of Policy?",
       "url": "coinedition.com/will-politics-decide-the-future-of-crypto-laws-instead-of-policy",
@@ -5172,6 +5165,13 @@
       "signature": "action_steal | amount_eth_1010 | amount_eth_810 | amount_eth_approx_1000 | amount_eth_approx_810 | asset_eth | object_wallet",
       "canonical_key": "action_steal | amount_eth_1010 | amount_eth_810 | amount_eth_approx_1000 | amount_eth_approx_810 | asset_eth | object_wallet",
       "ts": "2026-08-20T14:03:14.708584+00:00"
+    },
+    "ba5f22a74c199cff": {
+      "title": "PrimeXBT: XRP is already a commodity under US law, so what does the CLARITY Act actually change?",
+      "url": "thecryptobasic.com/2026/08/20/primexbt-xrp-is-already-a-commodity-under-us-law-so-what-does-the-clarity-act-actually-change",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-20T15:02:07.500312+00:00"
     }
   }
 }
