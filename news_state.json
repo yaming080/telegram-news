@@ -5172,6 +5172,20 @@
       "signature": "action_close | amount_pct_12.68 | amount_usd_104 | amount_usd_72000 | amount_usd_7800000000 | amount_usd_8000000000 | amount_usd_93 | asset_btc | entity_스트래티지 | object_recovery",
       "canonical_key": "action_close | amount_pct_12.68 | amount_usd_104 | amount_usd_72000 | amount_usd_7800000000 | amount_usd_8000000000 | amount_usd_93 | asset_btc | entity_스트래티지 | object_recovery",
       "ts": "2026-08-20T19:03:28.194761+00:00"
+    },
+    "b985fbfaf1977c23": {
+      "title": "실물자산 거래 54%, 수수료 기여 8.3%",
+      "url": "www.tokenpost.kr/news/cryptocurrency/394505",
+      "signature": "action_ban | action_disclose | action_launch | action_transfer | amount_pct_54 | amount_pct_8.3 | asset_btc | object_disclosure | object_infrastructure",
+      "canonical_key": "action_ban | action_disclose | action_launch | action_transfer | amount_pct_54 | amount_pct_8.3 | asset_btc | object_disclosure | object_infrastructure",
+      "ts": "2026-08-20T23:02:09.727989+00:00"
+    },
+    "8806500426e158d9": {
+      "title": "Ripple Joins Clearpool, Cicada to Bring Institutional Lending to XRPL",
+      "url": "coinedition.com/crypto-live-news/ripple-joins-clearpool-cicada-to-bring-institutional-lending-to-xrpl",
+      "signature": "action_partner | amount_usd_930000000 | asset_xrp | asset_xrpl | entity_리플 | object_infrastructure | object_lending | object_network | object_payment",
+      "canonical_key": "action_partner | amount_usd_930000000 | asset_xrp | asset_xrpl | entity_리플 | object_infrastructure | object_lending | object_network | object_payment",
+      "ts": "2026-08-20T23:02:14.204155+00:00"
     }
   }
 }
