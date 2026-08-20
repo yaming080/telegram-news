@@ -1,12 +1,5 @@
 {
   "posted": {
-    "519efb3555a1": {
-      "title": "Tesla first cash burn in two years to test investor faith in AI",
-      "url": "www.cryptopolitan.com/tesla-first-cash-burn-two-years-ai-spending",
-      "signature": "action_invest | action_warn | entity_ai | entity_tesla | eventfp_entity_ai_entity_tesla_topic_bill | topic_bill",
-      "canonical_key": "entity_ai | entity_tesla | eventfp_entity_ai_entity_tesla_topic_bill | topic_bill",
-      "ts": "2026-07-21T16:01:22.700781+00:00"
-    },
     "6787c4f429cb": {
       "title": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
       "url": "cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -5165,6 +5158,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-20T15:02:07.500312+00:00"
+    },
+    "efa6bfdd0e902f16": {
+      "title": "French couple kidnapped in alleged Bitcoin extortion plot",
+      "url": "crypto.news/french-couple-kidnapped-alleged-bitcoin-extortion-plot",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-20T17:02:39.960563+00:00"
     }
   }
 }
