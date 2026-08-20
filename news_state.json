@@ -1,33 +1,5 @@
 {
   "posted": {
-    "5ad3281679e6": {
-      "title": "Russian parliament passes law regulating crypto market",
-      "url": "cointelegraph.com/news/russias-parliament-passes-law-regulating-crypto-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "entity_russian | eventfp_entity_russian_geo_russia_topic_bill | geo_russia | topic_bill",
-      "canonical_key": "entity_russian | eventfp_entity_russian_geo_russia_topic_bill | geo_russia | topic_bill",
-      "ts": "2026-07-21T12:01:02.504886+00:00"
-    },
-    "087d1e827d17": {
-      "title": "World Bank backs South Africa’s reforms with fourth loan since 2022",
-      "url": "www.cryptopolitan.com/world-bank-south-africa-reforms-fourth-loan",
-      "signature": "action_ban_restrict | entity_worldbank | entity_남아프리카공화국 | eventfp_action_ban_restrict_entity_worldbank_entity_남아프리카공화국_topic_bill_topic_lending_year_2022 | topic_bill | topic_lending | year_2022",
-      "canonical_key": "action_ban_restrict | entity_worldbank | entity_남아프리카공화국 | eventfp_action_ban_restrict_entity_worldbank_entity_남아프리카공화국_topic_bill_topic_lending_year_2022 | topic_bill | topic_lending | year_2022",
-      "ts": "2026-07-21T12:01:26.612523+00:00"
-    },
-    "543958096086": {
-      "title": "Is China becoming AI’s new gatekeeper?",
-      "url": "www.cryptopolitan.com/is-china-becoming-ais-new-gatekeeper",
-      "signature": "action_ban_restrict | entity_ai | entity_ischina | eventfp_action_ban_restrict_entity_ai_entity_ischina_geo_china | geo_china",
-      "canonical_key": "action_ban_restrict | entity_ai | entity_ischina | eventfp_action_ban_restrict_entity_ai_entity_ischina_geo_china | geo_china",
-      "ts": "2026-07-21T12:01:49.382382+00:00"
-    },
-    "8cde76924b15": {
-      "title": "Maharashtra proposes DELTA Act for India’s first property tokenization framework",
-      "url": "crypto.news/maharashtra-proposes-delta-act-for-indias-first-property-tokenization-framework",
-      "signature": "act_law | entity_deltaact | entity_maharashtra | entity_인도 | eventfp_entity_deltaact_entity_maharashtra_entity_인도_geo_india_topic_bill | geo_india | org_block | topic_bill | topic_tokenization",
-      "canonical_key": "entity_deltaact | entity_maharashtra | entity_인도 | eventfp_entity_deltaact_entity_maharashtra_entity_인도_geo_india_topic_bill | geo_india | topic_bill",
-      "ts": "2026-07-21T12:01:53.876946+00:00"
-    },
     "2592be23a184": {
       "title": "Malaysia seized 75,000 mining rigs. The grid wars are real",
       "url": "crypto.news/crypto-mining-grid-wars-malaysia-ai",
@@ -5172,6 +5144,27 @@
       "signature": "action_support | amount_pct_12 | amount_usd_3000000000 | entity_시바이누",
       "canonical_key": "action_support | amount_pct_12 | amount_usd_3000000000 | entity_시바이누",
       "ts": "2026-08-20T12:02:18.080269+00:00"
+    },
+    "f9c0aab7ffb73fb9": {
+      "title": "XRP ETF Takes A 6% Share As Bitwise Products Record $300M Volume",
+      "url": "thecryptobasic.com/2026/08/20/xrp-etf-takes-a-6-share-as-bitwise-products-record-300m-volume",
+      "signature": "action_invest | amount_pct_6 | amount_usd_300000000 | asset_xrp | object_etf | object_etf_holdings",
+      "canonical_key": "action_invest | amount_pct_6 | amount_usd_300000000 | asset_xrp | object_etf | object_etf_holdings",
+      "ts": "2026-08-20T13:03:37.098926+00:00"
+    },
+    "776ac233b79faaaf": {
+      "title": "4억달러 비트디어 AI 계약, 2027년 매출 반영",
+      "url": "www.tokenpost.kr/news/cryptocurrency/394384",
+      "signature": "action_acquire | action_file | action_secure | amount_krw_556400000000 | amount_usd_400000000 | asset_btc | duration_years_5 | entity_sec | geo_malaysia | geo_us | object_commissioner | object_infrastructure | period_2027_q1",
+      "canonical_key": "action_acquire | action_file | action_secure | amount_krw_556400000000 | amount_usd_400000000 | asset_btc | duration_years_5 | entity_sec | geo_malaysia | geo_us | object_commissioner | object_infrastructure | period_2027_q1",
+      "ts": "2026-08-20T13:03:40.879320+00:00"
+    },
+    "5a01f36cc7d5f1fc": {
+      "title": "20% Ethereum Rally Boosts Bitmine (BMNR) by $2.2 Billion: Tom Lee Backs Ether as Vital Layer for AI",
+      "url": "u.today/20-ethereum-rally-boosts-bitmine-bmnr-by-22-billion-tom-lee-backs-ether-as-vital-layer-for-ai",
+      "signature": "action_support | amount_pct_20 | amount_usd_2200000000 | asset_eth | entity_bmnr",
+      "canonical_key": "action_support | amount_pct_20 | amount_usd_2200000000 | asset_eth | entity_bmnr",
+      "ts": "2026-08-20T13:03:46.127669+00:00"
     }
   }
 }
