@@ -5158,6 +5158,13 @@
       "signature": "action_purchase | action_support | amount_pct_4 | amount_usd_1000000000 | amount_usd_68000 | asset_btc | object_recovery",
       "canonical_key": "action_purchase | action_support | amount_pct_4 | amount_usd_1000000000 | amount_usd_68000 | asset_btc | object_recovery",
       "ts": "2026-08-19T23:02:15.032358+00:00"
+    },
+    "a1d34300f61adcca": {
+      "title": "Ethena Expands USDe Strategy With $1 Billion FalconX Credit Facility",
+      "url": "coinedition.com/crypto-live-news/ethena-expands-usde-strategy-with-1-billion-falconx-credit-facility",
+      "signature": "action_expand | action_secure | action_support | amount_usd_1000000000 | entity_billionfalconxcreditfacility | entity_스트래티지",
+      "canonical_key": "action_expand | action_secure | action_support | amount_usd_1000000000 | entity_billionfalconxcreditfacility | entity_스트래티지",
+      "ts": "2026-08-20T00:01:56.435585+00:00"
     }
   }
 }
