@@ -1,12 +1,5 @@
 {
   "posted": {
-    "d32ad68a228f": {
-      "title": "Chainlink CCIP Joins Central Bank Digital Asset Pilots",
-      "url": "bitcoinist.com/chainlink-ccip-central-bank-digital-asset-pilots",
-      "signature": "action_ban_restrict | entity_bankdigitalassetpilots | entity_centralbank | entity_chainlinkccipjoinscentral | eventfp_action_ban_restrict_entity_bankdigitalassetpilots_entity_centralbank_entity_chainlinkccipjoinscentral",
-      "canonical_key": "action_ban_restrict | entity_bankdigitalassetpilots | entity_centralbank | entity_chainlinkccipjoinscentral | eventfp_action_ban_restrict_entity_bankdigitalassetpilots_entity_centralbank_entity_chainlinkccipjoinscentral",
-      "ts": "2026-07-21T02:01:08.468281+00:00"
-    },
     "703debd11749": {
       "title": "XRPL Reserve Debate Splits Community Over Adoption vs Security",
       "url": "cryptopotato.com/xrpl-reserve-debate-splits-community-over-adoption-vs-security",
