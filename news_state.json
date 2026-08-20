@@ -1,19 +1,5 @@
 {
   "posted": {
-    "2aaa2ff55143": {
-      "title": "[코인 갱신 일지] SYRUPUSDC·PRIME 신고점권 진입…XCH·WMTX 신저점 동반",
-      "url": "www.tokenpost.kr/news/cryptocurrency/379780",
-      "signature": "action_ban_restrict | action_file | action_restrict | asset_usdc | entity_prime | entity_syrupusdc | entity_wmtx | entity_xch | eventfp_action_ban_restrict_action_file_asset_usdc_entity_prime_entity_syrupusdc_entity_wmtx_entity_xch | num_03852 | num_05 | num_17 | num_2571 | num_74 | obj_stablecoin_safety",
-      "canonical_key": "action_ban_restrict | action_file | asset_usdc | entity_prime | entity_syrupusdc | entity_wmtx | entity_xch | eventfp_action_ban_restrict_action_file_asset_usdc_entity_prime_entity_syrupusdc_entity_wmtx_entity_xch",
-      "ts": "2026-07-21T07:01:15.701403+00:00"
-    },
-    "f9b88af7b80b": {
-      "title": "UK Parliament probes bank restrictions on crypto businesses",
-      "url": "crypto.news/uk-parliament-probes-bank-restrictions-on-crypto-businesses",
-      "signature": "act_law | act_payment | action_ban_restrict | action_expand | action_investigate | action_launch | action_probe | action_restrict | asset_eth | entity_ukparliament | eventfp_action_ban_restrict_action_probe_entity_ukparliament_geo_uk_topic_bill | geo_uk | org_sec | topic_bill | topic_launch",
-      "canonical_key": "action_ban_restrict | action_expand | action_investigate | action_launch | action_probe | action_restrict | action_발언 | action_출시 | asset_eth | entity_ukparliament | eventfp_action_ban_restrict_action_probe_entity_ukparliament_geo_uk_topic_bill | geo_uk | geo_영국 | topic_bill | topic_launch",
-      "ts": "2026-07-21T07:01:21.594591+00:00"
-    },
     "5e5adf6ab0e9": {
       "title": "Bank of Korea CBDC pilot skipped independent security audit, report says",
       "url": "crypto.news/bank-of-korea-cbdc-pilot-skipped-independent-security-audit-report-says",
@@ -5151,6 +5137,13 @@
       "signature": "action_appoint | action_develop | action_issue | action_mint | action_transfer | asset_eth | entity_이더리움재단 | geo_korea | object_board | object_foundation_governance | object_payment",
       "canonical_key": "action_appoint | action_develop | action_issue | action_mint | action_transfer | asset_eth | entity_이더리움재단 | geo_korea | object_board | object_foundation_governance | object_payment",
       "ts": "2026-08-20T05:01:57.872019+00:00"
+    },
+    "13e41a249bb3fb74": {
+      "title": "안셈, 5종 코인 동일비중 구상 제시",
+      "url": "www.tokenpost.kr/news/cryptocurrency/394174",
+      "signature": "action_disclose | action_invest | action_launch | action_propose | asset_btc | asset_eth | asset_sol | object_disclosure",
+      "canonical_key": "action_disclose | action_invest | action_launch | action_propose | asset_btc | asset_eth | asset_sol | object_disclosure",
+      "ts": "2026-08-20T08:01:40.956473+00:00"
     }
   }
 }
