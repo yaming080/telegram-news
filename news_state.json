@@ -5158,6 +5158,20 @@
       "signature": "action_disclose | amount_usd_246319 | entity_sec | entity_리플 | geo_us | object_fund",
       "canonical_key": "action_disclose | amount_usd_246319 | entity_sec | entity_리플 | geo_us | object_fund",
       "ts": "2026-08-20T10:02:08.936896+00:00"
+    },
+    "9c9c8a84771d33c4": {
+      "title": "2090만달러 매출 포티튜드, 나스닥 우회상장 추진",
+      "url": "www.tokenpost.kr/news/cryptocurrency/394338",
+      "signature": "action_disclose | action_launch | amount_krw_13200000000 | amount_krw_26700000000 | amount_krw_29100000000 | amount_krw_6400000000 | amount_usd_19200000 | amount_usd_20900000 | amount_usd_4600000 | amount_usd_9500000 | asset_btc | object_disclosure | period_2026_q2",
+      "canonical_key": "action_disclose | action_launch | amount_krw_13200000000 | amount_krw_26700000000 | amount_krw_29100000000 | amount_krw_6400000000 | amount_usd_19200000 | amount_usd_20900000 | amount_usd_4600000 | amount_usd_9500000 | asset_btc | object_disclosure | period_2026_q2",
+      "ts": "2026-08-20T12:02:14.095307+00:00"
+    },
+    "f97bfcd10d2dd565": {
+      "title": "Shiba Inu (SHIB) Up 12% as $3 Billion Short Squeeze Fuels Crypto Market Rally",
+      "url": "u.today/shiba-inu-shib-up-12-as-3-billion-short-squeeze-fuels-crypto-market-rally",
+      "signature": "action_support | amount_pct_12 | amount_usd_3000000000 | entity_시바이누",
+      "canonical_key": "action_support | amount_pct_12 | amount_usd_3000000000 | entity_시바이누",
+      "ts": "2026-08-20T12:02:18.080269+00:00"
     }
   }
 }
