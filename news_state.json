@@ -5179,6 +5179,13 @@
       "signature": "action_support | asset_btc | object_custody | object_lending",
       "canonical_key": "action_support | asset_btc | object_custody | object_lending",
       "ts": "2026-08-20T18:05:31.637620+00:00"
+    },
+    "407bbb4ae1c21653": {
+      "title": "MicroStrategy Adds Nearly $8 Billion in Two Days as Bitcoin Pump Shrinks Treasury Loss",
+      "url": "thecryptobasic.com/2026/08/20/microstrategy-adds-nearly-8-billion-in-two-days-as-bitcoin-pump-shrinks-treasury-loss",
+      "signature": "action_close | amount_pct_12.68 | amount_usd_104 | amount_usd_72000 | amount_usd_7800000000 | amount_usd_8000000000 | amount_usd_93 | asset_btc | entity_스트래티지 | object_recovery",
+      "canonical_key": "action_close | amount_pct_12.68 | amount_usd_104 | amount_usd_72000 | amount_usd_7800000000 | amount_usd_8000000000 | amount_usd_93 | asset_btc | entity_스트래티지 | object_recovery",
+      "ts": "2026-08-20T19:03:28.194761+00:00"
     }
   }
 }
