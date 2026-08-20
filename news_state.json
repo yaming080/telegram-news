@@ -5158,6 +5158,13 @@
       "signature": "action_expand | action_secure | action_support | amount_usd_1000000000 | entity_billionfalconxcreditfacility | entity_스트래티지",
       "canonical_key": "action_expand | action_secure | action_support | amount_usd_1000000000 | entity_billionfalconxcreditfacility | entity_스트래티지",
       "ts": "2026-08-20T00:01:56.435585+00:00"
+    },
+    "d9ffd836a9950400": {
+      "title": "빈지 판데, 이더랩스 창립 멤버로 합류한다",
+      "url": "www.tokenpost.kr/news/blockchain/394056",
+      "signature": "action_appoint | action_develop | action_issue | action_mint | action_transfer | asset_eth | entity_이더리움재단 | geo_korea | object_board | object_foundation_governance | object_payment",
+      "canonical_key": "action_appoint | action_develop | action_issue | action_mint | action_transfer | asset_eth | entity_이더리움재단 | geo_korea | object_board | object_foundation_governance | object_payment",
+      "ts": "2026-08-20T05:01:57.872019+00:00"
     }
   }
 }
