@@ -1,19 +1,5 @@
 {
   "posted": {
-    "703debd11749": {
-      "title": "XRPL Reserve Debate Splits Community Over Adoption vs Security",
-      "url": "cryptopotato.com/xrpl-reserve-debate-splits-community-over-adoption-vs-security",
-      "signature": "act_adoption | asset_xrp | asset_xrpl | entity_communityoveradoption | entity_security | entity_xrpledger | entity_xrplreservedebatesplits | eventfp_entity_xrpledger_topic_security_topic_treasury_asset_xrpl | org_sec | topic_security | topic_treasury",
-      "canonical_key": "asset_xrpl | entity_communityoveradoption | entity_security | entity_xrpledger | entity_xrplreservedebatesplits | eventfp_entity_xrpledger_topic_security_topic_treasury_asset_xrpl | topic_security | topic_treasury",
-      "ts": "2026-07-21T05:01:09.862590+00:00"
-    },
-    "525002c4558d": {
-      "title": "Celsius co-founders to pay $6.5M as FTC closes fraud claims",
-      "url": "crypto.news/celsius-co-founders-to-pay-6-5m-as-ftc-closes-fraud-claims",
-      "signature": "entity_celsius | entity_ftc",
-      "canonical_key": "entity_celsius | entity_ftc",
-      "ts": "2026-07-21T05:01:14.567807+00:00"
-    },
     "2aaa2ff55143": {
       "title": "[코인 갱신 일지] SYRUPUSDC·PRIME 신고점권 진입…XCH·WMTX 신저점 동반",
       "url": "www.tokenpost.kr/news/cryptocurrency/379780",
