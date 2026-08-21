@@ -5179,6 +5179,13 @@
       "signature": "action_partner | amount_usd_930000000 | asset_xrp | asset_xrpl | entity_리플 | object_infrastructure | object_lending | object_network | object_payment",
       "canonical_key": "action_partner | amount_usd_930000000 | asset_xrp | asset_xrpl | entity_리플 | object_infrastructure | object_lending | object_network | object_payment",
       "ts": "2026-08-20T23:02:14.204155+00:00"
+    },
+    "7e2120e035793118": {
+      "title": "Upbit lists 4 altcoins in South Korea with 8 pairs",
+      "url": "crypto.news/upbit-lists-4-altcoins-in-south-korea-with-8-pairs",
+      "signature": "action_launch | asset_btc | asset_usdt | entity_업비트 | geo_korea",
+      "canonical_key": "action_launch | asset_btc | asset_usdt | entity_업비트 | geo_korea",
+      "ts": "2026-08-21T05:02:01.799152+00:00"
     }
   }
 }
