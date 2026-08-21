@@ -5193,6 +5193,27 @@
       "signature": "action_support | asset_xrp | entity_바이낸스 | object_derivatives",
       "canonical_key": "action_support | asset_xrp | entity_바이낸스 | object_derivatives",
       "ts": "2026-08-21T12:01:49.253291+00:00"
+    },
+    "a24ea3e197e9cee0": {
+      "title": "XRP Spikes 39%, Sits Among Top Gainers as Price Reclaims 3-Month Peak Above $1.4",
+      "url": "thecryptobasic.com/2026/08/21/xrp-spikes-39-sits-among-top-gainers-as-price-reclaims-3-month-peak-above-1-4",
+      "signature": "action_secure | amount_pct_39 | amount_usd_1 | amount_xrp_1 | amount_xrp_exact_1_4 | asset_xrp | object_recovery",
+      "canonical_key": "action_secure | amount_pct_39 | amount_usd_1 | amount_xrp_1 | amount_xrp_exact_1_4 | asset_xrp | object_recovery",
+      "ts": "2026-08-21T13:02:59.690380+00:00"
+    },
+    "22340b230879f7a6": {
+      "title": "Institutional Lending Comes to XRP Ledger as Ripple, Clearpool, and Cicada Join Forces",
+      "url": "thecryptobasic.com/2026/08/21/institutional-lending-comes-to-xrp-ledger-as-ripple-clearpool-and-cicada-join-forces",
+      "signature": "action_develop | action_partner | action_transfer | asset_xrp | asset_xrpl | entity_xrpledger | entity_리플 | object_lending",
+      "canonical_key": "action_develop | action_partner | action_transfer | asset_xrp | asset_xrpl | entity_xrpledger | entity_리플 | object_lending",
+      "ts": "2026-08-21T13:03:07.049602+00:00"
+    },
+    "afaedebdb0453a8e": {
+      "title": "퍼페추얼 선물, 월가 거래시간 논쟁 키웠다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/395113",
+      "signature": "action_approve | action_expand | action_propose | asset_btc | date_2026_05_29 | entity_cftc | geo_us | object_commissioner | object_derivatives | object_payment",
+      "canonical_key": "action_approve | action_expand | action_propose | asset_btc | date_2026_05_29 | entity_cftc | geo_us | object_commissioner | object_derivatives | object_payment",
+      "ts": "2026-08-21T13:03:11.189627+00:00"
     }
   }
 }
