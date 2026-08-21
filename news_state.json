@@ -1,12 +1,5 @@
 {
   "posted": {
-    "b88339c29383": {
-      "title": "국내 사모펀드, PEF운용사협의회 정식 협회로 전환 추진",
-      "url": "www.tokenpost.kr/news/economy/380140",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-22T09:00:59.924036+00:00"
-    },
     "1d26f6b6a5ea": {
       "title": "Top Crypto Collateral Platform Confirms Shiba Inu Integration to Enable SHIB-Backed Borrowing",
       "url": "thecryptobasic.com/2026/07/22/top-crypto-collateral-platform-confirms-shiba-inu-integration-to-enable-shib-backed-borrowing",
@@ -5179,6 +5172,13 @@
       "signature": "action_pass | amount_pct_20 | amount_usd_77000 | asset_btc | entity_스트래티지",
       "canonical_key": "action_pass | amount_pct_20 | amount_usd_77000 | asset_btc | entity_스트래티지",
       "ts": "2026-08-21T09:01:36.543958+00:00"
+    },
+    "dac022ec491c2d5f": {
+      "title": "Bitcoin rally sends Upbit trading volume up 273% to $1.84 billion",
+      "url": "crypto.news/bitcoin-rally-sends-upbit-trading-volume-up-273-to-1-84-billion",
+      "signature": "action_support | action_transfer | amount_pct_273 | amount_usd_1840000000 | asset_btc | entity_업비트 | geo_korea",
+      "canonical_key": "action_support | action_transfer | amount_pct_273 | amount_usd_1840000000 | asset_btc | entity_업비트 | geo_korea",
+      "ts": "2026-08-21T10:01:42.247820+00:00"
     }
   }
 }
