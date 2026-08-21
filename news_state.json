@@ -1,19 +1,5 @@
 {
   "posted": {
-    "1d26f6b6a5ea": {
-      "title": "Top Crypto Collateral Platform Confirms Shiba Inu Integration to Enable SHIB-Backed Borrowing",
-      "url": "thecryptobasic.com/2026/07/22/top-crypto-collateral-platform-confirms-shiba-inu-integration-to-enable-shib-backed-borrowing",
-      "signature": "act_integration | action_sell | asset_shib | entity_confirmsshibainuintegration | entity_enableshibbackedborrowing | entity_topcryptocollateralplatform | eventfp_action_sell_entity_confirmsshibainuintegration_entity_enableshibbackedborrowing_entity_topcryptocollateralplatform_topic_sale | topic_sale",
-      "canonical_key": "action_sell | entity_confirmsshibainuintegration | entity_enableshibbackedborrowing | entity_topcryptocollateralplatform | eventfp_action_sell_entity_confirmsshibainuintegration_entity_enableshibbackedborrowing_entity_topcryptocollateralplatform_topic_sale | topic_sale",
-      "ts": "2026-07-22T10:01:24.754554+00:00"
-    },
-    "bdb924b17604": {
-      "title": "BscScan maintenance may disrupt BNB Chain access: what to use instead",
-      "url": "crypto.news/bscscan-maintenance-may-disrupt-bnb-chain-access-what-to-use-instead",
-      "signature": "asset_bnb | entity_bnbchain | entity_bscscan | org_block",
-      "canonical_key": "entity_bnbchain | entity_bscscan",
-      "ts": "2026-07-22T10:01:29.693165+00:00"
-    },
     "6b088784c518": {
       "title": "Twenty One Capital Appoints Raphael Zagury CEO to Build BTC Native Company",
       "url": "coinedition.com/twenty-one-capital-appoints-raphael-zagury-ceo-to-build-btc-native-company",
@@ -5179,6 +5165,27 @@
       "signature": "action_support | action_transfer | amount_pct_273 | amount_usd_1840000000 | asset_btc | entity_업비트 | geo_korea",
       "canonical_key": "action_support | action_transfer | amount_pct_273 | amount_usd_1840000000 | asset_btc | entity_업비트 | geo_korea",
       "ts": "2026-08-21T10:01:42.247820+00:00"
+    },
+    "43761eb69d740d43": {
+      "title": "Strategy climbs back into profit as Bitcoin rally nears $77,000",
+      "url": "www.cryptopolitan.com/strategy-mstr-surges-btc-rally-profit",
+      "signature": "action_build | action_support | amount_btc_840447 | amount_btc_approx_840400 | amount_usd_2000000000 | amount_usd_63360000000 | amount_usd_65500000000 | amount_usd_77000 | asset_btc | entity_마이클세일러 | entity_스트래티지",
+      "canonical_key": "action_build | action_support | amount_btc_840447 | amount_btc_approx_840400 | amount_usd_2000000000 | amount_usd_63360000000 | amount_usd_65500000000 | amount_usd_77000 | asset_btc | entity_마이클세일러 | entity_스트래티지",
+      "ts": "2026-08-21T11:02:49.392708+00:00"
+    },
+    "692b021575191c59": {
+      "title": "케트너 “미 지표 부진 지속 땐 장기채 수요 회복”",
+      "url": "www.tokenpost.kr/news/cryptocurrency/395047",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-21T11:02:53.437652+00:00"
+    },
+    "a37f615073cbea97": {
+      "title": "Ripple CEO backs AI as revenue set to double in 2026",
+      "url": "crypto.news/ripple-ceo-backs-ai-as-revenue-set-to-double-in-2026",
+      "signature": "action_support | entity_리플 | entity_브래드갈링하우스",
+      "canonical_key": "action_support | entity_리플 | entity_브래드갈링하우스",
+      "ts": "2026-08-21T11:02:56.764930+00:00"
     }
   }
 }
