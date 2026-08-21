@@ -1,19 +1,5 @@
 {
   "posted": {
-    "265331d8b3dd": {
-      "title": "China Pumps Billions in Tech ETFs: What Does It Mean for Bitcoin Miners?",
-      "url": "cryptopotato.com/china-pumps-billions-in-tech-etfs-what-does-it-mean-for-bitcoin-miners",
-      "signature": "act_bill | asset_btc | entity_bitcoinminers | entity_chinapumpsbillions | entity_techetfs | entity_whatdoesitmean | eventfp_entity_bitcoinminers_entity_chinapumpsbillions_entity_techetfs_entity_whatdoesitmean_geo_china_topic_bill | geo_china | topic_bill",
-      "canonical_key": "entity_bitcoinminers | entity_chinapumpsbillions | entity_techetfs | entity_whatdoesitmean | eventfp_entity_bitcoinminers_entity_chinapumpsbillions_entity_techetfs_entity_whatdoesitmean_geo_china_topic_bill | geo_china | topic_bill",
-      "ts": "2026-07-22T06:01:01.446140+00:00"
-    },
-    "fcc86d564840": {
-      "title": "Pakistan launches crypto crime unit to target money laundering",
-      "url": "crypto.news/pakistan-launches-crypto-crime-unit-to-target-money-laundering",
-      "signature": "action_probe | entity_pakistan",
-      "canonical_key": "action_probe | entity_pakistan",
-      "ts": "2026-07-22T06:01:06.548571+00:00"
-    },
     "b88339c29383": {
       "title": "국내 사모펀드, PEF운용사협의회 정식 협회로 전환 추진",
       "url": "www.tokenpost.kr/news/economy/380140",
