@@ -5207,6 +5207,27 @@
       "signature": "action_expand | action_invest | amount_btc_1414 | amount_btc_2885 | amount_btc_approx_1400 | amount_btc_approx_2900 | amount_krw_27200000000 | amount_krw_388200000000 | amount_krw_415400000000 | amount_pct_104 | amount_pct_158 | amount_usd_19500000 | amount_usd_278300000 | amount_usd_297800000 | asset_btc | object_infrastructure",
       "canonical_key": "action_expand | action_invest | amount_btc_1414 | amount_btc_2885 | amount_btc_approx_1400 | amount_btc_approx_2900 | amount_krw_27200000000 | amount_krw_388200000000 | amount_krw_415400000000 | amount_pct_104 | amount_pct_158 | amount_usd_19500000 | amount_usd_278300000 | amount_usd_297800000 | asset_btc | object_infrastructure",
       "ts": "2026-08-21T16:02:21.437549+00:00"
+    },
+    "e9c874e113435beb": {
+      "title": "Vitalik lands on local mixing as obfuscation series reaches third stage",
+      "url": "www.cryptopolitan.com/vitalik-buterin-local-mixing-obfuscation",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-21T21:01:45.275623+00:00"
+    },
+    "2fcd5c8ed13e1252": {
+      "title": "YZi Labs-Backed BounceBit to Shut Down L1 After 286.5M BB Exploit",
+      "url": "coinedition.com/yzi-labs-backed-bouncebit-to-shut-down-l1-after-286-5m-bb",
+      "signature": "action_close | action_hack | action_steal | action_support | action_transfer | entity_yzilabsbackedbouncebit",
+      "canonical_key": "action_close | action_hack | action_steal | action_support | action_transfer | entity_yzilabsbackedbouncebit",
+      "ts": "2026-08-21T21:01:49.940404+00:00"
+    },
+    "0723c409a83a4c87": {
+      "title": "Ripple's RLUSD Zeros In on PayPal USD as Its Market Cap Tops $2 Billion",
+      "url": "u.today/ripples-rlusd-zeros-in-on-paypal-usd-as-its-market-cap-tops-2-billion",
+      "signature": "action_close | amount_usd_2000000000 | asset_rlusd | asset_stablecoin | entity_paypalusd | entity_리플 | object_rlusd",
+      "canonical_key": "action_close | amount_usd_2000000000 | asset_rlusd | asset_stablecoin | entity_paypalusd | entity_리플 | object_rlusd",
+      "ts": "2026-08-21T21:01:52.664917+00:00"
     }
   }
 }
