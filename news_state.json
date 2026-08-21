@@ -1,12 +1,5 @@
 {
   "posted": {
-    "cd16dca6126a": {
-      "title": "White House accuses Moonshot AI of secretly copying Anthropic",
-      "url": "crypto.news/white-house-accuses-moonshot-ai-of-copying-anthropic",
-      "signature": "entity_anthropic | entity_moonshotai | entity_백악관 | eventfp_entity_anthropic_entity_moonshotai_entity_백악관_geo_china | geo_china",
-      "canonical_key": "entity_anthropic | entity_moonshotai | entity_백악관 | eventfp_entity_anthropic_entity_moonshotai_entity_백악관_geo_china | geo_china",
-      "ts": "2026-07-22T17:01:05.109478+00:00"
-    },
     "2b530cb58188": {
       "title": "U.S. officials accuse China's Moonshot of stealing from Anthropic's Fable in Kimi K3 production",
       "url": "www.cryptopolitan.com/white-house-moonshot-anthropic-fable-kimi-k3",
