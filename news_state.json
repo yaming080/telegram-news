@@ -5186,6 +5186,13 @@
       "signature": "action_support | entity_리플 | entity_브래드갈링하우스",
       "canonical_key": "action_support | entity_리플 | entity_브래드갈링하우스",
       "ts": "2026-08-21T11:02:56.764930+00:00"
+    },
+    "195ef70f9d65f6d5": {
+      "title": "XRP Derivatives Market on Binance Hits 2025 High",
+      "url": "u.today/xrp-derivatives-market-on-binance-hits-2025-high",
+      "signature": "action_support | asset_xrp | entity_바이낸스 | object_derivatives",
+      "canonical_key": "action_support | asset_xrp | entity_바이낸스 | object_derivatives",
+      "ts": "2026-08-21T12:01:49.253291+00:00"
     }
   }
 }
