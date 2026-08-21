@@ -1,19 +1,5 @@
 {
   "posted": {
-    "6b088784c518": {
-      "title": "Twenty One Capital Appoints Raphael Zagury CEO to Build BTC Native Company",
-      "url": "coinedition.com/twenty-one-capital-appoints-raphael-zagury-ceo-to-build-btc-native-company",
-      "signature": "act_move | action_expand | asset_btc | entity_buildbtcnativecompany | entity_raphaelzaguryceo | entity_twentyonecapitalappoints | eventfp_entity_buildbtcnativecompany_entity_raphaelzaguryceo_entity_twentyonecapitalappoints | org_treasury | topic_fed_rate | topic_treasury",
-      "canonical_key": "action_appoint | action_expand | action_이동 | asset_btc | entity_buildbtcnativecompany | entity_raphaelzaguryceo | entity_twentyonecapitalappoints | entity_재무부 | eventfp_entity_buildbtcnativecompany_entity_raphaelzaguryceo_entity_twentyonecapitalappoints | topic_fed_rate | topic_treasury | topic_비트코인 | topic_재무부",
-      "ts": "2026-07-22T13:01:25.910489+00:00"
-    },
-    "9adc6b1def67": {
-      "title": "The SpaceX Trade, Unlocked: SPCXON Goes Live on WEEX",
-      "url": "thenewscrypto.com/the-spacex-trade-unlocked-spcxon-goes-live-on-weex",
-      "signature": "act_unlock | action_ban_restrict | action_restrict | asset_usdt | entity_spcxongoeslive | entity_thespacextrade | entity_unlocked | entity_weex | eventfp_action_ban_restrict_asset_usdt_entity_spcxongoeslive_entity_thespacextrade_entity_unlocked_entity_weex | evt_mica_review | obj_stablecoin_safety | topic_defi | year_2026",
-      "canonical_key": "action_appoint | action_ban_restrict | action_restrict | asset_usdt | entity_boa | entity_spcxongoeslive | entity_thespacextrade | entity_unlocked | entity_weex | eventfp_action_ban_restrict_asset_usdt_entity_spcxongoeslive_entity_thespacextrade_entity_unlocked_entity_weex | evt_mica_review | obj_stablecoin_safety | topic_defi | year_2026",
-      "ts": "2026-07-22T13:01:32.934707+00:00"
-    },
     "cd16dca6126a": {
       "title": "White House accuses Moonshot AI of secretly copying Anthropic",
       "url": "crypto.news/white-house-accuses-moonshot-ai-of-copying-anthropic",
@@ -5214,6 +5200,13 @@
       "signature": "action_approve | action_expand | action_propose | asset_btc | date_2026_05_29 | entity_cftc | geo_us | object_commissioner | object_derivatives | object_payment",
       "canonical_key": "action_approve | action_expand | action_propose | asset_btc | date_2026_05_29 | entity_cftc | geo_us | object_commissioner | object_derivatives | object_payment",
       "ts": "2026-08-21T13:03:11.189627+00:00"
+    },
+    "61b37e1b2bffe418": {
+      "title": "Ethena price jumps 65% as Arthur Hayes backs breakout",
+      "url": "crypto.news/ethena-price-jumps-65-as-arthur-hayes-backs-breakout",
+      "signature": "action_support | amount_pct_65 | amount_usd_1000000000 | entity_아서헤이즈 | entity_에테나 | object_lending",
+      "canonical_key": "action_support | amount_pct_65 | amount_usd_1000000000 | entity_아서헤이즈 | entity_에테나 | object_lending",
+      "ts": "2026-08-21T14:02:07.318944+00:00"
     }
   }
 }
