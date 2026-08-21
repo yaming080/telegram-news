@@ -5221,6 +5221,13 @@
       "signature": "action_support | amount_btc_79000 | amount_btc_approx_79000 | amount_usd_79000 | asset_btc | entity_마이클세일러",
       "canonical_key": "action_support | amount_btc_79000 | amount_btc_approx_79000 | amount_usd_79000 | asset_btc | entity_마이클세일러",
       "ts": "2026-08-21T15:02:23.412788+00:00"
+    },
+    "b00327373c1e42ff": {
+      "title": "하이브, 연간 BTC 생산 104% 늘렸다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/395238",
+      "signature": "action_expand | action_invest | amount_btc_1414 | amount_btc_2885 | amount_btc_approx_1400 | amount_btc_approx_2900 | amount_krw_27200000000 | amount_krw_388200000000 | amount_krw_415400000000 | amount_pct_104 | amount_pct_158 | amount_usd_19500000 | amount_usd_278300000 | amount_usd_297800000 | asset_btc | object_infrastructure",
+      "canonical_key": "action_expand | action_invest | amount_btc_1414 | amount_btc_2885 | amount_btc_approx_1400 | amount_btc_approx_2900 | amount_krw_27200000000 | amount_krw_388200000000 | amount_krw_415400000000 | amount_pct_104 | amount_pct_158 | amount_usd_19500000 | amount_usd_278300000 | amount_usd_297800000 | asset_btc | object_infrastructure",
+      "ts": "2026-08-21T16:02:21.437549+00:00"
     }
   }
 }
