@@ -5172,6 +5172,13 @@
       "signature": "action_launch | asset_btc | asset_usdt | entity_업비트 | geo_korea",
       "canonical_key": "action_launch | asset_btc | asset_usdt | entity_업비트 | geo_korea",
       "ts": "2026-08-21T05:02:01.799152+00:00"
+    },
+    "206e1cb388c8d58b": {
+      "title": "Strategy Bitcoin treasury hits breakeven point as BTC price passes $77K",
+      "url": "cointelegraph.com/markets/strategy-bitcoin-treasury-hits-breakeven-point-as-btc-price-passes-77k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_pass | amount_pct_20 | amount_usd_77000 | asset_btc | entity_스트래티지",
+      "canonical_key": "action_pass | amount_pct_20 | amount_usd_77000 | asset_btc | entity_스트래티지",
+      "ts": "2026-08-21T09:01:36.543958+00:00"
     }
   }
 }
