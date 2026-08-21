@@ -1,19 +1,5 @@
 {
   "posted": {
-    "2b530cb58188": {
-      "title": "U.S. officials accuse China's Moonshot of stealing from Anthropic's Fable in Kimi K3 production",
-      "url": "www.cryptopolitan.com/white-house-moonshot-anthropic-fable-kimi-k3",
-      "signature": "entity_anthropic | entity_fable | entity_kimik3 | entity_moonshot | entity_us | entity_중국 | eventfp_entity_anthropic_entity_fable_entity_kimik3_entity_moonshot_geo_china | geo_china | org_anthropic",
-      "canonical_key": "entity_anthropic | entity_fable | entity_kimik3 | entity_moonshot | entity_us | entity_중국 | eventfp_entity_anthropic_entity_fable_entity_kimik3_entity_moonshot_geo_china | geo_china",
-      "ts": "2026-07-22T19:01:27.766541+00:00"
-    },
-    "d30bcd1c272e": {
-      "title": "Signum’s Hormuz TACO Index Signals Possible Trump-Iran Pivot by Late July",
-      "url": "coinedition.com/signums-hormuz-taco-index-signals-possible-trump-iran-pivot-by-late-july",
-      "signature": "date_jul_22 | date_jul_26 | date_jul_30 | entity_hormuztacoindexsignals | entity_latejuly | entity_possibletrumpiranpivot | entity_signum",
-      "canonical_key": "date_jul_22 | date_jul_26 | date_jul_30 | entity_hormuztacoindexsignals | entity_latejuly | entity_possibletrumpiranpivot | entity_signum",
-      "ts": "2026-07-22T19:01:34.831466+00:00"
-    },
     "514ffaa7feb8": {
       "title": "White House Accuses Chinese AI Firm Moonshot AI of Distilling Anthropic Models to Build Kimi K3",
       "url": "coinedition.com/crypto-live-news/white-house-accuses-chinese-ai-firm-moonshot-ai-of-distilling-anthropic-models-to-build-kimi-k3",
