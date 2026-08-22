@@ -1,19 +1,5 @@
 {
   "posted": {
-    "2b463de1fc5a": {
-      "title": "Huawei ban could cost Europe €40bn and drive network equipment prices up 43%",
-      "url": "www.cryptopolitan.com/huawei-ban-would-cost-europe-e40bn",
-      "signature": "action_ban_restrict | entity_europe | entity_huawei | eventfp_action_ban_restrict_entity_europe_entity_huawei_geo_china_topic_bill | geo_china | topic_bill",
-      "canonical_key": "action_ban_restrict | entity_europe | entity_huawei | eventfp_action_ban_restrict_entity_europe_entity_huawei_geo_china_topic_bill | geo_china | topic_bill",
-      "ts": "2026-07-23T16:01:44.248298+00:00"
-    },
-    "677eeac59e3b": {
-      "title": "SEC, 이더리움 문서 소송 합의…2억2천만원 지급에 투명성 논란 재부상",
-      "url": "www.tokenpost.kr/news/policy/380625",
-      "signature": "act_connect | act_probe | action_file | action_investigate | action_probe | action_report | asset_eth | date_7_22 | entity_coinbase | entity_sec | eventfp_action_file_action_probe_asset_eth_date_7_22_entity_sec_num_2억 | eventfp_entity_coinbase_entity_sec_topic_regulation_action_investigate_action_report_asset_eth_geo_us_num_15_num_2 | geo_us | num_15 | num_2 | num_2137 | num_2억 | org_sec | topic_regulation",
-      "canonical_key": "act_connect | act_probe | action_file | action_investigate | action_probe | action_report | asset_eth | date_7_22 | entity_coinbase | entity_sec | eventfp_action_file_action_probe_asset_eth_date_7_22_entity_sec_num_2억 | eventfp_entity_coinbase_entity_sec_topic_regulation_action_investigate_action_report_asset_eth_geo_us_num_15_num_2 | geo_us | geo_미국 | num_15 | num_2 | num_2137 | num_2억 | topic_regulation | topic_규제 | topic_이더리움",
-      "ts": "2026-07-23T16:01:48.490219+00:00"
-    },
     "4f28254f1e35": {
       "title": "Swiss Bank BancaStato Launches Crypto Trading Through Sygnum",
       "url": "coinedition.com/swiss-bank-bancastato-launches-crypto-trading-through-sygnum",
