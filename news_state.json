@@ -5249,6 +5249,13 @@
       "signature": "action_compromise | action_disclose | action_issue | action_upgrade | asset_eth | entity_besudisclosesfivecertikidentified | reference_version_26_7_1",
       "canonical_key": "action_compromise | action_disclose | action_issue | action_upgrade | asset_eth | entity_besudisclosesfivecertikidentified | reference_version_26_7_1",
       "ts": "2026-08-22T08:01:58.382296+00:00"
+    },
+    "57a6536b8966ff4e": {
+      "title": "Crypto VC funding: ZeroStack secures $1B, Ripple raises $275M",
+      "url": "crypto.news/crypto-vc-funding-zerostack-secures-1b-ripple-raises",
+      "signature": "action_disclose | action_secure | amount_usd_1000000000 | amount_usd_1298000000 | amount_usd_275000000 | date_2026_08_22 | entity_zerostack | entity_리플",
+      "canonical_key": "action_disclose | action_secure | amount_usd_1000000000 | amount_usd_1298000000 | amount_usd_275000000 | date_2026_08_22 | entity_zerostack | entity_리플",
+      "ts": "2026-08-22T09:01:35.340406+00:00"
     }
   }
 }
