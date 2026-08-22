@@ -1,19 +1,5 @@
 {
   "posted": {
-    "d23b97a352f6": {
-      "title": "가상자산 PAC, 미시간 경선에 100만 달러 투입…美 의회 표심 겨냥",
-      "url": "www.tokenpost.kr/news/politics/380611",
-      "signature": "date_8_4 | entity_pac",
-      "canonical_key": "date_8_4 | entity_pac",
-      "ts": "2026-07-23T15:01:08.410321+00:00"
-    },
-    "5aa660bc303a": {
-      "title": "번스타인 “AI 전력난에 비트코인 채굴사 제휴 필수”",
-      "url": "www.tokenpost.kr/news/cryptocurrency/380568",
-      "signature": "act_connect | act_convert | action_buy | action_expand | action_partner | asset_btc | date_7_23 | entity_ai | entity_bernstein | eventfp_date_7_23_entity_ai_num_1500억달러 | eventfp_entity_bernstein_topic_partnership_topic_purchase_action_buy_action_expand_asset_btc_geo_us_num_1500 | geo_us | num_1500 | num_1500억달러 | obj_mou | topic_partnership | topic_purchase",
-      "canonical_key": "act_connect | act_convert | action_buy | action_expand | action_partner | asset_btc | date_7_23 | entity_ai | entity_bernstein | eventfp_date_7_23_entity_ai_num_1500억달러 | eventfp_entity_bernstein_topic_partnership_topic_purchase_action_buy_action_expand_asset_btc_geo_us_num_1500 | geo_us | geo_미국 | num_1500 | num_1500억달러 | obj_mou | topic_ai | topic_partnership | topic_purchase | topic_비트코인",
-      "ts": "2026-07-23T15:01:12.990123+00:00"
-    },
     "2b463de1fc5a": {
       "title": "Huawei ban could cost Europe €40bn and drive network equipment prices up 43%",
       "url": "www.cryptopolitan.com/huawei-ban-would-cost-europe-e40bn",
@@ -5256,6 +5242,13 @@
       "signature": "action_close | action_compromise | action_hack | action_migrate | action_transfer | amount_usd_3000000 | amount_usd_3300000 | entity_bouncebitshutsdownl1",
       "canonical_key": "action_close | action_compromise | action_hack | action_migrate | action_transfer | amount_usd_3000000 | amount_usd_3300000 | entity_bouncebitshutsdownl1",
       "ts": "2026-08-22T15:01:40.766555+00:00"
+    },
+    "0defbedd929a10a4": {
+      "title": "SHIB's Japanese Status Gets Boost With Nomura-Backed Exchange Listing",
+      "url": "u.today/shibs-japanese-status-gets-boost-with-nomura-backed-exchange-listing",
+      "signature": "action_develop | action_support | entity_boostwithnomurabackedexchange | entity_시바이누 | geo_japan",
+      "canonical_key": "action_develop | action_support | entity_boostwithnomurabackedexchange | entity_시바이누 | geo_japan",
+      "ts": "2026-08-22T16:01:43.040881+00:00"
     }
   }
 }
