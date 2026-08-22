@@ -5228,6 +5228,13 @@
       "signature": "action_deny | action_launch | action_propose | asset_btc | entity_도널드트럼프 | geo_us",
       "canonical_key": "action_deny | action_launch | action_propose | asset_btc | entity_도널드트럼프 | geo_us",
       "ts": "2026-08-22T20:01:44.825019+00:00"
+    },
+    "eed2936dd1c0f3ba": {
+      "title": "비트코인 1789개 블록, 27밀리초 검증 실험",
+      "url": "www.tokenpost.kr/news/blockchain/395789",
+      "signature": "action_develop | action_disclose | action_launch | amount_btc_1789 | amount_btc_approx_1800 | asset_btc | entity_엔비디아 | object_disclosure",
+      "canonical_key": "action_develop | action_disclose | action_launch | amount_btc_1789 | amount_btc_approx_1800 | asset_btc | entity_엔비디아 | object_disclosure",
+      "ts": "2026-08-22T21:01:38.081427+00:00"
     }
   }
 }
