@@ -5235,6 +5235,13 @@
       "signature": "action_develop | action_support | entity_boostwithnomurabackedexchange | entity_시바이누 | geo_japan",
       "canonical_key": "action_develop | action_support | entity_boostwithnomurabackedexchange | entity_시바이누 | geo_japan",
       "ts": "2026-08-22T16:01:43.040881+00:00"
+    },
+    "26c47f019590f682": {
+      "title": "150개 AI 에이전트, 스택스서 BTC 결제 실험",
+      "url": "www.tokenpost.kr/news/cryptocurrency/395759",
+      "signature": "action_disclose | action_launch | action_migrate | action_propose | action_purchase | action_transfer | asset_btc | object_corporate_crypto_purchase | object_disclosure | object_payment | object_wallet | period_2026_q1",
+      "canonical_key": "action_disclose | action_launch | action_migrate | action_propose | action_purchase | action_transfer | asset_btc | object_corporate_crypto_purchase | object_disclosure | object_payment | object_wallet | period_2026_q1",
+      "ts": "2026-08-22T18:01:42.912977+00:00"
     }
   }
 }
