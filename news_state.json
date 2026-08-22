@@ -5249,6 +5249,13 @@
       "signature": "action_invest | amount_usd_7400000000 | asset_btc | object_bond | object_lending",
       "canonical_key": "action_invest | amount_usd_7400000000 | asset_btc | object_bond | object_lending",
       "ts": "2026-08-22T13:01:44.064473+00:00"
+    },
+    "327b240d7a05052f": {
+      "title": "BounceBit Shuts Down L1 After $3M Exploit, Putting BB Traders on Alert",
+      "url": "coinedition.com/bouncebit-shuts-down-l1-after-3m-exploit-putting-bb-traders-on-alert",
+      "signature": "action_close | action_compromise | action_hack | action_migrate | action_transfer | amount_usd_3000000 | amount_usd_3300000 | entity_bouncebitshutsdownl1",
+      "canonical_key": "action_close | action_compromise | action_hack | action_migrate | action_transfer | amount_usd_3000000 | amount_usd_3300000 | entity_bouncebitshutsdownl1",
+      "ts": "2026-08-22T15:01:40.766555+00:00"
     }
   }
 }
