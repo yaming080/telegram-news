@@ -5235,6 +5235,20 @@
       "signature": "action_close | action_compromise | action_hack | action_migrate | action_steal | amount_usd_3000000 | entity_bouncebitplansbnbchain | object_network | object_shutdown",
       "canonical_key": "action_close | action_compromise | action_hack | action_migrate | action_steal | amount_usd_3000000 | entity_bouncebitplansbnbchain | object_network | object_shutdown",
       "ts": "2026-08-22T01:01:43.849863+00:00"
+    },
+    "ef48b6016ff16a39": {
+      "title": "XRP Explodes 65% and Flips BNB as Altcoins Steal the Show: Weekend Watch",
+      "url": "cryptopotato.com/xrp-explodes-65-and-flips-bnb-as-altcoins-steal-the-show-weekend-watch",
+      "signature": "action_steal | amount_pct_40 | amount_pct_62 | amount_pct_65 | asset_xrp | entity_도널드트럼프",
+      "canonical_key": "action_steal | amount_pct_40 | amount_pct_62 | amount_pct_65 | asset_xrp | entity_도널드트럼프",
+      "ts": "2026-08-22T08:01:55.161043+00:00"
+    },
+    "cadf718cef094cdf": {
+      "title": "Besu Discloses Five CertiK-Identified Vulnerabilities Fixed in Latest Security Update",
+      "url": "thenewscrypto.com/besu-discloses-five-certik-identified-vulnerabilities-fixed-in-latest-security-update",
+      "signature": "action_compromise | action_disclose | action_issue | action_upgrade | asset_eth | entity_besudisclosesfivecertikidentified | reference_version_26_7_1",
+      "canonical_key": "action_compromise | action_disclose | action_issue | action_upgrade | asset_eth | entity_besudisclosesfivecertikidentified | reference_version_26_7_1",
+      "ts": "2026-08-22T08:01:58.382296+00:00"
     }
   }
 }
