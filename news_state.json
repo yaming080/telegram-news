@@ -1,19 +1,5 @@
 {
   "posted": {
-    "9f058548046c": {
-      "title": "XRP 레저 ‘정체’ 평가 과장됐나…22억달러 JMWH가 드러낸 착시",
-      "url": "www.tokenpost.kr/news/blockchain/380537",
-      "signature": "action_issue | action_launch | asset_xrp | date_1_13 | entity_xrp | eventfp_asset_xrp_date_1_13_entity_xrp_num_22억달러 | evt_cme_xrp | num_22 | num_22억달러 | obj_mou | topic_launch | topic_tokenization",
-      "canonical_key": "action_issue | action_launch | asset_xrp | date_1_13 | entity_xrp | eventfp_asset_xrp_date_1_13_entity_xrp_num_22억달러 | evt_cme_xrp | num_22 | num_22억달러 | obj_mou | topic_launch | topic_tokenization",
-      "ts": "2026-07-23T13:01:15.870973+00:00"
-    },
-    "765c9883955f": {
-      "title": "Kazakhstan Launches Strategic Bitcoin Mining and Expands Digital Tenge Use",
-      "url": "coinedition.com/kazakhstan-launches-strategic-bitcoin-mining-and-expands-digital-tenge-use",
-      "signature": "act_approval | act_move | action_approve | action_ban_restrict | action_expand | action_launch | action_restrict | asset_btc | entity_centralbank | entity_expandsdigitaltengeuse | entity_kazakhstanlaunchesstrategicbitcoin | entity_mining | eventfp_action_ban_restrict_entity_centralbank_entity_expandsdigitaltengeuse_entity_kazakhstanlaunchesstrategicbitcoin_entity_mining | topic_approval | topic_fed_rate | topic_launch | topic_treasury",
-      "canonical_key": "action_approve | action_ban_restrict | action_expand | action_launch | action_restrict | action_이동 | action_통과 | asset_btc | entity_centralbank | entity_expandsdigitaltengeuse | entity_kazakhstanlaunchesstrategicbitcoin | entity_mining | eventfp_action_ban_restrict_entity_centralbank_entity_expandsdigitaltengeuse_entity_kazakhstanlaunchesstrategicbitcoin_entity_mining | topic_approval | topic_fed_rate | topic_launch | topic_treasury | topic_규칙안 | topic_비트코인",
-      "ts": "2026-07-23T13:01:23.337112+00:00"
-    },
     "d23b97a352f6": {
       "title": "가상자산 PAC, 미시간 경선에 100만 달러 투입…美 의회 표심 겨냥",
       "url": "www.tokenpost.kr/news/politics/380611",
