@@ -5249,6 +5249,13 @@
       "signature": "action_disclose | action_secure | amount_usd_1000000000 | amount_usd_1298000000 | amount_usd_275000000 | date_2026_08_22 | entity_zerostack | entity_리플",
       "canonical_key": "action_disclose | action_secure | amount_usd_1000000000 | amount_usd_1298000000 | amount_usd_275000000 | date_2026_08_22 | entity_zerostack | entity_리플",
       "ts": "2026-08-22T09:01:35.340406+00:00"
+    },
+    "f330e73a055ff8c3": {
+      "title": "SAND bridge exploit contained after unbacked token mint",
+      "url": "crypto.news/sand-bridge-exploit-contained-unbacked-token-mint",
+      "signature": "action_compromise | action_hack | action_mint | amount_pct_0.01 | entity_sand",
+      "canonical_key": "action_compromise | action_hack | action_mint | amount_pct_0.01 | entity_sand",
+      "ts": "2026-08-22T12:01:42.183853+00:00"
     }
   }
 }
