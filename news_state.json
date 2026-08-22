@@ -1,19 +1,5 @@
 {
   "posted": {
-    "13c48b6ffbf5": {
-      "title": "백악관, 中 문샷AI ‘앤트로픽 증류’ 의혹 제기…제재 가능성도 거론",
-      "url": "www.tokenpost.kr/news/ai/380681",
-      "signature": "entity_anthropic | geo_china | org_anthropic",
-      "canonical_key": "entity_anthropic | geo_china",
-      "ts": "2026-07-23T19:01:27.652609+00:00"
-    },
-    "68b54d461f98": {
-      "title": "Kazakhstan Approves Bitcoin Mining Rules to Build $1 Billion Crypto Reserve",
-      "url": "thenewscrypto.com/kazakhstan-approves-bitcoin-mining-rules-to-build-1-billion-crypto-reserve",
-      "signature": "act_approval | act_bill | action_approve | asset_btc | date_jul_23 | entity_billioncryptoreserve | entity_build | entity_kazakhstanapprovesbitcoinmining | entity_rules | eventfp_date_jul_23_entity_billioncryptoreserve_entity_build_entity_kazakhstanapprovesbitcoinmining_entity_rules_topic_bill | num_1 | topic_approval | topic_bill | topic_fed_rate | topic_treasury",
-      "canonical_key": "action_approve | action_통과 | asset_btc | date_jul_23 | entity_billioncryptoreserve | entity_build | entity_kazakhstanapprovesbitcoinmining | entity_rules | eventfp_date_jul_23_entity_billioncryptoreserve_entity_build_entity_kazakhstanapprovesbitcoinmining_entity_rules_topic_bill | num_1 | topic_approval | topic_bill | topic_fed_rate | topic_treasury | topic_규칙안 | topic_비트코인",
-      "ts": "2026-07-23T19:01:32.056127+00:00"
-    },
     "a9a42c6d7e12": {
       "title": "ChatGPT Health goes live for every US adult amid OpenAI lawsuit",
       "url": "www.cryptopolitan.com/chatgpt-health-us-adults-openai-lawsuit",
@@ -5235,6 +5221,13 @@
       "signature": "action_disclose | action_launch | action_migrate | action_propose | action_purchase | action_transfer | asset_btc | object_corporate_crypto_purchase | object_disclosure | object_payment | object_wallet | period_2026_q1",
       "canonical_key": "action_disclose | action_launch | action_migrate | action_propose | action_purchase | action_transfer | asset_btc | object_corporate_crypto_purchase | object_disclosure | object_payment | object_wallet | period_2026_q1",
       "ts": "2026-08-22T18:01:42.912977+00:00"
+    },
+    "4b5d2bf2c0f55a14": {
+      "title": "에릭 트럼프, 새 암호화폐 출시설 사기라며 부인",
+      "url": "www.tokenpost.kr/news/cryptocurrency/395779",
+      "signature": "action_deny | action_launch | action_propose | asset_btc | entity_도널드트럼프 | geo_us",
+      "canonical_key": "action_deny | action_launch | action_propose | asset_btc | entity_도널드트럼프 | geo_us",
+      "ts": "2026-08-22T20:01:44.825019+00:00"
     }
   }
 }
