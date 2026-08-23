@@ -1,26 +1,5 @@
 {
   "posted": {
-    "a9a42c6d7e12": {
-      "title": "ChatGPT Health goes live for every US adult amid OpenAI lawsuit",
-      "url": "www.cryptopolitan.com/chatgpt-health-us-adults-openai-lawsuit",
-      "signature": "act_law | entity_chatgpt | entity_chatgpthealth | entity_openai | entity_미국 | entity_오픈ai | eventfp_entity_chatgpthealth_entity_openai_entity_미국_entity_오픈ai_topic_bill | geo_us | org_openai | topic_bill",
-      "canonical_key": "entity_chatgpt | entity_chatgpthealth | entity_openai | entity_미국 | entity_오픈ai | eventfp_entity_chatgpthealth_entity_openai_entity_미국_entity_오픈ai_topic_bill | geo_us | geo_미국 | topic_bill | topic_오픈ai이동",
-      "ts": "2026-07-24T00:01:11.752414+00:00"
-    },
-    "1545e945d5c3": {
-      "title": "바이낸스, 인신매매·아동 착취 추적 협력 강화",
-      "url": "www.tokenpost.kr/news/cryptocurrency/380751",
-      "signature": "action_probe | entity_binance | eventfp_action_probe_entity_binance_geo_uk | geo_uk",
-      "canonical_key": "action_probe | entity_binance | eventfp_action_probe_entity_binance_geo_uk | geo_uk",
-      "ts": "2026-07-24T00:01:17.569737+00:00"
-    },
-    "7c195238ae5d": {
-      "title": "OpenPayd Expands Global Payment Rails Through Fireblocks Integration",
-      "url": "thenewscrypto.com/openpayd-expands-global-payment-rails-through-fireblocks-integration",
-      "signature": "act_connect | act_institutional | act_integration | act_move | act_payment | action_expand | entity_openpaydexpandsglobalpayment | entity_railsthroughfireblocksintegration | geo_eu | geo_uk | org_block",
-      "canonical_key": "entity_openpaydexpandsglobalpayment | entity_railsthroughfireblocksintegration | geo_uk",
-      "ts": "2026-07-24T00:01:24.789574+00:00"
-    },
     "75a0027d7aa8": {
       "title": "리플, 노타베네와 RLUSD 기관 결제 확대 나선다",
       "url": "www.tokenpost.kr/news/cryptocurrency/380783",
