@@ -1,19 +1,5 @@
 {
   "posted": {
-    "8404dff87117": {
-      "title": "제주 지역화폐 '탐나는전' 추석 캐시백 상향 난항, 예산 소진 급증",
-      "url": "www.tokenpost.kr/news/economy/380987",
-      "signature": "topic_card_reward",
-      "canonical_key": "topic_card_reward",
-      "ts": "2026-07-24T11:01:13.114288+00:00"
-    },
-    "de0c6715f85f": {
-      "title": "XRPL Lending Specs Move Forward As Developers Refine XLS-66",
-      "url": "bitcoinist.com/xrpl-lending-specs-move-forward-as-developers-refine-xls-66",
-      "signature": "act_move | asset_xrp | asset_xrpl | entity_forwardasdevelopersrefine | entity_xls66 | entity_xrpledger | entity_xrpllendingspecsmove | eventfp_asset_xrpl_entity_forwardasdevelopersrefine_entity_xls66_entity_xrpledger_entity_xrpllendingspecsmove_num_66xrp_topic_lending | evt_xrpl_lending_protocol | evt_xrpl_lending_protocol_0619 | num_66xrp | topic_lending",
-      "canonical_key": "asset_xrpl | entity_forwardasdevelopersrefine | entity_xls66 | entity_xrpledger | entity_xrpllendingspecsmove | eventfp_asset_xrpl_entity_forwardasdevelopersrefine_entity_xls66_entity_xrpledger_entity_xrpllendingspecsmove_num_66xrp_topic_lending | evt_xrpl_lending_protocol | evt_xrpl_lending_protocol_0619 | num_66xrp | topic_lending",
-      "ts": "2026-07-24T11:01:18.527791+00:00"
-    },
     "7e32b9dd29db": {
       "title": "인도, 가상자산 규제 공백 메우나…SRO 통한 임시 감독 검토",
       "url": "www.tokenpost.kr/news/cryptocurrency/381022",
@@ -5214,6 +5200,13 @@
       "signature": "action_acquire | action_expand | action_issue | action_mint | action_secure | amount_krw_277400000000 | amount_krw_381900000000 | amount_usd_200000000 | amount_usd_275000000 | amount_usd_75000000 | asset_xrp | date_2026_05_11 | date_2026_08_18 | entity_리플 | geo_us | object_lending",
       "canonical_key": "action_acquire | action_expand | action_issue | action_mint | action_secure | amount_krw_277400000000 | amount_krw_381900000000 | amount_usd_200000000 | amount_usd_275000000 | amount_usd_75000000 | asset_xrp | date_2026_05_11 | date_2026_08_18 | entity_리플 | geo_us | object_lending",
       "ts": "2026-08-23T11:02:24.488510+00:00"
+    },
+    "7f384f9a8ac812f3": {
+      "title": "New Milestone for Shiba Inu (SHIB) in Japan: Meme Coin Enters Elite List of Just 6 Approved Cryptocurrencies",
+      "url": "u.today/new-milestone-for-shiba-inu-shib-in-japan-meme-coin-enters-elite-list-of-just-6-approved",
+      "signature": "action_approve | duration_years_4 | entity_시바이누 | geo_japan",
+      "canonical_key": "action_approve | duration_years_4 | entity_시바이누 | geo_japan",
+      "ts": "2026-08-23T12:01:36.594320+00:00"
     }
   }
 }
