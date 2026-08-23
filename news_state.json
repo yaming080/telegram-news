@@ -1,12 +1,5 @@
 {
   "posted": {
-    "9b308a5b33e9": {
-      "title": "Thailand SEC files complaint against Bitkub over alleged false disclosures",
-      "url": "cointelegraph.com/news/bitkub-criminal-complaint-thailand-sec?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "action_file | entity_bitkub | entity_sec | entity_thailandsec | eventfp_action_file_entity_bitkub_entity_sec_entity_thailandsec_year_2021 | num_50 | org_sec | topic_crime_investigation | year_2021",
-      "canonical_key": "action_file | entity_bitkub | entity_sec | entity_thailandsec | eventfp_action_file_entity_bitkub_entity_sec_entity_thailandsec_year_2021 | num_50 | topic_crime_investigation | year_2021",
-      "ts": "2026-07-24T15:01:12.330634+00:00"
-    },
     "7fd7118aa654": {
       "title": "Crypto advocacy groups support CLARITY passage as ethics rules face pushback",
       "url": "cointelegraph.com/news/crypto-advocacy-groups-support-clarity-act-pushback-ethics-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
