@@ -5200,6 +5200,13 @@
       "signature": "action_develop | amount_pct_20 | amount_pct_20.41 | asset_btc | geo_korea | object_network",
       "canonical_key": "action_develop | amount_pct_20 | amount_pct_20.41 | asset_btc | geo_korea | object_network",
       "ts": "2026-08-23T07:01:50.603790+00:00"
+    },
+    "f359583f4296a1f4": {
+      "title": "Ripple CEO says U.S. crypto rules near decisive test",
+      "url": "crypto.news/ripple-ceo-says-u-s-crypto-rules-near-decisive-test",
+      "signature": "action_issue | entity_us | entity_리플 | entity_브래드갈링하우스 | geo_us",
+      "canonical_key": "action_issue | entity_us | entity_리플 | entity_브래드갈링하우스 | geo_us",
+      "ts": "2026-08-23T10:01:51.085237+00:00"
     }
   }
 }
