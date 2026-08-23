@@ -1,40 +1,5 @@
 {
   "posted": {
-    "7e32b9dd29db": {
-      "title": "인도, 가상자산 규제 공백 메우나…SRO 통한 임시 감독 검토",
-      "url": "www.tokenpost.kr/news/cryptocurrency/381022",
-      "signature": "act_review | action_file | action_report | asset_btc | entity_sro | eventfp_action_file_entity_sro_geo_india_topic_bill_year_2025 | geo_india | topic_bill | topic_regulation | topic_treasury | year_2025",
-      "canonical_key": "act_review | action_file | action_report | asset_btc | entity_sro | eventfp_action_file_entity_sro_geo_india_topic_bill_year_2025 | geo_india | topic_bill | topic_regulation | topic_treasury | topic_감독 | topic_규제 | topic_비트코인 | year_2025",
-      "ts": "2026-07-24T12:01:06.378437+00:00"
-    },
-    "64ccad660d48": {
-      "title": "도지·시바 시총 132억달러…기관화에 갈렸다",
-      "url": "www.tokenpost.kr/news/cryptocurrency/381020",
-      "signature": "action_report | asset_btc | asset_shib | num_132 | num_132억 | num_132억달러 | num_14 | num_14조 | num_7000 | num_9000",
-      "canonical_key": "action_report | asset_btc | asset_shib | num_132 | num_132억 | num_132억달러 | num_14 | num_14조 | num_7000 | num_9000",
-      "ts": "2026-07-24T12:01:10.701677+00:00"
-    },
-    "2bc7d6d9084b": {
-      "title": "말레이 BTC 채굴장 4곳 덮쳤다…71대 압수했다",
-      "url": "www.tokenpost.kr/news/cryptocurrency/381019",
-      "signature": "act_probe | action_investigate | action_probe | asset_btc | entity_btc | entity_police | topic_crime_investigation",
-      "canonical_key": "action_investigate | action_probe | asset_btc | entity_btc | entity_police | topic_crime_investigation",
-      "ts": "2026-07-24T12:01:15.501279+00:00"
-    },
-    "2c04f98759d7": {
-      "title": "말레이시아서 불법 비트코인 채굴 적발…전력 절도 구조 드러났다",
-      "url": "www.tokenpost.kr/news/cryptocurrency/381018",
-      "signature": "asset_btc | entity_police | eventfp_entity_police_topic_crime_investigation_topic_revenue_asset_btc_num_000_num_10 | num_000 | num_10 | num_500 | num_8 | topic_crime_investigation | topic_revenue",
-      "canonical_key": "asset_btc | entity_police | eventfp_entity_police_topic_crime_investigation_topic_revenue_asset_btc_num_000_num_10 | num_000 | num_10 | num_500 | num_8 | topic_crime_investigation | topic_revenue",
-      "ts": "2026-07-24T12:01:23.146578+00:00"
-    },
-    "79c9e0d61fe5": {
-      "title": "Upbit lifts TAIKO warning after June bridge exploit review",
-      "url": "crypto.news/upbit-lifts-taiko-warning-after-june-bridge-exploit-review",
-      "signature": "action_warn | asset_btc | asset_usdt | entity_june | entity_taiko | entity_upbit | entity_업비트 | geo_korea | obj_stablecoin_safety",
-      "canonical_key": "action_warn | action_강조 | asset_btc | asset_usdt | entity_june | entity_taiko | entity_upbit | entity_업비트 | geo_korea | geo_한국 | obj_stablecoin_safety | topic_비트코인",
-      "ts": "2026-07-24T12:01:30.436903+00:00"
-    },
     "9b308a5b33e9": {
       "title": "Thailand SEC files complaint against Bitkub over alleged false disclosures",
       "url": "cointelegraph.com/news/bitkub-criminal-complaint-thailand-sec?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
