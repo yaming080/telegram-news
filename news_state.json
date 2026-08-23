@@ -1,26 +1,5 @@
 {
   "posted": {
-    "37f91a10810c": {
-      "title": "[모닝 뉴스브리핑] 백악관 관계자, 비트코인 명확성 법안 상원 본회의 표결 전망 外",
-      "url": "www.tokenpost.kr/news/briefing/381144",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-24T20:01:05.478917+00:00"
-    },
-    "222a6629d659": {
-      "title": "월가, 비트코인 대신 STRC 담았다…스트레티지 새 자금 축 부상",
-      "url": "www.tokenpost.kr/news/cryptocurrency/381143",
-      "signature": "action_disclose | action_launch | amount_7억 | asset_btc | entity_strc | entity_마이클세일러 | entity_블랙록 | entity_스트래티지 | geo_us | object_disclosure | object_etf | object_fund | object_infrastructure",
-      "canonical_key": "action_disclose | action_launch | amount_7억 | asset_btc | entity_strc | entity_마이클세일러 | entity_블랙록 | entity_스트래티지 | geo_us | object_disclosure | object_etf | object_fund | object_infrastructure",
-      "ts": "2026-07-24T20:01:09.648612+00:00"
-    },
-    "d9884bad66de": {
-      "title": "XRP ETF Gains Investment From Kansas-Based Wealth Manager",
-      "url": "u.today/xrp-etf-gains-investment-from-kansas-based-wealth-manager",
-      "signature": "action_disclose | action_invest | asset_xrp | object_etf",
-      "canonical_key": "action_disclose | action_invest | asset_xrp | object_etf",
-      "ts": "2026-07-24T20:01:12.952289+00:00"
-    },
     "7bb0edd98f22": {
       "title": "비트멕스 폐쇄 앞두고 보험기금 행방 논란…소유주 귀속 의혹 확산",
       "url": "www.tokenpost.kr/news/cryptocurrency/381156",
@@ -5109,6 +5088,13 @@
       "signature": "action_audit | action_develop | action_disclose | action_launch | action_support | asset_btc | date_2026_08_20 | object_disclosure | object_network",
       "canonical_key": "action_audit | action_develop | action_disclose | action_launch | action_support | asset_btc | date_2026_08_20 | object_disclosure | object_network",
       "ts": "2026-08-23T20:01:34.307272+00:00"
+    },
+    "8f03f9219e0d222e": {
+      "title": "리플 CEO \"미 암호화폐 규제 마무리 국면\"",
+      "url": "www.tokenpost.kr/news/policy/396150",
+      "signature": "action_build | action_disclose | action_launch | action_propose | entity_ceo | entity_sec | entity_도널드트럼프 | entity_리플 | entity_브래드갈링하우스 | geo_us | object_disclosure",
+      "canonical_key": "action_build | action_disclose | action_launch | action_propose | entity_ceo | entity_sec | entity_도널드트럼프 | entity_리플 | entity_브래드갈링하우스 | geo_us | object_disclosure",
+      "ts": "2026-08-23T21:01:53.432528+00:00"
     }
   }
 }
