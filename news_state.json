@@ -1,47 +1,5 @@
 {
   "posted": {
-    "7bb0edd98f22": {
-      "title": "비트멕스 폐쇄 앞두고 보험기금 행방 논란…소유주 귀속 의혹 확산",
-      "url": "www.tokenpost.kr/news/cryptocurrency/381156",
-      "signature": "action_disclose | action_launch | amount_2억 | amount_7억달러 | asset_btc | asset_usdt | entity_비트멕스 | entity_테더 | object_disclosure",
-      "canonical_key": "action_disclose | action_launch | amount_2억 | amount_7억달러 | asset_btc | asset_usdt | entity_비트멕스 | entity_테더 | object_disclosure",
-      "ts": "2026-07-24T21:01:10.626295+00:00"
-    },
-    "7fb5e123f71f": {
-      "title": "비트멕스, 청산 유도 집단소송…2026년 운영 종료 발표까지",
-      "url": "www.tokenpost.kr/news/cryptocurrency/381153",
-      "signature": "action_file | action_invest | action_sue | asset_btc | entity_비트멕스 | geo_us",
-      "canonical_key": "action_file | action_invest | action_sue | asset_btc | entity_비트멕스 | geo_us",
-      "ts": "2026-07-24T21:01:14.429852+00:00"
-    },
-    "489be4de589b": {
-      "title": "미 상원 앞둔 CLARITY Act…암호화폐 업계, 본회의 상정 촉구",
-      "url": "www.tokenpost.kr/news/cryptocurrency/381151",
-      "signature": "action_pass | entity_시장구조법안 | geo_us | object_bill",
-      "canonical_key": "action_pass | entity_시장구조법안 | geo_us | object_bill",
-      "ts": "2026-07-24T21:01:18.178873+00:00"
-    },
-    "caef8d65cbc2": {
-      "title": "India’s ED Tracks Crypto Trail in International Drug Hawala Network",
-      "url": "coinedition.com/indias-ed-tracks-crypto-trail-in-international-drug-hawala-network",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-24T21:01:23.449964+00:00"
-    },
-    "38ff7a76b8fb": {
-      "title": "Here Are the Reasons Why BitMEX Is Shutting Down Operations",
-      "url": "coinedition.com/here-are-the-reasons-why-bitmex-is-shutting-down-operations",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-24T21:01:27.958313+00:00"
-    },
-    "4d43e7f3c1c4": {
-      "title": "Memecoin.Fun raises $3.5M as Robinhood Chain launchpad race grows",
-      "url": "crypto.news/memecoin-fun-raises-3-5m-as-robinhood-chain-launchpad",
-      "signature": "action_launch | amount_35million | amount_9billion | entity_로빈후드",
-      "canonical_key": "action_launch | amount_35million | amount_9billion | entity_로빈후드",
-      "ts": "2026-07-24T21:01:31.092634+00:00"
-    },
     "e304171bce2e": {
       "title": "Strive’s SATA recovers most of June decline, trades within 3% of par",
       "url": "cointelegraph.com/news/strives-sata-recovers-most-of-june-decline-trades-within-3-of-par?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
