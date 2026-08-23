@@ -1,54 +1,5 @@
 {
   "posted": {
-    "7fd7118aa654": {
-      "title": "Crypto advocacy groups support CLARITY passage as ethics rules face pushback",
-      "url": "cointelegraph.com/news/crypto-advocacy-groups-support-clarity-act-pushback-ethics-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "action_support | entity_시장구조법안 | geo_us | object_bill",
-      "canonical_key": "action_support | entity_시장구조법안 | geo_us | object_bill",
-      "ts": "2026-07-24T18:01:01.019385+00:00"
-    },
-    "b895fbd57a8a": {
-      "title": "Goldman Sachs CEO David Solomon breaks from Wall Street to back CLARITY Act",
-      "url": "www.cryptopolitan.com/goldman-backs-clarity-act",
-      "signature": "action_support | entity_시장구조법안 | object_bill",
-      "canonical_key": "action_support | entity_시장구조법안 | object_bill",
-      "ts": "2026-07-24T18:01:21.230881+00:00"
-    },
-    "188690dd9c6c": {
-      "title": "EU extends crypto transaction bans to Belarus-based platforms in 21st Russia package",
-      "url": "www.cryptopolitan.com/eu-bans-belarus-crypto-exchange-ownership",
-      "signature": "action_ban | action_sanction | geo_eu | geo_russia | object_sanctions",
-      "canonical_key": "action_ban | action_sanction | geo_eu | geo_russia | object_sanctions",
-      "ts": "2026-07-24T18:01:41.665276+00:00"
-    },
-    "3ac962258a24": {
-      "title": "Kazakhstan rolls out rules for miners to apply for capped fees on electricity usage",
-      "url": "www.cryptopolitan.com/kazakhstan-crypto-reserve-with-mined-coins",
-      "signature": "action_approve | asset_btc | entity_카자흐스탄",
-      "canonical_key": "action_approve | asset_btc | entity_카자흐스탄",
-      "ts": "2026-07-24T18:01:58.107489+00:00"
-    },
-    "8e46179abf73": {
-      "title": "오도스 프로토콜 운영 종료…이용자 자산 인출 7월 30일까지",
-      "url": "www.tokenpost.kr/news/blockchain/381128",
-      "signature": "action_disclose | action_launch | amount_78억달러 | geo_us | object_disclosure",
-      "canonical_key": "action_disclose | action_launch | amount_78억달러 | geo_us | object_disclosure",
-      "ts": "2026-07-24T18:02:01.774099+00:00"
-    },
-    "8babbf284cde": {
-      "title": "Ripple Launches Ripple Mint for Institutional RLUSD Management",
-      "url": "coinedition.com/ripple-launches-ripple-mint-for-institutional-rlusd-management",
-      "signature": "action_launch | action_support | asset_stablecoin | entity_리플 | entity_스트래티지",
-      "canonical_key": "action_launch | action_support | asset_stablecoin | entity_리플 | entity_스트래티지",
-      "ts": "2026-07-24T18:02:06.196422+00:00"
-    },
-    "6bcdc5763f15": {
-      "title": "Top Crypto Lobbyist Says There Is Still Hope for Clarity Act",
-      "url": "u.today/top-crypto-lobbyist-says-there-is-still-hope-for-clarity-act",
-      "signature": "action_pass | object_bill",
-      "canonical_key": "action_pass | object_bill",
-      "ts": "2026-07-24T18:02:09.842024+00:00"
-    },
     "b5f6b7e5df23": {
       "title": "월드재단, 락업 WLD 매각으로 5250만달러 조달…AI 신원인증 확장 나서",
       "url": "www.tokenpost.kr/news/cryptocurrency/381140",
