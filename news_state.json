@@ -1,40 +1,5 @@
 {
   "posted": {
-    "b5f6b7e5df23": {
-      "title": "월드재단, 락업 WLD 매각으로 5250만달러 조달…AI 신원인증 확장 나서",
-      "url": "www.tokenpost.kr/news/cryptocurrency/381140",
-      "signature": "action_invest | entity_wld | entity_오픈ai | object_sale",
-      "canonical_key": "action_invest | entity_wld | entity_오픈ai | object_sale",
-      "ts": "2026-07-24T19:01:13.412162+00:00"
-    },
-    "2f33027863a8": {
-      "title": "일본, 첫 비트코인 현물 ETF 준비 착수…2028년 출시 가능성",
-      "url": "www.tokenpost.kr/news/cryptocurrency/381139",
-      "signature": "action_invest | action_launch | asset_btc | asset_eth | asset_xrp | entity_etf | geo_japan | object_etf | object_payment | object_trust",
-      "canonical_key": "action_invest | action_launch | asset_btc | asset_eth | asset_xrp | entity_etf | geo_japan | object_etf | object_payment | object_trust",
-      "ts": "2026-07-24T19:01:17.651686+00:00"
-    },
-    "15cf8fb6946d": {
-      "title": "태국 SEC, 비트쿱 형사 고발…해킹 피해 ‘허위 보고’ 공방",
-      "url": "www.tokenpost.kr/news/cryptocurrency/381135",
-      "signature": "action_file | action_hack | entity_sec | object_commissioner",
-      "canonical_key": "action_file | action_hack | entity_sec | object_commissioner",
-      "ts": "2026-07-24T19:01:21.270774+00:00"
-    },
-    "4b13405cb449": {
-      "title": "BitMEX Hit With 623 BTC Lawsuit After Announcing Shutdown",
-      "url": "cryptopotato.com/bitmex-hit-with-623-btc-lawsuit-after-announcing-shutdown",
-      "signature": "action_issue | action_sue | asset_btc | entity_비트멕스",
-      "canonical_key": "action_issue | action_sue | asset_btc | entity_비트멕스",
-      "ts": "2026-07-24T19:01:30.086620+00:00"
-    },
-    "9c2f8809f1e7": {
-      "title": "Ethereum (ETH) Defends the $1,850 Support Zone: Can a Recovery Extend to $2,060?",
-      "url": "thenewscrypto.com/ethereum-eth-defends-the-1850-support-zone-can-a-recovery-extend-to-2060",
-      "signature": "action_support | amount_233 | asset_eth | entity_eth | object_recovery",
-      "canonical_key": "action_support | amount_233 | asset_eth | entity_eth | object_recovery",
-      "ts": "2026-07-24T19:01:33.568302+00:00"
-    },
     "37f91a10810c": {
       "title": "[모닝 뉴스브리핑] 백악관 관계자, 비트코인 명확성 법안 상원 본회의 표결 전망 外",
       "url": "www.tokenpost.kr/news/briefing/381144",
@@ -5137,6 +5102,13 @@
       "signature": "action_ban | action_disclose | action_integrate | action_launch | asset_xrp | date_2015_10_13 | date_2021_02_01 | entity_리플 | entity_연준 | object_disclosure | object_network | object_payment",
       "canonical_key": "action_ban | action_disclose | action_integrate | action_launch | asset_xrp | date_2015_10_13 | date_2021_02_01 | entity_리플 | entity_연준 | object_disclosure | object_network | object_payment",
       "ts": "2026-08-23T17:01:38.565689+00:00"
+    },
+    "7ca6dca3bf575f3c": {
+      "title": "비트코인 코어, 암호화 라우팅 지원 재검토",
+      "url": "www.tokenpost.kr/news/blockchain/396140",
+      "signature": "action_audit | action_develop | action_disclose | action_launch | action_support | asset_btc | date_2026_08_20 | object_disclosure | object_network",
+      "canonical_key": "action_audit | action_develop | action_disclose | action_launch | action_support | asset_btc | date_2026_08_20 | object_disclosure | object_network",
+      "ts": "2026-08-23T20:01:34.307272+00:00"
     }
   }
 }
