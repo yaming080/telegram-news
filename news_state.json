@@ -5179,6 +5179,13 @@
       "signature": "action_build | action_disclose | action_launch | action_migrate | asset_eth | object_disclosure | object_network | object_payment",
       "canonical_key": "action_build | action_disclose | action_launch | action_migrate | asset_eth | object_disclosure | object_network | object_payment",
       "ts": "2026-08-23T14:02:52.678197+00:00"
+    },
+    "c823db2d7678ce72": {
+      "title": "볼란테, 페드나우·리플 결제 기능 함께 제공",
+      "url": "www.tokenpost.kr/news/cryptocurrency/396115",
+      "signature": "action_ban | action_disclose | action_integrate | action_launch | asset_xrp | date_2015_10_13 | date_2021_02_01 | entity_리플 | entity_연준 | object_disclosure | object_network | object_payment",
+      "canonical_key": "action_ban | action_disclose | action_integrate | action_launch | asset_xrp | date_2015_10_13 | date_2021_02_01 | entity_리플 | entity_연준 | object_disclosure | object_network | object_payment",
+      "ts": "2026-08-23T17:01:38.565689+00:00"
     }
   }
 }
