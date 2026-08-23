@@ -1,12 +1,5 @@
 {
   "posted": {
-    "ac7a1c7aaa25": {
-      "title": "South Korea’s Korbit becomes Digital X under Mirae Asset ownership",
-      "url": "crypto.news/south-koreas-korbit-becomes-digital-x-under-mirae-asset-ownership",
-      "signature": "entity_digitalx | entity_korbit | entity_miraeasset | entity_strategy | entity_한국 | geo_korea | org_strategy",
-      "canonical_key": "entity_digitalx | entity_korbit | entity_miraeasset | entity_strategy | entity_한국 | geo_korea | geo_한국 | topic_fed_rate | topic_스트래티지매수",
-      "ts": "2026-07-24T10:01:28.341505+00:00"
-    },
     "8404dff87117": {
       "title": "제주 지역화폐 '탐나는전' 추석 캐시백 상향 난항, 예산 소진 급증",
       "url": "www.tokenpost.kr/news/economy/380987",
@@ -5207,6 +5200,20 @@
       "signature": "action_issue | entity_us | entity_리플 | entity_브래드갈링하우스 | geo_us",
       "canonical_key": "action_issue | entity_us | entity_리플 | entity_브래드갈링하우스 | geo_us",
       "ts": "2026-08-23T10:01:51.085237+00:00"
+    },
+    "29684a11ec1ba7d3": {
+      "title": "부테린, 이더리움 로드맵 우선순위 재정렬",
+      "url": "www.tokenpost.kr/news/blockchain/396006",
+      "signature": "action_develop | action_disclose | action_launch | action_upgrade | asset_eth | object_disclosure | object_network_upgrade",
+      "canonical_key": "action_develop | action_disclose | action_launch | action_upgrade | asset_eth | object_disclosure | object_network_upgrade",
+      "ts": "2026-08-23T11:02:20.246768+00:00"
+    },
+    "1c3a2d9071ff4afc": {
+      "title": "2억7500만달러 리플채, XRP 담보론과 선 긋기",
+      "url": "www.tokenpost.kr/news/cryptocurrency/396004",
+      "signature": "action_acquire | action_expand | action_issue | action_mint | action_secure | amount_krw_277400000000 | amount_krw_381900000000 | amount_usd_200000000 | amount_usd_275000000 | amount_usd_75000000 | asset_xrp | date_2026_05_11 | date_2026_08_18 | entity_리플 | geo_us | object_lending",
+      "canonical_key": "action_acquire | action_expand | action_issue | action_mint | action_secure | amount_krw_277400000000 | amount_krw_381900000000 | amount_usd_200000000 | amount_usd_275000000 | amount_usd_75000000 | asset_xrp | date_2026_05_11 | date_2026_08_18 | entity_리플 | geo_us | object_lending",
+      "ts": "2026-08-23T11:02:24.488510+00:00"
     }
   }
 }
