@@ -1,40 +1,5 @@
 {
   "posted": {
-    "8775425f0994": {
-      "title": "솔라나 가격 하락에도 생태계는 확장 중: USDC 발행 증가",
-      "url": "www.tokenpost.kr/news/cryptocurrency/381192",
-      "signature": "action_issue | amount_2억 | amount_31 | amount_38 | asset_sol | asset_usdc | entity_usdc",
-      "canonical_key": "action_issue | amount_2억 | amount_31 | amount_38 | asset_sol | asset_usdc | entity_usdc",
-      "ts": "2026-07-25T01:00:57.915215+00:00"
-    },
-    "35aaf473937b": {
-      "title": "Former Bitcoin Mining Giant Poolin Files Chapter 11, Targets $52M Texas Asset Sale",
-      "url": "coinedition.com/crypto-live-news/former-bitcoin-mining-giant-poolin-files-chapter-11-targets-52m-texas-asset-sale",
-      "signature": "action_file | amount_100million | amount_500million | asset_btc | object_sale",
-      "canonical_key": "action_file | amount_100million | amount_500million | asset_btc | object_sale",
-      "ts": "2026-07-25T01:01:05.715788+00:00"
-    },
-    "e9f9b0c77b42": {
-      "title": "Arthur Hayes, BitMEX Co-Founders Sued Over Alleged Insider Trading Scheme",
-      "url": "coinedition.com/crypto-live-news/arthur-hayes-bitmex-co-founders-sued-over-alleged-insider-trading-scheme",
-      "signature": "action_close | action_sue | entity_비트멕스 | entity_아서헤이즈 | object_class_action",
-      "canonical_key": "action_close | action_sue | entity_비트멕스 | entity_아서헤이즈 | object_class_action",
-      "ts": "2026-07-25T01:01:14.906550+00:00"
-    },
-    "a1e26a11c161": {
-      "title": "Nvidia, Microsoft and Tech Leaders Urge Lawmakers to Protect Open AI Models",
-      "url": "coinedition.com/crypto-live-news/nvidia-microsoft-and-tech-leaders-urge-lawmakers-to-protect-open-ai-models",
-      "signature": "action_develop | action_support | entity_마이크로소프트 | geo_us",
-      "canonical_key": "action_develop | action_support | entity_마이크로소프트 | geo_us",
-      "ts": "2026-07-25T01:01:22.388131+00:00"
-    },
-    "70c47873e5e5": {
-      "title": "Citadel Securities’ $400M Crypto.com Deal Signals Wall Street Crypto Expansion",
-      "url": "coinedition.com/citadel-securities-400m-crypto-com-deal-signals-wall-street-crypto-expansion",
-      "signature": "action_invest | action_launch | amount_20billion | amount_400million | object_infrastructure",
-      "canonical_key": "action_invest | action_launch | amount_20billion | amount_400million | object_infrastructure",
-      "ts": "2026-07-25T01:01:36.080943+00:00"
-    },
     "dbe89e53bd37": {
       "title": "OKX Report: Crypto Losses Drop 60% as Attacks Surge 50% in H1 2026",
       "url": "coinedition.com/okx-report-crypto-losses-drop-60-as-attacks-surge-50-in-h1-2026",
@@ -5018,6 +4983,13 @@
       "signature": "action_audit | action_expand | action_invest | action_purchase | amount_pct_2 | asset_btc | entity_블랙록 | object_corporate_crypto_purchase",
       "canonical_key": "action_audit | action_expand | action_invest | action_purchase | amount_pct_2 | asset_btc | entity_블랙록 | object_corporate_crypto_purchase",
       "ts": "2026-08-24T00:01:29.077341+00:00"
+    },
+    "391965af9a3ab908": {
+      "title": "수익 81.6% 줄어든 XRP 레저, 공급은 5.5% 늘었다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/396295",
+      "signature": "action_ban | action_disclose | action_launch | amount_krw_1600000000 | amount_krw_8900000000 | amount_pct_5.5 | amount_pct_81.6 | amount_usd_1180000 | amount_usd_59900000000 | amount_usd_6430000 | asset_stablecoin | asset_xrp | asset_xrpl | count_shares_21 | entity_리플 | object_disclosure | object_network | period_2026_h1",
+      "canonical_key": "action_ban | action_disclose | action_launch | amount_krw_1600000000 | amount_krw_8900000000 | amount_pct_5.5 | amount_pct_81.6 | amount_usd_1180000 | amount_usd_59900000000 | amount_usd_6430000 | asset_stablecoin | asset_xrp | asset_xrpl | count_shares_21 | entity_리플 | object_disclosure | object_network | period_2026_h1",
+      "ts": "2026-08-24T02:01:40.378369+00:00"
     }
   }
 }
