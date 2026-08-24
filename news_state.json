@@ -1,12 +1,5 @@
 {
   "posted": {
-    "2ed1a5107196": {
-      "title": "Bitcoin’s quantum debate turns into a governance fight over BIP-361",
-      "url": "www.cryptopolitan.com/bitcoins-quantum-debate-turns-into-a-governance-fight-over-bip-361",
-      "signature": "action_develop | action_issue | asset_btc | entity_bip361",
-      "canonical_key": "action_develop | action_issue | asset_btc | entity_bip361",
-      "ts": "2026-07-25T06:01:19.749243+00:00"
-    },
     "5306009628d0": {
       "title": "트리플A, 멀티체인 핫월렛 해킹으로 970만달러 피해",
       "url": "www.tokenpost.kr/news/cryptocurrency/381234",
