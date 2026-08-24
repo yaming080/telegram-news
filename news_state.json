@@ -1,19 +1,5 @@
 {
   "posted": {
-    "cf981e575709": {
-      "title": "TRON Reaches $90B+ USDT on the Network, $887M+ in Crypto Card Volume in Q2, CoinDesk Data and CryptoQuant",
-      "url": "www.cryptopolitan.com/tron-reaches-90b-usdt-on-the-network-887m-in-crypto-card-volume-in-q2-coindesk-data-and-cryptoquant",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-25T05:01:14.468131+00:00"
-    },
-    "7b342eea6abe": {
-      "title": "State Department names Bitcoin Policy Institute partner amid market slump",
-      "url": "www.cryptopolitan.com/state-department-names-bitcoin-policy-institute-partner-amid-market-slump",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-25T05:01:28.275953+00:00"
-    },
     "2ed1a5107196": {
       "title": "Bitcoin’s quantum debate turns into a governance fight over BIP-361",
       "url": "www.cryptopolitan.com/bitcoins-quantum-debate-turns-into-a-governance-fight-over-bip-361",
@@ -4997,6 +4983,13 @@
       "signature": "action_close | action_hack | amount_usd_8500000 | asset_eth | entity_termfinance",
       "canonical_key": "action_close | action_hack | amount_usd_8500000 | asset_eth | entity_termfinance",
       "ts": "2026-08-24T05:01:30.909154+00:00"
+    },
+    "aabdad5682fc47f7": {
+      "title": "이더리움재단, 홍콩 프라이버시 연구 후원",
+      "url": "www.tokenpost.kr/news/blockchain/396422",
+      "signature": "action_develop | action_disclose | action_launch | asset_eth | entity_이더리움재단 | geo_hongkong | object_disclosure",
+      "canonical_key": "action_develop | action_disclose | action_launch | asset_eth | entity_이더리움재단 | geo_hongkong | object_disclosure",
+      "ts": "2026-08-24T06:01:35.905921+00:00"
     }
   }
 }
