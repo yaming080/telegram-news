@@ -4990,6 +4990,13 @@
       "signature": "action_pass | action_propose | action_support | asset_btc | geo_us | object_bond",
       "canonical_key": "action_pass | action_propose | action_support | asset_btc | geo_us | object_bond",
       "ts": "2026-08-24T03:01:46.898410+00:00"
+    },
+    "b80f86d00ea8707c": {
+      "title": "Term Finance loses estimated $8.5M in vault governance exploit",
+      "url": "cointelegraph.com/news/term-finance-8-5m-vault-governance-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_close | action_hack | amount_usd_8500000 | asset_eth | entity_termfinance",
+      "canonical_key": "action_close | action_hack | amount_usd_8500000 | asset_eth | entity_termfinance",
+      "ts": "2026-08-24T05:01:30.909154+00:00"
     }
   }
 }
