@@ -1,19 +1,5 @@
 {
   "posted": {
-    "5306009628d0": {
-      "title": "트리플A, 멀티체인 핫월렛 해킹으로 970만달러 피해",
-      "url": "www.tokenpost.kr/news/cryptocurrency/381234",
-      "signature": "action_hack | asset_eth | asset_sol | asset_stablecoin | entity_리플 | object_infrastructure | object_payment | object_sale | object_wallet",
-      "canonical_key": "action_hack | asset_eth | asset_sol | asset_stablecoin | entity_리플 | object_infrastructure | object_payment | object_sale | object_wallet",
-      "ts": "2026-07-25T07:01:20.004398+00:00"
-    },
-    "c59a0a595d72": {
-      "title": "아비트럼 개발자 지원 성과 공개…1,018명 등록·9개 팀 인큐베이터 진입",
-      "url": "www.tokenpost.kr/news/blockchain/381230",
-      "signature": "action_develop | action_disclose | action_launch | object_disclosure",
-      "canonical_key": "action_develop | action_disclose | action_launch | object_disclosure",
-      "ts": "2026-07-25T07:01:24.120267+00:00"
-    },
     "ccae7fd14e91": {
       "title": "하이퍼리퀴드, 주식 거래량이 암호화폐 첫 추월...SK하이닉스 최다",
       "url": "www.tokenpost.kr/news/blockchain/381255",
@@ -4983,6 +4969,20 @@
       "signature": "action_develop | action_disclose | action_launch | asset_eth | entity_이더리움재단 | geo_hongkong | object_disclosure",
       "canonical_key": "action_develop | action_disclose | action_launch | asset_eth | entity_이더리움재단 | geo_hongkong | object_disclosure",
       "ts": "2026-08-24T06:01:35.905921+00:00"
+    },
+    "dfc518dcb522889b": {
+      "title": "비트코인 강약세 지표, 강세장 초기 구간 이동",
+      "url": "www.tokenpost.kr/news/cryptocurrency/396503",
+      "signature": "action_develop | action_migrate | action_sell | action_transfer | asset_btc | geo_korea | object_sale",
+      "canonical_key": "action_develop | action_migrate | action_sell | action_transfer | asset_btc | geo_korea | object_sale",
+      "ts": "2026-08-24T08:02:08.207606+00:00"
+    },
+    "059d04a6527ea8ff": {
+      "title": "월드아이디, 자율 로봇 인간 인증에 쓰인다",
+      "url": "www.tokenpost.kr/news/blockchain/396501",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-24T08:02:12.838286+00:00"
     }
   }
 }
