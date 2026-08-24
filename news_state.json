@@ -4927,6 +4927,13 @@
       "signature": "action_issue | action_upgrade | amount_pct_68 | asset_xrp | asset_xrpl | object_network_upgrade",
       "canonical_key": "action_issue | action_upgrade | amount_pct_68 | asset_xrp | asset_xrpl | object_network_upgrade",
       "ts": "2026-08-24T16:02:10.020322+00:00"
+    },
+    "268199ebc5bfa8f2": {
+      "title": "India Has Millions of Crypto Users—So Why Does the Government Hold Zero Bitcoin?",
+      "url": "coinedition.com/india-has-millions-of-crypto-users-so-why-does-the-government-hold-zero-bitcoin",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-24T17:01:44.189706+00:00"
     }
   }
 }
