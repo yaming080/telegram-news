@@ -1,12 +1,5 @@
 {
   "posted": {
-    "c483a113985e": {
-      "title": "프랙스, 모포 대출시장 검토…bdUSD·frxUSD 유동성 확대될까",
-      "url": "www.tokenpost.kr/news/cryptocurrency/381283",
-      "signature": "action_acquire | action_issue | action_launch | action_secure | asset_stablecoin | object_lending",
-      "canonical_key": "action_acquire | action_issue | action_launch | action_secure | asset_stablecoin | object_lending",
-      "ts": "2026-07-25T13:01:18.648016+00:00"
-    },
     "2ad6b3063518": {
       "title": "North Korea arrests bank hacking ring tied to crypto laundering: Report",
       "url": "cointelegraph.com/news/north-korea-bank-hacking-ring-crypto-laundering-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -4941,6 +4934,13 @@
       "signature": "action_issue | action_pass | action_purchase | asset_btc | entity_마이클세일러 | object_corporate_crypto_purchase",
       "canonical_key": "action_issue | action_pass | action_purchase | asset_btc | entity_마이클세일러 | object_corporate_crypto_purchase",
       "ts": "2026-08-24T13:02:46.776958+00:00"
+    },
+    "bf317863f1da43cf": {
+      "title": "Whales Hedge $1.3 Billion in Bitcoin and XRP While Gold Hits Fresh August Highs: Main Crypto News This Morning",
+      "url": "u.today/whales-hedge-13-billion-in-bitcoin-and-xrp-while-gold-hits-fresh-august-highs-main-crypto-news-this",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-24T14:01:13.218082+00:00"
     }
   }
 }
