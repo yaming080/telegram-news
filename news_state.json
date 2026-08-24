@@ -1,26 +1,5 @@
 {
   "posted": {
-    "efea79bfd1a2": {
-      "title": "Ethereum ETFs close week in red, end 5-day inflow streak",
-      "url": "cointelegraph.com/markets/ethereum-etfs-week-red-end-inflow-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-25T17:01:15.869949+00:00"
-    },
-    "44f50fa5aed7": {
-      "title": "Strategy needs to monetize BTC after buying time with digital credit framework, Galaxy Research",
-      "url": "www.cryptopolitan.com/galaxy-strategy-must-monetize-bitcoin",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-25T17:01:19.764971+00:00"
-    },
-    "e5523a1ac479": {
-      "title": "위즈, OCC 거절 뒤 GENIUS Act 기반 재도전하나",
-      "url": "www.tokenpost.kr/news/blockchain/381298",
-      "signature": "action_approve | action_file | asset_stablecoin | entity_occ | geo_us | object_license | object_payment | object_stablecoin_bill | object_trust",
-      "canonical_key": "action_approve | action_file | asset_stablecoin | entity_occ | geo_us | object_license | object_payment | object_stablecoin_bill | object_trust",
-      "ts": "2026-07-25T17:01:24.731607+00:00"
-    },
     "790088a7233c": {
       "title": "Tether funded both sides of its own chain war",
       "url": "crypto.news/tether-stable-plasma-chain-war",
@@ -4934,6 +4913,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-24T17:01:44.189706+00:00"
+    },
+    "825aae102425555a": {
+      "title": "Bitmine extends 14-month ETH buying pace as Ether breaks above $2.5K",
+      "url": "cointelegraph.com/news/bitmine-eth-holdings-5-percent-ether-price-breakout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_expand | action_purchase | action_support | amount_usd_2500 | asset_eth | entity_비트마인 | object_corporate_crypto_purchase",
+      "canonical_key": "action_expand | action_purchase | action_support | amount_usd_2500 | asset_eth | entity_비트마인 | object_corporate_crypto_purchase",
+      "ts": "2026-08-24T18:01:39.487874+00:00"
+    },
+    "7461239a87140998": {
+      "title": "Protest Takes Place Outside Ripple Co-Founder's Home",
+      "url": "u.today/protest-takes-place-outside-ripple-co-founders-home",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-24T18:01:42.464402+00:00"
     }
   }
 }
