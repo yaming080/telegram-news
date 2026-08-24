@@ -1,12 +1,5 @@
 {
   "posted": {
-    "11ac0f1b48c5": {
-      "title": "리플 사업 확장에도 XRP는 제자리…장기 횡보 전망까지",
-      "url": "www.tokenpost.kr/news/cryptocurrency/381276",
-      "signature": "action_launch | action_support | amount_72 | asset_stablecoin | asset_xrp | entity_리플 | object_etf | object_payment",
-      "canonical_key": "action_launch | action_support | amount_72 | asset_stablecoin | asset_xrp | entity_리플 | object_etf | object_payment",
-      "ts": "2026-07-25T12:00:56.299703+00:00"
-    },
     "c483a113985e": {
       "title": "프랙스, 모포 대출시장 검토…bdUSD·frxUSD 유동성 확대될까",
       "url": "www.tokenpost.kr/news/cryptocurrency/381283",
@@ -4927,6 +4920,27 @@
       "signature": "action_close | action_launch | asset_btc | entity_업비트 | geo_korea",
       "canonical_key": "action_close | action_launch | asset_btc | entity_업비트 | geo_korea",
       "ts": "2026-08-24T12:04:07.119377+00:00"
+    },
+    "019f7374738f91f2": {
+      "title": "Hoskinson Defies Cardano Critics: “Don’t Bet Against Me, We’re Gonna Win This Fight”",
+      "url": "thecryptobasic.com/2026/08/24/hoskinson-defies-cardano-critics-dont-bet-against-me-were-gonna-win-this-fight",
+      "signature": "action_secure | entity_찰스호스킨슨 | entity_카르다노 | object_network",
+      "canonical_key": "action_secure | entity_찰스호스킨슨 | entity_카르다노 | object_network",
+      "ts": "2026-08-24T13:02:39.143297+00:00"
+    },
+    "d21c6fc735670b96": {
+      "title": "스텔라 실물자산 30억달러, 22일 고점 대비 13% 하락",
+      "url": "www.tokenpost.kr/news/cryptocurrency/396689",
+      "signature": "action_develop | action_transfer | amount_krw_155000000000 | amount_krw_789000000000 | amount_pct_13 | amount_pct_72 | amount_usd_1000000000 | amount_usd_11400000000 | amount_usd_2000000000 | amount_usd_3000000000 | asset_stablecoin | geo_korea | object_network | period_2026_q2",
+      "canonical_key": "action_develop | action_transfer | amount_krw_155000000000 | amount_krw_789000000000 | amount_pct_13 | amount_pct_72 | amount_usd_1000000000 | amount_usd_11400000000 | amount_usd_2000000000 | amount_usd_3000000000 | asset_stablecoin | geo_korea | object_network | period_2026_q2",
+      "ts": "2026-08-24T13:02:43.192429+00:00"
+    },
+    "ec3a3779c2770c43": {
+      "title": "'Think Like a Billionaire,' Michael Saylor Issues New Bitcoin Advice",
+      "url": "u.today/think-like-a-billionaire-michael-saylor-issues-new-bitcoin-advice",
+      "signature": "action_issue | action_pass | action_purchase | asset_btc | entity_마이클세일러 | object_corporate_crypto_purchase",
+      "canonical_key": "action_issue | action_pass | action_purchase | asset_btc | entity_마이클세일러 | object_corporate_crypto_purchase",
+      "ts": "2026-08-24T13:02:46.776958+00:00"
     }
   }
 }
