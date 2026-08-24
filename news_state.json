@@ -4990,6 +4990,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-24T09:02:01.065901+00:00"
+    },
+    "2092e7661d27d14c": {
+      "title": "HOLO, 스트레티지 14만268주 자산 편입",
+      "url": "www.tokenpost.kr/news/market/396580",
+      "signature": "action_invest | action_migrate | action_secure | amount_krw_21800000000 | amount_usd_15760000 | asset_btc | count_shares_140268 | entity_holo | entity_스트래티지",
+      "canonical_key": "action_invest | action_migrate | action_secure | amount_krw_21800000000 | amount_usd_15760000 | asset_btc | count_shares_140268 | entity_holo | entity_스트래티지",
+      "ts": "2026-08-24T10:01:42.915561+00:00"
     }
   }
 }
