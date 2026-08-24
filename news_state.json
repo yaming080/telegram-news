@@ -1,26 +1,5 @@
 {
   "posted": {
-    "4a4473cb4862": {
-      "title": "Bitcoin advocacy group to join US State Department’s ‘digital freedom’ program",
-      "url": "cointelegraph.com/news/bitcoin-policy-institute-state-department-program?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "action_issue | action_partner | asset_btc | entity_미국국무부 | entity_비트코인정책연구소 | geo_us",
-      "canonical_key": "action_issue | action_partner | asset_btc | entity_미국국무부 | entity_비트코인정책연구소 | geo_us",
-      "ts": "2026-07-25T19:00:57.768167+00:00"
-    },
-    "ff2a324ccfb0": {
-      "title": "Did North Korea’s hackers just rob their own government?",
-      "url": "www.cryptopolitan.com/did-north-korea-hackers-rob-their-own-govt",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-25T19:01:19.066799+00:00"
-    },
-    "4c04144b2ab4": {
-      "title": "BMX token recovers from July 24 crash as Bitmart withdrawal delay rumors spread",
-      "url": "www.cryptopolitan.com/bmx-rebounds-bitmart-withdrawal-delay-rumor",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-25T19:01:39.044949+00:00"
-    },
     "d43404958977": {
       "title": "Who pays for free transfers? Gasless crypto’s hidden bill",
       "url": "crypto.news/gasless-crypto-transfers-who-pays",
@@ -4920,6 +4899,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-24T18:01:42.464402+00:00"
+    },
+    "d95c5e1b58f15ad4": {
+      "title": "CME Group adds ENA reference rates across three regions",
+      "url": "crypto.news/cme-group-ena-reference-rates-across-three-regions",
+      "signature": "action_close | entity_시카고상품거래소cme | entity_에테나 | geo_us",
+      "canonical_key": "action_close | entity_시카고상품거래소cme | entity_에테나 | geo_us",
+      "ts": "2026-08-24T20:01:52.926289+00:00"
     }
   }
 }
