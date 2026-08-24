@@ -1,12 +1,5 @@
 {
   "posted": {
-    "d43404958977": {
-      "title": "Who pays for free transfers? Gasless crypto’s hidden bill",
-      "url": "crypto.news/gasless-crypto-transfers-who-pays",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-25T20:00:51.513816+00:00"
-    },
     "b3bb468096db": {
       "title": "What is USDT0? The dollar that says it is not wrapped",
       "url": "crypto.news/what-is-usdt0",
@@ -4906,6 +4899,20 @@
       "signature": "action_close | entity_시카고상품거래소cme | entity_에테나 | geo_us",
       "canonical_key": "action_close | entity_시카고상품거래소cme | entity_에테나 | geo_us",
       "ts": "2026-08-24T20:01:52.926289+00:00"
+    },
+    "87c2ec7a219aa792": {
+      "title": "안크르, 스택스 서명자 14곳 집합에 합류했다",
+      "url": "www.tokenpost.kr/news/blockchain/396936",
+      "signature": "action_appoint | action_approve | action_integrate | action_issue | action_mint | action_transfer | asset_btc | count_people_10 | count_people_14 | object_custody | object_network",
+      "canonical_key": "action_appoint | action_approve | action_integrate | action_issue | action_mint | action_transfer | asset_btc | count_people_10 | count_people_14 | object_custody | object_network",
+      "ts": "2026-08-24T21:02:10.880244+00:00"
+    },
+    "e3c418e57d83093d": {
+      "title": "ZachXBT Links M1llionz to $667K in Crypto Stolen in French Raids",
+      "url": "coinedition.com/zachxbt-links-m1llionz-to-667k-in-crypto-stolen-in-french",
+      "signature": "action_enforce | action_steal | amount_btc_7 | amount_btc_exact_7_2 | amount_usd_110000 | amount_usd_557000 | amount_usd_667000 | asset_btc | entity_zachxbtlinksm1llionz | entity_테더",
+      "canonical_key": "action_enforce | action_steal | amount_btc_7 | amount_btc_exact_7_2 | amount_usd_110000 | amount_usd_557000 | amount_usd_667000 | asset_btc | entity_zachxbtlinksm1llionz | entity_테더",
+      "ts": "2026-08-24T21:02:15.854700+00:00"
     }
   }
 }
