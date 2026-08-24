@@ -1,33 +1,5 @@
 {
   "posted": {
-    "ccae7fd14e91": {
-      "title": "하이퍼리퀴드, 주식 거래량이 암호화폐 첫 추월...SK하이닉스 최다",
-      "url": "www.tokenpost.kr/news/blockchain/381255",
-      "signature": "action_disclose | action_invest | action_launch | amount_251억달러 | amount_482억달러 | amount_52 | object_disclosure",
-      "canonical_key": "action_disclose | action_invest | action_launch | amount_251억달러 | amount_482억달러 | amount_52 | object_disclosure",
-      "ts": "2026-07-25T10:01:00.803901+00:00"
-    },
-    "92be1322ff66": {
-      "title": "솔라나(SOL), 좁은 변동폭 및 스테이블코인 결제 급등…합의 레이어 업그레이드 준비",
-      "url": "www.tokenpost.kr/news/cryptocurrency/381250",
-      "signature": "action_approve | amount_21 | amount_279 | amount_5 | asset_sol | asset_stablecoin | entity_sol | object_license | object_payment",
-      "canonical_key": "action_approve | amount_21 | amount_279 | amount_5 | asset_sol | asset_stablecoin | entity_sol | object_license | object_payment",
-      "ts": "2026-07-25T10:01:05.501112+00:00"
-    },
-    "9131a11cd771": {
-      "title": "ENS, 분산 웹 인프라로 확장…터키 정부도 ‘cbiletisim.eth’ 채택",
-      "url": "www.tokenpost.kr/news/blockchain/381245",
-      "signature": "action_develop | action_disclose | action_launch | asset_eth | entity_ens | object_disclosure | object_infrastructure | object_wallet",
-      "canonical_key": "action_develop | action_disclose | action_launch | asset_eth | entity_ens | object_disclosure | object_infrastructure | object_wallet",
-      "ts": "2026-07-25T10:01:11.385299+00:00"
-    },
-    "f00084ea35f9": {
-      "title": "Triple-A hot wallets lose $9.7M in suspected exploit",
-      "url": "crypto.news/triple-a-hot-wallets-lose-9-7m-in-suspected-exploit",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-25T10:01:14.992744+00:00"
-    },
     "b01645d3a7b4": {
       "title": "Dango’s perp DEX taps out nearly 4 months after launch",
       "url": "cointelegraph.com/news/dangos-perp-dex-taps-nearly-months-launch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -4997,6 +4969,13 @@
       "signature": "action_invest | action_migrate | action_secure | amount_krw_21800000000 | amount_usd_15760000 | asset_btc | count_shares_140268 | entity_holo | entity_스트래티지",
       "canonical_key": "action_invest | action_migrate | action_secure | amount_krw_21800000000 | amount_usd_15760000 | asset_btc | count_shares_140268 | entity_holo | entity_스트래티지",
       "ts": "2026-08-24T10:01:42.915561+00:00"
+    },
+    "882b0f8aa77a9519": {
+      "title": "뉴라이 발행 주소, 수수료 16만5000달러 넘어섰다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/396612",
+      "signature": "action_issue | action_mint | amount_krw_48000000000 | amount_pct_30.6 | amount_usd_165000 | amount_usd_34660000 | entity_바이낸스",
+      "canonical_key": "action_issue | action_mint | amount_krw_48000000000 | amount_pct_30.6 | amount_usd_165000 | amount_usd_34660000 | entity_바이낸스",
+      "ts": "2026-08-24T11:03:18.477611+00:00"
     }
   }
 }
