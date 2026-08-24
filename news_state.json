@@ -1,12 +1,5 @@
 {
   "posted": {
-    "b3bb468096db": {
-      "title": "What is USDT0? The dollar that says it is not wrapped",
-      "url": "crypto.news/what-is-usdt0",
-      "signature": "action_mint | asset_eth | asset_stablecoin | entity_usdt0",
-      "canonical_key": "action_mint | asset_eth | asset_stablecoin | entity_usdt0",
-      "ts": "2026-07-25T21:01:31.274242+00:00"
-    },
     "bfec4bbb9821": {
       "title": "The Harsh Reality of New Crypto: Just 7% of Major Tokens Beat Their Launch Price",
       "url": "cryptopotato.com/the-harsh-reality-of-new-crypto-just-7-of-major-tokens-beat-their-launch-price",
@@ -4913,6 +4906,20 @@
       "signature": "action_enforce | action_steal | amount_btc_7 | amount_btc_exact_7_2 | amount_usd_110000 | amount_usd_557000 | amount_usd_667000 | asset_btc | entity_zachxbtlinksm1llionz | entity_테더",
       "canonical_key": "action_enforce | action_steal | amount_btc_7 | amount_btc_exact_7_2 | amount_usd_110000 | amount_usd_557000 | amount_usd_667000 | asset_btc | entity_zachxbtlinksm1llionz | entity_테더",
       "ts": "2026-08-24T21:02:15.854700+00:00"
+    },
+    "a6f5131e3e6a4fbc": {
+      "title": "Bitcoin Faces Brutal Rejection at $80K, but Bulls Remain Defiant",
+      "url": "u.today/bitcoin-faces-brutal-rejection-at-80k-but-bulls-remain-defiant",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-24T22:03:17.216899+00:00"
+    },
+    "eab0bf89652d05d2": {
+      "title": "Super League secures $2.3M through first ATM offering",
+      "url": "crypto.news/super-league-secures-2-3m-through-first-atm-offering",
+      "signature": "action_file | action_secure | amount_usd_2230000 | amount_usd_2300000 | asset_btc | entity_atm | geo_us",
+      "canonical_key": "action_file | action_secure | amount_usd_2230000 | amount_usd_2300000 | asset_btc | entity_atm | geo_us",
+      "ts": "2026-08-24T22:03:22.174997+00:00"
     }
   }
 }
