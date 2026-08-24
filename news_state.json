@@ -1,68 +1,5 @@
 {
   "posted": {
-    "b01645d3a7b4": {
-      "title": "Dango’s perp DEX taps out nearly 4 months after launch",
-      "url": "cointelegraph.com/news/dangos-perp-dex-taps-nearly-months-launch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "action_close | action_launch | entity_dex | entity_비트멕스",
-      "canonical_key": "action_close | action_launch | entity_dex | entity_비트멕스",
-      "ts": "2026-07-25T11:01:19.996824+00:00"
-    },
-    "753ac664b789": {
-      "title": "로빈후드 체인 실물자산 2주 새 5배 급증…토큰화 주식 거래 확대",
-      "url": "www.tokenpost.kr/news/cryptocurrency/381269",
-      "signature": "action_launch | asset_stablecoin | entity_로빈후드",
-      "canonical_key": "action_launch | asset_stablecoin | entity_로빈후드",
-      "ts": "2026-07-25T11:01:24.063243+00:00"
-    },
-    "8f18e09a0e70": {
-      "title": "당고, 출시 4개월 만에 무기한 선물 DEX 접는다",
-      "url": "www.tokenpost.kr/news/cryptocurrency/381268",
-      "signature": "action_close | action_launch | entity_dex | object_shutdown",
-      "canonical_key": "action_close | action_launch | entity_dex | object_shutdown",
-      "ts": "2026-07-25T11:01:29.199128+00:00"
-    },
-    "60283c864b4e": {
-      "title": "이더리움 브리지 2곳서 3169만 달러 손실…B²는 스테이킹 중단",
-      "url": "www.tokenpost.kr/news/cryptocurrency/381267",
-      "signature": "action_hack | asset_eth | asset_usdc | object_sale",
-      "canonical_key": "action_hack | asset_eth | asset_usdc | object_sale",
-      "ts": "2026-07-25T11:01:33.176336+00:00"
-    },
-    "14ecc680856a": {
-      "title": "미 캔자스 자산관리사, 프랭클린 템플턴 XRP ETF 보유 공개",
-      "url": "www.tokenpost.kr/news/blockchain/381260",
-      "signature": "action_disclose | action_file | action_invest | action_launch | asset_xrp | entity_sec | entity_프랭클린템플턴 | geo_us | object_bond | object_commissioner | object_disclosure | object_etf",
-      "canonical_key": "action_disclose | action_file | action_invest | action_launch | asset_xrp | entity_sec | entity_프랭클린템플턴 | geo_us | object_bond | object_commissioner | object_disclosure | object_etf",
-      "ts": "2026-07-25T11:01:36.770844+00:00"
-    },
-    "dd59064f8d39": {
-      "title": "손실·규제·경쟁에 밀린 Dango, 퍼프 DEX 접고 8월 13일 네트워크 종료",
-      "url": "www.tokenpost.kr/news/blockchain/381266",
-      "signature": "action_disclose | action_hack | action_invest | action_launch | entity_dex | object_disclosure | object_sale",
-      "canonical_key": "action_disclose | action_hack | action_invest | action_launch | entity_dex | object_disclosure | object_sale",
-      "ts": "2026-07-25T11:01:40.829677+00:00"
-    },
-    "ad8c4424b09f": {
-      "title": "Poolin’s Bankruptcy Filing Could Accelerate Bitcoin Miners Pivoting to AI",
-      "url": "coinedition.com/poolins-bankruptcy-filing-could-accelerate-bitcoin-miners-pivoting-to-ai",
-      "signature": "action_file | asset_btc | geo_us | object_sale",
-      "canonical_key": "action_file | asset_btc | geo_us | object_sale",
-      "ts": "2026-07-25T11:01:47.164486+00:00"
-    },
-    "90e7dfc9ad3a": {
-      "title": "Top Banks Are Backing Bitcoin Miners Pivoting to AI Data Center Infrastructure",
-      "url": "coinedition.com/top-banks-are-backing-bitcoin-miners-pivoting-to-ai-data-center-infrastructure",
-      "signature": "action_support | asset_btc | object_infrastructure",
-      "canonical_key": "action_support | asset_btc | object_infrastructure",
-      "ts": "2026-07-25T11:01:51.512232+00:00"
-    },
-    "4f7dbdb98028": {
-      "title": "Bitcoin price teeters on trendline support after tech liquidation sparks profit-taking",
-      "url": "crypto.news/bitcoin-price-teeters-on-trendline-support-amid-tech-sell-off",
-      "signature": "action_support | asset_btc | object_sale",
-      "canonical_key": "action_support | asset_btc | object_sale",
-      "ts": "2026-07-25T11:01:54.585105+00:00"
-    },
     "11ac0f1b48c5": {
       "title": "리플 사업 확장에도 XRP는 제자리…장기 횡보 전망까지",
       "url": "www.tokenpost.kr/news/cryptocurrency/381276",
@@ -4976,6 +4913,20 @@
       "signature": "action_issue | action_mint | amount_krw_48000000000 | amount_pct_30.6 | amount_usd_165000 | amount_usd_34660000 | entity_바이낸스",
       "canonical_key": "action_issue | action_mint | amount_krw_48000000000 | amount_pct_30.6 | amount_usd_165000 | amount_usd_34660000 | entity_바이낸스",
       "ts": "2026-08-24T11:03:18.477611+00:00"
+    },
+    "7bc6db453dae5598": {
+      "title": "시바이누 재시작설, 공식 제안 아닌 해석 논쟁",
+      "url": "www.tokenpost.kr/news/cryptocurrency/396636",
+      "signature": "action_convert | action_deny | action_launch | action_migrate | action_propose | entity_시바이누",
+      "canonical_key": "action_convert | action_deny | action_launch | action_migrate | action_propose | entity_시바이누",
+      "ts": "2026-08-24T12:03:54.146685+00:00"
+    },
+    "d1ebf16371ddaeb6": {
+      "title": "Upbit Launches LIT/KRW Market for Lighter With Temporary Order Restrictions",
+      "url": "thenewscrypto.com/upbit-launches-lit-krw-market-for-lighter-with-temporary-order-restrictions",
+      "signature": "action_close | action_launch | asset_btc | entity_업비트 | geo_korea",
+      "canonical_key": "action_close | action_launch | asset_btc | entity_업비트 | geo_korea",
+      "ts": "2026-08-24T12:04:07.119377+00:00"
     }
   }
 }
