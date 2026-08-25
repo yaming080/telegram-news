@@ -4913,6 +4913,13 @@
       "signature": "action_expand | action_support | asset_btc | entity_아서헤이즈",
       "canonical_key": "action_expand | action_support | asset_btc | entity_아서헤이즈",
       "ts": "2026-08-25T04:02:55.354687+00:00"
+    },
+    "73b9478dd81914aa": {
+      "title": "BNB Chain activates Pasteur hard fork to strengthen bridge security",
+      "url": "cointelegraph.com/news/bnb-chain-pasteur-hard-fork-bridge-security?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-25T05:01:58.752235+00:00"
     }
   }
 }
