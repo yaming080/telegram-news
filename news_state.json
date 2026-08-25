@@ -1,19 +1,5 @@
 {
   "posted": {
-    "6a1a0a84aafb57d0": {
-      "title": "테슬라, 2분기도 비트코인 보유 유지…장기 전략 재확인",
-      "url": "www.tokenpost.kr/news/cryptocurrency/381438",
-      "signature": "action_invest | amount_usd_1500000000 | asset_btc | object_sale",
-      "canonical_key": "action_invest | amount_usd_1500000000 | asset_btc | object_sale",
-      "ts": "2026-07-26T15:01:01.645345+00:00"
-    },
-    "9207907fbeb7f2d6": {
-      "title": "Ripple Price Analysis: XRP Could Be Heading for a Major Move Next Week",
-      "url": "cryptopotato.com/ripple-price-analysis-xrp-could-be-heading-for-a-major-move-next-week",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-26T15:01:04.834860+00:00"
-    },
     "aa7c5591ef87ccb6": {
       "title": "윔엑스, 해킹 여파로 브리지·거래 서비스 일시 중단",
       "url": "www.tokenpost.kr/news/cryptocurrency/381481",
@@ -4948,6 +4934,13 @@
       "signature": "action_disclose | action_launch | action_upgrade | amount_eth_250 | amount_eth_approx_250 | amount_pct_0 | amount_pct_1 | asset_eth | date_2026_08_31 | date_2026_10_31 | entity_리도 | object_disclosure | object_infrastructure",
       "canonical_key": "action_disclose | action_launch | action_upgrade | amount_eth_250 | amount_eth_approx_250 | amount_pct_0 | amount_pct_1 | asset_eth | date_2026_08_31 | date_2026_10_31 | entity_리도 | object_disclosure | object_infrastructure",
       "ts": "2026-08-25T15:04:26.867419+00:00"
+    },
+    "6aaebd4efd26b36c": {
+      "title": "Ethereum's Stablecoin Market Cap Tops $400 Million in Just 24 Hours",
+      "url": "u.today/ethereums-stablecoin-market-cap-tops-400-million-in-just-24-hours",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-25T16:02:17.376121+00:00"
     }
   }
 }
