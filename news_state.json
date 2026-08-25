@@ -1,26 +1,5 @@
 {
   "posted": {
-    "5b27d5cbdf37": {
-      "title": "South Korea’s largest bank to launch payment service on JPMorgan’s Kinexys",
-      "url": "cointelegraph.com/news/south-korea-bank-payment-jpmorgans-kinexys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "action_launch | action_support | entity_jp모건 | geo_korea | geo_us | object_payment",
-      "canonical_key": "action_launch | action_support | entity_jp모건 | geo_korea | geo_us | object_payment",
-      "ts": "2026-07-26T11:00:55.450336+00:00"
-    },
-    "279dae168db1": {
-      "title": "2026 Crypto Graveyard: 99 Projects Officially Shut Down",
-      "url": "u.today/2026-crypto-graveyard-99-projects-officially-shut-down",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-26T11:00:58.778822+00:00"
-    },
-    "32e4959c4f8f": {
-      "title": "Forget Bitcoin? 3 Reasons Why Ethereum Is Ready to Steal the Spotlight in Summer 2026",
-      "url": "u.today/forget-bitcoin-3-reasons-why-ethereum-is-ready-to-steal-the-spotlight-in-summer-2026",
-      "signature": "action_support | amount_usd_103000000 | amount_usd_17000000000 | asset_btc | asset_eth | object_etf",
-      "canonical_key": "action_support | amount_usd_103000000 | amount_usd_17000000000 | asset_btc | asset_eth | object_etf",
-      "ts": "2026-07-26T11:01:02.383934+00:00"
-    },
     "eac9e37b41821e37": {
       "title": "Hoskinson Says Cardano Treasury Can Fund $100M+ Ecosystem Growth This Year Despite ADA Decline",
       "url": "thecryptobasic.com/2026/07/25/hoskinson-says-cardano-treasury-can-fund-100m-ecosystem-growth-this-year-despite-ada-decline",
@@ -4934,6 +4913,13 @@
       "signature": "action_close | action_disclose | action_launch | action_transfer | asset_eth | date_2026_09_01 | object_disclosure | object_infrastructure | object_shutdown | object_wallet",
       "canonical_key": "action_close | action_disclose | action_launch | action_transfer | asset_eth | date_2026_09_01 | object_disclosure | object_infrastructure | object_shutdown | object_wallet",
       "ts": "2026-08-25T11:03:16.149126+00:00"
+    },
+    "e99fa65cb8b06b35": {
+      "title": "Ethereum developers advance post-quantum readiness with deposit contract proposal",
+      "url": "www.cryptopolitan.com/ethereum-deposit-contract-bls-retirement",
+      "signature": "action_expand | action_integrate | action_propose | asset_eth | entity_이더리움재단 | object_network",
+      "canonical_key": "action_expand | action_integrate | action_propose | asset_eth | entity_이더리움재단 | object_network",
+      "ts": "2026-08-25T12:01:55.166104+00:00"
     }
   }
 }
