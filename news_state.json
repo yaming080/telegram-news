@@ -4983,6 +4983,27 @@
       "signature": "action_disclose | action_enable | action_support | asset_xrp | asset_xrpl | entity_싱가포르",
       "canonical_key": "action_disclose | action_enable | action_support | asset_xrp | asset_xrpl | entity_싱가포르",
       "ts": "2026-08-25T18:03:37.323622+00:00"
+    },
+    "a7cddf2649ba73bd": {
+      "title": "Why Sovereign Funds Prefer Indirect Equity Over Crypto Spot ETFs: The Norway Strategy",
+      "url": "coinedition.com/why-sovereign-funds-prefer-indirect-equity-over-crypto-spot-etfs-the-norway-strategy",
+      "signature": "action_invest | amount_btc_11549 | amount_btc_approx_11500 | amount_pct_21.2 | amount_pct_60.5 | amount_usd_2 | asset_btc | entity_스트래티지 | object_fund",
+      "canonical_key": "action_invest | amount_btc_11549 | amount_btc_approx_11500 | amount_pct_21.2 | amount_pct_60.5 | amount_usd_2 | asset_btc | entity_스트래티지 | object_fund",
+      "ts": "2026-08-25T19:03:39.183537+00:00"
+    },
+    "1d22373afdee4973": {
+      "title": "Billionaire Draper Backs Cardano Accelerator for DeFi",
+      "url": "u.today/billionaire-draper-backs-cardano-accelerator-for-defi",
+      "signature": "action_support | entity_카르다노",
+      "canonical_key": "action_support | entity_카르다노",
+      "ts": "2026-08-25T19:03:44.186725+00:00"
+    },
+    "bd7e83f1b79d0ae9": {
+      "title": "Goldman Sachs backs crypto stocks amid Bitcoin breakout",
+      "url": "crypto.news/goldman-sachs-back-crypto-stocks-amid-bitcoin-breakout",
+      "signature": "action_support | amount_pct_26 | amount_usd_80000 | asset_btc | entity_골드만삭스 | entity_로빈후드 | entity_코인베이스",
+      "canonical_key": "action_support | amount_pct_26 | amount_usd_80000 | asset_btc | entity_골드만삭스 | entity_로빈후드 | entity_코인베이스",
+      "ts": "2026-08-25T19:03:47.336494+00:00"
     }
   }
 }
