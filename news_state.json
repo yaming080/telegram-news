@@ -1,12 +1,5 @@
 {
   "posted": {
-    "b64b4e59f4e8dd8f": {
-      "title": "Ethereum Price Analysis: ETH Hits a Decision Point as Major Resistance Comes Into Play",
-      "url": "cryptopotato.com/ethereum-price-analysis-eth-hits-a-decision-point-as-major-resistance-comes-into-play",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-26T14:00:50.433674+00:00"
-    },
     "6a1a0a84aafb57d0": {
       "title": "테슬라, 2분기도 비트코인 보유 유지…장기 전략 재확인",
       "url": "www.tokenpost.kr/news/cryptocurrency/381438",
@@ -4941,6 +4934,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-25T14:02:32.092888+00:00"
+    },
+    "041c8479758faada": {
+      "title": "Morpho leads Ethereum, Solana curated DeFi TVL as market concentrates with top-five curators",
+      "url": "www.cryptopolitan.com/morpho-leads-curated-defi-market",
+      "signature": "action_publish | amount_usd_11290000000 | asset_eth | asset_sol | entity_defitvl | entity_모포",
+      "canonical_key": "action_publish | amount_usd_11290000000 | asset_eth | asset_sol | entity_defitvl | entity_모포",
+      "ts": "2026-08-25T15:03:59.530047+00:00"
+    },
+    "aaead5154e0034fa": {
+      "title": "리도 스테이킹 볼트 수수료 0%, 8월 말까지 적용",
+      "url": "www.tokenpost.kr/news/cryptocurrency/397580",
+      "signature": "action_disclose | action_launch | action_upgrade | amount_eth_250 | amount_eth_approx_250 | amount_pct_0 | amount_pct_1 | asset_eth | date_2026_08_31 | date_2026_10_31 | entity_리도 | object_disclosure | object_infrastructure",
+      "canonical_key": "action_disclose | action_launch | action_upgrade | amount_eth_250 | amount_eth_approx_250 | amount_pct_0 | amount_pct_1 | asset_eth | date_2026_08_31 | date_2026_10_31 | entity_리도 | object_disclosure | object_infrastructure",
+      "ts": "2026-08-25T15:04:26.867419+00:00"
     }
   }
 }
