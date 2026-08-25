@@ -1,12 +1,5 @@
 {
   "posted": {
-    "97345abc503b": {
-      "title": "Sberbank sets Dec. 1 deadline for Russia crypto trading launch",
-      "url": "crypto.news/sberbank-sets-dec-1-deadline-for-russia-crypto-trading-launch",
-      "signature": "action_launch | date_2026_09_01 | geo_russia | object_custody | object_infrastructure",
-      "canonical_key": "action_launch | date_2026_09_01 | geo_russia | object_custody | object_infrastructure",
-      "ts": "2026-07-26T05:00:53.397147+00:00"
-    },
     "b01d30370540": {
       "title": "머스크 '전직 조만장자' 발언에 바이낸스 CZ \"부자되기 직전\" 농담",
       "url": "www.tokenpost.kr/news/cryptocurrency/381401",
@@ -4920,6 +4913,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-25T05:01:58.752235+00:00"
+    },
+    "727aee7041d1b630": {
+      "title": "테더, 1660억원 추정 우루과이 채굴 투자 중단",
+      "url": "www.tokenpost.kr/news/cryptocurrency/397289",
+      "signature": "action_audit | action_disclose | action_invest | action_launch | action_propose | amount_krw_166000000000 | amount_krw_83000000000 | amount_usd_120000000 | amount_usd_20000000 | amount_usd_60000000 | asset_btc | entity_테더 | object_disclosure",
+      "canonical_key": "action_audit | action_disclose | action_invest | action_launch | action_propose | amount_krw_166000000000 | amount_krw_83000000000 | amount_usd_120000000 | amount_usd_20000000 | amount_usd_60000000 | asset_btc | entity_테더 | object_disclosure",
+      "ts": "2026-08-25T06:02:01.804261+00:00"
     }
   }
 }
