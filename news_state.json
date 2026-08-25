@@ -4899,6 +4899,20 @@
       "signature": "action_close | action_expand | action_publish | object_infrastructure",
       "canonical_key": "action_close | action_expand | action_publish | object_infrastructure",
       "ts": "2026-08-25T01:02:44.952156+00:00"
+    },
+    "1e471d9d36d5adb9": {
+      "title": "이더리움 발행 3% 감축 초안, 라이트 클라이언트 손댄다",
+      "url": "www.tokenpost.kr/news/blockchain/397234",
+      "signature": "action_develop | action_disclose | action_issue | action_launch | action_mint | action_propose | amount_pct_3 | asset_eth | count_people_512 | date_2026_08_20 | object_disclosure | reference_eip_8390",
+      "canonical_key": "action_develop | action_disclose | action_issue | action_launch | action_mint | action_propose | amount_pct_3 | asset_eth | count_people_512 | date_2026_08_20 | object_disclosure | reference_eip_8390",
+      "ts": "2026-08-25T04:02:50.562923+00:00"
+    },
+    "3b2868223b949805": {
+      "title": "Bitcoin bull market underway, Arthur Hayes says",
+      "url": "crypto.news/bitcoin-bull-market-underway-arthur-hayes-says",
+      "signature": "action_expand | action_support | asset_btc | entity_아서헤이즈",
+      "canonical_key": "action_expand | action_support | asset_btc | entity_아서헤이즈",
+      "ts": "2026-08-25T04:02:55.354687+00:00"
     }
   }
 }
