@@ -4920,6 +4920,27 @@
       "signature": "action_expand | action_integrate | action_propose | asset_eth | entity_이더리움재단 | object_network",
       "canonical_key": "action_expand | action_integrate | action_propose | asset_eth | entity_이더리움재단 | object_network",
       "ts": "2026-08-25T12:01:55.166104+00:00"
+    },
+    "c9b0633e6b05439d": {
+      "title": "Shiba Inu Veteran Debunks Viral Claims of Full SHIB Ecosystem Starting Over",
+      "url": "thecryptobasic.com/2026/08/25/lele-shiba-inu-veteran-debunks-viral-claims-of-full-shib-ecosystem-starting-over",
+      "signature": "action_support | entity_시바이누 | object_adviser",
+      "canonical_key": "action_support | entity_시바이누 | object_adviser",
+      "ts": "2026-08-25T13:02:40.736918+00:00"
+    },
+    "5cd6ea6d867a1641": {
+      "title": "Hoskinson Reveals $500M in Soft Commitments for Bitcoin DeFi Project on Cardano",
+      "url": "thecryptobasic.com/2026/08/25/hoskinson-reveals-500m-in-soft-commitments-for-bitcoin-defi-project-on-cardano",
+      "signature": "action_disclose | amount_usd_500000000 | asset_btc | entity_bitcoindefiproject | entity_찰스호스킨슨 | entity_카르다노",
+      "canonical_key": "action_disclose | amount_usd_500000000 | asset_btc | entity_bitcoindefiproject | entity_찰스호스킨슨 | entity_카르다노",
+      "ts": "2026-08-25T13:02:44.323214+00:00"
+    },
+    "6eb9f2e9e97d73d2": {
+      "title": "BTC Reclaims $81K, but Bulls Face Key Resistance",
+      "url": "u.today/btc-reclaims-81k-but-bulls-face-key-resistance",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-25T13:02:47.226906+00:00"
     }
   }
 }
