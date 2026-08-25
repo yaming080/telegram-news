@@ -4934,6 +4934,13 @@
       "signature": "action_enable | action_expand | action_support | action_transfer | asset_xrp | asset_xrpl | entity_리플 | entity_싱가포르 | entity_제미니",
       "canonical_key": "action_enable | action_expand | action_support | action_transfer | asset_xrp | asset_xrpl | entity_리플 | entity_싱가포르 | entity_제미니",
       "ts": "2026-08-25T07:02:47.019020+00:00"
+    },
+    "d4f809fe3a410dad": {
+      "title": "최대 7만달러, 카르다노 액셀러레이터 모집",
+      "url": "www.tokenpost.kr/news/cryptocurrency/397362",
+      "signature": "action_invest | amount_pct_3.5 | amount_usd_70000 | entity_비자 | entity_카르다노 | object_fund | object_infrastructure",
+      "canonical_key": "action_invest | amount_pct_3.5 | amount_usd_70000 | entity_비자 | entity_카르다노 | object_fund | object_infrastructure",
+      "ts": "2026-08-25T08:02:43.060344+00:00"
     }
   }
 }
