@@ -1,19 +1,5 @@
 {
   "posted": {
-    "4e778b129180": {
-      "title": "Sberbank plans to launch its crypto trading infrastructure by December 1, 2026",
-      "url": "www.cryptopolitan.com/sberbank-regulated-crypto-trading-platform",
-      "signature": "action_develop | action_launch | date_2026_12_01 | object_infrastructure | object_platform",
-      "canonical_key": "action_develop | action_launch | date_2026_12_01 | object_infrastructure | object_platform",
-      "ts": "2026-07-25T23:01:13.875786+00:00"
-    },
-    "74a86c8ae561": {
-      "title": "SK하이닉스 주가 연계한 토큰화 상품, 해외 거래소서 급성장",
-      "url": "www.tokenpost.kr/news/economy/381328",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-25T23:01:18.079470+00:00"
-    },
     "27aac7c22b21": {
       "title": "솔라나(SOL), 블록 용량 100만 유닛 확대 추진…스테이킹 ETF 출시로 제도권 자금 유입 본격화",
       "url": "www.tokenpost.kr/news/cryptocurrency/381344",
