@@ -4920,6 +4920,20 @@
       "signature": "action_audit | action_disclose | action_invest | action_launch | action_propose | amount_krw_166000000000 | amount_krw_83000000000 | amount_usd_120000000 | amount_usd_20000000 | amount_usd_60000000 | asset_btc | entity_테더 | object_disclosure",
       "canonical_key": "action_audit | action_disclose | action_invest | action_launch | action_propose | amount_krw_166000000000 | amount_krw_83000000000 | amount_usd_120000000 | amount_usd_20000000 | amount_usd_60000000 | asset_btc | entity_테더 | object_disclosure",
       "ts": "2026-08-25T06:02:01.804261+00:00"
+    },
+    "25f9a5fc352b5429": {
+      "title": "Gemini Enables XRP Deposits and Withdrawals Via XRPL in Singapore",
+      "url": "u.today/gemini-enables-xrp-deposits-and-withdrawals-via-xrpl-in-singapore",
+      "signature": "action_enable | action_expand | action_support | asset_xrp | asset_xrpl | entity_싱가포르",
+      "canonical_key": "action_enable | action_expand | action_support | asset_xrp | asset_xrpl | entity_싱가포르",
+      "ts": "2026-08-25T07:02:42.607909+00:00"
+    },
+    "b812239c3b2ed33b": {
+      "title": "Gemini enables XRP transfers via XRPL in Singapore",
+      "url": "crypto.news/gemini-enables-xrp-transfers-via-xrpl-in-singapore",
+      "signature": "action_enable | action_expand | action_support | action_transfer | asset_xrp | asset_xrpl | entity_리플 | entity_싱가포르 | entity_제미니",
+      "canonical_key": "action_enable | action_expand | action_support | action_transfer | asset_xrp | asset_xrpl | entity_리플 | entity_싱가포르 | entity_제미니",
+      "ts": "2026-08-25T07:02:47.019020+00:00"
     }
   }
 }
