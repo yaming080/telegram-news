@@ -4927,6 +4927,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-25T09:03:38.534258+00:00"
+    },
+    "94dfa509122bc924": {
+      "title": "톤 레거시 브리지 9월 1일 영구 종료된다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/397457",
+      "signature": "action_close | action_disclose | action_launch | action_transfer | asset_eth | date_2026_09_01 | object_disclosure | object_infrastructure | object_shutdown | object_wallet",
+      "canonical_key": "action_close | action_disclose | action_launch | action_transfer | asset_eth | date_2026_09_01 | object_disclosure | object_infrastructure | object_shutdown | object_wallet",
+      "ts": "2026-08-25T11:03:16.149126+00:00"
     }
   }
 }
