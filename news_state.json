@@ -5004,6 +5004,27 @@
       "signature": "action_support | amount_pct_26 | amount_usd_80000 | asset_btc | entity_골드만삭스 | entity_로빈후드 | entity_코인베이스",
       "canonical_key": "action_support | amount_pct_26 | amount_usd_80000 | asset_btc | entity_골드만삭스 | entity_로빈후드 | entity_코인베이스",
       "ts": "2026-08-25T19:03:47.336494+00:00"
+    },
+    "e2dc04ba43b57927": {
+      "title": "Galaxy Lets US Clients Borrow Cash Against Bitcoin, Ether and Solana",
+      "url": "coinedition.com/galaxy-lets-us-clients-borrow-cash-against-bitcoin-ether",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-25T21:02:04.943316+00:00"
+    },
+    "15eae0feb06a448c": {
+      "title": "Bitcoin Bull Score hits 80, but $83K close is key",
+      "url": "crypto.news/bitcoin-bull-score-hits-80-but-83k-dollar-close-is-key",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-25T21:02:08.050348+00:00"
+    },
+    "441781c1451b8b4f": {
+      "title": "Term Finance closes Meta Vaults after estimated $8.5M attack",
+      "url": "crypto.news/term-finance-closes-meta-vaults-after-estimated-attack",
+      "signature": "action_close | action_steal | amount_usd_8500000 | asset_eth | entity_termfinance",
+      "canonical_key": "action_close | action_steal | amount_usd_8500000 | asset_eth | entity_termfinance",
+      "ts": "2026-08-25T21:02:11.951877+00:00"
     }
   }
 }
