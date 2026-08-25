@@ -4899,6 +4899,13 @@
       "signature": "action_file | action_secure | amount_usd_2230000 | amount_usd_2300000 | asset_btc | entity_atm | geo_us",
       "canonical_key": "action_file | action_secure | amount_usd_2230000 | amount_usd_2300000 | asset_btc | entity_atm | geo_us",
       "ts": "2026-08-24T22:03:22.174997+00:00"
+    },
+    "2376c773415f1543": {
+      "title": "CME Expands ENA Pricing Across Three Global Trading Regions",
+      "url": "coinedition.com/crypto-live-news/cme-expands-ena-pricing-across-three-global-trading-regions",
+      "signature": "action_close | action_expand | action_publish | object_infrastructure",
+      "canonical_key": "action_close | action_expand | action_publish | object_infrastructure",
+      "ts": "2026-08-25T01:02:44.952156+00:00"
     }
   }
 }
