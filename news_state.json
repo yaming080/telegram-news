@@ -4955,6 +4955,34 @@
       "signature": "action_build | action_develop | action_expand | amount_btc_16 | amount_usd_472800 | asset_btc | object_infrastructure | object_payment",
       "canonical_key": "action_build | action_develop | action_expand | amount_btc_16 | amount_usd_472800 | asset_btc | object_infrastructure | object_payment",
       "ts": "2026-08-25T17:04:05.113080+00:00"
+    },
+    "daa30080203ff4d0": {
+      "title": "세일러 “비트코인, 금융권과 공존해야 한다”",
+      "url": "www.tokenpost.kr/news/cryptocurrency/397687",
+      "signature": "action_disclose | action_expand | action_launch | asset_btc | entity_마이클세일러 | object_bond | object_custody | object_derivatives | object_disclosure | object_fund | object_network | object_payment",
+      "canonical_key": "action_disclose | action_expand | action_launch | asset_btc | entity_마이클세일러 | object_bond | object_custody | object_derivatives | object_disclosure | object_fund | object_network | object_payment",
+      "ts": "2026-08-25T18:03:24.852222+00:00"
+    },
+    "2723d505f742ff77": {
+      "title": "BTC 프리미엄 95일 음수, 수요 해석 엇갈렸다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/397686",
+      "signature": "action_disclose | action_invest | action_launch | amount_pct_30 | asset_btc | entity_코인베이스 | geo_us | object_disclosure",
+      "canonical_key": "action_disclose | action_invest | action_launch | amount_pct_30 | asset_btc | entity_코인베이스 | geo_us | object_disclosure",
+      "ts": "2026-08-25T18:03:28.638609+00:00"
+    },
+    "373a8eb625060f3c": {
+      "title": "THORChain Launches Version 3.20 With Native Monero and Zcash Swaps",
+      "url": "thenewscrypto.com/thorchain-launches-version-3-20-with-native-monero-and-zcash-swaps",
+      "signature": "action_launch | action_support | action_transfer | action_upgrade | asset_btc | asset_eth | object_network_upgrade | reference_version_3_20",
+      "canonical_key": "action_launch | action_support | action_transfer | action_upgrade | asset_btc | asset_eth | object_network_upgrade | reference_version_3_20",
+      "ts": "2026-08-25T18:03:34.579210+00:00"
+    },
+    "335002117ce9f91f": {
+      "title": "Tyler Winklevoss Reveals Gemini’s New XRP Ledger Support in Singapore",
+      "url": "thenewscrypto.com/tyler-winklevoss-reveals-geminis-new-xrp-ledger-support-in-singapore",
+      "signature": "action_disclose | action_enable | action_support | asset_xrp | asset_xrpl | entity_싱가포르",
+      "canonical_key": "action_disclose | action_enable | action_support | asset_xrp | asset_xrpl | entity_싱가포르",
+      "ts": "2026-08-25T18:03:37.323622+00:00"
     }
   }
 }
