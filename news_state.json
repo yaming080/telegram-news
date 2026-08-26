@@ -1,12 +1,5 @@
 {
   "posted": {
-    "ae762d05e6b897ce": {
-      "title": "Bitcoin Faces Mixed Outlook on Reddit as Bear Market Deepens",
-      "url": "coinedition.com/bitcoin-faces-mixed-outlook-on-reddit-as-bear-market-deepens",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-27T10:01:19.594238+00:00"
-    },
     "aca1feb6dfc54f89": {
       "title": "말레이시아서 비트코인 불법 채굴 조직 적발…전력 도용 수익 월 10만 링깃 추정",
       "url": "www.tokenpost.kr/news/policy/381705",
@@ -4969,6 +4962,27 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-26T10:01:58.187076+00:00"
+    },
+    "6e058cbc2b1e48c2": {
+      "title": "XRP 결제량 521.1% 증가, 건수는 10.5% 줄었다",
+      "url": "www.tokenpost.kr/news/blockchain/398209",
+      "signature": "action_migrate | amount_pct_10.5 | amount_pct_521.1 | asset_xrp | asset_xrpl | object_network | object_payment",
+      "canonical_key": "action_migrate | amount_pct_10.5 | amount_pct_521.1 | asset_xrp | asset_xrpl | object_network | object_payment",
+      "ts": "2026-08-26T11:02:31.140298+00:00"
+    },
+    "f09e49e3427f2b27": {
+      "title": "Ethereum Developers Issue L1 Contract Alert as Gas Repricing Nears",
+      "url": "u.today/ethereum-developers-issue-l1-contract-alert-as-gas-repricing-nears",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-26T11:02:34.996980+00:00"
+    },
+    "3e037dfdc4471cae": {
+      "title": "+521% Increase on XRP Ledger: Payment Volumes Grow at Enormous Rate",
+      "url": "u.today/521-increase-on-xrp-ledger-payment-volumes-grow-at-enormous-rate",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-26T11:02:37.671132+00:00"
     }
   }
 }
