@@ -1,12 +1,5 @@
 {
   "posted": {
-    "1e194c654ecd9b05": {
-      "title": "가든 파이낸스, 해킹 의혹에 앱 중단…약 45만달러 유출",
-      "url": "www.tokenpost.kr/news/blockchain/381545",
-      "signature": "action_ban | action_disclose | action_hack | action_launch | amount_usd_450000 | asset_eth | asset_usdt | entity_아비트럼 | entity_테더 | object_disclosure | object_network | object_sale",
-      "canonical_key": "action_ban | action_disclose | action_hack | action_launch | amount_usd_450000 | asset_eth | asset_usdt | entity_아비트럼 | entity_테더 | object_disclosure | object_network | object_sale",
-      "ts": "2026-07-27T03:01:01.180440+00:00"
-    },
     "68fb4f5a7cec7bd3": {
       "title": "비트코인 옵션, 7만~7만2000달러에 쏠렸다…상승 베팅 신호",
       "url": "www.tokenpost.kr/news/cryptocurrency/381573",
