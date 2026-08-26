@@ -5011,6 +5011,13 @@
       "signature": "action_close | action_steal | amount_usd_8500000 | asset_eth | entity_termfinance",
       "canonical_key": "action_close | action_steal | amount_usd_8500000 | asset_eth | entity_termfinance",
       "ts": "2026-08-25T21:02:11.951877+00:00"
+    },
+    "00d23dde82a5b14a": {
+      "title": "10억주 수권 확대 묻는 솔루나, 10월 주총 표결",
+      "url": "www.tokenpost.kr/news/ai/397971",
+      "signature": "action_approve | action_expand | action_issue | action_mint | action_propose | amount_pct_20 | asset_btc | date_2026_10_16 | object_infrastructure",
+      "canonical_key": "action_approve | action_expand | action_issue | action_mint | action_propose | amount_pct_20 | asset_btc | date_2026_10_16 | object_infrastructure",
+      "ts": "2026-08-26T03:02:22.923281+00:00"
     }
   }
 }
