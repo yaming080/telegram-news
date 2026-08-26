@@ -1,12 +1,5 @@
 {
   "posted": {
-    "236fad0414158ee1": {
-      "title": "비트코인, 중동 긴장 완화에 6만5000달러 회복…이더리움도 강세",
-      "url": "www.tokenpost.kr/news/cryptocurrency/381665",
-      "signature": "action_invest | action_restore | amount_usd_300000000000 | amount_usd_64000 | amount_usd_65000 | amount_usd_65600 | amount_usd_67000 | asset_btc | asset_eth | entity_도널드트럼프 | geo_india",
-      "canonical_key": "action_invest | action_restore | amount_usd_300000000000 | amount_usd_64000 | amount_usd_65000 | amount_usd_65600 | amount_usd_67000 | asset_btc | asset_eth | entity_도널드트럼프 | geo_india",
-      "ts": "2026-07-27T09:01:05.523995+00:00"
-    },
     "ae762d05e6b897ce": {
       "title": "Bitcoin Faces Mixed Outlook on Reddit as Bear Market Deepens",
       "url": "coinedition.com/bitcoin-faces-mixed-outlook-on-reddit-as-bear-market-deepens",
@@ -4969,6 +4962,13 @@
       "signature": "action_expand | amount_krw_532000000000 | amount_krw_766000000000 | amount_usd_2000000000 | amount_usd_4000000000 | asset_btc | geo_us | object_bond",
       "canonical_key": "action_expand | amount_krw_532000000000 | amount_krw_766000000000 | amount_usd_2000000000 | amount_usd_4000000000 | asset_btc | geo_us | object_bond",
       "ts": "2026-08-26T05:02:11.974058+00:00"
+    },
+    "5ffc3ebd886bddd6": {
+      "title": "리우미, 2027년 초 은행앱서 암호화폐 거래 추진",
+      "url": "www.tokenpost.kr/news/cryptocurrency/398178",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-26T10:01:58.187076+00:00"
     }
   }
 }
