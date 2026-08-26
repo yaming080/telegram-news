@@ -1,12 +1,5 @@
 {
   "posted": {
-    "6d8f50b9ed55c06b": {
-      "title": "Bitcoin price reclaims $65K as peace trade lifts risk assets",
-      "url": "crypto.news/bitcoin-price-reclaims-65k-peace-trade-lifts-assets",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-27T12:01:13.935773+00:00"
-    },
     "cc966d1cdff1da89": {
       "title": "스트레티지, 비트코인 매수 멈추고 현금 3조원대로 늘렸다",
       "url": "www.tokenpost.kr/news/cryptocurrency/381763",
@@ -4962,6 +4955,41 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-26T11:02:37.671132+00:00"
+    },
+    "f6b5bedacb65339f": {
+      "title": "Billionaire Tim Draper Highlights a Major Opportunity for Cardano Ecosystem Founders",
+      "url": "thecryptobasic.com/2026/08/26/billionaire-tim-draper-highlights-a-major-opportunity-for-cardano-ecosystem-founders",
+      "signature": "action_build | action_launch | action_partner | action_support | entity_카르다노 | object_fund",
+      "canonical_key": "action_build | action_launch | action_partner | action_support | entity_카르다노 | object_fund",
+      "ts": "2026-08-26T13:06:10.328230+00:00"
+    },
+    "ef273310ddb7aa6a": {
+      "title": "Bitwise President Reveals XRP ETF Hits Highest Trading Volume Since Launch",
+      "url": "thecryptobasic.com/2026/08/25/bitwise-president-reveals-xrp-etf-hits-highest-trading-volume-since-launch",
+      "signature": "action_launch | amount_usd_80000000 | asset_xrp | object_etf",
+      "canonical_key": "action_launch | amount_usd_80000000 | asset_xrp | object_etf",
+      "ts": "2026-08-26T13:06:13.484371+00:00"
+    },
+    "d6352b0066207d74": {
+      "title": "엠에스시아이, 비영업사 지수 제외 기준 의견조회",
+      "url": "www.tokenpost.kr/news/cryptocurrency/398278",
+      "signature": "action_audit | action_build | action_invest | action_issue | action_mint | action_purchase | amount_krw_980000000000 | amount_usd_60000000000 | asset_btc | object_corporate_crypto_purchase | object_fund",
+      "canonical_key": "action_audit | action_build | action_invest | action_issue | action_mint | action_purchase | amount_krw_980000000000 | amount_usd_60000000000 | asset_btc | object_corporate_crypto_purchase | object_fund",
+      "ts": "2026-08-26T13:06:18.254637+00:00"
+    },
+    "96ebf289fa9386f9": {
+      "title": "비트코인 7만8766달러, PCE·엔비디아 앞 관망",
+      "url": "www.tokenpost.kr/news/market/398270",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-26T13:06:21.851390+00:00"
+    },
+    "83c5bce3753c755f": {
+      "title": "Bitcoin Beach Sees Everyday Payments Fade as El Salvador’s Adoption Experiment Evolves",
+      "url": "thenewscrypto.com/bitcoin-beach-sees-everyday-payments-fade-as-el-salvadors-adoption-experiment-evolves",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-26T13:06:25.589891+00:00"
     }
   }
 }
