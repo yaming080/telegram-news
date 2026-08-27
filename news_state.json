@@ -1,12 +1,5 @@
 {
   "posted": {
-    "632ae973fed6cfaf": {
-      "title": "Upbit lists RLUSD in KRW, BTC and USDT markets",
-      "url": "crypto.news/upbit-lists-rlusd-in-krw-btc-and-usdt-markets",
-      "signature": "action_launch | asset_btc | asset_rlusd | asset_usdt | asset_xrp | asset_xrpl | entity_btc | entity_krw | entity_rlusd | entity_usdt | entity_업비트 | object_rlusd",
-      "canonical_key": "action_launch | asset_btc | asset_rlusd | asset_usdt | asset_xrp | asset_xrpl | entity_btc | entity_krw | entity_rlusd | entity_usdt | entity_업비트 | object_rlusd",
-      "ts": "2026-07-28T06:01:27.332878+00:00"
-    },
     "d406b79f9704a6bd": {
       "title": "Apple faces lawsuit over alleged $1.8M Bitcoin wallet app losses",
       "url": "cointelegraph.com/news/apple-lawsuit-alleged-1-8-million-loss-fake-bitcoin-wallet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -4997,6 +4990,13 @@
       "signature": "action_launch | action_secure | action_sell | action_support | asset_btc | entity_코인베이스 | geo_us | object_lending | object_payment",
       "canonical_key": "action_launch | action_secure | action_sell | action_support | asset_btc | entity_코인베이스 | geo_us | object_lending | object_payment",
       "ts": "2026-08-27T06:02:41.939155+00:00"
+    },
+    "3a3a647f0d1f61e6": {
+      "title": "Bitcoin Lightning Users Face Urgent Warning Over Core Flaw",
+      "url": "u.today/bitcoin-lightning-users-face-urgent-warning-over-core-lightning-flaw",
+      "signature": "action_compromise | action_issue | asset_btc | object_network",
+      "canonical_key": "action_compromise | action_issue | asset_btc | object_network",
+      "ts": "2026-08-27T07:02:01.068206+00:00"
     }
   }
 }
