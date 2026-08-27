@@ -1,33 +1,5 @@
 {
   "posted": {
-    "701ec60c8a41a552": {
-      "title": "엔비디아, AI 보안 연합 출범…패권 경쟁 새 축은 안전",
-      "url": "www.tokenpost.kr/news/tech/382357",
-      "signature": "action_build | action_invest | entity_마이크로소프트 | entity_오픈ai",
-      "canonical_key": "action_build | action_invest | entity_마이크로소프트 | entity_오픈ai",
-      "ts": "2026-07-28T16:01:05.182596+00:00"
-    },
-    "1d21c4a57925bf21": {
-      "title": "Flare Simplifies DeFi for XRP Holders With Smart Accounts Upgrade",
-      "url": "cryptopotato.com/flare-simplifies-defi-for-xrp-holders-with-smart-accounts-upgrade",
-      "signature": "action_approve | asset_xrp | object_wallet",
-      "canonical_key": "action_approve | asset_xrp | object_wallet",
-      "ts": "2026-07-28T16:01:08.428709+00:00"
-    },
-    "6d3e62b9e838b537": {
-      "title": "Flare makes XRPFi accessible in a single signature with smart accounts v1.3",
-      "url": "crypto.news/flare-makes-xrpfi-accessible-in-a-single-signature-with-smart-accounts-v1-3",
-      "signature": "action_launch | action_mint | asset_xrp | asset_xrpl | entity_플레어 | object_wallet",
-      "canonical_key": "action_launch | action_mint | asset_xrp | asset_xrpl | entity_플레어 | object_wallet",
-      "ts": "2026-07-28T16:01:16.252734+00:00"
-    },
-    "52bb87a37a98b446": {
-      "title": "The 5 leading 5 cloud mining platforms in 2026: An investment guide for $7,700 daily returns",
-      "url": "crypto.news/the-5-leading-5-cloud-mining-platforms-in-2026-an-investment-guide-for-7700-daily-returns",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-28T16:01:20.173092+00:00"
-    },
     "e6aeae114e415969": {
       "title": "XRP Was Just the Warm-Up: Flare CEO Eyes Bitcoin Integration for Next DeFi Push",
       "url": "u.today/xrp-was-just-the-warm-up-flare-ceo-eyes-bitcoin-integration-for-next-defi-push",
