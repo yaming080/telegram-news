@@ -1,12 +1,5 @@
 {
   "posted": {
-    "304cc38d372d74cc": {
-      "title": "Morgan Stanley expands crypto lineup with Ether, Solana ETPs",
-      "url": "cointelegraph.com/news/morgan-stanley-expands-crypto-lineup-with-ether-solana-etps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "action_launch | asset_btc | asset_sol | entity_모건스탠리 | object_fund",
-      "canonical_key": "action_launch | asset_btc | asset_sol | entity_모건스탠리 | object_fund",
-      "ts": "2026-07-28T21:01:12.195740+00:00"
-    },
     "7c479740f16585c1": {
       "title": "AmericanFortress proposes quantum-safe crypto wallet protection without fund migration",
       "url": "cointelegraph.com/news/americanfortress-proposes-quantum-safe-crypto-wallet-protection-without-fund-migration?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
