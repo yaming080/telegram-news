@@ -1,26 +1,5 @@
 {
   "posted": {
-    "e6aeae114e415969": {
-      "title": "XRP Was Just the Warm-Up: Flare CEO Eyes Bitcoin Integration for Next DeFi Push",
-      "url": "u.today/xrp-was-just-the-warm-up-flare-ceo-eyes-bitcoin-integration-for-next-defi-push",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-28T17:01:15.372070+00:00"
-    },
-    "04ad549912ef8823": {
-      "title": "SBI expands beyond Ripple with Canton Network unit",
-      "url": "crypto.news/sbi-expands-beyond-ripple-with-canton-network-unit",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-28T17:01:19.000962+00:00"
-    },
-    "7e02d3bf40da424d": {
-      "title": "Morgan Stanley launches ETH, Solana ETFs at 0.14%",
-      "url": "crypto.news/morgan-stanley-launch-eth-solana-etfs-at-0-14-percent",
-      "signature": "action_invest | action_launch | amount_pct_0.14 | asset_btc | asset_eth | asset_sol | entity_eth | entity_모건스탠리",
-      "canonical_key": "action_invest | action_launch | amount_pct_0.14 | asset_btc | asset_eth | asset_sol | entity_eth | entity_모건스탠리",
-      "ts": "2026-07-28T17:01:23.084387+00:00"
-    },
     "304cc38d372d74cc": {
       "title": "Morgan Stanley expands crypto lineup with Ether, Solana ETPs",
       "url": "cointelegraph.com/news/morgan-stanley-expands-crypto-lineup-with-ether-solana-etps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -4920,6 +4899,27 @@
       "signature": "action_appoint | asset_btc | asset_eth | asset_sol | entity_avax | entity_link | entity_찰스슈왑 | geo_us",
       "canonical_key": "action_appoint | asset_btc | asset_eth | asset_sol | entity_avax | entity_link | entity_찰스슈왑 | geo_us",
       "ts": "2026-08-27T16:02:23.031753+00:00"
+    },
+    "5d6b4a3c5bedf6d8": {
+      "title": "현물 전환 문턱 100만달러, 비트코인 ETF 경쟁",
+      "url": "www.tokenpost.kr/news/cryptocurrency/399225",
+      "signature": "action_convert | action_invest | action_migrate | amount_krw_1400000000 | amount_krw_140000000000 | amount_krw_900000000000 | amount_usd_1000000 | amount_usd_25000000 | amount_usd_3000000000 | amount_usd_5000000000 | asset_btc | entity_블랙록 | object_etf | object_etf_holdings",
+      "canonical_key": "action_convert | action_invest | action_migrate | amount_krw_1400000000 | amount_krw_140000000000 | amount_krw_900000000000 | amount_usd_1000000 | amount_usd_25000000 | amount_usd_3000000000 | amount_usd_5000000000 | asset_btc | entity_블랙록 | object_etf | object_etf_holdings",
+      "ts": "2026-08-27T18:03:27.480667+00:00"
+    },
+    "fd91feae4076c64f": {
+      "title": "100여개 기업, AI 사이버 방어 강화 촉구했다",
+      "url": "www.tokenpost.kr/news/ai/399224",
+      "signature": "action_disclose | action_launch | entity_마스터카드 | entity_마이크로소프트 | entity_앤트로픽 | entity_오픈ai | entity_플레어 | geo_korea | object_card | object_disclosure",
+      "canonical_key": "action_disclose | action_launch | entity_마스터카드 | entity_마이크로소프트 | entity_앤트로픽 | entity_오픈ai | entity_플레어 | geo_korea | object_card | object_disclosure",
+      "ts": "2026-08-27T18:03:31.374940+00:00"
+    },
+    "538b3e683e7fbb9f": {
+      "title": "VeChain VIP-255 Upgrade Sets September Mainnet Launch as VET Rallies 23%",
+      "url": "coinedition.com/vechain-vip-255-upgrade-sets-september-mainnet-launch-as-vet-rallies-23",
+      "signature": "action_develop | action_launch | action_transfer | action_upgrade | amount_pct_23 | amount_pct_23.53 | asset_eth | entity_vechainvip255upgradesets | object_network | object_network_upgrade",
+      "canonical_key": "action_develop | action_launch | action_transfer | action_upgrade | amount_pct_23 | amount_pct_23.53 | asset_eth | entity_vechainvip255upgradesets | object_network | object_network_upgrade",
+      "ts": "2026-08-27T18:03:35.309550+00:00"
     }
   }
 }
