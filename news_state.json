@@ -4976,6 +4976,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-27T02:01:01.934860+00:00"
+    },
+    "40591b652bc657ae": {
+      "title": "카르다노·솔라나 투표, 참여율·규칙 충돌 드러냈다",
+      "url": "www.tokenpost.kr/news/blockchain/398769",
+      "signature": "action_pass | action_upgrade | asset_sol | entity_카르다노 | object_commissioner | object_network",
+      "canonical_key": "action_pass | action_upgrade | asset_sol | entity_카르다노 | object_commissioner | object_network",
+      "ts": "2026-08-27T04:01:31.801372+00:00"
     }
   }
 }
