@@ -4934,6 +4934,13 @@
       "signature": "action_rebrand | asset_btc | object_wallet",
       "canonical_key": "action_rebrand | asset_btc | object_wallet",
       "ts": "2026-08-27T20:02:21.956500+00:00"
+    },
+    "5e23ebe1af78904c": {
+      "title": "Ethena Foundation buys out early investors in major ecosystem, token overhaul",
+      "url": "www.cryptopolitan.com/ethena-foundation-ecosystem-revamp",
+      "signature": "action_purchase | action_sell | action_support | entity_ethenafoundation | object_foundation_governance | object_sale",
+      "canonical_key": "action_purchase | action_sell | action_support | entity_ethenafoundation | object_foundation_governance | object_sale",
+      "ts": "2026-08-27T21:02:54.131297+00:00"
     }
   }
 }
