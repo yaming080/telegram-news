@@ -1,19 +1,5 @@
 {
   "posted": {
-    "720941e43c9165f6": {
-      "title": "가짜 지갑 180만 달러 피해…애플 책임 가린다",
-      "url": "www.tokenpost.kr/news/cryptocurrency/382042",
-      "signature": "action_file | action_sue | amount_usd_120000 | amount_usd_1800000 | amount_usd_840000 | amount_usd_875000 | asset_btc | object_wallet",
-      "canonical_key": "action_file | action_sue | amount_usd_120000 | amount_usd_1800000 | amount_usd_840000 | amount_usd_875000 | asset_btc | object_wallet",
-      "ts": "2026-07-28T02:00:55.272375+00:00"
-    },
-    "10c9684c1ecbfa15": {
-      "title": "성장만으론 부족하다…알레아 리서치, 시장이 이제 ‘현금화 가능한 성장’에 베팅하는 이유",
-      "url": "www.tokenpost.kr/news/insights/382040",
-      "signature": "action_convert | action_disclose | action_invest | action_launch | amount_pct_0.6 | amount_pct_2.1 | amount_usd_465200000 | amount_usd_65200000 | amount_usd_99300000 | amount_usd_999300000 | asset_btc | date_2026_07_25 | object_disclosure",
-      "canonical_key": "action_convert | action_disclose | action_invest | action_launch | amount_pct_0.6 | amount_pct_2.1 | amount_usd_465200000 | amount_usd_65200000 | amount_usd_99300000 | amount_usd_999300000 | asset_btc | date_2026_07_25 | object_disclosure",
-      "ts": "2026-07-28T02:00:59.842284+00:00"
-    },
     "882b70e1eb50817f": {
       "title": "비트코인, 코스피 급락·미 규제 지연에 하방 압력 커졌다",
       "url": "www.tokenpost.kr/news/cryptocurrency/382109",
