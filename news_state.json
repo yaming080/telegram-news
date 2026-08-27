@@ -1,26 +1,5 @@
 {
   "posted": {
-    "0a5bba30784318dc": {
-      "title": "모건스탠리, 이더리움·솔라나 트러스트 상장…알트코인 기관투자 확대",
-      "url": "www.tokenpost.kr/news/cryptocurrency/382343",
-      "signature": "action_invest | action_launch | asset_btc | asset_eth | asset_sol | entity_모건스탠리",
-      "canonical_key": "action_invest | action_launch | asset_btc | asset_eth | asset_sol | entity_모건스탠리",
-      "ts": "2026-07-28T15:01:10.691445+00:00"
-    },
-    "03277b1a1e906060": {
-      "title": "DCG 산하 포티튜드, ‘무부채’ 내세웠지만 손실·비트코인 편중 드러나",
-      "url": "www.tokenpost.kr/news/cryptocurrency/382341",
-      "signature": "action_disclose | action_file | action_invest | action_launch | amount_usd_6000000 | amount_usd_8300000 | asset_btc | entity_dcg | entity_sec | object_disclosure",
-      "canonical_key": "action_disclose | action_file | action_invest | action_launch | amount_usd_6000000 | amount_usd_8300000 | asset_btc | entity_dcg | entity_sec | object_disclosure",
-      "ts": "2026-07-28T15:01:16.589674+00:00"
-    },
-    "e12a349f8614b773": {
-      "title": "Morgan Stanley to Launch Cheapest Ethereum and Solana ETFs",
-      "url": "u.today/morgan-stanley-to-launch-cheapest-ethereum-and-solana-etfs",
-      "signature": "action_launch | asset_eth | asset_sol | entity_모건스탠리 | object_etf",
-      "canonical_key": "action_launch | asset_eth | asset_sol | entity_모건스탠리 | object_etf",
-      "ts": "2026-07-28T15:01:22.709835+00:00"
-    },
     "701ec60c8a41a552": {
       "title": "엔비디아, AI 보안 연합 출범…패권 경쟁 새 축은 안전",
       "url": "www.tokenpost.kr/news/tech/382357",
@@ -4955,6 +4934,20 @@
       "signature": "action_launch | entity_리플 | geo_us | object_derivatives",
       "canonical_key": "action_launch | entity_리플 | geo_us | object_derivatives",
       "ts": "2026-08-27T15:04:20.174567+00:00"
+    },
+    "53c107239b02c3aa": {
+      "title": "비트마인 매출 98%, 이더리움 스테이킹서 나왔다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/399164",
+      "signature": "action_file | amount_krw_200000000 | amount_krw_63100000000 | amount_krw_64200000000 | amount_krw_78600000000 | amount_krw_82700000000 | amount_krw_900000000 | amount_pct_95 | amount_pct_98 | amount_usd_168000 | amount_usd_45743000 | amount_usd_46500000 | amount_usd_56924000 | asset_eth | date_2026_05_31 | entity_sec | object_commissioner",
+      "canonical_key": "action_file | amount_krw_200000000 | amount_krw_63100000000 | amount_krw_64200000000 | amount_krw_78600000000 | amount_krw_82700000000 | amount_krw_900000000 | amount_pct_95 | amount_pct_98 | amount_usd_168000 | amount_usd_45743000 | amount_usd_46500000 | amount_usd_56924000 | asset_eth | date_2026_05_31 | entity_sec | object_commissioner",
+      "ts": "2026-08-27T16:02:19.832590+00:00"
+    },
+    "e37becb89ded371a": {
+      "title": "Charles Schwab to add SOL, AVAX and LINK trading",
+      "url": "crypto.news/charles-schwab-to-add-sol-avax-and-link-trading",
+      "signature": "action_appoint | asset_btc | asset_eth | asset_sol | entity_avax | entity_link | entity_찰스슈왑 | geo_us",
+      "canonical_key": "action_appoint | asset_btc | asset_eth | asset_sol | entity_avax | entity_link | entity_찰스슈왑 | geo_us",
+      "ts": "2026-08-27T16:02:23.031753+00:00"
     }
   }
 }
