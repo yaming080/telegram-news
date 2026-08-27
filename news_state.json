@@ -1,26 +1,5 @@
 {
   "posted": {
-    "7c479740f16585c1": {
-      "title": "AmericanFortress proposes quantum-safe crypto wallet protection without fund migration",
-      "url": "cointelegraph.com/news/americanfortress-proposes-quantum-safe-crypto-wallet-protection-without-fund-migration?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "action_migrate | asset_btc | asset_eth | asset_sol | object_fund | object_wallet",
-      "canonical_key": "action_migrate | asset_btc | asset_eth | asset_sol | object_fund | object_wallet",
-      "ts": "2026-07-28T22:00:55.508001+00:00"
-    },
-    "65fba9a819103c09": {
-      "title": "[토큰명언] \"확증 편향은 투자자의 가장 위험한 적이다\" ㅡ Day 134",
-      "url": "www.tokenpost.kr/news/insights/382400",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-28T22:00:59.562314+00:00"
-    },
-    "114adb9fa20de20c": {
-      "title": "Bitcoin’s biggest risk comes from within, Saylor warns",
-      "url": "crypto.news/bitcoins-biggest-risk-comes-from-within-saylor-warns",
-      "signature": "action_issue | asset_btc | entity_마이클세일러 | entity_스트래티지",
-      "canonical_key": "action_issue | asset_btc | entity_마이클세일러 | entity_스트래티지",
-      "ts": "2026-07-28T22:01:07.855890+00:00"
-    },
     "219b8e956d6c5578": {
       "title": "BMNR, 이더리움 보유량 578만 개 돌파하며 암호화폐 시장 주목",
       "url": "www.tokenpost.kr/news/cryptocurrency/382411",
@@ -4934,6 +4913,13 @@
       "signature": "action_purchase | action_sell | action_support | entity_ethenafoundation | object_foundation_governance | object_sale",
       "canonical_key": "action_purchase | action_sell | action_support | entity_ethenafoundation | object_foundation_governance | object_sale",
       "ts": "2026-08-27T21:02:54.131297+00:00"
+    },
+    "7f0abb62b5ff2471": {
+      "title": "Bithumb Wins Lawsuit After Mistakenly Crediting Users With 620,000 BTC: Report",
+      "url": "cryptopotato.com/bithumb-wins-lawsuit-after-mistakenly-crediting-users-with-620000-btc-report",
+      "signature": "action_secure | action_sue | amount_btc_620000 | amount_btc_approx_620000 | asset_btc | object_class_action",
+      "canonical_key": "action_secure | action_sue | amount_btc_620000 | amount_btc_approx_620000 | asset_btc | object_class_action",
+      "ts": "2026-08-27T23:01:46.913281+00:00"
     }
   }
 }
