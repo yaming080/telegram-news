@@ -1,12 +1,5 @@
 {
   "posted": {
-    "1eeed7e2bdc29474": {
-      "title": "애플, 가짜 BTC 지갑 피소…심사 책임 가를까",
-      "url": "www.tokenpost.kr/news/cryptocurrency/382212",
-      "signature": "action_sue | amount_usd_120000 | amount_usd_1835000 | amount_usd_840000 | amount_usd_875000 | asset_btc | entity_btc | geo_us | object_wallet",
-      "canonical_key": "action_sue | amount_usd_120000 | amount_usd_1835000 | amount_usd_840000 | amount_usd_875000 | asset_btc | entity_btc | geo_us | object_wallet",
-      "ts": "2026-07-28T09:01:10.132705+00:00"
-    },
     "4ee60247c641c438": {
       "title": "Lido upgrade aims to slash Ethereum’s validator count by one-third",
       "url": "cointelegraph.com/news/lido-upgrade-ethereum-validator-count-one-third-slash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -4990,6 +4983,20 @@
       "signature": "action_compromise | action_issue | asset_btc | object_network",
       "canonical_key": "action_compromise | action_issue | asset_btc | object_network",
       "ts": "2026-08-27T07:02:01.068206+00:00"
+    },
+    "6d454c66229e513a": {
+      "title": "'Highly Risky': ETF Expert Breaks Down BlackRock's Decision to Leave XRP Behind",
+      "url": "u.today/highly-risky-etf-expert-breaks-down-blackrocks-decision-to-leave-xrp-behind",
+      "signature": "action_launch | asset_xrp | entity_블랙록 | object_etf",
+      "canonical_key": "action_launch | asset_xrp | entity_블랙록 | object_etf",
+      "ts": "2026-08-27T10:02:47.172199+00:00"
+    },
+    "872a5c69bda31d33": {
+      "title": "Bithumb wins 194M won Bitcoin recovery lawsuit",
+      "url": "crypto.news/bithumb-wins-194m-won-bitcoin-recovery-lawsuit",
+      "signature": "action_secure | action_sue | amount_krw_194000000 | asset_btc | entity_빗썸 | object_class_action | object_recovery",
+      "canonical_key": "action_secure | action_sue | amount_krw_194000000 | asset_btc | entity_빗썸 | object_class_action | object_recovery",
+      "ts": "2026-08-27T10:02:50.072302+00:00"
     }
   }
 }
