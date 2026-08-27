@@ -4983,6 +4983,13 @@
       "signature": "action_issue | asset_btc | asset_eth | asset_usdt | geo_india | object_bond | object_infrastructure | object_wallet",
       "canonical_key": "action_issue | asset_btc | asset_eth | asset_usdt | geo_india | object_bond | object_infrastructure | object_wallet",
       "ts": "2026-08-26T20:02:12.855519+00:00"
+    },
+    "5188c6c00bcda1b1": {
+      "title": "SHRINCS BIP published: Quantum-secure Bitcoin comes with a catch",
+      "url": "cointelegraph.com/magazine/shrincs-bip-is-published-quantum-secure-bitcoin-comes-with-a-catch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-27T02:01:01.934860+00:00"
     }
   }
 }
