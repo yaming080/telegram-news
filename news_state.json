@@ -1,19 +1,5 @@
 {
   "posted": {
-    "bd551828506a66af": {
-      "title": "Shiba Inu's (SHIB) 3rd Biggest Recovery Attempt of 2026 Gets Shut Down: Mini-Gold Cross Cancelled",
-      "url": "u.today/shiba-inus-shib-3rd-biggest-recovery-attempt-of-2026-gets-shut-down-mini-gold-cross-cancelled",
-      "signature": "action_close | entity_shib | object_recovery | object_shutdown",
-      "canonical_key": "action_close | entity_shib | object_recovery | object_shutdown",
-      "ts": "2026-07-28T13:01:11.445286+00:00"
-    },
-    "b1b010d89e68b2cd": {
-      "title": "XRPL is building what it refused. Xahau built it first",
-      "url": "crypto.news/xrpl-is-building-what-it-refused-xahau-built-it-first",
-      "signature": "action_build | asset_xrp | asset_xrpl | entity_xrpl",
-      "canonical_key": "action_build | asset_xrp | asset_xrpl | entity_xrpl",
-      "ts": "2026-07-28T13:01:15.791182+00:00"
-    },
     "e4cc5f5e75e1e332": {
       "title": "Ethereum, Solana led crypto hack losses in H1 2026: Blockaid",
       "url": "cointelegraph.com/news/ethereum-solana-led-crypto-hack-losses-h1-2026-blockaid?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -4934,6 +4920,20 @@
       "signature": "action_develop | amount_pct_81.6 | amount_usd_159900000000 | asset_xrp | asset_xrpl | count_shares_21 | object_network",
       "canonical_key": "action_develop | amount_pct_81.6 | amount_usd_159900000000 | asset_xrp | asset_xrpl | count_shares_21 | object_network",
       "ts": "2026-08-27T13:02:09.277850+00:00"
+    },
+    "894cad326bed8244": {
+      "title": "US Government Moves $1.91M in Alameda-Seized Bitcoin—Is a Sale Coming?",
+      "url": "coinedition.com/us-government-moves-1-91m-in-alameda-seized-bitcoin-is-a-sale-coming",
+      "signature": "action_bankruptcy | action_transfer | amount_btc_24 | amount_btc_exact_24_408 | amount_usd_1910000 | asset_btc | geo_us | object_sale | object_wallet",
+      "canonical_key": "action_bankruptcy | action_transfer | amount_btc_24 | amount_btc_exact_24_408 | amount_usd_1910000 | asset_btc | geo_us | object_sale | object_wallet",
+      "ts": "2026-08-27T14:02:43.414581+00:00"
+    },
+    "d46a4d2739385964": {
+      "title": "Ripple (XRP) Makes Major Wall Street Push With New Institutional Trading Business",
+      "url": "cryptopotato.com/ripple-xrp-makes-major-wall-street-push-with-new-institutional-trading-business",
+      "signature": "action_launch | asset_xrp | entity_리플",
+      "canonical_key": "action_launch | asset_xrp | entity_리플",
+      "ts": "2026-08-27T14:02:46.264303+00:00"
     }
   }
 }
