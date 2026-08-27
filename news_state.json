@@ -1,12 +1,5 @@
 {
   "posted": {
-    "882b70e1eb50817f": {
-      "title": "비트코인, 코스피 급락·미 규제 지연에 하방 압력 커졌다",
-      "url": "www.tokenpost.kr/news/cryptocurrency/382109",
-      "signature": "action_invest | amount_pct_10 | amount_pct_2.7 | amount_pct_25 | amount_usd_63200 | amount_usd_65000 | asset_btc | asset_eth | asset_sol | asset_xrp | entity_리플 | geo_india | geo_korea | geo_us",
-      "canonical_key": "action_invest | amount_pct_10 | amount_pct_2.7 | amount_pct_25 | amount_usd_63200 | amount_usd_65000 | asset_btc | asset_eth | asset_sol | asset_xrp | entity_리플 | geo_india | geo_korea | geo_us",
-      "ts": "2026-07-28T05:01:04.791211+00:00"
-    },
     "632ae973fed6cfaf": {
       "title": "Upbit lists RLUSD in KRW, BTC and USDT markets",
       "url": "crypto.news/upbit-lists-rlusd-in-krw-btc-and-usdt-markets",
@@ -4983,6 +4976,27 @@
       "signature": "action_pass | action_upgrade | asset_sol | entity_카르다노 | object_commissioner | object_network",
       "canonical_key": "action_pass | action_upgrade | asset_sol | entity_카르다노 | object_commissioner | object_network",
       "ts": "2026-08-27T04:01:31.801372+00:00"
+    },
+    "30aee99e07c8c5d5": {
+      "title": "Hack VC-linked wallet moves $3 million in ENA to Wintermute after 57% rally",
+      "url": "www.cryptopolitan.com/hack-vc-linked-wallet-sells-3m-ena-into-wintermute-during-58-rally",
+      "signature": "action_hack | action_transfer | amount_pct_57 | amount_usd_3000000 | entity_에테나 | object_wallet",
+      "canonical_key": "action_hack | action_transfer | amount_pct_57 | amount_usd_3000000 | entity_에테나 | object_wallet",
+      "ts": "2026-08-27T06:02:32.500881+00:00"
+    },
+    "10c7049a41ad94a9": {
+      "title": "RLUSD crosses $2 billion as XRPL supply nears $1B",
+      "url": "crypto.news/rlusd-crosses-2-billion-as-xrpl-supply-nears-1b",
+      "signature": "action_issue | amount_usd_1000000000 | amount_usd_2000000000 | asset_rlusd | asset_xrp | asset_xrpl | entity_리플 | object_rlusd",
+      "canonical_key": "action_issue | amount_usd_1000000000 | amount_usd_2000000000 | asset_rlusd | asset_xrp | asset_xrpl | entity_리플 | object_rlusd",
+      "ts": "2026-08-27T06:02:35.737681+00:00"
+    },
+    "d8598a21cc37b98f": {
+      "title": "Coinbase, Better launch Bitcoin-backed home loans",
+      "url": "crypto.news/coinbase-better-launch-bitcoin-backed-home-loans",
+      "signature": "action_launch | action_secure | action_sell | action_support | asset_btc | entity_코인베이스 | geo_us | object_lending | object_payment",
+      "canonical_key": "action_launch | action_secure | action_sell | action_support | asset_btc | entity_코인베이스 | geo_us | object_lending | object_payment",
+      "ts": "2026-08-27T06:02:41.939155+00:00"
     }
   }
 }
