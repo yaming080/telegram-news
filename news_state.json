@@ -1,12 +1,5 @@
 {
   "posted": {
-    "d406b79f9704a6bd": {
-      "title": "Apple faces lawsuit over alleged $1.8M Bitcoin wallet app losses",
-      "url": "cointelegraph.com/news/apple-lawsuit-alleged-1-8-million-loss-fake-bitcoin-wallet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "action_sue | amount_usd_1800000 | asset_btc | entity_애플 | object_class_action | object_wallet",
-      "canonical_key": "action_sue | amount_usd_1800000 | asset_btc | entity_애플 | object_class_action | object_wallet",
-      "ts": "2026-07-28T08:01:09.874338+00:00"
-    },
     "1eeed7e2bdc29474": {
       "title": "애플, 가짜 BTC 지갑 피소…심사 책임 가를까",
       "url": "www.tokenpost.kr/news/cryptocurrency/382212",
