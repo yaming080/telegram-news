@@ -1,12 +1,5 @@
 {
   "posted": {
-    "6cf15d1ba276427f": {
-      "title": "XRP retail trading launches on licensed Hong Kong venue",
-      "url": "crypto.news/xrp-retail-trading-launches-licensed-hong-kong-venue",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-29T17:01:07.718314+00:00"
-    },
     "9fd4734605dc9b01": {
       "title": "무기한선물 솔라나·하이퍼리퀴드로…이더리움 역할 바뀌었다",
       "url": "www.tokenpost.kr/news/cryptocurrency/382737",
@@ -4934,6 +4927,20 @@
       "signature": "action_disclose | action_file | action_propose | amount_krw_197400000000 | amount_krw_245600000000 | amount_krw_334000000000 | amount_krw_48200000000 | amount_pct_0 | amount_pct_0.1 | amount_usd_1590000000 | amount_usd_5100000000 | amount_usd_54000000 | amount_usd_6690000000 | amount_usd_6754000000 | amount_usd_90000000 | asset_btc | entity_sec | entity_스트래티지 | object_commissioner | object_disclosure",
       "canonical_key": "action_disclose | action_file | action_propose | amount_krw_197400000000 | amount_krw_245600000000 | amount_krw_334000000000 | amount_krw_48200000000 | amount_pct_0 | amount_pct_0.1 | amount_usd_1590000000 | amount_usd_5100000000 | amount_usd_54000000 | amount_usd_6690000000 | amount_usd_6754000000 | amount_usd_90000000 | asset_btc | entity_sec | entity_스트래티지 | object_commissioner | object_disclosure",
       "ts": "2026-08-28T16:02:26.871122+00:00"
+    },
+    "4b8ec503f2b3eb8e": {
+      "title": "244 BTC 이동, 라자루스 지목 지갑 다시 움직였다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/400032",
+      "signature": "action_hack | action_sell | action_transfer | amount_btc_244 | amount_btc_approx_240 | amount_btc_exact_244_148 | amount_krw_26700000000 | amount_usd_9420000 | asset_btc | object_sale | object_wallet",
+      "canonical_key": "action_hack | action_sell | action_transfer | amount_btc_244 | amount_btc_approx_240 | amount_btc_exact_244_148 | amount_krw_26700000000 | amount_usd_9420000 | asset_btc | object_sale | object_wallet",
+      "ts": "2026-08-28T18:01:43.075479+00:00"
+    },
+    "7e64f85be5c53cb9": {
+      "title": "UK’s £1M Crypto Seizure Shows Bitcoin Transactions Are Traceable",
+      "url": "coinedition.com/uks-1m-crypto-seizure-shows-bitcoin-transactions-are-traceable",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-28T18:01:48.918456+00:00"
     }
   }
 }
