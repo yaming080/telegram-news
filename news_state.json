@@ -1,19 +1,5 @@
 {
   "posted": {
-    "11d098cf9e092e6a": {
-      "title": "Celsius-linked Bitcoin miner Ionic Digital gains 26% in Nasdaq debut",
-      "url": "cointelegraph.com/markets/celsius-bitcoin-miner-ionic-digital-nasdaq-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "action_close | amount_pct_26 | amount_usd_2800000000 | amount_usd_63 | asset_btc | object_infrastructure",
-      "canonical_key": "action_close | amount_pct_26 | amount_usd_2800000000 | amount_usd_63 | asset_btc | object_infrastructure",
-      "ts": "2026-07-29T04:00:57.955572+00:00"
-    },
-    "c1b64e953e055739": {
-      "title": "비트코인 바닥 신호였나…거래소 폐쇄 통설에 데이터 반박",
-      "url": "www.tokenpost.kr/news/cryptocurrency/382511",
-      "signature": "action_close | action_deny | action_migrate | asset_btc | object_shutdown",
-      "canonical_key": "action_close | action_deny | action_migrate | asset_btc | object_shutdown",
-      "ts": "2026-07-29T04:01:02.198758+00:00"
-    },
     "64f49a1281d3bed3": {
       "title": "Morgan Stanley Launches America’s Cheapest ETH and SOL ETFs With Staking Rewards",
       "url": "cryptopotato.com/morgan-stanley-launches-americas-cheapest-eth-and-sol-etfs-with-staking-rewards",
@@ -4920,6 +4906,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-28T02:01:26.464836+00:00"
+    },
+    "2c0c1c0a8c8bfb9c": {
+      "title": "Evernorth clears SEC hurdle as XRP-focused Nasdaq listing moves closer",
+      "url": "www.cryptopolitan.com/evernorth-clears-sec-hurdle-for-xrp-nasdaq-listing",
+      "signature": "action_develop | action_invest | action_transfer | asset_xrp | entity_sec | entity_에버노스",
+      "canonical_key": "action_develop | action_invest | action_transfer | asset_xrp | entity_sec | entity_에버노스",
+      "ts": "2026-08-28T05:02:01.995066+00:00"
     }
   }
 }
