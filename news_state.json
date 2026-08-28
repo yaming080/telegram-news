@@ -1,12 +1,5 @@
 {
   "posted": {
-    "b083c1fe29dae374": {
-      "title": "Apple Faces Lawsuit After Fake Bitcoin Wallet Allegedly Stole $1.8 Million",
-      "url": "coinedition.com/crypto-live-news/apple-faces-lawsuit-after-fake-bitcoin-wallet-allegedly-stole-1-8-million",
-      "signature": "action_steal | action_sue | amount_usd_1800000 | asset_btc | object_class_action | object_recovery | object_wallet",
-      "canonical_key": "action_steal | action_sue | amount_usd_1800000 | asset_btc | object_class_action | object_recovery | object_wallet",
-      "ts": "2026-07-29T01:00:57.113618+00:00"
-    },
     "11d098cf9e092e6a": {
       "title": "Celsius-linked Bitcoin miner Ionic Digital gains 26% in Nasdaq debut",
       "url": "cointelegraph.com/markets/celsius-bitcoin-miner-ionic-digital-nasdaq-debut?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -4920,6 +4913,13 @@
       "signature": "action_expand | action_launch | action_transfer | asset_btc | asset_eth | asset_sol | entity_avax | entity_link",
       "canonical_key": "action_expand | action_launch | action_transfer | asset_btc | asset_eth | asset_sol | entity_avax | entity_link",
       "ts": "2026-08-28T01:02:18.886072+00:00"
+    },
+    "9f7971e5aa4c517e": {
+      "title": "How Much SHIB Is Needed to Enter the Top 1% of Shiba Inu Rich List and What Would It Be Worth at ATH?",
+      "url": "thecryptobasic.com/2026/08/27/how-much-shib-is-needed-to-enter-the-top-1-of-shiba-inu-rich-list-and-what-would-it-be-worth-at-ath",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-28T02:01:26.464836+00:00"
     }
   }
 }
