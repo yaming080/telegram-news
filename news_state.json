@@ -1,12 +1,5 @@
 {
   "posted": {
-    "292e3e36d53e8d4b": {
-      "title": "XRP 100달러 논쟁…담보 잠금이 변수로 떠올랐다",
-      "url": "www.tokenpost.kr/news/cryptocurrency/382691",
-      "signature": "action_deny | action_issue | action_mint | asset_xrp | asset_xrpl | object_payment",
-      "canonical_key": "action_deny | action_issue | action_mint | asset_xrp | asset_xrpl | object_payment",
-      "ts": "2026-07-29T15:01:06.136491+00:00"
-    },
     "b958a91657fdca64": {
       "title": "$12 Trillion Giant Vanguard Increases Stake in Top Bitcoin Treasury Company",
       "url": "u.today/12-trillion-giant-vanguard-increases-stake-in-top-bitcoin-treasury-company",
@@ -4934,6 +4927,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-28T13:01:51.946243+00:00"
+    },
+    "942e6203ead53e01": {
+      "title": "비트키, 앱 없이 비트코인 옮기는 출구 기능 강조",
+      "url": "www.tokenpost.kr/news/blockchain/399978",
+      "signature": "action_ban | action_restore | action_transfer | asset_btc | object_recovery | object_wallet",
+      "canonical_key": "action_ban | action_restore | action_transfer | asset_btc | object_recovery | object_wallet",
+      "ts": "2026-08-28T16:02:20.358176+00:00"
+    },
+    "05989257a0570c43": {
+      "title": "순레버리지 0.1% 스트레티지, 보통주 리스크 남았다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/399975",
+      "signature": "action_disclose | action_file | action_propose | amount_krw_197400000000 | amount_krw_245600000000 | amount_krw_334000000000 | amount_krw_48200000000 | amount_pct_0 | amount_pct_0.1 | amount_usd_1590000000 | amount_usd_5100000000 | amount_usd_54000000 | amount_usd_6690000000 | amount_usd_6754000000 | amount_usd_90000000 | asset_btc | entity_sec | entity_스트래티지 | object_commissioner | object_disclosure",
+      "canonical_key": "action_disclose | action_file | action_propose | amount_krw_197400000000 | amount_krw_245600000000 | amount_krw_334000000000 | amount_krw_48200000000 | amount_pct_0 | amount_pct_0.1 | amount_usd_1590000000 | amount_usd_5100000000 | amount_usd_54000000 | amount_usd_6690000000 | amount_usd_6754000000 | amount_usd_90000000 | asset_btc | entity_sec | entity_스트래티지 | object_commissioner | object_disclosure",
+      "ts": "2026-08-28T16:02:26.871122+00:00"
     }
   }
 }
