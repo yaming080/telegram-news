@@ -1,12 +1,5 @@
 {
   "posted": {
-    "18a3ae70319f69c5": {
-      "title": "Ripple Lawsuit Architect Confirmed as Director of National Intelligence",
-      "url": "u.today/ripple-lawsuit-architect-confirmed-as-director-of-national-intelligence",
-      "signature": "action_sue | entity_sec | entity_리플 | geo_us | object_class_action",
-      "canonical_key": "action_sue | entity_sec | entity_리플 | geo_us | object_class_action",
-      "ts": "2026-07-29T07:01:13.121071+00:00"
-    },
     "1bb5153206b94621": {
       "title": "TRX Spot and Perpetuals Listing Launches on Backpack, Expanding Access to the TRON Ecosystem",
       "url": "www.cryptopolitan.com/trx-spot-and-perpetuals-listing-launches-on-backpack-expanding-access-to-the-tron-ecosystem",
@@ -4913,6 +4906,13 @@
       "signature": "action_hack | action_steal | amount_usd_700000 | asset_eth | entity_sand",
       "canonical_key": "action_hack | action_steal | amount_usd_700000 | asset_eth | entity_sand",
       "ts": "2026-08-28T07:01:55.985428+00:00"
+    },
+    "3eb24ac0d2ad3364": {
+      "title": "Ripple seeks withdrawal of XRPL bridge amendment",
+      "url": "crypto.news/ripple-seeks-withdrawal-of-xrpl-bridge-amendment",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-28T08:01:22.223124+00:00"
     }
   }
 }
