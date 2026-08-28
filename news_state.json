@@ -4927,6 +4927,13 @@
       "signature": "action_build | action_support | entity_저스틴선 | geo_hongkong",
       "canonical_key": "action_build | action_support | entity_저스틴선 | geo_hongkong",
       "ts": "2026-08-28T09:02:25.556926+00:00"
+    },
+    "1a033e85db782b00": {
+      "title": "레일즈, 금융기관용 프라이빗 체인 소버린 출시",
+      "url": "www.tokenpost.kr/news/blockchain/399729",
+      "signature": "action_launch | asset_eth | asset_stablecoin | date_2026_08_25 | object_infrastructure | object_network | object_payment",
+      "canonical_key": "action_launch | asset_eth | asset_stablecoin | date_2026_08_25 | object_infrastructure | object_network | object_payment",
+      "ts": "2026-08-28T10:01:52.358014+00:00"
     }
   }
 }
