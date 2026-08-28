@@ -1,19 +1,5 @@
 {
   "posted": {
-    "3c3f9a7e2a1a638a": {
-      "title": "비트코인 6만3800달러…반도체 급락에도 올랐다",
-      "url": "www.tokenpost.kr/news/cryptocurrency/382537",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-29T06:01:40.180250+00:00"
-    },
-    "d4d1992028e94744": {
-      "title": "Ionic Digital jumps 26% in Nasdaq debut",
-      "url": "crypto.news/ionic-digital-jumps-26-in-nasdaq-debut",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-29T06:01:43.741855+00:00"
-    },
     "18a3ae70319f69c5": {
       "title": "Ripple Lawsuit Architect Confirmed as Director of National Intelligence",
       "url": "u.today/ripple-lawsuit-architect-confirmed-as-director-of-national-intelligence",
@@ -4913,6 +4899,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-28T06:01:09.797794+00:00"
+    },
+    "99f4c7068dca5300": {
+      "title": "GoMining Launches Instant Funds for Eligible Digital Bitcoin Miners",
+      "url": "thenewscrypto.com/gomining-launches-instant-funds-for-eligible-digital-bitcoin-miners",
+      "signature": "action_launch | action_sell | action_support | asset_btc | asset_stablecoin | asset_usdc | asset_usdt | entity_gomining",
+      "canonical_key": "action_launch | action_sell | action_support | asset_btc | asset_stablecoin | asset_usdc | asset_usdt | entity_gomining",
+      "ts": "2026-08-28T07:01:50.535864+00:00"
+    },
+    "4d334fc9c0b22028": {
+      "title": "The Sandbox to reimburse SAND holders after 14.7M token bridge exploit",
+      "url": "crypto.news/the-sandbox-to-reimburse-sand-holders-after-14-7m-token-bridge-exploit",
+      "signature": "action_hack | action_steal | amount_usd_700000 | asset_eth | entity_sand",
+      "canonical_key": "action_hack | action_steal | amount_usd_700000 | asset_eth | entity_sand",
+      "ts": "2026-08-28T07:01:55.985428+00:00"
     }
   }
 }
