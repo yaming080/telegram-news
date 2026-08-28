@@ -4913,6 +4913,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-28T08:01:22.223124+00:00"
+    },
+    "9fb7a4e4d31d0bc0": {
+      "title": "OneKey reproduces transaction replacement attack on outdated Ledger Ethereum app",
+      "url": "cointelegraph.com/news/onekey-transaction-replacement-attack-old-version-ledger?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_hack | asset_eth | entity_onekey | object_network_upgrade | reference_version_1_22_2",
+      "canonical_key": "action_hack | asset_eth | entity_onekey | object_network_upgrade | reference_version_1_22_2",
+      "ts": "2026-08-28T09:02:19.837588+00:00"
+    },
+    "6819e8a3ba929c6c": {
+      "title": "저스틴 선, 홍콩 장기 체류하며 산업 지원 뜻",
+      "url": "www.tokenpost.kr/news/policy/399699",
+      "signature": "action_build | action_support | entity_저스틴선 | geo_hongkong",
+      "canonical_key": "action_build | action_support | entity_저스틴선 | geo_hongkong",
+      "ts": "2026-08-28T09:02:25.556926+00:00"
     }
   }
 }
