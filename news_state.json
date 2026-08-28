@@ -1,12 +1,5 @@
 {
   "posted": {
-    "a18248aa2869bc4f": {
-      "title": "Tether Expands GENIUS-Compliant USA₮ Stablecoin to Celo With Native Gas Support",
-      "url": "coinedition.com/crypto-live-news/tether-expands-genius-compliant-usa%e2%82%ae-stablecoin-to-celo-with-native-gas-support",
-      "signature": "action_support | asset_eth | asset_stablecoin | entity_스테이블코인 | entity_스트래티지 | entity_테더 | geo_us",
-      "canonical_key": "action_support | asset_eth | asset_stablecoin | entity_스테이블코인 | entity_스트래티지 | entity_테더 | geo_us",
-      "ts": "2026-07-29T22:01:00.087926+00:00"
-    },
     "87314866da5a1dfc": {
       "title": "Japanese game developer launches Bitcoin, altcoin fund with SBI",
       "url": "cointelegraph.com/news/japanese-game-developer-bitcoin-altcoin-fund?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -4913,6 +4906,13 @@
       "signature": "action_convert | action_disclose | action_launch | asset_btc | asset_eth | object_disclosure | object_network",
       "canonical_key": "action_convert | action_disclose | action_launch | asset_btc | asset_eth | object_disclosure | object_network",
       "ts": "2026-08-28T19:01:55.396575+00:00"
+    },
+    "2636db3777c904d9": {
+      "title": "스텔라 RWA 30억달러, 디파이 예치 2억달러대",
+      "url": "www.tokenpost.kr/news/cryptocurrency/400132",
+      "signature": "action_ban | action_issue | action_mint | action_propose | amount_krw_146000000000 | amount_krw_175500000000 | amount_krw_358100000000 | amount_krw_84900000000 | amount_usd_127000000 | amount_usd_200000000 | amount_usd_259130000 | amount_usd_27000000 | amount_usd_3000000000 | amount_usd_59130000 | amount_usd_785000000 | amount_usd_85000000 | object_lending",
+      "canonical_key": "action_ban | action_issue | action_mint | action_propose | amount_krw_146000000000 | amount_krw_175500000000 | amount_krw_358100000000 | amount_krw_84900000000 | amount_usd_127000000 | amount_usd_200000000 | amount_usd_259130000 | amount_usd_27000000 | amount_usd_3000000000 | amount_usd_59130000 | amount_usd_785000000 | amount_usd_85000000 | object_lending",
+      "ts": "2026-08-28T23:01:37.370194+00:00"
     }
   }
 }
