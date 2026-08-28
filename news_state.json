@@ -1,26 +1,5 @@
 {
   "posted": {
-    "1bb5153206b94621": {
-      "title": "TRX Spot and Perpetuals Listing Launches on Backpack, Expanding Access to the TRON Ecosystem",
-      "url": "www.cryptopolitan.com/trx-spot-and-perpetuals-listing-launches-on-backpack-expanding-access-to-the-tron-ecosystem",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-29T11:01:17.347460+00:00"
-    },
-    "b4b33036cadc3861": {
-      "title": "Bitcoin Asia 2026 Announces First Wave of Speakers for August Hong Kong Event",
-      "url": "thenewscrypto.com/bitcoin-asia-2026-announces-first-wave-of-speakers-for-august-hong-kong-event",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-29T11:01:21.248240+00:00"
-    },
-    "972cadec3c546aad": {
-      "title": "Michael Saylor Says Bitcoin Could Grow 100x but Warns Against Protocol Changes",
-      "url": "thenewscrypto.com/michael-saylor-says-bitcoin-could-grow-100x-but-warns-against-protocol-changes",
-      "signature": "action_issue | asset_btc | entity_warnsagainstprotocolchanges | entity_마이클세일러 | object_network",
-      "canonical_key": "action_issue | asset_btc | entity_warnsagainstprotocolchanges | entity_마이클세일러 | object_network",
-      "ts": "2026-07-29T11:01:24.657802+00:00"
-    },
     "ace63f541b95ee30": {
       "title": "연준 금리 결정 임박…비트코인, 방향성 분기점 맞나",
       "url": "www.tokenpost.kr/news/cryptocurrency/382642",
@@ -4948,6 +4927,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-28T11:02:54.696726+00:00"
+    },
+    "31056b0cf19ac41b": {
+      "title": "Capital B raises $24.5M for its Bitcoin treasury amid market uncertainty with BlockStream’s Adam Back chipping in",
+      "url": "cointelegraph.com/news/capital-b-raises-245m-for-its-bitcoin-treasury-amid-market-uncertainty-with-blockstreams-adam-back-chipping-in?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_support | amount_usd_158000000 | amount_usd_24500000 | asset_btc | entity_blockstream | entity_capitalb",
+      "canonical_key": "action_support | amount_usd_158000000 | amount_usd_24500000 | asset_btc | entity_blockstream | entity_capitalb",
+      "ts": "2026-08-28T12:01:45.720120+00:00"
     }
   }
 }
