@@ -1,12 +1,5 @@
 {
   "posted": {
-    "219b8e956d6c5578": {
-      "title": "BMNR, 이더리움 보유량 578만 개 돌파하며 암호화폐 시장 주목",
-      "url": "www.tokenpost.kr/news/cryptocurrency/382411",
-      "signature": "action_acquire | action_disclose | action_launch | action_secure | amount_pct_13 | amount_pct_4 | amount_pct_4.8 | amount_pct_5 | asset_eth | entity_bmnr | object_disclosure",
-      "canonical_key": "action_acquire | action_disclose | action_launch | action_secure | amount_pct_13 | amount_pct_4 | amount_pct_4.8 | amount_pct_5 | asset_eth | entity_bmnr | object_disclosure",
-      "ts": "2026-07-29T00:01:01.072400+00:00"
-    },
     "b083c1fe29dae374": {
       "title": "Apple Faces Lawsuit After Fake Bitcoin Wallet Allegedly Stole $1.8 Million",
       "url": "coinedition.com/crypto-live-news/apple-faces-lawsuit-after-fake-bitcoin-wallet-allegedly-stole-1-8-million",
@@ -4920,6 +4913,13 @@
       "signature": "action_secure | action_sue | amount_btc_620000 | amount_btc_approx_620000 | asset_btc | object_class_action",
       "canonical_key": "action_secure | action_sue | amount_btc_620000 | amount_btc_approx_620000 | asset_btc | object_class_action",
       "ts": "2026-08-27T23:01:46.913281+00:00"
+    },
+    "54e4a3b15dad1646": {
+      "title": "Charles Schwab Expands Crypto Platform With SOL, AVAX and LINK",
+      "url": "coinedition.com/crypto-live-news/charles-schwab-expands-crypto-platform-with-sol-avax-and-link",
+      "signature": "action_expand | action_launch | action_transfer | asset_btc | asset_eth | asset_sol | entity_avax | entity_link",
+      "canonical_key": "action_expand | action_launch | action_transfer | asset_btc | asset_eth | asset_sol | entity_avax | entity_link",
+      "ts": "2026-08-28T01:02:18.886072+00:00"
     }
   }
 }
