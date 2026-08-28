@@ -1,12 +1,5 @@
 {
   "posted": {
-    "ace63f541b95ee30": {
-      "title": "연준 금리 결정 임박…비트코인, 방향성 분기점 맞나",
-      "url": "www.tokenpost.kr/news/cryptocurrency/382642",
-      "signature": "action_ban | amount_pct_35 | asset_btc | entity_연준 | object_bond",
-      "canonical_key": "action_ban | amount_pct_35 | asset_btc | entity_연준 | object_bond",
-      "ts": "2026-07-29T12:01:02.291951+00:00"
-    },
     "8829b8fe14a84281": {
       "title": "Strategy CEO Announces Key Financial Metric Overhaul as Its Stock Falls Faster Than Bitcoin",
       "url": "u.today/strategy-ceo-announces-key-financial-metric-overhaul-as-its-stock-falls-faster-than-bitcoin",
@@ -4934,6 +4927,20 @@
       "signature": "action_support | amount_usd_158000000 | amount_usd_24500000 | asset_btc | entity_blockstream | entity_capitalb",
       "canonical_key": "action_support | amount_usd_158000000 | amount_usd_24500000 | asset_btc | entity_blockstream | entity_capitalb",
       "ts": "2026-08-28T12:01:45.720120+00:00"
+    },
+    "c00b158c4489e700": {
+      "title": "아시아브로드밴드, 골드액시스 지갑 이전 권고",
+      "url": "www.tokenpost.kr/news/blockchain/399863",
+      "signature": "action_audit | action_convert | action_migrate | asset_btc | asset_eth | object_infrastructure | object_wallet",
+      "canonical_key": "action_audit | action_convert | action_migrate | asset_btc | asset_eth | object_infrastructure | object_wallet",
+      "ts": "2026-08-28T13:01:48.069678+00:00"
+    },
+    "cc346db53cbf6925": {
+      "title": "Nearly 70% of Bitcoin's Supply Now in Profit",
+      "url": "u.today/nearly-70-of-bitcoins-supply-now-in-profit",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-28T13:01:51.946243+00:00"
     }
   }
 }
