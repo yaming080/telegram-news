@@ -1,12 +1,5 @@
 {
   "posted": {
-    "64f49a1281d3bed3": {
-      "title": "Morgan Stanley Launches America’s Cheapest ETH and SOL ETFs With Staking Rewards",
-      "url": "cryptopotato.com/morgan-stanley-launches-americas-cheapest-eth-and-sol-etfs-with-staking-rewards",
-      "signature": "action_launch | amount_pct_0.14 | asset_eth | asset_sol | entity_모건스탠리 | geo_us",
-      "canonical_key": "action_launch | amount_pct_0.14 | asset_eth | asset_sol | entity_모건스탠리 | geo_us",
-      "ts": "2026-07-29T05:01:08.930257+00:00"
-    },
     "3c3f9a7e2a1a638a": {
       "title": "비트코인 6만3800달러…반도체 급락에도 올랐다",
       "url": "www.tokenpost.kr/news/cryptocurrency/382537",
@@ -4913,6 +4906,13 @@
       "signature": "action_develop | action_invest | action_transfer | asset_xrp | entity_sec | entity_에버노스",
       "canonical_key": "action_develop | action_invest | action_transfer | asset_xrp | entity_sec | entity_에버노스",
       "ts": "2026-08-28T05:02:01.995066+00:00"
+    },
+    "a39e15ad72747a95": {
+      "title": "The Sandbox pledges 1:1 repayment after $700K bridge exploit",
+      "url": "cointelegraph.com/news/the-sandbox-compensation-sand-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-28T06:01:09.797794+00:00"
     }
   }
 }
