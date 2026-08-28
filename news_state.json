@@ -4941,6 +4941,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-28T18:01:48.918456+00:00"
+    },
+    "313e947ae1b0f9e2": {
+      "title": "1200큐비트 추정, 비트코인·이더리움 전환 압박",
+      "url": "www.tokenpost.kr/news/blockchain/400059",
+      "signature": "action_convert | action_disclose | action_launch | asset_btc | asset_eth | object_disclosure | object_network",
+      "canonical_key": "action_convert | action_disclose | action_launch | asset_btc | asset_eth | object_disclosure | object_network",
+      "ts": "2026-08-28T19:01:55.396575+00:00"
     }
   }
 }
