@@ -1,12 +1,5 @@
 {
   "posted": {
-    "05612b42672b2563": {
-      "title": "말레이시아, 비트코인 불법 채굴 조직 적발…전력 절도 다시 수면 위",
-      "url": "www.tokenpost.kr/news/cryptocurrency/383015",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-30T11:00:56.789458+00:00"
-    },
     "a9632c2c0ca83864": {
       "title": "Ripple's Brad Garlinghouse to Headline 2026 Wyoming Blockchain Event",
       "url": "u.today/ripples-brad-garlinghouse-to-headline-2026-wyoming-blockchain-event",
@@ -4906,6 +4899,20 @@
       "signature": "action_develop | action_propose | action_transfer | asset_eth | entity_eip | object_account | object_wallet | reference_eip_8130 | reference_eip_8398 | reference_eip_8399 | reference_eip_8400",
       "canonical_key": "action_develop | action_propose | action_transfer | asset_eth | entity_eip | object_account | object_wallet | reference_eip_8130 | reference_eip_8398 | reference_eip_8399 | reference_eip_8400",
       "ts": "2026-08-29T11:01:41.144900+00:00"
+    },
+    "7d8ff28570c156fc": {
+      "title": "리플 스웰 10월 뉴욕 개최, 맷 데이먼 연사 합류",
+      "url": "www.tokenpost.kr/news/cryptocurrency/400369",
+      "signature": "action_appoint | action_develop | asset_stablecoin | asset_xrp | asset_xrpl | count_people_1500 | count_people_75 | entity_리플 | entity_브래드갈링하우스 | geo_us | object_payment",
+      "canonical_key": "action_appoint | action_develop | asset_stablecoin | asset_xrp | asset_xrpl | count_people_1500 | count_people_75 | entity_리플 | entity_브래드갈링하우스 | geo_us | object_payment",
+      "ts": "2026-08-29T12:02:10.503271+00:00"
+    },
+    "190b65beefed5460": {
+      "title": "XRP ETFs gain ground in two US fund filings",
+      "url": "crypto.news/xrp-etfs-gain-ground-in-two-us-fund-filings",
+      "signature": "action_invest | asset_xrp | entity_sec | geo_us | object_fund",
+      "canonical_key": "action_invest | asset_xrp | entity_sec | geo_us | object_fund",
+      "ts": "2026-08-29T12:02:16.573901+00:00"
     }
   }
 }
