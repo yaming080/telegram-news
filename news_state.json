@@ -1,26 +1,5 @@
 {
   "posted": {
-    "5aeae1132796fbd9": {
-      "title": "3iQ to manage part of Bhutan's Gelephu Mindfulness City Bitcoin treasury",
-      "url": "www.cryptopolitan.com/3iq-to-manage-bhutan-gmc-btc-treasury",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-30T14:01:36.953984+00:00"
-    },
-    "58fea57115b7ef1f": {
-      "title": "이더리움 11년…재단 개편 속 금융 인프라로 자리 굳히나",
-      "url": "www.tokenpost.kr/news/cryptocurrency/383035",
-      "signature": "action_convert | action_develop | action_invest | asset_eth | object_infrastructure | object_network",
-      "canonical_key": "action_convert | action_develop | action_invest | asset_eth | object_infrastructure | object_network",
-      "ts": "2026-07-30T14:01:41.712366+00:00"
-    },
-    "883bf0f4330da254": {
-      "title": "Ripple Mints 15 Million RLUSD on Ethereum",
-      "url": "u.today/ripple-mints-15-million-rlusd-on-ethereum",
-      "signature": "action_mint | asset_eth | asset_rlusd | entity_리플 | object_rlusd",
-      "canonical_key": "action_mint | asset_eth | asset_rlusd | entity_리플 | object_rlusd",
-      "ts": "2026-07-30T14:01:45.889151+00:00"
-    },
     "fa74cf66ed4dcbe1": {
       "title": "Bitget Wallet Card Offers Cashback in Bitcoin, Gold, and Tokenized Stocks",
       "url": "coinedition.com/bitget-wallet-card-offers-cashback-in-bitcoin-gold-and-tokenized-stocks",
@@ -4885,6 +4864,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-29T13:01:51.523358+00:00"
+    },
+    "030a658de7bd9e74": {
+      "title": "Avici commits to full user compensation as hackers move on to new victims",
+      "url": "www.cryptopolitan.com/avici-pledges-full-refunds-ajna-next",
+      "signature": "action_compromise | action_hack | action_partner | action_steal | action_transfer | asset_eth | asset_sol | object_card | object_lending",
+      "canonical_key": "action_compromise | action_hack | action_partner | action_steal | action_transfer | asset_eth | asset_sol | object_card | object_lending",
+      "ts": "2026-08-29T15:01:56.085465+00:00"
     }
   }
 }
