@@ -4934,6 +4934,13 @@
       "signature": "action_pass | amount_pct_30 | amount_pct_35 | asset_xrp | entity_리플 | geo_korea | geo_us | object_bill",
       "canonical_key": "action_pass | amount_pct_30 | amount_pct_35 | asset_xrp | entity_리플 | geo_korea | geo_us | object_bill",
       "ts": "2026-08-29T05:02:03.556775+00:00"
+    },
+    "a31a71d61628f3a3": {
+      "title": "Cardone Capital adds 1,200 BTC using rental income",
+      "url": "crypto.news/cardone-capital-adds-1200-btc-using-rental-income",
+      "signature": "action_invest | action_support | amount_btc_1200 | amount_btc_approx_1200 | amount_usd_5300000000 | asset_btc | entity_cardonecapital | entity_스트래티지 | object_card",
+      "canonical_key": "action_invest | action_support | amount_btc_1200 | amount_btc_approx_1200 | amount_usd_5300000000 | asset_btc | entity_cardonecapital | entity_스트래티지 | object_card",
+      "ts": "2026-08-29T07:01:51.537181+00:00"
     }
   }
 }
