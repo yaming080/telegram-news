@@ -4920,6 +4920,13 @@
       "signature": "action_develop | action_propose | action_upgrade | asset_eth | date_2026_08_25 | object_commissioner | reference_version_4_8",
       "canonical_key": "action_develop | action_propose | action_upgrade | asset_eth | date_2026_08_25 | object_commissioner | reference_version_4_8",
       "ts": "2026-08-29T02:02:01.790042+00:00"
+    },
+    "2b95356dbfac465a": {
+      "title": "웹3 도메인 14종, 아이칸 신청서 빠졌다",
+      "url": "www.tokenpost.kr/news/blockchain/400226",
+      "signature": "action_disclose | action_file | action_launch | action_partner | asset_btc | object_disclosure | object_wallet",
+      "canonical_key": "action_disclose | action_file | action_launch | action_partner | asset_btc | object_disclosure | object_wallet",
+      "ts": "2026-08-29T03:01:47.015805+00:00"
     }
   }
 }
