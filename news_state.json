@@ -1,19 +1,5 @@
 {
   "posted": {
-    "c003b56c6736ed73": {
-      "title": "라자루스 연계 지갑 121.5 BTC 이동…세탁 우려 커졌다",
-      "url": "www.tokenpost.kr/news/cryptocurrency/383004",
-      "signature": "action_hack | action_steal | amount_btc_122 | amount_btc_approx_120 | amount_usd_64000 | amount_usd_7740000 | asset_btc | entity_btc | object_wallet",
-      "canonical_key": "action_hack | action_steal | amount_btc_122 | amount_btc_approx_120 | amount_usd_64000 | amount_usd_7740000 | asset_btc | entity_btc | object_wallet",
-      "ts": "2026-07-30T10:01:05.543273+00:00"
-    },
-    "895b91cc0d37f036": {
-      "title": "Completion of This Chart Pattern Could Send BTC to $220K, Says Analyst",
-      "url": "cryptopotato.com/completion-of-this-chart-pattern-could-send-btc-to-220k-says-analyst",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-30T10:01:09.107240+00:00"
-    },
     "05612b42672b2563": {
       "title": "말레이시아, 비트코인 불법 채굴 조직 적발…전력 절도 다시 수면 위",
       "url": "www.tokenpost.kr/news/cryptocurrency/383015",
@@ -4913,6 +4899,13 @@
       "signature": "action_disclose | action_launch | action_secure | action_transfer | amount_btc_1671 | amount_btc_approx_1700 | amount_usd_80000 | amount_usd_83000 | asset_btc | object_disclosure",
       "canonical_key": "action_disclose | action_launch | action_secure | action_transfer | amount_btc_1671 | amount_btc_approx_1700 | amount_usd_80000 | amount_usd_83000 | asset_btc | object_disclosure",
       "ts": "2026-08-29T08:01:52.628086+00:00"
+    },
+    "5c2df52ef7d0b341": {
+      "title": "EIP 8130 세 제안으로 나뉘어 논의됐다",
+      "url": "www.tokenpost.kr/news/blockchain/400351",
+      "signature": "action_develop | action_propose | action_transfer | asset_eth | entity_eip | object_account | object_wallet | reference_eip_8130 | reference_eip_8398 | reference_eip_8399 | reference_eip_8400",
+      "canonical_key": "action_develop | action_propose | action_transfer | asset_eth | entity_eip | object_account | object_wallet | reference_eip_8130 | reference_eip_8398 | reference_eip_8399 | reference_eip_8400",
+      "ts": "2026-08-29T11:01:41.144900+00:00"
     }
   }
 }
