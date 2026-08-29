@@ -1,12 +1,5 @@
 {
   "posted": {
-    "87314866da5a1dfc": {
-      "title": "Japanese game developer launches Bitcoin, altcoin fund with SBI",
-      "url": "cointelegraph.com/news/japanese-game-developer-bitcoin-altcoin-fund?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "action_build | action_launch | asset_btc | asset_xrp | entity_sbi | geo_japan | object_fund",
-      "canonical_key": "action_build | action_launch | asset_btc | asset_xrp | entity_sbi | geo_japan | object_fund",
-      "ts": "2026-07-30T04:01:08.868419+00:00"
-    },
     "d8818c93a08fdb04": {
       "title": "Ethereum Foundation adds SEAL 911 co-founder to board",
       "url": "crypto.news/ethereum-foundation-adds-seal-911-co-founder-to-board",
@@ -4941,6 +4934,13 @@
       "signature": "action_issue | action_mint | amount_usd_697000 | asset_eth | entity_sand | object_network | object_sale",
       "canonical_key": "action_issue | action_mint | amount_usd_697000 | asset_eth | entity_sand | object_network | object_sale",
       "ts": "2026-08-29T04:01:55.533729+00:00"
+    },
+    "37bf97a7eeb41024": {
+      "title": "리플 8월 30%대 상승, 9월 16일 절차표결 앞뒀다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/400256",
+      "signature": "action_pass | amount_pct_30 | amount_pct_35 | asset_xrp | entity_리플 | geo_korea | geo_us | object_bill",
+      "canonical_key": "action_pass | amount_pct_30 | amount_pct_35 | asset_xrp | entity_리플 | geo_korea | geo_us | object_bill",
+      "ts": "2026-08-29T05:02:03.556775+00:00"
     }
   }
 }
