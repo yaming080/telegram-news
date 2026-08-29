@@ -1,12 +1,5 @@
 {
   "posted": {
-    "03a5c392ed71d93d": {
-      "title": "A Rocky Year: Ethereum Turns 11 Years as ETH Trades 61% Below the High Set Last August",
-      "url": "cryptopotato.com/a-rocky-year-ethereum-turns-11-years-as-eth-trades-61-below-the-high-set-last-august",
-      "signature": "action_launch | amount_pct_61 | asset_eth | object_network",
-      "canonical_key": "action_launch | amount_pct_61 | asset_eth | object_network",
-      "ts": "2026-07-30T18:01:00.059307+00:00"
-    },
     "e9fb925bfbe465ad": {
       "title": "New Stablecoin Backed by BlackRock and Visa to Launch on Ethereum",
       "url": "u.today/new-stablecoin-backed-by-blackrock-and-visa-to-launch-on-ethereum",
@@ -4836,6 +4829,13 @@
       "signature": "action_compromise | action_hack | action_partner | action_steal | action_transfer | asset_eth | asset_sol | object_card | object_lending",
       "canonical_key": "action_compromise | action_hack | action_partner | action_steal | action_transfer | asset_eth | asset_sol | object_card | object_lending",
       "ts": "2026-08-29T15:01:56.085465+00:00"
+    },
+    "3f0fb54decf57a22": {
+      "title": "기관용 이더리움, 프라이버시 장벽 다시 부상했다",
+      "url": "www.tokenpost.kr/news/blockchain/400456",
+      "signature": "action_audit | action_disclose | action_launch | action_transfer | asset_eth | entity_이더리움재단 | object_disclosure",
+      "canonical_key": "action_audit | action_disclose | action_launch | action_transfer | asset_eth | entity_이더리움재단 | object_disclosure",
+      "ts": "2026-08-29T19:02:07.973281+00:00"
     }
   }
 }
