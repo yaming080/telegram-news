@@ -1,12 +1,5 @@
 {
   "posted": {
-    "e9fb925bfbe465ad": {
-      "title": "New Stablecoin Backed by BlackRock and Visa to Launch on Ethereum",
-      "url": "u.today/new-stablecoin-backed-by-blackrock-and-visa-to-launch-on-ethereum",
-      "signature": "action_launch | action_support | asset_eth | asset_stablecoin | entity_마스터카드 | entity_블랙록 | entity_비자",
-      "canonical_key": "action_launch | action_support | asset_eth | asset_stablecoin | entity_마스터카드 | entity_블랙록 | entity_비자",
-      "ts": "2026-07-30T19:01:15.844849+00:00"
-    },
     "953c40af8a0ae3fa": {
       "title": "스트레티지, 비트코인 평가손에 11조7000억원 순손실…전략 변화 주목된다",
       "url": "www.tokenpost.kr/news/cryptocurrency/383071",
@@ -4836,6 +4829,20 @@
       "signature": "action_audit | action_disclose | action_launch | action_transfer | asset_eth | entity_이더리움재단 | object_disclosure",
       "canonical_key": "action_audit | action_disclose | action_launch | action_transfer | asset_eth | entity_이더리움재단 | object_disclosure",
       "ts": "2026-08-29T19:02:07.973281+00:00"
+    },
+    "432e115aaedb0b73": {
+      "title": "Stellar tokenized RWA market more than quadruples to nearly $4B",
+      "url": "cointelegraph.com/markets/stellar-tokenized-rwa-market-nears-4b-after-fourfold-2026-growth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_adopt | action_expand | amount_usd_4000000000 | object_institutional_adoption | object_network",
+      "canonical_key": "action_adopt | action_expand | amount_usd_4000000000 | object_institutional_adoption | object_network",
+      "ts": "2026-08-29T20:01:58.845560+00:00"
+    },
+    "e2ed0a8b7b746a1f": {
+      "title": "Wall Street Giant Charles Schwab Makes Major Crypto Move Beyond Bitcoin and Ethereum",
+      "url": "cryptopotato.com/wall-street-giant-charles-schwab-makes-major-crypto-move-beyond-bitcoin-and-ethereum",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-29T20:02:04.778507+00:00"
     }
   }
 }
