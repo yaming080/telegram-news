@@ -1,12 +1,5 @@
 {
   "posted": {
-    "d8818c93a08fdb04": {
-      "title": "Ethereum Foundation adds SEAL 911 co-founder to board",
-      "url": "crypto.news/ethereum-foundation-adds-seal-911-co-founder-to-board",
-      "signature": "action_appoint | asset_eth | entity_ethereumfoundation | entity_seal | object_board",
-      "canonical_key": "action_appoint | asset_eth | entity_ethereumfoundation | entity_seal | object_board",
-      "ts": "2026-07-30T05:01:13.120253+00:00"
-    },
     "c8442f2f77b2b0ba": {
       "title": "Lazarus just moved $7.7M in Bitcoin after hackers stole $577M in 2026",
       "url": "www.cryptopolitan.com/lazarus-just-moved-7-7m-in-bitcoin-after-hackers-stole-577m-in-2026",
