@@ -1,19 +1,5 @@
 {
   "posted": {
-    "d56a5efa40fdff7e": {
-      "title": "Anthropic AI breaks HAWK-256 in 60 hours, raising Bitcoin concerns",
-      "url": "www.cryptopolitan.com/anthropic-ai-crack-hawk-256-bitcoin-concerns",
-      "signature": "action_migrate | asset_btc | entity_hawk256 | entity_앤트로픽 | object_network",
-      "canonical_key": "action_migrate | asset_btc | entity_hawk256 | entity_앤트로픽 | object_network",
-      "ts": "2026-07-30T09:01:18.261441+00:00"
-    },
-    "f89cfbd76e097b0e": {
-      "title": "Pi Network’s PI Extends Recovery as Bitcoin (BTC) Settles After FOMC Meeting: Market Watch",
-      "url": "cryptopotato.com/pi-networks-pi-extends-recovery-as-bitcoin-btc-settles-after-fomc-meeting-market-watch",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-30T09:01:27.866207+00:00"
-    },
     "c003b56c6736ed73": {
       "title": "라자루스 연계 지갑 121.5 BTC 이동…세탁 우려 커졌다",
       "url": "www.tokenpost.kr/news/cryptocurrency/383004",
