@@ -1,12 +1,5 @@
 {
   "posted": {
-    "3bdd589db4a3ce5d": {
-      "title": "Coldcard Wallet Vulnerabilities Explained: What Bitcoin Users Need to Know",
-      "url": "coinedition.com/coldcard-wallet-vulnerabilities-explained-what-bitcoin-users-need-to-know",
-      "signature": "action_issue | action_steal | asset_btc | object_wallet",
-      "canonical_key": "action_issue | action_steal | asset_btc | object_wallet",
-      "ts": "2026-07-31T20:00:55.419767+00:00"
-    },
     "5c51ab3f6b36b7bd": {
       "title": "비트코인, 7월 7.5% 상승 마감 유력…악재 속 방어력 부각",
       "url": "www.tokenpost.kr/news/cryptocurrency/383464",
