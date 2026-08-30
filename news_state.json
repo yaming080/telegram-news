@@ -1,12 +1,5 @@
 {
   "posted": {
-    "018de77b83da6d79": {
-      "title": "BMNR 주가 변동성과 이더리움 시장에서의 전략적 위치",
-      "url": "www.tokenpost.kr/news/cryptocurrency/383080",
-      "signature": "action_integrate | amount_usd_17 | asset_eth | entity_bmnr | entity_okx | object_derivatives",
-      "canonical_key": "action_integrate | amount_usd_17 | asset_eth | entity_bmnr | entity_okx | object_derivatives",
-      "ts": "2026-07-31T00:01:21.270325+00:00"
-    },
     "ea1c725f45f78e45": {
       "title": "Coldcard issues Mk3 warning as experts examine $38M Bitcoin wallet drain",
       "url": "cointelegraph.com/news/coldcard-mk3-warning-594-btc-sweep?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
