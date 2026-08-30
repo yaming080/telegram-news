@@ -1,19 +1,5 @@
 {
   "posted": {
-    "ea1c725f45f78e45": {
-      "title": "Coldcard issues Mk3 warning as experts examine $38M Bitcoin wallet drain",
-      "url": "cointelegraph.com/news/coldcard-mk3-warning-594-btc-sweep?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "action_issue | action_migrate | action_steal | amount_usd_38000000 | asset_btc | object_wallet",
-      "canonical_key": "action_issue | action_migrate | action_steal | amount_usd_38000000 | asset_btc | object_wallet",
-      "ts": "2026-07-31T03:01:16.135394+00:00"
-    },
-    "2a6e87603ee14130": {
-      "title": "[특징주] 두산, SK실트론 인수 기대에 전자BG 호실적까지…24%대 급등",
-      "url": "www.tokenpost.kr/news/economy/383176",
-      "signature": "action_acquire | action_auction | action_develop | amount_pct_19.6 | amount_pct_24 | amount_pct_24.56 | amount_pct_51 | amount_pct_70.6 | object_board | object_sale",
-      "canonical_key": "action_acquire | action_auction | action_develop | amount_pct_19.6 | amount_pct_24 | amount_pct_24.56 | amount_pct_51 | amount_pct_70.6 | object_board | object_sale",
-      "ts": "2026-07-31T03:01:19.470638+00:00"
-    },
     "c713efc190828e36": {
       "title": "Coldcard Mk3 warning follows $38M Bitcoin drain",
       "url": "crypto.news/coldcard-mk3-warning-follows-38m-bitcoin-drain",
