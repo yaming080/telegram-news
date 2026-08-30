@@ -1,12 +1,5 @@
 {
   "posted": {
-    "174fb9c386c792df": {
-      "title": "Bitcoin Wallets at Risk After Critical Coldcard Security Bugs Get Exposed",
-      "url": "u.today/bitcoin-wallets-at-risk-after-critical-coldcard-security-bugs-are-exposed",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-31T06:01:07.352132+00:00"
-    },
     "44b2ccbf11f6a498": {
       "title": "Ethereum Foundation names pcaversaccio to board amid restructuring",
       "url": "www.cryptopolitan.com/ethereum-foundation-new-member-funding",
@@ -4808,6 +4801,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-30T06:01:41.347678+00:00"
+    },
+    "fd5ddfe38f28ae58": {
+      "title": "JPMorgan is weighing a stablecoin, and the bank that called Bitcoin a fraud ran out of reasons to wait",
+      "url": "crypto.news/jpmorgan-stablecoin-bank-fraud-bitcoin-reasons-wait",
+      "signature": "action_launch | asset_btc | asset_stablecoin | entity_jp모건 | object_stablecoin_bill",
+      "canonical_key": "action_launch | asset_btc | asset_stablecoin | entity_jp모건 | object_stablecoin_bill",
+      "ts": "2026-08-30T07:02:25.459552+00:00"
+    },
+    "ff5282200cca3ef5": {
+      "title": "The Sandbox minted 329 trillion unbacked SAND tokens in 5 hours and only $675K was stolen",
+      "url": "crypto.news/sandbox-329-trillion-sand-bridge-exploit-675k-stolen",
+      "signature": "action_compromise | action_mint | action_steal | amount_usd_49000000000 | amount_usd_675000 | asset_eth | entity_sand",
+      "canonical_key": "action_compromise | action_mint | action_steal | amount_usd_49000000000 | amount_usd_675000 | asset_eth | entity_sand",
+      "ts": "2026-08-30T07:02:30.548482+00:00"
     }
   }
 }
