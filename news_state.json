@@ -1,12 +1,5 @@
 {
   "posted": {
-    "87a71f4d28c99932": {
-      "title": "594 BTC drained in 25 minutes as Coldcard flaw sparks alarm",
-      "url": "www.cryptopolitan.com/coldcard-flaw-38m-bitcoin-wallet-drain",
-      "signature": "action_steal | amount_btc_594 | amount_btc_approx_590 | amount_usd_38000000 | asset_btc | entity_btc | object_wallet",
-      "canonical_key": "action_steal | amount_btc_594 | amount_btc_approx_590 | amount_usd_38000000 | asset_btc | entity_btc | object_wallet",
-      "ts": "2026-07-31T08:01:19.155253+00:00"
-    },
     "b23a435b4b739c4d": {
       "title": "퀀텀솔루션즈, ETH 매각 확대…AI 데이터센터로 방향 틀었다",
       "url": "www.tokenpost.kr/news/cryptocurrency/383291",
@@ -4801,6 +4794,20 @@
       "signature": "action_support | amount_usd_300000 | entity_리플",
       "canonical_key": "action_support | amount_usd_300000 | entity_리플",
       "ts": "2026-08-30T08:02:16.643353+00:00"
+    },
+    "046cee0f97e5c4e2": {
+      "title": "비트코인 설명, 디지털 금보다 통제권이 더 통했다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/400661",
+      "signature": "action_invest | asset_btc | count_people_1516 | entity_비트코인정책연구소 | geo_us",
+      "canonical_key": "action_invest | asset_btc | count_people_1516 | entity_비트코인정책연구소 | geo_us",
+      "ts": "2026-08-30T09:02:16.791554+00:00"
+    },
+    "c23b8e63efc93c08": {
+      "title": "Sberbank plans BTC, ETH and USDT-backed loans",
+      "url": "crypto.news/sberbank-plans-btc-eth-and-usdt-backed-loans",
+      "signature": "action_approve | action_support | asset_btc | asset_eth | asset_usdt | entity_스베르방크 | geo_russia",
+      "canonical_key": "action_approve | action_support | asset_btc | asset_eth | asset_usdt | entity_스베르방크 | geo_russia",
+      "ts": "2026-08-30T09:02:22.487920+00:00"
     }
   }
 }
