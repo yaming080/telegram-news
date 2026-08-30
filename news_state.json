@@ -1,12 +1,5 @@
 {
   "posted": {
-    "c713efc190828e36": {
-      "title": "Coldcard Mk3 warning follows $38M Bitcoin drain",
-      "url": "crypto.news/coldcard-mk3-warning-follows-38m-bitcoin-drain",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-31T05:01:04.718897+00:00"
-    },
     "174fb9c386c792df": {
       "title": "Bitcoin Wallets at Risk After Critical Coldcard Security Bugs Get Exposed",
       "url": "u.today/bitcoin-wallets-at-risk-after-critical-coldcard-security-bugs-are-exposed",
@@ -4808,6 +4801,13 @@
       "signature": "action_convert | action_disclose | action_invest | action_launch | action_propose | amount_krw_130000000000 | amount_usd_20000000 | amount_usd_820000000 | geo_korea | object_disclosure",
       "canonical_key": "action_convert | action_disclose | action_invest | action_launch | action_propose | amount_krw_130000000000 | amount_usd_20000000 | amount_usd_820000000 | geo_korea | object_disclosure",
       "ts": "2026-08-30T05:02:29.791243+00:00"
+    },
+    "5bb1fd8fc4546b1d": {
+      "title": "샌드위치 봇 750만달러, 승인 권한에 뚫렸다",
+      "url": "www.tokenpost.kr/news/blockchain/400618",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-30T06:01:41.347678+00:00"
     }
   }
 }
