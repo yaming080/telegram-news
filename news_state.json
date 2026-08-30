@@ -1,12 +1,5 @@
 {
   "posted": {
-    "9332b64c2ea9a17f": {
-      "title": "WEEX GOGOGO Ep.5 Goes Live July 31: Trade Smarter, Move Faster",
-      "url": "thenewscrypto.com/weex-gogogo-ep-5-goes-live-july-31-trade-smarter-move-faster",
-      "signature": "action_launch | amount_btc_1000 | amount_btc_approx_1000 | asset_btc | object_fund",
-      "canonical_key": "action_launch | amount_btc_1000 | amount_btc_approx_1000 | asset_btc | object_fund",
-      "ts": "2026-07-31T10:01:00.495285+00:00"
-    },
     "08aeeb80ec6d2556": {
       "title": "이더리움 횡보 속 부각된 기관 호재…블랙록·비자 참여 스테이블코인 나온다",
       "url": "www.tokenpost.kr/news/cryptocurrency/383320",
@@ -4801,6 +4794,20 @@
       "signature": "action_approve | action_support | asset_btc | asset_eth | asset_usdt | entity_스베르방크 | geo_russia",
       "canonical_key": "action_approve | action_support | asset_btc | asset_eth | asset_usdt | entity_스베르방크 | geo_russia",
       "ts": "2026-08-30T09:02:22.487920+00:00"
+    },
+    "4b03dd56aa767842": {
+      "title": "하이브 8470만달러 충당, AI 전환에 세금 부담",
+      "url": "www.tokenpost.kr/news/policy/400681",
+      "signature": "action_convert | action_disclose | action_file | action_invest | amount_krw_105300000000 | amount_krw_116500000000 | amount_usd_76600000 | amount_usd_84700000 | asset_btc | date_2026_08_17 | object_disclosure | object_infrastructure",
+      "canonical_key": "action_convert | action_disclose | action_file | action_invest | amount_krw_105300000000 | amount_krw_116500000000 | amount_usd_76600000 | amount_usd_84700000 | asset_btc | date_2026_08_17 | object_disclosure | object_infrastructure",
+      "ts": "2026-08-30T11:02:03.924459+00:00"
+    },
+    "c2a054eeb3677809": {
+      "title": "Bitcoin mining divide pushes Luke Dashjr out of OCEAN",
+      "url": "crypto.news/bitcoin-mining-divide-pushes-luke-dashjr-out-of-ocean",
+      "signature": "action_launch | action_sell | action_support | asset_btc | entity_ocean | object_sale",
+      "canonical_key": "action_launch | action_sell | action_support | asset_btc | entity_ocean | object_sale",
+      "ts": "2026-08-30T11:02:09.179754+00:00"
     }
   }
 }
