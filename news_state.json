@@ -1,26 +1,5 @@
 {
   "posted": {
-    "d0bd831ad36df70e": {
-      "title": "콜드카드 결함에 흔들린 비트코인 자가 보관…ETF·기관 수탁 힘 실릴까",
-      "url": "www.tokenpost.kr/news/cryptocurrency/383441",
-      "signature": "action_build | action_disclose | action_launch | action_restore | action_steal | asset_btc | entity_etf | object_card | object_custody | object_disclosure | object_etf | object_recovery | object_wallet",
-      "canonical_key": "action_build | action_disclose | action_launch | action_restore | action_steal | asset_btc | entity_etf | object_card | object_custody | object_disclosure | object_etf | object_recovery | object_wallet",
-      "ts": "2026-07-31T18:00:53.123581+00:00"
-    },
-    "2a5a569361c67350": {
-      "title": "SK, SK실트론 지분 70.6% ㈜두산에 매각…2조3천억 규모 확정",
-      "url": "www.tokenpost.kr/news/economy/383437",
-      "signature": "action_acquire | action_auction | action_disclose | action_invest | action_secure | amount_pct_70.6 | date_2026_07_31 | object_board | object_disclosure | object_sale",
-      "canonical_key": "action_acquire | action_auction | action_disclose | action_invest | action_secure | amount_pct_70.6 | date_2026_07_31 | object_board | object_disclosure | object_sale",
-      "ts": "2026-07-31T18:00:57.116580+00:00"
-    },
-    "205a80937dd72ff0": {
-      "title": "Pakistan Crypto Laws: Which Exchanges Are Legal, and What If None Are Licensed?",
-      "url": "coinedition.com/pakistan-crypto-laws-which-exchanges-are-legal-and-what-if-none-are-licensed",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-31T18:01:00.280699+00:00"
-    },
     "3bdd589db4a3ce5d": {
       "title": "Coldcard Wallet Vulnerabilities Explained: What Bitcoin Users Need to Know",
       "url": "coinedition.com/coldcard-wallet-vulnerabilities-explained-what-bitcoin-users-need-to-know",
@@ -4780,6 +4759,13 @@
       "signature": "action_acquire | action_develop | action_disclose | action_file | amount_krw_48900000000 | amount_krw_58600000000 | amount_krw_9600000000 | amount_usd_35500000 | amount_usd_42500000 | amount_usd_7000000 | asset_btc | entity_sec | object_commissioner | object_derivatives | object_disclosure",
       "canonical_key": "action_acquire | action_develop | action_disclose | action_file | amount_krw_48900000000 | amount_krw_58600000000 | amount_krw_9600000000 | amount_usd_35500000 | amount_usd_42500000 | amount_usd_7000000 | asset_btc | entity_sec | object_commissioner | object_derivatives | object_disclosure",
       "ts": "2026-08-30T18:01:24.424967+00:00"
+    },
+    "990b2be585d7d5ef": {
+      "title": "Saylor signals Strategy is ‘Back’ to Bitcoin buying",
+      "url": "cointelegraph.com/news/saylor-signals-strategy-is-back-to-bitcoin-buying?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_purchase | action_support | asset_btc | entity_마이클세일러 | entity_스트래티지 | object_corporate_crypto_purchase",
+      "canonical_key": "action_purchase | action_support | asset_btc | entity_마이클세일러 | entity_스트래티지 | object_corporate_crypto_purchase",
+      "ts": "2026-08-30T19:01:39.537823+00:00"
     }
   }
 }
