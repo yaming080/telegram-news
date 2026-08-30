@@ -1,19 +1,5 @@
 {
   "posted": {
-    "fa9327ee98e343a0": {
-      "title": "RLUSD's Next Big Move? Google and Mastercard Integration Fuel AI Payments",
-      "url": "u.today/rlusds-next-big-move-google-and-mastercard-integration-fuel-ai-payments",
-      "signature": "action_integrate | asset_rlusd | asset_stablecoin | entity_구글 | entity_리플 | entity_마스터카드 | object_rlusd",
-      "canonical_key": "action_integrate | asset_rlusd | asset_stablecoin | entity_구글 | entity_리플 | entity_마스터카드 | object_rlusd",
-      "ts": "2026-07-31T12:00:58.816976+00:00"
-    },
-    "a146aeba59c6f77d": {
-      "title": "Bitcoin self-custody debate erupts over poor wallet UX",
-      "url": "crypto.news/bitcoin-self-custody-debate-erupts-over-poor-wallet-ux",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-07-31T12:01:03.015232+00:00"
-    },
     "a6c457ffc84886d1": {
       "title": "South Korean Authorities Arrest Three Suspects in $8.6 Million XRP Investment Scam",
       "url": "thecryptobasic.com/2026/07/31/south-korean-authorities-arrest-three-suspects-in-8-6-million-xrp-investment-scam",
@@ -4787,6 +4773,20 @@
       "signature": "action_develop | action_disclose | action_launch | action_propose | action_transfer | asset_btc | object_disclosure | object_infrastructure | object_wallet",
       "canonical_key": "action_develop | action_disclose | action_launch | action_propose | action_transfer | asset_btc | object_disclosure | object_infrastructure | object_wallet",
       "ts": "2026-08-30T12:02:17.445713+00:00"
+    },
+    "7794d4e2b0e9f21a": {
+      "title": "렘론스, 최대 20억달러 유동성 지원 검토",
+      "url": "www.tokenpost.kr/news/blockchain/400705",
+      "signature": "action_approve | action_audit | action_disclose | action_launch | action_support | amount_krw_34500000000 | amount_krw_756000000000 | amount_usd_2000000000 | amount_usd_25000000 | geo_korea | object_custody | object_disclosure | object_lending",
+      "canonical_key": "action_approve | action_audit | action_disclose | action_launch | action_support | amount_krw_34500000000 | amount_krw_756000000000 | amount_usd_2000000000 | amount_usd_25000000 | geo_korea | object_custody | object_disclosure | object_lending",
+      "ts": "2026-08-30T13:02:30.453667+00:00"
+    },
+    "9de1106821f65d20": {
+      "title": "솔라나 ETF 10억달러 돌파, 리플은 구조 달랐다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/400704",
+      "signature": "action_disclose | action_launch | amount_krw_345300000000 | amount_krw_378000000000 | amount_usd_1000000000 | amount_usd_76316118 | asset_sol | asset_xrp | entity_리플 | object_disclosure | object_etf | object_staking_proposal",
+      "canonical_key": "action_disclose | action_launch | amount_krw_345300000000 | amount_krw_378000000000 | amount_usd_1000000000 | amount_usd_76316118 | asset_sol | asset_xrp | entity_리플 | object_disclosure | object_etf | object_staking_proposal",
+      "ts": "2026-08-30T13:02:34.868964+00:00"
     }
   }
 }
