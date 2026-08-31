@@ -1,19 +1,5 @@
 {
   "posted": {
-    "52aafea087f24ad4": {
-      "title": "Bitcoin Fear Reaches Record High as Coldcard Exploit Shakes Confidence in Self-Custody",
-      "url": "cryptopotato.com/bitcoin-fear-reaches-record-high-as-coldcard-exploit-shakes-confidence-in-self-custody",
-      "signature": "action_hack | asset_btc | object_custody",
-      "canonical_key": "action_hack | asset_btc | object_custody",
-      "ts": "2026-08-01T15:00:53.585367+00:00"
-    },
-    "29909c0768071114": {
-      "title": "Ripple CTO Emeritus Hints He Is Still Deeply Involved With XRP",
-      "url": "u.today/ripple-cto-emeritus-hints-he-is-still-deeply-involved-with-xrp",
-      "signature": "action_close | asset_xrp | entity_리플",
-      "canonical_key": "action_close | asset_xrp | entity_리플",
-      "ts": "2026-08-01T15:00:56.569409+00:00"
-    },
     "27ecf6576c5b06e4": {
       "title": "비트코인 채굴 난이도, 1년 전보다 낮아져…AI로 자본 이동 주목",
       "url": "www.tokenpost.kr/news/cryptocurrency/383683",
