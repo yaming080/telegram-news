@@ -1,19 +1,5 @@
 {
   "posted": {
-    "d3410afa2c8e64c7": {
-      "title": "비트코인 지갑 해킹 3차 확산…1조8600억 원 피해, 추적 회피도 강화됐다",
-      "url": "www.tokenpost.kr/news/cryptocurrency/383707",
-      "signature": "action_hack | action_steal | amount_btc_0 | amount_btc_1367 | amount_btc_208 | amount_btc_approx_1400 | amount_btc_approx_210 | amount_krw_60000000000 | amount_krw_860000000000 | amount_usd_6000000 | asset_btc | entity_갤럭시리서치 | object_sale | object_wallet",
-      "canonical_key": "action_hack | action_steal | amount_btc_0 | amount_btc_1367 | amount_btc_208 | amount_btc_approx_1400 | amount_btc_approx_210 | amount_krw_60000000000 | amount_krw_860000000000 | amount_usd_6000000 | asset_btc | entity_갤럭시리서치 | object_sale | object_wallet",
-      "ts": "2026-08-01T21:00:58.500505+00:00"
-    },
-    "627b1b318d1121bf": {
-      "title": "BNB Chain Wallet Incident Exposes Growing Web3 Seed Phrase Risks",
-      "url": "coinedition.com/bnb-chain-wallet-incident-exposes-growing-web3-seed-phrase-risks",
-      "signature": "action_compromise | action_hack | date_2026_08_01 | object_wallet",
-      "canonical_key": "action_compromise | action_hack | date_2026_08_01 | object_wallet",
-      "ts": "2026-08-01T21:01:01.618175+00:00"
-    },
     "00e369c15a469949": {
       "title": "비농업 고용 9만명 전망…금·비트코인 흔드나",
       "url": "www.tokenpost.kr/news/market/383826",
@@ -4717,6 +4703,13 @@
       "signature": "action_invest | action_launch | action_transfer | asset_btc | object_adviser | object_etf | object_etf_holdings",
       "canonical_key": "action_invest | action_launch | action_transfer | asset_btc | object_adviser | object_etf | object_etf_holdings",
       "ts": "2026-08-31T18:03:12.784858+00:00"
+    },
+    "da9eaff760cbc7d6": {
+      "title": "BitMine Adds 53,501 ETH as Holdings Near 5% Ethereum Supply Target",
+      "url": "coinedition.com/bitmine-adds-53501-eth-as-holdings-near-5-ethereum-supply",
+      "signature": "action_disclose | action_purchase | amount_eth_53501 | amount_eth_approx_53500 | amount_pct_4.9 | amount_pct_5 | asset_eth | entity_bitmineadds | entity_holdingsnear | object_disclosure",
+      "canonical_key": "action_disclose | action_purchase | amount_eth_53501 | amount_eth_approx_53500 | amount_pct_4.9 | amount_pct_5 | asset_eth | entity_bitmineadds | entity_holdingsnear | object_disclosure",
+      "ts": "2026-08-31T22:02:18.528882+00:00"
     }
   }
 }
