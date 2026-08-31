@@ -1,12 +1,5 @@
 {
   "posted": {
-    "a8f98065397882bc": {
-      "title": "XRP Ledger Rolls Out Major Upgrade to Fix Manifest Flood Issue",
-      "url": "u.today/xrp-ledger-rolls-out-major-upgrade-to-fix-manifest-flood-issue",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-01T13:00:57.496467+00:00"
-    },
     "76772318fe0921fe": {
       "title": "Coldcard flaw drains up to $70M in Bitcoin as social mood hits a record low",
       "url": "www.cryptopolitan.com/coldcard-exploit-bitcoin-sentiment",
@@ -4717,6 +4710,13 @@
       "signature": "action_purchase | action_support | amount_usd_370000000 | asset_btc | entity_스트래티지 | object_corporate_crypto_purchase",
       "canonical_key": "action_purchase | action_support | amount_usd_370000000 | asset_btc | entity_스트래티지 | object_corporate_crypto_purchase",
       "ts": "2026-08-31T13:02:22.229596+00:00"
+    },
+    "93aed436f0beaf66": {
+      "title": "Strategy buys 4,603 BTC for $370M in first Bitcoin purchase in two months",
+      "url": "www.cryptopolitan.com/strategy-buys-4603-btc-selling-thousands",
+      "signature": "action_disclose | action_purchase | action_sell | amount_btc_4603 | amount_btc_approx_4600 | amount_usd_369700000 | amount_usd_370000000 | asset_btc | entity_sec | entity_마이클세일러 | entity_스트래티지 | object_corporate_crypto_purchase",
+      "canonical_key": "action_disclose | action_purchase | action_sell | amount_btc_4603 | amount_btc_approx_4600 | amount_usd_369700000 | amount_usd_370000000 | asset_btc | entity_sec | entity_마이클세일러 | entity_스트래티지 | object_corporate_crypto_purchase",
+      "ts": "2026-08-31T14:02:35.619584+00:00"
     }
   }
 }
