@@ -4710,6 +4710,13 @@
       "signature": "action_expand | action_sanction | amount_usd_40000000000 | asset_btc | geo_russia | object_sanctions",
       "canonical_key": "action_expand | action_sanction | amount_usd_40000000000 | asset_btc | geo_russia | object_sanctions",
       "ts": "2026-08-31T15:03:12.192805+00:00"
+    },
+    "0f82ce4a1935675e": {
+      "title": "Bitcoin begins volatile monthly close as US bond yields eye new 20-year high",
+      "url": "cointelegraph.com/markets/bitcoin-begins-volatile-monthly-close-as-us-bond-yields-eye-new-20-year-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_close | action_transfer | asset_btc | duration_years_20 | geo_us | object_bond",
+      "canonical_key": "action_close | action_transfer | asset_btc | duration_years_20 | geo_us | object_bond",
+      "ts": "2026-08-31T17:02:33.828850+00:00"
     }
   }
 }
