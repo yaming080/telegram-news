@@ -1,12 +1,5 @@
 {
   "posted": {
-    "76772318fe0921fe": {
-      "title": "Coldcard flaw drains up to $70M in Bitcoin as social mood hits a record low",
-      "url": "www.cryptopolitan.com/coldcard-exploit-bitcoin-sentiment",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-01T14:01:02.558447+00:00"
-    },
     "52aafea087f24ad4": {
       "title": "Bitcoin Fear Reaches Record High as Coldcard Exploit Shakes Confidence in Self-Custody",
       "url": "cryptopotato.com/bitcoin-fear-reaches-record-high-as-coldcard-exploit-shakes-confidence-in-self-custody",
@@ -4717,6 +4710,20 @@
       "signature": "action_disclose | action_purchase | action_sell | amount_btc_4603 | amount_btc_approx_4600 | amount_usd_369700000 | amount_usd_370000000 | asset_btc | entity_sec | entity_마이클세일러 | entity_스트래티지 | object_corporate_crypto_purchase",
       "canonical_key": "action_disclose | action_purchase | action_sell | amount_btc_4603 | amount_btc_approx_4600 | amount_usd_369700000 | amount_usd_370000000 | asset_btc | entity_sec | entity_마이클세일러 | entity_스트래티지 | object_corporate_crypto_purchase",
       "ts": "2026-08-31T14:02:35.619584+00:00"
+    },
+    "945c155ce4512fa4": {
+      "title": "Mystery surrounds why an OG burned $1M in Bitcoin",
+      "url": "cointelegraph.com/magazine/mystery-surrounds-why-an-og-burned-1m-in-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-31T15:02:52.506741+00:00"
+    },
+    "060e453126dd5eb5": {
+      "title": "Russia to legalize crypto in September, targets $40B market",
+      "url": "www.cryptopolitan.com/russia-legalizes-crypto-september-40-billion",
+      "signature": "action_expand | action_sanction | amount_usd_40000000000 | asset_btc | geo_russia | object_sanctions",
+      "canonical_key": "action_expand | action_sanction | amount_usd_40000000000 | asset_btc | geo_russia | object_sanctions",
+      "ts": "2026-08-31T15:03:12.192805+00:00"
     }
   }
 }
