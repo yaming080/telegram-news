@@ -1,19 +1,5 @@
 {
   "posted": {
-    "1e5fb6798ca0ceea": {
-      "title": "Russia expands mining ban to Moscow, pressuring global Bitcoin hash rate",
-      "url": "www.cryptopolitan.com/russia-expands-mining-ban-to-moscow-pressuring-global-bitcoin-hash-rate",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-01T06:01:14.440174+00:00"
-    },
-    "92fc561a173bd9d4": {
-      "title": "콜드카드 취약점 노출…비트코인 1000개 넘게 41분 만에 털렸다",
-      "url": "www.tokenpost.kr/news/cryptocurrency/383525",
-      "signature": "action_steal | asset_btc | object_card | object_wallet",
-      "canonical_key": "action_steal | asset_btc | object_card | object_wallet",
-      "ts": "2026-08-01T06:01:18.439522+00:00"
-    },
     "43db163137e2c850": {
       "title": "XRP Ledger v3.3.0 brings five institutional features",
       "url": "crypto.news/xrp-ledger-v3-3-0-brings-five-institutional-features",
@@ -4745,6 +4731,13 @@
       "signature": "action_migrate | action_propose | action_transfer | amount_krw_101900000000 | amount_krw_8300000000 | amount_usd_6000000 | amount_usd_74000000 | asset_eth | object_lending | object_network",
       "canonical_key": "action_migrate | action_propose | action_transfer | amount_krw_101900000000 | amount_krw_8300000000 | amount_usd_6000000 | amount_usd_74000000 | asset_eth | object_lending | object_network",
       "ts": "2026-08-31T02:01:47.544580+00:00"
+    },
+    "9c98d00e30becb4a": {
+      "title": "Ripple Continues Massive RLUSD Minting Spree on XRPL",
+      "url": "u.today/ripple-continues-massive-rlusd-minting-spree-on-xrpl",
+      "signature": "action_mint | amount_usd_2000000000 | asset_eth | asset_rlusd | asset_stablecoin | asset_xrp | asset_xrpl | entity_리플 | object_rlusd",
+      "canonical_key": "action_mint | amount_usd_2000000000 | asset_eth | asset_rlusd | asset_stablecoin | asset_xrp | asset_xrpl | entity_리플 | object_rlusd",
+      "ts": "2026-08-31T07:01:25.953614+00:00"
     }
   }
 }
