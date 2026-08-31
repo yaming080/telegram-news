@@ -1,12 +1,5 @@
 {
   "posted": {
-    "4c42af596381704e": {
-      "title": "Coldcard's biggest security failure may have cost $70M",
-      "url": "www.cryptopolitan.com/coldcard-biggest-security-failure-cost-70m",
-      "signature": "action_steal | amount_usd_70000000 | asset_btc | entity_갤럭시리서치",
-      "canonical_key": "action_steal | amount_usd_70000000 | asset_btc | entity_갤럭시리서치",
-      "ts": "2026-08-01T00:01:15.946488+00:00"
-    },
     "00208cc4882f4236": {
       "title": "-2.3 Billion SHIB Burned in 24 Hours as Shiba Inu Enters Smooth Acceleration Period",
       "url": "u.today/23-billion-shib-burned-in-24-hours-as-shiba-inu-enters-smooth-acceleration-period",
@@ -4745,6 +4738,13 @@
       "signature": "action_purchase | action_support | asset_btc | entity_마이클세일러 | entity_스트래티지 | object_corporate_crypto_purchase",
       "canonical_key": "action_purchase | action_support | asset_btc | entity_마이클세일러 | entity_스트래티지 | object_corporate_crypto_purchase",
       "ts": "2026-08-30T19:01:39.537823+00:00"
+    },
+    "d6013c6684744854": {
+      "title": "솔라나 발행 1890만 SOL 감축…BTC 양자 실험도",
+      "url": "www.tokenpost.kr/news/blockchain/400869",
+      "signature": "action_disclose | action_issue | action_launch | action_mint | action_pass | asset_btc | asset_sol | object_disclosure",
+      "canonical_key": "action_disclose | action_issue | action_launch | action_mint | action_pass | asset_btc | asset_sol | object_disclosure",
+      "ts": "2026-08-31T01:01:34.534871+00:00"
     }
   }
 }
