@@ -1,26 +1,5 @@
 {
   "posted": {
-    "1f3fd114734cbd72": {
-      "title": "부탄, 비트코인 국가자산 운용 첫 위임…3iQ와 금융허브 실험 본격화",
-      "url": "www.tokenpost.kr/news/cryptocurrency/383636",
-      "signature": "action_build | action_convert | action_develop | action_disclose | action_launch | asset_btc | geo_bhutan | object_custody | object_disclosure",
-      "canonical_key": "action_build | action_convert | action_develop | action_disclose | action_launch | asset_btc | geo_bhutan | object_custody | object_disclosure",
-      "ts": "2026-08-01T12:00:52.482481+00:00"
-    },
-    "f5f2159e8a3015fd": {
-      "title": "Ripple Announcement Scam Flagged by XRPL Foundation Director, Issues Warning",
-      "url": "u.today/ripple-announcement-scam-flagged-by-xrpl-foundation-director-issues-warning",
-      "signature": "action_issue | asset_xrp | asset_xrpl | entity_xrplfoundationdirector | entity_xrpl재단 | entity_리플",
-      "canonical_key": "action_issue | asset_xrp | asset_xrpl | entity_xrplfoundationdirector | entity_xrpl재단 | entity_리플",
-      "ts": "2026-08-01T12:00:56.007671+00:00"
-    },
-    "59d3a293b0849c86": {
-      "title": "Bitget adds daily Bitcoin rewards to BGBTC",
-      "url": "crypto.news/bitget-adds-daily-bitcoin-rewards-to-bgbtc",
-      "signature": "action_support | asset_btc | entity_bgbtc | entity_비트겟",
-      "canonical_key": "action_support | asset_btc | entity_bgbtc | entity_비트겟",
-      "ts": "2026-08-01T12:01:04.322348+00:00"
-    },
     "a8f98065397882bc": {
       "title": "XRP Ledger Rolls Out Major Upgrade to Fix Manifest Flood Issue",
       "url": "u.today/xrp-ledger-rolls-out-major-upgrade-to-fix-manifest-flood-issue",
@@ -4731,6 +4710,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-08-31T10:01:11.321451+00:00"
+    },
+    "a0e75d005aa76e92": {
+      "title": "Strategy buys $370M Bitcoin in first corporate purchase since June",
+      "url": "cointelegraph.com/news/strategy-buys-370m-bitcoin-first-acquisition-june?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_purchase | action_support | amount_usd_370000000 | asset_btc | entity_스트래티지 | object_corporate_crypto_purchase",
+      "canonical_key": "action_purchase | action_support | amount_usd_370000000 | asset_btc | entity_스트래티지 | object_corporate_crypto_purchase",
+      "ts": "2026-08-31T13:02:22.229596+00:00"
     }
   }
 }
