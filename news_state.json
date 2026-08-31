@@ -1,12 +1,5 @@
 {
   "posted": {
-    "267a16b6860dcbf5": {
-      "title": "Uniswap launches Earn with Morpho lending vaults",
-      "url": "crypto.news/uniswap-launches-earn-with-morpho-lending-vaults",
-      "signature": "action_launch | action_support | asset_eth | asset_usdc | asset_usdt | entity_유니스왑 | object_custody | object_lending",
-      "canonical_key": "action_launch | action_support | asset_eth | asset_usdc | asset_usdt | entity_유니스왑 | object_custody | object_lending",
-      "ts": "2026-07-31T23:01:10.749804+00:00"
-    },
     "4c42af596381704e": {
       "title": "Coldcard's biggest security failure may have cost $70M",
       "url": "www.cryptopolitan.com/coldcard-biggest-security-failure-cost-70m",
