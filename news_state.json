@@ -4731,6 +4731,13 @@
       "signature": "action_invest | action_propose | amount_krw_200000000000 | amount_krw_500000000000 | amount_krw_900000000000 | amount_pct_21.75 | amount_pct_24.13 | amount_usd_12300000000 | amount_usd_15600000000 | amount_usd_470000000000 | asset_btc | entity_바이낸스 | object_wallet",
       "canonical_key": "action_invest | action_propose | amount_krw_200000000000 | amount_krw_500000000000 | amount_krw_900000000000 | amount_pct_21.75 | amount_pct_24.13 | amount_usd_12300000000 | amount_usd_15600000000 | amount_usd_470000000000 | asset_btc | entity_바이낸스 | object_wallet",
       "ts": "2026-08-31T09:01:35.442171+00:00"
+    },
+    "131b0e1c660b81e0": {
+      "title": "Berlin probes cyberattack as hackers demand 30 Bitcoin for stolen data",
+      "url": "crypto.news/berlin-probes-cyberattack-as-hackers-demand-30-bitcoin-for-stolen-data",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-08-31T10:01:11.321451+00:00"
     }
   }
 }
