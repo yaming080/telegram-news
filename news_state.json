@@ -4724,6 +4724,13 @@
       "signature": "action_purchase | action_support | amount_usd_143000000 | amount_usd_370000000 | asset_btc | entity_스트라이브 | entity_스트래티지 | object_corporate_crypto_purchase",
       "canonical_key": "action_purchase | action_support | amount_usd_143000000 | amount_usd_370000000 | asset_btc | entity_스트라이브 | entity_스트래티지 | object_corporate_crypto_purchase",
       "ts": "2026-09-01T02:03:26.716114+00:00"
+    },
+    "80e214ead10b4f05": {
+      "title": "AI 재식별 위험에 지캐시 프라이버시 다시 거론",
+      "url": "www.tokenpost.kr/news/cryptocurrency/401454",
+      "signature": "action_disclose | action_launch | action_propose | asset_btc | object_disclosure",
+      "canonical_key": "action_disclose | action_launch | action_propose | asset_btc | object_disclosure",
+      "ts": "2026-09-01T03:03:23.810292+00:00"
     }
   }
 }
