@@ -4710,6 +4710,13 @@
       "signature": "action_disclose | action_purchase | amount_eth_53501 | amount_eth_approx_53500 | amount_pct_4.9 | amount_pct_5 | asset_eth | entity_bitmineadds | entity_holdingsnear | object_disclosure",
       "canonical_key": "action_disclose | action_purchase | amount_eth_53501 | amount_eth_approx_53500 | amount_pct_4.9 | amount_pct_5 | asset_eth | entity_bitmineadds | entity_holdingsnear | object_disclosure",
       "ts": "2026-08-31T22:02:18.528882+00:00"
+    },
+    "949bc4bab2a4e878": {
+      "title": "캐시 우드 \"비트코인, 위기 헤지와 위험자산 역할 모두 가능\"",
+      "url": "www.tokenpost.kr/news/cryptocurrency/401015",
+      "signature": "action_adopt | action_audit | action_build | action_invest | action_launch | asset_btc | object_institutional_adoption",
+      "canonical_key": "action_adopt | action_audit | action_build | action_invest | action_launch | asset_btc | object_institutional_adoption",
+      "ts": "2026-09-01T01:03:33.555379+00:00"
     }
   }
 }
