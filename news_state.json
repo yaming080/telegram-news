@@ -1,19 +1,5 @@
 {
   "posted": {
-    "f03da712e43bd186": {
-      "title": "정확도 89%, 비트코인 불법거래 잡는 AI…재현율은 64%뿐",
-      "url": "www.tokenpost.kr/news/blockchain/383892",
-      "signature": "action_develop | action_disclose | action_launch | amount_pct_64 | amount_pct_89 | amount_pct_89.4 | asset_btc | object_disclosure | object_network",
-      "canonical_key": "action_develop | action_disclose | action_launch | amount_pct_64 | amount_pct_89 | amount_pct_89.4 | asset_btc | object_disclosure | object_network",
-      "ts": "2026-08-02T13:00:53.634481+00:00"
-    },
-    "55f659a7f9fbddfd": {
-      "title": "콜드카드 해킹 여파…비트코인 자금, 거래소로 되돌아갔다",
-      "url": "www.tokenpost.kr/news/cryptocurrency/383889",
-      "signature": "action_compromise | action_hack | action_invest | asset_btc | entity_콜드카드 | geo_canada | object_card | object_custody | object_hardware_wallet_security | object_wallet",
-      "canonical_key": "action_compromise | action_hack | action_invest | asset_btc | entity_콜드카드 | geo_canada | object_card | object_custody | object_hardware_wallet_security | object_wallet",
-      "ts": "2026-08-02T13:00:57.573558+00:00"
-    },
     "69a72623515aa889": {
       "title": "중국, AI로 비트코인(BTC) 자금세탁 90% 정확도 추적 시스템 개발",
       "url": "www.tokenpost.kr/news/cryptocurrency/383909",
@@ -4738,6 +4724,27 @@
       "signature": "action_partner | entity_리플",
       "canonical_key": "action_partner | entity_리플",
       "ts": "2026-09-01T13:03:14.675777+00:00"
+    },
+    "9c0fb6f51483104a": {
+      "title": "Asia sees digital asset custody infrastructure deals from Ripple, Coincheck",
+      "url": "cointelegraph.com/news/asia-digital-asset-custody-deals-ripple-coincheck?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_build | action_partner | entity_리플 | object_custody | object_infrastructure",
+      "canonical_key": "action_build | action_partner | entity_리플 | object_custody | object_infrastructure",
+      "ts": "2026-09-01T14:03:33.556321+00:00"
+    },
+    "fbb0fd0c10e1e20a": {
+      "title": "Ethena Brings USDe Payments to Avalanche With Up to 6% Yield, 10% Cashback",
+      "url": "thecryptobasic.com/2026/09/01/ethena-brings-usde-payments-to-avalanche-with-up-to-6-yield-10-cashback",
+      "signature": "action_launch | action_transfer | amount_pct_10 | amount_pct_6 | count_markets_48 | object_card | object_custody | object_payment",
+      "canonical_key": "action_launch | action_transfer | amount_pct_10 | amount_pct_6 | count_markets_48 | object_card | object_custody | object_payment",
+      "ts": "2026-09-01T14:03:37.548492+00:00"
+    },
+    "d509c2d8998731a9": {
+      "title": "Cardano anchors 500,000 supply chain records",
+      "url": "crypto.news/cardano-anchors-500000-supply-chain-records",
+      "signature": "action_launch | entity_카르다노",
+      "canonical_key": "action_launch | entity_카르다노",
+      "ts": "2026-09-01T14:03:43.319369+00:00"
     }
   }
 }
