@@ -4717,6 +4717,13 @@
       "signature": "action_adopt | action_audit | action_build | action_invest | action_launch | asset_btc | object_institutional_adoption",
       "canonical_key": "action_adopt | action_audit | action_build | action_invest | action_launch | asset_btc | object_institutional_adoption",
       "ts": "2026-09-01T01:03:33.555379+00:00"
+    },
+    "f2139ca525afa5ee": {
+      "title": "Bitcoin Treasury shakeout deepens with Strive purchases",
+      "url": "www.cryptopolitan.com/bitcoin-shakeout-deepens-strive-buys-more",
+      "signature": "action_purchase | action_support | amount_usd_143000000 | amount_usd_370000000 | asset_btc | entity_스트라이브 | entity_스트래티지 | object_corporate_crypto_purchase",
+      "canonical_key": "action_purchase | action_support | amount_usd_143000000 | amount_usd_370000000 | asset_btc | entity_스트라이브 | entity_스트래티지 | object_corporate_crypto_purchase",
+      "ts": "2026-09-01T02:03:26.716114+00:00"
     }
   }
 }
