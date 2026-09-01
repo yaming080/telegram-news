@@ -4731,6 +4731,27 @@
       "signature": "action_launch | entity_카르다노",
       "canonical_key": "action_launch | entity_카르다노",
       "ts": "2026-09-01T14:03:43.319369+00:00"
+    },
+    "07a211f8e63a3377": {
+      "title": "Ethena Expands Ecosystem With Launch of Self-Custodial Money App",
+      "url": "cryptopotato.com/ethena-expands-ecosystem-with-launch-of-self-custodial-money-app",
+      "signature": "action_expand | action_launch | object_custody",
+      "canonical_key": "action_expand | action_launch | object_custody",
+      "ts": "2026-09-01T16:04:20.622113+00:00"
+    },
+    "5e932d832f894a15": {
+      "title": "New Important Ripple (XRP) Partnership Targets Banks and Institutional Clients",
+      "url": "cryptopotato.com/new-important-ripple-xrp-partnership-targets-banks-and-institutional-clients",
+      "signature": "action_issue | action_launch | action_partner | asset_xrp | entity_리플 | object_custody",
+      "canonical_key": "action_issue | action_launch | action_partner | asset_xrp | entity_리플 | object_custody",
+      "ts": "2026-09-01T16:04:23.491052+00:00"
+    },
+    "03fe7fc1874c9d73": {
+      "title": "Ethena Pay launches beta with rates up to 6%",
+      "url": "crypto.news/ethena-pay-launches-beta-with-rates-up-to-6-percent",
+      "signature": "action_launch | amount_pct_6 | object_custody | object_payment",
+      "canonical_key": "action_launch | amount_pct_6 | object_custody | object_payment",
+      "ts": "2026-09-01T16:04:26.361900+00:00"
     }
   }
 }
