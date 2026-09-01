@@ -4724,6 +4724,27 @@
       "signature": "action_disclose | action_launch | action_transfer | amount_pct_020 | amount_pct_1020 | entity_시바이누 | object_disclosure",
       "canonical_key": "action_disclose | action_launch | action_transfer | amount_pct_020 | amount_pct_1020 | entity_시바이누 | object_disclosure",
       "ts": "2026-09-01T05:06:14.474331+00:00"
+    },
+    "d184c8cee629bdc9": {
+      "title": "비트코인 김치프리미엄 1% 안팎으로 재등장",
+      "url": "www.tokenpost.kr/news/cryptocurrency/401540",
+      "signature": "action_invest | amount_pct_1 | asset_btc | entity_바이낸스 | entity_업비트 | geo_korea",
+      "canonical_key": "action_invest | amount_pct_1 | asset_btc | entity_바이낸스 | entity_업비트 | geo_korea",
+      "ts": "2026-09-01T07:04:43.520146+00:00"
+    },
+    "7fc7c9d927eb36bd": {
+      "title": "Solana AMM Aquifer hit by $2.5 million exploit, offers 20% bounty",
+      "url": "crypto.news/solana-amm-aquifer-hit-by-2-5-million-exploit-offers-20-bounty",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-09-01T07:04:49.198723+00:00"
+    },
+    "126f959a802defe4": {
+      "title": "CME launches crypto indexes tracking XRP, SOL, HYPE and other altcoins",
+      "url": "crypto.news/cme-launches-crypto-indexes-tracking-xrp-sol-hype-and-other-altcoins",
+      "signature": "action_launch | asset_btc | asset_sol | asset_xrp | entity_hype | entity_시카고상품거래소",
+      "canonical_key": "action_launch | asset_btc | asset_sol | asset_xrp | entity_hype | entity_시카고상품거래소",
+      "ts": "2026-09-01T07:04:52.035947+00:00"
     }
   }
 }
