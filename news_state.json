@@ -1,19 +1,5 @@
 {
   "posted": {
-    "1d2edcab7280e066": {
-      "title": "Coldcard hack sparks biggest sub-1 BTC move since FTX: CryptoQuant",
-      "url": "cointelegraph.com/news/coldcard-biggest-sub-1-btc-transfer-ftx-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "action_hack | amount_btc_1 | amount_btc_39600 | amount_btc_approx_39600 | asset_btc | entity_btc | entity_ftx | entity_콜드카드",
-      "canonical_key": "action_hack | amount_btc_1 | amount_btc_39600 | amount_btc_approx_39600 | asset_btc | entity_btc | entity_ftx | entity_콜드카드",
-      "ts": "2026-08-02T09:00:54.615414+00:00"
-    },
-    "a9c2c7af2175a1e0": {
-      "title": "July’s Biggest Ripple (XRP) Stories: RLUSD Expansion, AI, and Institutional Adoption",
-      "url": "cryptopotato.com/julys-biggest-ripple-xrp-stories-rlusd-expansion-ai-and-institutional-adoption",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-02T09:00:58.415156+00:00"
-    },
     "01ea5a6e37feedb4": {
       "title": "BNB Chain pursues legal action after ex-employee’s memecoin launch",
       "url": "cointelegraph.com/news/bnb-chain-legal-action-ex-employee-memecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -4752,6 +4738,13 @@
       "signature": "action_expand | action_integrate | entity_apac | entity_settlemint | entity_리플 | object_custody",
       "canonical_key": "action_expand | action_integrate | entity_apac | entity_settlemint | entity_리플 | object_custody",
       "ts": "2026-09-01T09:03:09.158920+00:00"
+    },
+    "a0aaaf7168c9ad0a": {
+      "title": "Shyft Partners With VARA-Licensed GAP3 as shCORE and shYIELD Near Pre-Deposits",
+      "url": "bitcoinist.com/shyft-partners-with-vara-licensed-gap3-as-shcore-and-shyield-near-pre-deposits",
+      "signature": "action_secure | asset_eth | entity_gap3 | entity_shyftpartnerswithvaralicensed | geo_dubai | object_license",
+      "canonical_key": "action_secure | asset_eth | entity_gap3 | entity_shyftpartnerswithvaralicensed | geo_dubai | object_license",
+      "ts": "2026-09-01T10:02:45.749127+00:00"
     }
   }
 }
