@@ -1,26 +1,5 @@
 {
   "posted": {
-    "214aba0cc2a50a62": {
-      "title": "분석가 \"BTC 오더북 하방 2~20%에 매수벽 형성\"",
-      "url": "www.tokenpost.kr/news/market/383937",
-      "signature": "action_support | amount_pct_20 | asset_btc | entity_btc",
-      "canonical_key": "action_support | amount_pct_20 | asset_btc | entity_btc",
-      "ts": "2026-08-02T16:01:08.802888+00:00"
-    },
-    "5f5b5847f1faa781": {
-      "title": "Why $89 Million Coldcard Drain Is Bullish for Bitcoin ETFs, Bloomberg Analyst Explains",
-      "url": "u.today/why-89-million-coldcard-drain-is-bullish-for-bitcoin-etfs-bloomberg-analyst-explains",
-      "signature": "action_steal | amount_usd_89000000 | asset_btc | entity_콜드카드",
-      "canonical_key": "action_steal | amount_usd_89000000 | asset_btc | entity_콜드카드",
-      "ts": "2026-08-02T16:01:12.144002+00:00"
-    },
-    "a81e4ceb793f05f0": {
-      "title": "Bitcoin ETFs gain fresh case after $89M Coldcard drain, says Balchunas",
-      "url": "crypto.news/bitcoin-etfs-gain-fresh-case-after-89m-coldcard-drain-says-balchunas",
-      "signature": "action_steal | amount_usd_88600000 | amount_usd_89000000 | asset_btc | entity_콜드카드 | object_custody",
-      "canonical_key": "action_steal | amount_usd_88600000 | amount_usd_89000000 | asset_btc | entity_콜드카드 | object_custody",
-      "ts": "2026-08-02T17:00:49.956997+00:00"
-    },
     "057e8c5dbf724ce7": {
       "title": "스테이블코인 분절화 가속…스파크, 유동성 연결 허브로 부상",
       "url": "www.tokenpost.kr/news/blockchain/383945",
@@ -4752,6 +4731,13 @@
       "signature": "action_launch | amount_pct_6 | object_custody | object_payment",
       "canonical_key": "action_launch | amount_pct_6 | object_custody | object_payment",
       "ts": "2026-09-01T16:04:26.361900+00:00"
+    },
+    "1b066866892f0860": {
+      "title": "Ethena launches USDe payments app, offers 6% rewards",
+      "url": "cointelegraph.com/news/ethena-launches-usde-powered-money-app-across-48-countries?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_launch | action_transfer | amount_pct_6 | entity_에테나 | object_custody | object_payment",
+      "canonical_key": "action_launch | action_transfer | amount_pct_6 | entity_에테나 | object_custody | object_payment",
+      "ts": "2026-09-01T17:01:53.693372+00:00"
     }
   }
 }
