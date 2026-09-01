@@ -1,33 +1,5 @@
 {
   "posted": {
-    "01ea5a6e37feedb4": {
-      "title": "BNB Chain pursues legal action after ex-employee’s memecoin launch",
-      "url": "cointelegraph.com/news/bnb-chain-legal-action-ex-employee-memecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "action_launch | object_wallet",
-      "canonical_key": "action_launch | object_wallet",
-      "ts": "2026-08-02T12:00:56.716079+00:00"
-    },
-    "73268936b066d132": {
-      "title": "비트코인, 6만7200달러 넘으면 반전 분기점 될까",
-      "url": "www.tokenpost.kr/news/market/383884",
-      "signature": "action_disclose | action_launch | amount_usd_63382 | amount_usd_67200 | asset_btc | object_disclosure",
-      "canonical_key": "action_disclose | action_launch | amount_usd_63382 | amount_usd_67200 | asset_btc | object_disclosure",
-      "ts": "2026-08-02T12:01:00.269582+00:00"
-    },
-    "948e28972cc29eff": {
-      "title": "자칭 사토시 크레이그 라이트 \"비트코인 규칙, 영원히 바꾸지 말아야\"",
-      "url": "www.tokenpost.kr/news/cryptocurrency/383879",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-02T12:01:04.133556+00:00"
-    },
-    "a92814c398ec0bcb": {
-      "title": "BNB Chain sues ex-employee over $628K memecoin trade",
-      "url": "crypto.news/bnb-chain-sues-ex-employee-over-628k-memecoin-trade",
-      "signature": "action_launch | action_sue | amount_usd_628000 | object_wallet",
-      "canonical_key": "action_launch | action_sue | amount_usd_628000 | object_wallet",
-      "ts": "2026-08-02T12:01:07.355152+00:00"
-    },
     "f03da712e43bd186": {
       "title": "정확도 89%, 비트코인 불법거래 잡는 AI…재현율은 64%뿐",
       "url": "www.tokenpost.kr/news/blockchain/383892",
@@ -4752,6 +4724,20 @@
       "signature": "action_issue | action_support | asset_btc | asset_usdt | entity_메타플래닛 | entity_스트래티지 | geo_us | object_fund",
       "canonical_key": "action_issue | action_support | asset_btc | asset_usdt | entity_메타플래닛 | entity_스트래티지 | geo_us | object_fund",
       "ts": "2026-09-01T11:03:38.837939+00:00"
+    },
+    "366a6c98b869badf": {
+      "title": "India’s Bitcoin Adoption Has a Malthusian Problem: More Owners, Only 21 Million Coins",
+      "url": "coinedition.com/indias-bitcoin-adoption-has-a-malthusian-problem-more-owners-only-21-million-coins",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-09-01T13:03:08.262920+00:00"
+    },
+    "20385a21245f1595": {
+      "title": "Ripple Lands New Partnership to Boost Digital Asset Services in Asia",
+      "url": "u.today/ripple-lands-new-partnership-to-boost-digital-asset-services-in-asia",
+      "signature": "action_partner | entity_리플",
+      "canonical_key": "action_partner | entity_리플",
+      "ts": "2026-09-01T13:03:14.675777+00:00"
     }
   }
 }
