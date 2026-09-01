@@ -1,26 +1,5 @@
 {
   "posted": {
-    "1696dd98e62e7d45": {
-      "title": "비트키, 이용자 요구에 '코인 컨트롤' 기능 앞당긴다",
-      "url": "www.tokenpost.kr/news/blockchain/383958",
-      "signature": "action_develop | asset_btc | object_wallet",
-      "canonical_key": "action_develop | asset_btc | object_wallet",
-      "ts": "2026-08-02T19:00:56.274570+00:00"
-    },
-    "f4745f9f316715d7": {
-      "title": "정밀도 89%, 재현율 65%…中 공안대 AI 비트코인 불법거래 탐지",
-      "url": "www.tokenpost.kr/news/blockchain/383956",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-02T19:01:00.482066+00:00"
-    },
-    "894dd60d65d5eb67": {
-      "title": "3조5000억번 실패한 지갑, 클로드가 버그 찾아 열었다",
-      "url": "www.tokenpost.kr/news/blockchain/383964",
-      "signature": "action_restore | amount_btc_5 | amount_usd_400000 | asset_btc | entity_앤트로픽 | object_recovery | object_wallet",
-      "canonical_key": "action_restore | amount_btc_5 | amount_usd_400000 | asset_btc | entity_앤트로픽 | object_recovery | object_wallet",
-      "ts": "2026-08-02T20:00:48.275259+00:00"
-    },
     "077452b6ad0d179e": {
       "title": "Coldcard exploit sparks Bitcoin flight, ‘bullish’ crypto consolidation: Hodler’s Digest, August 2",
       "url": "cointelegraph.com/magazine/coldcard-exploit-sparks-bitcoin-flight-clarity-act-no-vote-or-no-vote-hodlers-digest-august-2?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -4724,6 +4703,13 @@
       "signature": "action_launch | action_transfer | amount_pct_6 | entity_에테나 | object_custody | object_payment",
       "canonical_key": "action_launch | action_transfer | amount_pct_6 | entity_에테나 | object_custody | object_payment",
       "ts": "2026-09-01T17:01:53.693372+00:00"
+    },
+    "97f6cf6e18b95ebe": {
+      "title": "'Rich Dad, Poor Dad' Author Behind Massive BTC Price Predictions Faces $1.2 Billion Debt",
+      "url": "u.today/rich-dad-poor-dad-author-behind-massive-btc-price-predictions-faces-12-billion-debt",
+      "signature": "action_disclose | amount_usd_1200000000 | asset_btc | object_disclosure",
+      "canonical_key": "action_disclose | amount_usd_1200000000 | asset_btc | object_disclosure",
+      "ts": "2026-09-01T20:02:00.617382+00:00"
     }
   }
 }
