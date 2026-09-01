@@ -4745,6 +4745,13 @@
       "signature": "action_secure | asset_eth | entity_gap3 | entity_shyftpartnerswithvaralicensed | geo_dubai | object_license",
       "canonical_key": "action_secure | asset_eth | entity_gap3 | entity_shyftpartnerswithvaralicensed | geo_dubai | object_license",
       "ts": "2026-09-01T10:02:45.749127+00:00"
+    },
+    "8a435e935ce3a39c": {
+      "title": "Bitfinex Securities lists tokenized notes tied to Strategy, Metaplanet",
+      "url": "cointelegraph.com/news/bitfinex-tokenized-strategy-metaplanet-notes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_issue | action_support | asset_btc | asset_usdt | entity_메타플래닛 | entity_스트래티지 | geo_us | object_fund",
+      "canonical_key": "action_issue | action_support | asset_btc | asset_usdt | entity_메타플래닛 | entity_스트래티지 | geo_us | object_fund",
+      "ts": "2026-09-01T11:03:38.837939+00:00"
     }
   }
 }
