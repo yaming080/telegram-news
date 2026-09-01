@@ -4745,6 +4745,13 @@
       "signature": "action_launch | asset_btc | asset_sol | asset_xrp | entity_hype | entity_시카고상품거래소",
       "canonical_key": "action_launch | asset_btc | asset_sol | asset_xrp | entity_hype | entity_시카고상품거래소",
       "ts": "2026-09-01T07:04:52.035947+00:00"
+    },
+    "b4a25bda240ed93b": {
+      "title": "Ripple expands APAC custody through SettleMint deal",
+      "url": "crypto.news/ripple-expands-apac-custody-through-settlemint-deal",
+      "signature": "action_expand | action_integrate | entity_apac | entity_settlemint | entity_리플 | object_custody",
+      "canonical_key": "action_expand | action_integrate | entity_apac | entity_settlemint | entity_리플 | object_custody",
+      "ts": "2026-09-01T09:03:09.158920+00:00"
     }
   }
 }
