@@ -1,19 +1,5 @@
 {
   "posted": {
-    "057e8c5dbf724ce7": {
-      "title": "스테이블코인 분절화 가속…스파크, 유동성 연결 허브로 부상",
-      "url": "www.tokenpost.kr/news/blockchain/383945",
-      "signature": "action_build | action_issue | action_mint | asset_stablecoin | asset_usdc | asset_usdt | entity_로빈후드 | entity_코인베이스 | entity_테더 | object_infrastructure | object_network",
-      "canonical_key": "action_build | action_issue | action_mint | asset_stablecoin | asset_usdc | asset_usdt | entity_로빈후드 | entity_코인베이스 | entity_테더 | object_infrastructure | object_network",
-      "ts": "2026-08-02T18:00:49.091923+00:00"
-    },
-    "90cc58503cfa34a7": {
-      "title": "Coldcard users face urgent seed migration warning",
-      "url": "crypto.news/coldcard-users-face-urgent-seed-migration-warning",
-      "signature": "action_migrate | amount_btc_1367 | amount_btc_approx_1400 | amount_usd_88600000 | asset_btc | entity_콜드카드",
-      "canonical_key": "action_migrate | amount_btc_1367 | amount_btc_approx_1400 | amount_usd_88600000 | asset_btc | entity_콜드카드",
-      "ts": "2026-08-02T18:00:52.458709+00:00"
-    },
     "1696dd98e62e7d45": {
       "title": "비트키, 이용자 요구에 '코인 컨트롤' 기능 앞당긴다",
       "url": "www.tokenpost.kr/news/blockchain/383958",
