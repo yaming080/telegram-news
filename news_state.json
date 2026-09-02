@@ -1,19 +1,5 @@
 {
   "posted": {
-    "43aadef71c0a0598": {
-      "title": "184 Billion Bitcoin (BTC) Mystery: Why Self-Proclaimed Satoshi Craig Wright Is Digging Up 2010 History",
-      "url": "u.today/184-billion-bitcoin-btc-mystery-why-self-proclaimed-satoshi-craig-wright-is-digging-up-2010-history",
-      "signature": "action_hack | asset_btc | entity_btc",
-      "canonical_key": "action_hack | asset_btc | entity_btc",
-      "ts": "2026-08-03T14:01:01.137321+00:00"
-    },
-    "d446a8481ba399b5": {
-      "title": "Strategy sells $104.7 million in Bitcoin to support preferred stock",
-      "url": "crypto.news/strategy-sells-104-7-million-in-bitcoin-to-support-preferred-stock",
-      "signature": "action_redeem | action_support | amount_usd_104700000 | asset_btc | entity_sec | entity_스트래티지 | geo_us | object_sale",
-      "canonical_key": "action_redeem | action_support | amount_usd_104700000 | asset_btc | entity_sec | entity_스트래티지 | geo_us | object_sale",
-      "ts": "2026-08-03T14:01:05.044432+00:00"
-    },
     "b80b7f3a63487490": {
       "title": "XRP Phishing Alert Issued: Why It Matters",
       "url": "u.today/xrp-phishing-alert-issued-why-it-matters",
