@@ -1,12 +1,5 @@
 {
   "posted": {
-    "8bbe5860100552f2": {
-      "title": "아즈텍 재단, 인력 55% 줄이고 네트워크 운영 전환",
-      "url": "www.tokenpost.kr/news/blockchain/384534",
-      "signature": "action_convert | action_disclose | action_expand | action_launch | amount_pct_55 | asset_eth | count_people_15 | count_people_18 | count_people_33 | date_2025_02_13 | object_disclosure | object_network",
-      "canonical_key": "action_convert | action_disclose | action_expand | action_launch | amount_pct_55 | asset_eth | count_people_15 | count_people_18 | count_people_33 | date_2025_02_13 | object_disclosure | object_network",
-      "ts": "2026-08-03T19:00:51.617820+00:00"
-    },
     "8e3d02232630f38b": {
       "title": "Why the US-Japan Yen Intervention Matters for Bitcoin",
       "url": "coinedition.com/why-the-us-japan-yen-intervention-matters-for-bitcoin",
@@ -4542,6 +4535,20 @@
       "signature": "action_sue | action_support | amount_usd_42000000 | entity_데이비드슈워츠 | entity_리플 | entity_테더 | object_class_action",
       "canonical_key": "action_sue | action_support | amount_usd_42000000 | entity_데이비드슈워츠 | entity_리플 | entity_테더 | object_class_action",
       "ts": "2026-09-02T16:02:28.319295+00:00"
+    },
+    "bdb1ddbc97cce4d3": {
+      "title": "유에스디티제로, 스텔라서 247조원 유동성 연결",
+      "url": "www.tokenpost.kr/news/cryptocurrency/401935",
+      "signature": "action_develop | action_integrate | action_issue | action_launch | action_mint | amount_usd_80000000000 | asset_usdt | count_markets_180 | entity_테더 | object_network | object_payment",
+      "canonical_key": "action_develop | action_integrate | action_issue | action_launch | action_mint | amount_usd_80000000000 | asset_usdt | count_markets_180 | entity_테더 | object_network | object_payment",
+      "ts": "2026-09-02T20:01:41.621613+00:00"
+    },
+    "e6649f053ff1faea": {
+      "title": "Bitcoin bull market remains unconfirmed, Nansen says",
+      "url": "crypto.news/bitcoin-bull-market-remains-unconfirmed-nansen-says",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-09-02T20:01:46.299753+00:00"
     }
   }
 }
