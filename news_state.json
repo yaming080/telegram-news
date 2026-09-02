@@ -4710,6 +4710,13 @@
       "signature": "action_invest | asset_btc | asset_eth | asset_sol | entity_ark",
       "canonical_key": "action_invest | asset_btc | asset_eth | asset_sol | entity_ark",
       "ts": "2026-09-02T05:01:42.743278+00:00"
+    },
+    "6e272f37e5f7b41f": {
+      "title": "316일 해시레이트 공백, AI 전환 겹쳤다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/401829",
+      "signature": "action_build | action_convert | action_propose | amount_pct_20.6 | asset_btc | object_network",
+      "canonical_key": "action_build | action_convert | action_propose | amount_pct_20.6 | asset_btc | object_network",
+      "ts": "2026-09-02T06:02:08.294889+00:00"
     }
   }
 }
