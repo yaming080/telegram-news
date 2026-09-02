@@ -1,19 +1,5 @@
 {
   "posted": {
-    "a66bde9ab9c22265": {
-      "title": "[크립토 인앤아웃] 비트코인서 4040만 달러 이탈...USDT·달러로 자금 이동",
-      "url": "www.tokenpost.kr/news/cryptocurrency/384169",
-      "signature": "action_convert | amount_usd_1090000 | amount_usd_1230000 | amount_usd_1330000 | amount_usd_2090000 | amount_usd_21030000 | amount_usd_2270000 | amount_usd_3520000 | amount_usd_3700000 | amount_usd_40400000 | amount_usd_4660000 | amount_usd_5070000 | amount_usd_570000 | asset_btc | asset_stablecoin | asset_usdc | asset_usdt | asset_xrp | entity_usdt",
-      "canonical_key": "action_convert | amount_usd_1090000 | amount_usd_1230000 | amount_usd_1330000 | amount_usd_2090000 | amount_usd_21030000 | amount_usd_2270000 | amount_usd_3520000 | amount_usd_3700000 | amount_usd_40400000 | amount_usd_4660000 | amount_usd_5070000 | amount_usd_570000 | asset_btc | asset_stablecoin | asset_usdc | asset_usdt | asset_xrp | entity_usdt",
-      "ts": "2026-08-03T06:00:59.449748+00:00"
-    },
-    "52d59f21c8f65e45": {
-      "title": "SEC sets Aug. 24 deadline in Nasdaq Bitcoin options review",
-      "url": "crypto.news/sec-sets-aug-24-deadline-in-nasdaq-bitcoin-options-review",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-03T06:01:03.433437+00:00"
-    },
     "91c213b9d0afa305": {
       "title": "GoMining Integrates Uphold Platform to Expand Global Bitcoin Services",
       "url": "thenewscrypto.com/gomining-integrates-uphold-platform-to-expand-global-bitcoin-services",
@@ -4717,6 +4703,13 @@
       "signature": "action_build | action_convert | action_propose | amount_pct_20.6 | asset_btc | object_network",
       "canonical_key": "action_build | action_convert | action_propose | amount_pct_20.6 | asset_btc | object_network",
       "ts": "2026-09-02T06:02:08.294889+00:00"
+    },
+    "ac3c1c444cafc51d": {
+      "title": "Remixpoint dumps ETH, SOL, XRP and DOGE to focus crypto strategy on Bitcoin",
+      "url": "crypto.news/remixpoint-dumps-eth-sol-xrp-and-doge-to-focus-crypto-strategy-on-bitcoin",
+      "signature": "action_disclose | action_sell | amount_btc_1506 | amount_btc_approx_1500 | asset_btc | asset_eth | asset_sol | asset_xrp | entity_doge | entity_스트래티지 | geo_japan | object_disclosure | object_sale",
+      "canonical_key": "action_disclose | action_sell | amount_btc_1506 | amount_btc_approx_1500 | asset_btc | asset_eth | asset_sol | asset_xrp | entity_doge | entity_스트래티지 | geo_japan | object_disclosure | object_sale",
+      "ts": "2026-09-02T07:01:52.541783+00:00"
     }
   }
 }
