@@ -1,40 +1,5 @@
 {
   "posted": {
-    "bbf68d6d9989963b": {
-      "title": "3000만달러 차입…비트코인 담보로 AI 투자",
-      "url": "www.tokenpost.kr/news/cryptocurrency/384266",
-      "signature": "action_invest | amount_krw_43200000000 | amount_pct_4.9 | amount_usd_30000000 | asset_btc | entity_모포 | entity_비자",
-      "canonical_key": "action_invest | amount_krw_43200000000 | amount_pct_4.9 | amount_usd_30000000 | asset_btc | entity_모포 | entity_비자",
-      "ts": "2026-08-03T10:01:04.841322+00:00"
-    },
-    "88415ba152d047b3": {
-      "title": "55만 BTC, 바이낸스·OKX 입금 주소로 이동",
-      "url": "www.tokenpost.kr/news/market/384258",
-      "signature": "action_disclose | action_launch | action_migrate | asset_btc | entity_btc | entity_okx | entity_바이낸스 | object_derivatives | object_disclosure | object_sale | object_wallet",
-      "canonical_key": "action_disclose | action_launch | action_migrate | asset_btc | entity_btc | entity_okx | entity_바이낸스 | object_derivatives | object_disclosure | object_sale | object_wallet",
-      "ts": "2026-08-03T10:01:09.127121+00:00"
-    },
-    "4da0f3b1ba41b8d9": {
-      "title": "XRP Ledger Co-Creator Reveals 'Nuclear Briefcase' Strategy for Bitcoin Cold Storage",
-      "url": "u.today/xrp-ledger-co-creator-reveals-nuclear-briefcase-strategy-for-bitcoin-cold-storage",
-      "signature": "action_hack | action_secure | asset_btc | asset_xrp | asset_xrpl | entity_데이비드슈워츠 | entity_리플 | entity_스트래티지 | entity_콜드카드",
-      "canonical_key": "action_hack | action_secure | asset_btc | asset_xrp | asset_xrpl | entity_데이비드슈워츠 | entity_리플 | entity_스트래티지 | entity_콜드카드",
-      "ts": "2026-08-03T10:01:13.155196+00:00"
-    },
-    "2b48632f8389a414": {
-      "title": "Coldcard pushes bitcoin back to exchanges: the anti-self-custody trade",
-      "url": "crypto.news/coldcard-pushes-bitcoin-back-to-exchanges-anti-self-custody-trade",
-      "signature": "action_hack | action_steal | action_support | asset_btc | entity_콜드카드 | object_custody",
-      "canonical_key": "action_hack | action_steal | action_support | asset_btc | entity_콜드카드 | object_custody",
-      "ts": "2026-08-03T10:01:17.251328+00:00"
-    },
-    "9a6a2b409c1817f9": {
-      "title": "BITCOIN ASIA 2026 ADDS CZ TO SPEAKER LINEUP, FULL CONFERENCE AGENDA RELEASED",
-      "url": "coinedition.com/bitcoin-asia-2026-adds-cz-to-speaker-lineup-full-conference-agenda-released",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-03T11:00:52.501968+00:00"
-    },
     "c8201f85a979c557": {
       "title": "Early Bitcoin Dev Explains Why Self-Custody Is Still Superior After $88 Million Coldcard Bug",
       "url": "u.today/early-bitcoin-dev-explains-why-self-custody-is-still-superior-after-88-million-coldcard-bug",
@@ -4696,6 +4661,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-09-02T10:01:26.903681+00:00"
+    },
+    "e0cdc8c10edb0855": {
+      "title": "에이다 표결, 기준선 0.18%포인트 넘었다는 보도",
+      "url": "www.tokenpost.kr/news/blockchain/401876",
+      "signature": "action_support | action_upgrade | amount_pct_0.18 | amount_pct_51 | amount_pct_51.18 | amount_pct_67 | amount_pct_69.36 | entity_카르다노 | object_commissioner",
+      "canonical_key": "action_support | action_upgrade | amount_pct_0.18 | amount_pct_51 | amount_pct_51.18 | amount_pct_67 | amount_pct_69.36 | entity_카르다노 | object_commissioner",
+      "ts": "2026-09-02T11:02:17.199578+00:00"
+    },
+    "2acfb7a65d0be6f3": {
+      "title": "Base launches Creator Grant Program with up to $4,000 for creators",
+      "url": "crypto.news/base-launches-creator-grant-program-with-up-to-4000-for-creators",
+      "signature": "action_launch | amount_usd_4000 | asset_eth | object_network",
+      "canonical_key": "action_launch | amount_usd_4000 | asset_eth | object_network",
+      "ts": "2026-09-02T11:02:20.094889+00:00"
     }
   }
 }
