@@ -4696,6 +4696,20 @@
       "signature": "action_invest | action_support | action_transfer | asset_btc | asset_sol | asset_xrp | entity_카르다노 | object_etf | object_fund",
       "canonical_key": "action_invest | action_support | action_transfer | asset_btc | asset_sol | asset_xrp | entity_카르다노 | object_etf | object_fund",
       "ts": "2026-09-02T02:01:40.982486+00:00"
+    },
+    "1a85c2a683b262b6": {
+      "title": "비트와이즈 XRP ETF 순자산 5억달러 넘었다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/401792",
+      "signature": "action_launch | amount_krw_469400000000 | amount_krw_508400000000 | amount_krw_696900000000 | amount_krw_992300000000 | amount_pct_34.98 | amount_usd_1450000000 | amount_usd_153050000 | amount_usd_341600000 | amount_usd_370000000 | amount_usd_41600000 | amount_usd_50000000 | amount_usd_500000000 | asset_xrp | date_2025_11_19 | entity_리플 | geo_us | object_etf",
+      "canonical_key": "action_launch | amount_krw_469400000000 | amount_krw_508400000000 | amount_krw_696900000000 | amount_krw_992300000000 | amount_pct_34.98 | amount_usd_1450000000 | amount_usd_153050000 | amount_usd_341600000 | amount_usd_370000000 | amount_usd_41600000 | amount_usd_50000000 | amount_usd_500000000 | asset_xrp | date_2025_11_19 | entity_리플 | geo_us | object_etf",
+      "ts": "2026-09-02T04:02:13.451336+00:00"
+    },
+    "72a40f2ac8dd836b": {
+      "title": "These Wall Street Giants Are the Biggest Holders of Spot XRP ETFs",
+      "url": "cryptopotato.com/these-wall-street-giants-are-the-biggest-holders-of-spot-xrp-etfs",
+      "signature": "action_invest | amount_usd_120900000 | asset_xrp | object_etf | object_etf_holdings | object_fund",
+      "canonical_key": "action_invest | amount_usd_120900000 | asset_xrp | object_etf | object_etf_holdings | object_fund",
+      "ts": "2026-09-02T04:02:15.996261+00:00"
     }
   }
 }
