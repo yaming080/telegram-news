@@ -1,33 +1,5 @@
 {
   "posted": {
-    "d0ef94769d558090": {
-      "title": "On-Chain Data Exposes Link Between the Shiba Inu and Shibinhood Deployers",
-      "url": "thecryptobasic.com/2026/08/03/on-chain-data-exposes-link-between-the-shiba-inu-and-shibinhood-deployers",
-      "signature": "action_launch | entity_로빈후드 | entity_시바이누 | object_wallet",
-      "canonical_key": "action_launch | entity_로빈후드 | entity_시바이누 | object_wallet",
-      "ts": "2026-08-03T13:01:04.145937+00:00"
-    },
-    "6a17435d70e13b1c": {
-      "title": "2250ETH 매도한 초기 고래, 3년 만에 지갑 깨웠다",
-      "url": "www.tokenpost.kr/news/market/384358",
-      "signature": "action_invest | action_secure | amount_eth_2250 | amount_eth_approx_2200 | amount_krw_1600000000 | amount_krw_4400000000 | amount_krw_6000000000 | amount_usd_1100000 | amount_usd_3050000 | amount_usd_4150000 | asset_eth | object_sale | object_wallet",
-      "canonical_key": "action_invest | action_secure | amount_eth_2250 | amount_eth_approx_2200 | amount_krw_1600000000 | amount_krw_4400000000 | amount_krw_6000000000 | amount_usd_1100000 | amount_usd_3050000 | amount_usd_4150000 | asset_eth | object_sale | object_wallet",
-      "ts": "2026-08-03T13:01:09.117494+00:00"
-    },
-    "21898019ee516066": {
-      "title": "3년 잠든 이더리움 지갑, 2250개 팔았다",
-      "url": "www.tokenpost.kr/news/market/384357",
-      "signature": "action_disclose | action_launch | amount_krw_1600000000 | amount_krw_4400000000 | amount_krw_6000000000 | amount_usd_1100000 | amount_usd_3050000 | amount_usd_4150000 | asset_eth | object_disclosure | object_sale | object_wallet",
-      "canonical_key": "action_disclose | action_launch | amount_krw_1600000000 | amount_krw_4400000000 | amount_krw_6000000000 | amount_usd_1100000 | amount_usd_3050000 | amount_usd_4150000 | asset_eth | object_disclosure | object_sale | object_wallet",
-      "ts": "2026-08-03T13:01:13.196819+00:00"
-    },
-    "a14050259f2fafdf": {
-      "title": "Strategy Sold Over $100 Million in Bitcoin, Buys Back More STRC",
-      "url": "cryptopotato.com/strategy-sold-over-100-million-in-bitcoin-buys-back-more-strc",
-      "signature": "action_support | amount_btc_1600 | amount_btc_approx_1600 | amount_usd_100000000 | asset_btc | entity_스트래티지 | object_sale",
-      "canonical_key": "action_support | amount_btc_1600 | amount_btc_approx_1600 | amount_usd_100000000 | asset_btc | entity_스트래티지 | object_sale",
-      "ts": "2026-08-03T13:01:17.377293+00:00"
-    },
     "43aadef71c0a0598": {
       "title": "184 Billion Bitcoin (BTC) Mystery: Why Self-Proclaimed Satoshi Craig Wright Is Digging Up 2010 History",
       "url": "u.today/184-billion-bitcoin-btc-mystery-why-self-proclaimed-satoshi-craig-wright-is-digging-up-2010-history",
@@ -4640,6 +4612,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-09-02T12:01:36.748697+00:00"
+    },
+    "075d000a796f6e4d": {
+      "title": "XRP Joins Ether, Solana in $369 Million Liquidation Wave Amid SEC Blockchain Overhaul: Main Crypto News This Morning",
+      "url": "u.today/xrp-joins-ether-solana-in-369-million-liquidation-wave-amid-sec-blockchain-overhaul-main-crypto",
+      "signature": "action_integrate | action_upgrade | amount_usd_369000000 | amount_xrp_90000 | amount_xrp_approx_90000 | asset_eth | asset_sol | asset_xrp | entity_sec",
+      "canonical_key": "action_integrate | action_upgrade | amount_usd_369000000 | amount_xrp_90000 | amount_xrp_approx_90000 | asset_eth | asset_sol | asset_xrp | entity_sec",
+      "ts": "2026-09-02T14:01:59.535745+00:00"
     }
   }
 }
