@@ -4542,6 +4542,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-09-02T21:03:06.273563+00:00"
+    },
+    "f2f54cc5e4db8d66": {
+      "title": "USDC 37개 체인, 양자내성 전환 느린 고리 남았다",
+      "url": "www.tokenpost.kr/news/blockchain/401965",
+      "signature": "action_convert | action_disclose | action_issue | action_launch | action_mint | action_propose | asset_btc | asset_eth | asset_usdc | object_custody | object_disclosure | object_wallet",
+      "canonical_key": "action_convert | action_disclose | action_issue | action_launch | action_mint | action_propose | asset_btc | asset_eth | asset_usdc | object_custody | object_disclosure | object_wallet",
+      "ts": "2026-09-02T22:02:23.230542+00:00"
     }
   }
 }
