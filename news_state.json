@@ -4696,6 +4696,13 @@
       "signature": "action_disclose | amount_usd_1200000000 | asset_btc | object_disclosure",
       "canonical_key": "action_disclose | amount_usd_1200000000 | asset_btc | object_disclosure",
       "ts": "2026-09-01T20:02:00.617382+00:00"
+    },
+    "56c379574c44e1d3": {
+      "title": "Hashdex Adds HYPE to Its Nine-Asset Crypto ETF",
+      "url": "coinedition.com/crypto-live-news/hashdex-adds-hype-to-its-nine-asset-crypto-etf",
+      "signature": "action_invest | action_support | action_transfer | asset_btc | asset_sol | asset_xrp | entity_카르다노 | object_etf | object_fund",
+      "canonical_key": "action_invest | action_support | action_transfer | asset_btc | asset_sol | asset_xrp | entity_카르다노 | object_etf | object_fund",
+      "ts": "2026-09-02T02:01:40.982486+00:00"
     }
   }
 }
