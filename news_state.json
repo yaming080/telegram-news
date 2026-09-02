@@ -1,19 +1,5 @@
 {
   "posted": {
-    "b8fd5fff25ef6e20": {
-      "title": "TRON DAO Joins Blockchain Application Stanford Summit at the Science of Blockchain Conference as a Sponsor",
-      "url": "www.cryptopolitan.com/tron-dao-joins-blockchain-application-stanford-summit-at-the-science-of-blockchain-conference-as-a-sponsor",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-03T17:01:25.115233+00:00"
-    },
-    "96424c820bee0b3a": {
-      "title": "Mastercard Completes Acquisition of Ripple Partner BVNK: Stablecoin Market Is Key Reason Why",
-      "url": "u.today/mastercard-completes-acquisition-of-ripple-partner-bvnk-stablecoin-market-is-key-reason-why",
-      "signature": "action_partner | amount_usd_309000000000 | asset_stablecoin | asset_xrp | entity_리플 | entity_마스터카드",
-      "canonical_key": "action_partner | amount_usd_309000000000 | asset_stablecoin | asset_xrp | entity_리플 | entity_마스터카드",
-      "ts": "2026-08-03T17:01:28.202525+00:00"
-    },
     "216d141f42079dad": {
       "title": "안크르가 XRP레저 퍼블릭 노드 접근을 지원한다",
       "url": "www.tokenpost.kr/news/blockchain/384516",
