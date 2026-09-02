@@ -1,12 +1,5 @@
 {
   "posted": {
-    "7c56e183d160af60": {
-      "title": "South Korean Police Arrest Three In $9M Fake XRP Staking Case",
-      "url": "bitcoinist.com/south-korean-police-arrest-three-in-9m-fake-xrp-staking-case",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-03T05:00:52.164795+00:00"
-    },
     "a66bde9ab9c22265": {
       "title": "[크립토 인앤아웃] 비트코인서 4040만 달러 이탈...USDT·달러로 자금 이동",
       "url": "www.tokenpost.kr/news/cryptocurrency/384169",
@@ -4710,6 +4703,13 @@
       "signature": "action_invest | amount_usd_120900000 | asset_xrp | object_etf | object_etf_holdings | object_fund",
       "canonical_key": "action_invest | amount_usd_120900000 | asset_xrp | object_etf | object_etf_holdings | object_fund",
       "ts": "2026-09-02T04:02:15.996261+00:00"
+    },
+    "4224010c7ec86900": {
+      "title": "Bitcoin leads Ethereum and Solana in decentralization, ARK finds",
+      "url": "crypto.news/bitcoin-leads-ethereum-and-solana-in-decentralization",
+      "signature": "action_invest | asset_btc | asset_eth | asset_sol | entity_ark",
+      "canonical_key": "action_invest | asset_btc | asset_eth | asset_sol | entity_ark",
+      "ts": "2026-09-02T05:01:42.743278+00:00"
     }
   }
 }
