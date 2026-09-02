@@ -4710,6 +4710,20 @@
       "signature": "action_disclose | action_sell | amount_btc_1506 | amount_btc_approx_1500 | asset_btc | asset_eth | asset_sol | asset_xrp | entity_doge | entity_스트래티지 | geo_japan | object_disclosure | object_sale",
       "canonical_key": "action_disclose | action_sell | amount_btc_1506 | amount_btc_approx_1500 | asset_btc | asset_eth | asset_sol | asset_xrp | entity_doge | entity_스트래티지 | geo_japan | object_disclosure | object_sale",
       "ts": "2026-09-02T07:01:52.541783+00:00"
+    },
+    "fd0e7eab630dc970": {
+      "title": "엠에스시아이, 스트레티지 편출 여부 10월 결론",
+      "url": "www.tokenpost.kr/news/cryptocurrency/401846",
+      "signature": "action_disclose | action_file | action_invest | action_launch | action_migrate | action_propose | amount_pct_50 | asset_btc | entity_스트래티지 | object_disclosure",
+      "canonical_key": "action_disclose | action_file | action_invest | action_launch | action_migrate | action_propose | amount_pct_50 | asset_btc | entity_스트래티지 | object_disclosure",
+      "ts": "2026-09-02T08:02:16.243940+00:00"
+    },
+    "37794bd105bf7d2f": {
+      "title": "Capital B raises €7.6 million in Adam Back deal to expand Bitcoin treasury",
+      "url": "crypto.news/capital-b-raises-e7-6-million-in-adam-back-deal-to-expand-bitcoin-treasury",
+      "signature": "action_expand | action_purchase | action_support | amount_btc_3521 | amount_btc_approx_3500 | asset_btc | entity_capitalb | object_corporate_crypto_purchase | object_fund",
+      "canonical_key": "action_expand | action_purchase | action_support | amount_btc_3521 | amount_btc_approx_3500 | asset_btc | entity_capitalb | object_corporate_crypto_purchase | object_fund",
+      "ts": "2026-09-02T08:02:21.264426+00:00"
     }
   }
 }
