@@ -1,12 +1,5 @@
 {
   "posted": {
-    "c8201f85a979c557": {
-      "title": "Early Bitcoin Dev Explains Why Self-Custody Is Still Superior After $88 Million Coldcard Bug",
-      "url": "u.today/early-bitcoin-dev-explains-why-self-custody-is-still-superior-after-88-million-coldcard-bug",
-      "signature": "action_hack | amount_usd_88000000 | asset_btc | entity_콜드카드 | object_custody | object_hardware_wallet_security",
-      "canonical_key": "action_hack | amount_usd_88000000 | asset_btc | entity_콜드카드 | object_custody | object_hardware_wallet_security",
-      "ts": "2026-08-03T11:00:56.546075+00:00"
-    },
     "86c10a644a883a77": {
       "title": "Ripple invests in Zilo and Licuido to assist tokenized capital markets push",
       "url": "cointelegraph.com/news/ripple-invests-zilo-licuido-tokenized-capital-markets-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -4675,6 +4668,13 @@
       "signature": "action_launch | amount_usd_4000 | asset_eth | object_network",
       "canonical_key": "action_launch | amount_usd_4000 | asset_eth | object_network",
       "ts": "2026-09-02T11:02:20.094889+00:00"
+    },
+    "ad31839c452aa648": {
+      "title": "비트코인 심리 극단적 탐욕, 가격은 8월 24일 밑돌아",
+      "url": "www.tokenpost.kr/news/cryptocurrency/401888",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-09-02T12:01:36.748697+00:00"
     }
   }
 }
