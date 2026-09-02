@@ -1,12 +1,5 @@
 {
   "posted": {
-    "b80b7f3a63487490": {
-      "title": "XRP Phishing Alert Issued: Why It Matters",
-      "url": "u.today/xrp-phishing-alert-issued-why-it-matters",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-03T15:01:05.902624+00:00"
-    },
     "995055e3ac43d637": {
       "title": "American Bitcoin reports a $57.2 million net loss for Q2 2026",
       "url": "www.cryptopolitan.com/american-bitcoin-posts-57-2-million-q2-loss",
@@ -4605,6 +4598,13 @@
       "signature": "action_integrate | action_upgrade | amount_usd_369000000 | amount_xrp_90000 | amount_xrp_approx_90000 | asset_eth | asset_sol | asset_xrp | entity_sec",
       "canonical_key": "action_integrate | action_upgrade | amount_usd_369000000 | amount_xrp_90000 | amount_xrp_approx_90000 | asset_eth | asset_sol | asset_xrp | entity_sec",
       "ts": "2026-09-02T14:01:59.535745+00:00"
+    },
+    "c5a8b4d4d7a45104": {
+      "title": "Ripple's David Schwartz Defends Tether's $42 Million 'Pig-Butchering' Freeze in Landmark Suit",
+      "url": "u.today/ripples-david-schwartz-defends-tethers-42-million-pig-butchering-freeze-in-landmark-suit",
+      "signature": "action_sue | action_support | amount_usd_42000000 | entity_데이비드슈워츠 | entity_리플 | entity_테더 | object_class_action",
+      "canonical_key": "action_sue | action_support | amount_usd_42000000 | entity_데이비드슈워츠 | entity_리플 | entity_테더 | object_class_action",
+      "ts": "2026-09-02T16:02:28.319295+00:00"
     }
   }
 }
