@@ -1,12 +1,5 @@
 {
   "posted": {
-    "c5086072fd30cb4b": {
-      "title": "비트코인 양자 위협, 50만 물리 큐비트 추정이 던진 과제",
-      "url": "www.tokenpost.kr/news/blockchain/384585",
-      "signature": "action_auction | action_convert | action_disclose | action_launch | action_sell | asset_btc | entity_짐크레이머 | object_disclosure | object_network | object_sale",
-      "canonical_key": "action_auction | action_convert | action_disclose | action_launch | action_sell | asset_btc | entity_짐크레이머 | object_disclosure | object_network | object_sale",
-      "ts": "2026-08-03T23:00:53.599934+00:00"
-    },
     "e01a4c680c7a1438": {
       "title": "Coldcard Bitcoin theft tops $100M across 3 confirmed attack waves: Galaxy",
       "url": "cointelegraph.com/news/coldcard-bitcoin-theft-100-million-three-waves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -4542,6 +4535,13 @@
       "signature": "action_convert | action_disclose | action_issue | action_launch | action_mint | action_propose | asset_btc | asset_eth | asset_usdc | object_custody | object_disclosure | object_wallet",
       "canonical_key": "action_convert | action_disclose | action_issue | action_launch | action_mint | action_propose | asset_btc | asset_eth | asset_usdc | object_custody | object_disclosure | object_wallet",
       "ts": "2026-09-02T22:02:23.230542+00:00"
+    },
+    "e48331845451acbf": {
+      "title": "XRP Futures Trading Activity Slumps to $2.86B",
+      "url": "thecryptobasic.com/2026/09/02/xrp-futures-trading-activity-slumps-to-2-86b",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-09-03T00:01:45.980829+00:00"
     }
   }
 }
