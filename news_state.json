@@ -1,26 +1,5 @@
 {
   "posted": {
-    "c80535d2b6f441cd": {
-      "title": "France-based Sequans continues to unwind BTC position to recommit to IoT",
-      "url": "www.cryptopolitan.com/sequans-cuts-bitcoin-stash-to-314-coins",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-04T17:01:26.352665+00:00"
-    },
-    "c0363df68e540888": {
-      "title": "갤럭시 2분기 실적 발표, 133MW 임대수익 첫 반영",
-      "url": "www.tokenpost.kr/news/cryptocurrency/385256",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-04T17:01:29.951985+00:00"
-    },
-    "af35d9aefdb4c0cf": {
-      "title": "David Schwartz weighs in on $100M Coldcard hack",
-      "url": "crypto.news/david-schwartz-weighs-in-on-100m-dollars-coldcard-hack",
-      "signature": "action_compromise | action_hack | amount_usd_100000000 | entity_데이비드슈워츠 | entity_리플 | entity_콜드카드 | object_custody | object_hardware_wallet_security",
-      "canonical_key": "action_compromise | action_hack | amount_usd_100000000 | entity_데이비드슈워츠 | entity_리플 | entity_콜드카드 | object_custody | object_hardware_wallet_security",
-      "ts": "2026-08-04T17:01:33.385940+00:00"
-    },
     "8a816099c623a68d": {
       "title": "Blame lands on Coinkite CTO as BTC exploit loss nears $120M",
       "url": "www.cryptopolitan.com/coinkite-cto-peter-gray-linked-coldcard-hack",
@@ -4479,6 +4458,13 @@
       "signature": "action_support | asset_stablecoin | entity_newbankbackedstablecoin | entity_리플",
       "canonical_key": "action_support | asset_stablecoin | entity_newbankbackedstablecoin | entity_리플",
       "ts": "2026-09-03T13:03:32.219780+00:00"
+    },
+    "01a6868d78b1d5f5": {
+      "title": "Bitcoin Demand Turns Negative, Raising Risk of Further BTC Decline",
+      "url": "coinedition.com/bitcoin-demand-turns-negative-raising-risk-of-further-btc-decline",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-09-03T18:01:47.268778+00:00"
     }
   }
 }
