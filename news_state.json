@@ -1,33 +1,5 @@
 {
   "posted": {
-    "f8ed3f9799f6855f": {
-      "title": "766만달러 번 USDD, 외부 집계와 회계 범위 달랐다",
-      "url": "www.tokenpost.kr/news/cryptocurrency/384956",
-      "signature": "action_disclose | action_launch | amount_krw_11100000000 | amount_krw_11200000000 | amount_krw_31400000000 | amount_pct_21.6 | amount_usd_21540000 | amount_usd_24800 | amount_usd_7630000 | amount_usd_7660000 | asset_stablecoin | entity_usdd | object_disclosure | period_2026_q2",
-      "canonical_key": "action_disclose | action_launch | amount_krw_11100000000 | amount_krw_11200000000 | amount_krw_31400000000 | amount_pct_21.6 | amount_usd_21540000 | amount_usd_24800 | amount_usd_7630000 | amount_usd_7660000 | asset_stablecoin | entity_usdd | object_disclosure | period_2026_q2",
-      "ts": "2026-08-04T09:00:54.702527+00:00"
-    },
-    "deddcca039f5bafd": {
-      "title": "BTC vs ETH vs XRP: Which ETFs Attracted the Most Money on Monday?",
-      "url": "cryptopotato.com/btc-vs-eth-vs-xrp-which-etfs-attracted-the-most-money-on-monday",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-04T09:00:57.665453+00:00"
-    },
-    "211861cacab8aa81": {
-      "title": "Cardano (ADA) Is Quietly Pulling Off a Bear Market Comeback And Retail Hasn’t Noticed",
-      "url": "cryptopotato.com/cardano-ada-is-quietly-pulling-off-a-bear-market-comeback-and-retail-hasnt-noticed",
-      "signature": "action_develop | action_purchase | amount_pct_26 | entity_카르다노",
-      "canonical_key": "action_develop | action_purchase | amount_pct_26 | entity_카르다노",
-      "ts": "2026-08-04T09:01:01.221672+00:00"
-    },
-    "f981ec8aa2346b8a": {
-      "title": "Billion-Dollar XRP Ledger Demand Fuels What Ripple President Labels as Banking 'Light Switch Flip'",
-      "url": "u.today/billion-dollar-xrp-ledger-demand-fuels-what-ripple-president-labels-as-banking-light-switch-flip",
-      "signature": "action_migrate | asset_xrp | asset_xrpl | entity_리플",
-      "canonical_key": "action_migrate | asset_xrp | asset_xrpl | entity_리플",
-      "ts": "2026-08-04T09:01:04.579258+00:00"
-    },
     "36d8e09d928dae99": {
       "title": "Ripple President Longs Breaks Down Why New Investments Are Response to Bank Pivot Toward XRP Ledger",
       "url": "u.today/ripple-president-longs-breaks-down-why-new-investments-are-response-to-bank-pivot-toward-xrp-ledger",
@@ -4549,6 +4521,13 @@
       "signature": "action_launch | action_support | entity_usdt0 | entity_테더",
       "canonical_key": "action_launch | action_support | entity_usdt0 | entity_테더",
       "ts": "2026-09-03T09:02:03.170031+00:00"
+    },
+    "012621de75f94b8c": {
+      "title": "Coldcard hacker swaps stolen Bitcoin for ETH via THORChain",
+      "url": "cointelegraph.com/news/coldcard-hacker-swaps-stolen-bitcoin-eth-thorchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_steal | action_transfer | amount_pct_10 | asset_btc | asset_eth | entity_콜드카드",
+      "canonical_key": "action_steal | action_transfer | amount_pct_10 | asset_btc | asset_eth | entity_콜드카드",
+      "ts": "2026-09-03T10:02:14.749680+00:00"
     }
   }
 }
