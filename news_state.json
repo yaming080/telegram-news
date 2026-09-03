@@ -1,26 +1,5 @@
 {
   "posted": {
-    "e01a4c680c7a1438": {
-      "title": "Coldcard Bitcoin theft tops $100M across 3 confirmed attack waves: Galaxy",
-      "url": "cointelegraph.com/news/coldcard-bitcoin-theft-100-million-three-waves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "action_steal | amount_pct_90 | amount_usd_100000000 | amount_usd_130000000 | asset_btc | entity_갤럭시리서치 | entity_콜드카드",
-      "canonical_key": "action_steal | amount_pct_90 | amount_usd_100000000 | amount_usd_130000000 | asset_btc | entity_갤럭시리서치 | entity_콜드카드",
-      "ts": "2026-08-04T05:01:03.337232+00:00"
-    },
-    "011ccea76a6b5beb": {
-      "title": "12년 잠자던 비트코인 500BTC 이동…콜드카드 해킹 여파 주목",
-      "url": "www.tokenpost.kr/news/cryptocurrency/384798",
-      "signature": "action_hack | amount_btc_500 | amount_btc_approx_500 | amount_krw_44800000000 | amount_usd_1300000 | amount_usd_500000 | asset_btc | duration_years_7 | entity_콜드카드 | object_card | object_hardware_wallet_security | object_wallet",
-      "canonical_key": "action_hack | amount_btc_500 | amount_btc_approx_500 | amount_krw_44800000000 | amount_usd_1300000 | amount_usd_500000 | asset_btc | duration_years_7 | entity_콜드카드 | object_card | object_hardware_wallet_security | object_wallet",
-      "ts": "2026-08-04T05:01:07.887117+00:00"
-    },
-    "26d90be75a71468e": {
-      "title": "12.7년 잠든 비트코인 500개 새 지갑 이동",
-      "url": "www.tokenpost.kr/news/blockchain/384796",
-      "signature": "action_migrate | action_sell | amount_btc_500 | amount_btc_approx_500 | amount_krw_45900000000 | amount_krw_700000000 | amount_usd_31300000 | amount_usd_500000 | asset_btc | duration_years_7 | object_account | object_sale | object_wallet",
-      "canonical_key": "action_migrate | action_sell | amount_btc_500 | amount_btc_approx_500 | amount_krw_45900000000 | amount_krw_700000000 | amount_usd_31300000 | amount_usd_500000 | asset_btc | duration_years_7 | object_account | object_sale | object_wallet",
-      "ts": "2026-08-04T05:01:14.409686+00:00"
-    },
     "f8ed3f9799f6855f": {
       "title": "766만달러 번 USDD, 외부 집계와 회계 범위 달랐다",
       "url": "www.tokenpost.kr/news/cryptocurrency/384956",
@@ -4549,6 +4528,13 @@
       "signature": "action_launch | action_support | action_transfer | asset_stablecoin | asset_usdt | entity_테더 | object_network | object_payment",
       "canonical_key": "action_launch | action_support | action_transfer | asset_stablecoin | asset_usdt | entity_테더 | object_network | object_payment",
       "ts": "2026-09-03T02:02:16.327202+00:00"
+    },
+    "515f52dbe65fcb22": {
+      "title": "CFTC seeks dismissal of CME crypto futures lawsuit",
+      "url": "crypto.news/cftc-seeks-dismissal-of-cme-crypto-futures-lawsuit",
+      "signature": "action_sue | asset_btc | entity_cftc | entity_시카고상품거래소 | object_class_action",
+      "canonical_key": "action_sue | asset_btc | entity_cftc | entity_시카고상품거래소 | object_class_action",
+      "ts": "2026-09-03T06:01:35.114538+00:00"
     }
   }
 }
