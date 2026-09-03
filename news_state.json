@@ -4542,6 +4542,13 @@
       "signature": "action_invest | action_purchase | action_transfer | entity_로빈후드 | entity_바이낸스 | entity_바이낸스코인 | object_account",
       "canonical_key": "action_invest | action_purchase | action_transfer | entity_로빈후드 | entity_바이낸스 | entity_바이낸스코인 | object_account",
       "ts": "2026-09-03T07:01:53.853231+00:00"
+    },
+    "69f4c401daf11174": {
+      "title": "Tether’s USDT0 launches on Stellar with cross-chain liquidity",
+      "url": "crypto.news/usdt0-launches-on-stellar-with-cross-chain-liquidity",
+      "signature": "action_launch | action_support | entity_usdt0 | entity_테더",
+      "canonical_key": "action_launch | action_support | entity_usdt0 | entity_테더",
+      "ts": "2026-09-03T09:02:03.170031+00:00"
     }
   }
 }
