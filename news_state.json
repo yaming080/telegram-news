@@ -4542,6 +4542,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-09-03T00:01:45.980829+00:00"
+    },
+    "2b5c0cac0bed2b22": {
+      "title": "Stellar Gains Direct Access to Tether’s USDT",
+      "url": "coinedition.com/crypto-live-news/stellar-gains-direct-access-to-tethers-usdt",
+      "signature": "action_launch | action_support | action_transfer | asset_stablecoin | asset_usdt | entity_테더 | object_network | object_payment",
+      "canonical_key": "action_launch | action_support | action_transfer | asset_stablecoin | asset_usdt | entity_테더 | object_network | object_payment",
+      "ts": "2026-09-03T02:02:16.327202+00:00"
     }
   }
 }
