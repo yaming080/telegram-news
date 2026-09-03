@@ -1,19 +1,5 @@
 {
   "posted": {
-    "8a816099c623a68d": {
-      "title": "Blame lands on Coinkite CTO as BTC exploit loss nears $120M",
-      "url": "www.cryptopolitan.com/coinkite-cto-peter-gray-linked-coldcard-hack",
-      "signature": "action_compromise | action_hack | action_steal | amount_btc_5200 | amount_btc_approx_5200 | amount_usd_114000000 | amount_usd_120000000 | asset_btc | entity_콜드카드 | object_hardware_wallet_security | object_wallet",
-      "canonical_key": "action_compromise | action_hack | action_steal | amount_btc_5200 | amount_btc_approx_5200 | amount_usd_114000000 | amount_usd_120000000 | asset_btc | entity_콜드카드 | object_hardware_wallet_security | object_wallet",
-      "ts": "2026-08-04T20:01:24.562299+00:00"
-    },
-    "2d340c99e6b68bde": {
-      "title": "XRP Ledger Goes Cross-Chain",
-      "url": "u.today/xrp-ledger-goes-cross-chain",
-      "signature": "action_expand | action_launch | asset_xrp | asset_xrpl | object_network",
-      "canonical_key": "action_expand | action_launch | asset_xrp | asset_xrpl | object_network",
-      "ts": "2026-08-04T20:01:31.466467+00:00"
-    },
     "28d1c5ce921d4ca2": {
       "title": "스페이스X, 실적은 웃돌았지만…비트코인 보유 변화에 쏠린 눈",
       "url": "www.tokenpost.kr/news/cryptocurrency/385315",
@@ -4465,6 +4451,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-09-03T18:01:47.268778+00:00"
+    },
+    "20650ca23d39e2bf": {
+      "title": "Hargreaves Lansdown opens crypto ETNs to UK retail investors",
+      "url": "www.cryptopolitan.com/hargreaves-lansdown-opens-crypto-etns",
+      "signature": "action_ban | action_invest | asset_btc | geo_uk | object_platform",
+      "canonical_key": "action_ban | action_invest | asset_btc | geo_uk | object_platform",
+      "ts": "2026-09-03T21:02:30.457405+00:00"
+    },
+    "4301548f147570ef": {
+      "title": "USDG launches natively on Mantle in Paxos expansion",
+      "url": "crypto.news/usdg-launches-natively-on-mantle-in-paxos-expansion",
+      "signature": "action_issue | action_launch | asset_eth | asset_stablecoin | entity_usdg | object_network",
+      "canonical_key": "action_issue | action_launch | asset_eth | asset_stablecoin | entity_usdg | object_network",
+      "ts": "2026-09-03T21:02:34.969752+00:00"
     }
   }
 }
