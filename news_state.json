@@ -1,12 +1,5 @@
 {
   "posted": {
-    "28d1c5ce921d4ca2": {
-      "title": "스페이스X, 실적은 웃돌았지만…비트코인 보유 변화에 쏠린 눈",
-      "url": "www.tokenpost.kr/news/cryptocurrency/385315",
-      "signature": "action_disclose | action_invest | action_launch | amount_krw_54700000000 | amount_krw_73100000000 | amount_usd_1000000 | amount_usd_1000000000 | amount_usd_1100000000 | amount_usd_3500000000 | amount_usd_6900000000 | amount_usd_7800000000 | asset_btc | object_disclosure",
-      "canonical_key": "action_disclose | action_invest | action_launch | amount_krw_54700000000 | amount_krw_73100000000 | amount_usd_1000000 | amount_usd_1000000000 | amount_usd_1100000000 | amount_usd_3500000000 | amount_usd_6900000000 | amount_usd_7800000000 | asset_btc | object_disclosure",
-      "ts": "2026-08-04T21:01:18.571154+00:00"
-    },
     "227a0c2b42e9b897": {
       "title": "블랙록, 이더리움 트러스트 ETF 3대1 역분할 추진",
       "url": "www.tokenpost.kr/news/blockchain/385412",
