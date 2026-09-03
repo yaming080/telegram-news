@@ -1,12 +1,5 @@
 {
   "posted": {
-    "36d8e09d928dae99": {
-      "title": "Ripple President Longs Breaks Down Why New Investments Are Response to Bank Pivot Toward XRP Ledger",
-      "url": "u.today/ripple-president-longs-breaks-down-why-new-investments-are-response-to-bank-pivot-toward-xrp-ledger",
-      "signature": "action_migrate | asset_xrp | asset_xrpl | entity_bankpivottowardxrp | entity_ledger | entity_리플",
-      "canonical_key": "action_migrate | asset_xrp | asset_xrpl | entity_bankpivottowardxrp | entity_ledger | entity_리플",
-      "ts": "2026-08-04T10:00:56.084083+00:00"
-    },
     "58c8462fdee1f9a6": {
       "title": "\"엔비디아 차트로 친구와 승부\"…차트 매매 게임, 대전·공유 기능 추가",
       "url": "www.tokenpost.kr/news/insights/385072",
@@ -4528,6 +4521,13 @@
       "signature": "action_steal | action_transfer | amount_pct_10 | asset_btc | asset_eth | entity_콜드카드",
       "canonical_key": "action_steal | action_transfer | amount_pct_10 | asset_btc | asset_eth | entity_콜드카드",
       "ts": "2026-09-03T10:02:14.749680+00:00"
+    },
+    "b87df12bff59215d": {
+      "title": "Standard Chartered launches spot Bitcoin and Ether trading in UAE",
+      "url": "cointelegraph.com/news/standard-chartered-bitcoin-ether-trading-uae?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_launch | asset_btc | entity_스탠다드차타드 | entity_아랍에미리트",
+      "canonical_key": "action_launch | asset_btc | entity_스탠다드차타드 | entity_아랍에미리트",
+      "ts": "2026-09-03T11:02:13.790253+00:00"
     }
   }
 }
