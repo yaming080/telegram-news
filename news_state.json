@@ -4535,6 +4535,13 @@
       "signature": "action_sue | asset_btc | entity_cftc | entity_시카고상품거래소 | object_class_action",
       "canonical_key": "action_sue | asset_btc | entity_cftc | entity_시카고상품거래소 | object_class_action",
       "ts": "2026-09-03T06:01:35.114538+00:00"
+    },
+    "59b0450b6895fa82": {
+      "title": "유닙스, BNB 열풍 언급 뒤 허이 팔로우 포착",
+      "url": "www.tokenpost.kr/news/cryptocurrency/402093",
+      "signature": "action_invest | action_purchase | action_transfer | entity_로빈후드 | entity_바이낸스 | entity_바이낸스코인 | object_account",
+      "canonical_key": "action_invest | action_purchase | action_transfer | entity_로빈후드 | entity_바이낸스 | entity_바이낸스코인 | object_account",
+      "ts": "2026-09-03T07:01:53.853231+00:00"
     }
   }
 }
