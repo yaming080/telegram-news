@@ -1,33 +1,5 @@
 {
   "posted": {
-    "58c8462fdee1f9a6": {
-      "title": "\"엔비디아 차트로 친구와 승부\"…차트 매매 게임, 대전·공유 기능 추가",
-      "url": "www.tokenpost.kr/news/insights/385072",
-      "signature": "action_build | action_disclose | action_file | action_invest | action_launch | asset_btc | count_people_8 | entity_엔비디아 | object_card | object_disclosure",
-      "canonical_key": "action_build | action_disclose | action_file | action_invest | action_launch | asset_btc | count_people_8 | entity_엔비디아 | object_card | object_disclosure",
-      "ts": "2026-08-04T12:01:11.550011+00:00"
-    },
-    "799bf60eeb7f2ee4": {
-      "title": "Coldcard Exploit Tops $100M as Expert Says Stolen BTC May Be Hard to Spend",
-      "url": "cryptopotato.com/coldcard-exploit-tops-100m-as-expert-says-stolen-btc-may-be-hard-to-spend",
-      "signature": "action_hack | action_steal | amount_usd_100000000 | asset_btc | entity_콜드카드",
-      "canonical_key": "action_hack | action_steal | amount_usd_100000000 | asset_btc | entity_콜드카드",
-      "ts": "2026-08-04T12:01:15.593859+00:00"
-    },
-    "724a291deb025cd6": {
-      "title": "BlackRock brings $311B money market funds onchain with Europe launch",
-      "url": "crypto.news/blackrock-brings-311b-money-market-funds-onchain-with-europe-launch",
-      "signature": "action_expand | action_launch | amount_usd_311000000000 | asset_eth | entity_블랙록",
-      "canonical_key": "action_expand | action_launch | amount_usd_311000000000 | asset_eth | entity_블랙록",
-      "ts": "2026-08-04T12:01:22.190510+00:00"
-    },
-    "11473b2f98b91053": {
-      "title": "XRP as DeFi collateral: how Ripple’s RLUSD lending play through Flare and Morpho could reshape a $70 billion asset",
-      "url": "crypto.news/xrp-defi-collateral-rlusd-flare-morpho",
-      "signature": "action_approve | action_sell | amount_usd_70000000000 | asset_eth | asset_rlusd | asset_stablecoin | asset_xrp | entity_리플 | entity_모포 | entity_플레어 | object_fassets | object_lending | object_rlusd",
-      "canonical_key": "action_approve | action_sell | amount_usd_70000000000 | asset_eth | asset_rlusd | asset_stablecoin | asset_xrp | entity_리플 | entity_모포 | entity_플레어 | object_fassets | object_lending | object_rlusd",
-      "ts": "2026-08-04T12:01:25.647390+00:00"
-    },
     "0f7d839c4fa95c58": {
       "title": "Texas electric grid moratorium won’t have big impact on BTC miners: Bernstein",
       "url": "cointelegraph.com/news/texas-electric-grid-moratorim-btc-miners-bernstein?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -4528,6 +4500,27 @@
       "signature": "action_launch | asset_btc | entity_스탠다드차타드 | entity_아랍에미리트",
       "canonical_key": "action_launch | asset_btc | entity_스탠다드차타드 | entity_아랍에미리트",
       "ts": "2026-09-03T11:02:13.790253+00:00"
+    },
+    "dd3e424f9cc127f9": {
+      "title": "Standard Chartered Opens Spot Bitcoin, Ethereum Trading to UAE Institutions",
+      "url": "thecryptobasic.com/2026/09/03/standard-chartered-opens-spot-bitcoin-ethereum-trading-to-uae-institutions",
+      "signature": "action_expand | action_launch | asset_btc | asset_eth | entity_스탠다드차타드 | object_custody",
+      "canonical_key": "action_expand | action_launch | asset_btc | asset_eth | entity_스탠다드차타드 | object_custody",
+      "ts": "2026-09-03T13:03:21.538597+00:00"
+    },
+    "17f2b9aecce5a6e5": {
+      "title": "Coinbase Launches Bitcoin, Ethereum, Solana Futures in Canada With Up to 10x Leverage",
+      "url": "thecryptobasic.com/2026/09/03/coinbase-launches-bitcoin-ethereum-solana-futures-in-canada-with-up-to-10x-leverage",
+      "signature": "action_expand | action_launch | asset_btc | asset_eth | asset_sol | entity_코인베이스 | geo_canada | geo_us",
+      "canonical_key": "action_expand | action_launch | asset_btc | asset_eth | asset_sol | entity_코인베이스 | geo_canada | geo_us",
+      "ts": "2026-09-03T13:03:27.248935+00:00"
+    },
+    "84bfdbdaab9dcc4e": {
+      "title": "Why Ex-Ripple Vice President Has 'Déjà Vu' Over Goldman Sachs' New Bank-Backed Stablecoin",
+      "url": "u.today/why-ex-ripple-vice-president-has-deja-vu-over-goldman-sachs-new-bank-backed-stablecoin",
+      "signature": "action_support | asset_stablecoin | entity_newbankbackedstablecoin | entity_리플",
+      "canonical_key": "action_support | asset_stablecoin | entity_newbankbackedstablecoin | entity_리플",
+      "ts": "2026-09-03T13:03:32.219780+00:00"
     }
   }
 }
