@@ -1,26 +1,5 @@
 {
   "posted": {
-    "0f7d839c4fa95c58": {
-      "title": "Texas electric grid moratorium won’t have big impact on BTC miners: Bernstein",
-      "url": "cointelegraph.com/news/texas-electric-grid-moratorim-btc-miners-bernstein?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-04T13:01:06.976961+00:00"
-    },
-    "9dd47ba90a3b4f33": {
-      "title": "Cardano Expands Interoperability as First IBC Integration With Injective Goes Live",
-      "url": "thecryptobasic.com/2026/08/04/cardano-expands-interoperability-as-first-ibc-integration-with-injective-goes-live",
-      "signature": "action_expand | action_integrate | action_launch | entity_스트래티지 | entity_카르다노",
-      "canonical_key": "action_expand | action_integrate | action_launch | entity_스트래티지 | entity_카르다노",
-      "ts": "2026-08-04T13:01:11.944276+00:00"
-    },
-    "3d638b29b4c7ac11": {
-      "title": "Ripple President: The ‘Light Switch’ Has Flipped for XRP Ledger Institutional Adoption",
-      "url": "thecryptobasic.com/2026/08/04/ripple-president-the-light-switch-has-flipped-for-xrp-ledger-institutional-adoption",
-      "signature": "action_expand | asset_xrp | asset_xrpl | entity_zilo | entity_리플 | entity_스트래티지 | object_infrastructure",
-      "canonical_key": "action_expand | asset_xrp | asset_xrpl | entity_zilo | entity_리플 | entity_스트래티지 | object_infrastructure",
-      "ts": "2026-08-04T13:01:31.730085+00:00"
-    },
     "5963da95905f4a6d": {
       "title": "미 4개 주, 데이터센터 혜택 줄이고 비용 부담 강화",
       "url": "www.tokenpost.kr/news/policy/385161",
