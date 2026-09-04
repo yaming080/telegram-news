@@ -1,19 +1,5 @@
 {
   "posted": {
-    "f764c2d58c0e05ab": {
-      "title": "Spot Bitcoin vs Bitcoin CFDs: Key Differences (Ownership, Taxes, Fees)",
-      "url": "coinedition.com/spot-bitcoin-vs-bitcoin-cfds-key-differences-ownership-taxes-fees",
-      "signature": "action_invest | action_purchase | asset_btc | object_corporate_crypto_purchase",
-      "canonical_key": "action_invest | action_purchase | asset_btc | object_corporate_crypto_purchase",
-      "ts": "2026-08-05T09:00:59.008746+00:00"
-    },
-    "6f20e15d87ad36fe": {
-      "title": "Binance Launches Lite Loan With Bitcoin-Backed USDT Borrowing",
-      "url": "thenewscrypto.com/binance-launches-lite-loan-with-bitcoin-backed-usdt-borrowing",
-      "signature": "action_launch | action_support | amount_usd_1000 | asset_btc | asset_usdt | entity_바이낸스 | object_lending",
-      "canonical_key": "action_launch | action_support | amount_usd_1000 | asset_btc | asset_usdt | entity_바이낸스 | object_lending",
-      "ts": "2026-08-05T09:01:06.161560+00:00"
-    },
     "90c12fca245ca444": {
       "title": "Missouri men indicted over failed Bitcoin robbery tied to $245M crypto heist",
       "url": "www.cryptopolitan.com/missouri-men-bitcoin-home-invasion-charges",
@@ -4430,6 +4416,13 @@
       "signature": "action_launch | entity_canarycapital | entity_sec | object_custody | object_etf",
       "canonical_key": "action_launch | entity_canarycapital | entity_sec | object_custody | object_etf",
       "ts": "2026-09-04T09:02:09.818823+00:00"
+    },
+    "eedc2d8d136ea827": {
+      "title": "Satoshi-Era Bitcoin Holder Moves 2,571,899% Gain to Thwart New York Court Case",
+      "url": "u.today/satoshi-era-bitcoin-holder-moves-2571899-gain-to-thwart-new-york-court-case",
+      "signature": "action_sue | action_transfer | amount_btc_40 | amount_pct_899 | amount_usd_293000000000 | asset_btc | object_class_action | object_wallet",
+      "canonical_key": "action_sue | action_transfer | amount_btc_40 | amount_pct_899 | amount_usd_293000000000 | asset_btc | object_class_action | object_wallet",
+      "ts": "2026-09-04T10:01:33.017014+00:00"
     }
   }
 }
