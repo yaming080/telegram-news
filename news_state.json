@@ -1,12 +1,5 @@
 {
   "posted": {
-    "511aff577ee129ad": {
-      "title": "이더리움 보상 삭감안 두고 독립 검증자 이탈 공방",
-      "url": "www.tokenpost.kr/news/blockchain/385497",
-      "signature": "action_convert | action_develop | action_disclose | action_launch | amount_pct_100 | asset_eth | count_developers_6 | count_people_6 | entity_이더리움재단 | object_disclosure",
-      "canonical_key": "action_convert | action_develop | action_disclose | action_launch | amount_pct_100 | asset_eth | count_developers_6 | count_people_6 | entity_이더리움재단 | object_disclosure",
-      "ts": "2026-08-05T04:01:02.835841+00:00"
-    },
     "6b5f9bb1583a8f0a": {
       "title": "BTC Reclaims $64K Ahead of Expected Iran-US-Oman Hormuz Deal Today: Report",
       "url": "cryptopotato.com/btc-reclaims-64k-ahead-of-expected-iran-us-oman-hormuz-deal-today-report",
