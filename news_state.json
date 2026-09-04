@@ -1,19 +1,5 @@
 {
   "posted": {
-    "f13fc805157cb631": {
-      "title": "파이어블록스, 월렛풀로 금고 거래 병목 우회",
-      "url": "www.tokenpost.kr/news/blockchain/385988",
-      "signature": "action_file | action_integrate | action_launch | asset_eth | object_account | object_network | object_wallet",
-      "canonical_key": "action_file | action_integrate | action_launch | asset_eth | object_account | object_network | object_wallet",
-      "ts": "2026-08-05T18:01:13.879896+00:00"
-    },
-    "5c2e654afdfd042d": {
-      "title": "25 States Challenge Trump Tariffs as Bitcoin Investors Watch",
-      "url": "coinedition.com/25-states-challenge-trump-tariffs-as-bitcoin-investors-watch",
-      "signature": "action_deny | action_file | action_launch | action_sue | asset_btc | entity_도널드트럼프 | geo_us | object_class_action",
-      "canonical_key": "action_deny | action_file | action_launch | action_sue | asset_btc | entity_도널드트럼프 | geo_us | object_class_action",
-      "ts": "2026-08-05T18:01:18.912937+00:00"
-    },
     "3ab56d6ee2173303": {
       "title": "Arthur Hayes: AI Bubble Burst Could Trigger Bitcoin Rally",
       "url": "cryptopotato.com/arthur-hayes-ai-bubble-burst-could-trigger-bitcoin-rally",
