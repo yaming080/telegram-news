@@ -1,33 +1,5 @@
 {
   "posted": {
-    "63f05e2e3d0d1256": {
-      "title": "Gold hits six-week highs on China demand as Bitcoin ignores fresh S&P 500 record",
-      "url": "cointelegraph.com/markets/gold-hits-six-week-highs-on-china-demand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "action_steal | amount_usd_64000 | asset_btc | entity_sp | entity_금 | geo_us",
-      "canonical_key": "action_steal | amount_usd_64000 | asset_btc | entity_sp | entity_금 | geo_us",
-      "ts": "2026-08-05T16:01:25.017413+00:00"
-    },
-    "72bfee9ce144ef53": {
-      "title": "Arthur Hayes Says AI Credit Boom Could Fuel Bitcoin’s Next Rally",
-      "url": "coinedition.com/arthur-hayes-says-ai-credit-boom-could-fuel-bitcoins-next-rally",
-      "signature": "action_invest | action_publish | asset_btc | entity_비트멕스 | entity_아서헤이즈",
-      "canonical_key": "action_invest | action_publish | asset_btc | entity_비트멕스 | entity_아서헤이즈",
-      "ts": "2026-08-05T16:01:38.188463+00:00"
-    },
-    "3990a18881b65353": {
-      "title": "Dubai Duty Free Welcomes Shiba Inu (SHIB): Crypto-to-Fiat Payments Roll Out for First Time Ever",
-      "url": "u.today/dubai-duty-free-welcomes-shiba-inu-shib-crypto-to-fiat-payments-roll-out-for-first-time-ever",
-      "signature": "action_launch | entity_shib | entity_시바이누",
-      "canonical_key": "action_launch | entity_shib | entity_시바이누",
-      "ts": "2026-08-05T16:01:41.514274+00:00"
-    },
-    "2a914a4a70516b64": {
-      "title": "2028 Quantum Clock Ticks for 35% of All Bitcoin, Warns Tom Lee",
-      "url": "u.today/2028-quantum-clock-ticks-for-35-of-all-bitcoin-warns-tom-lee",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-05T16:01:45.404049+00:00"
-    },
     "815b54428c660d01": {
       "title": "스트레티지, 세계 최대 기업 목표 속 비트코인 3588개 매각",
       "url": "www.tokenpost.kr/news/market/385950",
@@ -4416,6 +4388,13 @@
       "signature": "action_launch | asset_btc | asset_eth | count_markets_7 | entity_엔비디아 | geo_india",
       "canonical_key": "action_launch | asset_btc | asset_eth | count_markets_7 | entity_엔비디아 | geo_india",
       "ts": "2026-09-04T16:01:37.106455+00:00"
+    },
+    "e2553ff7c8faede1": {
+      "title": "Ripple Lands Major XRP Sponsorship Deal With Florida Gators",
+      "url": "u.today/ripple-lands-major-xrp-sponsorship-deal-with-florida-gators",
+      "signature": "action_partner | asset_xrp | entity_리플",
+      "canonical_key": "action_partner | asset_xrp | entity_리플",
+      "ts": "2026-09-04T17:01:52.005852+00:00"
     }
   }
 }
