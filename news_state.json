@@ -4409,6 +4409,13 @@
       "signature": "action_approve | action_audit | action_purchase | amount_usd_140000000 | asset_btc | entity_imf | object_board | object_corporate_crypto_purchase | object_fund",
       "canonical_key": "action_approve | action_audit | action_purchase | amount_usd_140000000 | asset_btc | entity_imf | object_board | object_corporate_crypto_purchase | object_fund",
       "ts": "2026-09-04T13:02:44.811544+00:00"
+    },
+    "aa53696fc16fb72c": {
+      "title": "El Salvador Ends Bitcoin Buying With Public Funds, IMF Says",
+      "url": "coinedition.com/el-salvador-ends-bitcoin-buying-with-public-funds-imf-says",
+      "signature": "action_acquire | action_audit | action_purchase | asset_btc | date_2025_06_27 | entity_imf | object_corporate_crypto_purchase | object_fund",
+      "canonical_key": "action_acquire | action_audit | action_purchase | asset_btc | date_2025_06_27 | entity_imf | object_corporate_crypto_purchase | object_fund",
+      "ts": "2026-09-04T14:02:11.088943+00:00"
     }
   }
 }
