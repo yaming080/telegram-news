@@ -1,26 +1,5 @@
 {
   "posted": {
-    "6720a1dc7cca2fc2": {
-      "title": "Ex-LAPD Officer Gets Life in Prison After Posing as Police to Steal $350K Worth of BTC",
-      "url": "cryptopotato.com/ex-lapd-officer-gets-life-in-prison-after-posing-as-police-to-steal-350k-worth-of-btc",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-05T11:01:02.797479+00:00"
-    },
-    "eef2e011f366ee15": {
-      "title": "BNB Has Pushed Past $600: The Test Toward Higher Targets Begins",
-      "url": "thenewscrypto.com/bnb-has-pushed-past-600-the-test-toward-higher-targets-begins",
-      "signature": "action_support | amount_pct_14 | amount_pct_2.1 | amount_usd_1150000000 | amount_usd_588 | amount_usd_600 | amount_usd_602 | amount_usd_604 | entity_바이낸스",
-      "canonical_key": "action_support | amount_pct_14 | amount_pct_2.1 | amount_usd_1150000000 | amount_usd_588 | amount_usd_600 | amount_usd_602 | amount_usd_604 | entity_바이낸스",
-      "ts": "2026-08-05T11:01:07.119374+00:00"
-    },
-    "c6bee33b8cc1ed8d": {
-      "title": "The Yen Carry Trade Is Back in Focus: Why Crypto Traders Should Watch Japan",
-      "url": "thenewscrypto.com/the-yen-carry-trade-is-back-in-focus-why-crypto-traders-should-watch-japan",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-05T11:01:13.784379+00:00"
-    },
     "5f5eb76dc6b1b160": {
       "title": "코인베이스·비트와이즈 CEO, 가격보다 사용성에 주목",
       "url": "www.tokenpost.kr/news/cryptocurrency/385753",
@@ -4416,6 +4395,13 @@
       "signature": "action_sue | action_transfer | amount_btc_40 | amount_pct_899 | amount_usd_293000000000 | asset_btc | object_class_action | object_wallet",
       "canonical_key": "action_sue | action_transfer | amount_btc_40 | amount_pct_899 | amount_usd_293000000000 | asset_btc | object_class_action | object_wallet",
       "ts": "2026-09-04T10:01:33.017014+00:00"
+    },
+    "23468e92f634736a": {
+      "title": "XRP Influencer Lawsuit Dismissed Under Washington Speech Protection Rules",
+      "url": "coinedition.com/xrp-influencer-lawsuit-dismissed-under-washington-speech-protection-rules",
+      "signature": "action_sue | asset_xrp | object_class_action",
+      "canonical_key": "action_sue | asset_xrp | object_class_action",
+      "ts": "2026-09-04T12:02:09.684616+00:00"
     }
   }
 }
