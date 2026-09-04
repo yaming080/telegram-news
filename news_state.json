@@ -1,12 +1,5 @@
 {
   "posted": {
-    "6384b886136a8d92": {
-      "title": "볼츠, 워런트 카나리 갱신해 정부 요구 부재 공지",
-      "url": "www.tokenpost.kr/news/cryptocurrency/385870",
-      "signature": "action_disclose | action_file | action_launch | asset_btc | object_custody | object_disclosure",
-      "canonical_key": "action_disclose | action_file | action_launch | asset_btc | object_custody | object_disclosure",
-      "ts": "2026-08-05T15:01:10.594336+00:00"
-    },
     "63f05e2e3d0d1256": {
       "title": "Gold hits six-week highs on China demand as Bitcoin ignores fresh S&P 500 record",
       "url": "cointelegraph.com/markets/gold-hits-six-week-highs-on-china-demand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -4416,6 +4409,13 @@
       "signature": "action_compromise | action_issue | action_upgrade | asset_xrp | asset_xrpl | object_wallet",
       "canonical_key": "action_compromise | action_issue | action_upgrade | asset_xrp | asset_xrpl | object_wallet",
       "ts": "2026-09-04T15:02:31.549139+00:00"
+    },
+    "f3d7a0a33e13b791": {
+      "title": "Polymarket Adds 20x Trading: Is India Missing the 24/7 Markets Boom?",
+      "url": "coinedition.com/polymarket-adds-20x-trading-is-india-missing-the-24-7-markets-boom",
+      "signature": "action_launch | asset_btc | asset_eth | count_markets_7 | entity_엔비디아 | geo_india",
+      "canonical_key": "action_launch | asset_btc | asset_eth | count_markets_7 | entity_엔비디아 | geo_india",
+      "ts": "2026-09-04T16:01:37.106455+00:00"
     }
   }
 }
