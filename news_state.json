@@ -1,12 +1,5 @@
 {
   "posted": {
-    "815b54428c660d01": {
-      "title": "스트레티지, 세계 최대 기업 목표 속 비트코인 3588개 매각",
-      "url": "www.tokenpost.kr/news/market/385950",
-      "signature": "action_auction | action_convert | action_issue | action_mint | action_sell | amount_btc_3588 | amount_btc_approx_3600 | asset_btc | geo_us | object_sale",
-      "canonical_key": "action_auction | action_convert | action_issue | action_mint | action_sell | amount_btc_3588 | amount_btc_approx_3600 | asset_btc | geo_us | object_sale",
-      "ts": "2026-08-05T17:01:17.620999+00:00"
-    },
     "f13fc805157cb631": {
       "title": "파이어블록스, 월렛풀로 금고 거래 병목 우회",
       "url": "www.tokenpost.kr/news/blockchain/385988",
@@ -4395,6 +4388,13 @@
       "signature": "action_partner | asset_xrp | entity_리플",
       "canonical_key": "action_partner | asset_xrp | entity_리플",
       "ts": "2026-09-04T17:01:52.005852+00:00"
+    },
+    "b83fa653b96741fa": {
+      "title": "QuFi launches post-quantum verification platform with Bitcoin testnet proof",
+      "url": "cointelegraph.com/news/qufi-launches-post-quantum-verification-platform-with-bitcoin-testnet-proof?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "signature": "action_launch | asset_btc | entity_qufi",
+      "canonical_key": "action_launch | asset_btc | entity_qufi",
+      "ts": "2026-09-04T18:01:41.626053+00:00"
     }
   }
 }
