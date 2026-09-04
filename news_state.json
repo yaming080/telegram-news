@@ -4458,6 +4458,13 @@
       "signature": "action_issue | action_launch | asset_eth | asset_stablecoin | entity_usdg | object_network",
       "canonical_key": "action_issue | action_launch | asset_eth | asset_stablecoin | entity_usdg | object_network",
       "ts": "2026-09-03T21:02:34.969752+00:00"
+    },
+    "fdc4efa2db4ff52d": {
+      "title": "1350원대 원·달러, 단기 1300원대 초반 전망",
+      "url": "www.tokenpost.kr/news/economy/402236",
+      "signature": "action_disclose | action_invest | action_launch | action_sell | asset_btc | asset_eth | object_disclosure | object_sale",
+      "canonical_key": "action_disclose | action_invest | action_launch | action_sell | asset_btc | asset_eth | object_disclosure | object_sale",
+      "ts": "2026-09-04T01:02:20.532409+00:00"
     }
   }
 }
