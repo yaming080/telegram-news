@@ -4444,6 +4444,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-09-04T04:02:04.434721+00:00"
+    },
+    "7df9535c6886583e": {
+      "title": "Notional Finance faces suspected $1.7M exploit",
+      "url": "crypto.news/notional-finance-faces-suspected-1-7m-exploit",
+      "signature": "action_hack | amount_eth_689 | amount_eth_approx_690 | amount_eth_exact_689_2 | amount_usd_1700000 | asset_eth | entity_notionalfinance",
+      "canonical_key": "action_hack | amount_eth_689 | amount_eth_approx_690 | amount_eth_exact_689_2 | amount_usd_1700000 | asset_eth | entity_notionalfinance",
+      "ts": "2026-09-04T06:02:45.397424+00:00"
     }
   }
 }
