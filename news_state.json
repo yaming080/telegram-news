@@ -1,12 +1,5 @@
 {
   "posted": {
-    "5f5eb76dc6b1b160": {
-      "title": "코인베이스·비트와이즈 CEO, 가격보다 사용성에 주목",
-      "url": "www.tokenpost.kr/news/cryptocurrency/385753",
-      "signature": "action_expand | action_integrate | amount_usd_64000 | asset_btc | asset_stablecoin | entity_ceo | entity_코인베이스 | object_infrastructure | object_payment",
-      "canonical_key": "action_expand | action_integrate | amount_usd_64000 | asset_btc | asset_stablecoin | entity_ceo | entity_코인베이스 | object_infrastructure | object_payment",
-      "ts": "2026-08-05T12:01:03.817191+00:00"
-    },
     "0561144a04767c80": {
       "title": "MoonPay Brings Gasless Transactions to TRON, Simplifying Stablecoin Payments",
       "url": "www.cryptopolitan.com/moonpay-brings-gasless-transactions-to-tron-simplifying-stablecoin-payments",
@@ -4402,6 +4395,20 @@
       "signature": "action_sue | asset_xrp | object_class_action",
       "canonical_key": "action_sue | asset_xrp | object_class_action",
       "ts": "2026-09-04T12:02:09.684616+00:00"
+    },
+    "886fb11c62146f75": {
+      "title": "IMF, 엘살바도르 BTC 증가분 민간 기부로 확인",
+      "url": "www.tokenpost.kr/news/cryptocurrency/402527",
+      "signature": "action_approve | action_expand | action_integrate | action_purchase | action_transfer | asset_btc | date_2025_06_27 | entity_imf | object_board | object_corporate_crypto_purchase",
+      "canonical_key": "action_approve | action_expand | action_integrate | action_purchase | action_transfer | asset_btc | date_2025_06_27 | entity_imf | object_board | object_corporate_crypto_purchase",
+      "ts": "2026-09-04T13:02:38.126695+00:00"
+    },
+    "456acbb2c987eb9d": {
+      "title": "IMF Clears $140M for El Salvador as BTC Buys No Longer Use Public Funds",
+      "url": "thenewscrypto.com/imf-clears-140m-for-el-salvador-as-btc-buys-no-longer-use-public-funds",
+      "signature": "action_approve | action_audit | action_purchase | amount_usd_140000000 | asset_btc | entity_imf | object_board | object_corporate_crypto_purchase | object_fund",
+      "canonical_key": "action_approve | action_audit | action_purchase | amount_usd_140000000 | asset_btc | entity_imf | object_board | object_corporate_crypto_purchase | object_fund",
+      "ts": "2026-09-04T13:02:44.811544+00:00"
     }
   }
 }
