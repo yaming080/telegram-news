@@ -1,19 +1,5 @@
 {
   "posted": {
-    "4570872378c11b3f": {
-      "title": "에어리디움, 4개 AI로 스테이블코인 준비금 감시",
-      "url": "www.tokenpost.kr/news/blockchain/385555",
-      "signature": "action_secure | asset_btc | asset_stablecoin | geo_us | object_patent",
-      "canonical_key": "action_secure | asset_btc | asset_stablecoin | geo_us | object_patent",
-      "ts": "2026-08-05T07:01:07.548975+00:00"
-    },
-    "f7dbac8198be5614": {
-      "title": "Important Cardano News and ADA Price Update: August 5th",
-      "url": "cryptopotato.com/important-cardano-news-and-ada-price-update-august-5th",
-      "signature": "action_develop | action_expand | entity_카르다노",
-      "canonical_key": "action_develop | action_expand | entity_카르다노",
-      "ts": "2026-08-05T07:01:16.915514+00:00"
-    },
     "f865dccfbdd542e3": {
       "title": "Missouri trio charged over alleged Bitcoin kidnapping plot",
       "url": "cointelegraph.com/news/three-missouri-men-charged-bitcoin-kidnapping?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -4437,6 +4423,20 @@
       "signature": "action_hack | amount_eth_689 | amount_eth_approx_690 | amount_eth_exact_689_2 | amount_usd_1700000 | asset_eth | entity_notionalfinance",
       "canonical_key": "action_hack | amount_eth_689 | amount_eth_approx_690 | amount_eth_exact_689_2 | amount_usd_1700000 | asset_eth | entity_notionalfinance",
       "ts": "2026-09-04T06:02:45.397424+00:00"
+    },
+    "b125c1865905d816": {
+      "title": "OKX, 디오에스 락업 이벤트로 65만개 리워드 지급",
+      "url": "www.tokenpost.kr/news/cryptocurrency/402354",
+      "signature": "action_file | action_transfer | asset_btc | entity_okx | geo_korea",
+      "canonical_key": "action_file | action_transfer | asset_btc | entity_okx | geo_korea",
+      "ts": "2026-09-04T08:03:47.385645+00:00"
+    },
+    "f49a997152d35e0c": {
+      "title": "Kalshi adds 5 crypto perpetuals for U.S. traders",
+      "url": "crypto.news/kalshi-adds-5-crypto-perpetuals-for-u-s-traders",
+      "signature": "action_expand | action_launch | entity_us | entity_아베 | entity_칼시 | geo_us | object_derivatives",
+      "canonical_key": "action_expand | action_launch | entity_us | entity_아베 | entity_칼시 | geo_us | object_derivatives",
+      "ts": "2026-09-04T08:03:50.538276+00:00"
     }
   }
 }
