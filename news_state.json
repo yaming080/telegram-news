@@ -4381,6 +4381,20 @@
       "signature": "action_audit | action_disclose | action_launch | date_2026_04_02 | entity_카르다노 | object_disclosure",
       "canonical_key": "action_audit | action_disclose | action_launch | date_2026_04_02 | entity_카르다노 | object_disclosure",
       "ts": "2026-09-04T21:01:30.254516+00:00"
+    },
+    "68218cc91550a5f8": {
+      "title": "라잔 전 인도준비은행 총재, 10월 리플 스웰 참여 보도",
+      "url": "www.tokenpost.kr/news/cryptocurrency/402791",
+      "signature": "action_develop | asset_stablecoin | asset_xrp | asset_xrpl | entity_리플 | geo_india | geo_korea | geo_us",
+      "canonical_key": "action_develop | asset_stablecoin | asset_xrp | asset_xrpl | entity_리플 | geo_india | geo_korea | geo_us",
+      "ts": "2026-09-04T22:01:46.686381+00:00"
+    },
+    "7e3d71b3429991b5": {
+      "title": "Michael Saylor defends Americans’ right to promote Bitcoin",
+      "url": "crypto.news/michael-saylor-defend-america-right-to-promote-bitcoin",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-09-04T22:01:49.873182+00:00"
     }
   }
 }
