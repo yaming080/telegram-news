@@ -1,19 +1,5 @@
 {
   "posted": {
-    "3ab56d6ee2173303": {
-      "title": "Arthur Hayes: AI Bubble Burst Could Trigger Bitcoin Rally",
-      "url": "cryptopotato.com/arthur-hayes-ai-bubble-burst-could-trigger-bitcoin-rally",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-05T20:00:54.163928+00:00"
-    },
-    "cd42fe39838d0d61": {
-      "title": "Strategy offers $250 yearly for employee Trump Accounts",
-      "url": "crypto.news/strategy-offers-250-yearly-for-employee-trump-accounts",
-      "signature": "action_expand | amount_usd_250 | asset_btc | entity_도널드트럼프 | entity_스트래티지 | geo_us",
-      "canonical_key": "action_expand | amount_usd_250 | asset_btc | entity_도널드트럼프 | entity_스트래티지 | geo_us",
-      "ts": "2026-08-05T20:00:57.943120+00:00"
-    },
     "b1de04ae8be049d9": {
       "title": "Bitcoin Red Team reports 5K findings in sweeping security audit",
       "url": "cointelegraph.com/news/bitcoin-red-team-reports-5k-findings-in-sweeping-security-audit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -4388,6 +4374,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-09-04T20:01:16.859084+00:00"
+    },
+    "6093d186d3c32566": {
+      "title": "2360만 프랑 쓴 카르다노, 온체인 감사 확인",
+      "url": "www.tokenpost.kr/news/blockchain/402769",
+      "signature": "action_audit | action_disclose | action_launch | date_2026_04_02 | entity_카르다노 | object_disclosure",
+      "canonical_key": "action_audit | action_disclose | action_launch | date_2026_04_02 | entity_카르다노 | object_disclosure",
+      "ts": "2026-09-04T21:01:30.254516+00:00"
     }
   }
 }
