@@ -4458,6 +4458,13 @@
       "signature": "action_disclose | action_invest | action_launch | action_sell | asset_btc | asset_eth | object_disclosure | object_sale",
       "canonical_key": "action_disclose | action_invest | action_launch | action_sell | asset_btc | asset_eth | object_disclosure | object_sale",
       "ts": "2026-09-04T01:02:20.532409+00:00"
+    },
+    "5cf96a20fe60505d": {
+      "title": "구윤철·민병덕·저스틴 선·빗썸·네이버 한자리에…‘GWDC 2026 KOREA’ 글로벌 라인업 확대",
+      "url": "www.tokenpost.kr/news/insights/402264",
+      "signature": "action_develop | action_disclose | action_expand | action_launch | entity_gwdc | entity_korea | entity_마이크로소프트 | entity_저스틴선 | geo_hongkong | geo_korea | geo_seoul | object_commissioner | object_disclosure",
+      "canonical_key": "action_develop | action_disclose | action_expand | action_launch | entity_gwdc | entity_korea | entity_마이크로소프트 | entity_저스틴선 | geo_hongkong | geo_korea | geo_seoul | object_commissioner | object_disclosure",
+      "ts": "2026-09-04T03:02:04.581236+00:00"
     }
   }
 }
