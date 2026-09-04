@@ -1,26 +1,5 @@
 {
   "posted": {
-    "f865dccfbdd542e3": {
-      "title": "Missouri trio charged over alleged Bitcoin kidnapping plot",
-      "url": "cointelegraph.com/news/three-missouri-men-charged-bitcoin-kidnapping?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-05T08:01:00.096610+00:00"
-    },
-    "81453bc005f22b14": {
-      "title": "이더리움 보상 소각안, 기존 보도와 같은 사안",
-      "url": "www.tokenpost.kr/news/blockchain/385577",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-05T08:01:03.960069+00:00"
-    },
-    "2e470509242162e2": {
-      "title": "Upbit adds GRVT trading pairs across three major markets",
-      "url": "crypto.news/upbit-adds-grvt-trading-pairs-across-three-major-markets",
-      "signature": "action_launch | amount_pct_23 | asset_btc | asset_eth | asset_usdt | entity_grvt | entity_업비트",
-      "canonical_key": "action_launch | amount_pct_23 | asset_btc | asset_eth | asset_usdt | entity_grvt | entity_업비트",
-      "ts": "2026-08-05T08:01:13.378663+00:00"
-    },
     "f764c2d58c0e05ab": {
       "title": "Spot Bitcoin vs Bitcoin CFDs: Key Differences (Ownership, Taxes, Fees)",
       "url": "coinedition.com/spot-bitcoin-vs-bitcoin-cfds-key-differences-ownership-taxes-fees",
@@ -4437,6 +4416,20 @@
       "signature": "action_expand | action_launch | entity_us | entity_아베 | entity_칼시 | geo_us | object_derivatives",
       "canonical_key": "action_expand | action_launch | entity_us | entity_아베 | entity_칼시 | geo_us | object_derivatives",
       "ts": "2026-09-04T08:03:50.538276+00:00"
+    },
+    "83dab4187c307cd2": {
+      "title": "XMR to BTC: How to Move Monero Back Into Bitcoin",
+      "url": "crypto.news/xmr-to-btc-how-to-move-monero-back-into-bitcoin",
+      "signature": "action_support | action_transfer | asset_btc | entity_xmr | object_custody",
+      "canonical_key": "action_support | action_transfer | asset_btc | entity_xmr | object_custody",
+      "ts": "2026-09-04T09:02:05.370970+00:00"
+    },
+    "f6b9aa47c10f524a": {
+      "title": "Canary Capital teases staked TRX ETF launch",
+      "url": "crypto.news/canary-capital-teases-staked-trx-etf-launch",
+      "signature": "action_launch | entity_canarycapital | entity_sec | object_custody | object_etf",
+      "canonical_key": "action_launch | entity_canarycapital | entity_sec | object_custody | object_etf",
+      "ts": "2026-09-04T09:02:09.818823+00:00"
     }
   }
 }
