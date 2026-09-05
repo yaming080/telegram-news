@@ -1,12 +1,5 @@
 {
   "posted": {
-    "9dfbefa7463446e0": {
-      "title": "부산 해운대, 가상자산 체납 추적 시스템 도입…징수 효율성↑",
-      "url": "www.tokenpost.kr/news/blockchain/386149",
-      "signature": "action_launch | action_sell | asset_btc | date_2026_08_06 | object_sale",
-      "canonical_key": "action_launch | action_sell | asset_btc | date_2026_08_06 | object_sale",
-      "ts": "2026-08-06T03:01:12.784131+00:00"
-    },
     "ce5b344d511a5c76": {
       "title": "Bitcoin Red Team finds 4,962 issues reviewing Bitcoin projects after Coldcard exploit",
       "url": "crypto.news/bitcoin-red-team-finds-4962-issues-reviewing-bitcoin-projects-after-coldcard-exploit",
