@@ -4402,6 +4402,13 @@
       "signature": "action_expand | action_partner | asset_xrp | entity_리플",
       "canonical_key": "action_expand | action_partner | asset_xrp | entity_리플",
       "ts": "2026-09-05T01:01:41.689403+00:00"
+    },
+    "03a410e71234bd64": {
+      "title": "서클 래핑비트코인 준비금 검증 구조 공개",
+      "url": "www.tokenpost.kr/news/cryptocurrency/402873",
+      "signature": "action_auction | action_disclose | action_launch | action_sell | asset_btc | asset_eth | object_disclosure | object_lending | object_payment | object_sale",
+      "canonical_key": "action_auction | action_disclose | action_launch | action_sell | asset_btc | asset_eth | object_disclosure | object_lending | object_payment | object_sale",
+      "ts": "2026-09-05T02:01:26.382885+00:00"
     }
   }
 }
