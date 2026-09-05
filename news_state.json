@@ -1,12 +1,5 @@
 {
   "posted": {
-    "b1de04ae8be049d9": {
-      "title": "Bitcoin Red Team reports 5K findings in sweeping security audit",
-      "url": "cointelegraph.com/news/bitcoin-red-team-reports-5k-findings-in-sweeping-security-audit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-06T02:00:54.743492+00:00"
-    },
     "9dfbefa7463446e0": {
       "title": "부산 해운대, 가상자산 체납 추적 시스템 도입…징수 효율성↑",
       "url": "www.tokenpost.kr/news/blockchain/386149",
@@ -4409,6 +4402,13 @@
       "signature": "action_auction | action_disclose | action_launch | action_sell | asset_btc | asset_eth | object_disclosure | object_lending | object_payment | object_sale",
       "canonical_key": "action_auction | action_disclose | action_launch | action_sell | asset_btc | asset_eth | object_disclosure | object_lending | object_payment | object_sale",
       "ts": "2026-09-05T02:01:26.382885+00:00"
+    },
+    "91dd19a8b207852d": {
+      "title": "퀴파이, 비트코인 테스트넷서 양자 검증 가동",
+      "url": "www.tokenpost.kr/news/blockchain/402897",
+      "signature": "action_launch | asset_btc | object_network | object_payment",
+      "canonical_key": "action_launch | asset_btc | object_network | object_payment",
+      "ts": "2026-09-05T03:01:37.045675+00:00"
     }
   }
 }
