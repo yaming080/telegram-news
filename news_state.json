@@ -1,19 +1,5 @@
 {
   "posted": {
-    "0891af84d0ebd4f9": {
-      "title": "Crypto Market 2026: Why Bitcoin and Altcoins Are Still Struggling?",
-      "url": "coinedition.com/crypto-market-2026-why-bitcoin-and-altcoins-are-still-struggling",
-      "signature": "action_expand | action_pass | asset_btc | object_bill",
-      "canonical_key": "action_expand | action_pass | asset_btc | object_bill",
-      "ts": "2026-08-06T22:01:22.595978+00:00"
-    },
-    "52d75de5061f7ed9": {
-      "title": "Can Bitcoin Upgrade Without Consensus? What the BIP-110 Debate Means",
-      "url": "coinedition.com/can-bitcoin-upgrade-without-consensus-what-the-bip-110-debate-means",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-06T22:01:33.075117+00:00"
-    },
     "1ade095772a9795e": {
       "title": "XRP Close to Finishing Wave 2 Correction, as Wave 3 Targets $43",
       "url": "thecryptobasic.com/2026/08/06/xrp-close-to-finishing-wave-2-correction-as-wave-3-targets-43",
@@ -4381,6 +4367,20 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-09-05T20:01:13.842592+00:00"
+    },
+    "b97905602016cabe": {
+      "title": "1억5200만달러 토큰화 주식, 솔라나·로빈후드체인에 예치",
+      "url": "www.tokenpost.kr/news/cryptocurrency/403137",
+      "signature": "action_launch | amount_krw_101700000000 | amount_krw_205000000000 | amount_krw_259800000000 | amount_krw_98100000000 | amount_pct_79 | amount_usd_152000000 | amount_usd_192600000 | amount_usd_52000000 | amount_usd_72700000 | amount_usd_75400000 | amount_usd_92600000 | asset_eth | asset_sol | entity_로빈후드 | object_lending",
+      "canonical_key": "action_launch | amount_krw_101700000000 | amount_krw_205000000000 | amount_krw_259800000000 | amount_krw_98100000000 | amount_pct_79 | amount_usd_152000000 | amount_usd_192600000 | amount_usd_52000000 | amount_usd_72700000 | amount_usd_75400000 | amount_usd_92600000 | asset_eth | asset_sol | entity_로빈후드 | object_lending",
+      "ts": "2026-09-05T23:01:37.495270+00:00"
+    },
+    "c9bcbee036b09d09": {
+      "title": "클라우드플레어, 오픈AI로 취약점 방어 서비스 시작",
+      "url": "www.tokenpost.kr/news/ai/403133",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-09-05T23:01:40.934093+00:00"
     }
   }
 }
