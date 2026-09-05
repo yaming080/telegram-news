@@ -1,26 +1,5 @@
 {
   "posted": {
-    "8afa1994123c6a48": {
-      "title": "Ethereum’s Governance Problem: Why the Market Keeps Rejecting the Ethereum Foundation’s Vision",
-      "url": "coinedition.com/ethereums-governance-problem-why-the-market-keeps-rejecting-the-ethereum-foundations-vision",
-      "signature": "action_deny | amount_eth_4 | asset_eth | entity_이더리움재단 | object_foundation_governance | object_network",
-      "canonical_key": "action_deny | amount_eth_4 | asset_eth | entity_이더리움재단 | object_foundation_governance | object_network",
-      "ts": "2026-08-06T11:01:24.009522+00:00"
-    },
-    "b02af0629f9cbe08": {
-      "title": "Ethereum May Sacrifice Capital Markets for Monetary Purity Under EIP-8361",
-      "url": "coinedition.com/ethereum-may-sacrifice-capital-markets-for-monetary-purity-under-eip-8361",
-      "signature": "action_support | amount_eth_8361 | amount_eth_approx_8400 | amount_pct_50 | asset_eth | entity_ethereummaysacrificecapital | object_network",
-      "canonical_key": "action_support | amount_eth_8361 | amount_eth_approx_8400 | amount_pct_50 | asset_eth | entity_ethereummaysacrificecapital | object_network",
-      "ts": "2026-08-06T11:01:34.990840+00:00"
-    },
-    "b057b68b5cf352a6": {
-      "title": "US Crypto Crime Crackdown: Ex-LAPD Officer Gets Life, Three Men Charged in BTC Robbery",
-      "url": "coinedition.com/us-crypto-crime-crackdown-ex-lapd-officer-gets-life-three-men-charged-in-btc-robbery",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-06T11:01:41.515573+00:00"
-    },
     "25713befc990a52d": {
       "title": "Bitcoin treasury trade ‘breaking’ and fund holdings drop 10%: Analysis",
       "url": "cointelegraph.com/markets/bitcoin-treasury-trade-breaking-and-fund-holdings-drop-10-analysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -4409,6 +4388,20 @@
       "signature": "action_disclose | action_invest | action_launch | asset_btc | count_people_2800 | count_people_5600 | count_people_7200 | entity_로빈후드 | entity_바이낸스 | entity_유니스왑 | object_disclosure | object_wallet",
       "canonical_key": "action_disclose | action_invest | action_launch | asset_btc | count_people_2800 | count_people_5600 | count_people_7200 | entity_로빈후드 | entity_바이낸스 | entity_유니스왑 | object_disclosure | object_wallet",
       "ts": "2026-09-05T10:01:47.549611+00:00"
+    },
+    "e0543a45f4c835c8": {
+      "title": "비트코인·금 90일 상관 6년 고점 근접",
+      "url": "www.tokenpost.kr/news/cryptocurrency/403008",
+      "signature": "action_disclose | action_invest | action_launch | action_transfer | asset_btc | date_2015_04_13 | date_2026_08_31 | duration_years_6 | object_disclosure",
+      "canonical_key": "action_disclose | action_invest | action_launch | action_transfer | asset_btc | date_2015_04_13 | date_2026_08_31 | duration_years_6 | object_disclosure",
+      "ts": "2026-09-05T12:02:24.994813+00:00"
+    },
+    "8d577d0a034d5df9": {
+      "title": "Shiba Inu: Shytoshi Kusama Makes 'Close' X Location Update, Still Silent",
+      "url": "u.today/shiba-inu-shytoshi-kusama-makes-close-x-location-update-still-silent",
+      "signature": "action_close | action_upgrade | entity_시바이누",
+      "canonical_key": "action_close | action_upgrade | entity_시바이누",
+      "ts": "2026-09-05T12:02:29.608322+00:00"
     }
   }
 }
