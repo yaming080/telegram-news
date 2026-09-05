@@ -1,19 +1,5 @@
 {
   "posted": {
-    "c65b8ca324711098": {
-      "title": "KITE halts Ethereum mainnet transfers in exploit response",
-      "url": "www.cryptopolitan.com/kite-contains-ethereum-mainnet-token-attack",
-      "signature": "action_close | action_hack | asset_eth | entity_kite",
-      "canonical_key": "action_close | action_hack | asset_eth | entity_kite",
-      "ts": "2026-08-06T13:01:11.835752+00:00"
-    },
-    "7a883f9f42ca7b73": {
-      "title": "Shiba Inu Becomes Spendable Across Dubai Duty Free’s Airport Stores",
-      "url": "thecryptobasic.com/2026/08/06/shiba-inu-becomes-spendable-across-dubai-duty-frees-airport-stores",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-06T13:01:18.927537+00:00"
-    },
     "e7026f95473023b7": {
       "title": "Aave and Uniswap push OKX's X Layer DeFi to record levels",
       "url": "www.cryptopolitan.com/x-layer-defi-tvl-stablecoin-volume-record",
@@ -4388,6 +4374,13 @@
       "signature": "action_audit | action_develop | action_disclose | action_launch | asset_xrp | asset_xrpl | entity_xrpl재단 | entity_리플 | object_card | object_disclosure",
       "canonical_key": "action_audit | action_develop | action_disclose | action_launch | asset_xrp | asset_xrpl | entity_xrpl재단 | entity_리플 | object_card | object_disclosure",
       "ts": "2026-09-05T13:01:39.205848+00:00"
+    },
+    "aec6621c18c496ca": {
+      "title": "비트코인 8만달러 밑돌아, 물가·ECB 대기",
+      "url": "www.tokenpost.kr/news/cryptocurrency/403026",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-09-05T14:01:15.350072+00:00"
     }
   }
 }
