@@ -1,12 +1,5 @@
 {
   "posted": {
-    "914655a626e45637": {
-      "title": "How a five-year-old build flag drained $116 million from bitcoin’s most trusted hardware wallet",
-      "url": "crypto.news/coldcard-hack-bitcoin-self-custody-entropy",
-      "signature": "action_build | action_steal | amount_btc_1816 | amount_btc_approx_1800 | amount_usd_116000000 | asset_btc | duration_years_5 | entity_콜드카드 | object_wallet",
-      "canonical_key": "action_build | action_steal | amount_btc_1816 | amount_btc_approx_1800 | amount_usd_116000000 | asset_btc | duration_years_5 | entity_콜드카드 | object_wallet",
-      "ts": "2026-08-06T10:01:01.615097+00:00"
-    },
     "8afa1994123c6a48": {
       "title": "Ethereum’s Governance Problem: Why the Market Keeps Rejecting the Ethereum Foundation’s Vision",
       "url": "coinedition.com/ethereums-governance-problem-why-the-market-keeps-rejecting-the-ethereum-foundations-vision",
