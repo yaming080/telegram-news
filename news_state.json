@@ -1,12 +1,5 @@
 {
   "posted": {
-    "ab36bed49cb301a0": {
-      "title": "Bitcoin-backed loan refinances PowerCompute’s $18M debt at 2%",
-      "url": "cointelegraph.com/news/bitcoin-collateral-cuts-powercompute-debt-rate?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "action_support | amount_pct_2 | amount_usd_18000000 | asset_btc | object_lending",
-      "canonical_key": "action_support | amount_pct_2 | amount_usd_18000000 | asset_btc | object_lending",
-      "ts": "2026-08-06T09:01:01.965033+00:00"
-    },
     "914655a626e45637": {
       "title": "How a five-year-old build flag drained $116 million from bitcoin’s most trusted hardware wallet",
       "url": "crypto.news/coldcard-hack-bitcoin-self-custody-entropy",
@@ -4416,6 +4409,13 @@
       "signature": "action_hack | action_propose | amount_usd_1000000000 | amount_usd_21000000000 | amount_usd_731000000 | amount_usd_75000000 | asset_btc | entity_폴리마켓 | geo_us",
       "canonical_key": "action_hack | action_propose | amount_usd_1000000000 | amount_usd_21000000000 | amount_usd_731000000 | amount_usd_75000000 | asset_btc | entity_폴리마켓 | geo_us",
       "ts": "2026-09-05T09:02:31.356404+00:00"
+    },
+    "4afbdc96145737ad": {
+      "title": "로빈후드 스톡토큰 보유자 86만명, 비스톡스 앞섰다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/402983",
+      "signature": "action_disclose | action_invest | action_launch | asset_btc | count_people_2800 | count_people_5600 | count_people_7200 | entity_로빈후드 | entity_바이낸스 | entity_유니스왑 | object_disclosure | object_wallet",
+      "canonical_key": "action_disclose | action_invest | action_launch | asset_btc | count_people_2800 | count_people_5600 | count_people_7200 | entity_로빈후드 | entity_바이낸스 | entity_유니스왑 | object_disclosure | object_wallet",
+      "ts": "2026-09-05T10:01:47.549611+00:00"
     }
   }
 }
