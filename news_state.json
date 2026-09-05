@@ -1,26 +1,5 @@
 {
   "posted": {
-    "25713befc990a52d": {
-      "title": "Bitcoin treasury trade ‘breaking’ and fund holdings drop 10%: Analysis",
-      "url": "cointelegraph.com/markets/bitcoin-treasury-trade-breaking-and-fund-holdings-drop-10-analysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "action_invest | amount_pct_10 | asset_btc | object_fund",
-      "canonical_key": "action_invest | amount_pct_10 | asset_btc | object_fund",
-      "ts": "2026-08-06T12:01:08.453016+00:00"
-    },
-    "174af2a8bc08341a": {
-      "title": "Coldcard hackers transfer 64 BTC and 200 ETH to cryptocurrency mixers",
-      "url": "cointelegraph.com/news/coldcard-hackers-64-btc-200-eth-cryptocurrency-mixers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "signature": "action_hack | action_steal | amount_btc_64 | amount_eth_200 | amount_eth_approx_200 | asset_btc | asset_eth | entity_콜드카드",
-      "canonical_key": "action_hack | action_steal | amount_btc_64 | amount_eth_200 | amount_eth_approx_200 | asset_btc | asset_eth | entity_콜드카드",
-      "ts": "2026-08-06T12:01:11.670894+00:00"
-    },
-    "50fed165978fc5f5": {
-      "title": "PowerCompute uses 307 BTC to refinance $18M debt through Arch Lending",
-      "url": "crypto.news/powercompute-uses-307-btc-to-refinance-18m-debt-through-arch-lending",
-      "signature": "action_issue | action_migrate | action_support | amount_btc_307 | amount_btc_approx_310 | amount_usd_18000000 | asset_btc | object_lending",
-      "canonical_key": "action_issue | action_migrate | action_support | amount_btc_307 | amount_btc_approx_310 | amount_usd_18000000 | asset_btc | object_lending",
-      "ts": "2026-08-06T12:01:19.737720+00:00"
-    },
     "c65b8ca324711098": {
       "title": "KITE halts Ethereum mainnet transfers in exploit response",
       "url": "www.cryptopolitan.com/kite-contains-ethereum-mainnet-token-attack",
@@ -4402,6 +4381,13 @@
       "signature": "action_close | action_upgrade | entity_시바이누",
       "canonical_key": "action_close | action_upgrade | entity_시바이누",
       "ts": "2026-09-05T12:02:29.608322+00:00"
+    },
+    "8905c8f9f5126183": {
+      "title": "XRP 레저, 수정안 검증 스코어카드 공개",
+      "url": "www.tokenpost.kr/news/blockchain/403020",
+      "signature": "action_audit | action_develop | action_disclose | action_launch | asset_xrp | asset_xrpl | entity_xrpl재단 | entity_리플 | object_card | object_disclosure",
+      "canonical_key": "action_audit | action_develop | action_disclose | action_launch | asset_xrp | asset_xrpl | entity_xrpl재단 | entity_리플 | object_card | object_disclosure",
+      "ts": "2026-09-05T13:01:39.205848+00:00"
     }
   }
 }
