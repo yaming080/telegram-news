@@ -1,19 +1,5 @@
 {
   "posted": {
-    "e7026f95473023b7": {
-      "title": "Aave and Uniswap push OKX's X Layer DeFi to record levels",
-      "url": "www.cryptopolitan.com/x-layer-defi-tvl-stablecoin-volume-record",
-      "signature": "action_integrate | amount_usd_100000000 | amount_usd_2000000000 | asset_eth | asset_stablecoin | entity_okx | entity_아베 | entity_유니스왑 | object_network",
-      "canonical_key": "action_integrate | amount_usd_100000000 | amount_usd_2000000000 | asset_eth | asset_stablecoin | entity_okx | entity_아베 | entity_유니스왑 | object_network",
-      "ts": "2026-08-06T15:01:36.775508+00:00"
-    },
-    "e39ba30f75cee7a6": {
-      "title": "New XRP Ledger Features Face Community Stress Test: Is Next XRPL Update Ready to Drop?",
-      "url": "u.today/new-xrp-ledger-features-face-community-stress-test-is-next-xrpl-update-ready-to-drop",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-06T15:01:43.180033+00:00"
-    },
     "0891af84d0ebd4f9": {
       "title": "Crypto Market 2026: Why Bitcoin and Altcoins Are Still Struggling?",
       "url": "coinedition.com/crypto-market-2026-why-bitcoin-and-altcoins-are-still-struggling",
@@ -4381,6 +4367,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-09-05T14:01:15.350072+00:00"
+    },
+    "7266d99439c60c11": {
+      "title": "헤고타 검열 저항 축 확정, 슬롯 단축은 검토 과제",
+      "url": "www.tokenpost.kr/news/blockchain/403059",
+      "signature": "action_audit | action_disclose | action_expand | action_launch | action_propose | action_upgrade | asset_eth | entity_이더리움재단 | object_account | object_disclosure | reference_eip_7805",
+      "canonical_key": "action_audit | action_disclose | action_expand | action_launch | action_propose | action_upgrade | asset_eth | entity_이더리움재단 | object_account | object_disclosure | reference_eip_7805",
+      "ts": "2026-09-05T16:01:47.694477+00:00"
     }
   }
 }
