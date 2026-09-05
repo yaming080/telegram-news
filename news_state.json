@@ -4395,6 +4395,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-09-04T22:01:49.873182+00:00"
+    },
+    "678b3f84a7b78d63": {
+      "title": "Ripple Signs Multi-Year Partnership With Florida Athletics",
+      "url": "coinedition.com/crypto-live-news/ripple-signs-multi-year-partnership-with-florida-athletics",
+      "signature": "action_expand | action_partner | asset_xrp | entity_리플",
+      "canonical_key": "action_expand | action_partner | asset_xrp | entity_리플",
+      "ts": "2026-09-05T01:01:41.689403+00:00"
     }
   }
 }
