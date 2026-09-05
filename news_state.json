@@ -4374,6 +4374,13 @@
       "signature": "action_audit | action_disclose | action_expand | action_launch | action_propose | action_upgrade | asset_eth | entity_이더리움재단 | object_account | object_disclosure | reference_eip_7805",
       "canonical_key": "action_audit | action_disclose | action_expand | action_launch | action_propose | action_upgrade | asset_eth | entity_이더리움재단 | object_account | object_disclosure | reference_eip_7805",
       "ts": "2026-09-05T16:01:47.694477+00:00"
+    },
+    "d6f856b3e15bf2ba": {
+      "title": "대만, 가상자산 영업세 제외…NFT는 과세",
+      "url": "www.tokenpost.kr/news/policy/403101",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-09-05T20:01:13.842592+00:00"
     }
   }
 }
