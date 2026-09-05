@@ -4402,6 +4402,13 @@
       "signature": "action_launch | asset_btc | object_network | object_payment",
       "canonical_key": "action_launch | asset_btc | object_network | object_payment",
       "ts": "2026-09-05T03:01:37.045675+00:00"
+    },
+    "c30d28c82469cfe6": {
+      "title": "A privacy coin just hit $1,000 and Wall Street is buying",
+      "url": "crypto.news/zcash-1000-privacy-coin-spot-etf-grayscale-2",
+      "signature": "action_close | action_purchase | amount_usd_1000 | asset_btc | date_2026_09_04 | entity_sec | object_etf",
+      "canonical_key": "action_close | action_purchase | amount_usd_1000 | asset_btc | date_2026_09_04 | entity_sec | object_etf",
+      "ts": "2026-09-05T07:01:57.772016+00:00"
     }
   }
 }
