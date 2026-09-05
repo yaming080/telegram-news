@@ -4402,6 +4402,20 @@
       "signature": "action_close | action_purchase | amount_usd_1000 | asset_btc | date_2026_09_04 | entity_sec | object_etf",
       "canonical_key": "action_close | action_purchase | amount_usd_1000 | asset_btc | date_2026_09_04 | entity_sec | object_etf",
       "ts": "2026-09-05T07:01:57.772016+00:00"
+    },
+    "d394ab296e4c92f7": {
+      "title": "리플 문서에 우버·에어비앤비, 지급 사례로 등장",
+      "url": "www.tokenpost.kr/news/cryptocurrency/402974",
+      "signature": "action_disclose | action_launch | action_propose | entity_리플 | object_disclosure | object_infrastructure | object_payment | object_sale",
+      "canonical_key": "action_disclose | action_launch | action_propose | entity_리플 | object_disclosure | object_infrastructure | object_payment | object_sale",
+      "ts": "2026-09-05T09:02:26.013469+00:00"
+    },
+    "f595b79d2f56ff8c": {
+      "title": "Polymarket seeks $1b, Cronos reverses $75m hack, Bitcoin ETFs draw $731m | Weekly recap",
+      "url": "crypto.news/polymarket-1b-cronos-75m-hack-weekly-recap",
+      "signature": "action_hack | action_propose | amount_usd_1000000000 | amount_usd_21000000000 | amount_usd_731000000 | amount_usd_75000000 | asset_btc | entity_폴리마켓 | geo_us",
+      "canonical_key": "action_hack | action_propose | amount_usd_1000000000 | amount_usd_21000000000 | amount_usd_731000000 | amount_usd_75000000 | asset_btc | entity_폴리마켓 | geo_us",
+      "ts": "2026-09-05T09:02:31.356404+00:00"
     }
   }
 }
