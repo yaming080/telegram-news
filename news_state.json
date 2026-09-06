@@ -1,12 +1,5 @@
 {
   "posted": {
-    "0f586f5cdba6be07": {
-      "title": "토큰포스트, iOS·안드로이드 공식 앱 출시…커피쿠폰·디센트 S 지갑 증정 캠페인",
-      "url": "www.tokenpost.kr/news/insights/386668",
-      "signature": "action_launch | asset_btc | asset_eth | object_wallet",
-      "canonical_key": "action_launch | asset_btc | asset_eth | object_wallet",
-      "ts": "2026-08-07T09:01:01.628008+00:00"
-    },
     "82f06b6232569887": {
       "title": "XRP, 미국 상원 암호화폐 규제 법안 표결 연기로 급락",
       "url": "www.tokenpost.kr/news/cryptocurrency/386679",
