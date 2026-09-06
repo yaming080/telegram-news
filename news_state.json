@@ -1,19 +1,5 @@
 {
   "posted": {
-    "1ad32dc0c1ce08ac": {
-      "title": "Crypto Trends on X in 2026: Regulation, AI, and DeFi Lead Discussions",
-      "url": "coinedition.com/crypto-trends-on-x-in-2026-regulation-ai-and-defi-lead-discussions",
-      "signature": "action_adopt | action_expand | asset_btc | asset_eth | entity_defileaddiscussions | entity_규제 | geo_us | object_infrastructure | object_institutional_adoption",
-      "canonical_key": "action_adopt | action_expand | asset_btc | asset_eth | entity_defileaddiscussions | entity_규제 | geo_us | object_infrastructure | object_institutional_adoption",
-      "ts": "2026-08-07T16:03:07.803239+00:00"
-    },
-    "b8cfac6fb965baf0": {
-      "title": "Former Bitcoin miner Firmus raises $2B as Blackstone, Nvidia back AI push",
-      "url": "crypto.news/former-bitcoin-miner-firmus-raises-2b-as-blackstone-nvidia-back-ai-push",
-      "signature": "action_expand | action_secure | action_support | amount_usd_10500000000 | amount_usd_2000000000 | asset_btc | entity_엔비디아 | object_infrastructure",
-      "canonical_key": "action_expand | action_secure | action_support | amount_usd_10500000000 | amount_usd_2000000000 | asset_btc | entity_엔비디아 | object_infrastructure",
-      "ts": "2026-08-07T16:03:15.055952+00:00"
-    },
     "7963d430cd9b2631": {
       "title": "서클, OKX X Layer에 USDC 상장…결제·디파이 확장 주목",
       "url": "www.tokenpost.kr/news/cryptocurrency/386850",
@@ -4360,6 +4346,41 @@
       "signature": "action_acquire | action_expand | asset_btc | geo_uk | object_payment",
       "canonical_key": "action_acquire | action_expand | asset_btc | geo_uk | object_payment",
       "ts": "2026-09-06T15:02:56.871752+00:00"
+    },
+    "9a935c83847566cd": {
+      "title": "AI 보안경고가 비트코인 코드 생태계로 번졌다",
+      "url": "www.tokenpost.kr/news/blockchain/403446",
+      "signature": "action_hack | asset_btc | object_wallet",
+      "canonical_key": "action_hack | asset_btc | object_wallet",
+      "ts": "2026-09-06T17:02:39.313920+00:00"
+    },
+    "5aebf8867a3a063e": {
+      "title": "비트코인 돈 비중 1.2%, 1.7%는 작년 계산치",
+      "url": "www.tokenpost.kr/news/cryptocurrency/403445",
+      "signature": "action_disclose | action_launch | action_propose | amount_pct_1.2 | amount_pct_1.7 | amount_usd_100000000000 | amount_usd_900000000000 | asset_btc | date_2026_02_24 | object_disclosure",
+      "canonical_key": "action_disclose | action_launch | action_propose | amount_pct_1.2 | amount_pct_1.7 | amount_usd_100000000000 | amount_usd_900000000000 | asset_btc | date_2026_02_24 | object_disclosure",
+      "ts": "2026-09-06T17:02:43.185358+00:00"
+    },
+    "8b020f70d3fb702f": {
+      "title": "XRP 로고, 플로리다대 풋볼 경기장 오른다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/403443",
+      "signature": "action_disclose | action_launch | asset_xrp | entity_리플 | geo_india | geo_korea | geo_us | object_disclosure",
+      "canonical_key": "action_disclose | action_launch | asset_xrp | entity_리플 | geo_india | geo_korea | geo_us | object_disclosure",
+      "ts": "2026-09-06T17:02:49.833036+00:00"
+    },
+    "7f1a46213a07c059": {
+      "title": "국제결제은행, XRP 레저로 통계 원본 검증 시험",
+      "url": "www.tokenpost.kr/news/blockchain/403442",
+      "signature": "action_disclose | action_launch | asset_xrp | asset_xrpl | entity_리플 | object_disclosure | object_payment",
+      "canonical_key": "action_disclose | action_launch | asset_xrp | asset_xrpl | entity_리플 | object_disclosure | object_payment",
+      "ts": "2026-09-06T17:02:53.358004+00:00"
+    },
+    "66b5878af6be777e": {
+      "title": "7만6000달러 청산 구간에 장줘얼 BTC 정리",
+      "url": "www.tokenpost.kr/news/cryptocurrency/403440",
+      "signature": "action_invest | action_propose | action_sell | amount_usd_76000 | asset_btc | object_sale",
+      "canonical_key": "action_invest | action_propose | action_sell | amount_usd_76000 | asset_btc | object_sale",
+      "ts": "2026-09-06T17:02:56.549937+00:00"
     }
   }
 }
