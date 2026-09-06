@@ -1,26 +1,5 @@
 {
   "posted": {
-    "923c7458d50ef121": {
-      "title": "베이스서 50만달러 빼돌린 공격자, MEV 봇에 74% 뺏겼다",
-      "url": "www.tokenpost.kr/news/blockchain/386714",
-      "signature": "action_steal | amount_pct_74 | amount_usd_370000 | amount_usd_500000 | asset_eth | asset_usdc | entity_mev | entity_코인베이스 | object_network | object_wallet",
-      "canonical_key": "action_steal | amount_pct_74 | amount_usd_370000 | amount_usd_500000 | asset_eth | asset_usdc | entity_mev | entity_코인베이스 | object_network | object_wallet",
-      "ts": "2026-08-07T11:01:14.111431+00:00"
-    },
-    "69c6e30c1a24588d": {
-      "title": "CleanSpark reports $239M quarterly loss as revenue falls 30.5%, misses estimates",
-      "url": "crypto.news/cleanspark-reports-239m-quarterly-loss-as-revenue-falls-30-5-misses-estimates",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-07T11:01:20.930272+00:00"
-    },
-    "007ffaa68ab4f942": {
-      "title": "XRP set to skyrocket after securing full MiCA approval: How XRP holders can earn $4,600 daily",
-      "url": "crypto.news/xrp-set-to-skyrocket-after-securing-full-mica-approval-how-xrp-holders-can-earn-4600-daily",
-      "signature": "action_approve | action_secure | amount_usd_4600 | asset_xrp | entity_미카",
-      "canonical_key": "action_approve | action_secure | amount_usd_4600 | asset_xrp | entity_미카",
-      "ts": "2026-08-07T11:01:24.699567+00:00"
-    },
     "42ec34d72244e2de": {
       "title": "The $3K Target Is Set for Ethereum (ETH): Can It Get There Before Month Close?",
       "url": "thenewscrypto.com/the-3k-target-is-set-for-ethereum-eth-can-it-get-there-before-month-close",
@@ -4353,6 +4332,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-09-06T11:01:47.643860+00:00"
+    },
+    "745b41fc9b8efc91": {
+      "title": "56EH/s 줄인 채굴사, AI 매출 52% 늘었다",
+      "url": "www.tokenpost.kr/news/ai/403364",
+      "signature": "action_convert | action_disclose | action_transfer | amount_pct_10 | amount_pct_15 | amount_pct_52 | asset_btc | object_disclosure | object_network | period_2026_h1 | period_2026_q1",
+      "canonical_key": "action_convert | action_disclose | action_transfer | amount_pct_10 | amount_pct_15 | amount_pct_52 | asset_btc | object_disclosure | object_network | period_2026_h1 | period_2026_q1",
+      "ts": "2026-09-06T12:02:04.812075+00:00"
     }
   }
 }
