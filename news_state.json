@@ -1,12 +1,5 @@
 {
   "posted": {
-    "67a80be2c7d6f959": {
-      "title": "Very welcome: Vitalik Buterin responds to Signal's no phone number registration",
-      "url": "www.cryptopolitan.com/?p=301165",
-      "signature": "action_support | asset_eth | entity_비탈릭부텔린",
-      "canonical_key": "action_support | asset_eth | entity_비탈릭부텔린",
-      "ts": "2026-08-07T21:02:26.885952+00:00"
-    },
     "3751bf9fb64e1b6c": {
       "title": "BTCPay Server Warns of Active Exploit, Urges Immediate Security Update",
       "url": "coinedition.com/btcpay-server-warns-of-active-exploit-urges-immediate",
@@ -4367,6 +4360,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-09-06T18:01:23.107453+00:00"
+    },
+    "5e31da321c484798": {
+      "title": "이더리움 8141, 거래 기능 프레임 확장 논의",
+      "url": "www.tokenpost.kr/news/blockchain/403504",
+      "signature": "action_develop | action_expand | action_propose | asset_eth | geo_korea | object_wallet | reference_eip_8141",
+      "canonical_key": "action_develop | action_expand | action_propose | asset_eth | geo_korea | object_wallet | reference_eip_8141",
+      "ts": "2026-09-06T22:01:49.308419+00:00"
     }
   }
 }
