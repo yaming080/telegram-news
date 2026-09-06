@@ -1,33 +1,5 @@
 {
   "posted": {
-    "82f06b6232569887": {
-      "title": "XRP, 미국 상원 암호화폐 규제 법안 표결 연기로 급락",
-      "url": "www.tokenpost.kr/news/cryptocurrency/386679",
-      "signature": "action_invest | amount_pct_1.45 | amount_pct_3.93 | amount_usd_1 | asset_xrp | geo_us | object_bill",
-      "canonical_key": "action_invest | amount_pct_1.45 | amount_pct_3.93 | amount_usd_1 | asset_xrp | geo_us | object_bill",
-      "ts": "2026-08-07T10:00:58.877246+00:00"
-    },
-    "86ab9cfdb4f0ecf6": {
-      "title": "Bitcoin’s $60k-$67k Dead Zone: Why Overtrading Is Your Biggest Risk",
-      "url": "coinedition.com/bitcoins-60k-67k-dead-zone-why-overtrading-is-your-biggest-risk",
-      "signature": "action_support | amount_usd_60000 | amount_usd_66000 | amount_usd_67000 | asset_btc | object_etf",
-      "canonical_key": "action_support | amount_usd_60000 | amount_usd_66000 | amount_usd_67000 | asset_btc | object_etf",
-      "ts": "2026-08-07T10:01:03.742066+00:00"
-    },
-    "f36c0174b8a2e6f9": {
-      "title": "‘Bitcoin Doesn’t Need CLARITY:’ Michael Saylor Responds to Bill’s Delay",
-      "url": "cryptopotato.com/bitcoin-doesnt-need-clarity-michael-saylor-responds-to-bills-delay",
-      "signature": "action_support | asset_btc | entity_마이클세일러 | entity_스트래티지",
-      "canonical_key": "action_support | asset_btc | entity_마이클세일러 | entity_스트래티지",
-      "ts": "2026-08-07T10:01:06.606772+00:00"
-    },
-    "8da56b92ef700026": {
-      "title": "XRP Ledger 3.3.0 brings privacy and batch upgrades",
-      "url": "crypto.news/xrp-ledger-3-3-0-brings-privacy-and-batch-upgrades",
-      "signature": "action_approve | asset_xrp | asset_xrpl | entity_xrpledger",
-      "canonical_key": "action_approve | asset_xrp | asset_xrpl | entity_xrpledger",
-      "ts": "2026-08-07T10:01:12.453396+00:00"
-    },
     "923c7458d50ef121": {
       "title": "베이스서 50만달러 빼돌린 공격자, MEV 봇에 74% 뺏겼다",
       "url": "www.tokenpost.kr/news/blockchain/386714",
@@ -4374,6 +4346,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-09-06T07:01:13.980690+00:00"
+    },
+    "e1aace9927ba956f": {
+      "title": "Bitcoin investor recovers $4.5m after 12-year wait",
+      "url": "crypto.news/bitcoin-investor-recovers-4-5m-after-12-year-wait",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-09-06T11:01:47.643860+00:00"
     }
   }
 }
