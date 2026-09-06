@@ -4374,6 +4374,13 @@
       "signature": "",
       "canonical_key": "",
       "ts": "2026-09-05T23:01:40.934093+00:00"
+    },
+    "eee77945dc8ca3d3": {
+      "title": "39개 다오, 상위 10개 지갑에 투표권 과반",
+      "url": "www.tokenpost.kr/news/blockchain/403200",
+      "signature": "action_disclose | action_expand | action_launch | amount_pct_21 | asset_eth | object_disclosure | object_wallet",
+      "canonical_key": "action_disclose | action_expand | action_launch | amount_pct_21 | asset_eth | object_disclosure | object_wallet",
+      "ts": "2026-09-06T02:01:45.985000+00:00"
     }
   }
 }
