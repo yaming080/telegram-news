@@ -1,12 +1,5 @@
 {
   "posted": {
-    "2c2d2d462ca88388": {
-      "title": "Microsoft Flags BNB Chain Malware Campaign Targeting Windows Users",
-      "url": "coinedition.com/crypto-live-news/microsoft-flags-bnb-chain-malware-campaign-targeting-windows-users",
-      "signature": "action_hack | entity_마이크로소프트 | object_infrastructure",
-      "canonical_key": "action_hack | entity_마이크로소프트 | object_infrastructure",
-      "ts": "2026-08-07T02:01:03.375133+00:00"
-    },
     "1894fe40916858ff": {
       "title": "AI 감사에 비트코인 생태계 비상…치명적 버그 85건 쏟아졌다",
       "url": "www.tokenpost.kr/news/cryptocurrency/386646",
@@ -4381,6 +4374,13 @@
       "signature": "action_disclose | action_expand | action_launch | amount_pct_21 | asset_eth | object_disclosure | object_wallet",
       "canonical_key": "action_disclose | action_expand | action_launch | amount_pct_21 | asset_eth | object_disclosure | object_wallet",
       "ts": "2026-09-06T02:01:45.985000+00:00"
+    },
+    "f9112860f26df308": {
+      "title": "비트코인·금 상관 50% 넘어 6년 고점 근접",
+      "url": "www.tokenpost.kr/news/cryptocurrency/403219",
+      "signature": "action_disclose | action_invest | action_launch | amount_pct_33 | amount_pct_50 | asset_btc | object_disclosure",
+      "canonical_key": "action_disclose | action_invest | action_launch | amount_pct_33 | amount_pct_50 | asset_btc | object_disclosure",
+      "ts": "2026-09-06T03:01:38.352018+00:00"
     }
   }
 }
