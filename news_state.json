@@ -1,19 +1,5 @@
 {
   "posted": {
-    "94d3453728987f7c": {
-      "title": "HTX, 제재 뒤 자산 이동 정황…폴로닉스와 얽힌 준비금 논란",
-      "url": "www.tokenpost.kr/news/cryptocurrency/386867",
-      "signature": "action_build | action_develop | action_disclose | action_enforce | action_launch | action_sanction | action_transfer | asset_eth | entity_htx | geo_eu | geo_uk | object_disclosure | object_sanctions",
-      "canonical_key": "action_build | action_develop | action_disclose | action_enforce | action_launch | action_sanction | action_transfer | asset_eth | entity_htx | geo_eu | geo_uk | object_disclosure | object_sanctions",
-      "ts": "2026-08-07T20:02:06.282803+00:00"
-    },
-    "8639891c984dc5ec": {
-      "title": "Buterin Backs Signal No-Phone Number Feature, Warns on Privacy",
-      "url": "coinedition.com/buterin-backs-signal-no-phone-number-feature-warns-on-privacy",
-      "signature": "action_support | asset_eth | object_network",
-      "canonical_key": "action_support | asset_eth | object_network",
-      "ts": "2026-08-07T20:02:11.488154+00:00"
-    },
     "67a80be2c7d6f959": {
       "title": "Very welcome: Vitalik Buterin responds to Signal's no phone number registration",
       "url": "www.cryptopolitan.com/?p=301165",
