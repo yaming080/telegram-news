@@ -1,12 +1,5 @@
 {
   "posted": {
-    "7963d430cd9b2631": {
-      "title": "서클, OKX X Layer에 USDC 상장…결제·디파이 확장 주목",
-      "url": "www.tokenpost.kr/news/cryptocurrency/386850",
-      "signature": "action_expand | action_integrate | action_issue | action_launch | action_mint | action_transfer | asset_eth | asset_stablecoin | asset_usdc | entity_okx | object_lending | object_network | object_payment",
-      "canonical_key": "action_expand | action_integrate | action_issue | action_launch | action_mint | action_transfer | asset_eth | asset_stablecoin | asset_usdc | entity_okx | object_lending | object_network | object_payment",
-      "ts": "2026-08-07T18:01:40.853658+00:00"
-    },
     "94d3453728987f7c": {
       "title": "HTX, 제재 뒤 자산 이동 정황…폴로닉스와 얽힌 준비금 논란",
       "url": "www.tokenpost.kr/news/cryptocurrency/386867",
