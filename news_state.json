@@ -4381,6 +4381,13 @@
       "signature": "action_disclose | action_invest | action_launch | amount_pct_33 | amount_pct_50 | asset_btc | object_disclosure",
       "canonical_key": "action_disclose | action_invest | action_launch | amount_pct_33 | amount_pct_50 | asset_btc | object_disclosure",
       "ts": "2026-09-06T03:01:38.352018+00:00"
+    },
+    "0d7daffddaab7f4b": {
+      "title": "XRP 압류 경고 확산, FDIC 문서는 예금보험만 다뤘다",
+      "url": "www.tokenpost.kr/news/cryptocurrency/403278",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-09-06T07:01:13.980690+00:00"
     }
   }
 }
