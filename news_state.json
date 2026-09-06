@@ -1,12 +1,5 @@
 {
   "posted": {
-    "42ec34d72244e2de": {
-      "title": "The $3K Target Is Set for Ethereum (ETH): Can It Get There Before Month Close?",
-      "url": "thenewscrypto.com/the-3k-target-is-set-for-ethereum-eth-can-it-get-there-before-month-close",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-07T12:01:47.696062+00:00"
-    },
     "dea5fd3449d193a5": {
       "title": "XRP Ledger Rolls Out Major 3.3.0 Upgrade: Details",
       "url": "thecryptobasic.com/2026/08/07/xrp-ledger-rolls-out-major-3-3-0-upgrade-with-privacy-batch-transactions-more",
@@ -4339,6 +4332,13 @@
       "signature": "action_convert | action_disclose | action_transfer | amount_pct_10 | amount_pct_15 | amount_pct_52 | asset_btc | object_disclosure | object_network | period_2026_h1 | period_2026_q1",
       "canonical_key": "action_convert | action_disclose | action_transfer | amount_pct_10 | amount_pct_15 | amount_pct_52 | asset_btc | object_disclosure | object_network | period_2026_h1 | period_2026_q1",
       "ts": "2026-09-06T12:02:04.812075+00:00"
+    },
+    "01aca9851ccac1b7": {
+      "title": "XRP 레저 정리 패치, 11일 활성화 대기",
+      "url": "www.tokenpost.kr/news/blockchain/403379",
+      "signature": "action_disclose | action_launch | action_support | action_upgrade | amount_pct_80 | amount_pct_82.86 | asset_xrp | asset_xrpl | object_disclosure",
+      "canonical_key": "action_disclose | action_launch | action_support | action_upgrade | amount_pct_80 | amount_pct_82.86 | asset_xrp | asset_xrpl | object_disclosure",
+      "ts": "2026-09-06T13:02:51.015931+00:00"
     }
   }
 }
