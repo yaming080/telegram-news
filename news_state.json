@@ -4381,6 +4381,13 @@
       "signature": "action_invest | action_propose | action_sell | amount_usd_76000 | asset_btc | object_sale",
       "canonical_key": "action_invest | action_propose | action_sell | amount_usd_76000 | asset_btc | object_sale",
       "ts": "2026-09-06T17:02:56.549937+00:00"
+    },
+    "f90104b547d6151b": {
+      "title": "Bitcoin OG Says He Is Watching for Next Major Exploit as AI Models Get Stronger",
+      "url": "u.today/bitcoin-og-says-he-is-watching-for-next-major-exploit-as-ai-models-get-stronger",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-09-06T18:01:23.107453+00:00"
     }
   }
 }
