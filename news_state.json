@@ -1,12 +1,5 @@
 {
   "posted": {
-    "dea5fd3449d193a5": {
-      "title": "XRP Ledger Rolls Out Major 3.3.0 Upgrade: Details",
-      "url": "thecryptobasic.com/2026/08/07/xrp-ledger-rolls-out-major-3-3-0-upgrade-with-privacy-batch-transactions-more",
-      "signature": "action_expand | action_launch | action_support | asset_xrp | asset_xrpl | object_network",
-      "canonical_key": "action_expand | action_launch | action_support | asset_xrp | asset_xrpl | object_network",
-      "ts": "2026-08-07T13:01:42.214134+00:00"
-    },
     "851c9c7173ab2abf": {
       "title": "Fierce backlash to Ethereum’s EIP-8363 staking proposal",
       "url": "cointelegraph.com/magazine/fierce-backlash-to-ethereums-latest-staking-proposal-eip-8363?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -4339,6 +4332,27 @@
       "signature": "action_disclose | action_launch | action_support | action_upgrade | amount_pct_80 | amount_pct_82.86 | asset_xrp | asset_xrpl | object_disclosure",
       "canonical_key": "action_disclose | action_launch | action_support | action_upgrade | amount_pct_80 | amount_pct_82.86 | asset_xrp | asset_xrpl | object_disclosure",
       "ts": "2026-09-06T13:02:51.015931+00:00"
+    },
+    "a577bc09608a21cd": {
+      "title": "450만달러 유치한 리얼 베드퍼드, BTC 운영 실험",
+      "url": "www.tokenpost.kr/news/cryptocurrency/403398",
+      "signature": "",
+      "canonical_key": "",
+      "ts": "2026-09-06T14:02:30.719539+00:00"
+    },
+    "c2fd5e076e290119": {
+      "title": "145억달러 국채 바이백, BTC·XRP 반응 갈렸다",
+      "url": "www.tokenpost.kr/news/economy/403396",
+      "signature": "action_expand | action_issue | action_mint | action_purchase | action_redeem | amount_krw_400000000000 | amount_krw_600000000000 | amount_krw_700000000000 | amount_krw_900000000000 | amount_usd_12500000000 | amount_usd_14500000000 | amount_usd_2000000000 | amount_usd_4000000000 | asset_btc | asset_xrp | entity_리플 | geo_us",
+      "canonical_key": "action_expand | action_issue | action_mint | action_purchase | action_redeem | amount_krw_400000000000 | amount_krw_600000000000 | amount_krw_700000000000 | amount_krw_900000000000 | amount_usd_12500000000 | amount_usd_14500000000 | amount_usd_2000000000 | amount_usd_4000000000 | asset_btc | asset_xrp | entity_리플 | geo_us",
+      "ts": "2026-09-06T14:02:34.037890+00:00"
+    },
+    "6f85dc429d46a8ee": {
+      "title": "Shiba Inu (SHIB) Adds Exceptional 75 Billion to Exchanges in 24 Hours",
+      "url": "u.today/shiba-inu-shib-adds-exceptional-75-billion-to-exchanges-in-24-hours",
+      "signature": "action_sell | action_transfer | entity_시바이누 | object_recovery",
+      "canonical_key": "action_sell | action_transfer | entity_시바이누 | object_recovery",
+      "ts": "2026-09-06T14:02:39.279947+00:00"
     }
   }
 }
