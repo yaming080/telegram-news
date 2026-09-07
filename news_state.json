@@ -1,12 +1,5 @@
 {
   "posted": {
-    "9762f2608b3cc599": {
-      "title": "Good at Hacking, Bad at Trading: MEV Bot Exploiter Makes Costly ETH Bet",
-      "url": "cryptopotato.com/good-at-hacking-bad-at-trading-mev-bot-exploiter-makes-costly-eth-bet",
-      "signature": "",
-      "canonical_key": "",
-      "ts": "2026-08-08T01:01:45.182036+00:00"
-    },
     "cd097a34d34cf1d7": {
       "title": "BTCPay emergency patch exposes merchant-side Bitcoin security risk",
       "url": "www.cryptopolitan.com/btcpay-emergency-patch-exposes-merchant-side-bitcoin-security-risk",
@@ -4360,6 +4353,13 @@
       "signature": "action_develop | action_expand | action_propose | asset_eth | geo_korea | object_wallet | reference_eip_8141",
       "canonical_key": "action_develop | action_expand | action_propose | asset_eth | geo_korea | object_wallet | reference_eip_8141",
       "ts": "2026-09-06T22:01:49.308419+00:00"
+    },
+    "07be85d74c2df5c9": {
+      "title": "BTC 주담대 3억6000만달러 신청, 재담보 조건 쟁점",
+      "url": "www.tokenpost.kr/news/cryptocurrency/403677",
+      "signature": "action_file | action_propose | amount_krw_350200000000 | amount_krw_485000000000 | amount_usd_260000000 | amount_usd_360000000 | amount_usd_60000000 | asset_btc | entity_코인베이스 | geo_us | object_lending",
+      "canonical_key": "action_file | action_propose | amount_krw_350200000000 | amount_krw_485000000000 | amount_usd_260000000 | amount_usd_360000000 | amount_usd_60000000 | asset_btc | entity_코인베이스 | geo_us | object_lending",
+      "ts": "2026-09-07T02:01:35.787020+00:00"
     }
   }
 }
